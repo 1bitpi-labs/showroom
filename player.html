@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>1Bitpi Labs · Showroom Cinema Player (MP4 HD)</title>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #040d12;
+    --panel: rgba(8, 25, 34, 0.88);
+    --border: rgba(46, 196, 182, 0.28);
+    --accent: #2ec4b6;
+    --coral: #f26a4b;
+    --text: #fbf6ec;
+    --muted: #94a3b8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: radial-gradient(circle at 20% 10%, rgba(8,145,166,0.22), transparent 45%),
+                radial-gradient(circle at 80% 90%, rgba(242,106,75,0.16), transparent 45%),
+                var(--bg);
+    color: var(--text);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px 20px 60px;
+  }
+  .top-bar {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-bottom: 22px;
+    padding: 14px 20px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .brand-badge {
+    background: linear-gradient(135deg, #0891a6, #2ec4b6);
+    color: #021014;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 6px;
+  }
+  .brand h1 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .btn-row {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .btn {
+    text-decoration: none;
+    padding: 9px 16px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .btn-primary {
+    background: linear-gradient(135deg, #0891a6, #2ec4b6);
+    color: #021014;
+  }
+  .btn-secondary {
+    background: rgba(255,255,255,0.07);
+    color: var(--text);
+    border: 1px solid var(--border);
+  }
+  .btn:hover { transform: translateY(-1px); filter: brightness(1.1); }
+  .stage {
+    width: 100%;
+    max-width: 1200px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 20px;
+    box-shadow: 0 24px 60px rgba(0,0,0,0.6);
+  }
+  .video-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .video-title {
+    font-family: 'Instrument Serif', serif;
+    font-size: 28px;
+    font-weight: 400;
+  }
+  video {
+    width: 100%;
+    max-height: 72vh;
+    border-radius: 12px;
+    background: #000;
+    border: 1px solid rgba(255,255,255,0.12);
+  }
+  .playlist {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 22px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 12px;
+  }
+  .play-card {
+    background: var(--panel);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+    padding: 12px 14px;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-align: left;
+    color: var(--text);
+  }
+  .play-card:hover, .play-card.active {
+    border-color: var(--accent);
+    background: rgba(46, 196, 182, 0.12);
+  }
+  .play-card .code {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--accent);
+    margin-bottom: 4px;
+  }
+  .play-card .name {
+    font-size: 14px;
+    font-weight: 600;
+  }
+</style>
+</head>
+<body>
+  <div class="top-bar">
+    <div class="brand">
+      <span class="brand-badge">π SHOWROOM PLAYER</span>
+      <h1>1Bitpi Labs · Demonstração em Vídeo HD (MP4)</h1>
+    </div>
+    <div class="btn-row">
+      <a id="openLiveBtn" class="btn btn-primary" href="index.html">🚀 Abrir Site Interativo Ao Vivo</a>
+      <a id="downloadMp4Btn" class="btn btn-secondary" href="media-vitrine/vitrine-executiva.mp4" download>⬇ Baixar MP4</a>
+      <a class="btn btn-secondary" href="index.html">🏆 Vitrine Geral</a>
+    </div>
+  </div>
+
+  <div class="stage">
+    <div class="video-header">
+      <h2 class="video-title" id="videoTitle">Vitrine Executiva Multi-Empresas (Showroom Completo)</h2>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--muted);">1440×900 · H.264 MP4</span>
+    </div>
+    <video id="mainVideo" controls autoplay loop muted playsinline>
+      <source id="videoSource" src="media-vitrine/vitrine-executiva.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div class="playlist" id="playlist"></div>
+
+<script>
+const ITEMS = [
+  { id: "vitrine", code: "★ VITRINE GERAL", title: "Vitrine Executiva Multi-Empresas", video: "media-vitrine/vitrine-executiva.mp4", live: "index.html" },
+  { id: "00", code: "00 · CORE OS", title: "1BitpiOS & PIAOS — Coastal Tech Edition", video: "00-core-enterprise-os/media/demo.mp4", live: "00-core-enterprise-os/00-1bitpios-piaos.html" },
+  { id: "01", code: "01 · HOSPITALIDADE", title: "Maré Alta Resort & Pousada Boutique", video: "01-hospitalidade-e-turismo/media/demo.mp4", live: "01-hospitalidade-e-turismo/01-pousada-boutique-litoral.html" },
+  { id: "02", code: "02 · GASTRONOMIA", title: "Brasa & Maré Gastrobar & Beach Club", video: "02-gastronomia-e-beach-clubs/media/demo.mp4", live: "02-gastronomia-e-beach-clubs/02-gastronomia-beach-club.html" },
+  { id: "03", code: "03 · SAÚDE & CLÍNICAS", title: "AuraMed Clínica & Longevidade", video: "03-saude-clinicas-e-wellness/media/demo.mp4", live: "03-saude-clinicas-e-wellness/03-clinica-saude-wellness.html" },
+  { id: "04", code: "04 · JURÍDICO & B2B", title: "Vértice Advisory (Advocacia & Contábil)", video: "04-juridico-contabil-e-b2b/media/demo.mp4", live: "04-juridico-contabil-e-b2b/04-escritorio-servicos-b2b.html" },
+  { id: "05", code: "05 · IMOBILIÁRIO & ARQ", title: "Horizonte Design (Imóveis & Arquitetura)", video: "05-imobiliario-e-arquitetura/media/demo.mp4", live: "05-imobiliario-e-arquitetura/05-imobiliaria-arquitetura.html" },
+  { id: "06", code: "06 · OFICINA & TÉCNICO", title: "TorqueLab Service (Centro Técnico & Boxes)", video: "06-oficinas-e-servicos-tecnicos/media/demo.mp4", live: "06-oficinas-e-servicos-tecnicos/06-oficina-servicos-tecnicos.html" }
+];
+
+const params = new URLSearchParams(window.location.search);
+let currentId = params.get("id") || "vitrine";
+
+function selectVideo(id) {
+  const item = ITEMS.find(x => x.id === id) || ITEMS[0];
+  currentId = item.id;
+  document.getElementById("videoTitle").textContent = item.title;
+  const videoEl = document.getElementById("mainVideo");
+  videoEl.src = item.video;
+  videoEl.play().catch(() => {});
+  document.getElementById("openLiveBtn").href = item.live;
+  document.getElementById("downloadMp4Btn").href = item.video;
+  renderPlaylist();
+}
+
+function renderPlaylist() {
+  const container = document.getElementById("playlist");
+  container.innerHTML = ITEMS.map(item => `
+    <button class="play-card ${item.id === currentId ? 'active' : ''}" onclick="selectVideo('${item.id}')">
+      <div class="code">${item.code}</div>
+      <div class="name">🎬 ${item.title}</div>
+    </button>
+  `).join("");
+}
+
+selectVideo(currentId);
+</script>
+</body>
+</html>

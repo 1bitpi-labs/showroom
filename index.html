@@ -1,0 +1,1386 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="coastal-night">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>1Bitpi Agent OS · Vitrine Multi-Empresas (Modelos de Negócio & Verticais)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --font-display: 'Syne', sans-serif;
+      --font-serif: 'Instrument Serif', Georgia, serif;
+      --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+      --radius-sm: 6px;
+      --radius-md: 10px;
+      --radius-lg: 16px;
+      --radius-xl: 24px;
+      --radius-pill: 9999px;
+      --transition-fast: 180ms cubic-bezier(0.22, 1, 0.36, 1);
+      --transition-smooth: 320ms cubic-bezier(0.22, 1, 0.36, 1);
+
+      /* Tema Coastal Night (Padrão 1Bitpi) */
+      --ink: #030c14;
+      --ink-abyss: #01070c;
+      --ink-elevated: #071926;
+      --panel: rgba(5, 18, 30, 0.72);
+      --panel-raised: rgba(9, 28, 46, 0.85);
+      --panel-border: rgba(0, 240, 255, 0.15);
+      --line: rgba(255, 255, 255, 0.08);
+      --line-soft: rgba(255, 255, 255, 0.04);
+      --paper: #e6f1f5;
+      --paper-dim: rgba(230, 241, 245, 0.7);
+      --paper-muted: rgba(230, 241, 245, 0.45);
+      --accent: #00f0ff;
+      --accent-gradient: linear-gradient(135deg, #00f0ff 0%, #00b4d8 100%);
+      --sand: #e5c07b;
+      --coral: #ff5722;
+      --shadow-card: 0 16px 36px -8px rgba(0, 0, 0, 0.65), 0 0 0 1px var(--panel-border);
+    }
+
+    [data-theme="sand-amber"] {
+      --ink: #140d04;
+      --ink-abyss: #0a0601;
+      --ink-elevated: #211607;
+      --panel: rgba(26, 17, 7, 0.75);
+      --panel-raised: rgba(38, 25, 11, 0.88);
+      --panel-border: rgba(245, 158, 11, 0.2);
+      --paper: #fef3c7;
+      --paper-dim: rgba(254, 243, 199, 0.7);
+      --paper-muted: rgba(254, 243, 199, 0.45);
+      --accent: #f59e0b;
+      --accent-gradient: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    }
+
+    [data-theme="deep-abyss"] {
+      --ink: #010408;
+      --ink-abyss: #000204;
+      --ink-elevated: #030a12;
+      --panel: rgba(3, 10, 18, 0.8);
+      --panel-raised: rgba(5, 16, 28, 0.9);
+      --panel-border: rgba(94, 234, 212, 0.15);
+      --paper: #f0fdfa;
+      --accent: #5eead4;
+      --accent-gradient: linear-gradient(135deg, #5eead4 0%, #0d9488 100%);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body {
+      width: 100%; min-height: 100%;
+      font-family: var(--font-sans);
+      background: var(--ink);
+      color: var(--paper);
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    #bg-constellation {
+      position: fixed; inset: 0; width: 100vw; height: 100vh;
+      pointer-events: none; z-index: 0;
+    }
+    .ambient-orb {
+      position: fixed; border-radius: 50%; pointer-events: none;
+      filter: blur(120px); opacity: 0.18; z-index: 0;
+      animation: orb-drift 22s ease-in-out infinite alternate;
+    }
+    .orb-1 { width: 480px; height: 480px; background: var(--accent); top: -80px; left: -100px; }
+    .orb-2 { width: 520px; height: 520px; background: var(--sand); bottom: 10%; right: -120px; animation-duration: 28s; }
+    .orb-3 { width: 380px; height: 380px; background: var(--coral); top: 50%; left: 35%; animation-duration: 20s; }
+    @keyframes orb-drift {
+      0% { transform: translate(0, 0) scale(1); }
+      100% { transform: translate(60px, 40px) scale(1.1); }
+    }
+
+    .sticky-header-container {
+      position: sticky; top: 0; z-index: 100; width: 100%;
+    }
+
+    /* Top Bar: Vitrine Multi-Empresas 1Bitpi */
+    .editions-top-bar {
+      background: var(--ink-abyss);
+      border-bottom: 1px solid var(--line);
+      padding: 6px 24px;
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+    }
+    .editions-bar-inner {
+      max-width: 1440px; margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 12px; overflow-x: auto; scrollbar-width: none;
+    }
+    .editions-bar-inner::-webkit-scrollbar { display: none; }
+    .editions-label {
+      display: flex; align-items: center; gap: 8px; white-space: nowrap; flex-shrink: 0;
+    }
+    .editions-badge {
+      background: var(--accent-gradient); color: #020b17;
+      font-family: var(--font-mono); font-size: 10px; font-weight: 800;
+      letter-spacing: 0.08em; padding: 2px 7px; border-radius: 4px;
+    }
+    .editions-sub {
+      font-family: var(--font-mono); font-size: 11px; color: var(--paper-dim);
+    }
+    .editions-nav-links {
+      display: flex; align-items: center; gap: 6px; white-space: nowrap; flex-shrink: 0;
+    }
+    .edition-link {
+      display: inline-flex; align-items: center; gap: 5px; padding: 3px 9px;
+      border-radius: var(--radius-pill); background: var(--ink-abyss);
+      border: 1px solid var(--line-soft); color: var(--paper-dim);
+      font-family: var(--font-sans); font-size: 11px; font-weight: 500;
+      text-decoration: none; transition: all var(--transition-fast);
+    }
+    .edition-link:hover { border-color: var(--accent); color: var(--paper); }
+    .edition-link.is-active {
+      background: var(--panel-raised); border-color: var(--accent);
+      color: var(--accent); font-weight: 700;
+      box-shadow: 0 0 10px rgba(0, 240, 255, 0.25);
+    }
+    .edition-link .ed-num {
+      font-family: var(--font-mono); font-size: 10px; font-weight: 700; opacity: 0.75;
+    }
+    .edition-link-showcase {
+      display: inline-flex; align-items: center; gap: 5px; padding: 3px 10px;
+      border-radius: var(--radius-pill); background: var(--accent-gradient);
+      color: #020b17; font-family: var(--font-mono); font-size: 11px; font-weight: 800;
+      text-decoration: none; margin-left: 6px; box-shadow: 0 0 12px rgba(0, 240, 255, 0.35);
+    }
+    .edition-link-showcase.is-active {
+      box-shadow: 0 0 16px rgba(0, 240, 255, 0.6);
+      outline: 2px solid var(--sand);
+    }
+
+    /* OS HUD Header */
+    .os-header {
+      background: rgba(3, 12, 20, 0.85);
+      border-bottom: 1px solid var(--panel-border);
+      padding: 12px 28px; backdrop-filter: blur(20px);
+      display: flex; align-items: center; justify-content: space-between; gap: 20px;
+    }
+    .brand-group {
+      display: flex; align-items: center; gap: 12px; text-decoration: none; color: inherit;
+    }
+    .brand-tile {
+      width: 40px; height: 40px; border-radius: var(--radius-md);
+      background: var(--accent-gradient); color: #020b17;
+      display: grid; place-items: center; font-family: var(--font-display);
+      font-weight: 800; font-size: 18px; box-shadow: 0 0 16px rgba(0, 240, 255, 0.4);
+    }
+    .brand-text { display: flex; flex-direction: column; }
+    .brand-title {
+      font-family: var(--font-display); font-weight: 800; font-size: 17px;
+      letter-spacing: -0.02em; display: flex; align-items: center; gap: 6px;
+    }
+    .brand-title i { font-family: var(--font-serif); font-style: italic; font-weight: 400; color: var(--sand); }
+    .brand-subtitle {
+      font-family: var(--font-mono); font-size: 10px; color: var(--paper-dim);
+      letter-spacing: 0.08em; text-transform: uppercase;
+    }
+    .telemetry-pill {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(0, 0, 0, 0.35); border: 1px solid var(--line);
+      padding: 5px 12px; border-radius: var(--radius-pill);
+      font-family: var(--font-mono); font-size: 11px; color: var(--paper-dim);
+    }
+    .pulse-dot {
+      width: 8px; height: 8px; border-radius: 50%;
+      background: #10b981; box-shadow: 0 0 8px #10b981;
+      animation: pulse-glow 2s infinite ease-in-out;
+    }
+    @keyframes pulse-glow {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(0.85); }
+    }
+
+    .header-actions { display: flex; align-items: center; gap: 10px; }
+    .btn-header {
+      padding: 7px 14px; border-radius: var(--radius-md);
+      background: var(--panel); border: 1px solid var(--line);
+      color: var(--paper); font-family: var(--font-mono); font-size: 11px;
+      font-weight: 600; text-decoration: none; cursor: pointer;
+      display: inline-flex; align-items: center; gap: 6px;
+      transition: all var(--transition-fast);
+    }
+    .btn-header:hover {
+      border-color: var(--accent); color: var(--accent); background: var(--panel-raised);
+    }
+    .btn-header.primary {
+      background: var(--accent-gradient); color: #020b17; border-color: transparent;
+      box-shadow: 0 0 14px rgba(0, 240, 255, 0.3); font-weight: 700;
+    }
+    .btn-header.primary:hover {
+      box-shadow: 0 0 20px rgba(0, 240, 255, 0.5); transform: translateY(-1px);
+    }
+
+    /* Main Container */
+    main {
+      position: relative; z-index: 1; max-width: 1440px;
+      margin: 0 auto; padding: 36px 28px 80px;
+    }
+
+    /* Hero Section */
+    .showcase-hero {
+      background: var(--panel); backdrop-filter: blur(20px);
+      border: 1px solid var(--panel-border); border-radius: var(--radius-xl);
+      padding: 44px 40px; margin-bottom: 36px; box-shadow: var(--shadow-card);
+      position: relative; overflow: hidden;
+    }
+    .showcase-hero::before {
+      content: ''; position: absolute; top: -120px; right: -120px;
+      width: 360px; height: 360px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(0, 240, 255, 0.15) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .hero-eyebrow {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-family: var(--font-mono); font-size: 11px; font-weight: 700;
+      letter-spacing: 0.1em; color: var(--accent); text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+    .hero-headline {
+      font-family: var(--font-display); font-size: 46px; font-weight: 800;
+      line-height: 1.08; letter-spacing: -0.03em; margin-bottom: 16px;
+    }
+    .hero-headline span.bp-shimmer {
+      background: linear-gradient(135deg, #e6f1f5 20%, #00f0ff 60%, #e5c07b 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .hero-subtitle {
+      font-size: 16.5px; line-height: 1.65; color: var(--paper-dim);
+      max-width: 860px; margin-bottom: 28px;
+    }
+
+    /* Hero Stats Strip */
+    .hero-stats-strip {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px; padding-top: 24px; border-top: 1px solid var(--line);
+    }
+    .hero-stat-card {
+      background: rgba(0, 0, 0, 0.3); border: 1px solid var(--line);
+      border-radius: var(--radius-lg); padding: 14px 18px;
+      display: flex; flex-direction: column; gap: 4px;
+    }
+    .hero-stat-val {
+      font-family: var(--font-mono); font-size: 24px; font-weight: 800;
+      color: var(--sand);
+    }
+    .hero-stat-desc {
+      font-size: 11.5px; color: var(--paper-dim); line-height: 1.35;
+    }
+
+    /* Filter Bar */
+    .filter-section {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 16px; margin-bottom: 28px; flex-wrap: wrap;
+    }
+    .filter-tabs {
+      display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+    }
+    .filter-tab {
+      padding: 7px 14px; border-radius: var(--radius-pill);
+      background: var(--panel); border: 1px solid var(--line);
+      color: var(--paper-dim); font-family: var(--font-sans); font-size: 12px;
+      font-weight: 600; cursor: pointer; transition: all var(--transition-fast);
+    }
+    .filter-tab:hover {
+      border-color: var(--accent); color: var(--paper); background: var(--panel-raised);
+    }
+    .filter-tab.is-active {
+      background: var(--accent-gradient); color: #020b17; border-color: transparent;
+      font-weight: 700; box-shadow: 0 0 12px rgba(0, 240, 255, 0.35);
+    }
+    .filter-count-badge {
+      font-family: var(--font-mono); font-size: 11px; color: var(--paper-muted);
+    }
+
+    /* Grand Bento Cards Grid */
+    .cards-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(430px, 1fr));
+      gap: 24px; margin-bottom: 56px;
+    }
+    @media (max-width: 960px) {
+      .cards-grid { grid-template-columns: 1fr; }
+      .hero-headline { font-size: 34px; }
+    }
+
+    .showcase-card {
+      background: var(--panel); backdrop-filter: blur(16px);
+      border: 1px solid var(--panel-border); border-radius: var(--radius-xl);
+      padding: 28px; display: flex; flex-direction: column;
+      justify-content: space-between; position: relative; overflow: hidden;
+      box-shadow: var(--shadow-card); transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+      transform-style: preserve-3d;
+    }
+    .showcase-card:hover {
+      border-color: var(--card-accent, var(--accent));
+      box-shadow: 0 20px 48px -12px rgba(0, 0, 0, 0.8), 0 0 24px var(--card-glow, rgba(0, 240, 255, 0.2));
+    }
+    .showcase-card::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+      background: var(--card-gradient, var(--accent-gradient));
+    }
+
+    .card-top { margin-bottom: 18px; }
+    .card-meta-row {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 12px; margin-bottom: 12px;
+    }
+    .card-edition-badge {
+      font-family: var(--font-mono); font-size: 10.5px; font-weight: 700;
+      padding: 3px 8px; border-radius: 4px;
+      background: rgba(255, 255, 255, 0.08); border: 1px solid var(--line);
+      color: var(--card-accent, var(--accent)); text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .card-status-pill {
+      display: inline-flex; align-items: center; gap: 6px;
+      font-family: var(--font-mono); font-size: 10px; color: #10b981;
+      background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.25);
+      padding: 2px 8px; border-radius: var(--radius-pill); font-weight: 600;
+    }
+    .card-title {
+      font-family: var(--font-display); font-size: 26px; font-weight: 800;
+      line-height: 1.15; margin-bottom: 4px; color: var(--paper);
+    }
+    .card-title i {
+      font-family: var(--font-serif); font-style: italic; font-weight: 400;
+      color: var(--sand);
+    }
+    .card-subtitle {
+      font-family: var(--font-mono); font-size: 11px; color: var(--paper-dim);
+      margin-bottom: 16px; letter-spacing: 0.03em;
+    }
+    .card-tagline {
+      font-size: 14px; font-weight: 600; color: var(--card-accent, var(--accent));
+      margin-bottom: 16px; line-height: 1.4;
+    }
+
+    /* Pain & Solution Boxes */
+    .card-blocks-row {
+      display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px;
+    }
+    .card-block-box {
+      border-radius: var(--radius-md); padding: 12px 14px;
+      font-size: 12.5px; line-height: 1.5;
+    }
+    .card-block-box.pain {
+      background: rgba(255, 87, 34, 0.08);
+      border: 1px solid rgba(255, 87, 34, 0.2);
+      color: rgba(255, 255, 255, 0.85);
+    }
+    .card-block-box.pain strong {
+      display: block; font-family: var(--font-mono); font-size: 10px;
+      color: #ff5722; text-transform: uppercase; margin-bottom: 3px; letter-spacing: 0.05em;
+    }
+    .card-block-box.solution {
+      background: rgba(0, 240, 255, 0.06);
+      border: 1px solid rgba(0, 240, 255, 0.2);
+      color: rgba(255, 255, 255, 0.9);
+    }
+    .card-block-box.solution strong {
+      display: block; font-family: var(--font-mono); font-size: 10px;
+      color: var(--card-accent, var(--accent)); text-transform: uppercase;
+      margin-bottom: 3px; letter-spacing: 0.05em;
+    }
+
+    /* Chips Strip */
+    .card-chips-strip {
+      display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 20px;
+    }
+    .card-chip {
+      background: rgba(0, 0, 0, 0.35); border: 1px solid var(--line);
+      color: var(--paper-dim); font-family: var(--font-mono); font-size: 10.5px;
+      padding: 3px 8px; border-radius: var(--radius-sm);
+    }
+
+    /* CLI Mini Box */
+    .card-cli-box {
+      background: rgba(0, 0, 0, 0.55); border: 1px solid var(--line);
+      border-radius: var(--radius-md); padding: 10px 14px; margin-bottom: 20px;
+      display: flex; align-items: center; justify-content: space-between; gap: 10px;
+    }
+    .card-cli-code {
+      font-family: var(--font-mono); font-size: 10.5px; color: var(--paper-dim);
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .card-cli-tag {
+      font-family: var(--font-mono); font-size: 9.5px; color: var(--card-accent, var(--accent));
+      background: rgba(255, 255, 255, 0.05); padding: 2px 6px; border-radius: 3px;
+      flex-shrink: 0;
+    }
+
+    /* Card Action Footer */
+    .card-action-footer {
+      display: flex; align-items: center; gap: 10px; margin-top: auto;
+    }
+    .btn-card-primary {
+      flex: 1; padding: 12px 18px; border-radius: var(--radius-md);
+      background: var(--card-gradient, var(--accent-gradient)); color: #020b17;
+      font-family: var(--font-sans); font-size: 13px; font-weight: 700;
+      text-decoration: none; text-align: center;
+      transition: all var(--transition-fast); box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+    }
+    .btn-card-primary:hover {
+      box-shadow: 0 6px 20px var(--card-glow, rgba(0, 240, 255, 0.4));
+      transform: translateY(-2px);
+    }
+    .btn-card-inspect {
+      padding: 12px 14px; border-radius: var(--radius-md);
+      background: var(--panel-raised); border: 1px solid var(--line);
+      color: var(--paper-dim); font-family: var(--font-mono); font-size: 11px;
+      font-weight: 600; cursor: pointer; text-decoration: none;
+      transition: all var(--transition-fast);
+    }
+    .btn-card-inspect:hover {
+      border-color: var(--card-accent, var(--accent)); color: var(--paper);
+    }
+
+    /* Section: Comparative Matrix */
+    .matrix-section {
+      background: var(--panel); backdrop-filter: blur(20px);
+      border: 1px solid var(--panel-border); border-radius: var(--radius-xl);
+      padding: 40px; margin-bottom: 56px; box-shadow: var(--shadow-card);
+    }
+    .matrix-head {
+      margin-bottom: 28px; display: flex; flex-direction: column; gap: 6px;
+    }
+    .matrix-title {
+      font-family: var(--font-display); font-size: 30px; font-weight: 800;
+    }
+    .matrix-subtitle {
+      font-size: 14.5px; color: var(--paper-dim); max-width: 760px;
+    }
+    .matrix-table-wrap {
+      overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius-lg);
+    }
+    .matrix-table {
+      width: 100%; border-collapse: collapse; text-align: left;
+      font-size: 12.5px; line-height: 1.5; min-width: 900px;
+    }
+    .matrix-table th {
+      background: var(--ink-abyss); padding: 14px 18px;
+      font-family: var(--font-mono); font-size: 11px; font-weight: 700;
+      letter-spacing: 0.05em; color: var(--paper-dim); border-bottom: 1px solid var(--line);
+      white-space: nowrap;
+    }
+    .matrix-table th.col-pilar { width: 180px; color: var(--accent); }
+    .matrix-table td {
+      padding: 14px 18px; border-bottom: 1px solid var(--line-soft);
+      vertical-align: top;
+    }
+    .matrix-table tr:hover td {
+      background: rgba(255, 255, 255, 0.02);
+    }
+    .matrix-table td.cell-pilar {
+      font-family: var(--font-mono); font-weight: 700; color: var(--paper);
+      background: rgba(0, 0, 0, 0.2); border-right: 1px solid var(--line);
+    }
+    .matrix-tag {
+      display: inline-block; padding: 2px 6px; border-radius: 4px;
+      font-family: var(--font-mono); font-size: 10px; font-weight: 700;
+      margin-bottom: 4px;
+    }
+
+    /* Section: Interactive Deep Dive Sandbox */
+    .sandbox-section {
+      background: var(--panel); backdrop-filter: blur(20px);
+      border: 1px solid var(--panel-border); border-radius: var(--radius-xl);
+      padding: 40px; margin-bottom: 56px; box-shadow: var(--shadow-card);
+    }
+    .sandbox-selector {
+      display: flex; gap: 8px; overflow-x: auto; padding-bottom: 14px;
+      margin-bottom: 24px; scrollbar-width: none;
+    }
+    .sandbox-selector::-webkit-scrollbar { display: none; }
+    .sandbox-btn {
+      padding: 8px 16px; border-radius: var(--radius-md);
+      background: var(--panel-raised); border: 1px solid var(--line);
+      color: var(--paper-dim); font-family: var(--font-sans); font-size: 12px;
+      font-weight: 600; cursor: pointer; white-space: nowrap;
+      transition: all var(--transition-fast);
+    }
+    .sandbox-btn:hover { border-color: var(--accent); color: var(--paper); }
+    .sandbox-btn.is-active {
+      background: var(--accent-gradient); color: #020b17; font-weight: 700;
+      border-color: transparent; box-shadow: 0 0 14px rgba(0, 240, 255, 0.35);
+    }
+    .sandbox-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 24px;
+    }
+    @media (max-width: 860px) {
+      .sandbox-grid { grid-template-columns: 1fr; }
+    }
+    .sandbox-terminal {
+      background: #010408; border: 1px solid var(--line); border-radius: var(--radius-lg);
+      padding: 20px; font-family: var(--font-mono); font-size: 12px;
+    }
+    .terminal-head {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 14px; padding-bottom: 10px; border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      color: var(--paper-muted); font-size: 11px;
+    }
+    .terminal-dots { display: flex; gap: 6px; }
+    .terminal-dot { width: 10px; height: 10px; border-radius: 50%; }
+    .dot-red { background: #ef4444; }
+    .dot-yellow { background: #f59e0b; }
+    .dot-green { background: #10b981; }
+    .terminal-cmd { color: var(--accent); margin-bottom: 12px; }
+    .terminal-output { color: #a3b8b5; line-height: 1.6; word-break: break-all; }
+
+    .sandbox-gate-box {
+      background: rgba(0, 0, 0, 0.35); border: 1px solid var(--line);
+      border-radius: var(--radius-lg); padding: 24px; display: flex;
+      flex-direction: column; justify-content: space-between;
+    }
+    .gate-title {
+      font-family: var(--font-display); font-size: 18px; font-weight: 800; margin-bottom: 6px;
+    }
+    .gate-desc { font-size: 13.5px; color: var(--paper-dim); line-height: 1.55; margin-bottom: 18px; }
+    .gate-steps { display: flex; flex-direction: column; gap: 8px; margin-bottom: 20px; }
+    .gate-step {
+      display: flex; align-items: center; gap: 10px; font-family: var(--font-mono);
+      font-size: 11.5px; color: var(--paper); padding: 6px 10px;
+      background: rgba(255, 255, 255, 0.03); border-radius: var(--radius-sm);
+    }
+    .gate-step-icon { color: #10b981; font-weight: 700; }
+    .sandbox-cta-btn {
+      padding: 12px 20px; border-radius: var(--radius-md);
+      background: var(--accent-gradient); color: #020b17; font-weight: 700;
+      font-size: 13px; text-decoration: none; text-align: center;
+      transition: all var(--transition-fast);
+    }
+    .sandbox-cta-btn:hover { box-shadow: 0 0 16px rgba(0, 240, 255, 0.4); }
+
+    /* FAQ Accordion */
+    .faq-section {
+      background: var(--panel); backdrop-filter: blur(20px);
+      border: 1px solid var(--panel-border); border-radius: var(--radius-xl);
+      padding: 40px; margin-bottom: 56px; box-shadow: var(--shadow-card);
+    }
+    .faq-title {
+      font-family: var(--font-display); font-size: 28px; font-weight: 800; margin-bottom: 20px;
+    }
+    .faq-item {
+      border-bottom: 1px solid var(--line); padding: 18px 0;
+    }
+    .faq-question {
+      font-family: var(--font-sans); font-size: 16px; font-weight: 700;
+      cursor: pointer; display: flex; justify-content: space-between; align-items: center;
+      color: var(--paper);
+    }
+    .faq-question:hover { color: var(--accent); }
+    .faq-answer {
+      font-size: 14.5px; color: var(--paper-dim); line-height: 1.6;
+      margin-top: 12px; display: none;
+    }
+    .faq-item.is-open .faq-answer { display: block; }
+    .faq-item.is-open .faq-toggle { transform: rotate(45deg); color: var(--accent); }
+    .faq-toggle { font-family: var(--font-mono); font-size: 18px; transition: transform 0.2s; }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--line); padding: 40px 28px;
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 20px; font-size: 12px; color: var(--paper-dim); flex-wrap: wrap;
+    }
+    .footer-seal {
+      display: flex; align-items: center; gap: 8px; font-family: var(--font-mono);
+    }
+    .footer-seal-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
+    .footer-links { display: flex; gap: 16px; }
+    .footer-links a { color: var(--paper-dim); text-decoration: none; }
+    .footer-links a:hover { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <canvas id="bg-constellation"></canvas>
+  <div class="ambient-orb orb-1"></div>
+  <div class="ambient-orb orb-2"></div>
+  <div class="ambient-orb orb-3"></div>
+
+  <!-- Sticky Header Container: Multi-Empresas Bar + OS HUD Header -->
+  <div class="sticky-header-container">
+    <!-- Top Bar: Vitrine Multi-Empresas 1Bitpi -->
+    <div class="editions-top-bar">
+      <div class="editions-bar-inner">
+        <div class="editions-label">
+          <span class="editions-badge">VITRINE MULTI-EMPRESAS</span>
+          <span class="editions-sub">7 Edições Operacionais 1Bitpi</span>
+        </div>
+        <nav class="editions-nav-links" aria-label="Edições de Negócio">
+          <a href="00-core-enterprise-os/00-1bitpios-piaos.html" class="edition-link" title="Edição Oficial Casa Matriz">
+            <span class="ed-num">00</span> 1BitpiOS &amp; PIAOS
+          </a>
+          <a href="01-hospitalidade-e-turismo/01-pousada-boutique-litoral.html" class="edition-link" title="Hospitalidade &amp; Turismo">
+            <span class="ed-num">01</span> Pousada Boutique &amp; Resort
+          </a>
+          <a href="02-gastronomia-e-beach-clubs/02-gastronomia-beach-club.html" class="edition-link" title="Gastronomia &amp; Beach Club">
+            <span class="ed-num">02</span> Brasa &amp; Maré Gastrobar
+          </a>
+          <a href="03-saude-clinicas-e-wellness/03-clinica-saude-wellness.html" class="edition-link" title="Saúde &amp; Estética">
+            <span class="ed-num">03</span> AuraMed Clínica
+          </a>
+          <a href="04-juridico-contabil-e-b2b/04-escritorio-servicos-b2b.html" class="edition-link" title="Advocacia &amp; Consultoria B2B">
+            <span class="ed-num">04</span> Vértice Legal &amp; Advisory
+          </a>
+          <a href="05-imobiliario-e-arquitetura/05-imobiliaria-arquitetura.html" class="edition-link" title="Imobiliária &amp; Arquitetura">
+            <span class="ed-num">05</span> Horizonte Arquitetura
+          </a>
+          <a href="06-oficinas-e-servicos-tecnicos/06-oficina-servicos-tecnicos.html" class="edition-link" title="Oficina Premium &amp; Centro Técnico">
+            <span class="ed-num">06</span> TorqueLab Service OS
+          </a>
+          <a href="index.html" class="edition-link-showcase is-active" title="Vitrine Executiva Comparativa">
+            ⚡ Vitrine Executiva ↗
+          </a>
+        </nav>
+      </div>
+    </div>
+
+    <!-- OS HUD Header da Vitrine -->
+    <header class="os-header">
+      <div style="display:flex; align-items:center; gap:16px;">
+        <a href="#" class="brand-group" aria-label="1Bitpi Agent OS Vitrine">
+          <div class="brand-tile">π</div>
+          <div class="brand-text">
+            <div class="brand-title">1Bitpi Agent OS <i>Vitrine</i></div>
+            <div class="brand-subtitle">CATÁLOGO EXECUTIVO DE MODELOS DE NEGÓCIO</div>
+          </div>
+        </a>
+        <div class="telemetry-pill">
+          <span class="pulse-dot"></span>
+          <span>7 EDIÇÕES PRONTAS · 0% INTERMEDIAÇÃO PRECATÓRIA</span>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <a href="00-core-enterprise-os/00-1bitpios-piaos.html" class="btn-header">
+          <span>🏠</span> Casa Matriz (00)
+        </a>
+        <button type="button" class="btn-header" id="btn-theme-toggle" title="Atalho: ⌘J">
+          <span>🎨</span> Tema
+        </button>
+        <a href="https://wa.me/5511999999999?text=Quero%20uma%20edicao%20do%201Bitpi%20Agent%20OS%20para%20minha%20empresa" target="_blank" rel="noopener" class="btn-header primary">
+          <span>⚡</span> Ativar para Minha Empresa
+        </a>
+      </div>
+    </header>
+  </div>
+
+  <main>
+    <!-- Executive Hero -->
+    <section class="showcase-hero">
+      <div class="hero-eyebrow">
+        <span>●</span> ARQUITETURA DETERMINÍSTICA PIAOS · CASOS DE USO NO MUNDO REAL
+      </div>
+      <h1 class="hero-headline">
+        Uma Plataforma Operacional.<br />
+        <span class="bp-shimmer">Sete Universos de Negócio.</span>
+      </h1>
+      <p class="hero-subtitle">
+        A mesma inteligência determinística, orquestração de agentes de IA, governança humana no loop e proteção anti-injection do 1Bitpi Agent OS — adaptada cirurgicamente para pousadas de luxo, restaurantes, clínicas integradas, escritórios jurídicos B2B, imobiliárias de alto padrão e centros técnicos automotivos.
+      </p>
+
+      <div class="hero-stats-strip">
+        <div class="hero-stat-card">
+          <span class="hero-stat-val">7</span>
+          <span class="hero-stat-desc">Modelos Operacionais Especializados e Prontos para Deploy</span>
+        </div>
+        <div class="hero-stat-card">
+          <span class="hero-stat-val">0%</span>
+          <span class="hero-stat-desc">Taxas Abusivas para Intermediários (Booking, Airbnb, iFood)</span>
+        </div>
+        <div class="hero-stat-card">
+          <span class="hero-stat-val">100%</span>
+          <span class="hero-stat-desc">Governança Humana Determinística com Gates Auditados</span>
+        </div>
+        <div class="hero-stat-card">
+          <span class="hero-stat-val">24/7</span>
+          <span class="hero-stat-desc">Concierge Autônomo com RAG Criptografado &amp; Telemetria</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Filter Bar -->
+    <section class="filter-section">
+      <div class="filter-tabs" id="filter-tabs-container">
+        <button type="button" class="filter-tab is-active" data-filter="all">Todos os Modelos (7)</button>
+        <button type="button" class="filter-tab" data-filter="hospitalidade">Hospitalidade &amp; Lazer (1)</button>
+        <button type="button" class="filter-tab" data-filter="gastronomia">Gastronomia &amp; Beach Club (1)</button>
+        <button type="button" class="filter-tab" data-filter="saude">Saúde &amp; Estética (1)</button>
+        <button type="button" class="filter-tab" data-filter="b2b">Serviços B2B &amp; Jurídico (1)</button>
+        <button type="button" class="filter-tab" data-filter="imobiliaria">Imobiliária &amp; Arquitetura (1)</button>
+        <button type="button" class="filter-tab" data-filter="automotivo">Automotivo &amp; Técnico (1)</button>
+        <button type="button" class="filter-tab" data-filter="tech">Tech &amp; Core OS (1)</button>
+      </div>
+      <div class="filter-count-badge" id="filter-count-indicator">Mostrando 7 de 7 edições</div>
+    </section>
+
+    <!-- Grand Bento Cards Grid -->
+    <section class="cards-grid" id="showcase-cards-container">
+      
+        <article class="showcase-card" data-category="tech" style="--card-accent: #00f0ff; --card-gradient: linear-gradient(135deg, #00f0ff 0%, #00b4d8 100%); --card-glow: #00f0ff33;">
+          <div class="card-top">
+            <div class="card-meta-row">
+              <span class="card-edition-badge">00 CANÔNICA · TECH & CORE OS</span>
+              <span class="card-status-pill">
+                <span class="pulse-dot"></span> OPERACIONAL
+              </span>
+            </div>
+            <h2 class="card-title">1BitpiOS & PIAOS <i>Hub</i></h2>
+            <div class="card-subtitle">CAPABILITY & SKILL HUB · SPATIAL HUD</div>
+            <div class="card-tagline">“Orquestração de Agentes Autônomos, Segundo Cérebro & Governança Anti-Injection”</div>
+
+            <div class="card-blocks-row">
+              <div class="card-block-box pain">
+                <strong>DOR ELIMINADA NO SEGMENTO</strong>
+                Caos de dezenas de ferramentas dispersas no Instagram e risco crítico de prompt injection em agentes autônomos sem auditoria determinística.
+              </div>
+              <div class="card-block-box solution">
+                <strong>SOLUÇÃO 1BITPI OS</strong>
+                Central unificada com visualizador Spotify de posts salvos, segundo cérebro orbital em HTML5 canvas, laboratório anti-injection e pacotes SKILL.md para Claude Code/Codex.
+              </div>
+            </div>
+
+            <div class="card-chips-strip">
+              <span class="card-chip">Segundo Cérebro Orbital</span><span class="card-chip">Anti-Injection Lab</span><span class="card-chip">49 Skills Auditadas</span><span class="card-chip">Claude Code & Codex Ready</span>
+            </div>
+
+            <div class="card-cli-box">
+              <span class="card-cli-code">$ curl -X GET http://127.0.0.1:8585/hub/catalog.json</span>
+              <span class="card-cli-tag">Tech & Casa Matriz</span>
+            </div>
+          </div>
+
+          <div class="card-action-footer">
+            <a href="00-core-enterprise-os/00-1bitpios-piaos.html" class="btn-card-primary">Acessar Edição Oficial Canônica ↗</a>
+          </div>
+        </article>
+        
+        <article class="showcase-card" data-category="hospitalidade" style="--card-accent: #00f0ff; --card-gradient: linear-gradient(135deg, #00f0ff 0%, #0077b6 100%); --card-glow: #00f0ff33;">
+          <div class="card-top">
+            <div class="card-meta-row">
+              <span class="card-edition-badge">01 HOSPITALIDADE · LUXO COSTEIRO</span>
+              <span class="card-status-pill">
+                <span class="pulse-dot"></span> OPERACIONAL
+              </span>
+            </div>
+            <h2 class="card-title">Maré Alta <i>Resort</i></h2>
+            <div class="card-subtitle">HOTEL BOUTIQUE & BEACH RESORT · HOSPITALITY OS</div>
+            <div class="card-tagline">“Experiência de Luxo Pé na Areia & Motor de Reservas Diretas 0% Taxa”</div>
+
+            <div class="card-blocks-row">
+              <div class="card-block-box pain">
+                <strong>DOR ELIMINADA NO SEGMENTO</strong>
+                Comissões predatórias de 18% a 25% para Booking e Airbnb, no-shows em feriados e atendimento de WhatsApp lento fora do horário comercial.
+              </div>
+              <div class="card-block-box solution">
+                <strong>SOLUÇÃO 1BITPI OS</strong>
+                Motor de reservas diretas no site com checkout Pix instantâneo 0% taxa, concierge autônomo 24/7 com tábua de marés e passeios, e checklist de governança sanitária P3.
+              </div>
+            </div>
+
+            <div class="card-chips-strip">
+              <span class="card-chip">Motor de Reservas 0%</span><span class="card-chip">Concierge WhatsApp 24/7</span><span class="card-chip">Tábua de Marés & Lancha</span><span class="card-chip">Gate Sanitário P3</span>
+            </div>
+
+            <div class="card-cli-box">
+              <span class="card-cli-code">$ curl -X GET https://api.marealta.1bitpi.com/v1/availability?dates=weekend</span>
+              <span class="card-cli-tag">Hospitalidade & Lazer</span>
+            </div>
+          </div>
+
+          <div class="card-action-footer">
+            <a href="01-hospitalidade-e-turismo/01-pousada-boutique-litoral.html" class="btn-card-primary">Explorar Maré Alta OS ↗</a>
+          </div>
+        </article>
+        
+        <article class="showcase-card" data-category="gastronomia" style="--card-accent: #ff5722; --card-gradient: linear-gradient(135deg, #ff5722 0%, #ff8c42 100%); --card-glow: #ff572233;">
+          <div class="card-top">
+            <div class="card-meta-row">
+              <span class="card-edition-badge">02 GASTRONOMIA · BEACH CLUB</span>
+              <span class="card-status-pill">
+                <span class="pulse-dot"></span> OPERACIONAL
+              </span>
+            </div>
+            <h2 class="card-title">Brasa & Maré <i>Gastrobar</i></h2>
+            <div class="card-subtitle">PARRILLA COSTEIRA & BEACH CLUB · GASTRONOMY OS</div>
+            <div class="card-tagline">“Parrilla de Frutos do Mar & Cardápio 3D com Sommelier IA”</div>
+
+            <div class="card-blocks-row">
+              <div class="card-block-box pain">
+                <strong>DOR ELIMINADA NO SEGMENTO</strong>
+                Taxas abusivas de 27% do iFood, garçons sobrecarregados em dias de praia cheia, erros manuais de comanda e filas de espera sem previsão.
+              </div>
+              <div class="card-block-box solution">
+                <strong>SOLUÇÃO 1BITPI OS</strong>
+                Garçom digital via QR Code nas mesas e cabanas na areia, sommelier de vinhos por IA no WhatsApp, fila de espera digital com SMS e KDS integrado na cozinha.
+              </div>
+            </div>
+
+            <div class="card-chips-strip">
+              <span class="card-chip">Garçom Digital QR Code</span><span class="card-chip">Sommelier IA no WhatsApp</span><span class="card-chip">Fila de Espera Digital</span><span class="card-chip">Gate Fechamento de Caixa</span>
+            </div>
+
+            <div class="card-cli-box">
+              <span class="card-cli-code">$ curl -X POST https://api.brasaemare.1bitpi.com/v1/order --data '{"table":14}'</span>
+              <span class="card-cli-tag">Gastronomia & Beach Club</span>
+            </div>
+          </div>
+
+          <div class="card-action-footer">
+            <a href="02-gastronomia-e-beach-clubs/02-gastronomia-beach-club.html" class="btn-card-primary">Explorar Brasa & Maré OS ↗</a>
+          </div>
+        </article>
+        
+        <article class="showcase-card" data-category="saude" style="--card-accent: #10b981; --card-gradient: linear-gradient(135deg, #10b981 0%, #059669 100%); --card-glow: #10b98133;">
+          <div class="card-top">
+            <div class="card-meta-row">
+              <span class="card-edition-badge">03 SAÚDE & WELLNESS · CLÍNICA INTEGRADA</span>
+              <span class="card-status-pill">
+                <span class="pulse-dot"></span> OPERACIONAL
+              </span>
+            </div>
+            <h2 class="card-title">AuraMed <i>Saúde & Estética</i></h2>
+            <div class="card-subtitle">CLÍNICA INTEGRADA & HARMONIZAÇÃO · HEALTH OS</div>
+            <div class="card-tagline">“Medicina Integrativa & Triagem Pré-Consulta Acolhedora com IA”</div>
+
+            <div class="card-blocks-row">
+              <div class="card-block-box pain">
+                <strong>DOR ELIMINADA NO SEGMENTO</strong>
+                25% de taxa de no-show (faltas de pacientes) gerando furos caros na agenda médica, receio ético de diagnósticos automáticos errôneos e vazamentos LGPD de prontuários.
+              </div>
+              <div class="card-block-box solution">
+                <strong>SOLUÇÃO 1BITPI OS</strong>
+                Triagem pré-consulta acolhedora sem diagnóstico invasivo, confirmação automatizada com pagamento de sinal antecipado e prontuário com criptografia de ponta a ponta e gate médico.
+              </div>
+            </div>
+
+            <div class="card-chips-strip">
+              <span class="card-chip">Triagem Ética sem Diagnóstico</span><span class="card-chip">Sinal Antecipado 0% No-Show</span><span class="card-chip">Prontuário LGPD Criptografado</span><span class="card-chip">Gate Médico Obrigatório</span>
+            </div>
+
+            <div class="card-cli-box">
+              <span class="card-cli-code">$ curl -X GET https://api.auramed.1bitpi.com/v1/appointments?doctor=crm123</span>
+              <span class="card-cli-tag">Saúde & Estética</span>
+            </div>
+          </div>
+
+          <div class="card-action-footer">
+            <a href="03-saude-clinicas-e-wellness/03-clinica-saude-wellness.html" class="btn-card-primary">Explorar AuraMed OS ↗</a>
+          </div>
+        </article>
+        
+        <article class="showcase-card" data-category="b2b" style="--card-accent: #e5c07b; --card-gradient: linear-gradient(135deg, #e5c07b 0%, #c49b4b 100%); --card-glow: #e5c07b33;">
+          <div class="card-top">
+            <div class="card-meta-row">
+              <span class="card-edition-badge">04 JURÍDICO & B2B · CONSULTORIA CORPORATIVA</span>
+              <span class="card-status-pill">
+                <span class="pulse-dot"></span> OPERACIONAL
+              </span>
+            </div>
+            <h2 class="card-title">Vértice Legal <i>Advisory</i></h2>
+            <div class="card-subtitle">SOCIEDADE DE ADVOGADOS & CORPORATE ADVISORY · LEGAL OS</div>
+            <div class="card-tagline">“Consultoria Jurídica & Varredura de Riscos Contratuais por IA”</div>
+
+            <div class="card-blocks-row">
+              <div class="card-block-box pain">
+                <strong>DOR ELIMINADA NO SEGMENTO</strong>
+                Medo de alucinação de jurisprudência em LLMs genéricas, perda de prazos fatais processuais do Diário Oficial e tempo excessivo redigindo minutas padrão.
+              </div>
+              <div class="card-block-box solution">
+                <strong>SOLUÇÃO 1BITPI OS</strong>
+                Varredura contínua de Diários Oficiais e tribunais (PJe/e-SAJ), matriz RAG sobre acervo de peças do próprio escritório com citação exata de folhas, e gate de revisão obrigatória por sócio sênior.
+              </div>
+            </div>
+
+            <div class="card-chips-strip">
+              <span class="card-chip">Varredura Diários Oficiais</span><span class="card-chip">RAG Anti-Alucinação</span><span class="card-chip">Gate de Peticionamento ICP</span><span class="card-chip">Proteção Sigilo Cliente</span>
+            </div>
+
+            <div class="card-cli-box">
+              <span class="card-cli-code">$ curl -X GET https://api.verticelegal.1bitpi.com/v1/deadlines?urgency=high</span>
+              <span class="card-cli-tag">Serviços B2B & Jurídico</span>
+            </div>
+          </div>
+
+          <div class="card-action-footer">
+            <a href="04-juridico-contabil-e-b2b/04-escritorio-servicos-b2b.html" class="btn-card-primary">Explorar Vértice Legal OS ↗</a>
+          </div>
+        </article>
+        
+        <article class="showcase-card" data-category="imobiliaria" style="--card-accent: #e07a5f; --card-gradient: linear-gradient(135deg, #e07a5f 0%, #d46045 100%); --card-glow: #e07a5f33;">
+          <div class="card-top">
+            <div class="card-meta-row">
+              <span class="card-edition-badge">05 REAL ESTATE & ARQUITETURA · ALTO PADRÃO</span>
+              <span class="card-status-pill">
+                <span class="pulse-dot"></span> OPERACIONAL
+              </span>
+            </div>
+            <h2 class="card-title">Horizonte <i>Arquitetura</i></h2>
+            <div class="card-subtitle">IMOBILIÁRIA BOUTIQUE & STUDIO DE ARQUITETURA · ARCH OS</div>
+            <div class="card-tagline">“Arquitetura Autoral & Tour Espacial 3D de Imóveis”</div>
+
+            <div class="card-blocks-row">
+              <div class="card-block-box pain">
+                <strong>DOR ELIMINADA NO SEGMENTO</strong>
+                Corretores gastando horas atendendo curiosos sem capacidade financeira comprovada e arquitetos com revisões infinitas de layout sem validação formal.
+              </div>
+              <div class="card-block-box solution">
+                <strong>SOLUÇÃO 1BITPI OS</strong>
+                Qualificação automática de poder aquisitivo no primeiro contato, book digital interativo com tour 3D e pranchas renderizadas, e gate de aprovação com assinatura do memorial descritivo.
+              </div>
+            </div>
+
+            <div class="card-chips-strip">
+              <span class="card-chip">Filtro de Poder Aquisitivo</span><span class="card-chip">Tour 3D & Book Interativo</span><span class="card-chip">Gate Memorial Descritivo</span><span class="card-chip">Gestão de Obra Transparente</span>
+            </div>
+
+            <div class="card-cli-box">
+              <span class="card-cli-code">$ curl -X GET https://api.horizonte.1bitpi.com/v1/properties?type=penthouse</span>
+              <span class="card-cli-tag">Imobiliária & Arquitetura</span>
+            </div>
+          </div>
+
+          <div class="card-action-footer">
+            <a href="05-imobiliario-e-arquitetura/05-imobiliaria-arquitetura.html" class="btn-card-primary">Explorar Horizonte OS ↗</a>
+          </div>
+        </article>
+        
+        <article class="showcase-card" data-category="automotivo" style="--card-accent: #ffb703; --card-gradient: linear-gradient(135deg, #ffb703 0%, #fb8500 100%); --card-glow: #ffb70333;">
+          <div class="card-top">
+            <div class="card-meta-row">
+              <span class="card-edition-badge">06 AUTOMOTIVO · CENTRO TÉCNICO & MOTORSPORT</span>
+              <span class="card-status-pill">
+                <span class="pulse-dot"></span> OPERACIONAL
+              </span>
+            </div>
+            <h2 class="card-title">TorqueLab <i>Service OS</i></h2>
+            <div class="card-subtitle">OFICINA PREMIUM & CENTRO TÉCNICO ESPECIALIZADO · SERVICE OS</div>
+            <div class="card-tagline">“Engenharia Mecânica & Checklist Fotográfico com IA”</div>
+
+            <div class="card-blocks-row">
+              <div class="card-block-box pain">
+                <strong>DOR ELIMINADA NO SEGMENTO</strong>
+                Desconfiança clássica do cliente se a peça foi realmente trocada, dificuldade de aprovação de orçamento por telefone e carros ocupando elevadores sem peças disponíveis.
+              </div>
+              <div class="card-block-box solution">
+                <strong>SOLUÇÃO 1BITPI OS</strong>
+                Pit-Stop orbital com telemetria ao vivo pelo celular do cliente (desmontagem, peças, montagem), envio de fotos e vídeos em alta resolução no WhatsApp com aprovação em 1 clique, e gate do engenheiro para teste de rodagem.
+              </div>
+            </div>
+
+            <div class="card-chips-strip">
+              <span class="card-chip">Pit-Stop Telemetria ao Vivo</span><span class="card-chip">Orçamento com Foto em 1 Clique</span><span class="card-chip">Gate Teste de Rodagem</span><span class="card-chip">Revisão Preventiva Preditiva</span>
+            </div>
+
+            <div class="card-cli-box">
+              <span class="card-cli-code">$ curl -X GET https://api.torquelab.1bitpi.com/v1/box?chassis=WBA3A5C59DF391</span>
+              <span class="card-cli-tag">Automotivo & Técnico</span>
+            </div>
+          </div>
+
+          <div class="card-action-footer">
+            <a href="06-oficinas-e-servicos-tecnicos/06-oficina-servicos-tecnicos.html" class="btn-card-primary">Explorar TorqueLab OS ↗</a>
+          </div>
+        </article>
+        
+    </section>
+
+    <!-- Comparative Matrix Table -->
+    <section class="matrix-section">
+      <div class="matrix-head">
+        <div class="hero-eyebrow"><span>●</span> MATRIZ DE CAPACIDADES E DIFERENCIAIS</div>
+        <h2 class="matrix-title">Comparativo Técnico &amp; Operacional das 7 Edições</h2>
+        <p class="matrix-subtitle">
+          Veja lado a lado como a arquitetura PIAOS se manifesta em cada vertical: o papel do agente conversacional, as métricas de telemetria rastreadas, o gate humano obrigatório e o retorno financeiro imediato gerado para o operador.
+        </p>
+      </div>
+
+      <div class="matrix-table-wrap">
+        <table class="matrix-table">
+          <thead>
+            <tr>
+              <th class="col-pilar">Pilar / Capacidade</th>
+              <th>00 Matriz Tech</th>
+              <th>01 Pousada Boutique</th>
+              <th>02 Gastronomia</th>
+              <th>03 Clínica Médica</th>
+              <th>04 Advocacia B2B</th>
+              <th>05 Imobiliária</th>
+              <th>06 Centro Técnico</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="cell-pilar">Segmento &amp; Atuação</td>
+              <td>Engenharia de Software &amp; Agentes IA</td>
+              <td>Hotelaria de Charme Pé na Areia</td>
+              <td>Restaurantes &amp; Beach Clubs</td>
+              <td>Clínicas Médicas &amp; Harmonização</td>
+              <td>Advocacia &amp; Consultoria B2B</td>
+              <td>Imóveis de Luxo &amp; Arquitetura</td>
+              <td>Oficinas Mecânicas Premium</td>
+            </tr>
+            <tr>
+              <td class="cell-pilar">Agente Conversacional</td>
+              <td><strong>pibit</strong> (Orquestrador Global)</td>
+              <td><strong>Concierge</strong> (WhatsApp 24/7 &amp; Marés)</td>
+              <td><strong>Garçom Digital</strong> &amp; Sommelier</td>
+              <td><strong>Triagem Pré-Consulta</strong> Ética</td>
+              <td><strong>Extrator Jurídico</strong> &amp; Diários</td>
+              <td><strong>Qualificador VIP</strong> &amp; Plantas 3D</td>
+              <td><strong>Consultor Técnico</strong> &amp; Scanner</td>
+            </tr>
+            <tr>
+              <td class="cell-pilar">Telemetria ao Vivo</td>
+              <td>Status de Agentes &amp; Consumo Tokens</td>
+              <td>Ocupação de Bangalôs &amp; Clima</td>
+              <td>Mesas Ativas &amp; KDS de Cozinha</td>
+              <td>Ocupação de Consultórios &amp; Fila</td>
+              <td>Prazos Fatais &amp; Diários Oficiais</td>
+              <td>Pipeline de Vendas &amp; Leads VIP</td>
+              <td>Boxes de Elevadores &amp; Peças</td>
+            </tr>
+            <tr>
+              <td class="cell-pilar">Gate Humano no Loop</td>
+              <td><span class="matrix-tag" style="background:rgba(0,240,255,0.15); color:#00f0ff;">Gate de Código</span><br>Aprovação antes de merge/deploy</td>
+              <td><span class="matrix-tag" style="background:rgba(0,240,255,0.15); color:#00f0ff;">Gate de Higiene P3</span><br>Checklist de limpeza antes do check-in</td>
+              <td><span class="matrix-tag" style="background:rgba(255,87,34,0.15); color:#ff5722;">Gate Fechamento</span><br>Conferência cega de caixa e frutos do mar</td>
+              <td><span class="matrix-tag" style="background:rgba(16,185,129,0.15); color:#10b981;">Gate Prontuário</span><br>Assinatura digital do médico (CRM)</td>
+              <td><span class="matrix-tag" style="background:rgba(229,192,123,0.15); color:#e5c07b;">Gate Sócio Sênior</span><br>Validação ICP-Brasil antes de protocolar</td>
+              <td><span class="matrix-tag" style="background:rgba(224,122,95,0.15); color:#e07a5f;">Gate Memorial</span><br>Assinatura do cliente antes da obra</td>
+              <td><span class="matrix-tag" style="background:rgba(255,183,3,0.15); color:#ffb703;">Gate Teste Rodagem</span><br>Assinatura do engenheiro antes de liberar</td>
+            </tr>
+            <tr>
+              <td class="cell-pilar">Margem Recuperada</td>
+              <td>80% menos tempo de integração</td>
+              <td>+18% a 25% sem Booking/Airbnb</td>
+              <td>+27% sem apps de delivery</td>
+              <td>No-show reduzido de 25% para &lt;3%</td>
+              <td>Zero prazos perdidos &amp; -60% tempo</td>
+              <td>+40% conversão &amp; zero retrabalho</td>
+              <td>+30% ticket médio &amp; zero disputas</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Interactive Deep Dive Sandbox -->
+    <section class="sandbox-section">
+      <div class="matrix-head">
+        <div class="hero-eyebrow"><span>●</span> LABORATÓRIO INTERATIVO &amp; TELEMETRIA EM TEMPO REAL</div>
+        <h2 class="matrix-title">Sandbox de Arquitetura &amp; Chamadas de API</h2>
+        <p class="matrix-subtitle">
+          Selecione qualquer vertical abaixo para inspecionar os comandos de terminal, a resposta JSON simulada da API e o fluxo do gate humano de governança.
+        </p>
+      </div>
+
+      <div class="sandbox-selector" id="sandbox-selector-strip">
+        <!-- Injetado via JS -->
+      </div>
+
+      <div class="sandbox-grid">
+        <div class="sandbox-terminal">
+          <div class="terminal-head">
+            <div class="terminal-dots">
+              <span class="terminal-dot dot-red"></span>
+              <span class="terminal-dot dot-yellow"></span>
+              <span class="terminal-dot dot-green"></span>
+            </div>
+            <span id="sandbox-term-title">terminal · marealta-telemetry</span>
+          </div>
+          <div class="terminal-cmd" id="sandbox-term-cmd">$ curl -X GET https://api.marealta.1bitpi.com/v1/availability</div>
+          <pre class="terminal-output" id="sandbox-term-output">{\n  "available_bangalows": 4,\n  "tide": "high_14h",\n  "pricing_dynamic": true\n}</pre>
+        </div>
+
+        <div class="sandbox-gate-box">
+          <div>
+            <div class="hero-eyebrow" id="sandbox-gate-eyebrow">GATE DE HIGIENE P3</div>
+            <h3 class="gate-title" id="sandbox-gate-title">Checklist Fotográfico com Auditoria antes do Check-in</h3>
+            <p class="gate-desc" id="sandbox-gate-desc">
+              Camareira fotografa os 14 pontos críticos da suíte pelo celular. O sistema valida com visão computacional e a governanta assina a liberação no painel antes da chave ser gerada no cofre inteligente.
+            </p>
+            <div class="gate-steps" id="sandbox-gate-steps">
+              <div class="gate-step"><span class="gate-step-icon">✓</span> <span>Checklist Fotográfico de 14 Pontos Concluído</span></div>
+              <div class="gate-step"><span class="gate-step-icon">✓</span> <span>Auditoria Sanitária Aprovada</span></div>
+              <div class="gate-step"><span class="gate-step-icon">✓</span> <span>Liberação Digital Assinada pela Governanta</span></div>
+            </div>
+          </div>
+          <a href="#" class="sandbox-cta-btn" id="sandbox-cta-link">Abrir Edição no Navegador ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Accordion -->
+    <section class="faq-section">
+      <h2 class="faq-title">Perguntas Frequentes sobre as Edições 1Bitpi OS</h2>
+
+      <div class="faq-item is-open">
+        <div class="faq-question">
+          <span>Como o 1Bitpi Agent OS se adapta a diferentes segmentos sem perder a segurança?</span>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">
+          A fundação do 1Bitpi Agent OS é baseada na especificação determinística <strong>PIAOS</strong>. Cada vertical herda os mesmos módulos essenciais de segurança (varredura anti-injection, isolamento de dados do cliente e trilha de auditoria criptografada), enquanto a camada visual, os prompts do concierge e as regras de negócio dos gates são customizadas para as dores exatas de cada setor.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>Por que usamos gates humanos obrigatórios em vez de automação 100% autônoma?</span>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">
+          Porque em operações de alto valor agregado (como medicina, direito, hotelaria de luxo ou engenharia), erros não são toleráveis. O 1Bitpi OS utiliza a filosofia <strong>Human-in-the-Loop</strong>: os agentes de IA realizam 90% do trabalho pesado (triagem, busca, formatação e verificação preliminar), mas a decisão crítica final sempre passa pelo gate de validação de um profissional humano responsável.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>Como funciona a eliminação de comissões para Booking, Airbnb e iFood?</span>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">
+          O 1Bitpi OS fornece o seu próprio motor de checkout e atendimento direto no WhatsApp e na web, com recebimento via Pix ou cartão direto na conta da sua empresa (0% taxa de intermediação para terceiros). Seus clientes têm uma experiência muito mais rápida e personalizada, e sua margem líquida aumenta em até 27%.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>Os dados dos meus clientes e conversas estão protegidos contra vazamento?</span>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">
+          Sim. Toda a memória e base de conhecimento da sua empresa opera em silos isolados, com criptografia em trânsito e em repouso. Nenhum dado de cliente é utilizado para retreinar modelos públicos de terceiros, e o laboratório anti-prompt injection previne tentativas de jailbreak ou exfiltração de dados sensíveis.
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-seal">
+      <div class="footer-seal-dot"></div>
+      <strong>1Bitpi Agent OS</strong> · Edição Multi-Empresas v5.2 · PIAOS Architecture Engine
+    </div>
+    <div class="footer-links">
+      <a href="00-core-enterprise-os/00-1bitpios-piaos.html">Edição Canônica (00)</a>
+      <a href="01-hospitalidade-e-turismo/01-pousada-boutique-litoral.html">Pousada Boutique</a>
+      <a href="02-gastronomia-e-beach-clubs/02-gastronomia-beach-club.html">Gastrobar</a>
+      <a href="03-saude-clinicas-e-wellness/03-clinica-saude-wellness.html">Clínica Médica</a>
+      <a href="04-juridico-contabil-e-b2b/04-escritorio-servicos-b2b.html">Advocacia B2B</a>
+      <a href="05-imobiliario-e-arquitetura/05-imobiliaria-arquitetura.html">Imobiliária</a>
+      <a href="06-oficinas-e-servicos-tecnicos/06-oficina-servicos-tecnicos.html">Centro Técnico</a>
+    </div>
+  </footer>
+
+  <script>
+    const SHOWCASE_DATA = [{"id": "00", "slug": "00-1bitpios-piaos", "url": "../index.html", "badge": "00 CANÔNICA · TECH & CORE OS", "brand_name": "1BitpiOS & PIAOS", "brand_italic": "Hub", "brand_sub": "CAPABILITY & SKILL HUB · SPATIAL HUD", "tagline": "Orquestração de Agentes Autônomos, Segundo Cérebro & Governança Anti-Injection", "category_tag": "tech", "category_label": "Tech & Casa Matriz", "segment": "Engenharia de Software, Agentes Autônomos & Governança", "pain": "Caos de dezenas de ferramentas dispersas no Instagram e risco crítico de prompt injection em agentes autônomos sem auditoria determinística.", "solution": "Central unificada com visualizador Spotify de posts salvos, segundo cérebro orbital em HTML5 canvas, laboratório anti-injection e pacotes SKILL.md para Claude Code/Codex.", "accent": "#00f0ff", "accent_gradient": "linear-gradient(135deg, #00f0ff 0%, #00b4d8 100%)", "agent": "pibit (Orquestrador Conversacional Global)", "telemetry": "Status de Agentes, Consumo de Tokens & Memory Compression", "gate": "Gate de Código: Verificação de Testes, Build & Aprovação Humana antes do Merge", "margin": "Autonomia Operacional: Redução de 80% no tempo de especificação e integração", "cmd": "curl -X GET http://127.0.0.1:8585/hub/catalog.json", "sample_output": "{\"status\":\"healthy\",\"verified_skills\":49,\"anti_injection_shield\":\"active\"}", "chips": ["Segundo Cérebro Orbital", "Anti-Injection Lab", "49 Skills Auditadas", "Claude Code & Codex Ready"], "btn_label": "Acessar Edição Oficial Canônica ↗"}, {"id": "01", "slug": "01-pousada-boutique-litoral", "url": "01-pousada-boutique-litoral.html", "badge": "01 HOSPITALIDADE · LUXO COSTEIRO", "brand_name": "Maré Alta", "brand_italic": "Resort", "brand_sub": "HOTEL BOUTIQUE & BEACH RESORT · HOSPITALITY OS", "tagline": "Experiência de Luxo Pé na Areia & Motor de Reservas Diretas 0% Taxa", "category_tag": "hospitalidade", "category_label": "Hospitalidade & Lazer", "segment": "Pousadas de Charme, Hotéis Boutique & Resorts Pé na Areia", "pain": "Comissões predatórias de 18% a 25% para Booking e Airbnb, no-shows em feriados e atendimento de WhatsApp lento fora do horário comercial.", "solution": "Motor de reservas diretas no site com checkout Pix instantâneo 0% taxa, concierge autônomo 24/7 com tábua de marés e passeios, e checklist de governança sanitária P3.", "accent": "#00f0ff", "accent_gradient": "linear-gradient(135deg, #00f0ff 0%, #0077b6 100%)", "agent": "Concierge Maré Alta (WhatsApp 24/7 com Tábua de Marés)", "telemetry": "Ocupação dos Bangalôs em Tempo Real & Previsão Meteo-Oceanográfica", "gate": "Gate de Limpeza P3: Checklist Fotográfico com Auditoria antes do Check-in", "margin": "+18% a 25% de Margem Bruta Recuperada (Zero Comissão para OTAs)", "cmd": "curl -X GET https://api.marealta.1bitpi.com/v1/availability?dates=weekend", "sample_output": "{\"available_bangalows\":4,\"tide\":\"high_14h\",\"pricing_dynamic\":true}", "chips": ["Motor de Reservas 0%", "Concierge WhatsApp 24/7", "Tábua de Marés & Lancha", "Gate Sanitário P3"], "btn_label": "Explorar Maré Alta OS ↗"}, {"id": "02", "slug": "02-gastronomia-beach-club", "url": "02-gastronomia-beach-club.html", "badge": "02 GASTRONOMIA · BEACH CLUB", "brand_name": "Brasa & Maré", "brand_italic": "Gastrobar", "brand_sub": "PARRILLA COSTEIRA & BEACH CLUB · GASTRONOMY OS", "tagline": "Parrilla de Frutos do Mar & Cardápio 3D com Sommelier IA", "category_tag": "gastronomia", "category_label": "Gastronomia & Beach Club", "segment": "Restaurantes de Alta Gastronomia, Parrillas & Beach Clubs", "pain": "Taxas abusivas de 27% do iFood, garçons sobrecarregados em dias de praia cheia, erros manuais de comanda e filas de espera sem previsão.", "solution": "Garçom digital via QR Code nas mesas e cabanas na areia, sommelier de vinhos por IA no WhatsApp, fila de espera digital com SMS e KDS integrado na cozinha.", "accent": "#ff5722", "accent_gradient": "linear-gradient(135deg, #ff5722 0%, #ff8c42 100%)", "agent": "Sommelier IA & Garçom Digital na Cabana", "telemetry": "Mesas Ativas, Pedidos no KDS da Cozinha & Tempo Médio de Prato", "gate": "Gate de Fechamento de Caixa: Conferência Cega de Estoque de Frutos do Mar", "margin": "+27% de Margem sem Apps de Delivery + Giro de Mesas 35% mais rápido", "cmd": "curl -X POST https://api.brasaemare.1bitpi.com/v1/order --data '{\"table\":14}'", "sample_output": "{\"order_id\":\"ORD-892\",\"kds_status\":\"grill_prep\",\"eta_minutes\":12}", "chips": ["Garçom Digital QR Code", "Sommelier IA no WhatsApp", "Fila de Espera Digital", "Gate Fechamento de Caixa"], "btn_label": "Explorar Brasa & Maré OS ↗"}, {"id": "03", "slug": "03-clinica-saude-wellness", "url": "03-clinica-saude-wellness.html", "badge": "03 SAÚDE & WELLNESS · CLÍNICA INTEGRADA", "brand_name": "AuraMed", "brand_italic": "Saúde & Estética", "brand_sub": "CLÍNICA INTEGRADA & HARMONIZAÇÃO · HEALTH OS", "tagline": "Medicina Integrativa & Triagem Pré-Consulta Acolhedora com IA", "category_tag": "saude", "category_label": "Saúde & Estética", "segment": "Clínicas Médicas, Dermatologia, Cirurgia Plástica & Odontologia", "pain": "25% de taxa de no-show (faltas de pacientes) gerando furos caros na agenda médica, receio ético de diagnósticos automáticos errôneos e vazamentos LGPD de prontuários.", "solution": "Triagem pré-consulta acolhedora sem diagnóstico invasivo, confirmação automatizada com pagamento de sinal antecipado e prontuário com criptografia de ponta a ponta e gate médico.", "accent": "#10b981", "accent_gradient": "linear-gradient(135deg, #10b981 0%, #059669 100%)", "agent": "Triagem Pré-Consulta & Concierge de Agendamento Acolhedor", "telemetry": "Taxa de Ocupação dos Consultórios & Fluxo de Espera na Recepção", "gate": "Gate de Prontuário Médico: Assinatura Digital do Doutor antes da Liberação", "margin": "No-show reduzido de 25% para menos de 3% + Rastreamento 100% LGPD", "cmd": "curl -X GET https://api.auramed.1bitpi.com/v1/appointments?doctor=crm123", "sample_output": "{\"active_slots\":8,\"confirmed_deposit\":true,\"no_show_risk\":\"minimal\"}", "chips": ["Triagem Ética sem Diagnóstico", "Sinal Antecipado 0% No-Show", "Prontuário LGPD Criptografado", "Gate Médico Obrigatório"], "btn_label": "Explorar AuraMed OS ↗"}, {"id": "04", "slug": "04-escritorio-servicos-b2b", "url": "04-escritorio-servicos-b2b.html", "badge": "04 JURÍDICO & B2B · CONSULTORIA CORPORATIVA", "brand_name": "Vértice Legal", "brand_italic": "Advisory", "brand_sub": "SOCIEDADE DE ADVOGADOS & CORPORATE ADVISORY · LEGAL OS", "tagline": "Consultoria Jurídica & Varredura de Riscos Contratuais por IA", "category_tag": "b2b", "category_label": "Serviços B2B & Jurídico", "segment": "Escritórios de Advocacia, Auditoria Fiscal & Consultorias B2B", "pain": "Medo de alucinação de jurisprudência em LLMs genéricas, perda de prazos fatais processuais do Diário Oficial e tempo excessivo redigindo minutas padrão.", "solution": "Varredura contínua de Diários Oficiais e tribunais (PJe/e-SAJ), matriz RAG sobre acervo de peças do próprio escritório com citação exata de folhas, e gate de revisão obrigatória por sócio sênior.", "accent": "#e5c07b", "accent_gradient": "linear-gradient(135deg, #e5c07b 0%, #c49b4b 100%)", "agent": "Extrator de Jurisprudência & Analista de Diários Oficiais", "telemetry": "Prazos Fatais em Aberto, Publicações do Dia & Horas Faturáveis", "gate": "Gate de Peticionamento: Validação e Assinatura com Certificado ICP-Brasil", "margin": "Zero Prazos Perdidos + 60% de Redução no Tempo de Redação de Minutas", "cmd": "curl -X GET https://api.verticelegal.1bitpi.com/v1/deadlines?urgency=high", "sample_output": "{\"deadlines_today\":3,\"icp_tokens_verified\":true,\"pje_sync\":\"ok\"}", "chips": ["Varredura Diários Oficiais", "RAG Anti-Alucinação", "Gate de Peticionamento ICP", "Proteção Sigilo Cliente"], "btn_label": "Explorar Vértice Legal OS ↗"}, {"id": "05", "slug": "05-imobiliaria-arquitetura", "url": "05-imobiliaria-arquitetura.html", "badge": "05 REAL ESTATE & ARQUITETURA · ALTO PADRÃO", "brand_name": "Horizonte", "brand_italic": "Arquitetura", "brand_sub": "IMOBILIÁRIA BOUTIQUE & STUDIO DE ARQUITETURA · ARCH OS", "tagline": "Arquitetura Autoral & Tour Espacial 3D de Imóveis", "category_tag": "imobiliaria", "category_label": "Imobiliária & Arquitetura", "segment": "Imobiliárias de Luxo, Corretores de Alto Padrão & Escritórios de Arquitetura", "pain": "Corretores gastando horas atendendo curiosos sem capacidade financeira comprovada e arquitetos com revisões infinitas de layout sem validação formal.", "solution": "Qualificação automática de poder aquisitivo no primeiro contato, book digital interativo com tour 3D e pranchas renderizadas, e gate de aprovação com assinatura do memorial descritivo.", "accent": "#e07a5f", "accent_gradient": "linear-gradient(135deg, #e07a5f 0%, #d46045 100%)", "agent": "Qualificador de Leads VIP & Curador de Plantas 3D", "telemetry": "Status dos Projetos Executivos, Visitas Agendadas & Leads Qualificados", "gate": "Gate de Memorial Descritivo: Assinatura do Cliente antes do Início da Obra", "margin": "+40% na Taxa de Fechamento de Vendas + Eliminação de Retrabalho em Obra", "cmd": "curl -X GET https://api.horizonte.1bitpi.com/v1/properties?type=penthouse", "sample_output": "{\"vip_leads_active\":12,\"tour_3d_views\":450,\"memorial_signed\":true}", "chips": ["Filtro de Poder Aquisitivo", "Tour 3D & Book Interativo", "Gate Memorial Descritivo", "Gestão de Obra Transparente"], "btn_label": "Explorar Horizonte OS ↗"}, {"id": "06", "slug": "06-oficina-servicos-tecnicos", "url": "06-oficina-servicos-tecnicos.html", "badge": "06 AUTOMOTIVO · CENTRO TÉCNICO & MOTORSPORT", "brand_name": "TorqueLab", "brand_italic": "Service OS", "brand_sub": "OFICINA PREMIUM & CENTRO TÉCNICO ESPECIALIZADO · SERVICE OS", "tagline": "Engenharia Mecânica & Checklist Fotográfico com IA", "category_tag": "automotivo", "category_label": "Automotivo & Técnico", "segment": "Oficinas Mecânicas Premium, Detailing Automotivo & Preparação Esportiva", "pain": "Desconfiança clássica do cliente se a peça foi realmente trocada, dificuldade de aprovação de orçamento por telefone e carros ocupando elevadores sem peças disponíveis.", "solution": "Pit-Stop orbital com telemetria ao vivo pelo celular do cliente (desmontagem, peças, montagem), envio de fotos e vídeos em alta resolução no WhatsApp com aprovação em 1 clique, e gate do engenheiro para teste de rodagem.", "accent": "#ffb703", "accent_gradient": "linear-gradient(135deg, #ffb703 0%, #fb8500 100%)", "agent": "Consultor Técnico Digital & Scanner de Ordens de Serviço", "telemetry": "Ocupação dos Elevadores Hidráulicos & Status de Peças em Estoque", "gate": "Gate de Teste de Rodagem: Checklist Dinâmico Assinado pelo Chefe Mecânico", "margin": "+30% no Ticket Médio por Transparência Total + Zero Disputas de Garantia", "cmd": "curl -X GET https://api.torquelab.1bitpi.com/v1/box?chassis=WBA3A5C59DF391", "sample_output": "{\"box_id\":3,\"stage\":\"brake_pads_replaced\",\"road_test_ready\":true}", "chips": ["Pit-Stop Telemetria ao Vivo", "Orçamento com Foto em 1 Clique", "Gate Teste de Rodagem", "Revisão Preventiva Preditiva"], "btn_label": "Explorar TorqueLab OS ↗"}];
+    let currentFilter = 'all';
+    let activeSandboxIndex = 1;
+
+    /* Constellation Canvas Interactive Background */
+    function initConstellationBackground() {
+      const canvas = document.getElementById('bg-constellation');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      let width = canvas.width = window.innerWidth;
+      let height = canvas.height = window.innerHeight;
+
+      const particles = [];
+      const count = Math.min(Math.floor((width * height) / 18000), 70);
+      let mouseX = -1000, mouseY = -1000;
+
+      for (let i = 0; i < count; i++) {
+        particles.push({
+          x: Math.random() * width,
+          y: Math.random() * height,
+          vx: (Math.random() - 0.5) * 0.45,
+          vy: (Math.random() - 0.5) * 0.45,
+          radius: Math.random() * 1.6 + 0.6,
+          alpha: Math.random() * 0.5 + 0.2
+        });
+      }
+
+      window.addEventListener('resize', () => {
+        width = canvas.width = window.innerWidth;
+        height = canvas.height = window.innerHeight;
+      });
+
+      window.addEventListener('mousemove', (e) => {
+        mouseX = e.clientX; mouseY = e.clientY;
+      });
+
+      function animate() {
+        ctx.clearRect(0, 0, width, height);
+
+        for (let i = 0; i < particles.length; i++) {
+          const p = particles[i];
+          p.x += p.vx; p.y += p.vy;
+          if (p.x < 0) p.x = width; if (p.x > width) p.x = 0;
+          if (p.y < 0) p.y = height; if (p.y > height) p.y = 0;
+
+          const dx = mouseX - p.x;
+          const dy = mouseY - p.y;
+          const dist = Math.sqrt(dx * dx + dy * dy);
+          if (dist < 120) {
+            p.x -= (dx / dist) * 1.5;
+            p.y -= (dy / dist) * 1.5;
+          }
+
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
+          ctx.fillStyle = `rgba(0, 240, 255, ${p.alpha})`;
+          ctx.fill();
+
+          for (let j = i + 1; j < particles.length; j++) {
+            const p2 = particles[j];
+            const djx = p.x - p2.x;
+            const djy = p.y - p2.y;
+            const d = Math.sqrt(djx * djx + djy * djy);
+            if (d < 110) {
+              ctx.beginPath();
+              ctx.moveTo(p.x, p.y);
+              ctx.lineTo(p2.x, p2.y);
+              ctx.strokeStyle = `rgba(0, 240, 255, ${0.12 * (1 - d / 110)})`;
+              ctx.lineWidth = 0.6;
+              ctx.stroke();
+            }
+          }
+        }
+        requestAnimationFrame(animate);
+      }
+      animate();
+    }
+
+    /* 3D Tilt Effect on Cards */
+    function attach3DTilt(element, maxAngle = 8) {
+      if (!element) return;
+      element.addEventListener('mousemove', (e) => {
+        const rect = element.getBoundingClientRect();
+        const x = (e.clientX - rect.left) / rect.width - 0.5;
+        const y = (e.clientY - rect.top) / rect.height - 0.5;
+        element.style.transform = `perspective(900px) rotateY(${x * maxAngle}deg) rotateX(${-y * maxAngle}deg) translateY(-4px) scale3d(1.015, 1.015, 1.015)`;
+      });
+      element.addEventListener('mouseleave', () => { element.style.transform = ''; });
+    }
+
+    /* Sandbox Interactive Switcher */
+    function renderSandbox() {
+      const strip = document.getElementById('sandbox-selector-strip');
+      if (!strip) return;
+
+      strip.innerHTML = SHOWCASE_DATA.map((ed, idx) => `
+        <button type="button" class="sandbox-btn ${idx === activeSandboxIndex ? 'is-active' : ''}" data-idx="${idx}">
+          ${ed.id} · ${ed.brand_name}
+        </button>
+      `).join('');
+
+      strip.querySelectorAll('.sandbox-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          activeSandboxIndex = parseInt(btn.getAttribute('data-idx'), 10);
+          updateSandboxView();
+          renderSandbox();
+        });
+      });
+      updateSandboxView();
+    }
+
+    function updateSandboxView() {
+      const ed = SHOWCASE_DATA[activeSandboxIndex];
+      if (!ed) return;
+
+      document.getElementById('sandbox-term-title').textContent = `terminal · ${ed.slug}`;
+      document.getElementById('sandbox-term-cmd').textContent = `$ ${ed.cmd}`;
+      try {
+        const parsed = JSON.parse(ed.sample_output);
+        document.getElementById('sandbox-term-output').textContent = JSON.stringify(parsed, null, 2);
+      } catch (e) {
+        document.getElementById('sandbox-term-output').textContent = ed.sample_output;
+      }
+
+      document.getElementById('sandbox-gate-eyebrow').textContent = ed.badge;
+      document.getElementById('sandbox-gate-title').textContent = ed.gate.split(':')[0] || 'Gate Humano Obrigatório';
+      document.getElementById('sandbox-gate-desc').textContent = ed.gate.split(':')[1] || ed.gate;
+
+      const stepsContainer = document.getElementById('sandbox-gate-steps');
+      stepsContainer.innerHTML = (ed.chips || []).slice(0, 3).map(ch => `
+        <div class="gate-step"><span class="gate-step-icon">✓</span> <span>${ch}</span></div>
+      `).join('');
+
+      const cta = document.getElementById('sandbox-cta-link');
+      cta.href = ed.url;
+      cta.textContent = `${ed.btn_label}`;
+    }
+
+    /* Filter Handling */
+    function initFilters() {
+      const tabs = document.querySelectorAll('.filter-tab');
+      tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+          tabs.forEach(t => t.classList.remove('is-active'));
+          tab.classList.add('is-active');
+          currentFilter = tab.getAttribute('data-filter');
+          applyFilter();
+        });
+      });
+    }
+
+    function applyFilter() {
+      const cards = document.querySelectorAll('.showcase-card');
+      let visibleCount = 0;
+      cards.forEach(card => {
+        const cat = card.getAttribute('data-category');
+        if (currentFilter === 'all' || cat === currentFilter) {
+          card.style.display = 'flex';
+          visibleCount++;
+        } else {
+          card.style.display = 'none';
+        }
+      });
+      document.getElementById('filter-count-indicator').textContent = `Mostrando ${visibleCount} de ${cards.length} edições`;
+    }
+
+    /* FAQ Toggle */
+    function initFaq() {
+      document.querySelectorAll('.faq-item').forEach(item => {
+        const q = item.querySelector('.faq-question');
+        q?.addEventListener('click', () => {
+          const isOpen = item.classList.contains('is-open');
+          document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('is-open'));
+          if (!isOpen) item.classList.add('is-open');
+        });
+      });
+    }
+
+    /* Theme Switcher */
+    const themes = ['coastal-night', 'sand-amber', 'deep-abyss'];
+    let currentThemeIdx = 0;
+    function cycleTheme() {
+      currentThemeIdx = (currentThemeIdx + 1) % themes.length;
+      document.documentElement.setAttribute('data-theme', themes[currentThemeIdx]);
+    }
+
+    function initEvents() {
+      document.getElementById('btn-theme-toggle')?.addEventListener('click', cycleTheme);
+      window.addEventListener('keydown', (e) => {
+        if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'j') {
+          e.preventDefault();
+          cycleTheme();
+        }
+      });
+      document.querySelectorAll('.showcase-card').forEach(c => attach3DTilt(c, 7));
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      initConstellationBackground();
+      renderSandbox();
+      initFilters();
+      initFaq();
+      initEvents();
+    });
+  </script>
+</body>
+</html>
