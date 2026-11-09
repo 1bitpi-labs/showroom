@@ -4,8 +4,8 @@
 > **Segmentos Atendidos**: Pousadas de Charme, Hotéis Boutique, Resorts Costeiros, Eco-Lodges & Aluguel de Temporada Premium  
 > **Proposta de Valor**: *Motor de Reservas Diretas 0% OTA, Concierge WhatsApp 24/7 e Governança de Suítes*
 
-[![Abrir Site Ao Vivo](https://img.shields.io/badge/%F0%9F%9A%80_ABRIR_SITE_INTERATIVO_AO_VIVO-0891a6?style=for-the-badge)](https://raw.githack.com/1bitpi-labs/showroom/main/01-hospitalidade-e-turismo/01-pousada-boutique-litoral.html)
-[![Assistir Vídeo MP4](https://img.shields.io/badge/%F0%9F%8E%AC_ASSISTIR_V%C3%8DDEO_HD_(MP4)-f26a4b?style=for-the-badge)](https://raw.githack.com/1bitpi-labs/showroom/main/player.html?id=01)
+[![Abrir Site Ao Vivo](https://img.shields.io/badge/%F0%9F%9A%80_ABRIR_SITE_INTERATIVO_AO_VIVO-0891a6?style=for-the-badge)](https://1bitpi-labs.github.io/showroom/01-hospitalidade-e-turismo/01-pousada-boutique-litoral.html)
+[![Assistir Vídeo MP4](https://img.shields.io/badge/%F0%9F%8E%AC_ASSISTIR_V%C3%8DDEO_HD_(MP4)-f26a4b?style=for-the-badge)](https://1bitpi-labs.github.io/showroom/player.html?id=01)
 [![Código HTML da Categoria](https://img.shields.io/badge/%F0%9F%93%84_Ver_C%C3%B3digo_HTML-121316?style=for-the-badge)](./01-pousada-boutique-litoral.html)
 [![Voltar ao Showroom Geral](https://img.shields.io/badge/%E2%AC%85_Voltar_ao_Cat%C3%A1logo_Showroom-2ec4b6?style=for-the-badge)](../README.md)
 
@@ -25,7 +25,7 @@ Solução completa para **pousadas, hotéis boutique e resorts** que desejam eli
 
 ### 🎬 Vídeo da Experiência Completa (Carrossel 3D + Catálogo + Grafo Orbital)
 
-- [**▶ Abrir no Cinema Player HD (MP4 com controles)**](https://raw.githack.com/1bitpi-labs/showroom/main/player.html?id=01) · [**⬇ Download Direto do MP4**](https://raw.githack.com/1bitpi-labs/showroom/main/01-hospitalidade-e-turismo/media/demo.mp4)
+- [**▶ Abrir no Cinema Player HD (MP4 com controles)**](https://1bitpi-labs.github.io/showroom/player.html?id=01) · [**⬇ Download Direto do MP4**](https://1bitpi-labs.github.io/showroom/01-hospitalidade-e-turismo/media/demo.mp4)
 
 ![Vídeo Demonstrativo — Maré Alta Resort — Hotel Boutique & Beach Resort](./media/preview.gif)
 
@@ -90,4 +90,4 @@ Este site faz parte do **Portfólio Oficial 1Bitpi Labs**. Você pode adquirir o
 3. **Licenciamento Enterprise / Multi-Unidades (Franquias, Redes e Agências)**:
    - Geração automatizada de múltiplas unidades com painel central de governança P6 e integração com ERP/CRM próprio.
 
-👉 **[Clique aqui para testar o site ao vivo no navegador](https://raw.githack.com/1bitpi-labs/showroom/main/01-hospitalidade-e-turismo/01-pousada-boutique-litoral.html)** ou volte para o **[Catálogo Principal do Showroom](../README.md)**.
+👉 **[Clique aqui para testar o site ao vivo no navegador](https://1bitpi-labs.github.io/showroom/01-hospitalidade-e-turismo/01-pousada-boutique-litoral.html)** ou volte para o **[Catálogo Principal do Showroom](../README.md)**.

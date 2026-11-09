@@ -4,8 +4,8 @@
 > **Segmentos Atendidos**: Engenharia de Software, Operações de IA, Consultorias de Tecnologia & DevSecOps  
 > **Proposta de Valor**: *Hub Operacional de Agentes, Auditoria Anti-Prompt Injection e Catálogo Visual de Skills*
 
-[![Abrir Site Ao Vivo](https://img.shields.io/badge/%F0%9F%9A%80_ABRIR_SITE_INTERATIVO_AO_VIVO-0891a6?style=for-the-badge)](https://raw.githack.com/1bitpi-labs/showroom/main/00-core-enterprise-os/00-1bitpios-piaos.html)
-[![Assistir Vídeo MP4](https://img.shields.io/badge/%F0%9F%8E%AC_ASSISTIR_V%C3%8DDEO_HD_(MP4)-f26a4b?style=for-the-badge)](https://raw.githack.com/1bitpi-labs/showroom/main/player.html?id=00)
+[![Abrir Site Ao Vivo](https://img.shields.io/badge/%F0%9F%9A%80_ABRIR_SITE_INTERATIVO_AO_VIVO-0891a6?style=for-the-badge)](https://1bitpi-labs.github.io/showroom/00-core-enterprise-os/00-1bitpios-piaos.html)
+[![Assistir Vídeo MP4](https://img.shields.io/badge/%F0%9F%8E%AC_ASSISTIR_V%C3%8DDEO_HD_(MP4)-f26a4b?style=for-the-badge)](https://1bitpi-labs.github.io/showroom/player.html?id=00)
 [![Código HTML da Categoria](https://img.shields.io/badge/%F0%9F%93%84_Ver_C%C3%B3digo_HTML-121316?style=for-the-badge)](./00-1bitpios-piaos.html)
 [![Voltar ao Showroom Geral](https://img.shields.io/badge/%E2%AC%85_Voltar_ao_Cat%C3%A1logo_Showroom-2ec4b6?style=for-the-badge)](../README.md)
 
@@ -25,7 +25,7 @@ Design oficial da **1Bitpi Labs** para o ecossistema **1BitpiOS / PIAOS**. Trans
 
 ### 🎬 Vídeo da Experiência Completa (Carrossel 3D + Catálogo + Grafo Orbital)
 
-- [**▶ Abrir no Cinema Player HD (MP4 com controles)**](https://raw.githack.com/1bitpi-labs/showroom/main/player.html?id=00) · [**⬇ Download Direto do MP4**](https://raw.githack.com/1bitpi-labs/showroom/main/00-core-enterprise-os/media/demo.mp4)
+- [**▶ Abrir no Cinema Player HD (MP4 com controles)**](https://1bitpi-labs.github.io/showroom/player.html?id=00) · [**⬇ Download Direto do MP4**](https://1bitpi-labs.github.io/showroom/00-core-enterprise-os/media/demo.mp4)
 
 ![Vídeo Demonstrativo — 1BitpiOS & PIAOS — Coastal Tech Edition](./media/preview.gif)
 
@@ -90,4 +90,4 @@ Este site faz parte do **Portfólio Oficial 1Bitpi Labs**. Você pode adquirir o
 3. **Licenciamento Enterprise / Multi-Unidades (Franquias, Redes e Agências)**:
    - Geração automatizada de múltiplas unidades com painel central de governança P6 e integração com ERP/CRM próprio.
 
-👉 **[Clique aqui para testar o site ao vivo no navegador](https://raw.githack.com/1bitpi-labs/showroom/main/00-core-enterprise-os/00-1bitpios-piaos.html)** ou volte para o **[Catálogo Principal do Showroom](../README.md)**.
+👉 **[Clique aqui para testar o site ao vivo no navegador](https://1bitpi-labs.github.io/showroom/00-core-enterprise-os/00-1bitpios-piaos.html)** ou volte para o **[Catálogo Principal do Showroom](../README.md)**.

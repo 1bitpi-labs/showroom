@@ -3,8 +3,8 @@
 Bem-vindo ao **Showroom Oficial da 1Bitpi Labs**!  
 Esta pasta reúne **todos os sites e plataformas operacionais criadas com a arquitetura AetherForge + PIAOS**, devidamente **separados e categorizados por modelo de negócio**, com **vídeos demonstrativos, fotos em alta resolução, especificações técnicas de features e casos de uso reais** para empresas que desejam comprar, licenciar ou contratar uma solução sob medida.
 
-[![Abrir Vitrine Executiva Ao Vivo](https://img.shields.io/badge/%F0%9F%8F%86_ABRIR_VITRINE_EXECUTIVA_COMPLETA_AO_VIVO-0891a6?style=for-the-badge)](https://raw.githack.com/1bitpi-labs/showroom/main/index.html)
-[![Vídeo da Vitrine](https://img.shields.io/badge/%F0%9F%8E%AC_V%C3%8DDEO_DA_VITRINE_(MP4)-f26a4b?style=for-the-badge)](https://raw.githack.com/1bitpi-labs/showroom/main/player.html?id=vitrine)
+[![Abrir Vitrine Executiva Ao Vivo](https://img.shields.io/badge/%F0%9F%8F%86_ABRIR_VITRINE_EXECUTIVA_COMPLETA_AO_VIVO-0891a6?style=for-the-badge)](https://1bitpi-labs.github.io/showroom/index.html)
+[![Vídeo da Vitrine](https://img.shields.io/badge/%F0%9F%8E%AC_V%C3%8DDEO_DA_VITRINE_(MP4)-f26a4b?style=for-the-badge)](https://1bitpi-labs.github.io/showroom/player.html?id=vitrine)
 
 ---
 
@@ -14,14 +14,14 @@ Clique na pasta da categoria desejada para ver a **Ficha Comercial exclusiva** d
 
 | Cat. | Pasta da Categoria | Produto / Marca Modelo | Segmentos Empresariais Atendidos | Demonstração & Ficha Comercial |
 | :---: | :--- | :--- | :--- | :--- |
-| **🏆 Vitrine Geral** | [`showroom/index.html`](./index.html) | Hub Comparativo Multi-Empresas | Todas as 7 Verticais | [🚀 **Abrir Vitrine Ao Vivo**](https://raw.githack.com/1bitpi-labs/showroom/main/index.html) · [🎬 **Vídeo MP4**](https://raw.githack.com/1bitpi-labs/showroom/main/player.html?id=vitrine) |
-| **00** | [`00-core-enterprise-os/`](./00-core-enterprise-os/) | **1BitpiOS & PIAOS — Coastal Tech Edition** | Engenharia de Software, Operações de IA, Consultorias de Tecnologia & DevSecOps | [🚀 **Abrir Ao Vivo**](https://raw.githack.com/1bitpi-labs/showroom/main/00-core-enterprise-os/00-1bitpios-piaos.html) · [🎬 **Vídeo MP4**](https://raw.githack.com/1bitpi-labs/showroom/main/player.html?id=00) · [📄 **Ficha & Casos de Uso**](./00-core-enterprise-os/README.md) |
-| **01** | [`01-hospitalidade-e-turismo/`](./01-hospitalidade-e-turismo/) | **Maré Alta Resort — Hotel Boutique & Beach Resort** | Pousadas de Charme, Hotéis Boutique, Resorts Costeiros, Eco-Lodges & Aluguel de Temporada Premium | [🚀 **Abrir Ao Vivo**](https://raw.githack.com/1bitpi-labs/showroom/main/01-hospitalidade-e-turismo/01-pousada-boutique-litoral.html) · [🎬 **Vídeo MP4**](https://raw.githack.com/1bitpi-labs/showroom/main/player.html?id=01) · [📄 **Ficha & Casos de Uso**](./01-hospitalidade-e-turismo/README.md) |
-| **02** | [`02-gastronomia-e-beach-clubs/`](./02-gastronomia-e-beach-clubs/) | **Brasa & Maré Gastrobar — Culinary OS** | Restaurantes Autorais, Gastrobares, Beach Clubs, Parrillas, Adegas & Dark Kitchens Premium | [🚀 **Abrir Ao Vivo**](https://raw.githack.com/1bitpi-labs/showroom/main/02-gastronomia-e-beach-clubs/02-gastronomia-beach-club.html) · [🎬 **Vídeo MP4**](https://raw.githack.com/1bitpi-labs/showroom/main/player.html?id=02) · [📄 **Ficha & Casos de Uso**](./02-gastronomia-e-beach-clubs/README.md) |
-| **03** | [`03-saude-clinicas-e-wellness/`](./03-saude-clinicas-e-wellness/) | **AuraMed Clínica — Medicina Integrativa & Longevidade** | Clínicas Médicas, Consultórios Odontológicos, Dermatologia, Estética Avançada, Nutrologia & Spas Médicos | [🚀 **Abrir Ao Vivo**](https://raw.githack.com/1bitpi-labs/showroom/main/03-saude-clinicas-e-wellness/03-clinica-saude-wellness.html) · [🎬 **Vídeo MP4**](https://raw.githack.com/1bitpi-labs/showroom/main/player.html?id=03) · [📄 **Ficha & Casos de Uso**](./03-saude-clinicas-e-wellness/README.md) |
-| **04** | [`04-juridico-contabil-e-b2b/`](./04-juridico-contabil-e-b2b/) | **Vértice Advisory — Advocacia, Contabilidade & Consultoria Corporativa** | Escritórios de Advocacia, Bancas de Contabilidade Consultiva, Auditorias, Consultorias Financeiras & B2B | [🚀 **Abrir Ao Vivo**](https://raw.githack.com/1bitpi-labs/showroom/main/04-juridico-contabil-e-b2b/04-escritorio-servicos-b2b.html) · [🎬 **Vídeo MP4**](https://raw.githack.com/1bitpi-labs/showroom/main/player.html?id=04) · [📄 **Ficha & Casos de Uso**](./04-juridico-contabil-e-b2b/README.md) |
-| **05** | [`05-imobiliario-e-arquitetura/`](./05-imobiliario-e-arquitetura/) | **Horizonte Design — Imobiliária Boutique & Studio de Arquitetura** | Imobiliárias de Alto Padrão, Incorporadoras, Construtoras, Estúdios de Arquitetura & Interiores | [🚀 **Abrir Ao Vivo**](https://raw.githack.com/1bitpi-labs/showroom/main/05-imobiliario-e-arquitetura/05-imobiliaria-arquitetura.html) · [🎬 **Vídeo MP4**](https://raw.githack.com/1bitpi-labs/showroom/main/player.html?id=05) · [📄 **Ficha & Casos de Uso**](./05-imobiliario-e-arquitetura/README.md) |
-| **06** | [`06-oficinas-e-servicos-tecnicos/`](./06-oficinas-e-servicos-tecnicos/) | **TorqueLab Service — Centro Técnico Automotivo & Oficina Premium** | Oficinas Mecânicas Premium, Estética Automotiva (Detailing), Concessionárias, Náutica & Energia Solar | [🚀 **Abrir Ao Vivo**](https://raw.githack.com/1bitpi-labs/showroom/main/06-oficinas-e-servicos-tecnicos/06-oficina-servicos-tecnicos.html) · [🎬 **Vídeo MP4**](https://raw.githack.com/1bitpi-labs/showroom/main/player.html?id=06) · [📄 **Ficha & Casos de Uso**](./06-oficinas-e-servicos-tecnicos/README.md) |
+| **🏆 Vitrine Geral** | [`showroom/index.html`](./index.html) | Hub Comparativo Multi-Empresas | Todas as 7 Verticais | [🚀 **Abrir Vitrine Ao Vivo**](https://1bitpi-labs.github.io/showroom/index.html) · [🎬 **Vídeo MP4**](https://1bitpi-labs.github.io/showroom/player.html?id=vitrine) |
+| **00** | [`00-core-enterprise-os/`](./00-core-enterprise-os/) | **1BitpiOS & PIAOS — Coastal Tech Edition** | Engenharia de Software, Operações de IA, Consultorias de Tecnologia & DevSecOps | [🚀 **Abrir Ao Vivo**](https://1bitpi-labs.github.io/showroom/00-core-enterprise-os/00-1bitpios-piaos.html) · [🎬 **Vídeo MP4**](https://1bitpi-labs.github.io/showroom/player.html?id=00) · [📄 **Ficha & Casos de Uso**](./00-core-enterprise-os/README.md) |
+| **01** | [`01-hospitalidade-e-turismo/`](./01-hospitalidade-e-turismo/) | **Maré Alta Resort — Hotel Boutique & Beach Resort** | Pousadas de Charme, Hotéis Boutique, Resorts Costeiros, Eco-Lodges & Aluguel de Temporada Premium | [🚀 **Abrir Ao Vivo**](https://1bitpi-labs.github.io/showroom/01-hospitalidade-e-turismo/01-pousada-boutique-litoral.html) · [🎬 **Vídeo MP4**](https://1bitpi-labs.github.io/showroom/player.html?id=01) · [📄 **Ficha & Casos de Uso**](./01-hospitalidade-e-turismo/README.md) |
+| **02** | [`02-gastronomia-e-beach-clubs/`](./02-gastronomia-e-beach-clubs/) | **Brasa & Maré Gastrobar — Culinary OS** | Restaurantes Autorais, Gastrobares, Beach Clubs, Parrillas, Adegas & Dark Kitchens Premium | [🚀 **Abrir Ao Vivo**](https://1bitpi-labs.github.io/showroom/02-gastronomia-e-beach-clubs/02-gastronomia-beach-club.html) · [🎬 **Vídeo MP4**](https://1bitpi-labs.github.io/showroom/player.html?id=02) · [📄 **Ficha & Casos de Uso**](./02-gastronomia-e-beach-clubs/README.md) |
+| **03** | [`03-saude-clinicas-e-wellness/`](./03-saude-clinicas-e-wellness/) | **AuraMed Clínica — Medicina Integrativa & Longevidade** | Clínicas Médicas, Consultórios Odontológicos, Dermatologia, Estética Avançada, Nutrologia & Spas Médicos | [🚀 **Abrir Ao Vivo**](https://1bitpi-labs.github.io/showroom/03-saude-clinicas-e-wellness/03-clinica-saude-wellness.html) · [🎬 **Vídeo MP4**](https://1bitpi-labs.github.io/showroom/player.html?id=03) · [📄 **Ficha & Casos de Uso**](./03-saude-clinicas-e-wellness/README.md) |
+| **04** | [`04-juridico-contabil-e-b2b/`](./04-juridico-contabil-e-b2b/) | **Vértice Advisory — Advocacia, Contabilidade & Consultoria Corporativa** | Escritórios de Advocacia, Bancas de Contabilidade Consultiva, Auditorias, Consultorias Financeiras & B2B | [🚀 **Abrir Ao Vivo**](https://1bitpi-labs.github.io/showroom/04-juridico-contabil-e-b2b/04-escritorio-servicos-b2b.html) · [🎬 **Vídeo MP4**](https://1bitpi-labs.github.io/showroom/player.html?id=04) · [📄 **Ficha & Casos de Uso**](./04-juridico-contabil-e-b2b/README.md) |
+| **05** | [`05-imobiliario-e-arquitetura/`](./05-imobiliario-e-arquitetura/) | **Horizonte Design — Imobiliária Boutique & Studio de Arquitetura** | Imobiliárias de Alto Padrão, Incorporadoras, Construtoras, Estúdios de Arquitetura & Interiores | [🚀 **Abrir Ao Vivo**](https://1bitpi-labs.github.io/showroom/05-imobiliario-e-arquitetura/05-imobiliaria-arquitetura.html) · [🎬 **Vídeo MP4**](https://1bitpi-labs.github.io/showroom/player.html?id=05) · [📄 **Ficha & Casos de Uso**](./05-imobiliario-e-arquitetura/README.md) |
+| **06** | [`06-oficinas-e-servicos-tecnicos/`](./06-oficinas-e-servicos-tecnicos/) | **TorqueLab Service — Centro Técnico Automotivo & Oficina Premium** | Oficinas Mecânicas Premium, Estética Automotiva (Detailing), Concessionárias, Náutica & Energia Solar | [🚀 **Abrir Ao Vivo**](https://1bitpi-labs.github.io/showroom/06-oficinas-e-servicos-tecnicos/06-oficina-servicos-tecnicos.html) · [🎬 **Vídeo MP4**](https://1bitpi-labs.github.io/showroom/player.html?id=06) · [📄 **Ficha & Casos de Uso**](./06-oficinas-e-servicos-tecnicos/README.md) |
 
 ---
 
@@ -29,8 +29,8 @@ Clique na pasta da categoria desejada para ver a **Ficha Comercial exclusiva** d
 
 Antes de explorar cada pasta individual, você pode abrir a **Vitrine Executiva Comparativa**, que apresenta todos os modelos de negócios lado a lado:
 
-- **Link Ao Vivo**: [**🚀 Abrir Vitrine Executiva Completa Ao Vivo**](https://raw.githack.com/1bitpi-labs/showroom/main/index.html)
-- **Player de Vídeo HD**: [**🎬 Assistir Vídeo da Vitrine no Cinema Player (MP4)**](https://raw.githack.com/1bitpi-labs/showroom/main/player.html?id=vitrine) · [**⬇ Download Direto MP4**](https://raw.githack.com/1bitpi-labs/showroom/main/media-vitrine/vitrine-executiva.mp4)
+- **Link Ao Vivo**: [**🚀 Abrir Vitrine Executiva Completa Ao Vivo**](https://1bitpi-labs.github.io/showroom/index.html)
+- **Player de Vídeo HD**: [**🎬 Assistir Vídeo da Vitrine no Cinema Player (MP4)**](https://1bitpi-labs.github.io/showroom/player.html?id=vitrine) · [**⬇ Download Direto MP4**](https://1bitpi-labs.github.io/showroom/media-vitrine/vitrine-executiva.mp4)
 
 ![Vídeo Vitrine Executiva](./media-vitrine/vitrine-executiva.gif)
 
@@ -61,7 +61,7 @@ Diferente de templates comuns ou sites institucionais estáticos, cada sistema d
 > **Setor / Público**: Engenharia de Software, Operações de IA, Consultorias de Tecnologia & DevSecOps  
 > **Proposta**: *Hub Operacional de Agentes, Auditoria Anti-Prompt Injection e Catálogo Visual de Skills*
 
-[**🚀 ABRIR SITE AO VIVO**](https://raw.githack.com/1bitpi-labs/showroom/main/00-core-enterprise-os/00-1bitpios-piaos.html) · [**🎬 ASSISTIR VÍDEO HD (MP4)**](https://raw.githack.com/1bitpi-labs/showroom/main/player.html?id=00) · [**📂 Entrar na Pasta da Categoria (`00-core-enterprise-os/`)**](./00-core-enterprise-os/) · [**📋 Ficha Técnica Completa**](./00-core-enterprise-os/README.md)
+[**🚀 ABRIR SITE AO VIVO**](https://1bitpi-labs.github.io/showroom/00-core-enterprise-os/00-1bitpios-piaos.html) · [**🎬 ASSISTIR VÍDEO HD (MP4)**](https://1bitpi-labs.github.io/showroom/player.html?id=00) · [**📂 Entrar na Pasta da Categoria (`00-core-enterprise-os/`)**](./00-core-enterprise-os/) · [**📋 Ficha Técnica Completa**](./00-core-enterprise-os/README.md)
 
 Design oficial da **1Bitpi Labs** para o ecossistema **1BitpiOS / PIAOS**. Transforma coleções técnicas, repositórios GitHub e automações corporativas em uma central visual estilo Spotify + Apple Spatial UI, com inspeção de segurança contra Prompt Injection e orquestração via agente `pibit`.
 
@@ -90,7 +90,7 @@ Design oficial da **1Bitpi Labs** para o ecossistema **1BitpiOS / PIAOS**. Trans
 > **Setor / Público**: Pousadas de Charme, Hotéis Boutique, Resorts Costeiros, Eco-Lodges & Aluguel de Temporada Premium  
 > **Proposta**: *Motor de Reservas Diretas 0% OTA, Concierge WhatsApp 24/7 e Governança de Suítes*
 
-[**🚀 ABRIR SITE AO VIVO**](https://raw.githack.com/1bitpi-labs/showroom/main/01-hospitalidade-e-turismo/01-pousada-boutique-litoral.html) · [**🎬 ASSISTIR VÍDEO HD (MP4)**](https://raw.githack.com/1bitpi-labs/showroom/main/player.html?id=01) · [**📂 Entrar na Pasta da Categoria (`01-hospitalidade-e-turismo/`)**](./01-hospitalidade-e-turismo/) · [**📋 Ficha Técnica Completa**](./01-hospitalidade-e-turismo/README.md)
+[**🚀 ABRIR SITE AO VIVO**](https://1bitpi-labs.github.io/showroom/01-hospitalidade-e-turismo/01-pousada-boutique-litoral.html) · [**🎬 ASSISTIR VÍDEO HD (MP4)**](https://1bitpi-labs.github.io/showroom/player.html?id=01) · [**📂 Entrar na Pasta da Categoria (`01-hospitalidade-e-turismo/`)**](./01-hospitalidade-e-turismo/) · [**📋 Ficha Técnica Completa**](./01-hospitalidade-e-turismo/README.md)
 
 Solução completa para **pousadas, hotéis boutique e resorts** que desejam eliminar a dependência de 15% a 20% de comissão das OTAs (Booking/Airbnb), oferecendo uma vitrine sensorial de suítes e experiências costeiras integrada a um Concierge de IA 24/7 no WhatsApp.
 
@@ -119,7 +119,7 @@ Solução completa para **pousadas, hotéis boutique e resorts** que desejam eli
 > **Setor / Público**: Restaurantes Autorais, Gastrobares, Beach Clubs, Parrillas, Adegas & Dark Kitchens Premium  
 > **Proposta**: *Cardápio 3D Tátil, Sommelier Virtual no WhatsApp, Fila Inteligente e Controle de CMV*
 
-[**🚀 ABRIR SITE AO VIVO**](https://raw.githack.com/1bitpi-labs/showroom/main/02-gastronomia-e-beach-clubs/02-gastronomia-beach-club.html) · [**🎬 ASSISTIR VÍDEO HD (MP4)**](https://raw.githack.com/1bitpi-labs/showroom/main/player.html?id=02) · [**📂 Entrar na Pasta da Categoria (`02-gastronomia-e-beach-clubs/`)**](./02-gastronomia-e-beach-clubs/) · [**📋 Ficha Técnica Completa**](./02-gastronomia-e-beach-clubs/README.md)
+[**🚀 ABRIR SITE AO VIVO**](https://1bitpi-labs.github.io/showroom/02-gastronomia-e-beach-clubs/02-gastronomia-beach-club.html) · [**🎬 ASSISTIR VÍDEO HD (MP4)**](https://1bitpi-labs.github.io/showroom/player.html?id=02) · [**📂 Entrar na Pasta da Categoria (`02-gastronomia-e-beach-clubs/`)**](./02-gastronomia-e-beach-clubs/) · [**📋 Ficha Técnica Completa**](./02-gastronomia-e-beach-clubs/README.md)
 
 Plataforma gastronômica desenhada para **restaurantes, gastrobares e beach clubs** que querem substituir cardápios em PDF estáticos por uma experiência visual apetitosa em 3D, aumentar o ticket médio com harmonização por IA e acabar com a desistência de clientes na fila de espera.
 
@@ -148,7 +148,7 @@ Plataforma gastronômica desenhada para **restaurantes, gastrobares e beach club
 > **Setor / Público**: Clínicas Médicas, Consultórios Odontológicos, Dermatologia, Estética Avançada, Nutrologia & Spas Médicos  
 > **Proposta**: *Triagem Pré-Consulta com IA, Agenda Anti-Falta (No-Show Zero) e Prontuário LGPD*
 
-[**🚀 ABRIR SITE AO VIVO**](https://raw.githack.com/1bitpi-labs/showroom/main/03-saude-clinicas-e-wellness/03-clinica-saude-wellness.html) · [**🎬 ASSISTIR VÍDEO HD (MP4)**](https://raw.githack.com/1bitpi-labs/showroom/main/player.html?id=03) · [**📂 Entrar na Pasta da Categoria (`03-saude-clinicas-e-wellness/`)**](./03-saude-clinicas-e-wellness/) · [**📋 Ficha Técnica Completa**](./03-saude-clinicas-e-wellness/README.md)
+[**🚀 ABRIR SITE AO VIVO**](https://1bitpi-labs.github.io/showroom/03-saude-clinicas-e-wellness/03-clinica-saude-wellness.html) · [**🎬 ASSISTIR VÍDEO HD (MP4)**](https://1bitpi-labs.github.io/showroom/player.html?id=03) · [**📂 Entrar na Pasta da Categoria (`03-saude-clinicas-e-wellness/`)**](./03-saude-clinicas-e-wellness/) · [**📋 Ficha Técnica Completa**](./03-saude-clinicas-e-wellness/README.md)
 
 Plataforma digital para **clínicas médicas, odontológicas e centros de estética/longevidade** que desejam encantar pacientes de alto padrão, realizar a pré-anamnese automatizada pelo WhatsApp antes da consulta e reduzir drasticamente as faltas (no-show) na agenda dos especialistas.
 
@@ -177,7 +177,7 @@ Plataforma digital para **clínicas médicas, odontológicas e centros de estét
 > **Setor / Público**: Escritórios de Advocacia, Bancas de Contabilidade Consultiva, Auditorias, Consultorias Financeiras & B2B  
 > **Proposta**: *Cofre de Contratos com Varredura de Riscos por IA, Controle de Prazos e Agente Paralegal*
 
-[**🚀 ABRIR SITE AO VIVO**](https://raw.githack.com/1bitpi-labs/showroom/main/04-juridico-contabil-e-b2b/04-escritorio-servicos-b2b.html) · [**🎬 ASSISTIR VÍDEO HD (MP4)**](https://raw.githack.com/1bitpi-labs/showroom/main/player.html?id=04) · [**📂 Entrar na Pasta da Categoria (`04-juridico-contabil-e-b2b/`)**](./04-juridico-contabil-e-b2b/) · [**📋 Ficha Técnica Completa**](./04-juridico-contabil-e-b2b/README.md)
+[**🚀 ABRIR SITE AO VIVO**](https://1bitpi-labs.github.io/showroom/04-juridico-contabil-e-b2b/04-escritorio-servicos-b2b.html) · [**🎬 ASSISTIR VÍDEO HD (MP4)**](https://1bitpi-labs.github.io/showroom/player.html?id=04) · [**📂 Entrar na Pasta da Categoria (`04-juridico-contabil-e-b2b/`)**](./04-juridico-contabil-e-b2b/) · [**📋 Ficha Técnica Completa**](./04-juridico-contabil-e-b2b/README.md)
 
 Ambiente executivo de alta credibilidade para **escritórios de advocacia, contabilidades consultivas e empresas de assessoria B2B**. Combina apresentação institucional de portfólio societário/tributário com automação de auditoria contratual (Due Diligence), pesquisa paralegal privada e portal transparente para clientes corporativos.
 
@@ -206,7 +206,7 @@ Ambiente executivo de alta credibilidade para **escritórios de advocacia, conta
 > **Setor / Público**: Imobiliárias de Alto Padrão, Incorporadoras, Construtoras, Estúdios de Arquitetura & Interiores  
 > **Proposta**: *Vitrine de Imóveis e Projetos Autorais, Plantas 3D, Qualificador VIP e Diário de Obra*
 
-[**🚀 ABRIR SITE AO VIVO**](https://raw.githack.com/1bitpi-labs/showroom/main/05-imobiliario-e-arquitetura/05-imobiliaria-arquitetura.html) · [**🎬 ASSISTIR VÍDEO HD (MP4)**](https://raw.githack.com/1bitpi-labs/showroom/main/player.html?id=05) · [**📂 Entrar na Pasta da Categoria (`05-imobiliario-e-arquitetura/`)**](./05-imobiliario-e-arquitetura/) · [**📋 Ficha Técnica Completa**](./05-imobiliario-e-arquitetura/README.md)
+[**🚀 ABRIR SITE AO VIVO**](https://1bitpi-labs.github.io/showroom/05-imobiliario-e-arquitetura/05-imobiliaria-arquitetura.html) · [**🎬 ASSISTIR VÍDEO HD (MP4)**](https://1bitpi-labs.github.io/showroom/player.html?id=05) · [**📂 Entrar na Pasta da Categoria (`05-imobiliario-e-arquitetura/`)**](./05-imobiliario-e-arquitetura/) · [**📋 Ficha Técnica Completa**](./05-imobiliario-e-arquitetura/README.md)
 
 Plataforma espacial e comercial para **imobiliárias boutique, corretores private, estúdios de arquitetura e construtoras**. Une a apresentação cinematográfica de residências e plantas baixas com qualificação automática de investidores e acompanhamento físico-financeiro de obras.
 
@@ -235,7 +235,7 @@ Plataforma espacial e comercial para **imobiliárias boutique, corretores privat
 > **Setor / Público**: Oficinas Mecânicas Premium, Estética Automotiva (Detailing), Concessionárias, Náutica & Energia Solar  
 > **Proposta**: *Checklist Fotográfico de Entrada, Pit-Stop Orbital dos Boxes ao Vivo e Orçamento em 1 Clique*
 
-[**🚀 ABRIR SITE AO VIVO**](https://raw.githack.com/1bitpi-labs/showroom/main/06-oficinas-e-servicos-tecnicos/06-oficina-servicos-tecnicos.html) · [**🎬 ASSISTIR VÍDEO HD (MP4)**](https://raw.githack.com/1bitpi-labs/showroom/main/player.html?id=06) · [**📂 Entrar na Pasta da Categoria (`06-oficinas-e-servicos-tecnicos/`)**](./06-oficinas-e-servicos-tecnicos/) · [**📋 Ficha Técnica Completa**](./06-oficinas-e-servicos-tecnicos/README.md)
+[**🚀 ABRIR SITE AO VIVO**](https://1bitpi-labs.github.io/showroom/06-oficinas-e-servicos-tecnicos/06-oficina-servicos-tecnicos.html) · [**🎬 ASSISTIR VÍDEO HD (MP4)**](https://1bitpi-labs.github.io/showroom/player.html?id=06) · [**📂 Entrar na Pasta da Categoria (`06-oficinas-e-servicos-tecnicos/`)**](./06-oficinas-e-servicos-tecnicos/) · [**📋 Ficha Técnica Completa**](./06-oficinas-e-servicos-tecnicos/README.md)
 
 Sistema de transparência radical e alta conversão para **oficinas mecânicas premium, centros de estética automotiva (detailing), manutenção náutica e integradores técnicos**. Elimina a desconfiança do cliente através de evidências fotográficas e acompanhamento ao vivo do veículo no box.
 

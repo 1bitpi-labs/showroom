@@ -4,8 +4,8 @@
 > **Segmentos Atendidos**: Clínicas Médicas, Consultórios Odontológicos, Dermatologia, Estética Avançada, Nutrologia & Spas Médicos  
 > **Proposta de Valor**: *Triagem Pré-Consulta com IA, Agenda Anti-Falta (No-Show Zero) e Prontuário LGPD*
 
-[![Abrir Site Ao Vivo](https://img.shields.io/badge/%F0%9F%9A%80_ABRIR_SITE_INTERATIVO_AO_VIVO-0891a6?style=for-the-badge)](https://raw.githack.com/1bitpi-labs/showroom/main/03-saude-clinicas-e-wellness/03-clinica-saude-wellness.html)
-[![Assistir Vídeo MP4](https://img.shields.io/badge/%F0%9F%8E%AC_ASSISTIR_V%C3%8DDEO_HD_(MP4)-f26a4b?style=for-the-badge)](https://raw.githack.com/1bitpi-labs/showroom/main/player.html?id=03)
+[![Abrir Site Ao Vivo](https://img.shields.io/badge/%F0%9F%9A%80_ABRIR_SITE_INTERATIVO_AO_VIVO-0891a6?style=for-the-badge)](https://1bitpi-labs.github.io/showroom/03-saude-clinicas-e-wellness/03-clinica-saude-wellness.html)
+[![Assistir Vídeo MP4](https://img.shields.io/badge/%F0%9F%8E%AC_ASSISTIR_V%C3%8DDEO_HD_(MP4)-f26a4b?style=for-the-badge)](https://1bitpi-labs.github.io/showroom/player.html?id=03)
 [![Código HTML da Categoria](https://img.shields.io/badge/%F0%9F%93%84_Ver_C%C3%B3digo_HTML-121316?style=for-the-badge)](./03-clinica-saude-wellness.html)
 [![Voltar ao Showroom Geral](https://img.shields.io/badge/%E2%AC%85_Voltar_ao_Cat%C3%A1logo_Showroom-2ec4b6?style=for-the-badge)](../README.md)
 
@@ -25,7 +25,7 @@ Plataforma digital para **clínicas médicas, odontológicas e centros de estét
 
 ### 🎬 Vídeo da Experiência Completa (Carrossel 3D + Catálogo + Grafo Orbital)
 
-- [**▶ Abrir no Cinema Player HD (MP4 com controles)**](https://raw.githack.com/1bitpi-labs/showroom/main/player.html?id=03) · [**⬇ Download Direto do MP4**](https://raw.githack.com/1bitpi-labs/showroom/main/03-saude-clinicas-e-wellness/media/demo.mp4)
+- [**▶ Abrir no Cinema Player HD (MP4 com controles)**](https://1bitpi-labs.github.io/showroom/player.html?id=03) · [**⬇ Download Direto do MP4**](https://1bitpi-labs.github.io/showroom/03-saude-clinicas-e-wellness/media/demo.mp4)
 
 ![Vídeo Demonstrativo — AuraMed Clínica — Medicina Integrativa & Longevidade](./media/preview.gif)
 
@@ -89,4 +89,4 @@ Este site faz parte do **Portfólio Oficial 1Bitpi Labs**. Você pode adquirir o
 3. **Licenciamento Enterprise / Multi-Unidades (Franquias, Redes e Agências)**:
    - Geração automatizada de múltiplas unidades com painel central de governança P6 e integração com ERP/CRM próprio.
 
-👉 **[Clique aqui para testar o site ao vivo no navegador](https://raw.githack.com/1bitpi-labs/showroom/main/03-saude-clinicas-e-wellness/03-clinica-saude-wellness.html)** ou volte para o **[Catálogo Principal do Showroom](../README.md)**.
+👉 **[Clique aqui para testar o site ao vivo no navegador](https://1bitpi-labs.github.io/showroom/03-saude-clinicas-e-wellness/03-clinica-saude-wellness.html)** ou volte para o **[Catálogo Principal do Showroom](../README.md)**.
