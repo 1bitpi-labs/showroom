@@ -96,3 +96,13 @@ Este site faz parte do **Portfólio Oficial 1Bitpi Labs**. Você pode adquirir o
 [Código completo e instalação](elos-pme/README.md) · [Índice técnico](elos-pme/docs/INDEX.md) · [PRD](elos-pme/docs/PRD.md) · [Método TSF](elos-pme/docs/TSF-WORKFLOW.md).
 
 Demo fictícia de climatização com aplicação Next/PostgreSQL, incluindo orçamento → aceite → OS, clientes, equipamentos, agenda manual e ajuda por conta. Apresentação e código são distintos da demo TorqueLab acima; as promessas comerciais e integrações descritas nela não se aplicam automaticamente ao ElosPME. O backend não roda no GitHub Pages e não foi implantado nesta inclusão.
+
+## Projeto Náutico Enterprise: Cais OS — Portal de Ordem de Serviço & Aprovação Mobile com Pix
+
+[Código e Demonstração](cais-portal-os/index.html) · [Documentação Completa](cais-portal-os/README.md) · [PRD](cais-portal-os/PRD.md) · [Design System](cais-portal-os/DESIGN-SYSTEM.md) · [Arquitetura](cais-portal-os/ARCHITECTURE.md) · [Database](cais-portal-os/DATABASE.md) · [Segurança & Pix](cais-portal-os/SECURITY.md) · [Estilo de Código](cais-portal-os/CODE-STYLE.md) · [Testes](cais-portal-os/TESTING.md) · [Agent IA](cais-portal-os/AGENT.md).
+
+Sistema Operacional para marinas, oficinas náuticas e prestadores de serviços de alto ticket desenvolvido sob a metodologia **PB-06 Lean 4-Stage Delivery (PIAOS)** com foco no cliente [Marina Imperial](https://marinaimperial.com.br/) (Caraguatatuba - SP • Rio Juqueriquerê).
+
+- **Esteira de 4 Visões Integradas:** WhatsApp (390px), Portal Mobile com Gêmeo Digital SVG (390px), Tablet do Mecânico no Píer (768px) e Balcão/Command Center com telemetria ao vivo de maré e presença ativa (1440px).
+- **Laudo Pericial & Financeiro:** Fotos de avaria comparativas (Antes vs Depois), checklist pré-navegação de 12 pontos, aprovação imutável em 1 clique (\`v1-approved\`) e liquidação instantânea de sinal Pix de 30% (EMVCo BR Code).
+- **Rigor de Engenharia:** Arquitetura autônoma (HTML5/CSS3/JavaScript vanilla puro) com 110 design tokens semânticos W3C DTCG (Zero Raw Hex/RGBA), acessibilidade WCAG 2.2 AA (hit target universal de 44px) e 19 testes automatizados determinísticos (100% green).

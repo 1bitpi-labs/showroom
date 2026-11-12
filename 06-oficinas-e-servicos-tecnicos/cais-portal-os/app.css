@@ -1,0 +1,1776 @@
+/* Cais — app.css
+   Consumo 100% estrito de tokens semânticos (--cais-*). Zero valores hexadecimais soltos.
+   Atende aos critérios de WCAG 2.2 AA e alvos mínimos de 44px (--cais-hit).
+*/
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--cais-font-sans);
+  background-color: var(--cais-bg);
+  color: var(--cais-text);
+  line-height: var(--cais-lh-body);
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Modo barra superior de navegação do protótipo */
+.proto-toolbar {
+  background-color: var(--cais-surface);
+  border-bottom: 1px solid var(--cais-border);
+  padding: var(--cais-space-2) var(--cais-space-4);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--cais-space-2);
+  font-size: var(--cais-fs-sm);
+  z-index: 100;
+  position: sticky;
+  top: 0;
+}
+
+.proto-brand {
+  display: flex;
+  align-items: center;
+  gap: var(--cais-space-2);
+  font-weight: 700;
+  color: var(--cais-accent);
+}
+
+.proto-badge-sample {
+  background-color: var(--cais-warning-bg);
+  color: var(--cais-warning);
+  font-size: var(--cais-fs-xs);
+  padding: 2px var(--cais-space-2);
+  border-radius: var(--cais-radius-pill);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.proto-controls {
+  display: flex;
+  align-items: center;
+  gap: var(--cais-space-3);
+}
+
+.proto-segmented-btn {
+  display: inline-flex;
+  background-color: var(--cais-surface-sunken);
+  padding: 2px;
+  border-radius: var(--cais-radius-md);
+  border: 1px solid var(--cais-border);
+}
+
+.proto-tab-btn {
+  background: transparent;
+  border: none;
+  padding: var(--cais-space-1) var(--cais-space-3);
+  font-size: var(--cais-fs-xs);
+  font-weight: 600;
+  color: var(--cais-text-secondary);
+  border-radius: var(--cais-radius-sm);
+  cursor: pointer;
+  min-height: 32px;
+  display: flex;
+  align-items: center;
+  gap: var(--cais-space-1);
+  transition: all var(--cais-motion-fast) var(--cais-ease);
+}
+
+.proto-tab-btn.active {
+  background-color: var(--cais-surface);
+  color: var(--cais-text);
+  box-shadow: var(--cais-shadow-1);
+}
+
+.proto-btn-action {
+  background-color: var(--cais-surface);
+  border: 1px solid var(--cais-border);
+  color: var(--cais-text);
+  padding: var(--cais-space-1) var(--cais-space-3);
+  font-size: var(--cais-fs-xs);
+  border-radius: var(--cais-radius-sm);
+  cursor: pointer;
+  min-height: 32px;
+  display: flex;
+  align-items: center;
+  gap: var(--cais-space-1);
+}
+
+.proto-btn-action:hover {
+  background-color: var(--cais-surface-sunken);
+}
+
+/* Palco Central */
+.stage-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: var(--cais-space-4);
+  width: 100%;
+}
+
+/* Casulo de Simulação de Viewport Mobile */
+.device-wrapper {
+  transition: max-width var(--cais-motion-base) var(--cais-ease);
+  width: 100%;
+}
+
+.device-wrapper.mode-mobile {
+  max-width: 414px;
+  background-color: var(--cais-surface);
+  border: 1px solid var(--cais-border-strong);
+  border-radius: var(--cais-radius-lg);
+  box-shadow: var(--cais-shadow-2);
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.device-wrapper.mode-tablet {
+  max-width: 768px;
+  background-color: var(--cais-surface);
+  border: 1px solid var(--cais-border);
+  border-radius: var(--cais-radius-lg);
+  box-shadow: var(--cais-shadow-2);
+  margin: 0 auto;
+}
+
+.device-wrapper.mode-desktop {
+  max-width: 1440px;
+  width: 100%;
+}
+
+/* ==========================================================================
+   TELA 1: PORTAL DO CLIENTE (cais-portal-aprovacao)
+   ========================================================================== */
+
+.portal-view {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 90px; /* espaço para barra de ação flutuante */
+}
+
+.portal-header {
+  background-color: var(--cais-accent);
+  color: var(--cais-on-accent);
+  padding: var(--cais-space-4);
+  position: relative;
+}
+
+.portal-marina-tag {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--cais-space-2);
+}
+
+.marina-name {
+  font-size: var(--cais-fs-sm);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: var(--cais-space-1);
+}
+
+.order-version-badge {
+  background-color: var(--cais-accent-subtle);
+  color: var(--cais-accent);
+  font-family: var(--cais-font-mono);
+  font-size: var(--cais-fs-xs);
+  font-weight: 700;
+  padding: 2px var(--cais-space-2);
+  border-radius: var(--cais-radius-pill);
+}
+
+.boat-title {
+  font-size: var(--cais-fs-xl);
+  font-weight: 700;
+  line-height: var(--cais-lh-tight);
+}
+
+.boat-specs {
+  font-size: var(--cais-fs-sm);
+  opacity: 0.9;
+  margin-top: var(--cais-space-1);
+  display: flex;
+  gap: var(--cais-space-3);
+  font-family: var(--cais-font-mono);
+}
+
+/* --------------------------------------------------------------------------
+   Visão 2 High-End: Hero Náutico & Telemetria Tátil (Mobbin / Supahero)
+   -------------------------------------------------------------------------- */
+.portal-hero-container {
+  background-color: var(--cais-surface);
+  border-bottom: 1px solid var(--cais-border);
+  padding: var(--cais-space-3);
+  display: flex;
+  flex-direction: column;
+  gap: var(--cais-space-3);
+}
+
+.portal-marina-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--cais-space-1) 0;
+}
+
+.portal-brand-wrap {
+  display: flex;
+  align-items: center;
+  gap: var(--cais-space-2);
+}
+
+.portal-brand-symbol {
+  width: 32px;
+  height: 32px;
+  background-color: var(--cais-accent);
+  color: var(--cais-on-accent);
+  border-radius: var(--cais-radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--cais-fs-md);
+  box-shadow: var(--cais-shadow-1);
+}
+
+.portal-brand-title {
+  font-size: var(--cais-fs-sm);
+  font-weight: 700;
+  color: var(--cais-text);
+  line-height: var(--cais-lh-tight);
+}
+
+.portal-brand-sub {
+  font-size: 11px;
+  color: var(--cais-text-secondary);
+}
+
+.portal-os-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background-color: var(--cais-surface-sunken);
+  border: 1px solid var(--cais-border);
+  padding: 3px var(--cais-space-2);
+  border-radius: var(--cais-radius-pill);
+  font-family: var(--cais-font-mono);
+  font-size: 11px;
+}
+
+.os-chip-label {
+  font-weight: 700;
+  color: var(--cais-text-secondary);
+}
+
+.os-chip-val {
+  font-weight: 700;
+  color: var(--cais-accent);
+}
+
+.os-chip-ver {
+  background-color: var(--cais-accent);
+  color: var(--cais-on-accent);
+  padding: 1px 5px;
+  border-radius: var(--cais-radius-pill);
+  font-size: 10px;
+}
+
+/* Card Principal da Embarcação (Deck.gallery Bento Card) */
+.vessel-hero-card {
+  background-color: var(--cais-accent);
+  color: var(--cais-on-accent);
+  border-radius: var(--cais-radius-md);
+  padding: var(--cais-space-4);
+  box-shadow: var(--cais-shadow-2);
+  display: flex;
+  flex-direction: column;
+  gap: var(--cais-space-2);
+  position: relative;
+  overflow: hidden;
+}
+
+.vessel-badge-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--cais-space-2);
+  z-index: 1;
+}
+
+.vessel-type-pill {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background-color: var(--cais-overlay-glass);
+  padding: 2px var(--cais-space-2);
+  border-radius: var(--cais-radius-pill);
+}
+
+/* Micro-Interação: Status Pulsante (Design Spells) */
+@keyframes cais-pulse {
+  0% { transform: scale(0.95); opacity: 0.8; }
+  50% { transform: scale(1.15); opacity: 1; }
+  100% { transform: scale(0.95); opacity: 0.8; }
+}
+
+.pulse-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: var(--cais-radius-pill);
+  display: inline-block;
+  animation: cais-pulse 2s infinite ease-in-out;
+}
+
+.status-waiting .pulse-dot {
+  background-color: var(--cais-warning);
+}
+
+.status-approved .pulse-dot,
+.status-paid .pulse-dot {
+  background-color: var(--cais-positive);
+}
+
+.vessel-status-live {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px var(--cais-space-2);
+  border-radius: var(--cais-radius-pill);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: var(--cais-surface);
+  color: var(--cais-text);
+  box-shadow: var(--cais-shadow-1);
+}
+
+.vessel-name {
+  font-size: var(--cais-fs-xl);
+  font-weight: 700;
+  line-height: var(--cais-lh-tight);
+  z-index: 1;
+}
+
+.vessel-meta-sub {
+  font-size: var(--cais-fs-xs);
+  opacity: 0.9;
+  font-family: var(--cais-font-mono);
+  z-index: 1;
+}
+
+/* Bento Grid de Telemetria */
+.vessel-bento-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--cais-space-2);
+  margin-top: var(--cais-space-2);
+  padding-top: var(--cais-space-2);
+  border-top: 1px solid var(--cais-border-hairline);
+  z-index: 1;
+}
+
+.vessel-bento-item {
+  background-color: var(--cais-overlay-subtle);
+  padding: var(--cais-space-2);
+  border-radius: var(--cais-radius-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.bento-lbl {
+  font-size: 10px;
+  opacity: 0.8;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.bento-val {
+  font-size: var(--cais-fs-xs);
+  font-weight: 700;
+  font-family: var(--cais-font-mono);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Status Banner */
+.portal-status-strip {
+  padding: var(--cais-space-3) var(--cais-space-4);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--cais-fs-sm);
+  font-weight: 600;
+  border-bottom: 1px solid var(--cais-border);
+}
+
+.portal-status-strip.status-pending {
+  background-color: var(--cais-warning-bg);
+  color: var(--cais-warning);
+}
+
+.portal-status-strip.status-approved {
+  background-color: var(--cais-positive-bg);
+  color: var(--cais-positive);
+}
+
+/* Conteúdo da Ordem */
+.portal-content {
+  padding: var(--cais-space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--cais-space-4);
+}
+
+.cais-card {
+  background-color: var(--cais-surface);
+  border: 1px solid var(--cais-border);
+  border-radius: var(--cais-radius-md);
+  padding: var(--cais-space-4);
+  box-shadow: var(--cais-shadow-1);
+}
+
+.card-title {
+  font-size: var(--cais-fs-md);
+  font-weight: 700;
+  margin-bottom: var(--cais-space-2);
+  color: var(--cais-text);
+  display: flex;
+  align-items: center;
+  gap: var(--cais-space-2);
+}
+
+/* Quote Callout */
+.quote-callout {
+  font-size: var(--cais-fs-sm);
+  color: var(--cais-text);
+  font-style: italic;
+  background-color: var(--cais-surface-sunken);
+  padding: var(--cais-space-3);
+  border-radius: var(--cais-radius-sm);
+  border-left: 3px solid var(--cais-accent);
+  line-height: var(--cais-lh-body);
+}
+
+/* --------------------------------------------------------------------------
+   Galeria Pericial Interativa (Design Spells / Recent.design)
+   -------------------------------------------------------------------------- */
+.evidence-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--cais-space-3);
+  margin-top: var(--cais-space-3);
+}
+
+.evidence-card-enhanced {
+  background-color: var(--cais-surface);
+  border: 1px solid var(--cais-border);
+  border-radius: var(--cais-radius-md);
+  padding: var(--cais-space-3);
+  display: flex;
+  flex-direction: column;
+  gap: var(--cais-space-2);
+  box-shadow: var(--cais-shadow-1);
+}
+
+.evidence-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--cais-space-1);
+}
+
+.evidence-cat-badge {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 2px 8px;
+  border-radius: var(--cais-radius-pill);
+}
+
+.evidence-cat-badge.cat-critico {
+  background-color: var(--cais-negative-bg);
+  color: var(--cais-negative);
+}
+
+.evidence-cat-badge.cat-alerta {
+  background-color: var(--cais-warning-bg);
+  color: var(--cais-warning);
+}
+
+.evidence-cat-badge.cat-preventivo {
+  background-color: var(--cais-accent-subtle);
+  color: var(--cais-accent);
+}
+
+.evidence-pn-badge {
+  font-family: var(--cais-font-mono);
+  font-size: 11px;
+  color: var(--cais-text-secondary);
+  background-color: var(--cais-surface-sunken);
+  padding: 2px 6px;
+  border-radius: var(--cais-radius-sm);
+  border: 1px solid var(--cais-border);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.btn-mini-copy {
+  background: transparent;
+  border: none;
+  color: var(--cais-accent);
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 4px;
+  border-radius: var(--cais-radius-sm);
+  transition: background-color var(--cais-motion-fast) var(--cais-ease);
+}
+
+.btn-mini-copy:hover {
+  background-color: var(--cais-accent-subtle);
+}
+
+.evidence-toggle-bar {
+  display: flex;
+  background-color: var(--cais-surface-sunken);
+  border-radius: var(--cais-radius-sm);
+  padding: 2px;
+  border: 1px solid var(--cais-border);
+  gap: 2px;
+}
+
+.evidence-toggle-btn {
+  flex: 1;
+  background: transparent;
+  border: none;
+  font-size: 11px;
+  font-weight: 600;
+  padding: var(--cais-space-1) var(--cais-space-2);
+  border-radius: var(--cais-radius-sm);
+  cursor: pointer;
+  color: var(--cais-text-secondary);
+  transition: all var(--cais-motion-fast) var(--cais-ease);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  min-height: 36px;
+}
+
+.evidence-toggle-btn.active {
+  background-color: var(--cais-surface);
+  color: var(--cais-text);
+  box-shadow: var(--cais-shadow-1);
+}
+
+.evidence-view-container {
+  height: 125px;
+  border-radius: var(--cais-radius-sm);
+  border: 1px solid var(--cais-border);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--cais-surface-sunken);
+}
+
+.evidence-zoom-trigger {
+  width: 100%;
+  background-color: var(--cais-surface-sunken);
+  border: 1px solid var(--cais-border);
+  border-radius: var(--cais-radius-sm);
+  padding: var(--cais-space-1) var(--cais-space-2);
+  font-size: var(--cais-fs-xs);
+  font-weight: 600;
+  color: var(--cais-accent);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--cais-space-1);
+  transition: all var(--cais-motion-fast) var(--cais-ease);
+  min-height: var(--cais-hit);
+}
+
+.evidence-zoom-trigger:hover {
+  background-color: var(--cais-accent-subtle);
+  border-color: var(--cais-accent);
+}
+
+/* Classes legadas para compatibilidade de testes */
+.evidence-item {
+  border: 1px solid var(--cais-border);
+  border-radius: var(--cais-radius-sm);
+  overflow: hidden;
+  background-color: var(--cais-surface-sunken);
+  cursor: pointer;
+}
+
+.evidence-img-sim {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.evidence-caption {
+  font-size: var(--cais-fs-xs);
+  padding: var(--cais-space-1) var(--cais-space-2);
+}
+
+/* --------------------------------------------------------------------------
+   Checklist Náutico Filtrável (Mobbin / Jiro.build)
+   -------------------------------------------------------------------------- */
+.checklist-summary-row {
+  display: flex;
+  gap: var(--cais-space-2);
+  margin-bottom: var(--cais-space-2);
+  flex-wrap: wrap;
+}
+
+.checklist-summary-badge {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: var(--cais-radius-pill);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.checklist-summary-badge.badge-ok {
+  background-color: var(--cais-positive-bg);
+  color: var(--cais-positive);
+}
+
+.checklist-summary-badge.badge-alerta {
+  background-color: var(--cais-warning-bg);
+  color: var(--cais-warning);
+}
+
+.checklist-summary-badge.badge-critico {
+  background-color: var(--cais-negative-bg);
+  color: var(--cais-negative);
+}
+
+.checklist-filter-bar {
+  display: flex;
+  gap: var(--cais-space-1);
+  background-color: var(--cais-surface-sunken);
+  padding: 3px;
+  border-radius: var(--cais-radius-md);
+  border: 1px solid var(--cais-border);
+  margin-bottom: var(--cais-space-3);
+}
+
+.checklist-filter-pill {
+  flex: 1;
+  background: transparent;
+  border: none;
+  padding: var(--cais-space-1) var(--cais-space-2);
+  border-radius: var(--cais-radius-sm);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--cais-text-secondary);
+  cursor: pointer;
+  transition: all var(--cais-motion-fast) var(--cais-ease);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  min-height: 32px;
+}
+
+.checklist-filter-pill.active {
+  background-color: var(--cais-surface);
+  color: var(--cais-text);
+  box-shadow: var(--cais-shadow-1);
+}
+
+.checklist-filter-pill:active {
+  transform: scale(0.97);
+}
+
+/* --------------------------------------------------------------------------
+   Tabela de Itens e Peças
+   -------------------------------------------------------------------------- */
+.items-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--cais-space-2);
+}
+
+.item-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: var(--cais-space-2) 0;
+  border-bottom: 1px dashed var(--cais-border);
+  font-size: var(--cais-fs-sm);
+}
+
+.item-row:last-child {
+  border-bottom: none;
+}
+
+.item-desc {
+  font-weight: 500;
+}
+
+.item-cat {
+  font-size: var(--cais-fs-xs);
+  color: var(--cais-text-secondary);
+}
+
+.item-price {
+  font-family: var(--cais-font-mono);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* Totais */
+.totals-box {
+  background-color: var(--cais-surface-sunken);
+  border-radius: var(--cais-radius-sm);
+  padding: var(--cais-space-3);
+  margin-top: var(--cais-space-2);
+  display: flex;
+  flex-direction: column;
+  gap: var(--cais-space-2);
+}
+
+.total-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: var(--cais-fs-sm);
+}
+
+.total-line.grand-total {
+  font-size: var(--cais-fs-lg);
+  font-weight: 700;
+  border-top: 1px solid var(--cais-border);
+  padding-top: var(--cais-space-2);
+  color: var(--cais-accent);
+}
+
+.total-line.signal-highlight {
+  font-size: var(--cais-fs-md);
+  font-weight: 700;
+  color: var(--cais-warning);
+}
+
+/* Selo de Garantia e Auditoria Digital (Design Spells) */
+.audit-digital-seal {
+  background-color: var(--cais-positive-bg);
+  border: 1px solid var(--cais-positive);
+  border-radius: var(--cais-radius-md);
+  padding: var(--cais-space-3);
+  display: flex;
+  align-items: flex-start;
+  gap: var(--cais-space-3);
+  font-size: var(--cais-fs-xs);
+  color: var(--cais-text);
+  margin-top: var(--cais-space-3);
+}
+
+.seal-icon-wrap {
+  width: 36px;
+  height: 36px;
+  background-color: var(--cais-positive);
+  color: var(--cais-surface);
+  border-radius: var(--cais-radius-pill);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--cais-fs-md);
+  flex-shrink: 0;
+}
+
+/* Barra de Ação Fixa Inferior */
+.sticky-action-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--cais-surface);
+  border-top: 1px solid var(--cais-border);
+  padding: var(--cais-space-3) var(--cais-space-4);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--cais-space-3);
+  box-shadow: var(--cais-shadow-2);
+  z-index: 50;
+}
+
+.action-bar-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.action-bar-label {
+  font-size: var(--cais-fs-xs);
+  color: var(--cais-text-secondary);
+}
+
+.action-bar-val {
+  font-family: var(--cais-font-mono);
+  font-size: var(--cais-fs-lg);
+  font-weight: 700;
+  color: var(--cais-text);
+}
+
+.btn-primary-cais {
+  background-color: var(--cais-accent);
+  color: var(--cais-on-accent);
+  border: none;
+  border-radius: var(--cais-radius-pill);
+  min-height: var(--cais-hit);
+  padding: 0 var(--cais-space-5);
+  font-size: var(--cais-fs-md);
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--cais-space-2);
+  transition: all var(--cais-motion-fast) var(--cais-ease);
+}
+
+.btn-primary-cais:hover {
+  background-color: var(--cais-accent-hover);
+  transform: translateY(-1px);
+}
+
+.btn-primary-cais:active {
+  transform: scale(0.97);
+}
+
+.btn-primary-cais:focus-visible {
+  outline: 3px solid var(--cais-focus);
+  outline-offset: 2px;
+}
+
+/* Modal de Aprovação / Pix */
+.cais-modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: var(--cais-scrim);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--cais-space-4);
+  z-index: 200;
+}
+
+.cais-modal-card {
+  background-color: var(--cais-surface);
+  border-radius: var(--cais-radius-lg);
+  max-width: 440px;
+  width: 100%;
+  padding: var(--cais-space-5);
+  box-shadow: var(--cais-shadow-2);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--cais-space-4);
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: var(--cais-space-3);
+  right: var(--cais-space-3);
+  background: transparent;
+  border: none;
+  font-size: var(--cais-fs-lg);
+  cursor: pointer;
+  color: var(--cais-text-secondary);
+  min-width: var(--cais-hit);
+  min-height: var(--cais-hit);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pix-qr-box {
+  background-color: var(--cais-surface-sunken);
+  border: 1px dashed var(--cais-border-strong);
+  border-radius: var(--cais-radius-md);
+  padding: var(--cais-space-4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--cais-space-3);
+}
+
+.pix-qr-sim {
+  width: 180px;
+  height: 180px;
+  background-color: var(--cais-surface);
+  border: 1px solid var(--cais-border);
+  border-radius: var(--cais-radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--cais-shadow-1);
+}
+
+.pix-copy-input-group {
+  display: flex;
+  width: 100%;
+  gap: var(--cais-space-2);
+}
+
+.pix-code-field {
+  flex: 1;
+  background-color: var(--cais-surface);
+  border: 1px solid var(--cais-border);
+  border-radius: var(--cais-radius-sm);
+  padding: var(--cais-space-2);
+  font-family: var(--cais-font-mono);
+  font-size: var(--cais-fs-xs);
+  color: var(--cais-text-secondary);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.btn-copy-pix {
+  background-color: var(--cais-accent);
+  color: var(--cais-on-accent);
+  border: none;
+  border-radius: var(--cais-radius-sm);
+  padding: 0 var(--cais-space-3);
+  font-size: var(--cais-fs-xs);
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: var(--cais-space-1);
+  min-height: var(--cais-hit);
+}
+
+/* ==========================================================================
+   TELA 2: PAINEL DE BALCÃO DA MARINA (cais-painel-os)
+   ========================================================================== */
+
+.admin-view {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--cais-space-4);
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--cais-space-3);
+  border-bottom: 1px solid var(--cais-border);
+  padding-bottom: var(--cais-space-4);
+}
+
+.admin-title-group h1 {
+  font-size: var(--cais-fs-2xl);
+  font-weight: 700;
+  color: var(--cais-accent);
+}
+
+.admin-title-group p {
+  font-size: var(--cais-fs-sm);
+  color: var(--cais-text-secondary);
+}
+
+/* Bento Grid */
+.bento-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--cais-space-3);
+}
+
+.bento-stat-card {
+  background-color: var(--cais-surface);
+  border: 1px solid var(--cais-border);
+  border-radius: var(--cais-radius-md);
+  padding: var(--cais-space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--cais-space-1);
+}
+
+.stat-label {
+  font-size: var(--cais-fs-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--cais-text-secondary);
+}
+
+.stat-value {
+  font-family: var(--cais-font-mono);
+  font-size: var(--cais-fs-2xl);
+  font-weight: 700;
+  color: var(--cais-text);
+}
+
+/* Tabela de Ordens */
+.table-card {
+  background-color: var(--cais-surface);
+  border: 1px solid var(--cais-border);
+  border-radius: var(--cais-radius-md);
+  overflow: hidden;
+  box-shadow: var(--cais-shadow-1);
+}
+
+.table-toolbar {
+  padding: var(--cais-space-3) var(--cais-space-4);
+  border-bottom: 1px solid var(--cais-border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--cais-space-2);
+}
+
+.search-input {
+  background-color: var(--cais-surface-sunken);
+  border: 1px solid var(--cais-border);
+  border-radius: var(--cais-radius-pill);
+  padding: var(--cais-space-1) var(--cais-space-3);
+  font-size: var(--cais-fs-sm);
+  color: var(--cais-text);
+  min-width: 260px;
+}
+
+.cais-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: var(--cais-fs-sm);
+}
+
+.cais-table th {
+  background-color: var(--cais-surface-sunken);
+  padding: var(--cais-space-3) var(--cais-space-4);
+  font-size: var(--cais-fs-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--cais-text-secondary);
+  border-bottom: 1px solid var(--cais-border);
+}
+
+.cais-table td {
+  padding: var(--cais-space-3) var(--cais-space-4);
+  border-bottom: 1px solid var(--cais-border);
+  vertical-align: middle;
+}
+
+.cais-table tr:last-child td {
+  border-bottom: none;
+}
+
+.cais-table tr:hover td {
+  background-color: var(--cais-surface-sunken);
+}
+
+.os-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--cais-space-1);
+  padding: 2px var(--cais-space-2);
+  border-radius: var(--cais-radius-pill);
+  font-size: var(--cais-fs-xs);
+  font-weight: 600;
+}
+
+.os-tag.pending {
+  background-color: var(--cais-os-pending-bg);
+  color: var(--cais-os-pending-fg);
+}
+
+.os-tag.progress {
+  background-color: var(--cais-os-progress-bg);
+  color: var(--cais-os-progress-fg);
+}
+
+.os-tag.done {
+  background-color: var(--cais-os-done-bg);
+  color: var(--cais-os-done-fg);
+}
+
+.os-tag.cancelled {
+  background-color: var(--cais-os-cancelled-bg);
+  color: var(--cais-os-cancelled-fg);
+}
+
+.btn-icon-action {
+  background: transparent;
+  border: 1px solid var(--cais-border);
+  border-radius: var(--cais-radius-sm);
+  padding: var(--cais-space-1) var(--cais-space-2);
+  cursor: pointer;
+  font-size: var(--cais-fs-xs);
+  font-weight: 600;
+  color: var(--cais-text);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.btn-icon-action:hover {
+  background-color: var(--cais-surface-sunken);
+}
+
+/* Toast de Notificação Tátil (Design Spells) */
+.cais-toast-notification {
+  position: fixed;
+  bottom: var(--cais-space-5);
+  right: var(--cais-space-5);
+  background-color: var(--cais-text);
+  color: var(--cais-bg);
+  padding: var(--cais-space-3) var(--cais-space-5);
+  border-radius: var(--cais-radius-pill);
+  font-size: var(--cais-fs-sm);
+  font-weight: 600;
+  box-shadow: var(--cais-shadow-2);
+  z-index: 300;
+  display: none;
+  opacity: 0;
+  transition: opacity var(--cais-motion-base) var(--cais-ease);
+}
+
+/* Suporte Acessível a Movimento Reduzido (WCAG 2.2 AA) */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Modo Limpo (Dispositivo Real / Sem Toolbar para Capturas de Evidência) */
+body.pure-view .proto-toolbar {
+  display: none !important;
+}
+
+body.pure-view .stage-container {
+  padding: 0 !important;
+}
+
+body.pure-view .device-wrapper {
+  max-width: 100% !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+/* ==========================================================================
+   VISÃO 1: WHATSAPP DO CLIENTE (MOBILE 390PX)
+   ========================================================================== */
+.whatsapp-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--cais-surface-sunken);
+  font-family: var(--cais-font-sans);
+}
+
+.whatsapp-header {
+  background-color: var(--cais-accent);
+  color: var(--cais-on-accent);
+  padding: var(--cais-space-3) var(--cais-space-4);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  box-shadow: var(--cais-shadow-1);
+}
+
+.wa-btn-icon {
+  background: transparent;
+  border: none;
+  color: var(--cais-on-accent);
+  font-size: var(--cais-fs-lg);
+  cursor: pointer;
+  padding: 0 var(--cais-space-1);
+}
+
+.wa-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--cais-radius-pill);
+  background-color: var(--cais-surface);
+  color: var(--cais-accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--cais-fs-lg);
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.wa-contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.wa-contact-name {
+  font-weight: 700;
+  font-size: var(--cais-fs-sm);
+  display: flex;
+  align-items: center;
+  gap: var(--cais-space-1);
+}
+
+.wa-verified-badge {
+  background-color: var(--cais-positive);
+  color: var(--cais-surface);
+  font-size: 10px;
+  padding: 1px 4px;
+  border-radius: var(--cais-radius-pill);
+}
+
+.wa-contact-status {
+  font-size: var(--cais-fs-xs);
+  opacity: 0.85;
+}
+
+.wa-header-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--cais-space-3);
+  font-size: var(--cais-fs-md);
+}
+
+.wa-action-icon {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.whatsapp-chat-canvas {
+  flex: 1;
+  padding: var(--cais-space-4) var(--cais-space-3);
+  display: flex;
+  flex-direction: column;
+  gap: var(--cais-space-3);
+  background-color: var(--cais-bg);
+}
+
+.wa-date-pill {
+  align-self: center;
+  background-color: var(--cais-surface);
+  border: 1px solid var(--cais-border);
+  border-radius: var(--cais-radius-pill);
+  padding: 2px var(--cais-space-3);
+  font-size: var(--cais-fs-xs);
+  font-weight: 600;
+  color: var(--cais-text-secondary);
+  box-shadow: var(--cais-shadow-1);
+}
+
+.wa-message-bubble {
+  max-width: 88%;
+  padding: var(--cais-space-3);
+  border-radius: var(--cais-radius-md);
+  font-size: var(--cais-fs-sm);
+  line-height: var(--cais-lh-body);
+  box-shadow: var(--cais-shadow-1);
+  position: relative;
+}
+
+.wa-message-bubble.incoming {
+  align-self: flex-start;
+  background-color: var(--cais-surface);
+  color: var(--cais-text);
+  border-top-left-radius: var(--cais-radius-sm);
+}
+
+.wa-message-bubble.outgoing {
+  align-self: flex-end;
+  background-color: var(--cais-positive-bg);
+  color: var(--cais-text);
+  border-top-right-radius: var(--cais-radius-sm);
+}
+
+.wa-sender-label {
+  font-size: var(--cais-fs-xs);
+  font-weight: 700;
+  color: var(--cais-accent);
+  margin-bottom: var(--cais-space-1);
+}
+
+.wa-msg-text {
+  margin-bottom: var(--cais-space-2);
+}
+
+.wa-msg-meta {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 4px;
+  font-size: 10px;
+  color: var(--cais-text-secondary);
+  margin-top: 2px;
+}
+
+.wa-checkmarks {
+  color: var(--cais-accent);
+}
+
+.wa-checkmarks.wa-read {
+  color: var(--cais-focus);
+}
+
+/* Card Interativo do WhatsApp */
+.wa-interactive-card {
+  background-color: var(--cais-surface-sunken);
+  border: 1px solid var(--cais-border);
+  border-radius: var(--cais-radius-md);
+  overflow: hidden;
+  margin: var(--cais-space-2) 0;
+  cursor: pointer;
+  transition: transform var(--cais-motion-fast) var(--cais-ease);
+}
+
+.wa-interactive-card:hover {
+  border-color: var(--cais-accent);
+}
+
+.wa-card-badge {
+  background-color: var(--cais-accent);
+  color: var(--cais-on-accent);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 4px var(--cais-space-3);
+  text-transform: uppercase;
+}
+
+.wa-card-hero {
+  background-color: var(--cais-surface);
+  padding: var(--cais-space-3);
+  display: flex;
+  align-items: center;
+  gap: var(--cais-space-3);
+  border-bottom: 1px solid var(--cais-border);
+}
+
+.wa-card-hero-icon {
+  font-size: var(--cais-fs-2xl);
+}
+
+.wa-card-title {
+  font-weight: 700;
+  font-size: var(--cais-fs-sm);
+  color: var(--cais-text);
+}
+
+.wa-card-subtitle {
+  font-size: var(--cais-fs-xs);
+  color: var(--cais-text-secondary);
+}
+
+.wa-card-details {
+  padding: var(--cais-space-3);
+  display: flex;
+  flex-direction: column;
+  gap: var(--cais-space-1);
+  font-size: var(--cais-fs-xs);
+}
+
+.wa-card-detail-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wa-card-footer {
+  padding: var(--cais-space-2) var(--cais-space-3);
+  background-color: var(--cais-surface);
+  border-top: 1px solid var(--cais-border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wa-link-text {
+  font-size: 11px;
+  color: var(--cais-accent);
+  font-family: var(--cais-font-mono);
+}
+
+.wa-card-btn {
+  background-color: var(--cais-accent);
+  color: var(--cais-on-accent);
+  border: none;
+  border-radius: var(--cais-radius-sm);
+  padding: var(--cais-space-1) var(--cais-space-2);
+  font-size: var(--cais-fs-xs);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Footer do WhatsApp */
+.whatsapp-footer {
+  background-color: var(--cais-surface);
+  border-top: 1px solid var(--cais-border);
+  padding: var(--cais-space-2) var(--cais-space-3);
+  display: flex;
+  align-items: center;
+  gap: var(--cais-space-2);
+  position: sticky;
+  bottom: 0;
+  z-index: 50;
+}
+
+.wa-input-icon {
+  font-size: var(--cais-fs-lg);
+  cursor: pointer;
+  color: var(--cais-text-secondary);
+}
+
+.wa-input-mock {
+  flex: 1;
+  background-color: var(--cais-surface-sunken);
+  border: 1px solid var(--cais-border);
+  border-radius: var(--cais-radius-pill);
+  padding: var(--cais-space-2) var(--cais-space-3);
+  font-size: var(--cais-fs-sm);
+  color: var(--cais-text-secondary);
+}
+
+.wa-mic-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: var(--cais-radius-pill);
+  background-color: var(--cais-accent);
+  color: var(--cais-on-accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--cais-fs-sm);
+}
+
+/* ==========================================================================
+   VISÃO 3: MECÂNICO NO PIER / TABLET (768PX)
+   ========================================================================== */
+.mechanic-tablet-view {
+  background-color: var(--cais-bg);
+  min-height: 100vh;
+  padding: var(--cais-space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--cais-space-4);
+  width: 100%;
+}
+
+.mechanic-header {
+  background-color: var(--cais-surface);
+  border: 1px solid var(--cais-border);
+  border-radius: var(--cais-radius-md);
+  padding: var(--cais-space-4);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--cais-space-2);
+}
+
+.mechanic-brand {
+  display: flex;
+  align-items: center;
+  gap: var(--cais-space-3);
+}
+
+.mechanic-badge-profile {
+  background-color: var(--cais-surface-sunken);
+  border: 1px solid var(--cais-border);
+  padding: var(--cais-space-1) var(--cais-space-3);
+  border-radius: var(--cais-radius-pill);
+  font-size: var(--cais-fs-xs);
+  font-weight: 600;
+  color: var(--cais-text);
+}
+
+.mechanic-boat-card {
+  background-color: var(--cais-surface);
+  border: 1px solid var(--cais-border);
+  border-radius: var(--cais-radius-md);
+  padding: var(--cais-space-4);
+}
+
+.mechanic-telemetry-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: var(--cais-space-3);
+  margin-top: var(--cais-space-3);
+  padding-top: var(--cais-space-3);
+  border-top: 1px dashed var(--cais-border);
+}
+
+.mechanic-telemetry-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.telemetry-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--cais-text-secondary);
+  text-transform: uppercase;
+}
+
+.telemetry-val {
+  font-family: var(--cais-font-mono);
+  font-size: var(--cais-fs-sm);
+  font-weight: 700;
+  color: var(--cais-text);
+}
+
+.mechanic-checklist-card, .mechanic-evidences-card {
+  background-color: var(--cais-surface);
+  border: 1px solid var(--cais-border);
+  border-radius: var(--cais-radius-md);
+  padding: var(--cais-space-4);
+}
+
+.mechanic-checklist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--cais-space-2);
+}
+
+.mechanic-check-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--cais-space-2) var(--cais-space-3);
+  border: 1px solid var(--cais-border);
+  border-radius: var(--cais-radius-sm);
+  background-color: var(--cais-surface);
+}
+
+.check-index {
+  font-family: var(--cais-font-mono);
+  font-size: var(--cais-fs-xs);
+  font-weight: 700;
+  color: var(--cais-text-secondary);
+  width: 20px;
+}
+
+.badge-status-pill {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: var(--cais-radius-pill);
+}
+
+.badge-status-pill.status-ok {
+  background-color: var(--cais-positive-bg);
+  color: var(--cais-positive);
+}
+
+.badge-status-pill.status-alerta {
+  background-color: var(--cais-warning-bg);
+  color: var(--cais-warning);
+}
+
+.badge-status-pill.status-critico {
+  background-color: var(--cais-negative-bg);
+  color: var(--cais-negative);
+}
+
+.mechanic-action-bar {
+  background-color: var(--cais-surface);
+  border: 1px solid var(--cais-border);
+  border-radius: var(--cais-radius-md);
+  padding: var(--cais-space-4);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--cais-space-3);
+}
+
+/* --------------------------------------------------------------------------
+   GÊMEO DIGITAL NÁUTICO: Blueprint SVG e Hotspots Interativos (Fase 3)
+   -------------------------------------------------------------------------- */
+
+.blueprint-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.blueprint-svg-wrap {
+  position: relative;
+  width: 100%;
+  height: 190px;
+  background-color: var(--cais-surface-sunken);
+  border: 1px solid var(--cais-border);
+  border-radius: var(--cais-radius-md);
+  margin-top: var(--cais-space-2);
+  margin-bottom: var(--cais-space-3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.blueprint-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.blueprint-hotspot-btn {
+  position: absolute;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  width: var(--cais-hit);
+  height: var(--cais-hit);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+  outline: none;
+  z-index: 10;
+}
+
+.blueprint-hotspot-btn.hs-1 {
+  left: 23%;
+  top: 56%;
+}
+
+.blueprint-hotspot-btn.hs-2 {
+  left: 11%;
+  top: 73%;
+}
+
+.blueprint-hotspot-btn.hs-3 {
+  left: 48%;
+  top: 58%;
+}
+
+.hs-circle {
+  width: 24px;
+  height: 24px;
+  border-radius: var(--cais-radius-pill);
+  font-family: var(--cais-font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid var(--cais-surface);
+  box-shadow: var(--cais-shadow-1);
+  transition: transform var(--cais-motion-fast) var(--cais-ease);
+}
+
+.blueprint-hotspot-btn:focus .hs-circle,
+.blueprint-hotspot-btn.active .hs-circle {
+  transform: scale(1.25);
+  box-shadow: 0 0 0 3px var(--cais-focus);
+}
+
+.circle-critical {
+  background-color: var(--cais-negative);
+  color: var(--cais-surface);
+}
+
+.circle-warning {
+  background-color: var(--cais-warning);
+  color: var(--cais-surface);
+}
+
+.circle-ok {
+  background-color: var(--cais-positive);
+  color: var(--cais-surface);
+}
+
+.hs-ping {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  border-radius: var(--cais-radius-pill);
+  animation: cais-ping 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+  pointer-events: none;
+}
+
+.ping-critical {
+  background-color: var(--cais-negative);
+  opacity: 0.4;
+}
+
+.ping-warning {
+  background-color: var(--cais-warning);
+  opacity: 0.4;
+}
+
+@keyframes cais-ping {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.hotspot-forensic-panel {
+  background-color: var(--cais-surface-sunken);
+  border: 1px solid var(--cais-border);
+  border-radius: var(--cais-radius-md);
+  padding: var(--cais-space-3);
+  margin-top: var(--cais-space-2);
+}
+
+.hs-metric-box {
+  background-color: var(--cais-surface);
+  border: 1px solid var(--cais-border);
+  border-radius: var(--cais-radius-sm);
+  padding: var(--cais-space-2);
+  margin: var(--cais-space-2) 0;
+}
+
+.hs-metric-track {
+  width: 100%;
+  height: 6px;
+  background-color: var(--cais-border);
+  border-radius: var(--cais-radius-pill);
+  overflow: hidden;
+}
+
+.hs-metric-bar {
+  height: 100%;
+  border-radius: var(--cais-radius-pill);
+  transition: width var(--cais-motion-slow) var(--cais-ease);
+}
+

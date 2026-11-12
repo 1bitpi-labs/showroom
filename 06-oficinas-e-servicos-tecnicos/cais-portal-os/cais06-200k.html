@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CAIS 06 OS — Marina Imperial Enterprise ($200k Benchmark)</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #060911;
+      color: #F8FAFC;
+      background-image: 
+        radial-gradient(at 15% 10%, rgba(14, 165, 233, 0.09) 0px, transparent 45%),
+        radial-gradient(at 85% 20%, rgba(245, 158, 11, 0.06) 0px, transparent 40%),
+        linear-gradient(to bottom, rgba(15, 23, 42, 0.4) 1px, transparent 1px),
+        linear-gradient(to right, rgba(15, 23, 42, 0.4) 1px, transparent 1px);
+      background-size: 100% 100%, 100% 100%, 40px 40px, 40px 40px;
+    }
+    .mono { font-family: 'JetBrains Mono', monospace; font-variant-numeric: tabular-nums; }
+    .glass {
+      background: rgba(15, 23, 42, 0.65);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .glass-elevated {
+      background: linear-gradient(145deg, rgba(30, 41, 59, 0.7) 0%, rgba(15, 23, 42, 0.85) 100%);
+      backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+    .pulse-ring {
+      animation: pulse-ring 2s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+    }
+    @keyframes pulse-ring {
+      0% { transform: scale(0.8); opacity: 0.9; }
+      80%, 100% { transform: scale(2.4); opacity: 0; }
+    }
+  </style>
+</head>
+<body class="min-h-screen antialiased selection:bg-sky-500/30 selection:text-sky-200">
+
+  <!-- TOP TELEMETRY BAR -->
+  <header class="sticky top-0 z-40 glass border-b border-white/10 px-6 py-3">
+    <div class="max-w-[1600px] mx-auto flex flex-wrap items-center justify-between gap-4">
+      <div class="flex items-center gap-4">
+        <div class="flex items-center gap-2.5">
+          <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-sky-400 to-blue-600 flex items-center justify-center shadow-lg shadow-sky-500/20">
+            <i data-lucide="anchor" class="w-5 h-5 text-white"></i>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="font-bold tracking-tight text-white text-sm">CAIS 06</span>
+              <span class="text-[10px] mono uppercase px-2 py-0.5 rounded-full bg-sky-500/15 text-sky-400 border border-sky-500/30">Maritime OS v4.2</span>
+            </div>
+            <p class="text-xs text-slate-400">Marina Imperial • Rio Juqueriquerê, Caraguatatuba-SP</p>
+          </div>
+        </div>
+
+        <div class="hidden xl:flex items-center gap-6 pl-6 border-l border-white/10 text-xs">
+          <div class="flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            <span class="text-slate-400">Maré / Canal:</span>
+            <span class="mono text-slate-200 font-medium">1.4m Enchente • 18 nós NE</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <i data-lucide="cpu" class="w-3.5 h-3.5 text-sky-400"></i>
+            <span class="text-slate-400">Elevador 12t:</span>
+            <span class="mono text-amber-400">Ocupado (Vaga G-14)</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- VIEW SWITCHER -->
+      <div class="flex items-center gap-2 bg-slate-950/80 p-1 rounded-xl border border-white/10">
+        <button onclick="switchMode('split')" id="btn-split" class="px-3 py-1.5 rounded-lg text-xs font-medium bg-sky-500 text-slate-950 shadow transition">
+          Visão Dupla (Ecossistema Ao Vivo)
+        </button>
+        <button onclick="switchMode('erp')" id="btn-erp" class="px-3 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-white transition">
+          Command Center (Marina/Técnico)
+        </button>
+        <button onclick="switchMode('client')" id="btn-client" class="px-3 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-white transition">
+          App VIP do Proprietário (Mobile)
+        </button>
+      </div>
+
+      <!-- LIVE AUDIT STATUS -->
+      <div class="hidden md:flex items-center gap-3">
+        <div class="text-right">
+          <div class="flex items-center justify-end gap-1.5 text-xs font-medium text-emerald-400">
+            <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></span>
+            <span>Sessão do Cliente Ativa</span>
+          </div>
+          <p class="text-[11px] mono text-slate-400">Dr. Roberto abriu o laudo há 42s • IP 189.44.x.x</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN WORKSPACE -->
+  <main class="max-w-[1600px] mx-auto p-6 grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+
+    <!-- LEFT/CENTER: MARINA COMMAND CENTER & DIGITAL TWIN (8 COLS) -->
+    <section id="panel-erp" class="lg:col-span-8 space-y-6">
+
+      <!-- KPI STRIP -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+        <div class="glass rounded-2xl p-4 relative overflow-hidden group">
+          <div class="flex items-center justify-between text-xs text-slate-400 mb-2">
+            <span>Receita em Aprovação</span>
+            <i data-lucide="clock" class="w-4 h-4 text-amber-400"></i>
+          </div>
+          <div id="kpi-pending" class="text-2xl font-bold mono text-white">R$ 6.100,00</div>
+          <div class="mt-2 flex items-center justify-between text-[11px]">
+            <span class="text-amber-400 font-medium">1 Embarcação crítica</span>
+            <span class="mono text-slate-500">SLA: 18min</span>
+          </div>
+        </div>
+
+        <div class="glass rounded-2xl p-4">
+          <div class="flex items-center justify-between text-xs text-slate-400 mb-2">
+            <span>Supply Chain / Peças OEM</span>
+            <i data-lucide="package-check" class="w-4 h-4 text-sky-400"></i>
+          </div>
+          <div class="text-2xl font-bold mono text-white">R$ 2.670,00</div>
+          <div class="mt-2 flex items-center justify-between text-[11px]">
+            <span class="text-sky-400">Mercury Marine Brasil</span>
+            <span class="mono text-emerald-400">Em estoque</span>
+          </div>
+        </div>
+
+        <div class="glass rounded-2xl p-4">
+          <div class="flex items-center justify-between text-xs text-slate-400 mb-2">
+            <span>Boxes & Elevador 12t</span>
+            <i data-lucide="wrench" class="w-4 h-4 text-indigo-400"></i>
+          </div>
+          <div class="text-2xl font-bold mono text-white">85% <span class="text-xs font-normal text-slate-400">Ocupado</span></div>
+          <div class="mt-2 flex items-center justify-between text-[11px]">
+            <span class="text-slate-300">3 técnicos ativos</span>
+            <span class="mono text-slate-400">2 na rampa</span>
+          </div>
+        </div>
+
+        <div class="glass rounded-2xl p-4">
+          <div class="flex items-center justify-between text-xs text-slate-400 mb-2">
+            <span>Índice de Confiança Pericial</span>
+            <i data-lucide="shield-check" class="w-4 h-4 text-emerald-400"></i>
+          </div>
+          <div class="text-2xl font-bold mono text-emerald-400">100% <span class="text-xs font-normal text-slate-400">Auditado</span></div>
+          <div class="mt-2 flex items-center justify-between text-[11px]">
+            <span class="text-slate-400">Hash ICP-Brasil / LGPD</span>
+            <span class="mono text-slate-300">SHA-256</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- VESSEL DIGITAL TWIN & TELEMETRY INSPECTOR -->
+      <div class="glass-elevated rounded-3xl p-6 space-y-6">
+        <div class="flex flex-wrap items-start justify-between gap-4 border-b border-white/10 pb-5">
+          <div>
+            <div class="flex items-center gap-2.5 mb-1">
+              <span class="px-2.5 py-0.5 rounded-md text-[11px] mono font-semibold bg-rose-500/15 text-rose-400 border border-rose-500/30">
+                CRÍTICO • RISCO DE SUPERAQUECIMENTO
+              </span>
+              <span class="mono text-xs text-slate-400">OS #OS-2026-089 (v1)</span>
+              <span class="text-slate-600">•</span>
+              <span class="mono text-xs text-sky-400">Galpão Seco 02 — Vaga G-14</span>
+            </div>
+            <h1 class="text-2xl font-bold tracking-tight text-white">Lancha Schaefer Phantom 303</h1>
+            <p class="text-xs text-slate-400 mt-0.5">
+              Propulsão: <strong class="text-slate-200">Mercruiser 350 MAG MPI 6.2L V8 (300HP)</strong> • Rabeta <strong class="text-slate-200">Bravo Three (Duoprop)</strong> • Cap. Portos SP: <span class="mono text-slate-300">381-998273-1</span>
+            </p>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <div class="text-right px-3 py-1.5 rounded-xl bg-slate-900/90 border border-white/10">
+              <div class="text-[10px] uppercase tracking-wider text-slate-400">Horímetro</div>
+              <div class="mono text-sm font-semibold text-white">342.4 hrs <span class="text-amber-400 text-[11px]">(Rev. 300h)</span></div>
+            </div>
+            <div class="text-right px-3 py-1.5 rounded-xl bg-slate-900/90 border border-white/10">
+              <div class="text-[10px] uppercase tracking-wider text-slate-400">Master Tech</div>
+              <div class="text-sm font-semibold text-sky-400">Wanderley S. <span class="mono text-[11px] text-slate-400">#4491</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- INTERACTIVE BLUEPRINT + DIAGNOSTIC DETAIL -->
+        <div class="grid grid-cols-1 xl:grid-cols-12 gap-6 items-center">
+          <!-- DIGITAL TWIN SVG -->
+          <div class="xl:col-span-7 relative rounded-2xl bg-slate-950/90 border border-sky-500/20 p-5 overflow-hidden">
+            <div class="flex items-center justify-between text-[11px] mono text-slate-400 mb-3">
+              <span>BLUEPRINT TELEMÉTRICO • VISTA DE PERFIL E PROPULSÃO</span>
+              <span class="text-sky-400">Clique nos sensores para inspecionar</span>
+            </div>
+
+            <!-- STYLIZED YACHT SVG BLUEPRINT -->
+            <div class="relative h-52 flex items-center justify-center">
+              <svg viewBox="0 0 700 220" class="w-full h-full">
+                <defs>
+                  <linearGradient id="hullGrad" x1="0" y1="0" x2="1" y2="0">
+                    <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.15"/>
+                    <stop offset="70%" stop-color="#38bdf8" stop-opacity="0.35"/>
+                    <stop offset="100%" stop-color="#0284c7" stop-opacity="0.1"/>
+                  </linearGradient>
+                </defs>
+                <!-- Waterline grid -->
+                <line x1="20" y1="155" x2="680" y2="155" stroke="rgba(56,189,248,0.25)" stroke-dasharray="6 4" stroke-width="1"/>
+                <text x="30" y="170" fill="rgba(148,163,184,0.5)" font-size="9" font-family="JetBrains Mono">LINHA D'ÁGUA • CALADO 0.92m</text>
+
+                <!-- Hull Profile -->
+                <path d="M80,120 L210,75 L390,70 L520,105 L650,110 L595,155 L125,160 L95,145 Z" fill="url(#hullGrad)" stroke="#38bdf8" stroke-width="1.8"/>
+                <!-- Cabin/Windshield -->
+                <path d="M235,75 L315,42 L435,55 L485,103 Z" fill="rgba(56,189,248,0.08)" stroke="rgba(56,189,248,0.6)" stroke-width="1.2"/>
+                <!-- Internal Engine Bay Box -->
+                <rect x="115" y="108" width="95" height="42" rx="6" fill="rgba(244,63,94,0.12)" stroke="#f43f5e" stroke-width="1.2" stroke-dasharray="3 2"/>
+                <!-- Stern Drive (Rabeta Bravo Three) -->
+                <path d="M82,128 L55,145 L48,182 L78,182 L95,148 Z" fill="rgba(245,158,11,0.2)" stroke="#f59e0b" stroke-width="1.5"/>
+              </svg>
+
+              <!-- HOTSPOT 1: BOMBA DE ÁGUA SALGADA (CRITICAL) -->
+              <button onclick="selectHotspot('rotor')" class="absolute left-[23%] top-[56%] -translate-x-1/2 -translate-y-1/2 group focus:outline-none">
+                <span class="absolute -inset-2 rounded-full bg-rose-500/40 pulse-ring"></span>
+                <span class="relative w-6 h-6 rounded-full bg-rose-500 text-white text-xs mono font-bold flex items-center justify-center shadow-lg shadow-rose-500/50 border border-white">1</span>
+              </button>
+
+              <!-- HOTSPOT 2: RABETA BRAVO THREE (WARNING) -->
+              <button onclick="selectHotspot('rabeta')" class="absolute left-[11%] top-[73%] -translate-x-1/2 -translate-y-1/2 group focus:outline-none">
+                <span class="absolute -inset-2 rounded-full bg-amber-500/40 pulse-ring"></span>
+                <span class="relative w-6 h-6 rounded-full bg-amber-500 text-slate-950 text-xs mono font-bold flex items-center justify-center shadow-lg shadow-amber-500/50 border border-white">2</span>
+              </button>
+
+              <!-- HOTSPOT 3: BATERIAS & ELÉTRICA (OK) -->
+              <button onclick="selectHotspot('eletrica')" class="absolute left-[48%] top-[58%] -translate-x-1/2 -translate-y-1/2 group focus:outline-none">
+                <span class="relative w-6 h-6 rounded-full bg-emerald-500 text-slate-950 text-xs mono font-bold flex items-center justify-center shadow-lg shadow-emerald-500/40 border border-white">✓</span>
+              </button>
+            </div>
+
+            <div class="flex items-center justify-between text-[11px] pt-2 border-t border-white/5 text-slate-400">
+              <div class="flex items-center gap-4">
+                <span class="flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-rose-500"></span> 2 Falhas Críticas</span>
+                <span class="flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-amber-400"></span> 3 Atenções Preventivas</span>
+                <span class="flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-emerald-400"></span> 95 Pontos Conformes</span>
+              </div>
+              <span class="mono text-slate-500">100/100 Verificados</span>
+            </div>
+          </div>
+
+          <!-- ACTIVE HOTSPOT FORENSIC CARD -->
+          <div id="hotspot-detail" class="xl:col-span-5 rounded-2xl bg-slate-900/90 border border-rose-500/30 p-5 space-y-4">
+            <div class="flex items-center justify-between">
+              <span id="hs-badge" class="px-2.5 py-0.5 rounded text-[10px] mono font-semibold bg-rose-500/20 text-rose-300 border border-rose-500/30">
+                PONTO #01 • FALHA CRÍTICA
+              </span>
+              <span id="hs-part" class="mono text-xs text-slate-400">OEM #47-8M0104229</span>
+            </div>
+
+            <div>
+              <h3 id="hs-title" class="text-base font-bold text-white">Rotor da Bomba de Água Salgada (Impeller)</h3>
+              <p id="hs-desc" class="text-xs text-slate-300 mt-1 leading-relaxed">
+                3 pás de neoprene rompidas por ressecamento severo. Perda de 68% de vazão no trocador de calor acima de 3.200 RPM, disparando o alarme de 98°C relatado pelo proprietário.
+              </p>
+            </div>
+
+            <!-- VISUAL COMPARISON METER -->
+            <div class="p-3 rounded-xl bg-slate-950/90 border border-white/10 space-y-2">
+              <div class="flex justify-between text-[11px] mono">
+                <span class="text-slate-400">Capacidade de Arrefecimento Atual</span>
+                <span id="hs-metric" class="text-rose-400 font-semibold">32% (Crítico)</span>
+              </div>
+              <div class="w-full h-2 bg-slate-800 rounded-full overflow-hidden">
+                <div id="hs-bar" class="h-full bg-gradient-to-r from-rose-500 to-amber-500 w-[32%] transition-all duration-500"></div>
+              </div>
+              <div class="flex justify-between text-[10px] text-slate-500 mono">
+                <span>Temp. Pico Registrada: 98.4°C</span>
+                <span>Padrão Mercury: 79°C - 85°C</span>
+              </div>
+            </div>
+
+            <div class="flex items-center justify-between pt-2 border-t border-white/10 text-xs">
+              <div>
+                <span class="text-slate-400 block text-[11px]">Custo Peça + Mão de Obra Especializada</span>
+                <span id="hs-price" class="mono text-sm font-bold text-white">R$ 1.890,00</span>
+              </div>
+              <span class="text-[11px] mono text-emerald-400 bg-emerald-500/10 px-2.5 py-1 rounded-lg border border-emerald-500/20">
+                ✓ Foto Pericial Anexada
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- OPERATIONAL FLEET QUEUE -->
+      <div class="glass rounded-3xl p-6">
+        <div class="flex items-center justify-between mb-4">
+          <div>
+            <h2 class="text-base font-bold text-white">Quadro Operacional de Pátio & Governança</h2>
+            <p class="text-xs text-slate-400">Sincronizado em tempo real com o WhatsApp Business API & Gateway PIX</p>
+          </div>
+          <span class="mono text-xs text-slate-400">4 Ordens de Serviço Ativas</span>
+        </div>
+
+        <div class="overflow-x-auto">
+          <table class="w-full text-left border-collapse">
+            <thead>
+              <tr class="border-b border-white/10 text-[11px] mono uppercase text-slate-400">
+                <th class="py-3 px-3">OS / Embarcação</th>
+                <th class="py-3 px-3">Proprietário</th>
+                <th class="py-3 px-3">Cotação / PIX (-14%)</th>
+                <th class="py-3 px-3">Status Operacional</th>
+                <th class="py-3 px-3 text-right">Ação Instantânea</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-white/5 text-xs">
+              <tr class="bg-sky-500/5">
+                <td class="py-3.5 px-3">
+                  <div class="font-semibold text-white">Schaefer Phantom 303</div>
+                  <div class="mono text-[11px] text-sky-400">OS-2026-089 • Vaga G-14</div>
+                </td>
+                <td class="py-3.5 px-3">
+                  <div class="text-slate-200">Dr. Roberto de A. Silveira</div>
+                  <div class="mono text-[11px] text-emerald-400">● Visualizando no celular</div>
+                </td>
+                <td class="py-3.5 px-3 mono">
+                  <div class="text-slate-400 line-through text-[11px]">R$ 6.100,00</div>
+                  <div class="text-emerald-400 font-bold">R$ 5.245,00</div>
+                </td>
+                <td class="py-3.5 px-3">
+                  <span id="erp-status-badge" class="px-2.5 py-1 rounded-full text-[11px] mono font-medium bg-amber-500/15 text-amber-300 border border-amber-500/30">
+                    AGUARDANDO APROVAÇÃO
+                  </span>
+                </td>
+                <td class="py-3.5 px-3 text-right">
+                  <button onclick="triggerWhatsAppToast()" class="px-3 py-1.5 rounded-lg bg-sky-500/20 hover:bg-sky-500/30 text-sky-300 border border-sky-500/30 font-medium transition">
+                    Reenviar Link Seguro
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td class="py-3.5 px-3">
+                  <div class="font-semibold text-white">Cimitarra 360 Fly</div>
+                  <div class="mono text-[11px] text-slate-400">OS-2026-088 • Box Mecânico 01</div>
+                </td>
+                <td class="py-3.5 px-3 text-slate-300">Márcio Toledo</td>
+                <td class="py-3.5 px-3 mono font-semibold text-slate-200">R$ 2.470,00</td>
+                <td class="py-3.5 px-3">
+                  <span class="px-2.5 py-1 rounded-full text-[11px] mono bg-sky-500/15 text-sky-300 border border-sky-500/30">
+                    EM EXECUÇÃO (65%)
+                  </span>
+                </td>
+                <td class="py-3.5 px-3 text-right mono text-slate-400">Entrega: Hoje 16h</td>
+              </tr>
+              <tr>
+                <td class="py-3.5 px-3">
+                  <div class="font-semibold text-white">Focker 242 GTO</div>
+                  <div class="mono text-[11px] text-slate-400">OS-2026-085 • Píer de Teste</div>
+                </td>
+                <td class="py-3.5 px-3 text-slate-300">Carlos Eduardo Mendes</td>
+                <td class="py-3.5 px-3 mono font-semibold text-emerald-400">R$ 1.650,00 (Pago)</td>
+                <td class="py-3.5 px-3">
+                  <span class="px-2.5 py-1 rounded-full text-[11px] mono bg-emerald-500/15 text-emerald-300 border border-emerald-500/30">
+                    PRONTO P/ TESTE DE RIO
+                  </span>
+                </td>
+                <td class="py-3.5 px-3 text-right mono text-emerald-400">Assinado SHA-256</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- RIGHT: CLIENT LUXURY MOBILE PORTAL (4 COLS) -->
+    <aside id="panel-client" class="lg:col-span-4 flex justify-center">
+      <div class="w-full max-w-[410px] rounded-[40px] p-3 bg-gradient-to-b from-slate-700/60 via-slate-800/40 to-slate-900/90 shadow-2xl border border-white/15">
+        <div class="bg-[#080D1A] rounded-[32px] overflow-hidden border border-white/10">
+
+          <!-- MOBILE STATUS BAR -->
+          <div class="px-6 pt-3 pb-2 flex items-center justify-between text-[11px] mono text-slate-400">
+            <span>09:42</span>
+            <span class="px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 text-[10px]">● Link Pericial Criptografado</span>
+            <span>5G 100%</span>
+          </div>
+
+          <!-- HERO VESSEL CARD -->
+          <div class="p-5 bg-gradient-to-b from-sky-950/60 to-transparent border-b border-white/10">
+            <div class="flex items-center justify-between text-xs text-sky-400 mb-1">
+              <span class="font-semibold tracking-wide uppercase text-[10px]">Marina Imperial • Laudo Oficial</span>
+              <span class="mono text-[11px]">#OS-2026-089</span>
+            </div>
+            <h2 class="text-xl font-bold text-white">Schaefer Phantom 303</h2>
+            <p class="text-xs text-slate-400 mt-0.5">Olá, <strong class="text-slate-200">Dr. Roberto</strong>. Seu diagnóstico de 100 pontos foi concluído por Wanderley Santos.</p>
+
+            <!-- TELEMETRY PILLS -->
+            <div class="grid grid-cols-3 gap-2 mt-4">
+              <div class="p-2.5 rounded-xl bg-slate-900/90 border border-white/10 text-center">
+                <div class="text-[10px] text-slate-400">Horímetro</div>
+                <div class="mono text-xs font-bold text-white mt-0.5">342.4h</div>
+              </div>
+              <div class="p-2.5 rounded-xl bg-slate-900/90 border border-white/10 text-center">
+                <div class="text-[10px] text-slate-400">Saúde Geral</div>
+                <div class="mono text-xs font-bold text-amber-400 mt-0.5">95 / 100</div>
+              </div>
+              <div class="p-2.5 rounded-xl bg-slate-900/90 border border-white/10 text-center">
+                <div class="text-[10px] text-slate-400">Previsão</div>
+                <div class="mono text-xs font-bold text-emerald-400 mt-0.5">Amanhã 14h</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- MOBILE BODY -->
+          <div class="p-5 space-y-4">
+
+            <!-- CRITICAL FINDING SUMMARY -->
+            <div class="p-3.5 rounded-2xl bg-rose-500/10 border border-rose-500/25 space-y-1.5">
+              <div class="flex items-center justify-between">
+                <span class="text-[11px] font-bold text-rose-300 uppercase tracking-wider">Causa do Alarme de Temperatura</span>
+                <span class="mono text-[10px] text-rose-400">2 Itens Críticos</span>
+              </div>
+              <p class="text-xs text-slate-300 leading-relaxed">
+                Identificamos ruptura em 3 pás do <strong>Rotor da Bomba de Água Salgada</strong> e emulsão inicial no óleo da <strong>Rabeta Bravo Three</strong>.
+              </p>
+            </div>
+
+            <!-- INTERACTIVE SCOPE SELECTOR -->
+            <div class="space-y-2">
+              <div class="flex items-center justify-between text-xs">
+                <span class="font-semibold text-slate-200">Escopo de Intervenção</span>
+                <span class="text-[11px] text-slate-400">Personalize sua aprovação</span>
+              </div>
+
+              <!-- Mandatory Item -->
+              <label class="flex items-start justify-between p-3 rounded-xl bg-slate-900/90 border border-sky-500/30 cursor-not-allowed">
+                <div class="flex items-start gap-2.5">
+                  <input type="checkbox" checked disabled class="mt-1 accent-sky-500 rounded" />
+                  <div>
+                    <div class="text-xs font-semibold text-white">Kit Bomba de Água + Retentor Rabeta</div>
+                    <div class="text-[11px] text-rose-400">Obrigatório p/ segurança de navegação</div>
+                  </div>
+                </div>
+                <span class="mono text-xs font-semibold text-white">R$ 4.600</span>
+              </label>
+
+              <!-- Optional Preventive Item -->
+              <label class="flex items-start justify-between p-3 rounded-xl bg-slate-900/60 border border-white/10 cursor-pointer hover:border-white/25 transition">
+                <div class="flex items-start gap-2.5">
+                  <input id="opt-anodos" type="checkbox" checked onchange="recalculateTotal()" class="mt-1 accent-sky-500 rounded" />
+                  <div>
+                    <div class="text-xs font-semibold text-white">Troca Preventiva Kit Anodos + Filtros Racor</div>
+                    <div class="text-[11px] text-amber-400">Recomendado (Desgaste em 65%)</div>
+                  </div>
+                </div>
+                <span class="mono text-xs font-semibold text-slate-200">R$ 1.500</span>
+              </label>
+            </div>
+
+            <!-- FINANCIAL SUMMARY & PIX DISCOUNT -->
+            <div class="p-4 rounded-2xl bg-gradient-to-br from-slate-900 to-slate-950 border border-emerald-500/30 space-y-2">
+              <div class="flex items-center justify-between text-xs text-slate-400">
+                <span>Total Faturado (Cartão 3x)</span>
+                <span id="client-raw-total" class="mono line-through">R$ 6.100,00</span>
+              </div>
+              <div class="flex items-baseline justify-between">
+                <div>
+                  <span class="text-xs font-semibold text-emerald-400 block">Valor Exclusivo PIX (-14%)</span>
+                  <span class="text-[10px] text-slate-400">Peças originais reservadas no estoque</span>
+                </div>
+                <span id="client-pix-total" class="mono text-xl font-bold text-white">R$ 5.245,00</span>
+              </div>
+            </div>
+
+            <!-- 1-CLICK APPROVAL BUTTON -->
+            <button id="btn-approve-client" onclick="approveOrder()" class="w-full py-3.5 px-4 rounded-2xl bg-gradient-to-r from-emerald-400 to-teal-500 hover:from-emerald-300 hover:to-teal-400 text-slate-950 font-bold text-xs uppercase tracking-wider shadow-lg shadow-emerald-500/25 transition flex items-center justify-center gap-2">
+              <i data-lucide="fingerprint" class="w-4 h-4"></i>
+              <span>Aprovar Escopo & Gerar PIX Seguro</span>
+            </button>
+
+            <div class="text-center">
+              <p class="text-[10px] mono text-slate-500">
+                Assinatura Digital c/ validade jurídica • Hash #9F8A-77C1
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </aside>
+
+  </main>
+
+  <!-- TOAST NOTIFICATION -->
+  <div id="toast" class="fixed bottom-6 right-6 z-50 hidden transform transition-all duration-300">
+    <div class="glass-elevated rounded-2xl px-5 py-4 border border-emerald-500/40 flex items-center gap-3.5 max-w-md">
+      <div class="w-9 h-9 rounded-xl bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center text-emerald-400 shrink-0">
+        <i data-lucide="check-circle-2" class="w-5 h-5"></i>
+      </div>
+      <div>
+        <h4 id="toast-title" class="text-xs font-bold text-white">Ordem de Serviço Aprovada!</h4>
+        <p id="toast-msg" class="text-[11px] text-slate-300 mt-0.5">
+          Assinatura criptográfica registrada e pátio notificado em tempo real.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    lucide.createIcons();
+
+    const hotspots = {
+      rotor: {
+        badge: 'PONTO #01 • FALHA CRÍTICA',
+        part: 'OEM #47-8M0104229',
+        title: 'Rotor da Bomba de Água Salgada (Impeller)',
+        desc: '3 pás de neoprene rompidas por ressecamento severo. Perda de 68% de vazão no trocador de calor acima de 3.200 RPM, disparando o alarme de 98°C.',
+        metric: '32% (Crítico)',
+        barWidth: '32%',
+        price: 'R$ 1.890,00'
+      },
+      rabeta: {
+        badge: 'PONTO #02 • ALERTA DE CONTAMINAÇÃO',
+        part: 'OEM #26-8M0033407',
+        title: 'Conjunto Rabeta Bravo Three & Retentor',
+        desc: 'Óleo High Performance 90W apresentou aspecto leitoso (emulsão de 18% de água salgada por microfissura no retentor do eixo da hélice Duoprop).',
+        metric: '54% (Atenção Imediata)',
+        barWidth: '54%',
+        price: 'R$ 2.710,00'
+      },
+      eletrica: {
+        badge: 'PONTO #08 • INSPECIONADO E CONFORME',
+        part: 'Baterias 150Ah AGM',
+        title: 'Banco de Baterias de Partida, Serviço e Alternador',
+        desc: 'Tensão de repouso em 12.78V e carga do alternador estável em 14.2V sob regime de cruzeiro. Terminais estanhados sem oxidação.',
+        metric: '99% (Padrão de Fábrica)',
+        barWidth: '99%',
+        price: 'R$ 0,00 (Sem intervenção)'
+      }
+    };
+
+    function selectHotspot(key) {
+      const data = hotspots[key];
+      document.getElementById('hs-badge').textContent = data.badge;
+      document.getElementById('hs-part').textContent = data.part;
+      document.getElementById('hs-title').textContent = data.title;
+      document.getElementById('hs-desc').textContent = data.desc;
+      document.getElementById('hs-metric').textContent = data.metric;
+      document.getElementById('hs-bar').style.width = data.barWidth;
+      document.getElementById('hs-price').textContent = data.price;
+    }
+
+    function recalculateTotal() {
+      const includeOptional = document.getElementById('opt-anodos').checked;
+      const raw = includeOptional ? 6100 : 4600;
+      const pix = includeOptional ? 5245 : 3956;
+      document.getElementById('client-raw-total').textContent = `R$ ${raw.toLocaleString('pt-BR')},00`;
+      document.getElementById('client-pix-total').textContent = `R$ ${pix.toLocaleString('pt-BR')},00`;
+    }
+
+    function approveOrder() {
+      const btn = document.getElementById('btn-approve-client');
+      btn.innerHTML = '<span>✓ APROVADO • PIX COPIADO (SHA-256)</span>';
+      btn.className = 'w-full py-3.5 px-4 rounded-2xl bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 font-bold text-xs uppercase tracking-wider flex items-center justify-center gap-2';
+
+      const badge = document.getElementById('erp-status-badge');
+      badge.textContent = 'APROVADO PELO CLIENTE (PIX)';
+      badge.className = 'px-2.5 py-1 rounded-full text-[11px] mono font-medium bg-emerald-500/20 text-emerald-300 border border-emerald-500/40';
+
+      document.getElementById('kpi-pending').textContent = 'R$ 0,00';
+      showToast('OS-2026-089 Aprovada pelo Dr. Roberto!', 'Orçamento confirmado e ordem liberada para o box mecânico de Wanderley.');
+    }
+
+    function triggerWhatsAppToast() {
+      showToast('Notificação Enviada via API Oficial', 'Link criptografado entregue no WhatsApp +55 (11) 99988-7766 com confirmação de leitura.');
+    }
+
+    function showToast(title, msg) {
+      const toast = document.getElementById('toast');
+      document.getElementById('toast-title').textContent = title;
+      document.getElementById('toast-msg').textContent = msg;
+      toast.classList.remove('hidden');
+      setTimeout(() => toast.classList.add('hidden'), 4500);
+    }
+
+    function switchMode(mode) {
+      const erp = document.getElementById('panel-erp');
+      const client = document.getElementById('panel-client');
+      const btns = ['split', 'erp', 'client'];
+      btns.forEach(b => {
+        document.getElementById('btn-' + b).className = (b === mode)
+          ? 'px-3 py-1.5 rounded-lg text-xs font-medium bg-sky-500 text-slate-950 shadow transition'
+          : 'px-3 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-white transition';
+      });
+
+      if (mode === 'split') {
+        erp.className = 'lg:col-span-8 space-y-6 block';
+        client.className = 'lg:col-span-4 flex justify-center';
+      } else if (mode === 'erp') {
+        erp.className = 'lg:col-span-12 space-y-6 block';
+        client.className = 'hidden';
+      } else {
+        erp.className = 'hidden';
+        client.className = 'lg:col-span-12 flex justify-center';
+      }
+    }
+  </script>
+</body>
+</html>

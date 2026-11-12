@@ -1,0 +1,222 @@
+{
+  "timestamp": "2026-11-12 15:29:03",
+  "target": "Cais OS — Visão 2 (Portal/App Mobile do Cliente)",
+  "version": "v2.1-high-end",
+  "pillars": {
+    "pilar_1_acessibilidade_wcag": {
+      "title": "Acessibilidade & WCAG 2.2 AA",
+      "weight": 0.2,
+      "score": 100,
+      "items": {
+        "contrast_ratios": {
+          "score": 25,
+          "max": 25,
+          "metrics": {
+            "text_primary_contrast": "18.23:1 (min 4.5:1)",
+            "text_muted_contrast": "8.03:1 (min 4.5:1)",
+            "button_action_contrast": "6.03:1 (min 4.5:1)"
+          }
+        },
+        "touch_target_44px": {
+          "score": 25,
+          "max": 25,
+          "details": "Consumo de --cais-hit (44px) em todos os alvos de toque mobile"
+        },
+        "reduced_motion": {
+          "score": 20,
+          "max": 20,
+          "details": "Conformidade WCAG 2.2 AA para utilizadores sensíveis a movimento"
+        },
+        "semantic_landmarks_viewport": {
+          "score": 30,
+          "max": 30,
+          "details": "Viewport mobile-first 390px e landmarks semânticos válidos"
+        }
+      }
+    },
+    "pilar_2_tokens_dtcg_zero_hex": {
+      "title": "Governança de Design Tokens & Zero Raw Hex",
+      "weight": 0.2,
+      "score": 100,
+      "items": {
+        "token_mirror_integrity": {
+          "score": 35,
+          "max": 35,
+          "details": "106 propriedades espelhadas com 0 divergências entre tokens.css e tokens.json"
+        },
+        "zero_raw_hex": {
+          "score": 35,
+          "max": 35,
+          "details": "Zero cores hexadecimais soltas em app.css (encontradas: 0)"
+        },
+        "all_css_vars_declared": {
+          "score": 30,
+          "max": 30,
+          "details": "100% das variáveis CSS semânticas registradas no catálogo DTCG (não declaradas: 0)"
+        }
+      }
+    },
+    "pilar_3_ux_design_spells": {
+      "title": "UX, Micro-interações & Design Spells",
+      "weight": 0.2,
+      "score": 100,
+      "items": {
+        "interactive_evidence_toggle": {
+          "score": 20,
+          "max": 20,
+          "details": "Toggle tátil Antes x Depois diretamente nos cartões de laudo"
+        },
+        "technical_svg_diagrams": {
+          "score": 20,
+          "max": 20,
+          "details": "Diagramas vetoriais SVG de alta resolução para rotor, óleo e carcaça sem assets externos"
+        },
+        "one_tap_copy_feedback": {
+          "score": 20,
+          "max": 20,
+          "details": "Micro-interação de cópia com feedback animado '✓ Copiado!' para PN e Pix"
+        },
+        "tactile_elastic_press": {
+          "score": 15,
+          "max": 15,
+          "details": "Sensação tátil elástica em botões e seletores (active: scale 0.97)"
+        },
+        "live_pulse_indicator": {
+          "score": 15,
+          "max": 15,
+          "details": "Indicador de status transacional pulsante em tempo real"
+        },
+        "immutable_digital_seal": {
+          "score": 10,
+          "max": 10,
+          "details": "Selo visual de integridade criptográfica SHA-256 e IP após aprovação"
+        }
+      }
+    },
+    "pilar_4_storytelling_conversao": {
+      "title": "Arquitetura de Conversão & Storytelling Mobile 390px",
+      "weight": 0.15,
+      "score": 100,
+      "items": {
+        "vessel_hero_bento": {
+          "score": 25,
+          "max": 25,
+          "details": "Hero card náutico com bento grid de 6 métricas operacionais"
+        },
+        "filterable_checklist": {
+          "score": 25,
+          "max": 25,
+          "details": "Checklist de pier com contadores de status e filtro segmentado em 1 clique"
+        },
+        "categorized_items_breakdown": {
+          "score": 20,
+          "max": 20,
+          "details": "Transparência total discriminando mão de obra, peças genuínas e testes em água"
+        },
+        "magnetic_pix_signal_box": {
+          "score": 15,
+          "max": 15,
+          "details": "Destaque visual do sinal de 30% necessário para liberação de peças"
+        },
+        "sticky_action_bar": {
+          "score": 15,
+          "max": 15,
+          "details": "Barra flutuante fixa com valor total e CTA primário acessível pelo polegar"
+        }
+      }
+    },
+    "pilar_5_performance_eficiencia": {
+      "title": "Performance, Eficiência & Dependências",
+      "weight": 0.15,
+      "score": 100,
+      "items": {
+        "bundle_weight": {
+          "score": 25,
+          "max": 25,
+          "details": "Tamanho total dos arquivos estáticos: 126.9 KB (teto: 150 KB)"
+        },
+        "zero_runtime_deps": {
+          "score": 25,
+          "max": 25,
+          "details": "Zero dependências de runtime externas (HTML5/CSS3/JavaScript vanilla autônomo)"
+        },
+        "test_suite_speed": {
+          "score": 25,
+          "max": 25,
+          "details": "5 arquivos de testes determinísticos compilados em 1.4ms (< 500ms)"
+        },
+        "zero_roundtrip_visuals": {
+          "score": 25,
+          "max": 25,
+          "details": "Ilustrações de laudo geradas inline via SVG sem requisições HTTP adicionais"
+        }
+      }
+    },
+    "pilar_6_seguranca_juridica": {
+      "title": "Lógica de Negócio, Integridade & Segurança Jurídica",
+      "weight": 0.1,
+      "score": 100,
+      "items": {
+        "pix_emv_compliance": {
+          "score": 25,
+          "max": 25,
+          "details": "Conformidade estrita com a especificação do Banco Central EMVCo BR Code"
+        },
+        "signal_30_percent_math": {
+          "score": 25,
+          "max": 25,
+          "details": "Cálculo exato de sinal de 30% (R$ 1.245,00 sobre R$ 4.150,00)"
+        },
+        "immutable_version_lock": {
+          "score": 25,
+          "max": 25,
+          "details": "Bloqueio imutável com carimbo auditável impedindo alteração de valor pós-aprovação"
+        },
+        "pier_checklist_12_pts": {
+          "score": 25,
+          "max": 25,
+          "details": "Cobertura integral dos 12 pontos de vistoria de pier na embarcação"
+        }
+      }
+    }
+  },
+  "overall_score": 100.0,
+  "grade": "A+ (Enterprise Benchmark)",
+  "baseline_comparison": {
+    "pilar_1_acessibilidade": {
+      "v2_0": 100.0,
+      "v2_1": 100.0,
+      "delta": "+0.0"
+    },
+    "pilar_2_tokens": {
+      "v2_0": 100.0,
+      "v2_1": 100.0,
+      "delta": "+0.0"
+    },
+    "pilar_3_ux_microinteracoes": {
+      "v2_0": 40.0,
+      "v2_1": 100.0,
+      "delta": "+60.0"
+    },
+    "pilar_4_storytelling_conversao": {
+      "v2_0": 65.0,
+      "v2_1": 100.0,
+      "delta": "+35.0"
+    },
+    "pilar_5_performance": {
+      "v2_0": 95.0,
+      "v2_1": 100.0,
+      "delta": "+5.0"
+    },
+    "pilar_6_seguranca_juridica": {
+      "v2_0": 100.0,
+      "v2_1": 100.0,
+      "delta": "+0.0"
+    },
+    "overall_score": {
+      "v2_0": 82.25,
+      "v2_1": 100.0,
+      "delta": "+17.75"
+    }
+  }
+}
