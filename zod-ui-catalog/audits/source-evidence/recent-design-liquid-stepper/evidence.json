@@ -1,0 +1,626 @@
+{
+  "site": "recent.design",
+  "url": "https://recent.design/i/lrtfzrm-liquid-stepper-interaction",
+  "captured_at": "2026-11-12T21:13:00.381521+00:00",
+  "views": {
+    "desktop": {
+      "url": "https://recent.design/i/lrtfzrm-liquid-stepper-interaction",
+      "title": "Liquid Stepper Interaction — Recent",
+      "text": "Log in\nBrowse\nDesign\nLaunch Videos\nnew\nWebsites\nOG Images\nApp Screenshots\nApp Icons\nResources\nTools\nSkills\nJobs\n\nMotionSites AI\n\nSponsored\n\nAnimated websites from one prompt. Pick a design, paste, ship.\n\nA daily curation of exceptional design, websites and tools.\n\nSign up\n© 2026\nSponsor\nInfo\n\nDesign\n\nLiquid Stepper Interaction\n\nA checkout stepper where pill-shaped steps merge with a liquid morphing effect, glowing pink to purple to green as each stage is completed.\n3d ago\n\nCreator\n\nZsolt Kacso\n\nImpressions\n\n47.3K\n\nOutbound\n\n96\n\nSource\n\nX\n\nCategory\n\nInterface\n\nStyle\n\nSoft UI\n\nColor\n\nDark\n\nVibrant\n\nNeon\n\nInteraction\n\nTransitions\n\nMicrointeraction",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Browse",
+          "bounds": {
+            "x": 16,
+            "y": 76,
+            "width": 220,
+            "height": 18.1875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "lineHeight": "18.2px",
+            "color": "oklch(0 0 0 / 0.267)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Resources",
+          "bounds": {
+            "x": 16,
+            "y": 262.1875,
+            "width": 220,
+            "height": 18.1875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "lineHeight": "18.2px",
+            "color": "oklch(0 0 0 / 0.267)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Log in",
+          "bounds": {
+            "x": 174.640625,
+            "y": 16,
+            "width": 61.359375,
+            "height": 28
+          },
+          "styles": {
+            "display": "inline-flex",
+            "position": "relative",
+            "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "lineHeight": "18.2px",
+            "color": "oklch(0.15 0 0)",
+            "backgroundColor": "oklch(1 0 0)",
+            "gap": "4px",
+            "padding": "0px 12px",
+            "borderRadius": "9999px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "Browse\nDesign\nLaunch Videos\nnew\nWebsites\nOG Images\nApp Screenshots\nApp Icons\nResources\nTools\nSkills\nJobs",
+          "bounds": {
+            "x": 16,
+            "y": 76,
+            "width": 220,
+            "height": 276.375
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "lineHeight": "18.2px",
+            "color": "rgb(11, 11, 11)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "4px",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Browse\nDesign\nLaunch Videos\nnew\nWebsites\nOG Images\nApp Screenshots\nApp Icons",
+          "bounds": {
+            "x": 16,
+            "y": 76,
+            "width": 220,
+            "height": 162.1875
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "lineHeight": "18.2px",
+            "color": "rgb(11, 11, 11)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "4px",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Resources\nTools\nSkills\nJobs",
+          "bounds": {
+            "x": 16,
+            "y": 262.1875,
+            "width": 220,
+            "height": 90.1875
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "lineHeight": "18.2px",
+            "color": "rgb(11, 11, 11)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "4px",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Sign up",
+          "bounds": {
+            "x": 16,
+            "y": 761.4375,
+            "width": 72.171875,
+            "height": 28
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "lineHeight": "18.2px",
+            "color": "oklch(1 0 0)",
+            "backgroundColor": "oklch(0.15 0 0)",
+            "gap": "4px",
+            "padding": "0px 12px",
+            "borderRadius": "9999px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "Sponsor\nInfo",
+          "bounds": {
+            "x": 149.265625,
+            "y": 865.8125,
+            "width": 86.734375,
+            "height": 18.1875
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "lineHeight": "18.2px",
+            "color": "rgb(11, 11, 11)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "12px",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "role": null,
+          "text": "Design\n\nLiquid Stepper Interaction\n\nA checkout stepper where pill-shaped steps merge with a liquid morphing effect, glowing pink to purple t",
+          "bounds": {
+            "x": 252,
+            "y": 0,
+            "width": 1173,
+            "height": 900
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "lineHeight": "18.2px",
+            "color": "rgb(11, 11, 11)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 496,
+            "y": 16,
+            "width": 28,
+            "height": 28
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "lineHeight": "18.2px",
+            "color": "oklch(0 0 0 / 0.486)",
+            "backgroundColor": "oklch(0 0 0 / 0.063)",
+            "gap": "4px",
+            "padding": "0px",
+            "borderRadius": "9999px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://recent.design/"
+        },
+        {
+          "text": "Design",
+          "href": "https://recent.design/"
+        },
+        {
+          "text": "Launch Videos\nnew",
+          "href": "https://recent.design/launch-videos"
+        },
+        {
+          "text": "Websites",
+          "href": "https://recent.design/websites"
+        },
+        {
+          "text": "OG Images",
+          "href": "https://recent.design/og-images"
+        },
+        {
+          "text": "App Screenshots",
+          "href": "https://recent.design/app-store-screenshots"
+        },
+        {
+          "text": "App Icons",
+          "href": "https://recent.design/app-icons"
+        },
+        {
+          "text": "Tools",
+          "href": "https://recent.design/tools"
+        },
+        {
+          "text": "Skills",
+          "href": "https://recent.design/skills"
+        },
+        {
+          "text": "Jobs",
+          "href": "https://recent.design/jobs"
+        },
+        {
+          "text": "MotionSites AI\n\nSponsored\n\nAnimated websites from one prompt. Pick a d",
+          "href": "https://recent.design/go/0t6rz7n?s=shell.sponsor&p=1"
+        },
+        {
+          "text": "Sponsor",
+          "href": "https://recent.design/sponsor"
+        },
+        {
+          "text": "Info",
+          "href": "https://recent.design/info"
+        },
+        {
+          "text": "",
+          "href": "https://x.com/kaolti"
+        },
+        {
+          "text": "Zsolt Kacso",
+          "href": "https://x.com/kaolti"
+        },
+        {
+          "text": "X",
+          "href": "https://x.com/kaolti/status/2119797138276471067"
+        },
+        {
+          "text": "Sponsor",
+          "href": "https://recent.design/sponsor"
+        },
+        {
+          "text": "Info",
+          "href": "https://recent.design/info"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--x1k28iop": "oklch(0% 0 0 / .267)",
+        "--x119acmd": "oklch(62% .29 25)",
+        "--x10cuvxl": "oklch(94% 0 0)",
+        "--xrkmfrx": "oklch(62% .26 48)",
+        "--xxdrspf": "oklch(28% .13 145)",
+        "--xpesj0y": "oklch(15% 0 0)",
+        "--font-sans": "\"Inter\", ui-sans-serif, system-ui, sans-serif",
+        "--presence-local-cursor": "url(\"data:image/svg+xml,%3Csvg%20width%3D%2228%22%20height%3D%2228%22%20viewBox%3D%220%200%2028%2028%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20filter%3D%22url(%23shadow)%22%3E%3Cpath%20d%3D%22M5.08814%205.36283L10.4791%2020.7254C10.781%2021.5857%2011.9824%2021.6263%2012.3417%2020.7884L15.0192%2014.5442C15.1203%2014.3083%2015.3083%2014.1203%2015.5442%2014.0192L21.7884%2011.3417C22.6263%2010.9824%2022.5857%209.78096%2021.7254%209.47907L6.36285%204.08812C5.57154%203.81044%204.81046%204.57152%205.08814%205.36283Z%22%20fill%3D%22black%22%20stroke%3D%22white%22%20stroke-width%3D%222.05556%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fg%3E%3Cdefs%3E%3Cfilter%20id%3D%22shadow%22%20x%3D%220%22%20y%3D%220%22%20width%3D%2227.4224%22%20height%3D%2227.4221%22%20filterUnits%3D%22userSpaceOnUse%22%20color-interpolation-filters%3D%22sRGB%22%3E%3CfeFlood%20flood-opacity%3D%220%22%20result%3D%22BackgroundImageFix%22%2F%3E%3CfeColorMatrix%20in%3D%22SourceAlpha%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%20127%200%22%20result%3D%22hardAlpha%22%2F%3E%3CfeOffset%20dy%3D%221%22%2F%3E%3CfeGaussianBlur%20stdDeviation%3D%222%22%2F%3E%3CfeComposite%20in2%3D%22hardAlpha%22%20operator%3D%22out%22%2F%3E%3CfeColorMatrix%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200.25%200%22%2F%3E%3CfeBlend%20mode%3D%22normal%22%20in2%3D%22BackgroundImageFix%22%20result%3D%22effect1_dropShadow%22%2F%3E%3CfeBlend%20mode%3D%22normal%22%20in%3D%22SourceGraphic%22%20in2%3D%22effect1_dropShadow%22%20result%3D%22shape%22%2F%3E%3C%2Ffilter%3E%3C%2Fdefs%3E%3C%2Fsvg%3E\") 5 4, auto",
+        "--xnvswnm": "oklch(70% .27 145)",
+        "--x179usif": "oklch(28% .14 25)",
+        "--x1fn64ny": "oklch(68% .27 48)",
+        "--x156kdii": "oklch(0% 0 0 / .486)",
+        "--x1ddyxfn": "oklch(15% 0 0 / .4)",
+        "--x5j2l4p": "oklch(97% 0 0)",
+        "--x1us3yq1": "oklch(99.5% 0 0)",
+        "--x1mzcagl": "oklch(100% 0 0)",
+        "--x1e8087l": "oklch(38% .12 95)",
+        "--x8cl1oh": "oklch(86% .21 95)"
+      }
+    },
+    "mobile": {
+      "url": "https://recent.design/i/lrtfzrm-liquid-stepper-interaction",
+      "title": "Liquid Stepper Interaction — Recent",
+      "text": "Log in\n\nA daily curation of exceptional design, websites and tools.\n\nSign up\nJoin 31,178 members, including 303 who signed up today\n\nDesign\n\nLiquid Stepper Interaction\n\nA checkout stepper where pill-shaped steps merge with a liquid morphing effect, glowing pink to purple to green as each stage is completed.\n3d ago\n\nCreator\n\nZsolt Kacso\n\nImpressions\n\n47.3K\n\nOutbound\n\n96\n\nSource\n\nX\n\nCategory\n\nInterface\n\nStyle\n\nSoft UI\n\nColor\n\nDark\n\nVibrant\n\nNeon\n\nInteraction\n\nTransitions\n\nMicrointeraction\n\n© 2026\nSponsor\nInfo",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "horizontal_overflow": false,
+      "headings": [],
+      "components": [
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Log in",
+          "bounds": {
+            "x": 261.640625,
+            "y": 16,
+            "width": 61.359375,
+            "height": 28
+          },
+          "styles": {
+            "display": "inline-flex",
+            "position": "relative",
+            "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "lineHeight": "18.2px",
+            "color": "oklch(0.15 0 0)",
+            "backgroundColor": "oklch(1 0 0)",
+            "gap": "4px",
+            "padding": "0px 12px",
+            "borderRadius": "9999px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 331,
+            "y": 16,
+            "width": 28,
+            "height": 28
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "lineHeight": "18.2px",
+            "color": "oklch(0.15 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "4px",
+            "padding": "0px",
+            "borderRadius": "9999px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Sign up",
+          "bounds": {
+            "x": 16,
+            "y": 124.375,
+            "width": 72.171875,
+            "height": 28
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "lineHeight": "18.2px",
+            "color": "oklch(1 0 0)",
+            "backgroundColor": "oklch(0.15 0 0)",
+            "gap": "4px",
+            "padding": "0px 12px",
+            "borderRadius": "9999px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "role": null,
+          "text": "Design\n\nLiquid Stepper Interaction\n\nA checkout stepper where pill-shaped steps merge with a liquid morphing effect, glowing pink to purple t",
+          "bounds": {
+            "x": 16,
+            "y": 236.75,
+            "width": 343,
+            "height": 933.296875
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "lineHeight": "18.2px",
+            "color": "rgb(11, 11, 11)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "32px",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 331,
+            "y": 577.453125,
+            "width": 28,
+            "height": 28
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "lineHeight": "18.2px",
+            "color": "oklch(0 0 0 / 0.486)",
+            "backgroundColor": "oklch(0 0 0 / 0.063)",
+            "gap": "4px",
+            "padding": "0px",
+            "borderRadius": "9999px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "Sponsor\nInfo",
+          "bounds": {
+            "x": 272.265625,
+            "y": 1202.046875,
+            "width": 86.734375,
+            "height": 18.1875
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "lineHeight": "18.2px",
+            "color": "rgb(11, 11, 11)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "12px",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://recent.design/"
+        },
+        {
+          "text": "Design",
+          "href": "https://recent.design/"
+        },
+        {
+          "text": "Launch Videosnew",
+          "href": "https://recent.design/launch-videos"
+        },
+        {
+          "text": "Websites",
+          "href": "https://recent.design/websites"
+        },
+        {
+          "text": "OG Images",
+          "href": "https://recent.design/og-images"
+        },
+        {
+          "text": "App Screenshots",
+          "href": "https://recent.design/app-store-screenshots"
+        },
+        {
+          "text": "App Icons",
+          "href": "https://recent.design/app-icons"
+        },
+        {
+          "text": "Tools",
+          "href": "https://recent.design/tools"
+        },
+        {
+          "text": "Skills",
+          "href": "https://recent.design/skills"
+        },
+        {
+          "text": "Jobs",
+          "href": "https://recent.design/jobs"
+        },
+        {
+          "text": "MotionSites AISponsoredAnimated websites from one prompt. Pick a desig",
+          "href": "https://recent.design/go/0t6rz7n?s=shell.sponsor&p=1"
+        },
+        {
+          "text": "Sponsor",
+          "href": "https://recent.design/sponsor"
+        },
+        {
+          "text": "Info",
+          "href": "https://recent.design/info"
+        },
+        {
+          "text": "",
+          "href": "https://x.com/kaolti"
+        },
+        {
+          "text": "Zsolt Kacso",
+          "href": "https://x.com/kaolti"
+        },
+        {
+          "text": "X",
+          "href": "https://x.com/kaolti/status/2119797138276471067"
+        },
+        {
+          "text": "Sponsor",
+          "href": "https://recent.design/sponsor"
+        },
+        {
+          "text": "Info",
+          "href": "https://recent.design/info"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--x1k28iop": "oklch(0% 0 0 / .267)",
+        "--x119acmd": "oklch(62% .29 25)",
+        "--x10cuvxl": "oklch(94% 0 0)",
+        "--xrkmfrx": "oklch(62% .26 48)",
+        "--xxdrspf": "oklch(28% .13 145)",
+        "--xpesj0y": "oklch(15% 0 0)",
+        "--font-sans": "\"Inter\", ui-sans-serif, system-ui, sans-serif",
+        "--xnvswnm": "oklch(70% .27 145)",
+        "--x179usif": "oklch(28% .14 25)",
+        "--x1fn64ny": "oklch(68% .27 48)",
+        "--x156kdii": "oklch(0% 0 0 / .486)",
+        "--x1ddyxfn": "oklch(15% 0 0 / .4)",
+        "--x5j2l4p": "oklch(97% 0 0)",
+        "--x1us3yq1": "oklch(99.5% 0 0)",
+        "--x1mzcagl": "oklch(100% 0 0)",
+        "--x8cl1oh": "oklch(86% .21 95)",
+        "--x1e8087l": "oklch(38% .12 95)"
+      }
+    }
+  },
+  "scope": "public source reference; not a locally reconstructed component",
+  "http_status": 200,
+  "page_errors": []
+}

@@ -1,0 +1,1000 @@
+{
+  "site": "poly.pizza",
+  "url": "https://poly.pizza/bundle/City-Kit-0CkvGrBJ0u",
+  "captured_at": "2026-11-12T21:11:32.567241+00:00",
+  "views": {
+    "desktop": {
+      "url": "https://poly.pizza/bundle/City-Kit-0CkvGrBJ0u",
+      "title": "City Kit by Kenney | Free download",
+      "text": "poly.pizza\nLogin\nSign Up\nCity Kit\nKenney\nThis package includes (commercial) buildings compatible with the previously released City Kit (Roads). Also includes some details like awnings, building parts and signs.\nDownload FBX\nDownload GLTF\n\nUpdated: Tuesday, Jul 12, 2022 • Licence: Public Domain (CC0)\n\nLow Poly\nBuildings\n#Skyscraper\n31\nModels\n3\nComments\nLow Building\nKenney\nCC0\nLow Wide\nKenney\nCC0\nSkyscraper\nKenney\nCC0\nLow Building\nKenney\nCC0\nLow Building\nKenney\nCC0\nLow Building\nKenney\nCC0\nLow Building\nKenney\nCC0\nLow Building\nKenney\nCC0\nLow Building\nKenney\nCC0\nLow Wide\nKenney\nCC0\nSkyscraper\nKenney\nCC0\nSkyscraper\nKenney\nCC0\nSign Hospital\nKenney\nCC0\nSkyscraper\nKenney\nCC0\nSmall Building\nKenney\nCC0\nLow Building\nKenney\nCC0\nSmall Building\nKenney\nCC0\nLow Building\nKenney\nCC0\nSmall Building\nKenney\nCC0\nSmall Building\nKenney\nCC0\nSmall Building\nKenney\nCC0\nLarge Building\nKenney\nCC0\nSkyscraper\nKenney\nCC0\nLarge Building\nKenney\nCC0\nSkyscraper\nKenney\nCC0\nSmall Building\nKenney\nCC0\nLarge Building\nKenney\nCC0\nLarge Building\nKenney\nCC0\nLarge Building\nKenney\nCC0\nLarge Building\nKenney\nCC0\nLarge Building\nKenney\nCC0\nDiscover more\n3D model downloads\nLow poly assets\n3D modeling software",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "City Kit",
+          "bounds": {
+            "x": 143.03125,
+            "y": 120.046875,
+            "width": 148.453125,
+            "height": 56.015625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Roboto, Helvetica, Arial, sans-serif",
+            "fontSize": "48px",
+            "fontWeight": "300",
+            "lineHeight": "56.016px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "Kenney",
+          "bounds": {
+            "x": 528.296875,
+            "y": 136.34375,
+            "width": 54.6875,
+            "height": 23.40625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Roboto, Helvetica, Arial, sans-serif",
+            "fontSize": "16.38px",
+            "fontWeight": "500",
+            "lineHeight": "23.4234px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "HEADER",
+          "role": null,
+          "text": "poly.pizza\nLogin\nSign Up",
+          "bounds": {
+            "x": 0.046875,
+            "y": 0.046875,
+            "width": 1429.90625,
+            "height": 64
+          },
+          "styles": {
+            "display": "flex",
+            "position": "sticky",
+            "fontFamily": "Roboto, Helvetica, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "20.02px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(28, 27, 31)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Download FBX",
+          "bounds": {
+            "x": 143.03125,
+            "y": 385.53125,
+            "width": 192,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "Roboto, Helvetica, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "24.5px",
+            "color": "rgb(255, 162, 77)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px 15px",
+            "borderRadius": "4px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Download GLTF",
+          "bounds": {
+            "x": 343.03125,
+            "y": 385.53125,
+            "width": 192,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "Roboto, Helvetica, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "24.5px",
+            "color": "rgb(255, 162, 77)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px 15px",
+            "borderRadius": "4px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 543.03125,
+            "y": 385.53125,
+            "width": 64,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "Roboto, Helvetica, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "24.5px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px 16px",
+            "borderRadius": "4px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "role": "tablist",
+          "text": "31\nModels\n3\nComments",
+          "bounds": {
+            "x": 143.03125,
+            "y": 570.53125,
+            "width": 903.921875,
+            "height": 48
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Roboto, Helvetica, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "20.02px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "tab",
+          "text": "31\nModels",
+          "bounds": {
+            "x": 143.03125,
+            "y": 570.53125,
+            "width": 160,
+            "height": 48
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "Roboto, Helvetica, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "24.5px",
+            "color": "rgb(255, 162, 77)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "6px 12px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "tab",
+          "text": "3\nComments",
+          "bounds": {
+            "x": 303.03125,
+            "y": 570.53125,
+            "width": 160,
+            "height": 48
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "Roboto, Helvetica, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "24.5px",
+            "color": "rgba(255, 255, 255, 0.7)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "6px 12px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://poly.pizza/"
+        },
+        {
+          "text": "poly.pizza",
+          "href": "https://poly.pizza/"
+        },
+        {
+          "text": "",
+          "href": "https://poly.pizza/support"
+        },
+        {
+          "text": "",
+          "href": "https://poly.pizza/signup"
+        },
+        {
+          "text": "Login",
+          "href": "https://poly.pizza/login?from=%2Fbundle%2FCity-Kit-0CkvGrBJ0u"
+        },
+        {
+          "text": "Sign Up",
+          "href": "https://poly.pizza/signup"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "",
+          "href": "https://twitter.com/KenneyNL"
+        },
+        {
+          "text": "",
+          "href": "https://patreon.com/kenney"
+        },
+        {
+          "text": "",
+          "href": "https://kenney.nl/"
+        },
+        {
+          "text": "Public Domain (CC0)",
+          "href": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "text": "Low Poly",
+          "href": "https://poly.pizza/explore"
+        },
+        {
+          "text": "Buildings",
+          "href": "https://poly.pizza/explore/Food-and-Drink"
+        },
+        {
+          "text": "#Skyscraper",
+          "href": "https://poly.pizza/search/Skyscraper"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "",
+          "href": "https://poly.pizza/u/"
+        },
+        {
+          "text": "",
+          "href": "https://poly.pizza/u//Lists"
+        },
+        {
+          "text": "",
+          "href": "https://poly.pizza/autopack"
+        },
+        {
+          "text": "",
+          "href": "https://poly.pizza/settings/profile"
+        },
+        {
+          "text": "",
+          "href": "https://poly.pizza/logout"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--tw-ring-offset-shadow": "0 0 #0000",
+        "--tw-contain-size": "",
+        "--tw-contrast": "",
+        "--tw-backdrop-sepia": "",
+        "--tw-ring-shadow": "0 0 #0000",
+        "--tw-sepia": "",
+        "--tw-skew-x": "0",
+        "--tw-ordinal": "",
+        "--tw-backdrop-saturate": "",
+        "--tw-backdrop-blur": "",
+        "--tw-contain-style": "",
+        "--tw-shadow": "0 0 #0000",
+        "--tw-translate-x": "0",
+        "--tw-ring-offset-width": "0px",
+        "--tw-ring-inset": "",
+        "--tw-gradient-via-position": "",
+        "--tw-backdrop-invert": "",
+        "--tw-saturate": "",
+        "--tw-scroll-snap-strictness": "proximity",
+        "--tw-numeric-spacing": "",
+        "--tw-grayscale": "",
+        "--tw-border-spacing-x": "0",
+        "--tw-scale-x": "1",
+        "--tw-backdrop-hue-rotate": "",
+        "--tw-shadow-colored": "0 0 #0000",
+        "--tw-gradient-to-position": "",
+        "--tw-brightness": "",
+        "--tw-border-spacing-y": "0",
+        "--tw-numeric-fraction": "",
+        "--tw-backdrop-grayscale": "",
+        "--tw-hue-rotate": "",
+        "--tw-scale-y": "1",
+        "--tw-pan-y": "",
+        "--tw-backdrop-contrast": "",
+        "--tw-drop-shadow": "",
+        "--tw-skew-y": "0",
+        "--tw-ring-color": "rgb(59 130 246 / 0.5)",
+        "--tw-backdrop-brightness": "",
+        "--tw-slashed-zero": "",
+        "--tw-blur": "",
+        "--tw-invert": "",
+        "--tw-pan-x": "",
+        "--tw-translate-y": "0",
+        "--tw-backdrop-opacity": "",
+        "--tw-gradient-from-position": "",
+        "--tw-numeric-figure": "",
+        "--tw-rotate": "0",
+        "--tw-pinch-zoom": "",
+        "--tw-contain-paint": "",
+        "--tw-contain-layout": "",
+        "--tw-ring-offset-color": "#fff"
+      }
+    },
+    "mobile": {
+      "url": "https://poly.pizza/bundle/City-Kit-0CkvGrBJ0u",
+      "title": "City Kit by Kenney | Free download",
+      "text": "City Kit\nKenney\nThis package includes (commercial) buildings compatible with the previously released City Kit (Roads). Also includes some details like awnings, building parts and signs.\nDownload FBX\nDownload GLTF\n\nUpdated: Tuesday, Jul 12, 2022 • Licence: Public Domain (CC0)\n\nLow Poly\nBuildings\n#Skyscraper\n31\nModels\n3\nComments\nLow Building\nKenney\nCC0\nLow Wide\nKenney\nCC0\nSkyscraper\nKenney\nCC0\nLow Building\nKenney\nCC0\nLow Building\nKenney\nCC0\nLow Building\nKenney\nCC0\nLow Building\nKenney\nCC0\nLow Building\nKenney\nCC0\nLow Building\nKenney\nCC0\nLow Wide\nKenney\nCC0\nSkyscraper\nKenney\nCC0\nSkyscraper\nKenney\nCC0\nSign Hospital\nKenney\nCC0\nSkyscraper\nKenney\nCC0\nSmall Building\nKenney\nCC0\nLow Building\nKenney\nCC0\nSmall Building\nKenney\nCC0\nLow Building\nKenney\nCC0\nSmall Building\nKenney\nCC0\nSmall Building\nKenney\nCC0\nSmall Building\nKenney\nCC0\nLarge Building\nKenney\nCC0\nSkyscraper\nKenney\nCC0\nLarge Building\nKenney\nCC0\nSkyscraper\nKenney\nCC0\nSmall Building\nKenney\nCC0\nLarge Building\nKenney\nCC0\nLarge Building\nKenney\nCC0\nLarge Building\nKenney\nCC0\nLarge Building\nKenney\nCC0\nLarge Building\nKenney\nCC0\nDiscover more\n3D model downloads\nLow poly assets\n3D modeling software",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "horizontal_overflow": true,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "City Kit",
+          "bounds": {
+            "x": 20.046875,
+            "y": 112.046875,
+            "width": 339.90625,
+            "height": 56.015625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Roboto, Helvetica, Arial, sans-serif",
+            "fontSize": "48px",
+            "fontWeight": "300",
+            "lineHeight": "56.016px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "Kenney",
+          "bounds": {
+            "x": 84.046875,
+            "y": 184.359375,
+            "width": 54.6875,
+            "height": 23.40625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Roboto, Helvetica, Arial, sans-serif",
+            "fontSize": "16.38px",
+            "fontWeight": "500",
+            "lineHeight": "23.4234px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "HEADER",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 0.046875,
+            "y": 0.046875,
+            "width": 379.90625,
+            "height": 56
+          },
+          "styles": {
+            "display": "flex",
+            "position": "sticky",
+            "fontFamily": "Roboto, Helvetica, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "20.02px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(28, 27, 31)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Download FBX",
+          "bounds": {
+            "x": 20.046875,
+            "y": 401.0625,
+            "width": 129.953125,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "Roboto, Helvetica, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "24.5px",
+            "color": "rgb(255, 162, 77)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px 15px",
+            "borderRadius": "4px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Download GLTF",
+          "bounds": {
+            "x": 158,
+            "y": 401.0625,
+            "width": 129.953125,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "Roboto, Helvetica, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "24.5px",
+            "color": "rgb(255, 162, 77)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px 15px",
+            "borderRadius": "4px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 295.953125,
+            "y": 401.0625,
+            "width": 64,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "Roboto, Helvetica, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "24.5px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px 16px",
+            "borderRadius": "4px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "role": "tablist",
+          "text": "31\nModels\n3\nComments",
+          "bounds": {
+            "x": 20.046875,
+            "y": 869.25,
+            "width": 339.90625,
+            "height": 48
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Roboto, Helvetica, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "20.02px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "tab",
+          "text": "31\nModels",
+          "bounds": {
+            "x": 20.046875,
+            "y": 869.25,
+            "width": 110.328125,
+            "height": 48
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "Roboto, Helvetica, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "24.5px",
+            "color": "rgb(255, 162, 77)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "6px 12px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "tab",
+          "text": "3\nComments",
+          "bounds": {
+            "x": 130.375,
+            "y": 869.25,
+            "width": 125.640625,
+            "height": 48
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "Roboto, Helvetica, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "24.5px",
+            "color": "rgba(255, 255, 255, 0.7)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "6px 12px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://poly.pizza/"
+        },
+        {
+          "text": "poly.pizza",
+          "href": "https://poly.pizza/"
+        },
+        {
+          "text": "",
+          "href": "https://poly.pizza/support"
+        },
+        {
+          "text": "",
+          "href": "https://poly.pizza/signup"
+        },
+        {
+          "text": "Login",
+          "href": "https://poly.pizza/login?from=%2Fbundle%2FCity-Kit-0CkvGrBJ0u"
+        },
+        {
+          "text": "Sign up",
+          "href": "https://poly.pizza/signup"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "",
+          "href": "https://twitter.com/KenneyNL"
+        },
+        {
+          "text": "",
+          "href": "https://patreon.com/kenney"
+        },
+        {
+          "text": "",
+          "href": "https://kenney.nl/"
+        },
+        {
+          "text": "Public Domain (CC0)",
+          "href": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "text": "Low Poly",
+          "href": "https://poly.pizza/explore"
+        },
+        {
+          "text": "Buildings",
+          "href": "https://poly.pizza/explore/Food-and-Drink"
+        },
+        {
+          "text": "#Skyscraper",
+          "href": "https://poly.pizza/search/Skyscraper"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "Kenney",
+          "href": "https://poly.pizza/u/Kenney"
+        },
+        {
+          "text": "",
+          "href": "https://poly.pizza/u/"
+        },
+        {
+          "text": "",
+          "href": "https://poly.pizza/u//Lists"
+        },
+        {
+          "text": "",
+          "href": "https://poly.pizza/autopack"
+        },
+        {
+          "text": "",
+          "href": "https://poly.pizza/settings/profile"
+        },
+        {
+          "text": "",
+          "href": "https://poly.pizza/logout"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--tw-ring-offset-shadow": "0 0 #0000",
+        "--tw-contain-size": "",
+        "--tw-contrast": "",
+        "--tw-backdrop-sepia": "",
+        "--tw-ring-shadow": "0 0 #0000",
+        "--tw-sepia": "",
+        "--tw-skew-x": "0",
+        "--tw-ordinal": "",
+        "--tw-backdrop-saturate": "",
+        "--tw-backdrop-blur": "",
+        "--tw-contain-style": "",
+        "--tw-shadow": "0 0 #0000",
+        "--tw-translate-x": "0",
+        "--tw-ring-offset-width": "0px",
+        "--tw-ring-inset": "",
+        "--tw-gradient-via-position": "",
+        "--tw-backdrop-invert": "",
+        "--tw-saturate": "",
+        "--tw-scroll-snap-strictness": "proximity",
+        "--tw-numeric-spacing": "",
+        "--tw-grayscale": "",
+        "--tw-border-spacing-x": "0",
+        "--tw-scale-x": "1",
+        "--tw-backdrop-hue-rotate": "",
+        "--tw-shadow-colored": "0 0 #0000",
+        "--tw-gradient-to-position": "",
+        "--tw-brightness": "",
+        "--tw-border-spacing-y": "0",
+        "--tw-numeric-fraction": "",
+        "--tw-backdrop-grayscale": "",
+        "--tw-hue-rotate": "",
+        "--tw-scale-y": "1",
+        "--tw-pan-y": "",
+        "--tw-backdrop-contrast": "",
+        "--tw-drop-shadow": "",
+        "--tw-skew-y": "0",
+        "--tw-ring-color": "rgb(59 130 246 / 0.5)",
+        "--tw-backdrop-brightness": "",
+        "--tw-slashed-zero": "",
+        "--tw-blur": "",
+        "--tw-invert": "",
+        "--tw-pan-x": "",
+        "--tw-translate-y": "0",
+        "--tw-backdrop-opacity": "",
+        "--tw-gradient-from-position": "",
+        "--tw-numeric-figure": "",
+        "--tw-rotate": "0",
+        "--tw-pinch-zoom": "",
+        "--tw-contain-paint": "",
+        "--tw-contain-layout": "",
+        "--tw-ring-offset-color": "#fff"
+      }
+    }
+  },
+  "scope": "public source reference; not a locally reconstructed component",
+  "http_status": 200,
+  "page_errors": []
+}

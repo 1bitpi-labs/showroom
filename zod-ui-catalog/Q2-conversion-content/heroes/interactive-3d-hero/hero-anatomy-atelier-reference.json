@@ -1,0 +1,76 @@
+{
+  "id": "hero-anatomy-atelier-reference",
+  "location": {
+    "quadrant": "Q2-conversion-content",
+    "category": "heroes",
+    "section": "interactive-3d-hero",
+    "file_path": "Q2-conversion-content/heroes/interactive-3d-hero/hero-anatomy-atelier-reference.json"
+  },
+  "tier": "C",
+  "tier_audit": {
+    "visual_verified": true,
+    "verification_scope": "source screenshots only; not local implementation fidelity",
+    "fidelity_type": "visual_spec",
+    "responsive_score": null,
+    "audit_notes": [
+      "Tier C: reference/spec, not ready-to-use code.",
+      "Source DOM measurements may describe gallery chrome, not the referenced product.",
+      "Keyboard, contrast and animation timing not certified."
+    ],
+    "evidence": [
+      "audits/source-evidence/prettysites-io-anatomy-atelier/evidence.json",
+      "previews/hero-anatomy-atelier-reference/desktop.png",
+      "previews/hero-anatomy-atelier-reference/mobile.png"
+    ],
+    "source_observations": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "page_horizontal_overflow": false,
+        "broken_images": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "page_horizontal_overflow": false,
+        "broken_images": []
+      }
+    }
+  },
+  "source_site": "prettysites.io",
+  "source_url": "https://prettysites.io/?prompt=anatomy-atelier",
+  "license": {
+    "status": "reference_only_not_code_license",
+    "redistribution": "No source code or original downloadable assets included; screenshots are research evidence."
+  },
+  "stack_compatibility": [
+    "framework-agnostic-spec"
+  ],
+  "style_tags": [
+    "interactive-3d-hero"
+  ],
+  "artifact": {
+    "type": "visual_spec",
+    "spec": "Referência pública da apresentação Anatomy Atelier, com exploração de órgãos em 3D descrita na ficha. Código premium, geometria, labels interativos e comportamento interno não foram extraídos; considerar apenas guia visual inicial.",
+    "observed_headings": [
+      "CHOOSE A SITE\nCOPY DESIGN\nMAKE IT YOURS",
+      "Anatomy Atelier",
+      "Jenga Games",
+      "Loop Dept",
+      "ODDROOM"
+    ],
+    "source_dom_evidence": "audits/source-evidence/prettysites-io-anatomy-atelier/evidence.json",
+    "states": {
+      "desktop": "captured",
+      "mobile": "captured",
+      "hover": "not audited",
+      "focus": "not audited",
+      "active": "not audited",
+      "disabled": "not audited"
+    }
+  }
+}

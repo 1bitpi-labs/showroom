@@ -1,0 +1,84 @@
+{
+  "id": "hero-mahero-craft",
+  "location": {
+    "quadrant": "Q2-conversion-content",
+    "category": "heroes",
+    "section": "split-product-preview",
+    "file_path": "Q2-conversion-content/heroes/split-product-preview/hero-mahero-craft.json"
+  },
+  "tier": "C",
+  "tier_audit": {
+    "visual_verified": true,
+    "verification_scope": "source screenshots only; not local implementation fidelity",
+    "fidelity_type": "visual_spec",
+    "responsive_score": null,
+    "audit_notes": [
+      "Tier C: reference/spec, not ready-to-use code.",
+      "Source DOM measurements may describe gallery chrome, not the referenced product.",
+      "Keyboard, contrast and animation timing not certified."
+    ],
+    "evidence": [
+      "audits/source-evidence/mahero-supply-home/evidence.json",
+      "previews/hero-mahero-craft/desktop.png",
+      "previews/hero-mahero-craft/mobile.png"
+    ],
+    "source_observations": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "page_horizontal_overflow": false,
+        "broken_images": [
+          "https://gk4zttl3xunfz8cp.public.blob.vercel-storage.com/products/1779379135236-vy79jvwt4fc.webp",
+          "https://gk4zttl3xunfz8cp.public.blob.vercel-storage.com/products/1779116848358.gif",
+          "https://gk4zttl3xunfz8cp.public.blob.vercel-storage.com/products/1779424448824-ahmq4qinb1b.gif",
+          "https://gk4zttl3xunfz8cp.public.blob.vercel-storage.com/products/1779123275950.webp",
+          "https://gk4zttl3xunfz8cp.public.blob.vercel-storage.com/products/1779292188626-r1h33auwxnh.png",
+          "https://gk4zttl3xunfz8cp.public.blob.vercel-storage.com/products/1779292432589-l873r6fol2p.png",
+          "https://gk4zttl3xunfz8cp.public.blob.vercel-storage.com/products/1779292564799-qk6uer49zsa.png"
+        ]
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "page_horizontal_overflow": false,
+        "broken_images": []
+      }
+    }
+  },
+  "source_site": "mahero.supply",
+  "source_url": "https://mahero.supply",
+  "license": {
+    "status": "reference_only_not_code_license",
+    "redistribution": "No source code or original downloadable assets included; screenshots are research evidence."
+  },
+  "stack_compatibility": [
+    "framework-agnostic-spec"
+  ],
+  "style_tags": [
+    "split-product-preview"
+  ],
+  "artifact": {
+    "type": "visual_spec",
+    "spec": "Hero público com título em duas linhas, proposta de valor, CTA de templates e CTA explicativo. A ficha Wonderful Hero permaneceu em carregamento e seu template não foi extraído.",
+    "observed_headings": [
+      "Stop shipping generic UI.\nVibe-code with unfair craft.",
+      "Featured Templates",
+      "From preview to your own build",
+      "Pick a template",
+      "Copy the prompt"
+    ],
+    "source_dom_evidence": "audits/source-evidence/mahero-supply-home/evidence.json",
+    "states": {
+      "desktop": "captured",
+      "mobile": "captured",
+      "hover": "not audited",
+      "focus": "not audited",
+      "active": "not audited",
+      "disabled": "not audited"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "quadrant": "Q2-conversion-content",
+  "count": 0,
+  "sections": {
+    "heroes": {
+      "centered-shader-hero": [],
+      "split-product-preview": [],
+      "interactive-3d-hero": []
+    },
+    "feature-grids": {
+      "bento-asymmetric": [],
+      "interactive-tabs-showcase": [],
+      "step-by-step-workflows": []
+    },
+    "pricing-proof": {
+      "tiered-cards-toggle": [],
+      "enterprise-comparison": [],
+      "social-proof-walls": []
+    },
+    "forms-overlays": {
+      "waitlist-capture": [],
+      "command-palettes-modals": []
+    }
+  }
+}

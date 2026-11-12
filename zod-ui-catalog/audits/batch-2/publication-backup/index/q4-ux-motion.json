@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "quadrant": "Q4-ux-motion",
+  "count": 4,
+  "sections": {
+    "user-flows": {
+      "onboarding-sequences": [
+        {
+          "id": "motion-health-intro-reference",
+          "location": {
+            "quadrant": "Q4-ux-motion",
+            "category": "user-flows",
+            "section": "onboarding-sequences",
+            "file_path": "Q4-ux-motion/user-flows/onboarding-sequences/motion-health-intro-reference.json"
+          },
+          "tier": "C",
+          "tier_audit": {
+            "visual_verified": true,
+            "verification_scope": "source screenshots only; not local implementation fidelity",
+            "fidelity_type": "visual_spec",
+            "responsive_score": null,
+            "audit_notes": [
+              "Tier C: reference/spec, not ready-to-use code.",
+              "Source DOM measurements may describe gallery chrome, not the referenced product.",
+              "Keyboard, contrast and animation timing not certified."
+            ],
+            "evidence": [
+              "audits/source-evidence/60fps-design-health-intro/evidence.json",
+              "previews/motion-health-intro-reference/desktop.png",
+              "previews/motion-health-intro-reference/mobile.png"
+            ],
+            "source_observations": {
+              "desktop": {
+                "viewport": {
+                  "width": 1440,
+                  "height": 900
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              },
+              "mobile": {
+                "viewport": {
+                  "width": 390,
+                  "height": 844
+                },
+                "page_horizontal_overflow": true,
+                "broken_images": []
+              }
+            }
+          },
+          "source_site": "60fps.design",
+          "source_url": "https://60fps.design/shots/apple-health-longevity-intro-animation",
+          "license": {
+            "status": "reference_only_not_code_license",
+            "redistribution": "No source code or original downloadable assets included; screenshots are research evidence."
+          },
+          "stack_compatibility": [
+            "framework-agnostic-spec"
+          ],
+          "style_tags": [
+            "onboarding-sequences"
+          ]
+        }
+      ],
+      "checkout-billing": [],
+      "settings-dashboards": []
+    },
+    "micro-interactions": {
+      "spring-physics-presets": [
+        {
+          "id": "motion-liquid-stepper-reference",
+          "location": {
+            "quadrant": "Q4-ux-motion",
+            "category": "micro-interactions",
+            "section": "spring-physics-presets",
+            "file_path": "Q4-ux-motion/micro-interactions/spring-physics-presets/motion-liquid-stepper-reference.json"
+          },
+          "tier": "C",
+          "tier_audit": {
+            "visual_verified": true,
+            "verification_scope": "source screenshots only; not local implementation fidelity",
+            "fidelity_type": "visual_spec",
+            "responsive_score": null,
+            "audit_notes": [
+              "Tier C: reference/spec, not ready-to-use code.",
+              "Source DOM measurements may describe gallery chrome, not the referenced product.",
+              "Keyboard, contrast and animation timing not certified."
+            ],
+            "evidence": [
+              "audits/source-evidence/recent-design-liquid-stepper/evidence.json",
+              "previews/motion-liquid-stepper-reference/desktop.png",
+              "previews/motion-liquid-stepper-reference/mobile.png"
+            ],
+            "source_observations": {
+              "desktop": {
+                "viewport": {
+                  "width": 1440,
+                  "height": 900
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              },
+              "mobile": {
+                "viewport": {
+                  "width": 390,
+                  "height": 844
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              }
+            }
+          },
+          "source_site": "recent.design",
+          "source_url": "https://recent.design/i/lrtfzrm-liquid-stepper-interaction",
+          "license": {
+            "status": "reference_only_not_code_license",
+            "redistribution": "No source code or original downloadable assets included; screenshots are research evidence."
+          },
+          "stack_compatibility": [
+            "framework-agnostic-spec"
+          ],
+          "style_tags": [
+            "spring-physics-presets"
+          ]
+        }
+      ],
+      "scroll-linked-reveals": [],
+      "tactile-button-states": []
+    },
+    "accessibility-specs": {
+      "aria-keyboard-contracts": [
+        {
+          "id": "ux-tabs-contract-reference",
+          "location": {
+            "quadrant": "Q4-ux-motion",
+            "category": "accessibility-specs",
+            "section": "aria-keyboard-contracts",
+            "file_path": "Q4-ux-motion/accessibility-specs/aria-keyboard-contracts/ux-tabs-contract-reference.json"
+          },
+          "tier": "C",
+          "tier_audit": {
+            "visual_verified": true,
+            "verification_scope": "source screenshots only; not local implementation fidelity",
+            "fidelity_type": "visual_spec",
+            "responsive_score": null,
+            "audit_notes": [
+              "Tier C: reference/spec, not ready-to-use code.",
+              "Source DOM measurements may describe gallery chrome, not the referenced product.",
+              "Keyboard, contrast and animation timing not certified."
+            ],
+            "evidence": [
+              "audits/source-evidence/component-gallery-tabs/evidence.json",
+              "previews/ux-tabs-contract-reference/desktop.png",
+              "previews/ux-tabs-contract-reference/mobile.png"
+            ],
+            "source_observations": {
+              "desktop": {
+                "viewport": {
+                  "width": 1440,
+                  "height": 900
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              },
+              "mobile": {
+                "viewport": {
+                  "width": 390,
+                  "height": 844
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              }
+            }
+          },
+          "source_site": "component.gallery",
+          "source_url": "https://component.gallery/components/tabs",
+          "license": {
+            "status": "reference_only_not_code_license",
+            "redistribution": "No source code or original downloadable assets included; screenshots are research evidence."
+          },
+          "stack_compatibility": [
+            "framework-agnostic-spec"
+          ],
+          "style_tags": [
+            "aria-keyboard-contracts"
+          ]
+        },
+        {
+          "id": "ux-accordion-contract-reference",
+          "location": {
+            "quadrant": "Q4-ux-motion",
+            "category": "accessibility-specs",
+            "section": "aria-keyboard-contracts",
+            "file_path": "Q4-ux-motion/accessibility-specs/aria-keyboard-contracts/ux-accordion-contract-reference.json"
+          },
+          "tier": "C",
+          "tier_audit": {
+            "visual_verified": true,
+            "verification_scope": "source screenshots only; not local implementation fidelity",
+            "fidelity_type": "visual_spec",
+            "responsive_score": null,
+            "audit_notes": [
+              "Tier C: reference/spec, not ready-to-use code.",
+              "Source DOM measurements may describe gallery chrome, not the referenced product.",
+              "Keyboard, contrast and animation timing not certified."
+            ],
+            "evidence": [
+              "audits/source-evidence/component-gallery-accordion/evidence.json",
+              "previews/ux-accordion-contract-reference/desktop.png",
+              "previews/ux-accordion-contract-reference/mobile.png"
+            ],
+            "source_observations": {
+              "desktop": {
+                "viewport": {
+                  "width": 1440,
+                  "height": 900
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              },
+              "mobile": {
+                "viewport": {
+                  "width": 390,
+                  "height": 844
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              }
+            }
+          },
+          "source_site": "component.gallery",
+          "source_url": "https://component.gallery/components/accordion",
+          "license": {
+            "status": "reference_only_not_code_license",
+            "redistribution": "No source code or original downloadable assets included; screenshots are research evidence."
+          },
+          "stack_compatibility": [
+            "framework-agnostic-spec"
+          ],
+          "style_tags": [
+            "aria-keyboard-contracts"
+          ]
+        }
+      ]
+    }
+  }
+}

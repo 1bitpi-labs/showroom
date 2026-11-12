@@ -1,0 +1,2204 @@
+{
+  "site": "component.gallery",
+  "url": "https://component.gallery/components/tabs",
+  "captured_at": "2026-11-12T21:11:37.591960+00:00",
+  "views": {
+    "desktop": {
+      "url": "https://component.gallery/components/tabs/",
+      "title": "🗂 Tabs | The Component Gallery",
+      "text": "The Component Gallery\nSEARCH\n^\nK\nCOMPONENTS\nDESIGN SYSTEMS\nABOUT\nComponent\nTabs\n\nAlso known as: Tabbed interface\n\nTabbed interfaces are a way of navigating between multiple panels, reducing clutter and fitting more into a smaller space.\n\nON THIS PAGE\nExamples\nDescription\nMarkup\nStyling\nInteractivity\nUsage guidelines\nFootnotes\nResources\nName distribution\n80 EXAMPLES\n\nFilter:\n\nTech\nFeatures\nSort by:\nDesign system\nComponent name\nCopy URLs\nTabs\n\nA11Y Style Guide\n\nTECH\njQuery\nFEATURES\nCode examples\nUsage guidelines\nAccessibility\nUnmaintained\nOpen source\nTabs\n\nAnt Design\n\nTECH\nReact\nFEATURES\nCode examples\nAccessibility issues\nOpen source\nTab\n\nAriakit\n\nTECH\nReact\nFEATURES\nCode examples\nOpen source\nAccessibility\nTabs\n\nAtlassian Design System\n\nTECH\nReact\nFEATURES\nCode examples\nUsage guidelines\nTone of voice\nAccessibility\nTabs\n\nBase Web\n\nTECH\nReact\nCSS-in-JS\nFEATURES\nCode examples\nUsage guidelines\nOpen source\nTabs (Motion)\n\nBase Web\n\nTECH\nReact\nCSS-in-JS\nFEATURES\nCode examples\nUsage guidelines\nOpen source\nTabs\n\nBBC Global Experience Language\n\nFEATURES\nAccessibility\nUsage guidelines\nUnmaintained\nTabs\n\nBlueprint\n\nTECH\nReact\nSass\nFEATURES\nOpen source\nTabs\n\nBolt Design System\n\nTECH\nSass\nTwig\nWeb Components\nFEATURES\nCode examples\nTone of voice\nOpen source\nTabs\n\nBulma\n\nTECH\nSass\nFEATURES\nCode examples\nAccessibility issues\nOpen source\nTabs\n\nCarbon Design System\n\nTECH\nReact\nVanilla JS\nAngular\nVue\nSvelte\nWeb Components\nFEATURES\nCode examples\nUsage guidelines\nOpen source\nTabs\n\nCauldron\n\nTECH\nReact\nCSS\nFEATURES\nCode examples\nUsage guidelines\nAccessibility\nOpen source\nTabs\n\nCedar\n\nTECH\nVue\nSass\nCSS Modules\nFEATURES\nUsage guidelines\nCode examples\nOpen source\nTabs\n\nChakra UI\n\nTECH\nReact\nCSS-in-JS\nFEATURES\nCode examples\nOpen source\nTabs\n\nClarity Design System\n\nTECH\nCSS\nAngular\nWeb Components\nFEATURES\nCode examples\nUsage guidelines\nOpen source\nTabs\n\nCoral\n\nTECH\nReact\nFEATURES\nCode examples\nTone of voice\nOpen source\nTab\n\nCrayons\n\nTECH\nWeb Components\nFEATURES\nCode examples\nOpen source\nTabs\n\nDecathlon Design System\n\nTECH\nCSS\nReact\nSvelte\nVue\nWeb Components\nFEATURES\nUsage guidelines\nCode examples\nAccessibility\nOpen source\nTabs\n\nDell Design System\n\nTECH\nVanilla JS\nFEATURES\nCode examples\nUsage guidelines\nTab\n\nDuet Design System\n\nTECH\nAngular\nVue\nReact\nFEATURES\nCode examples\nTab Group\n\nDuet Design System\n\nTECH\nAngular\nVue\nReact\nFEATURES\nCode examples\nTabs\n\neBay MIND Patterns\n\nFEATURES\nAccessibility\nUsage guidelines\nOpen source\nTab\n\neBay Playbook\n\nTECH\nHTML\nReact\nFEATURES\nCode examples\nTabNavigation\n\nElisa Design System\n\nTECH\nReact\nFEATURES\nUsage guidelines\nCode examples\nAccessibility\nTab\n\nEvergreen\n\nTECH\nReact\nFEATURES\nOpen source\nTabs\n\nFlowbite\n\nTECH\nTailwind CSS\nFEATURES\nOpen source\nCode examples\nPivot\n\nFluent UI\n\nTECH\nReact\nWeb Components\nMobile\nFEATURES\nUsage guidelines\nCode examples\nAccessibility\nOpen source\nTabs\n\nForma 36\n\nTECH\nReact\nCSS-in-JS\nFEATURES\nCode examples\nOpen source\nTabs\n\nGeist Design System\n\nTECH\nReact\nFEATURES\nCode examples\nTabs\n\ngeneric-components\n\nTECH\nWeb Components\nFEATURES\nCode examples\nAccessibility\nOpen source\nTabs\n\nGestalt\n\nTECH\nReact\nCSS\nFEATURES\nCode examples\nOpen source\nUsage guidelines\nTabs\n\nGOV.UK Design System\n\nTECH\nNunjucks\nFEATURES\nCode examples\nUsage guidelines\nResearch\nOpen source\nTabs\n\nGrommet\n\nTECH\nReact\nFEATURES\nCode examples\nOpen source\nTabs\n\nHeadless UI\n\nTECH\nReact\nVue\nFEATURES\nCode examples\nAccessibility\nOpen source\nTabs\n\nHelios\n\nTECH\nEmber\nSass\nFEATURES\nCode examples\nUsage guidelines\nAccessibility\nOpen source\nTabs\n\nHelsinki Design System\n\nTECH\nReact\nCSS\nFEATURES\nCode examples\nUsage guidelines\nAccessibility\nOpen source\nTabs\n\nHeroUI\n\nTECH\nReact\nTailwind CSS\nFEATURES\nCode examples\nOpen source\nTabs\n\nInclusive Components\n\nFEATURES\nCode examples\nAccessibility\nUnmaintained\nTabs\n\nInstructure-UI\n\nTECH\nReact\nCSS-in-JS\nFEATURES\nCode examples\nAccessibility\nOpen source\nTabs\n\nJøkul Designsystem\n\nTECH\nReact\nSass\nFEATURES\nCode examples\nUsage guidelines\nOpen source\nScoped Tabs\n\nLightning Design System\n\nTECH\nReact\nFEATURES\nCode exam",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Tabs",
+          "bounds": {
+            "x": 108.96875,
+            "y": 108.96875,
+            "width": 166.9375,
+            "height": 107.921875
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "107.917px",
+            "fontWeight": "400",
+            "lineHeight": "107.917px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "80 EXAMPLES",
+          "bounds": {
+            "x": 396.75,
+            "y": 415.59375,
+            "width": 970.25,
+            "height": 56.578125
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "24.5008px",
+            "fontWeight": "400",
+            "lineHeight": "32.5861px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "16px 16px 8px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Tabs",
+          "bounds": {
+            "x": 412.75,
+            "y": 771.234375,
+            "width": 56.859375,
+            "height": 41.359375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "36.7648px",
+            "fontWeight": "400",
+            "lineHeight": "41.3604px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "TECH",
+          "bounds": {
+            "x": 412.75,
+            "y": 849.078125,
+            "width": 290.75,
+            "height": 19.984375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "13.328px",
+            "fontWeight": "500",
+            "lineHeight": "19.992px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "FEATURES",
+          "bounds": {
+            "x": 412.75,
+            "y": 907.390625,
+            "width": 290.75,
+            "height": 19.984375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "13.328px",
+            "fontWeight": "500",
+            "lineHeight": "19.992px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Tabs",
+          "bounds": {
+            "x": 736.5,
+            "y": 771.21875,
+            "width": 56.859375,
+            "height": 41.359375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "36.7648px",
+            "fontWeight": "400",
+            "lineHeight": "41.3604px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "TECH",
+          "bounds": {
+            "x": 736.5,
+            "y": 879.40625,
+            "width": 290.734375,
+            "height": 19.984375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "13.328px",
+            "fontWeight": "500",
+            "lineHeight": "19.992px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "FEATURES",
+          "bounds": {
+            "x": 736.5,
+            "y": 937.71875,
+            "width": 290.734375,
+            "height": 19.984375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "13.328px",
+            "fontWeight": "500",
+            "lineHeight": "19.992px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Tab",
+          "bounds": {
+            "x": 1060.234375,
+            "y": 771.234375,
+            "width": 45.546875,
+            "height": 41.359375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "36.7648px",
+            "fontWeight": "400",
+            "lineHeight": "41.3604px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "TECH",
+          "bounds": {
+            "x": 1060.234375,
+            "y": 879.40625,
+            "width": 290.765625,
+            "height": 19.984375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "13.328px",
+            "fontWeight": "500",
+            "lineHeight": "19.992px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "FEATURES",
+          "bounds": {
+            "x": 1060.234375,
+            "y": 937.71875,
+            "width": 290.765625,
+            "height": 19.984375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "13.328px",
+            "fontWeight": "500",
+            "lineHeight": "19.992px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Tabs",
+          "bounds": {
+            "x": 412.75,
+            "y": 1281.421875,
+            "width": 56.859375,
+            "height": 41.359375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "36.7648px",
+            "fontWeight": "400",
+            "lineHeight": "41.3604px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "HEADER",
+          "role": null,
+          "text": "The Component Gallery\nSEARCH\n^\nK\nCOMPONENTS\nDESIGN SYSTEMS\nABOUT",
+          "bounds": {
+            "x": 73,
+            "y": 0,
+            "width": 1294,
+            "height": 72
+          },
+          "styles": {
+            "display": "grid",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "1px",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "subgrid [] [] [] [] [] [] [] [] [] [] [] [] []"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "SEARCH\n^\nK",
+          "bounds": {
+            "x": 512.65625,
+            "y": 24,
+            "width": 146.84375,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "20px",
+            "fontWeight": "400",
+            "lineHeight": "30px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "8px",
+            "padding": "8px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 887.328125,
+            "y": 24,
+            "width": 40,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "8px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "COMPONENTS\nDESIGN SYSTEMS\nABOUT",
+          "bounds": {
+            "x": 936.328125,
+            "y": 0,
+            "width": 430.671875,
+            "height": 72
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgb(247, 245, 242)",
+            "gap": "normal",
+            "padding": "24px 16px 16px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "role": null,
+          "text": "Component\nTabs\n\nAlso known as: Tabbed interface\n\nTabbed interfaces are a way of navigating between multiple panels, reducing clutter and fit",
+          "bounds": {
+            "x": 73,
+            "y": 73,
+            "width": 1294,
+            "height": 18404.53125
+          },
+          "styles": {
+            "display": "grid",
+            "position": "relative",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgb(247, 245, 242)",
+            "gap": "1px normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "subgrid [] [] [] [] [] [] [] [] [] [] [] [] []"
+          }
+        },
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "ON THIS PAGE\nExamples\nDescription\nMarkup\nStyling\nInteractivity\nUsage guidelines\nFootnotes\nResources\nName distribution",
+          "bounds": {
+            "x": 73,
+            "y": 415.59375,
+            "width": 322.75,
+            "height": 364.9375
+          },
+          "styles": {
+            "display": "block",
+            "position": "sticky",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "16px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Tech",
+          "bounds": {
+            "x": 469.40625,
+            "y": 480.171875,
+            "width": 75.46875,
+            "height": 36
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16.3264px",
+            "fontWeight": "550",
+            "lineHeight": "20px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "8px 16px 8px 8px",
+            "borderRadius": "6px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Features",
+          "bounds": {
+            "x": 560.875,
+            "y": 480.171875,
+            "width": 102.3125,
+            "height": 36
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16.3264px",
+            "fontWeight": "550",
+            "lineHeight": "20px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "8px 16px 8px 8px",
+            "borderRadius": "6px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Copy URLs",
+          "bounds": {
+            "x": 1240.4375,
+            "y": 431.59375,
+            "width": 110.5625,
+            "height": 26
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16.3264px",
+            "fontWeight": "550",
+            "lineHeight": "24px",
+            "color": "rgb(95, 93, 91)",
+            "backgroundColor": "rgb(247, 245, 242)",
+            "gap": "4px",
+            "padding": "0px 8px",
+            "borderRadius": "6px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "FOOTNOTES\n\nWAI-ARIA Authoring Practices 1.1 ↩",
+          "bounds": {
+            "x": 412.75,
+            "y": 17531.515625,
+            "width": 614.828125,
+            "height": 49.484375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16.3264px",
+            "fontWeight": "400",
+            "lineHeight": "24.4896px",
+            "color": "rgb(114, 111, 109)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "The Component Gallery",
+          "href": "https://component.gallery/"
+        },
+        {
+          "text": "COMPONENTS",
+          "href": "https://component.gallery/components"
+        },
+        {
+          "text": "DESIGN SYSTEMS",
+          "href": "https://component.gallery/design-systems"
+        },
+        {
+          "text": "ABOUT",
+          "href": "https://component.gallery/about"
+        },
+        {
+          "text": "Examples",
+          "href": "https://component.gallery/components/tabs/#examples"
+        },
+        {
+          "text": "Description",
+          "href": "https://component.gallery/components/tabs/#description"
+        },
+        {
+          "text": "Markup",
+          "href": "https://component.gallery/components/tabs/#markup"
+        },
+        {
+          "text": "Styling",
+          "href": "https://component.gallery/components/tabs/#styling"
+        },
+        {
+          "text": "Interactivity",
+          "href": "https://component.gallery/components/tabs/#interactivity"
+        },
+        {
+          "text": "Usage guidelines",
+          "href": "https://component.gallery/components/tabs/#usage-guidelines"
+        },
+        {
+          "text": "Footnotes",
+          "href": "https://component.gallery/components/tabs/#footnote-label"
+        },
+        {
+          "text": "Resources",
+          "href": "https://component.gallery/components/tabs/#resources"
+        },
+        {
+          "text": "Name distribution",
+          "href": "https://component.gallery/components/tabs/#name-distribution"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://a11y-style-guide.com/style-guide/section-structure.html#kssref-structure-tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://ant.design/components/tabs"
+        },
+        {
+          "text": "Tab",
+          "href": "https://ariakit.org/components/tab"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://atlassian.design/components/tabs/examples"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://baseweb.design/components/tabs/"
+        },
+        {
+          "text": "Tabs (Motion)",
+          "href": "https://baseweb.design/components/tabs-motion/"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://www.bbc.co.uk/gel/guidelines/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://blueprintjs.com/docs/#core/components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://boltdesignsystem.com/pattern-lab/?p=viewall-components-tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://bulma.io/documentation/components/tabs/"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://carbondesignsystem.com/components/tabs/usage/"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://cauldron.dequelabs.com/components/Tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://cedar.rei.com/components/tab"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://chakra-ui.com/docs/components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://clarity.design/documentation/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://design.talend.com/?path=/docs/navigation-tabs--docs"
+        },
+        {
+          "text": "Tab",
+          "href": "https://crayons.freshworks.com/components/core/tabs/"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://www.decathlon.design/726f8c765/p/705308-tabs/b/4177c3"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://www.delldesignsystem.com/components/tabs/"
+        },
+        {
+          "text": "Tab",
+          "href": "https://www.duetds.com/components/tab/"
+        },
+        {
+          "text": "Tab Group",
+          "href": "https://www.duetds.com/components/tab-group/"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://ebay.gitbook.io/mindpatterns/disclosure/tabs"
+        },
+        {
+          "text": "Tab",
+          "href": "https://playbook.ebay.com/design-system/components/tab"
+        },
+        {
+          "text": "TabNavigation",
+          "href": "https://designsystem.elisa.fi/9b207b2c3/p/56306b-tabnavigation"
+        },
+        {
+          "text": "Tab",
+          "href": "https://evergreen.segment.com/components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://flowbite.com/docs/components/tabs/"
+        },
+        {
+          "text": "Pivot",
+          "href": "https://developer.microsoft.com/en-us/fluentui#/controls/web/pivot"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://f36.contentful.com/components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://vercel.com/geist/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://genericcomponents.netlify.app/generic-tabs/demo/index.html"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://gestalt.pinterest.systems/web/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://design-system.service.gov.uk/components/tabs/"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://v2.grommet.io/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://headlessui.com/react/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://helios.hashicorp.design/components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://hds.hel.fi/components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://www.heroui.com/docs/components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://inclusive-components.design/tabbed-interfaces/"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://instructure.design/#Tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://jokul.fremtind.no/komponenter/tabs"
+        },
+        {
+          "text": "Scoped Tabs",
+          "href": "https://www.lightningdesignsystem.com/components/scoped-tabs/"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://www.lightningdesignsystem.com/components/tabs/"
+        },
+        {
+          "text": "Vertical Tabs",
+          "href": "https://www.lightningdesignsystem.com/components/vertical-tabs/"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://m3.material.io/components/tabs/overview"
+        },
+        {
+          "text": "Tab",
+          "href": "https://momentum.design/components/tab"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://design.morningstar.com/systems/product/components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://design.ns.nl/4a05a30ad/p/9298c6-tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://www.newskit.co.uk/components/tabs/"
+        },
+        {
+          "text": "Tab group",
+          "href": "https://nordhealth.design/components/tab-group/"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://britishgas.design/docs/components/ns-tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://ons-design-system.netlify.app/components/tabs/"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://orbit.kiwi/components/tabs/"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://design.gitlab.com/components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://paste.twilio.design/components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://www.patternfly.org/components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://pharos.jstor.org/components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://designsystem.porsche.com/v3/components/tabs/examples"
+        },
+        {
+          "text": "Tabs Bar",
+          "href": "https://designsystem.porsche.com/v3/components/tabs-bar/examples"
+        },
+        {
+          "text": "Tab panels",
+          "href": "https://primer.style/design/components/tab-panels"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://design.herokai.com/purple3/docs/#tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://quasar.dev/vue-components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://radix-ui.com/primitives/docs/components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://reach.tech/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://ux.redhat.com/elements/tabs/"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://components.ruter.as/#/Components/Interactive/Tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://design-systems.sainsburys.co.uk/components/tabs/"
+        },
+        {
+          "text": "Tab",
+          "href": "https://designlibrary.sebgroup.com/components/tab/"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://sproutsocial.com/seeds/components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://ui.shadcn.com/docs/components/tabs"
+        },
+        {
+          "text": "Tab group",
+          "href": "https://shoelace.style/components/tab-group"
+        },
+        {
+          "text": "Tab",
+          "href": "https://shoelace.style/components/tab"
+        },
+        {
+          "text": "Tab panel",
+          "href": "https://shoelace.style/components/tab-panel"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://spectrum.adobe.com/page/tabs/"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://www.subzero.axis.bank.in/components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://ustyle.guide/pattern-library/javascript.html#tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://design.visa.com/components/tabs/"
+        },
+        {
+          "text": "Tab",
+          "href": "https://design.wonderflow.ai/get-started/components/navigation/tab"
+        },
+        {
+          "text": "Tab Group",
+          "href": "https://webawesome.com/docs/components/tab-group/"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://wise.design/components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://canvas.workday.com/components/containers/tabs"
+        },
+        {
+          "text": "interface metaphor",
+          "href": "https://en.wikipedia.org/wiki/Interface_metaphor"
+        },
+        {
+          "text": "W3C recommended accessible markup",
+          "href": "https://www.w3.org/TR/wai-aria-practices-1.1/#tabpanel"
+        },
+        {
+          "text": "1",
+          "href": "https://component.gallery/components/tabs/#user-content-fn-1"
+        },
+        {
+          "text": "such as an accordion",
+          "href": "https://component.gallery/components/accordion"
+        },
+        {
+          "text": "an accordion",
+          "href": "https://component.gallery/components/accordion"
+        },
+        {
+          "text": "WAI-ARIA Authoring Practices 1.1",
+          "href": "https://www.w3.org/TR/wai-aria-practices-1.1/#tabpanel"
+        },
+        {
+          "text": "↩",
+          "href": "https://component.gallery/components/tabs/#user-content-fnref-1"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://open-ui.org/components/tabs.research"
+        },
+        {
+          "text": "Tab Guidelines",
+          "href": "https://balsamiq.com/learn/ui-control-guidelines/tabs/"
+        },
+        {
+          "text": "Iain Bean",
+          "href": "https://iainbean.com/"
+        },
+        {
+          "text": "Astro",
+          "href": "https://astro.build/"
+        },
+        {
+          "text": "Airtable",
+          "href": "https://airtable.com/"
+        },
+        {
+          "text": "Cloudflare Pages",
+          "href": "https://pages.cloudflare.com/"
+        },
+        {
+          "text": "Pagefind",
+          "href": "https://pagefind.app/"
+        },
+        {
+          "text": "this puppeteer script",
+          "href": "https://github.com/inbn/screenshot-urls"
+        },
+        {
+          "text": "Tailwind",
+          "href": "https://tailwindcss.com/"
+        },
+        {
+          "text": "Instrument Serif",
+          "href": "https://fonts.google.com/specimen/Instrument+Serif"
+        },
+        {
+          "text": "Instrument Sans",
+          "href": "https://fonts.google.com/specimen/Instrument+Sans"
+        },
+        {
+          "text": "JetBrains Mono",
+          "href": "https://www.jetbrains.com/lp/mono/"
+        },
+        {
+          "text": "About",
+          "href": "https://component.gallery/about"
+        },
+        {
+          "text": "Contribute",
+          "href": "https://component.gallery/contribute"
+        },
+        {
+          "text": "Changelog",
+          "href": "https://component.gallery/changelog"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--tw-ring-offset-shadow": "0 0 #0000",
+        "--tw-backdrop-sepia": "",
+        "--tw-ring-shadow": "0 0 #0000",
+        "--tw-sepia": "",
+        "--tw-ordinal": "",
+        "--tw-backdrop-saturate": "",
+        "--tw-contain-style": "",
+        "--tw-ring-inset": "",
+        "--tw-backdrop-invert": "",
+        "--color-bg-primary": "#f7f5f2",
+        "--tw-numeric-spacing": "",
+        "--tw-border-spacing-x": "0",
+        "--color-text-highlight": "#1f1d1d",
+        "--color-text-secondary": "#726f6d",
+        "--tw-brightness": "",
+        "--tw-backdrop-grayscale": "",
+        "--tw-hue-rotate": "",
+        "--tw-scale-y": "1",
+        "--tw-pan-y": "",
+        "--tw-backdrop-contrast": "",
+        "--color-border-primary": "#ccc9c5",
+        "--tw-drop-shadow": "",
+        "--tw-ring-color": "rgb(59 130 246 / .5)",
+        "--tw-backdrop-brightness": "",
+        "--fade-size": "72px",
+        "--tw-pan-x": "",
+        "--tw-translate-y": "0",
+        "--tw-rotate": "0",
+        "--tw-ring-offset-color": "#fff",
+        "--tw-contain-size": "",
+        "--tw-contrast": "",
+        "--color-bg-highlight-invert": "#1f1d1d",
+        "--color-border-highlight": "#1f1d1d",
+        "--tw-skew-x": "0",
+        "--tw-backdrop-blur": "",
+        "--tw-shadow": "0 0 #0000",
+        "--tw-translate-x": "0",
+        "--tw-ring-offset-width": "0px",
+        "--tw-gradient-via-position": "",
+        "--color-text-decoration": "#5f5d5b",
+        "--tw-saturate": "",
+        "--color-text-highlight-invert": "#f7f5f2",
+        "--tw-scroll-snap-strictness": "proximity",
+        "--tw-grayscale": "",
+        "--tw-scale-x": "1",
+        "--color-bg-highlight": "#fff",
+        "--grid-display-size": "calc((100vw - 9rem - 1px) / 36)",
+        "--tw-backdrop-hue-rotate": "",
+        "--tw-shadow-colored": "0 0 #0000",
+        "--color-gradient-highlight-2": "#343232",
+        "--tw-gradient-to-position": "",
+        "--tw-border-spacing-y": "0",
+        "--tw-numeric-fraction": "",
+        "--color-gradient-background": "#eceae6",
+        "--color-gradient-highlight-1": "#8b8885",
+        "--tw-skew-y": "0",
+        "--tw-slashed-zero": "",
+        "--tw-blur": "",
+        "--tw-invert": "",
+        "--color-text-primary": "#4a4846",
+        "--tw-backdrop-opacity": "",
+        "--tw-gradient-from-position": "",
+        "--tw-numeric-figure": "",
+        "--color-bg-secondary": "#e2dfdb",
+        "--tw-pinch-zoom": "",
+        "--tw-contain-paint": "",
+        "--tw-contain-layout": ""
+      }
+    },
+    "mobile": {
+      "url": "https://component.gallery/components/tabs/",
+      "title": "🗂 Tabs | The Component Gallery",
+      "text": "The Component Gallery\nSEARCH\nCOMPONENTS\nDESIGN SYSTEMS\nABOUT\nComponent\nTabs\n\nAlso known as: Tabbed interface\n\nTabbed interfaces are a way of navigating between multiple panels, reducing clutter and fitting more into a smaller space.\n\nON THIS PAGE\nExamples\nDescription\nMarkup\nStyling\nInteractivity\nUsage guidelines\nFootnotes\nResources\nName distribution\n80 EXAMPLES\n\nFilter:\n\nTech\nFeatures\nSort by:\nDesign system\nComponent name\nCopy URLs\nTabs\n\nA11Y Style Guide\n\nTECH\njQuery\nFEATURES\nCode examples\nUsage guidelines\nAccessibility\nUnmaintained\nOpen source\nTabs\n\nAnt Design\n\nTECH\nReact\nFEATURES\nCode examples\nAccessibility issues\nOpen source\nTab\n\nAriakit\n\nTECH\nReact\nFEATURES\nCode examples\nOpen source\nAccessibility\nTabs\n\nAtlassian Design System\n\nTECH\nReact\nFEATURES\nCode examples\nUsage guidelines\nTone of voice\nAccessibility\nTabs\n\nBase Web\n\nTECH\nReact\nCSS-in-JS\nFEATURES\nCode examples\nUsage guidelines\nOpen source\nTabs (Motion)\n\nBase Web\n\nTECH\nReact\nCSS-in-JS\nFEATURES\nCode examples\nUsage guidelines\nOpen source\nTabs\n\nBBC Global Experience Language\n\nFEATURES\nAccessibility\nUsage guidelines\nUnmaintained\nTabs\n\nBlueprint\n\nTECH\nReact\nSass\nFEATURES\nOpen source\nTabs\n\nBolt Design System\n\nTECH\nSass\nTwig\nWeb Components\nFEATURES\nCode examples\nTone of voice\nOpen source\nTabs\n\nBulma\n\nTECH\nSass\nFEATURES\nCode examples\nAccessibility issues\nOpen source\nTabs\n\nCarbon Design System\n\nTECH\nReact\nVanilla JS\nAngular\nVue\nSvelte\nWeb Components\nFEATURES\nCode examples\nUsage guidelines\nOpen source\nTabs\n\nCauldron\n\nTECH\nReact\nCSS\nFEATURES\nCode examples\nUsage guidelines\nAccessibility\nOpen source\nTabs\n\nCedar\n\nTECH\nVue\nSass\nCSS Modules\nFEATURES\nUsage guidelines\nCode examples\nOpen source\nTabs\n\nChakra UI\n\nTECH\nReact\nCSS-in-JS\nFEATURES\nCode examples\nOpen source\nTabs\n\nClarity Design System\n\nTECH\nCSS\nAngular\nWeb Components\nFEATURES\nCode examples\nUsage guidelines\nOpen source\nTabs\n\nCoral\n\nTECH\nReact\nFEATURES\nCode examples\nTone of voice\nOpen source\nTab\n\nCrayons\n\nTECH\nWeb Components\nFEATURES\nCode examples\nOpen source\nTabs\n\nDecathlon Design System\n\nTECH\nCSS\nReact\nSvelte\nVue\nWeb Components\nFEATURES\nUsage guidelines\nCode examples\nAccessibility\nOpen source\nTabs\n\nDell Design System\n\nTECH\nVanilla JS\nFEATURES\nCode examples\nUsage guidelines\nTab\n\nDuet Design System\n\nTECH\nAngular\nVue\nReact\nFEATURES\nCode examples\nTab Group\n\nDuet Design System\n\nTECH\nAngular\nVue\nReact\nFEATURES\nCode examples\nTabs\n\neBay MIND Patterns\n\nFEATURES\nAccessibility\nUsage guidelines\nOpen source\nTab\n\neBay Playbook\n\nTECH\nHTML\nReact\nFEATURES\nCode examples\nTabNavigation\n\nElisa Design System\n\nTECH\nReact\nFEATURES\nUsage guidelines\nCode examples\nAccessibility\nTab\n\nEvergreen\n\nTECH\nReact\nFEATURES\nOpen source\nTabs\n\nFlowbite\n\nTECH\nTailwind CSS\nFEATURES\nOpen source\nCode examples\nPivot\n\nFluent UI\n\nTECH\nReact\nWeb Components\nMobile\nFEATURES\nUsage guidelines\nCode examples\nAccessibility\nOpen source\nTabs\n\nForma 36\n\nTECH\nReact\nCSS-in-JS\nFEATURES\nCode examples\nOpen source\nTabs\n\nGeist Design System\n\nTECH\nReact\nFEATURES\nCode examples\nTabs\n\ngeneric-components\n\nTECH\nWeb Components\nFEATURES\nCode examples\nAccessibility\nOpen source\nTabs\n\nGestalt\n\nTECH\nReact\nCSS\nFEATURES\nCode examples\nOpen source\nUsage guidelines\nTabs\n\nGOV.UK Design System\n\nTECH\nNunjucks\nFEATURES\nCode examples\nUsage guidelines\nResearch\nOpen source\nTabs\n\nGrommet\n\nTECH\nReact\nFEATURES\nCode examples\nOpen source\nTabs\n\nHeadless UI\n\nTECH\nReact\nVue\nFEATURES\nCode examples\nAccessibility\nOpen source\nTabs\n\nHelios\n\nTECH\nEmber\nSass\nFEATURES\nCode examples\nUsage guidelines\nAccessibility\nOpen source\nTabs\n\nHelsinki Design System\n\nTECH\nReact\nCSS\nFEATURES\nCode examples\nUsage guidelines\nAccessibility\nOpen source\nTabs\n\nHeroUI\n\nTECH\nReact\nTailwind CSS\nFEATURES\nCode examples\nOpen source\nTabs\n\nInclusive Components\n\nFEATURES\nCode examples\nAccessibility\nUnmaintained\nTabs\n\nInstructure-UI\n\nTECH\nReact\nCSS-in-JS\nFEATURES\nCode examples\nAccessibility\nOpen source\nTabs\n\nJøkul Designsystem\n\nTECH\nReact\nSass\nFEATURES\nCode examples\nUsage guidelines\nOpen source\nScoped Tabs\n\nLightning Design System\n\nTECH\nReact\nFEATURES\nCode examples",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Tabs",
+          "bounds": {
+            "x": 39.203125,
+            "y": 168.578125,
+            "width": 65.921875,
+            "height": 42.625
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "42.625px",
+            "fontWeight": "400",
+            "lineHeight": "42.625px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "80 EXAMPLES",
+          "bounds": {
+            "x": 25,
+            "y": 1000.84375,
+            "width": 340,
+            "height": 48.5625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "18.4743px",
+            "fontWeight": "400",
+            "lineHeight": "24.5708px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "16px 16px 8px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Tabs",
+          "bounds": {
+            "x": 41,
+            "y": 1425.40625,
+            "width": 36.828125,
+            "height": 26.765625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "23.8011px",
+            "fontWeight": "400",
+            "lineHeight": "26.7763px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "TECH",
+          "bounds": {
+            "x": 41,
+            "y": 1485.734375,
+            "width": 308,
+            "height": 19.03125
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "12.6913px",
+            "fontWeight": "500",
+            "lineHeight": "19.0369px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "FEATURES",
+          "bounds": {
+            "x": 41,
+            "y": 1541.140625,
+            "width": 308,
+            "height": 19.03125
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "12.6913px",
+            "fontWeight": "500",
+            "lineHeight": "19.0369px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Tabs",
+          "bounds": {
+            "x": 41,
+            "y": 1892.921875,
+            "width": 36.828125,
+            "height": 26.765625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "23.8011px",
+            "fontWeight": "400",
+            "lineHeight": "26.7763px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "TECH",
+          "bounds": {
+            "x": 41,
+            "y": 1953.25,
+            "width": 308,
+            "height": 19.03125
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "12.6913px",
+            "fontWeight": "500",
+            "lineHeight": "19.0369px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "FEATURES",
+          "bounds": {
+            "x": 41,
+            "y": 2008.65625,
+            "width": 308,
+            "height": 19.03125
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "12.6913px",
+            "fontWeight": "500",
+            "lineHeight": "19.0369px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Tab",
+          "bounds": {
+            "x": 41,
+            "y": 2360.4375,
+            "width": 29.484375,
+            "height": 26.765625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "23.8011px",
+            "fontWeight": "400",
+            "lineHeight": "26.7763px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "TECH",
+          "bounds": {
+            "x": 41,
+            "y": 2420.765625,
+            "width": 308,
+            "height": 19.03125
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "12.6913px",
+            "fontWeight": "500",
+            "lineHeight": "19.0369px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "FEATURES",
+          "bounds": {
+            "x": 41,
+            "y": 2476.171875,
+            "width": 308,
+            "height": 19.03125
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "12.6913px",
+            "fontWeight": "500",
+            "lineHeight": "19.0369px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Tabs",
+          "bounds": {
+            "x": 41,
+            "y": 2799.578125,
+            "width": 36.828125,
+            "height": 26.765625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "23.8011px",
+            "fontWeight": "400",
+            "lineHeight": "26.7763px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "HEADER",
+          "role": null,
+          "text": "The Component Gallery\nSEARCH\nCOMPONENTS\nDESIGN SYSTEMS\nABOUT",
+          "bounds": {
+            "x": 25,
+            "y": 0,
+            "width": 340,
+            "height": 113
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "1px normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "subgrid"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "SEARCH",
+          "bounds": {
+            "x": 273,
+            "y": 8,
+            "width": 40,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16.2923px",
+            "fontWeight": "400",
+            "lineHeight": "24.4385px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "8px",
+            "padding": "12px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 317,
+            "y": 8,
+            "width": 40,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "8px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "COMPONENTS\nDESIGN SYSTEMS\nABOUT",
+          "bounds": {
+            "x": 25,
+            "y": 57,
+            "width": 340,
+            "height": 56
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgb(247, 245, 242)",
+            "gap": "normal",
+            "padding": "16px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "role": null,
+          "text": "Component\nTabs\n\nAlso known as: Tabbed interface\n\nTabbed interfaces are a way of navigating between multiple panels, reducing clutter and fit",
+          "bounds": {
+            "x": 25,
+            "y": 114,
+            "width": 340,
+            "height": 41925
+          },
+          "styles": {
+            "display": "grid",
+            "position": "relative",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgb(247, 245, 242)",
+            "gap": "1px normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "subgrid [] [] [] [] [] [] [] [] [] [] [] [] []"
+          }
+        },
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "ON THIS PAGE\nExamples\nDescription\nMarkup\nStyling\nInteractivity\nUsage guidelines\nFootnotes\nResources\nName distribution",
+          "bounds": {
+            "x": 25,
+            "y": 669.21875,
+            "width": 340,
+            "height": 330.625
+          },
+          "styles": {
+            "display": "block",
+            "position": "sticky",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "16px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Tech",
+          "bounds": {
+            "x": 33,
+            "y": 1085.40625,
+            "width": 154,
+            "height": 36
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "14.3749px",
+            "fontWeight": "550",
+            "lineHeight": "20px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "8px 16px 8px 8px",
+            "borderRadius": "6px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Features",
+          "bounds": {
+            "x": 33,
+            "y": 1121.40625,
+            "width": 154,
+            "height": 36
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "14.3749px",
+            "fontWeight": "550",
+            "lineHeight": "20px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "8px 16px 8px 8px",
+            "borderRadius": "6px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Copy URLs",
+          "bounds": {
+            "x": 203,
+            "y": 1126.40625,
+            "width": 101.875,
+            "height": 26
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "14.3749px",
+            "fontWeight": "550",
+            "lineHeight": "24px",
+            "color": "rgb(95, 93, 91)",
+            "backgroundColor": "rgb(247, 245, 242)",
+            "gap": "4px",
+            "padding": "0px 8px",
+            "borderRadius": "6px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "FOOTNOTES\n\nWAI-ARIA Authoring Practices 1.1 ↩",
+          "bounds": {
+            "x": 41,
+            "y": 40886.09375,
+            "width": 308,
+            "height": 47.5625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "14.3749px",
+            "fontWeight": "400",
+            "lineHeight": "21.5623px",
+            "color": "rgb(114, 111, 109)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "The Component Gallery",
+          "href": "https://component.gallery/"
+        },
+        {
+          "text": "COMPONENTS",
+          "href": "https://component.gallery/components"
+        },
+        {
+          "text": "DESIGN SYSTEMS",
+          "href": "https://component.gallery/design-systems"
+        },
+        {
+          "text": "ABOUT",
+          "href": "https://component.gallery/about"
+        },
+        {
+          "text": "Examples",
+          "href": "https://component.gallery/components/tabs/#examples"
+        },
+        {
+          "text": "Description",
+          "href": "https://component.gallery/components/tabs/#description"
+        },
+        {
+          "text": "Markup",
+          "href": "https://component.gallery/components/tabs/#markup"
+        },
+        {
+          "text": "Styling",
+          "href": "https://component.gallery/components/tabs/#styling"
+        },
+        {
+          "text": "Interactivity",
+          "href": "https://component.gallery/components/tabs/#interactivity"
+        },
+        {
+          "text": "Usage guidelines",
+          "href": "https://component.gallery/components/tabs/#usage-guidelines"
+        },
+        {
+          "text": "Footnotes",
+          "href": "https://component.gallery/components/tabs/#footnote-label"
+        },
+        {
+          "text": "Resources",
+          "href": "https://component.gallery/components/tabs/#resources"
+        },
+        {
+          "text": "Name distribution",
+          "href": "https://component.gallery/components/tabs/#name-distribution"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://a11y-style-guide.com/style-guide/section-structure.html#kssref-structure-tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://ant.design/components/tabs"
+        },
+        {
+          "text": "Tab",
+          "href": "https://ariakit.org/components/tab"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://atlassian.design/components/tabs/examples"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://baseweb.design/components/tabs/"
+        },
+        {
+          "text": "Tabs (Motion)",
+          "href": "https://baseweb.design/components/tabs-motion/"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://www.bbc.co.uk/gel/guidelines/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://blueprintjs.com/docs/#core/components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://boltdesignsystem.com/pattern-lab/?p=viewall-components-tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://bulma.io/documentation/components/tabs/"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://carbondesignsystem.com/components/tabs/usage/"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://cauldron.dequelabs.com/components/Tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://cedar.rei.com/components/tab"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://chakra-ui.com/docs/components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://clarity.design/documentation/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://design.talend.com/?path=/docs/navigation-tabs--docs"
+        },
+        {
+          "text": "Tab",
+          "href": "https://crayons.freshworks.com/components/core/tabs/"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://www.decathlon.design/726f8c765/p/705308-tabs/b/4177c3"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://www.delldesignsystem.com/components/tabs/"
+        },
+        {
+          "text": "Tab",
+          "href": "https://www.duetds.com/components/tab/"
+        },
+        {
+          "text": "Tab Group",
+          "href": "https://www.duetds.com/components/tab-group/"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://ebay.gitbook.io/mindpatterns/disclosure/tabs"
+        },
+        {
+          "text": "Tab",
+          "href": "https://playbook.ebay.com/design-system/components/tab"
+        },
+        {
+          "text": "TabNavigation",
+          "href": "https://designsystem.elisa.fi/9b207b2c3/p/56306b-tabnavigation"
+        },
+        {
+          "text": "Tab",
+          "href": "https://evergreen.segment.com/components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://flowbite.com/docs/components/tabs/"
+        },
+        {
+          "text": "Pivot",
+          "href": "https://developer.microsoft.com/en-us/fluentui#/controls/web/pivot"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://f36.contentful.com/components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://vercel.com/geist/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://genericcomponents.netlify.app/generic-tabs/demo/index.html"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://gestalt.pinterest.systems/web/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://design-system.service.gov.uk/components/tabs/"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://v2.grommet.io/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://headlessui.com/react/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://helios.hashicorp.design/components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://hds.hel.fi/components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://www.heroui.com/docs/components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://inclusive-components.design/tabbed-interfaces/"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://instructure.design/#Tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://jokul.fremtind.no/komponenter/tabs"
+        },
+        {
+          "text": "Scoped Tabs",
+          "href": "https://www.lightningdesignsystem.com/components/scoped-tabs/"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://www.lightningdesignsystem.com/components/tabs/"
+        },
+        {
+          "text": "Vertical Tabs",
+          "href": "https://www.lightningdesignsystem.com/components/vertical-tabs/"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://m3.material.io/components/tabs/overview"
+        },
+        {
+          "text": "Tab",
+          "href": "https://momentum.design/components/tab"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://design.morningstar.com/systems/product/components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://design.ns.nl/4a05a30ad/p/9298c6-tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://www.newskit.co.uk/components/tabs/"
+        },
+        {
+          "text": "Tab group",
+          "href": "https://nordhealth.design/components/tab-group/"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://britishgas.design/docs/components/ns-tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://ons-design-system.netlify.app/components/tabs/"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://orbit.kiwi/components/tabs/"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://design.gitlab.com/components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://paste.twilio.design/components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://www.patternfly.org/components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://pharos.jstor.org/components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://designsystem.porsche.com/v3/components/tabs/examples"
+        },
+        {
+          "text": "Tabs Bar",
+          "href": "https://designsystem.porsche.com/v3/components/tabs-bar/examples"
+        },
+        {
+          "text": "Tab panels",
+          "href": "https://primer.style/design/components/tab-panels"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://design.herokai.com/purple3/docs/#tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://quasar.dev/vue-components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://radix-ui.com/primitives/docs/components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://reach.tech/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://ux.redhat.com/elements/tabs/"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://components.ruter.as/#/Components/Interactive/Tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://design-systems.sainsburys.co.uk/components/tabs/"
+        },
+        {
+          "text": "Tab",
+          "href": "https://designlibrary.sebgroup.com/components/tab/"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://sproutsocial.com/seeds/components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://ui.shadcn.com/docs/components/tabs"
+        },
+        {
+          "text": "Tab group",
+          "href": "https://shoelace.style/components/tab-group"
+        },
+        {
+          "text": "Tab",
+          "href": "https://shoelace.style/components/tab"
+        },
+        {
+          "text": "Tab panel",
+          "href": "https://shoelace.style/components/tab-panel"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://spectrum.adobe.com/page/tabs/"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://www.subzero.axis.bank.in/components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://ustyle.guide/pattern-library/javascript.html#tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://design.visa.com/components/tabs/"
+        },
+        {
+          "text": "Tab",
+          "href": "https://design.wonderflow.ai/get-started/components/navigation/tab"
+        },
+        {
+          "text": "Tab Group",
+          "href": "https://webawesome.com/docs/components/tab-group/"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://wise.design/components/tabs"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://canvas.workday.com/components/containers/tabs"
+        },
+        {
+          "text": "interface metaphor",
+          "href": "https://en.wikipedia.org/wiki/Interface_metaphor"
+        },
+        {
+          "text": "W3C recommended accessible markup",
+          "href": "https://www.w3.org/TR/wai-aria-practices-1.1/#tabpanel"
+        },
+        {
+          "text": "1",
+          "href": "https://component.gallery/components/tabs/#user-content-fn-1"
+        },
+        {
+          "text": "such as an accordion",
+          "href": "https://component.gallery/components/accordion"
+        },
+        {
+          "text": "an accordion",
+          "href": "https://component.gallery/components/accordion"
+        },
+        {
+          "text": "WAI-ARIA Authoring Practices 1.1",
+          "href": "https://www.w3.org/TR/wai-aria-practices-1.1/#tabpanel"
+        },
+        {
+          "text": "↩",
+          "href": "https://component.gallery/components/tabs/#user-content-fnref-1"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://open-ui.org/components/tabs.research"
+        },
+        {
+          "text": "Tab Guidelines",
+          "href": "https://balsamiq.com/learn/ui-control-guidelines/tabs/"
+        },
+        {
+          "text": "Iain Bean",
+          "href": "https://iainbean.com/"
+        },
+        {
+          "text": "Astro",
+          "href": "https://astro.build/"
+        },
+        {
+          "text": "Airtable",
+          "href": "https://airtable.com/"
+        },
+        {
+          "text": "Cloudflare Pages",
+          "href": "https://pages.cloudflare.com/"
+        },
+        {
+          "text": "Pagefind",
+          "href": "https://pagefind.app/"
+        },
+        {
+          "text": "this puppeteer script",
+          "href": "https://github.com/inbn/screenshot-urls"
+        },
+        {
+          "text": "Tailwind",
+          "href": "https://tailwindcss.com/"
+        },
+        {
+          "text": "Instrument Serif",
+          "href": "https://fonts.google.com/specimen/Instrument+Serif"
+        },
+        {
+          "text": "Instrument Sans",
+          "href": "https://fonts.google.com/specimen/Instrument+Sans"
+        },
+        {
+          "text": "JetBrains Mono",
+          "href": "https://www.jetbrains.com/lp/mono/"
+        },
+        {
+          "text": "About",
+          "href": "https://component.gallery/about"
+        },
+        {
+          "text": "Contribute",
+          "href": "https://component.gallery/contribute"
+        },
+        {
+          "text": "Changelog",
+          "href": "https://component.gallery/changelog"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--tw-ring-offset-shadow": "0 0 #0000",
+        "--tw-backdrop-sepia": "",
+        "--tw-ring-shadow": "0 0 #0000",
+        "--tw-sepia": "",
+        "--tw-ordinal": "",
+        "--tw-backdrop-saturate": "",
+        "--tw-contain-style": "",
+        "--tw-ring-inset": "",
+        "--tw-backdrop-invert": "",
+        "--color-bg-primary": "#f7f5f2",
+        "--tw-numeric-spacing": "",
+        "--tw-border-spacing-x": "0",
+        "--color-text-highlight": "#1f1d1d",
+        "--color-text-secondary": "#726f6d",
+        "--tw-brightness": "",
+        "--tw-backdrop-grayscale": "",
+        "--tw-hue-rotate": "",
+        "--tw-scale-y": "1",
+        "--tw-pan-y": "",
+        "--tw-backdrop-contrast": "",
+        "--color-border-primary": "#ccc9c5",
+        "--tw-drop-shadow": "",
+        "--tw-ring-color": "rgb(59 130 246 / .5)",
+        "--tw-backdrop-brightness": "",
+        "--fade-size": "24px",
+        "--tw-pan-x": "",
+        "--tw-translate-y": "0",
+        "--tw-rotate": "0",
+        "--tw-ring-offset-color": "#fff",
+        "--tw-contain-size": "",
+        "--tw-contrast": "",
+        "--color-bg-highlight-invert": "#1f1d1d",
+        "--color-border-highlight": "#1f1d1d",
+        "--tw-skew-x": "0",
+        "--tw-backdrop-blur": "",
+        "--tw-shadow": "0 0 #0000",
+        "--tw-translate-x": "0",
+        "--tw-ring-offset-width": "0px",
+        "--tw-gradient-via-position": "",
+        "--color-text-decoration": "#5f5d5b",
+        "--tw-saturate": "",
+        "--color-text-highlight-invert": "#f7f5f2",
+        "--tw-scroll-snap-strictness": "proximity",
+        "--tw-grayscale": "",
+        "--tw-scale-x": "1",
+        "--color-bg-highlight": "#fff",
+        "--grid-display-size": "calc((100vw - 3rem - 1px) / 24)",
+        "--tw-backdrop-hue-rotate": "",
+        "--tw-shadow-colored": "0 0 #0000",
+        "--color-gradient-highlight-2": "#343232",
+        "--tw-gradient-to-position": "",
+        "--tw-border-spacing-y": "0",
+        "--tw-numeric-fraction": "",
+        "--color-gradient-background": "#eceae6",
+        "--color-gradient-highlight-1": "#8b8885",
+        "--tw-skew-y": "0",
+        "--tw-slashed-zero": "",
+        "--tw-blur": "",
+        "--tw-invert": "",
+        "--color-text-primary": "#4a4846",
+        "--tw-backdrop-opacity": "",
+        "--tw-gradient-from-position": "",
+        "--tw-numeric-figure": "",
+        "--color-bg-secondary": "#e2dfdb",
+        "--tw-pinch-zoom": "",
+        "--tw-contain-paint": "",
+        "--tw-contain-layout": ""
+      }
+    }
+  },
+  "scope": "public source reference; not a locally reconstructed component",
+  "http_status": 200,
+  "page_errors": [
+    "Transition was aborted because of timeout in DOM update. DOM update timed out"
+  ]
+}

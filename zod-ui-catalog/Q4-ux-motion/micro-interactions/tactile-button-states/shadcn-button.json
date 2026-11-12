@@ -1,0 +1,111 @@
+{
+  "id": "shadcn-button",
+  "location": {
+    "quadrant": "Q4-ux-motion",
+    "category": "micro-interactions",
+    "section": "tactile-button-states",
+    "file_path": "Q4-ux-motion/micro-interactions/tactile-button-states/shadcn-button.json"
+  },
+  "tier": "A",
+  "tier_audit": {
+    "visual_verified": true,
+    "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+    "responsive_score": null,
+    "audit_notes": [
+      "Estrutura e estados do demo preservados; integração local usa Arial, enquanto a fonte oficial usa Geist.",
+      "Normalizar tema, fonte, aliases e largura do host antes de tratar como plug-and-play. Comparações normalizadas mantêm a captura original separada.",
+      "Checks de interação registrados em audit.json; sem certificação completa de contraste, leitor de tela ou fluxo de negócio.",
+      "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+      "No full WCAG certification; no claim of whole-page percentage fidelity."
+    ],
+    "evidence": [
+      "previews/shadcn-button/audit.json",
+      "audits/batch-2/manual-review.json",
+      "previews/shadcn-button/desktop.png",
+      "previews/shadcn-button/mobile.png",
+      "assets/shadcn/LICENSE"
+    ],
+    "viewports": [
+      "1440x900",
+      "390x844"
+    ],
+    "state_checks": {
+      "desktop": [
+        "Keyboard focus verified",
+        "Hover captured",
+        "Disabled state verified"
+      ],
+      "mobile": [
+        "Keyboard focus verified",
+        "Hover captured",
+        "Disabled state verified"
+      ]
+    }
+  },
+  "source_site": "ui.shadcn.com",
+  "source_url": "https://ui.shadcn.com/view/new-york-v4/button-demo",
+  "license": {
+    "spdx": "MIT",
+    "local": "assets/shadcn/LICENSE",
+    "url": "https://github.com/shadcn-ui/ui/blob/main/LICENSE.md"
+  },
+  "stack_compatibility": [
+    "React",
+    "TypeScript",
+    "Tailwind CSS v4",
+    "Radix UI"
+  ],
+  "style_tags": [
+    "tactile-button-states",
+    "shadcn",
+    "native-source"
+  ],
+  "artifact": {
+    "type": "registry_component",
+    "registry": "assets/shadcn/button.json",
+    "sha256": "4b8d7d848742727973c1b088af8d15f0b628272a1316f2d2fa344e73ddff9e9c",
+    "demo_registry": "assets/shadcn/button-demo.json",
+    "dependencies": [
+      "React",
+      "Tailwind CSS v4",
+      "TypeScript",
+      "class-variance-authority",
+      "clsx",
+      "lucide-react",
+      "radix-ui",
+      "react",
+      "tailwind-merge",
+      "tw-animate-css",
+      "assets/shadcn/button.json",
+      "assets/shadcn/button-demo.json"
+    ],
+    "fixture": "audits/batch-2/fixture",
+    "adaptation_required": [
+      "Importar tokens de tema e CSS Tailwind v4.",
+      "Mapear o import cn para utilitário compatível clsx + tailwind-merge.",
+      "Normalizar fonte Geist e dimensões do container."
+    ],
+    "tokens": [
+      "--background",
+      "--foreground",
+      "--primary",
+      "--primary-foreground",
+      "--border",
+      "--input",
+      "--ring",
+      "--radius"
+    ],
+    "states_tested": {
+      "desktop": [
+        "Keyboard focus verified",
+        "Hover captured",
+        "Disabled state verified"
+      ],
+      "mobile": [
+        "Keyboard focus verified",
+        "Hover captured",
+        "Disabled state verified"
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "quadrant": "Q3-visual-atmosphere",
+  "count": 0,
+  "sections": {
+    "shaders-webgl": {
+      "ordered-dithering": [],
+      "aurora-mesh-gradients": [],
+      "particle-chrome-effects": []
+    },
+    "svg-textures": {
+      "noise-grain-overlays": [],
+      "geometric-grids-blobs": [],
+      "custom-gradients": []
+    },
+    "typography-identity": {
+      "display-sans-pairings": [],
+      "tech-mono-pairings": [],
+      "brand-logotype-refs": []
+    },
+    "3d-scenes-materials": {
+      "low-poly-glb-models": [],
+      "pbr-textures-hdri": []
+    }
+  }
+}

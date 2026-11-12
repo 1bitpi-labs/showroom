@@ -1,0 +1,113 @@
+{
+  "id": "shadcn-switch",
+  "source_url": "https://ui.shadcn.com/view/new-york-v4/switch-demo",
+  "views": {
+    "desktop": {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "source_http_status": 200,
+      "source_surface_bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 32,
+        "height": 18.390625
+      },
+      "source_style": {
+        "fontFamily": "Geist, \"Geist Fallback\"",
+        "fontSize": "16px",
+        "borderRadius": "3.35544e+07px",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "lab(90.952 0 -0.0000119209)"
+      },
+      "local_http_status": 200,
+      "local_style": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "16px",
+        "borderRadius": "3.35544e+07px",
+        "color": "oklch(0.145 0 0)",
+        "backgroundColor": "oklch(0.922 0 0)"
+      },
+      "horizontal_overflow": false,
+      "comparison": {
+        "comparable": true,
+        "original_sizes": [
+          [
+            32,
+            19
+          ],
+          [
+            33,
+            20
+          ]
+        ],
+        "common_raster_size": [
+          32,
+          19
+        ],
+        "pixel_similarity": 0.9835397316821466,
+        "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+      },
+      "state_checks": [
+        "Space toggles aria-checked",
+        "Disabled state verified"
+      ],
+      "runtime_errors": []
+    },
+    "mobile": {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "source_http_status": 200,
+      "source_surface_bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 32,
+        "height": 18.390625
+      },
+      "source_style": {
+        "fontFamily": "Geist, \"Geist Fallback\"",
+        "fontSize": "16px",
+        "borderRadius": "3.35544e+07px",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "lab(90.952 0 -0.0000119209)"
+      },
+      "local_http_status": 200,
+      "local_style": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "16px",
+        "borderRadius": "3.35544e+07px",
+        "color": "oklch(0.145 0 0)",
+        "backgroundColor": "oklch(0.922 0 0)"
+      },
+      "horizontal_overflow": false,
+      "comparison": {
+        "comparable": true,
+        "original_sizes": [
+          [
+            32,
+            19
+          ],
+          [
+            33,
+            20
+          ]
+        ],
+        "common_raster_size": [
+          32,
+          19
+        ],
+        "pixel_similarity": 0.9835397316821466,
+        "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+      },
+      "state_checks": [
+        "Space toggles aria-checked",
+        "Disabled state verified"
+      ],
+      "runtime_errors": []
+    }
+  },
+  "classification": "pending manual review"
+}

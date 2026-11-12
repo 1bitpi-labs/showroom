@@ -1,0 +1,155 @@
+{
+  "id": "dithercn-metaballs",
+  "source_url": "https://dithercn.dev/docs/backgrounds/metaballs",
+  "views": {
+    "desktop": {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "source_http_status": 200,
+      "source_surface_bounds": {
+        "x": 368,
+        "y": 268,
+        "width": 672,
+        "height": 522
+      },
+      "source_style": {
+        "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+        "fontSize": "15px",
+        "borderRadius": "0px",
+        "color": "lab(98.26 0 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "local_http_status": 200,
+      "inherited_tokens": {
+        "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+        "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+        "--dither-paper": "lab(5.71933% 0 0)",
+        "--dither-bloom": "1",
+        "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+        "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+        "--dither-color-grey": "lab(60.56% 0 0)",
+        "--background": "lab(0% 0 0)",
+        "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+        "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+        "--dither-cell": "3px",
+        "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+        "--primary": "lab(66.0612% 11.9021 -53.8414)",
+        "--foreground": "lab(98.26% 0 0)"
+      },
+      "local_style": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "16px",
+        "borderRadius": "0px",
+        "color": "rgb(238, 238, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "horizontal_overflow": false,
+      "comparison": {
+        "comparable": true,
+        "original_sizes": [
+          [
+            672,
+            522
+          ],
+          [
+            672,
+            522
+          ]
+        ],
+        "common_raster_size": [
+          672,
+          522
+        ],
+        "pixel_similarity": 0.8750392621927443,
+        "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+      },
+      "shader_state": {
+        "state": "static",
+        "width": 224,
+        "height": 174,
+        "decorative": "true"
+      },
+      "state_checks": [
+        "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+      ],
+      "runtime_errors": []
+    },
+    "mobile": {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "source_http_status": 200,
+      "source_surface_bounds": {
+        "x": 24,
+        "y": 266.375,
+        "width": 342,
+        "height": 420
+      },
+      "source_style": {
+        "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+        "fontSize": "16.8px",
+        "borderRadius": "0px",
+        "color": "lab(98.26 0 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "local_http_status": 200,
+      "inherited_tokens": {
+        "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+        "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+        "--dither-paper": "lab(5.71933% 0 0)",
+        "--dither-bloom": "1",
+        "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+        "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+        "--dither-color-grey": "lab(60.56% 0 0)",
+        "--background": "lab(0% 0 0)",
+        "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+        "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+        "--dither-cell": "3px",
+        "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+        "--primary": "lab(66.0612% 11.9021 -53.8414)",
+        "--foreground": "lab(98.26% 0 0)"
+      },
+      "local_style": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "16px",
+        "borderRadius": "0px",
+        "color": "rgb(238, 238, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "horizontal_overflow": false,
+      "comparison": {
+        "comparable": true,
+        "original_sizes": [
+          [
+            342,
+            421
+          ],
+          [
+            342,
+            420
+          ]
+        ],
+        "common_raster_size": [
+          342,
+          420
+        ],
+        "pixel_similarity": 0.8712750831326683,
+        "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+      },
+      "shader_state": {
+        "state": "static",
+        "width": 114,
+        "height": 140,
+        "decorative": "true"
+      },
+      "state_checks": [
+        "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+      ],
+      "runtime_errors": []
+    }
+  },
+  "classification": "pending manual review"
+}

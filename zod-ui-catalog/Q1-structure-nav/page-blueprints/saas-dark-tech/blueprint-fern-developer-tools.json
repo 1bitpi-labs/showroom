@@ -1,0 +1,76 @@
+{
+  "id": "blueprint-fern-developer-tools",
+  "location": {
+    "quadrant": "Q1-structure-nav",
+    "category": "page-blueprints",
+    "section": "saas-dark-tech",
+    "file_path": "Q1-structure-nav/page-blueprints/saas-dark-tech/blueprint-fern-developer-tools.json"
+  },
+  "tier": "C",
+  "tier_audit": {
+    "visual_verified": true,
+    "verification_scope": "source screenshots only; not local implementation fidelity",
+    "fidelity_type": "visual_spec",
+    "responsive_score": null,
+    "audit_notes": [
+      "Tier C: reference/spec, not ready-to-use code.",
+      "Source DOM measurements may describe gallery chrome, not the referenced product.",
+      "Keyboard, contrast and animation timing not certified."
+    ],
+    "evidence": [
+      "audits/source-evidence/designdetails-io-fern/evidence.json",
+      "previews/blueprint-fern-developer-tools/desktop.png",
+      "previews/blueprint-fern-developer-tools/mobile.png"
+    ],
+    "source_observations": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "page_horizontal_overflow": false,
+        "broken_images": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "page_horizontal_overflow": false,
+        "broken_images": []
+      }
+    }
+  },
+  "source_site": "designdetails.io",
+  "source_url": "https://designdetails.io/websites/buildwithfern-com",
+  "license": {
+    "status": "reference_only_not_code_license",
+    "redistribution": "No source code or original downloadable assets included; screenshots are research evidence."
+  },
+  "stack_compatibility": [
+    "framework-agnostic-spec"
+  ],
+  "style_tags": [
+    "saas-dark-tech"
+  ],
+  "artifact": {
+    "type": "visual_spec",
+    "spec": "Ficha visual de site de ferramentas para desenvolvedores. Referência de hierarquia e composição; tokens medidos na evidência são da galeria Design Details e não devem ser atribuídos ao Fern.",
+    "observed_headings": [
+      "Website and landing page examples.",
+      "Fern",
+      "Sections",
+      "Related websites",
+      "Inside the Fern website design"
+    ],
+    "source_dom_evidence": "audits/source-evidence/designdetails-io-fern/evidence.json",
+    "states": {
+      "desktop": "captured",
+      "mobile": "captured",
+      "hover": "not audited",
+      "focus": "not audited",
+      "active": "not audited",
+      "disabled": "not audited"
+    }
+  }
+}

@@ -1,0 +1,1553 @@
+{
+  "site": "mahero.supply",
+  "url": "https://mahero.supply",
+  "captured_at": "2026-11-12T21:10:50.759332+00:00",
+  "views": {
+    "desktop": {
+      "url": "https://www.mahero.supply/",
+      "title": "MAHERO",
+      "text": "Templates\nPricing\nSign in\nGet All-Access\nStop shipping generic UI.\nVibe-code with unfair craft.\n\nProduction templates, style guides, and calibrated build prompts.\nDrop into Cursor, Claude, or v0 and ship polished products in hours, not weeks.\n\nBrowse Templates\n→\nHow it works\n$10\nView Details\nWonderful Hero\nPrompt & Landing · AI Studio\n$10\nHANDPICKED COLLECTION\nFeatured Templates\n\nProduction-grade codebases, aesthetic design kits, and prompts to build 10x faster.\n\nView all templates\n→\n\nLooking for more niches? E-commerce, SaaS, dashboards, mobile apps, and starter kits.\n\nBrowse All Templates\n→\nFrom preview to your own build\n\nThree steps, shown with a real template: Aether landing page.\n\n01\nStep 1 of 3\nPick a template\n\nClick around the live previews until one fits. Each template has its own style guide and images.\n\nAether landing page\n\nDeep-space aerospace voyage landing page with liquid glass UI and cinematic motion...\n\nSpace & AI Studio\nLanding Page\nFREE\n02\nStep 2 of 3\nCopy the prompt\n\nOne button copies the style guide and the build prompt, set up for the tool you use.\n\nSelect your AI tool:\nClaude Code\nCodex\nCursor\nv0\nLovable\nBase44\nUse this template: Aether landing page\nCopy prompt for Claude Code\n\nCopies the style guide + landing-web.md, with instructions for Claude Code.\n\n03\nStep 3 of 3\nAdd the images & build\n\nPut the images where your tool can read them. If the result drifts, compare it with our source and point the tool back at the guide.\n\naether-landing-page.zip\n18.4 MB\naether-landing-page/\nREADME.md\nstyle.md\nLiquid Glass UI v2.1\nprompts/\n├── landing-web.md\n└── onboarding-mobile.md\nassets/\n11 images · image-prompts.json\nsource/\n├── landing-web.html\n└── onboarding-mobile.html\n\nDigital marketplace for creators who ship fast.\n\nSite Map\nLogin\nPricing\nChangelog\nRegister\nSystem Status\nCategory\nLegal\nPrivacy Policy\nTerms of Service\n\n© 2026 Mahero. Made with ❤️ in Indonesia",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Stop shipping generic UI.\nVibe-code with unfair craft.",
+          "bounds": {
+            "x": 285.703125,
+            "y": 165,
+            "width": 868.59375,
+            "height": 166.375
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "72px",
+            "fontWeight": "590",
+            "lineHeight": "79.2px",
+            "color": "rgb(244, 241, 233)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Featured Templates",
+          "bounds": {
+            "x": 48,
+            "y": 1258.375,
+            "width": 576,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "36px",
+            "fontWeight": "590",
+            "lineHeight": "40px",
+            "color": "rgb(244, 241, 233)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "From preview to your own build",
+          "bounds": {
+            "x": 384,
+            "y": 2331.375,
+            "width": 672,
+            "height": 60
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "48px",
+            "fontWeight": "510",
+            "lineHeight": "60px",
+            "color": "rgb(244, 241, 233)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "Pick a template",
+          "bounds": {
+            "x": 97,
+            "y": 2842.125,
+            "width": 599,
+            "height": 55
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "44px",
+            "fontWeight": "510",
+            "lineHeight": "55px",
+            "color": "rgb(244, 241, 233)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "Copy the prompt",
+          "bounds": {
+            "x": 97,
+            "y": 3384.125,
+            "width": 599,
+            "height": 55
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "44px",
+            "fontWeight": "510",
+            "lineHeight": "55px",
+            "color": "rgb(244, 241, 233)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "Add the images & build",
+          "bounds": {
+            "x": 97,
+            "y": 3900.125,
+            "width": 599,
+            "height": 55
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "44px",
+            "fontWeight": "510",
+            "lineHeight": "55px",
+            "color": "rgb(244, 241, 233)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "Templates\nPricing\nSign in\nGet All-Access",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 69
+          },
+          "styles": {
+            "display": "block",
+            "position": "sticky",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(208, 214, 224)",
+            "backgroundColor": "lab(2.42317 -0.167772 -0.477651 / 0.9)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Stop shipping generic UI.\nVibe-code with unfair craft.\n\nProduction templates, style guides, and calibrated build prompts.\nDrop into Cursor, ",
+          "bounds": {
+            "x": 0,
+            "y": 69,
+            "width": 1440,
+            "height": 1070.875
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(208, 214, 224)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "96px 0px 32px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 72,
+            "y": 766.875,
+            "width": 40,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(244, 241, 233)",
+            "backgroundColor": "lab(4.62235 -0.217013 -0.66087 / 0.9)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "12px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 1328,
+            "y": 766.875,
+            "width": 40,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(244, 241, 233)",
+            "backgroundColor": "lab(4.62235 -0.217013 -0.66087 / 0.9)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "12px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "HANDPICKED COLLECTION\nFeatured Templates\n\nProduction-grade codebases, aesthetic design kits, and prompts to build 10x faster.\n\nView all temp",
+          "bounds": {
+            "x": 0,
+            "y": 1139.875,
+            "width": 1440,
+            "height": 1095.5
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(208, 214, 224)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "80px 48px 96px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "From preview to your own build\n\nThree steps, shown with a real template: Aether landing page.\n\n01\nStep 1 of 3\nPick a template\n\nClick around ",
+          "bounds": {
+            "x": 0,
+            "y": 2235.375,
+            "width": 1440,
+            "height": 1958.75
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(208, 214, 224)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "96px 48px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Claude Code",
+          "bounds": {
+            "x": 894.5,
+            "y": 3215.625,
+            "width": 95.328125,
+            "height": 30
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "510",
+            "lineHeight": "16px",
+            "color": "rgb(8, 9, 10)",
+            "backgroundColor": "rgb(228, 242, 34)",
+            "gap": "normal",
+            "padding": "6px 8px",
+            "borderRadius": "6px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Codex",
+          "bounds": {
+            "x": 995.828125,
+            "y": 3215.625,
+            "width": 95.328125,
+            "height": 30
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "510",
+            "lineHeight": "16px",
+            "color": "lab(65.6464 1.53497 -5.42429)",
+            "backgroundColor": "rgb(15, 16, 17)",
+            "gap": "normal",
+            "padding": "6px 8px",
+            "borderRadius": "6px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Cursor",
+          "bounds": {
+            "x": 1097.15625,
+            "y": 3215.625,
+            "width": 95.34375,
+            "height": 30
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "510",
+            "lineHeight": "16px",
+            "color": "lab(65.6464 1.53497 -5.42429)",
+            "backgroundColor": "rgb(15, 16, 17)",
+            "gap": "normal",
+            "padding": "6px 8px",
+            "borderRadius": "6px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "v0",
+          "bounds": {
+            "x": 894.5,
+            "y": 3251.625,
+            "width": 95.328125,
+            "height": 30
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "510",
+            "lineHeight": "16px",
+            "color": "lab(65.6464 1.53497 -5.42429)",
+            "backgroundColor": "rgb(15, 16, 17)",
+            "gap": "normal",
+            "padding": "6px 8px",
+            "borderRadius": "6px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Lovable",
+          "bounds": {
+            "x": 995.828125,
+            "y": 3251.625,
+            "width": 95.328125,
+            "height": 30
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "510",
+            "lineHeight": "16px",
+            "color": "lab(65.6464 1.53497 -5.42429)",
+            "backgroundColor": "rgb(15, 16, 17)",
+            "gap": "normal",
+            "padding": "6px 8px",
+            "borderRadius": "6px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Base44",
+          "bounds": {
+            "x": 1097.15625,
+            "y": 3251.625,
+            "width": 95.34375,
+            "height": 30
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "510",
+            "lineHeight": "16px",
+            "color": "lab(65.6464 1.53497 -5.42429)",
+            "backgroundColor": "rgb(15, 16, 17)",
+            "gap": "normal",
+            "padding": "6px 8px",
+            "borderRadius": "6px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Copy prompt for Claude Code",
+          "bounds": {
+            "x": 909.5,
+            "y": 3336.625,
+            "width": 268,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "590",
+            "lineHeight": "16px",
+            "color": "rgb(8, 9, 10)",
+            "backgroundColor": "rgb(228, 242, 34)",
+            "gap": "8px",
+            "padding": "10px 12px",
+            "borderRadius": "6px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.mahero.supply/"
+        },
+        {
+          "text": "Templates",
+          "href": "https://www.mahero.supply/templates"
+        },
+        {
+          "text": "Pricing",
+          "href": "https://www.mahero.supply/pricing"
+        },
+        {
+          "text": "Sign in",
+          "href": "https://www.mahero.supply/login"
+        },
+        {
+          "text": "Get All-Access",
+          "href": "https://www.mahero.supply/pricing"
+        },
+        {
+          "text": "Browse Templates\n→",
+          "href": "https://www.mahero.supply/templates"
+        },
+        {
+          "text": "How it works",
+          "href": "https://www.mahero.supply/#how-it-works"
+        },
+        {
+          "text": "$10\nView Details",
+          "href": "https://www.mahero.supply/template/wonderful-hero"
+        },
+        {
+          "text": "Wonderful Hero\nPrompt & Landing · AI Studio\n$10",
+          "href": "https://www.mahero.supply/template/wonderful-hero"
+        },
+        {
+          "text": "View all templates\n→",
+          "href": "https://www.mahero.supply/templates"
+        },
+        {
+          "text": "Browse All Templates\n→",
+          "href": "https://www.mahero.supply/templates"
+        },
+        {
+          "text": "Login",
+          "href": "https://www.mahero.supply/login"
+        },
+        {
+          "text": "Pricing",
+          "href": "https://www.mahero.supply/pricing"
+        },
+        {
+          "text": "Changelog",
+          "href": "https://www.mahero.supply/changelog"
+        },
+        {
+          "text": "Register",
+          "href": "https://www.mahero.supply/register"
+        },
+        {
+          "text": "System Status",
+          "href": "https://status.mahero.supply/"
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://www.mahero.supply/privacy"
+        },
+        {
+          "text": "Terms of Service",
+          "href": "https://www.mahero.supply/terms"
+        }
+      ],
+      "broken_images": [
+        "https://gk4zttl3xunfz8cp.public.blob.vercel-storage.com/products/1779379135236-vy79jvwt4fc.webp",
+        "https://gk4zttl3xunfz8cp.public.blob.vercel-storage.com/products/1779116848358.gif",
+        "https://gk4zttl3xunfz8cp.public.blob.vercel-storage.com/products/1779424448824-ahmq4qinb1b.gif",
+        "https://gk4zttl3xunfz8cp.public.blob.vercel-storage.com/products/1779123275950.webp",
+        "https://gk4zttl3xunfz8cp.public.blob.vercel-storage.com/products/1779292188626-r1h33auwxnh.png",
+        "https://gk4zttl3xunfz8cp.public.blob.vercel-storage.com/products/1779292432589-l873r6fol2p.png",
+        "https://gk4zttl3xunfz8cp.public.blob.vercel-storage.com/products/1779292564799-qk6uer49zsa.png"
+      ],
+      "tokens": {
+        "--container-md": "28rem",
+        "--tw-ring-offset-shadow": "0 0 #0000",
+        "--tw-inset-shadow-alpha": "100%",
+        "--color-amber-400": "lab(80.1641% 16.6016 99.2089)",
+        "--tw-ring-shadow": "0 0 #0000",
+        "--text-2xl": "1.5rem",
+        "--color-green-600": "lab(59.0978% -58.6621 41.2579)",
+        "--leading-relaxed": "1.625",
+        "--tw-drop-shadow-alpha": "100%",
+        "--color-zinc-500": "lab(47.8878% 1.65477 -5.77283)",
+        "--font-weight-black": "900",
+        "--text-lg": "1.125rem",
+        "--default-transition-timing-function": "cubic-bezier(.4, 0, .2, 1)",
+        "--color-zinc-900": "lab(8.30603% .618205 -2.16572)",
+        "--color-green-50": "lab(98.1563% -5.60117 2.75915)",
+        "--color-red-300": "lab(76.5514% 36.422 15.5335)",
+        "--color-obsidian": "#161718",
+        "--color-zinc-800": "lab(15.7305% .613764 -2.16959)",
+        "--tw-outline-style": "solid",
+        "--text-5xl--line-height": "1",
+        "--color-acid-lime": "#e4f222",
+        "--text-2xl--line-height": "calc(2 / 1.5)",
+        "--container-5xl": "64rem",
+        "--tw-inset-ring-shadow": "0 0 #0000",
+        "--color-amber-500": "lab(72.7183% 31.8672 97.9407)",
+        "--spacing": ".25rem",
+        "--radius-4xl": "2rem",
+        "--text-base--line-height": "calc(1.5 / 1)",
+        "--color-red-200": "lab(86.017% 19.8815 7.75869)",
+        "--lightningcss-dark": "",
+        "--tw-translate-z": "0",
+        "--tw-gradient-via": "rgba(0, 0, 0, 0)",
+        "--tw-scale-y": "1",
+        "--color-yellow-400": "lab(83.2664% 8.65132 106.895)",
+        "--tracking-wider": ".05em",
+        "--text-xl--line-height": "calc(1.75 / 1.25)",
+        "--font-weight-semibold": "600",
+        "--container-3xl": "48rem",
+        "--text-sm": ".875rem",
+        "--blur-xs": "4px",
+        "--tw-translate-y": "0",
+        "--blur-md": "12px",
+        "--color-green-400": "lab(78.503% -64.9265 39.7492)",
+        "--color-emerald-500": "lab(66.9756% -58.27 19.5419)",
+        "--color-green-500": "lab(70.5521% -66.5147 45.8073)",
+        "--animate-spin": "spin 1s linear infinite",
+        "--container-4xl": "56rem",
+        "--color-mist": "#f4f1e9",
+        "--tw-inset-shadow": "0 0 #0000",
+        "--color-zinc-400": "lab(65.6464% 1.53497 -5.42429)",
+        "--tw-ring-offset-color": "#fff",
+        "--text-lg--line-height": "calc(1.75 / 1.125)",
+        "--color-red-400": "lab(63.7053% 60.745 31.3109)",
+        "--tw-gradient-from": "rgba(0, 0, 0, 0)",
+        "--color-white": "#fff",
+        "--blur-xl": "24px",
+        "--color-graphite": "#23252a",
+        "--tw-shadow-alpha": "100%",
+        "--tw-gradient-to": "rgba(0, 0, 0, 0)",
+        "--leading-tight": "1.25",
+        "--lightningcss-light": "",
+        "--font-weight-extrabold": "800",
+        "--font-sans": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "--text-4xl": "2.25rem",
+        "--color-green-200": "lab(92.4222% -26.4702 12.9427)",
+        "--tw-divide-y-reverse": "0",
+        "--tw-scale-z": "1",
+        "--tw-border-style": "solid",
+        "--font-weight-bold": "700",
+        "--color-red-600": "lab(48.4493% 77.4328 61.5452)",
+        "--color-red-50": "lab(96.5005% 4.18508 1.52328)",
+        "--container-2xl": "42rem",
+        "--tw-shadow": "0 0 #0000",
+        "--container-sm": "24rem",
+        "--tw-translate-x": "0",
+        "--tw-ring-offset-width": "0px",
+        "--color-zinc-300": "lab(84.9837% .601262 -2.17986)",
+        "--color-fog": "#a6a39c",
+        "--text-sm--line-height": "calc(1.25 / .875)",
+        "--tw-gradient-via-position": "50%"
+      }
+    },
+    "mobile": {
+      "url": "https://www.mahero.supply/",
+      "title": "MAHERO",
+      "text": "Get All-Access\nStop shipping generic UI.\nVibe-code with unfair craft.\n\nProduction templates, style guides, and calibrated build prompts.\nDrop into Cursor, Claude, or v0 and ship polished products in hours, not weeks.\n\nBrowse Templates\n→\nHow it works\nFREE\nView Details\nDS Security — Surrealist CCTV HUD Hero\nprompt · Antigravity\nFREE\nHANDPICKED COLLECTION\nFeatured Templates\n\nProduction-grade codebases, aesthetic design kits, and prompts to build 10x faster.\n\nView all templates\n→\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\nLoading\nLOADING PREVIEW\nFREE\nDS Security — Surrealist CCTV HUD Hero\nPROMPT\nFree Download\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\nLoading\nLOADING PREVIEW\nFREE\nStrandbeest — Theo Jansen Kinetic Walker\n3D WEB\nFree Download\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\nLoading\nLOADING PREVIEW\nFREE\nAero 337 — Aircraft Landing Gear Teardown\n3D WEB\nFree Download\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\nLoading\nLOADING PREVIEW\nFREE\nApex V8 — Cross-Plane Engine Teardown\n3D WEB\nFree Download\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\nLoading\nLOADING PREVIEW\nFREE\nAtelier — Editorial Studio Hero\nPROMPT\nFree Download\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\nLoading\nLOADING PREVIEW\nFREE\nNOVA — Cinematic Hero Landing Page\nPROMPT\nFree Download\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\nLoading\nLOADING PREVIEW\nPRO\nMindly — Cinematic Hero Landing Page\nPROMPT\nAll-Access Pass\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\nLoading\nLOADING PREVIEW\nFREE\nKINORA — Full-Screen Hero Landing Page\nPROMPT\nFree Download\n\nLooking for more niches? E-commerce, SaaS, dashboards, mobile apps, and starter kits.\n\nBrowse All Templates\n→\nFrom preview to your own build\n\nThree steps, shown with a real template: Aether landing page.\n\n01\nStep 1 of 3\nPick a template\n\nClick around the live previews until one fits. Each template has its own style guide and images.\n\nAether landing page\n\nDeep-space aerospace voyage landing page with liquid glass UI and cinematic motion...\n\nSpace & AI Studio\nLanding Page\nFREE\n02\nStep 2 of 3\nCopy the prompt\n\nOne button copies the style guide and the build prompt, set up for the tool you use.\n\nSelect your AI tool:\nClaude Code\nCodex\nCursor\nv0\nLovable\nBase44\nUse this template: Aether landing page\nCopy prompt for Claude Code\n\nCopies the style guide + landing-web.md, with instructions for Claude Code.\n\n03\nStep 3 of 3\nAdd the images & build\n\nPut the images where your tool can read them. If the result drifts, compare it with our source and point the tool back at the guide.\n\naether-landing-page.zip\n18.4 MB\naether-landing-page/\nREADME.md\nstyle.md\nLiquid Glass UI v2.1\nprompts/\n├── landing-web.md\n└── onboarding-mobile.md\nassets/\n11 images · image-prompts.json\nsource/\n├── landing-web.html\n└── onboarding-mobile.html\n\nDigital marketplace for creators who ship fast. Templates, prompts, and digital products.\n\nSite Map\nLogin\nPricing\nChangelog\nRegister\nSystem Status\nCategory\n3D Web\nAdmin Panel\nAkun Premium\nBlog\nComponents\nDashboard\nLegal\nPrivacy Policy\nTerms of Service\n\n© 2026 Mahero. Made with ❤️ Indonesia",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Stop shipping generic UI.\nVibe-code with unfair craft.",
+          "bounds": {
+            "x": 16,
+            "y": 121,
+            "width": 358,
+            "height": 109.5625
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "590",
+            "lineHeight": "35.2px",
+            "color": "rgb(244, 241, 233)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Featured Templates",
+          "bounds": {
+            "x": 16,
+            "y": 1086.0625,
+            "width": 358,
+            "height": 32
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "590",
+            "lineHeight": "32px",
+            "color": "rgb(244, 241, 233)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "DS Security — Surrealist CCTV HUD Hero",
+          "bounds": {
+            "x": 34,
+            "y": 1552.5625,
+            "width": 322,
+            "height": 18.75
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": "590",
+            "lineHeight": "18.75px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "Strandbeest — Theo Jansen Kinetic Walker",
+          "bounds": {
+            "x": 34,
+            "y": 1924.8125,
+            "width": 322,
+            "height": 18.75
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": "590",
+            "lineHeight": "18.75px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "Aero 337 — Aircraft Landing Gear Teardown",
+          "bounds": {
+            "x": 34,
+            "y": 2297.0625,
+            "width": 322,
+            "height": 18.75
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": "590",
+            "lineHeight": "18.75px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "Apex V8 — Cross-Plane Engine Teardown",
+          "bounds": {
+            "x": 34,
+            "y": 2669.3125,
+            "width": 322,
+            "height": 18.75
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": "590",
+            "lineHeight": "18.75px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "Atelier — Editorial Studio Hero",
+          "bounds": {
+            "x": 34,
+            "y": 3041.5625,
+            "width": 322,
+            "height": 18.75
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": "590",
+            "lineHeight": "18.75px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "NOVA — Cinematic Hero Landing Page",
+          "bounds": {
+            "x": 34,
+            "y": 3413.8125,
+            "width": 322,
+            "height": 18.75
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": "590",
+            "lineHeight": "18.75px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "Mindly — Cinematic Hero Landing Page",
+          "bounds": {
+            "x": 34,
+            "y": 3786.0625,
+            "width": 322,
+            "height": 18.75
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": "590",
+            "lineHeight": "18.75px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "KINORA — Full-Screen Hero Landing Page",
+          "bounds": {
+            "x": 34,
+            "y": 4158.3125,
+            "width": 322,
+            "height": 18.75
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": "590",
+            "lineHeight": "18.75px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "From preview to your own build",
+          "bounds": {
+            "x": 16,
+            "y": 4597.0625,
+            "width": 358,
+            "height": 75
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "30px",
+            "fontWeight": "510",
+            "lineHeight": "37.5px",
+            "color": "rgb(244, 241, 233)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "Pick a template",
+          "bounds": {
+            "x": 41,
+            "y": 4946.0625,
+            "width": 308,
+            "height": 37.5
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "30px",
+            "fontWeight": "510",
+            "lineHeight": "37.5px",
+            "color": "rgb(244, 241, 233)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "Get All-Access",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 57
+          },
+          "styles": {
+            "display": "block",
+            "position": "sticky",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(208, 214, 224)",
+            "backgroundColor": "lab(2.42317 -0.167772 -0.477651 / 0.9)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 342,
+            "y": 12,
+            "width": 32,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(244, 241, 233)",
+            "backgroundColor": "rgb(15, 16, 17)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "6px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Stop shipping generic UI.\nVibe-code with unfair craft.\n\nProduction templates, style guides, and calibrated build prompts.\nDrop into Cursor, ",
+          "bounds": {
+            "x": 0,
+            "y": 57,
+            "width": 390,
+            "height": 910.5625
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(208, 214, 224)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "64px 0px 32px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 24,
+            "y": 662.5625,
+            "width": 40,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(244, 241, 233)",
+            "backgroundColor": "lab(4.62235 -0.217013 -0.66087 / 0.9)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "12px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 326,
+            "y": 662.5625,
+            "width": 40,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(244, 241, 233)",
+            "backgroundColor": "lab(4.62235 -0.217013 -0.66087 / 0.9)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "12px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "HANDPICKED COLLECTION\nFeatured Templates\n\nProduction-grade codebases, aesthetic design kits, and prompts to build 10x faster.\n\nView all temp",
+          "bounds": {
+            "x": 0,
+            "y": 967.5625,
+            "width": 390,
+            "height": 3533.5
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(208, 214, 224)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "80px 16px 96px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "From preview to your own build\n\nThree steps, shown with a real template: Aether landing page.\n\n01\nStep 1 of 3\nPick a template\n\nClick around ",
+          "bounds": {
+            "x": 0,
+            "y": 4501.0625,
+            "width": 390,
+            "height": 2526.15625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(208, 214, 224)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "96px 16px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Claude Code",
+          "bounds": {
+            "x": 87,
+            "y": 5868.0625,
+            "width": 68,
+            "height": 46
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "510",
+            "lineHeight": "16px",
+            "color": "rgb(8, 9, 10)",
+            "backgroundColor": "rgb(228, 242, 34)",
+            "gap": "normal",
+            "padding": "6px 8px",
+            "borderRadius": "6px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Codex",
+          "bounds": {
+            "x": 161,
+            "y": 5868.0625,
+            "width": 68,
+            "height": 46
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "510",
+            "lineHeight": "16px",
+            "color": "lab(65.6464 1.53497 -5.42429)",
+            "backgroundColor": "rgb(15, 16, 17)",
+            "gap": "normal",
+            "padding": "6px 8px",
+            "borderRadius": "6px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Cursor",
+          "bounds": {
+            "x": 235,
+            "y": 5868.0625,
+            "width": 68,
+            "height": 46
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "510",
+            "lineHeight": "16px",
+            "color": "lab(65.6464 1.53497 -5.42429)",
+            "backgroundColor": "rgb(15, 16, 17)",
+            "gap": "normal",
+            "padding": "6px 8px",
+            "borderRadius": "6px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "v0",
+          "bounds": {
+            "x": 87,
+            "y": 5920.0625,
+            "width": 68,
+            "height": 30
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "510",
+            "lineHeight": "16px",
+            "color": "lab(65.6464 1.53497 -5.42429)",
+            "backgroundColor": "rgb(15, 16, 17)",
+            "gap": "normal",
+            "padding": "6px 8px",
+            "borderRadius": "6px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Lovable",
+          "bounds": {
+            "x": 161,
+            "y": 5920.0625,
+            "width": 68,
+            "height": 30
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "510",
+            "lineHeight": "16px",
+            "color": "lab(65.6464 1.53497 -5.42429)",
+            "backgroundColor": "rgb(15, 16, 17)",
+            "gap": "normal",
+            "padding": "6px 8px",
+            "borderRadius": "6px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Base44",
+          "bounds": {
+            "x": 235,
+            "y": 5920.0625,
+            "width": 68,
+            "height": 30
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "510",
+            "lineHeight": "16px",
+            "color": "lab(65.6464 1.53497 -5.42429)",
+            "backgroundColor": "rgb(15, 16, 17)",
+            "gap": "normal",
+            "padding": "6px 8px",
+            "borderRadius": "6px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Copy prompt for Claude Code",
+          "bounds": {
+            "x": 102,
+            "y": 6021.0625,
+            "width": 186,
+            "height": 56
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "590",
+            "lineHeight": "16px",
+            "color": "rgb(8, 9, 10)",
+            "backgroundColor": "rgb(228, 242, 34)",
+            "gap": "8px",
+            "padding": "10px 12px",
+            "borderRadius": "6px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.mahero.supply/"
+        },
+        {
+          "text": "Templates",
+          "href": "https://www.mahero.supply/templates"
+        },
+        {
+          "text": "Pricing",
+          "href": "https://www.mahero.supply/pricing"
+        },
+        {
+          "text": "Sign in",
+          "href": "https://www.mahero.supply/login"
+        },
+        {
+          "text": "Get All-Access",
+          "href": "https://www.mahero.supply/pricing"
+        },
+        {
+          "text": "Browse Templates\n→",
+          "href": "https://www.mahero.supply/templates"
+        },
+        {
+          "text": "How it works",
+          "href": "https://www.mahero.supply/#how-it-works"
+        },
+        {
+          "text": "FREE\nView Details",
+          "href": "https://www.mahero.supply/template/ds-security-surrealist-cctv-hud-hero"
+        },
+        {
+          "text": "DS Security — Surrealist CCTV HUD Hero\nprompt · Antigravity\nFREE",
+          "href": "https://www.mahero.supply/template/ds-security-surrealist-cctv-hud-hero"
+        },
+        {
+          "text": "View all templates\n→",
+          "href": "https://www.mahero.supply/templates"
+        },
+        {
+          "text": "░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\nLoading\nLOADING PREVIEW\nFREE\nD",
+          "href": "https://www.mahero.supply/template/ds-security-surrealist-cctv-hud-hero"
+        },
+        {
+          "text": "░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\nLoading\nLOADING PREVIEW\nFREE\nS",
+          "href": "https://www.mahero.supply/template/strandbeest-kinetic-walker"
+        },
+        {
+          "text": "░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\nLoading\nLOADING PREVIEW\nFREE\nA",
+          "href": "https://www.mahero.supply/template/aero-337-landing-gear"
+        },
+        {
+          "text": "░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\nLoading\nLOADING PREVIEW\nFREE\nA",
+          "href": "https://www.mahero.supply/template/apex-v8-combustion-engine"
+        },
+        {
+          "text": "░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\nLoading\nLOADING PREVIEW\nFREE\nA",
+          "href": "https://www.mahero.supply/template/atelier-editorial-studio-hero"
+        },
+        {
+          "text": "░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\nLoading\nLOADING PREVIEW\nFREE\nN",
+          "href": "https://www.mahero.supply/template/nova-cinematic-hero-landing-page"
+        },
+        {
+          "text": "░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\nLoading\nLOADING PREVIEW\nPRO\nMi",
+          "href": "https://www.mahero.supply/template/mindly-cinematic-hero-landing-page"
+        },
+        {
+          "text": "░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\n░\n█\nLoading\nLOADING PREVIEW\nFREE\nK",
+          "href": "https://www.mahero.supply/template/kinora-full-screen-hero-landing-page"
+        },
+        {
+          "text": "Browse All Templates\n→",
+          "href": "https://www.mahero.supply/templates"
+        },
+        {
+          "text": "",
+          "href": "https://zrov.dev/tools/i"
+        },
+        {
+          "text": "",
+          "href": "https://zrov.dev/tools/i"
+        },
+        {
+          "text": "",
+          "href": "https://zrov.dev/tools/i"
+        },
+        {
+          "text": "Login",
+          "href": "https://www.mahero.supply/login"
+        },
+        {
+          "text": "Pricing",
+          "href": "https://www.mahero.supply/pricing"
+        },
+        {
+          "text": "Changelog",
+          "href": "https://www.mahero.supply/changelog"
+        },
+        {
+          "text": "Register",
+          "href": "https://www.mahero.supply/register"
+        },
+        {
+          "text": "System Status",
+          "href": "https://status.mahero.supply/"
+        },
+        {
+          "text": "3D Web",
+          "href": "https://www.mahero.supply/?cat=3d-web"
+        },
+        {
+          "text": "Admin Panel",
+          "href": "https://www.mahero.supply/?cat=admin-panel"
+        },
+        {
+          "text": "Akun Premium",
+          "href": "https://www.mahero.supply/?cat=akun-premium"
+        },
+        {
+          "text": "Blog",
+          "href": "https://www.mahero.supply/?cat=blog"
+        },
+        {
+          "text": "Components",
+          "href": "https://www.mahero.supply/?cat=components"
+        },
+        {
+          "text": "Dashboard",
+          "href": "https://www.mahero.supply/?cat=dashboard"
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://www.mahero.supply/privacy"
+        },
+        {
+          "text": "Terms of Service",
+          "href": "https://www.mahero.supply/terms"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--container-md": "28rem",
+        "--tw-ring-offset-shadow": "0 0 #0000",
+        "--tw-inset-shadow-alpha": "100%",
+        "--color-amber-400": "lab(80.1641% 16.6016 99.2089)",
+        "--tw-ring-shadow": "0 0 #0000",
+        "--text-2xl": "1.5rem",
+        "--color-green-600": "lab(59.0978% -58.6621 41.2579)",
+        "--leading-relaxed": "1.625",
+        "--tw-drop-shadow-alpha": "100%",
+        "--color-zinc-500": "lab(47.8878% 1.65477 -5.77283)",
+        "--font-weight-black": "900",
+        "--text-lg": "1.125rem",
+        "--default-transition-timing-function": "cubic-bezier(.4, 0, .2, 1)",
+        "--color-zinc-900": "lab(8.30603% .618205 -2.16572)",
+        "--color-green-50": "lab(98.1563% -5.60117 2.75915)",
+        "--color-red-300": "lab(76.5514% 36.422 15.5335)",
+        "--color-obsidian": "#161718",
+        "--color-zinc-800": "lab(15.7305% .613764 -2.16959)",
+        "--tw-outline-style": "solid",
+        "--text-5xl--line-height": "1",
+        "--color-acid-lime": "#e4f222",
+        "--text-2xl--line-height": "calc(2 / 1.5)",
+        "--container-5xl": "64rem",
+        "--tw-inset-ring-shadow": "0 0 #0000",
+        "--color-amber-500": "lab(72.7183% 31.8672 97.9407)",
+        "--spacing": ".25rem",
+        "--radius-4xl": "2rem",
+        "--text-base--line-height": "calc(1.5 / 1)",
+        "--color-red-200": "lab(86.017% 19.8815 7.75869)",
+        "--lightningcss-dark": "",
+        "--tw-translate-z": "0",
+        "--tw-gradient-via": "rgba(0, 0, 0, 0)",
+        "--tw-scale-y": "1",
+        "--color-yellow-400": "lab(83.2664% 8.65132 106.895)",
+        "--tracking-wider": ".05em",
+        "--text-xl--line-height": "calc(1.75 / 1.25)",
+        "--font-weight-semibold": "600",
+        "--container-3xl": "48rem",
+        "--text-sm": ".875rem",
+        "--blur-xs": "4px",
+        "--tw-translate-y": "0",
+        "--blur-md": "12px",
+        "--color-green-400": "lab(78.503% -64.9265 39.7492)",
+        "--color-emerald-500": "lab(66.9756% -58.27 19.5419)",
+        "--color-green-500": "lab(70.5521% -66.5147 45.8073)",
+        "--animate-spin": "spin 1s linear infinite",
+        "--container-4xl": "56rem",
+        "--color-mist": "#f4f1e9",
+        "--tw-inset-shadow": "0 0 #0000",
+        "--color-zinc-400": "lab(65.6464% 1.53497 -5.42429)",
+        "--tw-ring-offset-color": "#fff",
+        "--text-lg--line-height": "calc(1.75 / 1.125)",
+        "--color-red-400": "lab(63.7053% 60.745 31.3109)",
+        "--tw-gradient-from": "rgba(0, 0, 0, 0)",
+        "--color-white": "#fff",
+        "--blur-xl": "24px",
+        "--color-graphite": "#23252a",
+        "--tw-shadow-alpha": "100%",
+        "--tw-gradient-to": "rgba(0, 0, 0, 0)",
+        "--leading-tight": "1.25",
+        "--lightningcss-light": "",
+        "--font-weight-extrabold": "800",
+        "--font-sans": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "--text-4xl": "2.25rem",
+        "--color-green-200": "lab(92.4222% -26.4702 12.9427)",
+        "--tw-divide-y-reverse": "0",
+        "--tw-scale-z": "1",
+        "--tw-border-style": "solid",
+        "--font-weight-bold": "700",
+        "--color-red-600": "lab(48.4493% 77.4328 61.5452)",
+        "--color-red-50": "lab(96.5005% 4.18508 1.52328)",
+        "--container-2xl": "42rem",
+        "--tw-shadow": "0 0 #0000",
+        "--container-sm": "24rem",
+        "--tw-translate-x": "0",
+        "--tw-ring-offset-width": "0px",
+        "--color-zinc-300": "lab(84.9837% .601262 -2.17986)",
+        "--color-fog": "#a6a39c",
+        "--text-sm--line-height": "calc(1.25 / .875)",
+        "--tw-gradient-via-position": "50%"
+      }
+    }
+  },
+  "scope": "public source reference; not a locally reconstructed component",
+  "http_status": 200,
+  "page_errors": []
+}

@@ -1,0 +1,791 @@
+{
+  "site": "ambientcg.com",
+  "url": "https://ambientcg.com/view?id=Concrete049",
+  "captured_at": "2026-11-12T21:15:00.534064+00:00",
+  "views": {
+    "desktop": {
+      "url": "https://ambientcg.com/view?id=Concrete049",
+      "title": "Concrete 049 | ambientCG",
+      "text": "All Assets\nSurfaces\nEnvironments\nSubstances\n3D\nSupporter Login\nLicense\nDocs\nGallery\n3D\nassets\n.\none\nThumbnail\n3D Preview\nTiling Preview\nConcrete 049\n \nPBR Maps (USDZ-compatible)\n 1K-JPG .zip\n10 MB\n 2K-JPG .zip\n35 MB\n 4K-JPG .zip\n125 MB\n 8K-JPG .zip\n450 MB\n 1K-PNG .zip\n20 MB\n 2K-PNG .zip\n74 MB\n 4K-PNG .zip\n284 MB\n 8K-PNG .zip\n1100 MB\nTags\nAsphalt Concrete Pebbles Stones\nShortlink\nDownloads\n22 341 (21542 Last Week)\nRelease Date\n2026-11-04\nTechnique\nSurface Photogrammetry\nDimensions\nca. 1.1 m × 1.1 m\n Submit\nPatreon supporters can browse the site ad-free.\nWhat is this website about?\n\nambientCG is one of the largest sources for free PBR materials, HDRIs, and models for 3D art, architectural visualization, game development, VFX and more.\n\nToday, ambientCG serves over 1,000,000 monthly downloads to hundreds of thousands of artists, students, and educators all over the world.\n\nWhy does ambientCG exist?\n\nI started this website in 2018 to provide freely shareable 3D textures because I had become frustrated with the licensing policies of many other texturing platforms, which limit or forbid texture redistribution.\n\nAre the assets really free for any purpose?\n\nYes. All assets are released under the Creative Commons CC0 license, making them free to use without attribution - even in commercial circumstances.\n\nSee the License page.\n\nHow can I support ambientCG?\n\nIf you'd like to support the project, you can become a patron on Patreon or buy me a coffee on Ko-fi.\n\nBecoming a patron also includes perks such as ad-free browsing or early access.\n\nCan I request a texture?\n\nNot with a guarantee. If you are a patron, you can make texture suggestions, but I can't give any concrete promises and I don't do contract work at this point in time.\n\nCan I get in touch?\n\nYou can find contact details and other legally required documentation here:\n\nImprint & Privacy Policy\n(Impressum & Datenschutz).",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Concrete 049\n ",
+          "bounds": {
+            "x": 874,
+            "y": 48,
+            "width": 564,
+            "height": 38.953125
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "HEADER",
+          "role": null,
+          "text": "All Assets\nSurfaces\nEnvironments\nSubstances\n3D\nSupporter Login\nLicense\nDocs\nGallery\n3D\nassets\n.\none",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 42
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "role": null,
+          "text": "Thumbnail\n3D Preview\nTiling Preview\nConcrete 049\n \nPBR Maps (USDZ-compatible)\n 1K-JPG .zip\n10 MB\n 2K-JPG .zip\n35 MB\n 4K-JPG .zip\n125 MB\n 8K-",
+          "bounds": {
+            "x": 0,
+            "y": 42,
+            "width": 1440,
+            "height": 783.703125
+          },
+          "styles": {
+            "display": "grid",
+            "position": "relative",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "4px",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "864px 576px"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Thumbnail",
+          "bounds": {
+            "x": 253.8125,
+            "y": 771,
+            "width": 105.359375,
+            "height": 39
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "19.2px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "8px",
+            "borderRadius": "2px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "3D Preview",
+          "bounds": {
+            "x": 359.171875,
+            "y": 771,
+            "width": 114.03125,
+            "height": 39
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "19.2px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "8px",
+            "borderRadius": "2px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Tiling Preview",
+          "bounds": {
+            "x": 473.203125,
+            "y": 771,
+            "width": 134.984375,
+            "height": 39
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "19.2px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "8px",
+            "borderRadius": "2px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "FORM",
+          "role": null,
+          "text": " Submit",
+          "bounds": {
+            "x": 874,
+            "y": 433.703125,
+            "width": 564,
+            "height": 62
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Submit",
+          "bounds": {
+            "x": 874,
+            "y": 475.703125,
+            "width": 55.265625,
+            "height": 20
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "1px 6px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://ambientcg.com/"
+        },
+        {
+          "text": "All Assets",
+          "href": "https://ambientcg.com/list"
+        },
+        {
+          "text": "Surfaces",
+          "href": "https://ambientcg.com/list?type=material,atlas,decal"
+        },
+        {
+          "text": "Environments",
+          "href": "https://ambientcg.com/list?type=hdri,hdri-element"
+        },
+        {
+          "text": "Substances",
+          "href": "https://ambientcg.com/list?type=substance"
+        },
+        {
+          "text": "3D",
+          "href": "https://ambientcg.com/list?type=3d-model,terrain"
+        },
+        {
+          "text": "Supporter Login",
+          "href": "https://ambientcg.com/activate"
+        },
+        {
+          "text": "License",
+          "href": "https://docs.ambientcg.com/license"
+        },
+        {
+          "text": "Docs",
+          "href": "https://docs.ambientcg.com/"
+        },
+        {
+          "text": "Gallery",
+          "href": "https://ambientcg.com/gallery"
+        },
+        {
+          "text": "3D\nassets\n.\none",
+          "href": "https://3dassets.one/"
+        },
+        {
+          "text": "",
+          "href": "https://ko-fi.com/ambientCG"
+        },
+        {
+          "text": "",
+          "href": "https://patreon.com/ambientcg"
+        },
+        {
+          "text": "",
+          "href": "https://mastodon.social/@ambientcg"
+        },
+        {
+          "text": "",
+          "href": "https://bsky.app/profile/ambientcg.com"
+        },
+        {
+          "text": "",
+          "href": "https://artstation.com/ambientcg"
+        },
+        {
+          "text": "",
+          "href": "https://instagram.com/ambientCG"
+        },
+        {
+          "text": "Concrete",
+          "href": "https://ambientcg.com/list?category=Concrete"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/a/Concrete048"
+        },
+        {
+          "text": " 1K-JPG .zip\n10 MB",
+          "href": "https://ambientcg.com/get?file=Concrete049_1K-JPG.zip"
+        },
+        {
+          "text": " 2K-JPG .zip\n35 MB",
+          "href": "https://ambientcg.com/get?file=Concrete049_2K-JPG.zip"
+        },
+        {
+          "text": " 4K-JPG .zip\n125 MB",
+          "href": "https://ambientcg.com/get?file=Concrete049_4K-JPG.zip"
+        },
+        {
+          "text": " 8K-JPG .zip\n450 MB",
+          "href": "https://ambientcg.com/get?file=Concrete049_8K-JPG.zip"
+        },
+        {
+          "text": " 1K-PNG .zip\n20 MB",
+          "href": "https://ambientcg.com/get?file=Concrete049_1K-PNG.zip"
+        },
+        {
+          "text": " 2K-PNG .zip\n74 MB",
+          "href": "https://ambientcg.com/get?file=Concrete049_2K-PNG.zip"
+        },
+        {
+          "text": " 4K-PNG .zip\n284 MB",
+          "href": "https://ambientcg.com/get?file=Concrete049_4K-PNG.zip"
+        },
+        {
+          "text": " 8K-PNG .zip\n1100 MB",
+          "href": "https://ambientcg.com/get?file=Concrete049_8K-PNG.zip"
+        },
+        {
+          "text": "Asphalt",
+          "href": "https://ambientcg.com/list?q=asphalt"
+        },
+        {
+          "text": "Concrete",
+          "href": "https://ambientcg.com/list?q=concrete"
+        },
+        {
+          "text": "Pebbles",
+          "href": "https://ambientcg.com/list?q=pebbles"
+        },
+        {
+          "text": "Stones",
+          "href": "https://ambientcg.com/list?q=stones"
+        },
+        {
+          "text": "Patreon supporters can browse the site ad-free.",
+          "href": "https://patreon.com/ambientCG"
+        },
+        {
+          "text": "License",
+          "href": "https://docs.ambientcg.com/license/"
+        },
+        {
+          "text": "Patreon",
+          "href": "https://patreon.com/ambientCG"
+        },
+        {
+          "text": "Ko-fi",
+          "href": "https://ko-fi.com/ambientCG"
+        },
+        {
+          "text": "Imprint & Privacy Policy\n(Impressum & Datenschutz).",
+          "href": "https://docs.ambientcg.com/legal"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--reduced-width": "max(calc(100% - 300px), 1100px)",
+        "--accent-3": "#92CEEE",
+        "--accent-2": "#116DD5",
+        "--header-height": "30px",
+        "--accent-1": "#0F2C59",
+        "--accent-4": "#d3d6e9",
+        "--text": "#2a2a2a",
+        "--accent-5": "#edf0f8",
+        "--global-width": "100%",
+        "--text-active": "#ffffff",
+        "--text-subtle": "#666666",
+        "--text-subtle-active": "#999999",
+        "--label-new": "#116DD5",
+        "--label-early": "red",
+        "--bg": "#ffffff"
+      }
+    },
+    "mobile": {
+      "url": "https://ambientcg.com/view?id=Concrete049",
+      "title": "Concrete 049 | ambientCG",
+      "text": "Thumbnail\n3D Preview\nTiling Preview\nConcrete 049\n \nPBR Maps (USDZ-compatible)\n 1K-JPG .zip\n10 MB\n 2K-JPG .zip\n35 MB\n 4K-JPG .zip\n125 MB\n 8K-JPG .zip\n450 MB\n 1K-PNG .zip\n20 MB\n 2K-PNG .zip\n74 MB\n 4K-PNG .zip\n284 MB\n 8K-PNG .zip\n1100 MB\nTags\nAsphalt Concrete Pebbles Stones\nShortlink\nDownloads\n22 341 (21542 Last Week)\nRelease Date\n2026-11-04\nTechnique\nSurface Photogrammetry\nDimensions\nca. 1.1 m × 1.1 m\n Submit\nPatreon supporters can browse the site ad-free.\nWhat is this website about?\n\nambientCG is one of the largest sources for free PBR materials, HDRIs, and models for 3D art, architectural visualization, game development, VFX and more.\n\nToday, ambientCG serves over 1,000,000 monthly downloads to hundreds of thousands of artists, students, and educators all over the world.\n\nWhy does ambientCG exist?\n\nI started this website in 2018 to provide freely shareable 3D textures because I had become frustrated with the licensing policies of many other texturing platforms, which limit or forbid texture redistribution.\n\nAre the assets really free for any purpose?\n\nYes. All assets are released under the Creative Commons CC0 license, making them free to use without attribution - even in commercial circumstances.\n\nSee the License page.\n\nHow can I support ambientCG?\n\nIf you'd like to support the project, you can become a patron on Patreon or buy me a coffee on Ko-fi.\n\nBecoming a patron also includes perks such as ad-free browsing or early access.\n\nCan I request a texture?\n\nNot with a guarantee. If you are a patron, you can make texture suggestions, but I can't give any concrete promises and I don't do contract work at this point in time.\n\nCan I get in touch?\n\nYou can find contact details and other legally required documentation here:\n\nImprint & Privacy Policy\n(Impressum & Datenschutz).",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Concrete 049\n ",
+          "bounds": {
+            "x": 6,
+            "y": 514.875,
+            "width": 378,
+            "height": 38.953125
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "HEADER",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 52.875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 52,
+            "height": 50.875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "40px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "1px 6px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "role": null,
+          "text": "Thumbnail\n3D Preview\nTiling Preview\nConcrete 049\n \nPBR Maps (USDZ-compatible)\n 1K-JPG .zip\n10 MB\n 2K-JPG .zip\n35 MB\n 4K-JPG .zip\n125 MB\n 8K-",
+          "bounds": {
+            "x": 0,
+            "y": 52.875,
+            "width": 390,
+            "height": 1264.703125
+          },
+          "styles": {
+            "display": "grid",
+            "position": "relative",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "4px",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "390px"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Thumbnail",
+          "bounds": {
+            "x": 17.8125,
+            "y": 461.875,
+            "width": 105.359375,
+            "height": 39
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "19.2px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "8px",
+            "borderRadius": "2px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "3D Preview",
+          "bounds": {
+            "x": 123.171875,
+            "y": 461.875,
+            "width": 114.03125,
+            "height": 39
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "19.2px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "8px",
+            "borderRadius": "2px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Tiling Preview",
+          "bounds": {
+            "x": 237.203125,
+            "y": 461.875,
+            "width": 134.984375,
+            "height": 39
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "19.2px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "8px",
+            "borderRadius": "2px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "FORM",
+          "role": null,
+          "text": " Submit",
+          "bounds": {
+            "x": 6,
+            "y": 925.578125,
+            "width": 378,
+            "height": 62
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Submit",
+          "bounds": {
+            "x": 6,
+            "y": 967.578125,
+            "width": 55.265625,
+            "height": 20
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "1px 6px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "\n\t\t\t\t\t\t\n\t\t\t\t\t",
+          "href": "https://ambientcg.com/"
+        },
+        {
+          "text": "All Assets",
+          "href": "https://ambientcg.com/list"
+        },
+        {
+          "text": "Surfaces",
+          "href": "https://ambientcg.com/list?type=material,atlas,decal"
+        },
+        {
+          "text": "Environments",
+          "href": "https://ambientcg.com/list?type=hdri,hdri-element"
+        },
+        {
+          "text": "Substances",
+          "href": "https://ambientcg.com/list?type=substance"
+        },
+        {
+          "text": "3D",
+          "href": "https://ambientcg.com/list?type=3d-model,terrain"
+        },
+        {
+          "text": "Supporter Login",
+          "href": "https://ambientcg.com/activate"
+        },
+        {
+          "text": "License",
+          "href": "https://docs.ambientcg.com/license"
+        },
+        {
+          "text": "Docs",
+          "href": "https://docs.ambientcg.com/"
+        },
+        {
+          "text": "Gallery",
+          "href": "https://ambientcg.com/gallery"
+        },
+        {
+          "text": "\n\t\t\t\t\t\t3Dassets.one\n\t\t\t\t\t",
+          "href": "https://3dassets.one/"
+        },
+        {
+          "text": "\n                \n            ",
+          "href": "https://ko-fi.com/ambientCG"
+        },
+        {
+          "text": "\n\t\t\t\t\n            ",
+          "href": "https://patreon.com/ambientcg"
+        },
+        {
+          "text": "\n                \n            ",
+          "href": "https://mastodon.social/@ambientcg"
+        },
+        {
+          "text": "\n \t\t\n\t\t",
+          "href": "https://bsky.app/profile/ambientcg.com"
+        },
+        {
+          "text": "\n                \n            ",
+          "href": "https://artstation.com/ambientcg"
+        },
+        {
+          "text": "\n                \n            ",
+          "href": "https://instagram.com/ambientCG"
+        },
+        {
+          "text": "Concrete",
+          "href": "https://ambientcg.com/list?category=Concrete"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/a/Concrete048"
+        },
+        {
+          "text": " 1K-JPG .zip\n10 MB",
+          "href": "https://ambientcg.com/get?file=Concrete049_1K-JPG.zip"
+        },
+        {
+          "text": " 2K-JPG .zip\n35 MB",
+          "href": "https://ambientcg.com/get?file=Concrete049_2K-JPG.zip"
+        },
+        {
+          "text": " 4K-JPG .zip\n125 MB",
+          "href": "https://ambientcg.com/get?file=Concrete049_4K-JPG.zip"
+        },
+        {
+          "text": " 8K-JPG .zip\n450 MB",
+          "href": "https://ambientcg.com/get?file=Concrete049_8K-JPG.zip"
+        },
+        {
+          "text": " 1K-PNG .zip\n20 MB",
+          "href": "https://ambientcg.com/get?file=Concrete049_1K-PNG.zip"
+        },
+        {
+          "text": " 2K-PNG .zip\n74 MB",
+          "href": "https://ambientcg.com/get?file=Concrete049_2K-PNG.zip"
+        },
+        {
+          "text": " 4K-PNG .zip\n284 MB",
+          "href": "https://ambientcg.com/get?file=Concrete049_4K-PNG.zip"
+        },
+        {
+          "text": " 8K-PNG .zip\n1100 MB",
+          "href": "https://ambientcg.com/get?file=Concrete049_8K-PNG.zip"
+        },
+        {
+          "text": "Asphalt",
+          "href": "https://ambientcg.com/list?q=asphalt"
+        },
+        {
+          "text": "Concrete",
+          "href": "https://ambientcg.com/list?q=concrete"
+        },
+        {
+          "text": "Pebbles",
+          "href": "https://ambientcg.com/list?q=pebbles"
+        },
+        {
+          "text": "Stones",
+          "href": "https://ambientcg.com/list?q=stones"
+        },
+        {
+          "text": "Patreon supporters can browse the site ad-free.",
+          "href": "https://patreon.com/ambientCG"
+        },
+        {
+          "text": "License",
+          "href": "https://docs.ambientcg.com/license/"
+        },
+        {
+          "text": "Patreon",
+          "href": "https://patreon.com/ambientCG"
+        },
+        {
+          "text": "Ko-fi",
+          "href": "https://ko-fi.com/ambientCG"
+        },
+        {
+          "text": "Imprint & Privacy Policy\n(Impressum & Datenschutz).",
+          "href": "https://docs.ambientcg.com/legal"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--reduced-width": "max(calc(100% - 300px), 1100px)",
+        "--accent-3": "#92CEEE",
+        "--accent-2": "#116DD5",
+        "--header-height": "30px",
+        "--accent-1": "#0F2C59",
+        "--accent-4": "#d3d6e9",
+        "--text": "#2a2a2a",
+        "--accent-5": "#edf0f8",
+        "--global-width": "100%",
+        "--text-active": "#ffffff",
+        "--text-subtle": "#666666",
+        "--text-subtle-active": "#999999",
+        "--label-new": "#116DD5",
+        "--label-early": "red",
+        "--bg": "#ffffff"
+      }
+    }
+  },
+  "scope": "public source reference; not a locally reconstructed component",
+  "http_status": 200,
+  "page_errors": []
+}

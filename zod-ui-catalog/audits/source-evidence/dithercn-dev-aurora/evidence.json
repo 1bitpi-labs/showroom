@@ -1,0 +1,2404 @@
+{
+  "site": "dithercn.dev",
+  "url": "https://dithercn.dev/docs/backgrounds/aurora",
+  "captured_at": "2026-11-12T21:11:21.541460+00:00",
+  "views": {
+    "desktop": {
+      "url": "https://dithercn.dev/docs/backgrounds/aurora",
+      "title": "Aurora | dithercn",
+      "text": "For the complete documentation index, see llms.txt. Markdown variants are available by appending .md to any URL or sending an Accept: text/markdown header. The dithercn agent skill, for building any dither on the engine, is at /.well-known/agent-skills/dithercn/SKILL.md.\ndithercn\nDocs\nExamples\nEngine\nSearch\nGitHub\n140\nstars\nToggle theme\nGet started\nIntroduction\nInstallation\nTheming\nExamples\nCatalog\nBackgrounds\n31\nDither gradient\nDither glow\nMesh gradient\nAurora\nNoise field\nWaves\nPlasma\nBeams\nSilk\nSmoke\nFire\nFlow field\nContours\nRipples\nRain\nRidgelines\nMetaballs\nVoronoi Cells\nTunnel\nRetro grid\nEclipse\nBlack Hole\nHorizon\nStarfield\nGalaxy\nHalftone\nMoiré\nDither globe\nDot map\nDither orb\nDither fade\nCharts\n11\nInterface\n12\nText\n4\nImages\n5\nEngine\nDither engine\nWrite your own dither\nPalettes\nPixel scale\nMotion\nPerformance\nExport\nAurora\nCopy\nCopy Page\nPrevious\nNext\n\nCurtains of light that fold, sway and shimmer, drawn as a dither, with knobs for colour, rays, tilt and drift.\n\nPreview\nCode\nControls\nReplay\nExpand\nCONTROLS\nReset\nEDGE COLOUR\nTIP COLOUR\nCURTAINS\n3\nHEIGHT\n0.42\nSPREAD\n0.11\nSWAY\n1\nTURBULENCE\n0.6\nRAYS\n8\nRAY LENGTH\n0.45\nEDGE GLOW\n0.9\nTILT\n0°\nDRIFT\n0\nRAYS POINT\nup\ndown\nMASK\nnone\ntop\nbottom\nedges\nMATRIX\nbayer4\nbayer8\nblue-noise\nCELL\n3px\nANIMATE\nInstallation\nnpm\nyarn\npnpm\nbun\npnpm dlx shadcn@latest add https://dithercn.dev/r/aurora.json\nCopy\nManual installation\nUsage\nCopy\nimport { Aurora } from \"@/components/dithercn/aurora\";\n \nexport function Hero() {\n  return (\n    <section className=\"relative isolate min-h-[480px]\">\n      <Aurora className=\"absolute inset-0 -z-10\" />\n      <h1>Your headline</h1>\n    </section>\n  );\n}\n\nEach curtain has a bright lower edge that folds slowly, with rays that fade as they rise. Further curtains hang higher and dimmer. height sets where the lowest edge hangs, so you can keep the area under it clear for text.\n\nThe props group into three jobs:\n\nShape: curtains, height, spread, sway, turbulence, rays, length.\nLight and colour: color for the edges, tipColor for the tops of the rays, background, glow, intensity, shimmer. Pass palette to set every tone yourself.\nPlacement and motion: tilt, scale, drift, direction, mask, plus the engine's speed, cell and matrix.\nExamples\nAbove a headline\n\nRaising height lifts the curtains off the lower third, where the headline sits on clean paper. A tipColor of \"blue\" shifts the tops of the rays to a second, cooler hue, and mask=\"edges\" fades the sides.\n\nPreview\nCode\nReplay\nExpand\nNorthern lights\n\nYour own colours turn it into the real thing: green edges, violet tips and a background that is a pale sky in light mode and a night sky in dark, set as CSS variables on the wrapper so the shader follows the theme. Four curtains, longer rays, a slight tilt and a little drift give it depth.\n\nPreview\nCode\nReplay\nExpand\nHanging over a call to action\n\ndirection=\"down\" flips the curtains so the rays fall from the top and the button sits on clear paper below. Few broad rays and 4px cells give it a coarser, poster-like grain.\n\nPreview\nCode\nReplay\nExpand\nStill, in a banner\n\nWith animate={false} it draws one frame. stillTime picks which moment, so you can choose a shape you like.\n\nPreview\nCode\nReplay\nExpand\nProps\nProp\tType\tDefault\ncolor\n\nThe bright lower edge of each curtain.\n\n\tDitherColor\t\"--dither-ink\"\ntipColor\n\nThe faint tops of the rays. Set a second colour for a two-tone sky.\n\n\tDitherColor\tcolor\nbackground\n\nThe sky behind.\n\n\tDitherColor\t\"--dither-paper\"\ncurtains\n\nHow many curtains, from 1 to 6. Each one hangs higher and dimmer.\n\n\tnumber\t3\nheight\n\nWhere the lowest bright edge hangs, from 0 (bottom) to 1 (top).\n\n\tnumber\t0.42\nspread\n\nVertical gap between curtains, from 0 to 0.3.\n\n\tnumber\t0.11\nsway\n\nHow far the edges fold. 0 is straight, 3 is deep folds.\n\n\tnumber\t1\nturbulence\n\nFine ripples along each edge, from 0 to 2.\n\n\tnumber\t0.6\nrays\n\nHow many rays fit across. 2 gives broad bands, 20 fine needles.\n\n\tnumber\t8\nlength\n\nHow far the rays reach up, from 0 to 1.\n\n\tnumber\t0.45\nglow\n\nBrightness o",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Aurora",
+          "bounds": {
+            "x": 368,
+            "y": 120,
+            "width": 113.609375,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "36px",
+            "fontWeight": "600",
+            "lineHeight": "40px",
+            "color": "oklab(0.984998 -0.00000956655 0.0000230074 / 0.85)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Installation",
+          "bounds": {
+            "x": 368,
+            "y": 1444.5,
+            "width": 672,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "20px",
+            "fontWeight": "500",
+            "lineHeight": "28px",
+            "color": "oklab(0.984998 -0.00000956655 0.0000230074 / 0.85)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Usage",
+          "bounds": {
+            "x": 368,
+            "y": 1664.78125,
+            "width": 672,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "20px",
+            "fontWeight": "500",
+            "lineHeight": "28px",
+            "color": "oklab(0.984998 -0.00000956655 0.0000230074 / 0.85)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Examples",
+          "bounds": {
+            "x": 368,
+            "y": 2340.78125,
+            "width": 672,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "20px",
+            "fontWeight": "500",
+            "lineHeight": "28px",
+            "color": "oklab(0.984998 -0.00000956655 0.0000230074 / 0.85)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "Above a headline",
+          "bounds": {
+            "x": 368,
+            "y": 2392.78125,
+            "width": 672,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "18px",
+            "fontWeight": "500",
+            "lineHeight": "28px",
+            "color": "oklab(0.984998 -0.00000956655 0.0000230074 / 0.85)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "Northern lights",
+          "bounds": {
+            "x": 368,
+            "y": 3105.90625,
+            "width": 672,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "18px",
+            "fontWeight": "500",
+            "lineHeight": "28px",
+            "color": "oklab(0.984998 -0.00000956655 0.0000230074 / 0.85)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "Hanging over a call to action",
+          "bounds": {
+            "x": 368,
+            "y": 3819.03125,
+            "width": 672,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "18px",
+            "fontWeight": "500",
+            "lineHeight": "28px",
+            "color": "oklab(0.984998 -0.00000956655 0.0000230074 / 0.85)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "Still, in a banner",
+          "bounds": {
+            "x": 368,
+            "y": 4507.78125,
+            "width": 672,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "18px",
+            "fontWeight": "500",
+            "lineHeight": "28px",
+            "color": "oklab(0.984998 -0.00000956655 0.0000230074 / 0.85)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Props",
+          "bounds": {
+            "x": 368,
+            "y": 5076.53125,
+            "width": 672,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "20px",
+            "fontWeight": "500",
+            "lineHeight": "28px",
+            "color": "oklab(0.984998 -0.00000956655 0.0000230074 / 0.85)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Notes",
+          "bounds": {
+            "x": 368,
+            "y": 7653.6875,
+            "width": 672,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "20px",
+            "fontWeight": "500",
+            "lineHeight": "28px",
+            "color": "oklab(0.984998 -0.00000956655 0.0000230074 / 0.85)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "HEADER",
+          "role": null,
+          "text": "dithercn\nDocs\nExamples\nEngine\nSearch\nGitHub\n140\nstars\nToggle theme",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 72
+          },
+          "styles": {
+            "display": "flex",
+            "position": "sticky",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px 12px 8px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "Docs\nExamples\nEngine",
+          "bounds": {
+            "x": 485.203125,
+            "y": 24,
+            "width": 222.109375,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "4px",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Search",
+          "bounds": {
+            "x": 867.953125,
+            "y": 24,
+            "width": 95.4375,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "20px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "oklab(0.984998 -0.00000956655 0.0000230074 / 0.06)",
+            "gap": "8px",
+            "padding": "0px 14px 0px 12px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Toggle theme",
+          "bounds": {
+            "x": 1049,
+            "y": 24,
+            "width": 32,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "8px",
+            "padding": "0px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "role": null,
+          "text": "Get started\nIntroduction\nInstallation\nTheming\nExamples\nCatalog\nBackgrounds\n31\nDither gradient\nDither glow\nMesh gradient\nAurora\nNoise field\nW",
+          "bounds": {
+            "x": 0,
+            "y": 72,
+            "width": 1440,
+            "height": 7935.1875
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Backgrounds\n31",
+          "bounds": {
+            "x": 56,
+            "y": 361.59375,
+            "width": 160,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "12.8px",
+            "fontWeight": "500",
+            "lineHeight": "18.2857px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "6px",
+            "padding": "8px 6px 8px 4px",
+            "borderRadius": "4px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Charts\n11",
+          "bounds": {
+            "x": 56,
+            "y": 1449.59375,
+            "width": 160,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "12.8px",
+            "fontWeight": "500",
+            "lineHeight": "18.2857px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "6px",
+            "padding": "8px 6px 8px 4px",
+            "borderRadius": "4px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Interface\n12",
+          "bounds": {
+            "x": 56,
+            "y": 1483.59375,
+            "width": 160,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "12.8px",
+            "fontWeight": "500",
+            "lineHeight": "18.2857px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "6px",
+            "padding": "8px 6px 8px 4px",
+            "borderRadius": "4px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Text\n4",
+          "bounds": {
+            "x": 56,
+            "y": 1517.59375,
+            "width": 160,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "12.8px",
+            "fontWeight": "500",
+            "lineHeight": "18.2857px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "6px",
+            "padding": "8px 6px 8px 4px",
+            "borderRadius": "4px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Images\n5",
+          "bounds": {
+            "x": 56,
+            "y": 1551.59375,
+            "width": 160,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "12.8px",
+            "fontWeight": "500",
+            "lineHeight": "18.2857px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "6px",
+            "padding": "8px 6px 8px 4px",
+            "borderRadius": "4px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Copy\nCopy Page",
+          "bounds": {
+            "x": 795.890625,
+            "y": 126,
+            "width": 110.109375,
+            "height": 28
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "12.8px",
+            "fontWeight": "500",
+            "lineHeight": "18.2857px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "lab(9.52 -0.00000745058 0)",
+            "gap": "6px",
+            "padding": "0px 12px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 904,
+            "y": 126,
+            "width": 28,
+            "height": 28
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "lab(9.52 -0.00000745058 0)",
+            "gap": "8px",
+            "padding": "0px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 940,
+            "y": 126,
+            "width": 28,
+            "height": 28
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "lab(9.52 -0.00000745058 0)",
+            "gap": "8px",
+            "padding": "0px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "role": "tablist",
+          "text": "Preview\nCode",
+          "bounds": {
+            "x": 368,
+            "y": 248,
+            "width": 132.53125,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "15px",
+            "fontWeight": "400",
+            "lineHeight": "22.5px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "oklab(0.22 -0.00000219047 0.0000051409 / 0.7)",
+            "gap": "normal",
+            "padding": "2px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "tab",
+          "text": "Preview",
+          "bounds": {
+            "x": 370,
+            "y": 250,
+            "width": 72.4375,
+            "height": 28
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "12.8px",
+            "fontWeight": "500",
+            "lineHeight": "19.2px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "lab(0 0 0)",
+            "gap": "6px",
+            "padding": "4px 12px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "tab",
+          "text": "Code",
+          "bounds": {
+            "x": 442.4375,
+            "y": 250,
+            "width": 56.09375,
+            "height": 28
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "12.8px",
+            "fontWeight": "500",
+            "lineHeight": "19.2px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "6px",
+            "padding": "4px 12px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Controls",
+          "bounds": {
+            "x": 772.734375,
+            "y": 248,
+            "width": 93.328125,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "12.8px",
+            "fontWeight": "500",
+            "lineHeight": "19.2px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "6px",
+            "padding": "0px 12px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Replay",
+          "bounds": {
+            "x": 866.0625,
+            "y": 248,
+            "width": 84.765625,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "12.8px",
+            "fontWeight": "500",
+            "lineHeight": "19.2px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "6px",
+            "padding": "0px 12px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Expand",
+          "bounds": {
+            "x": 950.828125,
+            "y": 248,
+            "width": 89.171875,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "12.8px",
+            "fontWeight": "500",
+            "lineHeight": "19.2px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "6px",
+            "padding": "0px 12px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Reset",
+          "bounds": {
+            "x": 983,
+            "y": 830.75,
+            "width": 33,
+            "height": 16.5
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"JetBrains Mono\", \"JetBrains Mono Fallback\"",
+            "fontSize": "11px",
+            "fontWeight": "400",
+            "lineHeight": "16.5px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "2px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "radio",
+          "text": "",
+          "bounds": {
+            "x": 388,
+            "y": 888,
+            "width": 28,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "15px",
+            "fontWeight": "400",
+            "lineHeight": "22.5px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "radio",
+          "text": "",
+          "bounds": {
+            "x": 418,
+            "y": 888,
+            "width": 28,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "15px",
+            "fontWeight": "400",
+            "lineHeight": "22.5px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "radio",
+          "text": "",
+          "bounds": {
+            "x": 448,
+            "y": 888,
+            "width": 28,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "15px",
+            "fontWeight": "400",
+            "lineHeight": "22.5px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "radio",
+          "text": "",
+          "bounds": {
+            "x": 478,
+            "y": 888,
+            "width": 28,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "15px",
+            "fontWeight": "400",
+            "lineHeight": "22.5px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "dithercn",
+          "href": "https://dithercn.dev/"
+        },
+        {
+          "text": "Docs",
+          "href": "https://dithercn.dev/docs"
+        },
+        {
+          "text": "Examples",
+          "href": "https://dithercn.dev/docs/examples"
+        },
+        {
+          "text": "Engine",
+          "href": "https://dithercn.dev/docs/engine/dither-engine"
+        },
+        {
+          "text": "GitHub\n140\nstars",
+          "href": "https://github.com/opencoredev/dithercn"
+        },
+        {
+          "text": "Introduction",
+          "href": "https://dithercn.dev/docs"
+        },
+        {
+          "text": "Installation",
+          "href": "https://dithercn.dev/docs/installation"
+        },
+        {
+          "text": "Theming",
+          "href": "https://dithercn.dev/docs/theming"
+        },
+        {
+          "text": "Catalog",
+          "href": "https://dithercn.dev/docs/examples"
+        },
+        {
+          "text": "Dither gradient",
+          "href": "https://dithercn.dev/docs/backgrounds/dither-gradient"
+        },
+        {
+          "text": "Dither glow",
+          "href": "https://dithercn.dev/docs/backgrounds/dither-glow"
+        },
+        {
+          "text": "Mesh gradient",
+          "href": "https://dithercn.dev/docs/backgrounds/mesh-gradient"
+        },
+        {
+          "text": "Aurora",
+          "href": "https://dithercn.dev/docs/backgrounds/aurora"
+        },
+        {
+          "text": "Noise field",
+          "href": "https://dithercn.dev/docs/backgrounds/noise-field"
+        },
+        {
+          "text": "Waves",
+          "href": "https://dithercn.dev/docs/backgrounds/waves"
+        },
+        {
+          "text": "Plasma",
+          "href": "https://dithercn.dev/docs/backgrounds/plasma"
+        },
+        {
+          "text": "Beams",
+          "href": "https://dithercn.dev/docs/backgrounds/beams"
+        },
+        {
+          "text": "Silk",
+          "href": "https://dithercn.dev/docs/backgrounds/silk"
+        },
+        {
+          "text": "Smoke",
+          "href": "https://dithercn.dev/docs/backgrounds/smoke"
+        },
+        {
+          "text": "Fire",
+          "href": "https://dithercn.dev/docs/backgrounds/fire"
+        },
+        {
+          "text": "Flow field",
+          "href": "https://dithercn.dev/docs/backgrounds/flow-field"
+        },
+        {
+          "text": "Contours",
+          "href": "https://dithercn.dev/docs/backgrounds/contours"
+        },
+        {
+          "text": "Ripples",
+          "href": "https://dithercn.dev/docs/backgrounds/ripples"
+        },
+        {
+          "text": "Rain",
+          "href": "https://dithercn.dev/docs/backgrounds/rain"
+        },
+        {
+          "text": "Ridgelines",
+          "href": "https://dithercn.dev/docs/backgrounds/ridgelines"
+        },
+        {
+          "text": "Metaballs",
+          "href": "https://dithercn.dev/docs/backgrounds/metaballs"
+        },
+        {
+          "text": "Voronoi Cells",
+          "href": "https://dithercn.dev/docs/backgrounds/voronoi"
+        },
+        {
+          "text": "Tunnel",
+          "href": "https://dithercn.dev/docs/backgrounds/tunnel"
+        },
+        {
+          "text": "Retro grid",
+          "href": "https://dithercn.dev/docs/backgrounds/retro-grid"
+        },
+        {
+          "text": "Eclipse",
+          "href": "https://dithercn.dev/docs/backgrounds/eclipse"
+        },
+        {
+          "text": "Black Hole",
+          "href": "https://dithercn.dev/docs/backgrounds/black-hole"
+        },
+        {
+          "text": "Horizon",
+          "href": "https://dithercn.dev/docs/backgrounds/horizon"
+        },
+        {
+          "text": "Starfield",
+          "href": "https://dithercn.dev/docs/backgrounds/starfield"
+        },
+        {
+          "text": "Galaxy",
+          "href": "https://dithercn.dev/docs/backgrounds/galaxy"
+        },
+        {
+          "text": "Halftone",
+          "href": "https://dithercn.dev/docs/backgrounds/halftone"
+        },
+        {
+          "text": "Moiré",
+          "href": "https://dithercn.dev/docs/backgrounds/moire"
+        },
+        {
+          "text": "Dither globe",
+          "href": "https://dithercn.dev/docs/backgrounds/dither-globe"
+        },
+        {
+          "text": "Dot map",
+          "href": "https://dithercn.dev/docs/backgrounds/dot-map"
+        },
+        {
+          "text": "Dither orb",
+          "href": "https://dithercn.dev/docs/backgrounds/dither-orb"
+        },
+        {
+          "text": "Dither fade",
+          "href": "https://dithercn.dev/docs/backgrounds/dither-fade"
+        },
+        {
+          "text": "Dither engine",
+          "href": "https://dithercn.dev/docs/engine/dither-engine"
+        },
+        {
+          "text": "Write your own dither",
+          "href": "https://dithercn.dev/docs/engine/write-your-own"
+        },
+        {
+          "text": "Palettes",
+          "href": "https://dithercn.dev/docs/engine/palettes"
+        },
+        {
+          "text": "Pixel scale",
+          "href": "https://dithercn.dev/docs/engine/pixel-scale"
+        },
+        {
+          "text": "Motion",
+          "href": "https://dithercn.dev/docs/engine/motion"
+        },
+        {
+          "text": "Performance",
+          "href": "https://dithercn.dev/docs/engine/performance"
+        },
+        {
+          "text": "Export",
+          "href": "https://dithercn.dev/docs/engine/export"
+        },
+        {
+          "text": "Previous",
+          "href": "https://dithercn.dev/docs/backgrounds/mesh-gradient"
+        },
+        {
+          "text": "Next",
+          "href": "https://dithercn.dev/docs/backgrounds/noise-field"
+        },
+        {
+          "text": "Performance",
+          "href": "https://dithercn.dev/docs/engine/performance"
+        },
+        {
+          "text": "Mesh gradient",
+          "href": "https://dithercn.dev/docs/backgrounds/mesh-gradient"
+        },
+        {
+          "text": "Noise field",
+          "href": "https://dithercn.dev/docs/backgrounds/noise-field"
+        },
+        {
+          "text": "Installation",
+          "href": "https://dithercn.dev/docs/backgrounds/aurora#installation"
+        },
+        {
+          "text": "Usage",
+          "href": "https://dithercn.dev/docs/backgrounds/aurora#usage"
+        },
+        {
+          "text": "Examples",
+          "href": "https://dithercn.dev/docs/backgrounds/aurora#examples"
+        },
+        {
+          "text": "Above a headline",
+          "href": "https://dithercn.dev/docs/backgrounds/aurora#above-a-headline"
+        },
+        {
+          "text": "Northern lights",
+          "href": "https://dithercn.dev/docs/backgrounds/aurora#northern-lights"
+        },
+        {
+          "text": "Hanging over a call to action",
+          "href": "https://dithercn.dev/docs/backgrounds/aurora#hanging-over-a-call-to-action"
+        },
+        {
+          "text": "Still, in a banner",
+          "href": "https://dithercn.dev/docs/backgrounds/aurora#still-in-a-banner"
+        },
+        {
+          "text": "Props",
+          "href": "https://dithercn.dev/docs/backgrounds/aurora#props"
+        },
+        {
+          "text": "Notes",
+          "href": "https://dithercn.dev/docs/backgrounds/aurora#notes"
+        },
+        {
+          "text": "View as Markdown",
+          "href": "https://dithercn.dev/llms.md/docs/backgrounds/aurora/content.md"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--container-md": "28rem",
+        "--border": "lab(100% 0 0/.08)",
+        "--tw-inset-shadow-alpha": "100%",
+        "--tw-ring-shadow": "0 0 #0000",
+        "--text-2xl": "1.5rem",
+        "--sidebar-primary-foreground": "lab(0% 0 0)",
+        "--aspect-video": "16 / 9",
+        "--card": "lab(5.71933% 0 0)",
+        "--tw-drop-shadow-alpha": "100%",
+        "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+        "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+        "--text-7xl": "4.5rem",
+        "--tw-animation-delay": "0s",
+        "--text-lg": "1.125rem",
+        "--text-8xl--line-height": "1",
+        "--primary-foreground": "lab(0% 0 0)",
+        "--card-foreground": "lab(98.26% 0 0)",
+        "--surface-foreground": "lab(79.12% -.0000298023 -.0000119209)",
+        "--tw-outline-style": "solid",
+        "--text-5xl--line-height": "1",
+        "--tw-inset-ring-shadow": "0 0 #0000",
+        "--sidebar-accent-foreground": "lab(98.26% 0 0)",
+        "--text-base--line-height": "calc(1.5 / 1)",
+        "--muted": "lab(9.52% -.00000745058 0)",
+        "--dither-paper": "lab(0% 0 0)",
+        "--tw-animation-direction": "normal",
+        "--tw-enter-scale": "1",
+        "--color-code-foreground": "lab(86.08% -.0000298023 0)",
+        "--accent-foreground": "lab(98.26% 0 0)",
+        "--font-mono": "",
+        "--tracking-wider": ".05em",
+        "--popover": "lab(7.22637% -.0000149012 0)",
+        "--color-dither-green": "lab(76.6505% -52.576 31.4764)",
+        "--ring": "lab(66.0612% 11.9021 -53.8414/.6)",
+        "--tw-inset-shadow": "0 0 #0000",
+        "--tw-ring-offset-color": "#fff",
+        "--text-lg--line-height": "calc(1.75 / 1.125)",
+        "--tw-gradient-from": "rgba(0, 0, 0, 0)",
+        "--color-white": "#fff",
+        "--breakpoint-2xl": "96rem",
+        "--tw-gradient-to": "rgba(0, 0, 0, 0)",
+        "--tw-shadow-alpha": "100%",
+        "--dither-bloom": "1",
+        "--radius-sm": "calc(.375rem - 4px)",
+        "--sidebar-foreground": "lab(98.26% 0 0)",
+        "--font-sans": "",
+        "--sidebar-accent": "lab(9.52% -.00000745058 0)",
+        "--tw-exit-rotate": "0",
+        "--tw-scale-z": "1",
+        "--font-weight-bold": "700",
+        "--radius": ".375rem",
+        "--popover-foreground": "lab(98.26% 0 0)",
+        "--container-sm": "24rem",
+        "--tw-ring-offset-width": "0px",
+        "--tw-exit-translate-y": "0",
+        "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+        "--tw-gradient-via-position": "50%",
+        "--text-6xl": "3.75rem",
+        "--color-dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+        "--text-xs--line-height": "calc(1 / .75)",
+        "--duration-enter": ".21s",
+        "--default-font-family": "",
+        "--tw-space-x-reverse": "0",
+        "--container-lg": "32rem",
+        "--selection": "lab(66.0612% 11.9021 -53.8414)",
+        "--duration-move": ".32s",
+        "--tw-gradient-to-position": "100%",
+        "--default-transition-duration": ".15s",
+        "--chart-4": "lab(39.2214% 26.9192 -70.8472)",
+        "--chart-2": "lab(51.3656% 20.0498 -67.5053)",
+        "--animate-pulse": "pulse 2s cubic-bezier(.4, 0, .6, 1) infinite",
+        "--radius-2xl": "1rem",
+        "--text-7xl--line-height": "1",
+        "--radius-lg": ".375rem",
+        "--color-neutral-900": "lab(7.78201% -.0000149012 0)",
+        "--container-xs": "20rem",
+        "--text-xl": "1.25rem",
+        "--surface": "lab(5.71933% 0 0)",
+        "--sidebar-primary": "lab(66.0612% 11.9021 -53.8414)",
+        "--tw-gradient-from-position": "0%"
+      }
+    },
+    "mobile": {
+      "url": "https://dithercn.dev/docs/backgrounds/aurora",
+      "title": "Aurora | dithercn",
+      "text": "For the complete documentation index, see llms.txt. Markdown variants are available by appending .md to any URL or sending an Accept: text/markdown header. The dithercn agent skill, for building any dither on the engine, is at /.well-known/agent-skills/dithercn/SKILL.md.\nToggle Menu\ndithercn\nSearch\nGitHub\n140\nstars\nToggle theme\nAurora\nPrevious\nNext\n\nCurtains of light that fold, sway and shimmer, drawn as a dither, with knobs for colour, rays, tilt and drift.\n\nPreview\nCode\nControls\nReplay\nExpand\nCONTROLS\nReset\nEDGE COLOUR\nTIP COLOUR\nCURTAINS\n3\nHEIGHT\n0.42\nSPREAD\n0.11\nSWAY\n1\nTURBULENCE\n0.6\nRAYS\n8\nRAY LENGTH\n0.45\nEDGE GLOW\n0.9\nTILT\n0°\nDRIFT\n0\nRAYS POINT\nup\ndown\nMASK\nnone\ntop\nbottom\nedges\nMATRIX\nbayer4\nbayer8\nblue-noise\nCELL\n3px\nANIMATE\nInstallation\nnpm\nyarn\npnpm\nbun\npnpm dlx shadcn@latest add https://dithercn.dev/r/aurora.json\nCopy\nManual installation\nUsage\nCopy\nimport { Aurora } from \"@/components/dithercn/aurora\";\n \nexport function Hero() {\n  return (\n    <section className=\"relative isolate min-h-[480px]\">\n      <Aurora className=\"absolute inset-0 -z-10\" />\n      <h1>Your headline</h1>\n    </section>\n  );\n}\n\nEach curtain has a bright lower edge that folds slowly, with rays that fade as they rise. Further curtains hang higher and dimmer. height sets where the lowest edge hangs, so you can keep the area under it clear for text.\n\nThe props group into three jobs:\n\nShape: curtains, height, spread, sway, turbulence, rays, length.\nLight and colour: color for the edges, tipColor for the tops of the rays, background, glow, intensity, shimmer. Pass palette to set every tone yourself.\nPlacement and motion: tilt, scale, drift, direction, mask, plus the engine's speed, cell and matrix.\nExamples\nAbove a headline\n\nRaising height lifts the curtains off the lower third, where the headline sits on clean paper. A tipColor of \"blue\" shifts the tops of the rays to a second, cooler hue, and mask=\"edges\" fades the sides.\n\nPreview\nCode\nReplay\nExpand\nNorthern lights\n\nYour own colours turn it into the real thing: green edges, violet tips and a background that is a pale sky in light mode and a night sky in dark, set as CSS variables on the wrapper so the shader follows the theme. Four curtains, longer rays, a slight tilt and a little drift give it depth.\n\nPreview\nCode\nReplay\nExpand\nHanging over a call to action\n\ndirection=\"down\" flips the curtains so the rays fall from the top and the button sits on clear paper below. Few broad rays and 4px cells give it a coarser, poster-like grain.\n\nPreview\nCode\nReplay\nExpand\nStill, in a banner\n\nWith animate={false} it draws one frame. stillTime picks which moment, so you can choose a shape you like.\n\nPreview\nCode\nReplay\nExpand\nProps\nProp\tType\tDefault\ncolor\n\nThe bright lower edge of each curtain.\n\nType:\nDitherColor\nDefault \"--dither-ink\"\ntipColor\n\nThe faint tops of the rays. Set a second colour for a two-tone sky.\n\nType:\nDitherColor\nDefault color\nbackground\n\nThe sky behind.\n\nType:\nDitherColor\nDefault \"--dither-paper\"\ncurtains\n\nHow many curtains, from 1 to 6. Each one hangs higher and dimmer.\n\nType:\nnumber\nDefault 3\nheight\n\nWhere the lowest bright edge hangs, from 0 (bottom) to 1 (top).\n\nType:\nnumber\nDefault 0.42\nspread\n\nVertical gap between curtains, from 0 to 0.3.\n\nType:\nnumber\nDefault 0.11\nsway\n\nHow far the edges fold. 0 is straight, 3 is deep folds.\n\nType:\nnumber\nDefault 1\nturbulence\n\nFine ripples along each edge, from 0 to 2.\n\nType:\nnumber\nDefault 0.6\nrays\n\nHow many rays fit across. 2 gives broad bands, 20 fine needles.\n\nType:\nnumber\nDefault 8\nlength\n\nHow far the rays reach up, from 0 to 1.\n\nType:\nnumber\nDefault 0.45\nglow\n\nBrightness of the line along each edge, from 0 to 2.\n\nType:\nnumber\nDefault 0.9\nintensity\n\nBrightness of the curtains, from 0 to 1.\n\nType:\nnumber\nDefault 0.95\nshimmer\n\nA slow brightness ripple, from 0 to 1.\n\nType:\nnumber\nDefault 0.2\nscale\n\nHorizontal zoom. Higher values fit more folds across.\n\nType:\nnumber\nDefault 1\ntilt\n\nTilt of the curtains in degrees, from -45 to 45.\n\nType:\nnumber\nDefault 0\ndr",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Aurora",
+          "bounds": {
+            "x": 24,
+            "y": 96,
+            "width": 94.671875,
+            "height": 36
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "30px",
+            "fontWeight": "600",
+            "lineHeight": "36px",
+            "color": "oklab(0.984998 -0.00000956655 0.0000230074 / 0.85)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Installation",
+          "bounds": {
+            "x": 24,
+            "y": 1813.0625,
+            "width": 342,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "20px",
+            "fontWeight": "500",
+            "lineHeight": "28px",
+            "color": "oklab(0.984998 -0.00000956655 0.0000230074 / 0.85)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Usage",
+          "bounds": {
+            "x": 24,
+            "y": 2025.34375,
+            "width": 342,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "20px",
+            "fontWeight": "500",
+            "lineHeight": "28px",
+            "color": "oklab(0.984998 -0.00000956655 0.0000230074 / 0.85)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Examples",
+          "bounds": {
+            "x": 24,
+            "y": 2901,
+            "width": 342,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "20px",
+            "fontWeight": "500",
+            "lineHeight": "28px",
+            "color": "oklab(0.984998 -0.00000956655 0.0000230074 / 0.85)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "Above a headline",
+          "bounds": {
+            "x": 24,
+            "y": 2953,
+            "width": 342,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "18px",
+            "fontWeight": "500",
+            "lineHeight": "28px",
+            "color": "oklab(0.984998 -0.00000956655 0.0000230074 / 0.85)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "Northern lights",
+          "bounds": {
+            "x": 24,
+            "y": 3689.40625,
+            "width": 342,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "18px",
+            "fontWeight": "500",
+            "lineHeight": "28px",
+            "color": "oklab(0.984998 -0.00000956655 0.0000230074 / 0.85)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "Hanging over a call to action",
+          "bounds": {
+            "x": 24,
+            "y": 4480.375,
+            "width": 342,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "18px",
+            "fontWeight": "500",
+            "lineHeight": "28px",
+            "color": "oklab(0.984998 -0.00000956655 0.0000230074 / 0.85)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "Still, in a banner",
+          "bounds": {
+            "x": 24,
+            "y": 5189.5,
+            "width": 342,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "18px",
+            "fontWeight": "500",
+            "lineHeight": "28px",
+            "color": "oklab(0.984998 -0.00000956655 0.0000230074 / 0.85)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Props",
+          "bounds": {
+            "x": 24,
+            "y": 5723.34375,
+            "width": 342,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "20px",
+            "fontWeight": "500",
+            "lineHeight": "28px",
+            "color": "oklab(0.984998 -0.00000956655 0.0000230074 / 0.85)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Notes",
+          "bounds": {
+            "x": 24,
+            "y": 9464.15625,
+            "width": 342,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "20px",
+            "fontWeight": "500",
+            "lineHeight": "28px",
+            "color": "oklab(0.984998 -0.00000956655 0.0000230074 / 0.85)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "HEADER",
+          "role": null,
+          "text": "Toggle Menu\ndithercn\nSearch\nGitHub\n140\nstars\nToggle theme",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 72
+          },
+          "styles": {
+            "display": "flex",
+            "position": "sticky",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px 12px 8px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Toggle Menu",
+          "bounds": {
+            "x": 19,
+            "y": 24,
+            "width": 32,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "8px",
+            "padding": "0px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Search",
+          "bounds": {
+            "x": 205.390625,
+            "y": 24,
+            "width": 32,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "20px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "8px",
+            "padding": "0px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Toggle theme",
+          "bounds": {
+            "x": 339,
+            "y": 24,
+            "width": 32,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "8px",
+            "padding": "0px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "role": null,
+          "text": "Aurora\nPrevious\nNext\n\nCurtains of light that fold, sway and shimmer, drawn as a dither, with knobs for colour, rays, tilt and drift.\n\nPrevie",
+          "bounds": {
+            "x": 0,
+            "y": 72,
+            "width": 390,
+            "height": 9868.78125
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "role": "tablist",
+          "text": "Preview\nCode",
+          "bounds": {
+            "x": 24,
+            "y": 247.5625,
+            "width": 132.53125,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16.8px",
+            "fontWeight": "400",
+            "lineHeight": "25.2px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "oklab(0.22 -0.00000219047 0.0000051409 / 0.7)",
+            "gap": "normal",
+            "padding": "2px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "tab",
+          "text": "Preview",
+          "bounds": {
+            "x": 26,
+            "y": 249.5625,
+            "width": 72.4375,
+            "height": 28
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "12.8px",
+            "fontWeight": "500",
+            "lineHeight": "19.2px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "lab(0 0 0)",
+            "gap": "6px",
+            "padding": "4px 12px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "tab",
+          "text": "Code",
+          "bounds": {
+            "x": 98.4375,
+            "y": 249.5625,
+            "width": 56.09375,
+            "height": 28
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "12.8px",
+            "fontWeight": "500",
+            "lineHeight": "19.2px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "6px",
+            "padding": "4px 12px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Controls",
+          "bounds": {
+            "x": 264,
+            "y": 247.5625,
+            "width": 34,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "12.8px",
+            "fontWeight": "500",
+            "lineHeight": "19.2px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "6px",
+            "padding": "0px 10px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Replay",
+          "bounds": {
+            "x": 298,
+            "y": 247.5625,
+            "width": 34,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "12.8px",
+            "fontWeight": "500",
+            "lineHeight": "19.2px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "6px",
+            "padding": "0px 10px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Expand",
+          "bounds": {
+            "x": 332,
+            "y": 247.5625,
+            "width": 34,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "12.8px",
+            "fontWeight": "500",
+            "lineHeight": "19.2px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "6px",
+            "padding": "0px 10px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Reset",
+          "bounds": {
+            "x": 313,
+            "y": 730.3125,
+            "width": 33,
+            "height": 16.5
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"JetBrains Mono\", \"JetBrains Mono Fallback\"",
+            "fontSize": "11px",
+            "fontWeight": "400",
+            "lineHeight": "16.5px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "2px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "radio",
+          "text": "",
+          "bounds": {
+            "x": 40,
+            "y": 787.5625,
+            "width": 28,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16.8px",
+            "fontWeight": "400",
+            "lineHeight": "25.2px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "radio",
+          "text": "",
+          "bounds": {
+            "x": 70,
+            "y": 787.5625,
+            "width": 28,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16.8px",
+            "fontWeight": "400",
+            "lineHeight": "25.2px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "radio",
+          "text": "",
+          "bounds": {
+            "x": 100,
+            "y": 787.5625,
+            "width": 28,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16.8px",
+            "fontWeight": "400",
+            "lineHeight": "25.2px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "radio",
+          "text": "",
+          "bounds": {
+            "x": 130,
+            "y": 787.5625,
+            "width": 28,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16.8px",
+            "fontWeight": "400",
+            "lineHeight": "25.2px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "radio",
+          "text": "",
+          "bounds": {
+            "x": 160,
+            "y": 787.5625,
+            "width": 28,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16.8px",
+            "fontWeight": "400",
+            "lineHeight": "25.2px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "radio",
+          "text": "",
+          "bounds": {
+            "x": 190,
+            "y": 787.5625,
+            "width": 28,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16.8px",
+            "fontWeight": "400",
+            "lineHeight": "25.2px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "radio",
+          "text": "",
+          "bounds": {
+            "x": 220,
+            "y": 787.5625,
+            "width": 28,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16.8px",
+            "fontWeight": "400",
+            "lineHeight": "25.2px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "radio",
+          "text": "",
+          "bounds": {
+            "x": 250,
+            "y": 787.5625,
+            "width": 28,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16.8px",
+            "fontWeight": "400",
+            "lineHeight": "25.2px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "radio",
+          "text": "",
+          "bounds": {
+            "x": 40,
+            "y": 854.5625,
+            "width": 28,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16.8px",
+            "fontWeight": "400",
+            "lineHeight": "25.2px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "radio",
+          "text": "",
+          "bounds": {
+            "x": 70,
+            "y": 854.5625,
+            "width": 28,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16.8px",
+            "fontWeight": "400",
+            "lineHeight": "25.2px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "radio",
+          "text": "",
+          "bounds": {
+            "x": 100,
+            "y": 854.5625,
+            "width": 28,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16.8px",
+            "fontWeight": "400",
+            "lineHeight": "25.2px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "radio",
+          "text": "",
+          "bounds": {
+            "x": 130,
+            "y": 854.5625,
+            "width": 28,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16.8px",
+            "fontWeight": "400",
+            "lineHeight": "25.2px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "dithercn",
+          "href": "https://dithercn.dev/"
+        },
+        {
+          "text": "Docs",
+          "href": "https://dithercn.dev/docs"
+        },
+        {
+          "text": "Examples",
+          "href": "https://dithercn.dev/docs/examples"
+        },
+        {
+          "text": "Engine",
+          "href": "https://dithercn.dev/docs/engine/dither-engine"
+        },
+        {
+          "text": "GitHub\n140\nstars",
+          "href": "https://github.com/opencoredev/dithercn"
+        },
+        {
+          "text": "Introduction",
+          "href": "https://dithercn.dev/docs"
+        },
+        {
+          "text": "Installation",
+          "href": "https://dithercn.dev/docs/installation"
+        },
+        {
+          "text": "Theming",
+          "href": "https://dithercn.dev/docs/theming"
+        },
+        {
+          "text": "Catalog",
+          "href": "https://dithercn.dev/docs/examples"
+        },
+        {
+          "text": "Dither gradient",
+          "href": "https://dithercn.dev/docs/backgrounds/dither-gradient"
+        },
+        {
+          "text": "Dither glow",
+          "href": "https://dithercn.dev/docs/backgrounds/dither-glow"
+        },
+        {
+          "text": "Mesh gradient",
+          "href": "https://dithercn.dev/docs/backgrounds/mesh-gradient"
+        },
+        {
+          "text": "Aurora",
+          "href": "https://dithercn.dev/docs/backgrounds/aurora"
+        },
+        {
+          "text": "Noise field",
+          "href": "https://dithercn.dev/docs/backgrounds/noise-field"
+        },
+        {
+          "text": "Waves",
+          "href": "https://dithercn.dev/docs/backgrounds/waves"
+        },
+        {
+          "text": "Plasma",
+          "href": "https://dithercn.dev/docs/backgrounds/plasma"
+        },
+        {
+          "text": "Beams",
+          "href": "https://dithercn.dev/docs/backgrounds/beams"
+        },
+        {
+          "text": "Silk",
+          "href": "https://dithercn.dev/docs/backgrounds/silk"
+        },
+        {
+          "text": "Smoke",
+          "href": "https://dithercn.dev/docs/backgrounds/smoke"
+        },
+        {
+          "text": "Fire",
+          "href": "https://dithercn.dev/docs/backgrounds/fire"
+        },
+        {
+          "text": "Flow field",
+          "href": "https://dithercn.dev/docs/backgrounds/flow-field"
+        },
+        {
+          "text": "Contours",
+          "href": "https://dithercn.dev/docs/backgrounds/contours"
+        },
+        {
+          "text": "Ripples",
+          "href": "https://dithercn.dev/docs/backgrounds/ripples"
+        },
+        {
+          "text": "Rain",
+          "href": "https://dithercn.dev/docs/backgrounds/rain"
+        },
+        {
+          "text": "Ridgelines",
+          "href": "https://dithercn.dev/docs/backgrounds/ridgelines"
+        },
+        {
+          "text": "Metaballs",
+          "href": "https://dithercn.dev/docs/backgrounds/metaballs"
+        },
+        {
+          "text": "Voronoi Cells",
+          "href": "https://dithercn.dev/docs/backgrounds/voronoi"
+        },
+        {
+          "text": "Tunnel",
+          "href": "https://dithercn.dev/docs/backgrounds/tunnel"
+        },
+        {
+          "text": "Retro grid",
+          "href": "https://dithercn.dev/docs/backgrounds/retro-grid"
+        },
+        {
+          "text": "Eclipse",
+          "href": "https://dithercn.dev/docs/backgrounds/eclipse"
+        },
+        {
+          "text": "Black Hole",
+          "href": "https://dithercn.dev/docs/backgrounds/black-hole"
+        },
+        {
+          "text": "Horizon",
+          "href": "https://dithercn.dev/docs/backgrounds/horizon"
+        },
+        {
+          "text": "Starfield",
+          "href": "https://dithercn.dev/docs/backgrounds/starfield"
+        },
+        {
+          "text": "Galaxy",
+          "href": "https://dithercn.dev/docs/backgrounds/galaxy"
+        },
+        {
+          "text": "Halftone",
+          "href": "https://dithercn.dev/docs/backgrounds/halftone"
+        },
+        {
+          "text": "Moiré",
+          "href": "https://dithercn.dev/docs/backgrounds/moire"
+        },
+        {
+          "text": "Dither globe",
+          "href": "https://dithercn.dev/docs/backgrounds/dither-globe"
+        },
+        {
+          "text": "Dot map",
+          "href": "https://dithercn.dev/docs/backgrounds/dot-map"
+        },
+        {
+          "text": "Dither orb",
+          "href": "https://dithercn.dev/docs/backgrounds/dither-orb"
+        },
+        {
+          "text": "Dither fade",
+          "href": "https://dithercn.dev/docs/backgrounds/dither-fade"
+        },
+        {
+          "text": "Dither engine",
+          "href": "https://dithercn.dev/docs/engine/dither-engine"
+        },
+        {
+          "text": "Write your own dither",
+          "href": "https://dithercn.dev/docs/engine/write-your-own"
+        },
+        {
+          "text": "Palettes",
+          "href": "https://dithercn.dev/docs/engine/palettes"
+        },
+        {
+          "text": "Pixel scale",
+          "href": "https://dithercn.dev/docs/engine/pixel-scale"
+        },
+        {
+          "text": "Motion",
+          "href": "https://dithercn.dev/docs/engine/motion"
+        },
+        {
+          "text": "Performance",
+          "href": "https://dithercn.dev/docs/engine/performance"
+        },
+        {
+          "text": "Export",
+          "href": "https://dithercn.dev/docs/engine/export"
+        },
+        {
+          "text": "Previous",
+          "href": "https://dithercn.dev/docs/backgrounds/mesh-gradient"
+        },
+        {
+          "text": "Next",
+          "href": "https://dithercn.dev/docs/backgrounds/noise-field"
+        },
+        {
+          "text": "Performance",
+          "href": "https://dithercn.dev/docs/engine/performance"
+        },
+        {
+          "text": "Mesh gradient",
+          "href": "https://dithercn.dev/docs/backgrounds/mesh-gradient"
+        },
+        {
+          "text": "Noise field",
+          "href": "https://dithercn.dev/docs/backgrounds/noise-field"
+        },
+        {
+          "text": "Installation",
+          "href": "https://dithercn.dev/docs/backgrounds/aurora#installation"
+        },
+        {
+          "text": "Usage",
+          "href": "https://dithercn.dev/docs/backgrounds/aurora#usage"
+        },
+        {
+          "text": "Examples",
+          "href": "https://dithercn.dev/docs/backgrounds/aurora#examples"
+        },
+        {
+          "text": "Above a headline",
+          "href": "https://dithercn.dev/docs/backgrounds/aurora#above-a-headline"
+        },
+        {
+          "text": "Northern lights",
+          "href": "https://dithercn.dev/docs/backgrounds/aurora#northern-lights"
+        },
+        {
+          "text": "Hanging over a call to action",
+          "href": "https://dithercn.dev/docs/backgrounds/aurora#hanging-over-a-call-to-action"
+        },
+        {
+          "text": "Still, in a banner",
+          "href": "https://dithercn.dev/docs/backgrounds/aurora#still-in-a-banner"
+        },
+        {
+          "text": "Props",
+          "href": "https://dithercn.dev/docs/backgrounds/aurora#props"
+        },
+        {
+          "text": "Notes",
+          "href": "https://dithercn.dev/docs/backgrounds/aurora#notes"
+        },
+        {
+          "text": "View as Markdown",
+          "href": "https://dithercn.dev/llms.md/docs/backgrounds/aurora/content.md"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--container-md": "28rem",
+        "--border": "lab(100% 0 0/.08)",
+        "--tw-inset-shadow-alpha": "100%",
+        "--tw-ring-shadow": "0 0 #0000",
+        "--text-2xl": "1.5rem",
+        "--sidebar-primary-foreground": "lab(0% 0 0)",
+        "--aspect-video": "16 / 9",
+        "--card": "lab(5.71933% 0 0)",
+        "--tw-drop-shadow-alpha": "100%",
+        "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+        "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+        "--text-7xl": "4.5rem",
+        "--tw-animation-delay": "0s",
+        "--text-lg": "1.125rem",
+        "--text-8xl--line-height": "1",
+        "--primary-foreground": "lab(0% 0 0)",
+        "--card-foreground": "lab(98.26% 0 0)",
+        "--surface-foreground": "lab(79.12% -.0000298023 -.0000119209)",
+        "--tw-outline-style": "solid",
+        "--text-5xl--line-height": "1",
+        "--tw-inset-ring-shadow": "0 0 #0000",
+        "--sidebar-accent-foreground": "lab(98.26% 0 0)",
+        "--text-base--line-height": "calc(1.5 / 1)",
+        "--muted": "lab(9.52% -.00000745058 0)",
+        "--dither-paper": "lab(0% 0 0)",
+        "--tw-animation-direction": "normal",
+        "--tw-enter-scale": "1",
+        "--color-code-foreground": "lab(86.08% -.0000298023 0)",
+        "--accent-foreground": "lab(98.26% 0 0)",
+        "--font-mono": "",
+        "--tracking-wider": ".05em",
+        "--popover": "lab(7.22637% -.0000149012 0)",
+        "--color-dither-green": "lab(76.6505% -52.576 31.4764)",
+        "--ring": "lab(66.0612% 11.9021 -53.8414/.6)",
+        "--tw-inset-shadow": "0 0 #0000",
+        "--tw-ring-offset-color": "#fff",
+        "--text-lg--line-height": "calc(1.75 / 1.125)",
+        "--tw-gradient-from": "rgba(0, 0, 0, 0)",
+        "--color-white": "#fff",
+        "--breakpoint-2xl": "96rem",
+        "--tw-gradient-to": "rgba(0, 0, 0, 0)",
+        "--tw-shadow-alpha": "100%",
+        "--dither-bloom": "1",
+        "--radius-sm": "calc(.375rem - 4px)",
+        "--sidebar-foreground": "lab(98.26% 0 0)",
+        "--font-sans": "",
+        "--sidebar-accent": "lab(9.52% -.00000745058 0)",
+        "--tw-exit-rotate": "0",
+        "--tw-scale-z": "1",
+        "--font-weight-bold": "700",
+        "--radius": ".375rem",
+        "--popover-foreground": "lab(98.26% 0 0)",
+        "--container-sm": "24rem",
+        "--tw-ring-offset-width": "0px",
+        "--tw-exit-translate-y": "0",
+        "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+        "--tw-gradient-via-position": "50%",
+        "--text-6xl": "3.75rem",
+        "--color-dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+        "--text-xs--line-height": "calc(1 / .75)",
+        "--duration-enter": ".21s",
+        "--default-font-family": "",
+        "--tw-space-x-reverse": "0",
+        "--container-lg": "32rem",
+        "--selection": "lab(66.0612% 11.9021 -53.8414)",
+        "--duration-move": ".32s",
+        "--tw-gradient-to-position": "100%",
+        "--default-transition-duration": ".15s",
+        "--chart-4": "lab(39.2214% 26.9192 -70.8472)",
+        "--chart-2": "lab(51.3656% 20.0498 -67.5053)",
+        "--animate-pulse": "pulse 2s cubic-bezier(.4, 0, .6, 1) infinite",
+        "--radius-2xl": "1rem",
+        "--text-7xl--line-height": "1",
+        "--radius-lg": ".375rem",
+        "--color-neutral-900": "lab(7.78201% -.0000149012 0)",
+        "--container-xs": "20rem",
+        "--text-xl": "1.25rem",
+        "--surface": "lab(5.71933% 0 0)",
+        "--sidebar-primary": "lab(66.0612% 11.9021 -53.8414)",
+        "--tw-gradient-from-position": "0%"
+      }
+    }
+  },
+  "scope": "public source reference; not a locally reconstructed component",
+  "http_status": 200,
+  "page_errors": []
+}

@@ -1,0 +1,2190 @@
+{
+  "site": "60fps.design",
+  "url": "https://60fps.design/shots/apple-health-longevity-intro-animation",
+  "captured_at": "2026-11-12T21:13:06.280719+00:00",
+  "views": {
+    "desktop": {
+      "url": "https://60fps.design/shots/apple-health-longevity-intro-animation",
+      "title": "Apple Health Longevity Intro Animation - 60fps UI/UX animation",
+      "text": "Shots\n\n2140\n\nApps\n\n499\n\nApp Sites\n\n96\n\nMotion\n\n83\n\nSnippets\n\n32\n\nMCP\n\nJobs\n\nMockup\n\nGlossary\n\nStoryboards\n\n67\n\nCopy prompt\nCopied!\nCopy link\nCopied!\n\n2140\n\nApple Health Longevity Intro Animation\n\nOn the Longevity tab intro screen, a central vector illustration plays an automatic onboarding sequence. Various colored pillar shapes (representing nutrition, cardio, sleep, mind, and mobility) take turns expanding to center stage, revealing category icons with soft pulse-scaling motions while smaller nodes orbit around them. After each pillar is introduced, the elements smoothly fly, scale, and snap together into a complete circular pinwheel chart accompanied by an outer white bounding frame.\n\nCategory\n\nHealth & Fitness\n\nInteraction\n\nApple\n\nGet Started\n\nGrow\n\nIllustration\n\nIntro\n\nMorph\n\nOnboarding\n\nOrbit\n\nSequence\n\nHealth\n\nMore from\n\nHealth\n\n0426\n\nHealth\n\nApple Health Watch Section Scroll\n\n0005\n\nHealth\n\nApple Health Emotion Slider\n\nRelated shots\n\n1633\n\nPeloton\n\nPeloton Intro Carousel Animation\n\n1657\n\nFitness\n\nApple Fitness Sharing Feature Intro Animation Sequence\n\n0530\n\nVitals\n\nApple Vitals Watch Graph Animation\n\n1638\n\nLongevity Deck\n\nLongevity Deck Swipe Cards Down Stack Interaction\n\n0610\n\nY-Pod\n\nY-Pod Life Areas Flower Graph Animation\n\n1413\n\nPeaks\n\nPeaks Onboarding Wave Animation\n\n1835\n\nWallet\n\nApple Wallet Autofill Intro Animation\n\n0915\n\nFitness Wrapped\n\nFitness Wrapped Into Circle Icon Formation Animation\n\n1675\n\nFitWoody\n\nFitWoody Analysis Icon Scale Pulse Circular Rotation Animation\n\nExplore\n\nPRO\n\nMCP\n\nMockup\n\nShots\n\nApps\n\nApp Sites\n\nMotion\n\nSnippets\n\nJobs\n\nGlossary\n\nStoryboards\n\nWhy\n\nPrivacy\n\nTerms\n\nGestures\n\nDrag\n\nFlick\n\nFlip\n\nGyroscope\n\nHold\n\nLong Press\n\nPan\n\nPinch\n\nPull\n\nScroll\n\nScrub\n\nSlide\n\nSwipe\n\nTap\n\nTyping\n\nPatterns\n\n3D\n\nAI\n\nAssistant\n\nCard Stack\n\nCarousel\n\nChat\n\nDelete\n\nEmpty State\n\nFeatured\n\nGallery\n\nGamification\n\nGet Started\n\nGoal\n\nIdle Animation\n\nIntro\n\nInvite\n\nLoading\n\nLogo\n\nMascot\n\nNew\n\nOnboarding\n\nPricing\n\nQuick Actions\n\nReaction\n\nRecap\n\nReward\n\nSetup\n\nShared Element\n\nShowcase\n\nSplash\n\nStats\n\nStreak\n\nSuccess State\n\nTheme\n\nTimer\n\nVoice\n\nWeather\n\nWorkout\n\nEffects\n\nBlur\n\nBounce\n\nColor\n\nConfetti\n\nDraw\n\nFade\n\nGlow\n\nGrow\n\nMorph\n\nOrbit\n\nParallax\n\nParticles\n\nPulse\n\nReveal\n\nSequence\n\nShimmer\n\nShow/Hide\n\nShrink\n\nSkeuomorphic\n\nSound\n\nSpin\n\nSpring Physics\n\nStagger\n\nTicker\n\nWiggle\n\nZoom\n\nElements\n\nBadge\n\nBottom Sheet\n\nButton\n\nCalendar\n\nCard\n\nCounter\n\nEaster Egg\n\nGraph\n\nIcon\n\nIllustration\n\nInput\n\nLiquid Glass\n\nMap\n\nMenu\n\nPermissions\n\nPicker\n\nPlayer\n\nProgress\n\nSearch\n\nSlider\n\nStory\n\nTabs\n\nText\n\nToast\n\nTooltip\n\nVideo\n\nWidget\n\nCategories\n\nBooks\n\nBusiness\n\nDeveloper Tools\n\nEducation\n\nEntertainment\n\nFinance\n\nFood & Drink\n\nGames\n\nGraphics & Design\n\nHealth & Fitness\n\nLifestyle\n\nMagazines & Newspapers\n\nMusic\n\nNavigation\n\nNews\n\nPhoto & Video\n\nProductivity\n\nReference\n\nShopping\n\nSocial Networking\n\nSports\n\nTravel\n\nUtilities\n\nWeather\n\n              \n\nWe use cookies. Read more.",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Apple Health Longevity Intro Animation",
+          "bounds": {
+            "x": 340,
+            "y": 963.59375,
+            "width": 640,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "500",
+            "lineHeight": "28px",
+            "color": "rgb(92, 92, 92)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 1246,
+            "y": 22,
+            "width": 16,
+            "height": 16
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "10px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Copy prompt\nCopied!",
+          "bounds": {
+            "x": 984.109375,
+            "y": 116,
+            "width": 119.890625,
+            "height": 40
+          },
+          "styles": {
+            "display": "inline-flex",
+            "position": "relative",
+            "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "600",
+            "lineHeight": "16.8px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(0, 153, 255)",
+            "gap": "normal",
+            "padding": "10px 16px",
+            "borderRadius": "10px 20px 10px 10px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Copy link\nCopied!",
+          "bounds": {
+            "x": 336,
+            "y": 116,
+            "width": 94.953125,
+            "height": 40
+          },
+          "styles": {
+            "display": "inline-flex",
+            "position": "relative",
+            "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "600",
+            "lineHeight": "16.8px",
+            "color": "rgb(92, 92, 92)",
+            "backgroundColor": "rgb(234, 234, 234)",
+            "gap": "normal",
+            "padding": "10px 16px",
+            "borderRadius": "20px 10px 10px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Health & Fitness",
+          "bounds": {
+            "x": 340,
+            "y": 1165.1875,
+            "width": 154.5625,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(250, 250, 250)",
+            "gap": "6px",
+            "padding": "6px 10px",
+            "borderRadius": "32px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Apple",
+          "bounds": {
+            "x": 514.5625,
+            "y": 1165.1875,
+            "width": 59,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(250, 250, 250)",
+            "gap": "6px",
+            "padding": "6px 10px",
+            "borderRadius": "32px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Get Started",
+          "bounds": {
+            "x": 577.5625,
+            "y": 1165.1875,
+            "width": 96.1875,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(250, 250, 250)",
+            "gap": "6px",
+            "padding": "6px 10px",
+            "borderRadius": "32px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Grow",
+          "bounds": {
+            "x": 677.75,
+            "y": 1165.1875,
+            "width": 55.453125,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(250, 250, 250)",
+            "gap": "6px",
+            "padding": "6px 10px",
+            "borderRadius": "32px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Illustration",
+          "bounds": {
+            "x": 737.203125,
+            "y": 1165.1875,
+            "width": 90.078125,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(250, 250, 250)",
+            "gap": "6px",
+            "padding": "6px 10px",
+            "borderRadius": "32px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Intro",
+          "bounds": {
+            "x": 831.28125,
+            "y": 1165.1875,
+            "width": 50.609375,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(250, 250, 250)",
+            "gap": "6px",
+            "padding": "6px 10px",
+            "borderRadius": "32px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Morph",
+          "bounds": {
+            "x": 885.890625,
+            "y": 1165.1875,
+            "width": 63.90625,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(250, 250, 250)",
+            "gap": "6px",
+            "padding": "6px 10px",
+            "borderRadius": "32px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Onboarding",
+          "bounds": {
+            "x": 514.5625,
+            "y": 1201.1875,
+            "width": 98.78125,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(250, 250, 250)",
+            "gap": "6px",
+            "padding": "6px 10px",
+            "borderRadius": "32px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Orbit",
+          "bounds": {
+            "x": 617.34375,
+            "y": 1201.1875,
+            "width": 53.3125,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(250, 250, 250)",
+            "gap": "6px",
+            "padding": "6px 10px",
+            "borderRadius": "32px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Sequence",
+          "bounds": {
+            "x": 674.65625,
+            "y": 1201.1875,
+            "width": 87.296875,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(250, 250, 250)",
+            "gap": "6px",
+            "padding": "6px 10px",
+            "borderRadius": "32px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://60fps.design/"
+        },
+        {
+          "text": "Shots",
+          "href": "https://60fps.design/"
+        },
+        {
+          "text": "Apps",
+          "href": "https://60fps.design/apps"
+        },
+        {
+          "text": "App Sites",
+          "href": "https://60fps.design/appsites"
+        },
+        {
+          "text": "Motion",
+          "href": "https://60fps.design/motion"
+        },
+        {
+          "text": "Snippets",
+          "href": "https://60fps.design/snippets"
+        },
+        {
+          "text": "",
+          "href": "https://60fps.design/"
+        },
+        {
+          "text": "MCP",
+          "href": "https://60fps.design/mcp"
+        },
+        {
+          "text": "Jobs",
+          "href": "https://60fps.design/jobs"
+        },
+        {
+          "text": "Mockup",
+          "href": "https://mockup.60fps.design/"
+        },
+        {
+          "text": "Glossary",
+          "href": "https://60fps.design/glossary"
+        },
+        {
+          "text": "Storyboards",
+          "href": "https://60fps.design/storyboards"
+        },
+        {
+          "text": "",
+          "href": "https://60fps.design/shots/runmo-lab-pulse-heart-ecg-interaction"
+        },
+        {
+          "text": "Health & Fitness",
+          "href": "https://60fps.design/apps/category/health-fitness"
+        },
+        {
+          "text": "Apple",
+          "href": "https://60fps.design/shots/filter/apple"
+        },
+        {
+          "text": "Get Started",
+          "href": "https://60fps.design/shots/filter/get-started"
+        },
+        {
+          "text": "Grow",
+          "href": "https://60fps.design/shots/filter/grow"
+        },
+        {
+          "text": "Illustration",
+          "href": "https://60fps.design/shots/filter/illustration"
+        },
+        {
+          "text": "Intro",
+          "href": "https://60fps.design/shots/filter/intro"
+        },
+        {
+          "text": "Morph",
+          "href": "https://60fps.design/shots/filter/morph"
+        },
+        {
+          "text": "Onboarding",
+          "href": "https://60fps.design/shots/filter/onboarding"
+        },
+        {
+          "text": "Orbit",
+          "href": "https://60fps.design/shots/filter/orbit"
+        },
+        {
+          "text": "Sequence",
+          "href": "https://60fps.design/shots/filter/sequence"
+        },
+        {
+          "text": "",
+          "href": "https://60fps.design/apps/health"
+        },
+        {
+          "text": "Health",
+          "href": "https://60fps.design/apps/health"
+        },
+        {
+          "text": "Health",
+          "href": "https://60fps.design/apps/health"
+        },
+        {
+          "text": "Health",
+          "href": "https://60fps.design/apps/health"
+        },
+        {
+          "text": "Apple Health Watch Section Scroll",
+          "href": "https://60fps.design/shots/apple-health-watch-section-scroll"
+        },
+        {
+          "text": "Health",
+          "href": "https://60fps.design/apps/health"
+        },
+        {
+          "text": "Apple Health Emotion Slider",
+          "href": "https://60fps.design/shots/apple-health-emotion-slider"
+        },
+        {
+          "text": "Peloton",
+          "href": "https://60fps.design/apps/peloton"
+        },
+        {
+          "text": "Peloton Intro Carousel Animation",
+          "href": "https://60fps.design/shots/peloton-intro-carousel-animation"
+        },
+        {
+          "text": "Fitness",
+          "href": "https://60fps.design/apps/fitness"
+        },
+        {
+          "text": "Apple Fitness Sharing Feature Intro Animation Sequence",
+          "href": "https://60fps.design/shots/apple-fitness-sharing-feature-intro-animation-sequence"
+        },
+        {
+          "text": "Vitals",
+          "href": "https://60fps.design/apps/vitals"
+        },
+        {
+          "text": "Apple Vitals Watch Graph Animation",
+          "href": "https://60fps.design/shots/apple-vitals-watch-graph-animation"
+        },
+        {
+          "text": "Longevity Deck",
+          "href": "https://60fps.design/apps/longevity-deck"
+        },
+        {
+          "text": "Longevity Deck Swipe Cards Down Stack Interaction",
+          "href": "https://60fps.design/shots/longevity-deck-swipe-cards-down-stack-interaction"
+        },
+        {
+          "text": "Y-Pod",
+          "href": "https://60fps.design/apps/y-pod"
+        },
+        {
+          "text": "Y-Pod Life Areas Flower Graph Animation",
+          "href": "https://60fps.design/shots/y-pod-life-areas-flower-graph-animation"
+        },
+        {
+          "text": "Peaks",
+          "href": "https://60fps.design/apps/peaks"
+        },
+        {
+          "text": "Peaks Onboarding Wave Animation",
+          "href": "https://60fps.design/shots/peaks-onboarding-wave-animation"
+        },
+        {
+          "text": "Wallet",
+          "href": "https://60fps.design/apps/wallet"
+        },
+        {
+          "text": "Apple Wallet Autofill Intro Animation",
+          "href": "https://60fps.design/shots/apple-wallet-autofill-intro-animation"
+        },
+        {
+          "text": "Fitness Wrapped",
+          "href": "https://60fps.design/apps/fitness-wrapped"
+        },
+        {
+          "text": "Fitness Wrapped Into Circle Icon Formation Animation",
+          "href": "https://60fps.design/shots/fitness-wrapped-into-circle-icon-formation-animation"
+        },
+        {
+          "text": "FitWoody",
+          "href": "https://60fps.design/apps/fitwoody"
+        },
+        {
+          "text": "FitWoody Analysis Icon Scale Pulse Circular Rotation Animation",
+          "href": "https://60fps.design/shots/fitwoody-analysis-icon-scale-pulse-circular-rotation-animation"
+        },
+        {
+          "text": "PRO",
+          "href": "https://60fps.design/pro"
+        },
+        {
+          "text": "MCP",
+          "href": "https://60fps.design/mcp"
+        },
+        {
+          "text": "Mockup",
+          "href": "https://mockup.60fps.design/"
+        },
+        {
+          "text": "Shots",
+          "href": "https://60fps.design/"
+        },
+        {
+          "text": "Apps",
+          "href": "https://60fps.design/apps"
+        },
+        {
+          "text": "App Sites",
+          "href": "https://60fps.design/appsites"
+        },
+        {
+          "text": "Motion",
+          "href": "https://60fps.design/motion"
+        },
+        {
+          "text": "Snippets",
+          "href": "https://60fps.design/snippets"
+        },
+        {
+          "text": "Jobs",
+          "href": "https://60fps.design/jobs"
+        },
+        {
+          "text": "Glossary",
+          "href": "https://60fps.design/glossary"
+        },
+        {
+          "text": "Storyboards",
+          "href": "https://60fps.design/storyboards"
+        },
+        {
+          "text": "Why",
+          "href": "https://60fps.design/why"
+        },
+        {
+          "text": "Privacy",
+          "href": "https://60fps.design/privacy"
+        },
+        {
+          "text": "Terms",
+          "href": "https://60fps.design/terms"
+        },
+        {
+          "text": "",
+          "href": "https://x.com/60fpsdesign"
+        },
+        {
+          "text": "",
+          "href": "https://www.reddit.com/user/60fpsdesign/"
+        },
+        {
+          "text": "",
+          "href": "https://www.threads.net/@60fps.design"
+        },
+        {
+          "text": "",
+          "href": "https://www.linkedin.com/company/60fpsdesign/"
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/60fps.design"
+        },
+        {
+          "text": "",
+          "href": "https://in.pinterest.com/60fpsdesign"
+        },
+        {
+          "text": "Drag",
+          "href": "https://60fps.design/shots/filter/drag"
+        },
+        {
+          "text": "Flick",
+          "href": "https://60fps.design/shots/filter/flick"
+        },
+        {
+          "text": "Flip",
+          "href": "https://60fps.design/shots/filter/flip"
+        },
+        {
+          "text": "Gyroscope",
+          "href": "https://60fps.design/shots/filter/gyroscope"
+        },
+        {
+          "text": "Hold",
+          "href": "https://60fps.design/shots/filter/hold"
+        },
+        {
+          "text": "Long Press",
+          "href": "https://60fps.design/shots/filter/long-press"
+        },
+        {
+          "text": "Pan",
+          "href": "https://60fps.design/shots/filter/pan"
+        },
+        {
+          "text": "Pinch",
+          "href": "https://60fps.design/shots/filter/pinch"
+        },
+        {
+          "text": "Pull",
+          "href": "https://60fps.design/shots/filter/pull"
+        },
+        {
+          "text": "Scroll",
+          "href": "https://60fps.design/shots/filter/scroll"
+        },
+        {
+          "text": "Scrub",
+          "href": "https://60fps.design/shots/filter/scrub"
+        },
+        {
+          "text": "Slide",
+          "href": "https://60fps.design/shots/filter/slide"
+        },
+        {
+          "text": "Swipe",
+          "href": "https://60fps.design/shots/filter/swipe"
+        },
+        {
+          "text": "Tap",
+          "href": "https://60fps.design/shots/filter/tap"
+        },
+        {
+          "text": "Typing",
+          "href": "https://60fps.design/shots/filter/typing"
+        },
+        {
+          "text": "3D",
+          "href": "https://60fps.design/shots/filter/3d"
+        },
+        {
+          "text": "AI",
+          "href": "https://60fps.design/shots/filter/ai"
+        },
+        {
+          "text": "Assistant",
+          "href": "https://60fps.design/shots/filter/assistant"
+        },
+        {
+          "text": "Card Stack",
+          "href": "https://60fps.design/shots/filter/card-stack"
+        },
+        {
+          "text": "Carousel",
+          "href": "https://60fps.design/shots/filter/carousel"
+        },
+        {
+          "text": "Chat",
+          "href": "https://60fps.design/shots/filter/chat"
+        },
+        {
+          "text": "Delete",
+          "href": "https://60fps.design/shots/filter/delete"
+        },
+        {
+          "text": "Empty State",
+          "href": "https://60fps.design/shots/filter/empty"
+        },
+        {
+          "text": "Featured",
+          "href": "https://60fps.design/shots/filter/featured"
+        },
+        {
+          "text": "Gallery",
+          "href": "https://60fps.design/shots/filter/gallery"
+        },
+        {
+          "text": "Gamification",
+          "href": "https://60fps.design/shots/filter/gamification"
+        },
+        {
+          "text": "Get Started",
+          "href": "https://60fps.design/shots/filter/get-started"
+        },
+        {
+          "text": "Goal",
+          "href": "https://60fps.design/shots/filter/goal"
+        },
+        {
+          "text": "Idle Animation",
+          "href": "https://60fps.design/shots/filter/idle-animation"
+        },
+        {
+          "text": "Intro",
+          "href": "https://60fps.design/shots/filter/intro"
+        },
+        {
+          "text": "Invite",
+          "href": "https://60fps.design/shots/filter/invite"
+        },
+        {
+          "text": "Loading",
+          "href": "https://60fps.design/shots/filter/loading"
+        },
+        {
+          "text": "Logo",
+          "href": "https://60fps.design/shots/filter/logo"
+        },
+        {
+          "text": "Mascot",
+          "href": "https://60fps.design/shots/filter/mascot"
+        },
+        {
+          "text": "New",
+          "href": "https://60fps.design/shots/filter/new"
+        },
+        {
+          "text": "Onboarding",
+          "href": "https://60fps.design/shots/filter/onboarding"
+        },
+        {
+          "text": "Pricing",
+          "href": "https://60fps.design/shots/filter/pricing"
+        },
+        {
+          "text": "Quick Actions",
+          "href": "https://60fps.design/shots/filter/quick-actions"
+        },
+        {
+          "text": "Reaction",
+          "href": "https://60fps.design/shots/filter/reaction"
+        },
+        {
+          "text": "Recap",
+          "href": "https://60fps.design/shots/filter/recap"
+        },
+        {
+          "text": "Reward",
+          "href": "https://60fps.design/shots/filter/reward"
+        },
+        {
+          "text": "Setup",
+          "href": "https://60fps.design/shots/filter/setup"
+        },
+        {
+          "text": "Shared Element",
+          "href": "https://60fps.design/shots/filter/shared-element"
+        },
+        {
+          "text": "Showcase",
+          "href": "https://60fps.design/shots/filter/showcase"
+        },
+        {
+          "text": "Splash",
+          "href": "https://60fps.design/shots/filter/splash"
+        },
+        {
+          "text": "Stats",
+          "href": "https://60fps.design/shots/filter/stats"
+        },
+        {
+          "text": "Streak",
+          "href": "https://60fps.design/shots/filter/streak"
+        },
+        {
+          "text": "Success State",
+          "href": "https://60fps.design/shots/filter/success-state"
+        },
+        {
+          "text": "Theme",
+          "href": "https://60fps.design/shots/filter/theme"
+        },
+        {
+          "text": "Timer",
+          "href": "https://60fps.design/shots/filter/timer"
+        },
+        {
+          "text": "Voice",
+          "href": "https://60fps.design/shots/filter/voice"
+        },
+        {
+          "text": "Weather",
+          "href": "https://60fps.design/shots/filter/weather"
+        },
+        {
+          "text": "Workout",
+          "href": "https://60fps.design/shots/filter/workout"
+        },
+        {
+          "text": "Blur",
+          "href": "https://60fps.design/shots/filter/blur"
+        },
+        {
+          "text": "Bounce",
+          "href": "https://60fps.design/shots/filter/bounce"
+        },
+        {
+          "text": "Color",
+          "href": "https://60fps.design/shots/filter/color"
+        },
+        {
+          "text": "Confetti",
+          "href": "https://60fps.design/shots/filter/confetti"
+        },
+        {
+          "text": "Draw",
+          "href": "https://60fps.design/shots/filter/draw"
+        },
+        {
+          "text": "Fade",
+          "href": "https://60fps.design/shots/filter/fade"
+        },
+        {
+          "text": "Glow",
+          "href": "https://60fps.design/shots/filter/glow"
+        },
+        {
+          "text": "Grow",
+          "href": "https://60fps.design/shots/filter/grow"
+        },
+        {
+          "text": "Morph",
+          "href": "https://60fps.design/shots/filter/morph"
+        },
+        {
+          "text": "Orbit",
+          "href": "https://60fps.design/shots/filter/orbit"
+        },
+        {
+          "text": "Parallax",
+          "href": "https://60fps.design/shots/filter/parallax"
+        },
+        {
+          "text": "Particles",
+          "href": "https://60fps.design/shots/filter/particles"
+        },
+        {
+          "text": "Pulse",
+          "href": "https://60fps.design/shots/filter/pulse"
+        },
+        {
+          "text": "Reveal",
+          "href": "https://60fps.design/shots/filter/reveal"
+        },
+        {
+          "text": "Sequence",
+          "href": "https://60fps.design/shots/filter/sequence"
+        },
+        {
+          "text": "Shimmer",
+          "href": "https://60fps.design/shots/filter/shimmer"
+        },
+        {
+          "text": "Show/Hide",
+          "href": "https://60fps.design/shots/filter/show-hide"
+        },
+        {
+          "text": "Shrink",
+          "href": "https://60fps.design/shots/filter/shrink"
+        },
+        {
+          "text": "Skeuomorphic",
+          "href": "https://60fps.design/shots/filter/skeuomorphic"
+        },
+        {
+          "text": "Sound",
+          "href": "https://60fps.design/shots/filter/sound"
+        },
+        {
+          "text": "Spin",
+          "href": "https://60fps.design/shots/filter/spin"
+        },
+        {
+          "text": "Spring Physics",
+          "href": "https://60fps.design/shots/filter/spring-physics"
+        },
+        {
+          "text": "Stagger",
+          "href": "https://60fps.design/shots/filter/stagger"
+        },
+        {
+          "text": "Ticker",
+          "href": "https://60fps.design/shots/filter/ticker"
+        },
+        {
+          "text": "Wiggle",
+          "href": "https://60fps.design/shots/filter/wiggle"
+        },
+        {
+          "text": "Zoom",
+          "href": "https://60fps.design/shots/filter/zoom"
+        },
+        {
+          "text": "Badge",
+          "href": "https://60fps.design/shots/filter/badge"
+        },
+        {
+          "text": "Bottom Sheet",
+          "href": "https://60fps.design/shots/filter/bottom-sheet"
+        },
+        {
+          "text": "Button",
+          "href": "https://60fps.design/shots/filter/button"
+        },
+        {
+          "text": "Calendar",
+          "href": "https://60fps.design/shots/filter/calendar"
+        },
+        {
+          "text": "Card",
+          "href": "https://60fps.design/shots/filter/card"
+        },
+        {
+          "text": "Counter",
+          "href": "https://60fps.design/shots/filter/counter"
+        },
+        {
+          "text": "Easter Egg",
+          "href": "https://60fps.design/shots/filter/easter-egg"
+        },
+        {
+          "text": "Graph",
+          "href": "https://60fps.design/shots/filter/graph"
+        },
+        {
+          "text": "Icon",
+          "href": "https://60fps.design/shots/filter/icon"
+        },
+        {
+          "text": "Illustration",
+          "href": "https://60fps.design/shots/filter/illustration"
+        },
+        {
+          "text": "Input",
+          "href": "https://60fps.design/shots/filter/input"
+        },
+        {
+          "text": "Liquid Glass",
+          "href": "https://60fps.design/shots/filter/liquid-glass"
+        },
+        {
+          "text": "Map",
+          "href": "https://60fps.design/shots/filter/map"
+        },
+        {
+          "text": "Menu",
+          "href": "https://60fps.design/shots/filter/menu"
+        },
+        {
+          "text": "Permissions",
+          "href": "https://60fps.design/shots/filter/permissions"
+        },
+        {
+          "text": "Picker",
+          "href": "https://60fps.design/shots/filter/picker"
+        },
+        {
+          "text": "Player",
+          "href": "https://60fps.design/shots/filter/player"
+        },
+        {
+          "text": "Progress",
+          "href": "https://60fps.design/shots/filter/progress"
+        },
+        {
+          "text": "Search",
+          "href": "https://60fps.design/shots/filter/search"
+        },
+        {
+          "text": "Slider",
+          "href": "https://60fps.design/shots/filter/slider"
+        },
+        {
+          "text": "Story",
+          "href": "https://60fps.design/shots/filter/story"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://60fps.design/shots/filter/tabs"
+        },
+        {
+          "text": "Text",
+          "href": "https://60fps.design/shots/filter/text"
+        },
+        {
+          "text": "Toast",
+          "href": "https://60fps.design/shots/filter/toast"
+        },
+        {
+          "text": "Tooltip",
+          "href": "https://60fps.design/shots/filter/tooltip"
+        },
+        {
+          "text": "Video",
+          "href": "https://60fps.design/shots/filter/video"
+        },
+        {
+          "text": "Widget",
+          "href": "https://60fps.design/shots/filter/widget"
+        },
+        {
+          "text": "Books",
+          "href": "https://60fps.design/apps/category/books"
+        },
+        {
+          "text": "Business",
+          "href": "https://60fps.design/apps/category/business"
+        },
+        {
+          "text": "Developer Tools",
+          "href": "https://60fps.design/apps/category/developer-tools"
+        },
+        {
+          "text": "Education",
+          "href": "https://60fps.design/apps/category/education"
+        },
+        {
+          "text": "Entertainment",
+          "href": "https://60fps.design/apps/category/entertainment"
+        },
+        {
+          "text": "Finance",
+          "href": "https://60fps.design/apps/category/finance"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--one-if-corner-shape-supported": "1"
+      }
+    },
+    "mobile": {
+      "url": "https://60fps.design/shots/apple-health-longevity-intro-animation",
+      "title": "Apple Health Longevity Intro Animation - 60fps UI/UX animation",
+      "text": "Shots\n\n2140\n\nApps\n\n499\n\nMCP\n\nCopy prompt\nCopied!\nCopy link\nCopied!\n\n2140\n\nApple Health Longevity Intro Animation\n\nOn the Longevity tab intro screen, a central vector illustration plays an automatic onboarding sequence. Various colored pillar shapes (representing nutrition, cardio, sleep, mind, and mobility) take turns expanding to center stage, revealing category icons with soft pulse-scaling motions while smaller nodes orbit around them. After each pillar is introduced, the elements smoothly fly, scale, and snap together into a complete circular pinwheel chart accompanied by an outer white bounding frame.\n\nCategory\n\nHealth & Fitness\n\nInteraction\n\nApple\n\nGet Started\n\nGrow\n\nIllustration\n\nIntro\n\nMorph\n\nOnboarding\n\nOrbit\n\nSequence\n\nHealth\n\nMore from\n\nHealth\n\n0426\n\nHealth\n\nApple Health Watch Section Scroll\n\n0005\n\nHealth\n\nApple Health Emotion Slider\n\nRelated shots\n\n1633\n\nPeloton\n\nPeloton Intro Carousel Animation\n\n1657\n\nFitness\n\nApple Fitness Sharing Feature Intro Animation Sequence\n\n0530\n\nVitals\n\nApple Vitals Watch Graph Animation\n\n1638\n\nLongevity Deck\n\nLongevity Deck Swipe Cards Down Stack Interaction\n\n0610\n\nY-Pod\n\nY-Pod Life Areas Flower Graph Animation\n\n1413\n\nPeaks\n\nPeaks Onboarding Wave Animation\n\nExplore\n\nPRO\n\nMCP\n\nMockup\n\nShots\n\nApps\n\nApp Sites\n\nMotion\n\nSnippets\n\nJobs\n\nGlossary\n\nStoryboards\n\nWhy\n\nPrivacy\n\nTerms\n\nPatterns\n\n3D\n\nAI\n\nAssistant\n\nCard Stack\n\nCarousel\n\nChat\n\nDelete\n\nEmpty State\n\nFeatured\n\nGallery\n\nGamification\n\nGet Started\n\nGoal\n\nIdle Animation\n\nIntro\n\nInvite\n\nLoading\n\nLogo\n\nMascot\n\nNew\n\nOnboarding\n\nPricing\n\nQuick Actions\n\nReaction\n\nRecap\n\nReward\n\nSetup\n\nShared Element\n\nShowcase\n\nSplash\n\nStats\n\nStreak\n\nSuccess State\n\nTheme\n\nTimer\n\nVoice\n\nWeather\n\nWorkout\n\nElements\n\nBadge\n\nBottom Sheet\n\nButton\n\nCalendar\n\nCard\n\nCounter\n\nEaster Egg\n\nGraph\n\nIcon\n\nIllustration\n\nInput\n\nLiquid Glass\n\nMap\n\nMenu\n\nPermissions\n\nPicker\n\nPlayer\n\nProgress\n\nSearch\n\nSlider\n\nStory\n\nTabs\n\nText\n\nToast\n\nTooltip\n\nVideo\n\nWidget\n\nGestures\n\nDrag\n\nFlick\n\nFlip\n\nGyroscope\n\nHold\n\nLong Press\n\nPan\n\nPinch\n\nPull\n\nScroll\n\nScrub\n\nSlide\n\nSwipe\n\nTap\n\nTyping\n\nEffects\n\nBlur\n\nBounce\n\nColor\n\nConfetti\n\nDraw\n\nFade\n\nGlow\n\nGrow\n\nMorph\n\nOrbit\n\nParallax\n\nParticles\n\nPulse\n\nReveal\n\nSequence\n\nShimmer\n\nShow/Hide\n\nShrink\n\nSkeuomorphic\n\nSound\n\nSpin\n\nSpring Physics\n\nStagger\n\nTicker\n\nWiggle\n\nZoom\n\nCategories\n\nBooks\n\nBusiness\n\nDeveloper Tools\n\nEducation\n\nEntertainment\n\nFinance\n\nFood & Drink\n\nGames\n\nGraphics & Design\n\nHealth & Fitness\n\nLifestyle\n\nMagazines & Newspapers\n\nMusic\n\nNavigation\n\nNews\n\nPhoto & Video\n\nProductivity\n\nReference\n\nShopping\n\nSocial Networking\n\nSports\n\nTravel\n\nUtilities\n\nWeather\n\n              \n\nWe use cookies. Read more.",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "horizontal_overflow": true,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Apple Health Longevity Intro Animation",
+          "bounds": {
+            "x": 25,
+            "y": 483.59375,
+            "width": 270.09375,
+            "height": 44.8125
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "500",
+            "lineHeight": "22.4px",
+            "color": "rgb(92, 92, 92)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 321,
+            "y": 22,
+            "width": 16,
+            "height": 16
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "10px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Copy prompt\nCopied!",
+          "bounds": {
+            "x": 245.109375,
+            "y": 90,
+            "width": 119.890625,
+            "height": 40
+          },
+          "styles": {
+            "display": "inline-flex",
+            "position": "relative",
+            "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "600",
+            "lineHeight": "16.8px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(0, 153, 255)",
+            "gap": "normal",
+            "padding": "10px 16px",
+            "borderRadius": "10px 16px 10px 10px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Copy link\nCopied!",
+          "bounds": {
+            "x": 25,
+            "y": 90,
+            "width": 94.953125,
+            "height": 40
+          },
+          "styles": {
+            "display": "inline-flex",
+            "position": "relative",
+            "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "600",
+            "lineHeight": "16.8px",
+            "color": "rgb(92, 92, 92)",
+            "backgroundColor": "rgb(234, 234, 234)",
+            "gap": "normal",
+            "padding": "10px 16px",
+            "borderRadius": "16px 10px 10px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Health & Fitness",
+          "bounds": {
+            "x": 25,
+            "y": 891,
+            "width": 154.5625,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(250, 250, 250)",
+            "gap": "6px",
+            "padding": "6px 10px",
+            "borderRadius": "32px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Apple",
+          "bounds": {
+            "x": 25,
+            "y": 966.59375,
+            "width": 59,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(250, 250, 250)",
+            "gap": "6px",
+            "padding": "6px 10px",
+            "borderRadius": "32px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Get Started",
+          "bounds": {
+            "x": 88,
+            "y": 966.59375,
+            "width": 96.1875,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(250, 250, 250)",
+            "gap": "6px",
+            "padding": "6px 10px",
+            "borderRadius": "32px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Grow",
+          "bounds": {
+            "x": 188.1875,
+            "y": 966.59375,
+            "width": 55.453125,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(250, 250, 250)",
+            "gap": "6px",
+            "padding": "6px 10px",
+            "borderRadius": "32px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Illustration",
+          "bounds": {
+            "x": 25,
+            "y": 1002.59375,
+            "width": 90.078125,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(250, 250, 250)",
+            "gap": "6px",
+            "padding": "6px 10px",
+            "borderRadius": "32px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Intro",
+          "bounds": {
+            "x": 119.078125,
+            "y": 1002.59375,
+            "width": 50.609375,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(250, 250, 250)",
+            "gap": "6px",
+            "padding": "6px 10px",
+            "borderRadius": "32px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Morph",
+          "bounds": {
+            "x": 173.6875,
+            "y": 1002.59375,
+            "width": 63.90625,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(250, 250, 250)",
+            "gap": "6px",
+            "padding": "6px 10px",
+            "borderRadius": "32px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Onboarding",
+          "bounds": {
+            "x": 25,
+            "y": 1038.59375,
+            "width": 98.78125,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(250, 250, 250)",
+            "gap": "6px",
+            "padding": "6px 10px",
+            "borderRadius": "32px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Orbit",
+          "bounds": {
+            "x": 127.78125,
+            "y": 1038.59375,
+            "width": 53.3125,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(250, 250, 250)",
+            "gap": "6px",
+            "padding": "6px 10px",
+            "borderRadius": "32px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Sequence",
+          "bounds": {
+            "x": 185.09375,
+            "y": 1038.59375,
+            "width": 87.296875,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(250, 250, 250)",
+            "gap": "6px",
+            "padding": "6px 10px",
+            "borderRadius": "32px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://60fps.design/"
+        },
+        {
+          "text": "Shots",
+          "href": "https://60fps.design/"
+        },
+        {
+          "text": "Apps",
+          "href": "https://60fps.design/apps"
+        },
+        {
+          "text": "",
+          "href": "https://60fps.design/"
+        },
+        {
+          "text": "MCP",
+          "href": "https://60fps.design/mcp"
+        },
+        {
+          "text": "Health & Fitness",
+          "href": "https://60fps.design/apps/category/health-fitness"
+        },
+        {
+          "text": "Apple",
+          "href": "https://60fps.design/shots/filter/apple"
+        },
+        {
+          "text": "Get Started",
+          "href": "https://60fps.design/shots/filter/get-started"
+        },
+        {
+          "text": "Grow",
+          "href": "https://60fps.design/shots/filter/grow"
+        },
+        {
+          "text": "Illustration",
+          "href": "https://60fps.design/shots/filter/illustration"
+        },
+        {
+          "text": "Intro",
+          "href": "https://60fps.design/shots/filter/intro"
+        },
+        {
+          "text": "Morph",
+          "href": "https://60fps.design/shots/filter/morph"
+        },
+        {
+          "text": "Onboarding",
+          "href": "https://60fps.design/shots/filter/onboarding"
+        },
+        {
+          "text": "Orbit",
+          "href": "https://60fps.design/shots/filter/orbit"
+        },
+        {
+          "text": "Sequence",
+          "href": "https://60fps.design/shots/filter/sequence"
+        },
+        {
+          "text": "",
+          "href": "https://60fps.design/apps/health"
+        },
+        {
+          "text": "Health",
+          "href": "https://60fps.design/apps/health"
+        },
+        {
+          "text": "Health",
+          "href": "https://60fps.design/apps/health"
+        },
+        {
+          "text": "Health",
+          "href": "https://60fps.design/apps/health"
+        },
+        {
+          "text": "Apple Health Watch Section Scroll",
+          "href": "https://60fps.design/shots/apple-health-watch-section-scroll"
+        },
+        {
+          "text": "Health",
+          "href": "https://60fps.design/apps/health"
+        },
+        {
+          "text": "Apple Health Emotion Slider",
+          "href": "https://60fps.design/shots/apple-health-emotion-slider"
+        },
+        {
+          "text": "Peloton",
+          "href": "https://60fps.design/apps/peloton"
+        },
+        {
+          "text": "Peloton Intro Carousel Animation",
+          "href": "https://60fps.design/shots/peloton-intro-carousel-animation"
+        },
+        {
+          "text": "Fitness",
+          "href": "https://60fps.design/apps/fitness"
+        },
+        {
+          "text": "Apple Fitness Sharing Feature Intro Animation Sequence",
+          "href": "https://60fps.design/shots/apple-fitness-sharing-feature-intro-animation-sequence"
+        },
+        {
+          "text": "Vitals",
+          "href": "https://60fps.design/apps/vitals"
+        },
+        {
+          "text": "Apple Vitals Watch Graph Animation",
+          "href": "https://60fps.design/shots/apple-vitals-watch-graph-animation"
+        },
+        {
+          "text": "Longevity Deck",
+          "href": "https://60fps.design/apps/longevity-deck"
+        },
+        {
+          "text": "Longevity Deck Swipe Cards Down Stack Interaction",
+          "href": "https://60fps.design/shots/longevity-deck-swipe-cards-down-stack-interaction"
+        },
+        {
+          "text": "Y-Pod",
+          "href": "https://60fps.design/apps/y-pod"
+        },
+        {
+          "text": "Y-Pod Life Areas Flower Graph Animation",
+          "href": "https://60fps.design/shots/y-pod-life-areas-flower-graph-animation"
+        },
+        {
+          "text": "Peaks",
+          "href": "https://60fps.design/apps/peaks"
+        },
+        {
+          "text": "Peaks Onboarding Wave Animation",
+          "href": "https://60fps.design/shots/peaks-onboarding-wave-animation"
+        },
+        {
+          "text": "PRO",
+          "href": "https://60fps.design/pro"
+        },
+        {
+          "text": "MCP",
+          "href": "https://60fps.design/mcp"
+        },
+        {
+          "text": "Mockup",
+          "href": "https://mockup.60fps.design/"
+        },
+        {
+          "text": "Shots",
+          "href": "https://60fps.design/"
+        },
+        {
+          "text": "Apps",
+          "href": "https://60fps.design/apps"
+        },
+        {
+          "text": "App Sites",
+          "href": "https://60fps.design/appsites"
+        },
+        {
+          "text": "Motion",
+          "href": "https://60fps.design/motion"
+        },
+        {
+          "text": "Snippets",
+          "href": "https://60fps.design/snippets"
+        },
+        {
+          "text": "Jobs",
+          "href": "https://60fps.design/jobs"
+        },
+        {
+          "text": "Glossary",
+          "href": "https://60fps.design/glossary"
+        },
+        {
+          "text": "Storyboards",
+          "href": "https://60fps.design/storyboards"
+        },
+        {
+          "text": "Why",
+          "href": "https://60fps.design/why"
+        },
+        {
+          "text": "Privacy",
+          "href": "https://60fps.design/privacy"
+        },
+        {
+          "text": "Terms",
+          "href": "https://60fps.design/terms"
+        },
+        {
+          "text": "",
+          "href": "https://x.com/60fpsdesign"
+        },
+        {
+          "text": "",
+          "href": "https://www.reddit.com/user/60fpsdesign/"
+        },
+        {
+          "text": "",
+          "href": "https://www.threads.net/@60fps.design"
+        },
+        {
+          "text": "",
+          "href": "https://www.linkedin.com/company/60fpsdesign/"
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/60fps.design"
+        },
+        {
+          "text": "",
+          "href": "https://in.pinterest.com/60fpsdesign"
+        },
+        {
+          "text": "3D",
+          "href": "https://60fps.design/shots/filter/3d"
+        },
+        {
+          "text": "AI",
+          "href": "https://60fps.design/shots/filter/ai"
+        },
+        {
+          "text": "Assistant",
+          "href": "https://60fps.design/shots/filter/assistant"
+        },
+        {
+          "text": "Card Stack",
+          "href": "https://60fps.design/shots/filter/card-stack"
+        },
+        {
+          "text": "Carousel",
+          "href": "https://60fps.design/shots/filter/carousel"
+        },
+        {
+          "text": "Chat",
+          "href": "https://60fps.design/shots/filter/chat"
+        },
+        {
+          "text": "Delete",
+          "href": "https://60fps.design/shots/filter/delete"
+        },
+        {
+          "text": "Empty State",
+          "href": "https://60fps.design/shots/filter/empty"
+        },
+        {
+          "text": "Featured",
+          "href": "https://60fps.design/shots/filter/featured"
+        },
+        {
+          "text": "Gallery",
+          "href": "https://60fps.design/shots/filter/gallery"
+        },
+        {
+          "text": "Gamification",
+          "href": "https://60fps.design/shots/filter/gamification"
+        },
+        {
+          "text": "Get Started",
+          "href": "https://60fps.design/shots/filter/get-started"
+        },
+        {
+          "text": "Goal",
+          "href": "https://60fps.design/shots/filter/goal"
+        },
+        {
+          "text": "Idle Animation",
+          "href": "https://60fps.design/shots/filter/idle-animation"
+        },
+        {
+          "text": "Intro",
+          "href": "https://60fps.design/shots/filter/intro"
+        },
+        {
+          "text": "Invite",
+          "href": "https://60fps.design/shots/filter/invite"
+        },
+        {
+          "text": "Loading",
+          "href": "https://60fps.design/shots/filter/loading"
+        },
+        {
+          "text": "Logo",
+          "href": "https://60fps.design/shots/filter/logo"
+        },
+        {
+          "text": "Mascot",
+          "href": "https://60fps.design/shots/filter/mascot"
+        },
+        {
+          "text": "New",
+          "href": "https://60fps.design/shots/filter/new"
+        },
+        {
+          "text": "Onboarding",
+          "href": "https://60fps.design/shots/filter/onboarding"
+        },
+        {
+          "text": "Pricing",
+          "href": "https://60fps.design/shots/filter/pricing"
+        },
+        {
+          "text": "Quick Actions",
+          "href": "https://60fps.design/shots/filter/quick-actions"
+        },
+        {
+          "text": "Reaction",
+          "href": "https://60fps.design/shots/filter/reaction"
+        },
+        {
+          "text": "Recap",
+          "href": "https://60fps.design/shots/filter/recap"
+        },
+        {
+          "text": "Reward",
+          "href": "https://60fps.design/shots/filter/reward"
+        },
+        {
+          "text": "Setup",
+          "href": "https://60fps.design/shots/filter/setup"
+        },
+        {
+          "text": "Shared Element",
+          "href": "https://60fps.design/shots/filter/shared-element"
+        },
+        {
+          "text": "Showcase",
+          "href": "https://60fps.design/shots/filter/showcase"
+        },
+        {
+          "text": "Splash",
+          "href": "https://60fps.design/shots/filter/splash"
+        },
+        {
+          "text": "Stats",
+          "href": "https://60fps.design/shots/filter/stats"
+        },
+        {
+          "text": "Streak",
+          "href": "https://60fps.design/shots/filter/streak"
+        },
+        {
+          "text": "Success State",
+          "href": "https://60fps.design/shots/filter/success-state"
+        },
+        {
+          "text": "Theme",
+          "href": "https://60fps.design/shots/filter/theme"
+        },
+        {
+          "text": "Timer",
+          "href": "https://60fps.design/shots/filter/timer"
+        },
+        {
+          "text": "Voice",
+          "href": "https://60fps.design/shots/filter/voice"
+        },
+        {
+          "text": "Weather",
+          "href": "https://60fps.design/shots/filter/weather"
+        },
+        {
+          "text": "Workout",
+          "href": "https://60fps.design/shots/filter/workout"
+        },
+        {
+          "text": "Badge",
+          "href": "https://60fps.design/shots/filter/badge"
+        },
+        {
+          "text": "Bottom Sheet",
+          "href": "https://60fps.design/shots/filter/bottom-sheet"
+        },
+        {
+          "text": "Button",
+          "href": "https://60fps.design/shots/filter/button"
+        },
+        {
+          "text": "Calendar",
+          "href": "https://60fps.design/shots/filter/calendar"
+        },
+        {
+          "text": "Card",
+          "href": "https://60fps.design/shots/filter/card"
+        },
+        {
+          "text": "Counter",
+          "href": "https://60fps.design/shots/filter/counter"
+        },
+        {
+          "text": "Easter Egg",
+          "href": "https://60fps.design/shots/filter/easter-egg"
+        },
+        {
+          "text": "Graph",
+          "href": "https://60fps.design/shots/filter/graph"
+        },
+        {
+          "text": "Icon",
+          "href": "https://60fps.design/shots/filter/icon"
+        },
+        {
+          "text": "Illustration",
+          "href": "https://60fps.design/shots/filter/illustration"
+        },
+        {
+          "text": "Input",
+          "href": "https://60fps.design/shots/filter/input"
+        },
+        {
+          "text": "Liquid Glass",
+          "href": "https://60fps.design/shots/filter/liquid-glass"
+        },
+        {
+          "text": "Map",
+          "href": "https://60fps.design/shots/filter/map"
+        },
+        {
+          "text": "Menu",
+          "href": "https://60fps.design/shots/filter/menu"
+        },
+        {
+          "text": "Permissions",
+          "href": "https://60fps.design/shots/filter/permissions"
+        },
+        {
+          "text": "Picker",
+          "href": "https://60fps.design/shots/filter/picker"
+        },
+        {
+          "text": "Player",
+          "href": "https://60fps.design/shots/filter/player"
+        },
+        {
+          "text": "Progress",
+          "href": "https://60fps.design/shots/filter/progress"
+        },
+        {
+          "text": "Search",
+          "href": "https://60fps.design/shots/filter/search"
+        },
+        {
+          "text": "Slider",
+          "href": "https://60fps.design/shots/filter/slider"
+        },
+        {
+          "text": "Story",
+          "href": "https://60fps.design/shots/filter/story"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://60fps.design/shots/filter/tabs"
+        },
+        {
+          "text": "Text",
+          "href": "https://60fps.design/shots/filter/text"
+        },
+        {
+          "text": "Toast",
+          "href": "https://60fps.design/shots/filter/toast"
+        },
+        {
+          "text": "Tooltip",
+          "href": "https://60fps.design/shots/filter/tooltip"
+        },
+        {
+          "text": "Video",
+          "href": "https://60fps.design/shots/filter/video"
+        },
+        {
+          "text": "Widget",
+          "href": "https://60fps.design/shots/filter/widget"
+        },
+        {
+          "text": "Drag",
+          "href": "https://60fps.design/shots/filter/drag"
+        },
+        {
+          "text": "Flick",
+          "href": "https://60fps.design/shots/filter/flick"
+        },
+        {
+          "text": "Flip",
+          "href": "https://60fps.design/shots/filter/flip"
+        },
+        {
+          "text": "Gyroscope",
+          "href": "https://60fps.design/shots/filter/gyroscope"
+        },
+        {
+          "text": "Hold",
+          "href": "https://60fps.design/shots/filter/hold"
+        },
+        {
+          "text": "Long Press",
+          "href": "https://60fps.design/shots/filter/long-press"
+        },
+        {
+          "text": "Pan",
+          "href": "https://60fps.design/shots/filter/pan"
+        },
+        {
+          "text": "Pinch",
+          "href": "https://60fps.design/shots/filter/pinch"
+        },
+        {
+          "text": "Pull",
+          "href": "https://60fps.design/shots/filter/pull"
+        },
+        {
+          "text": "Scroll",
+          "href": "https://60fps.design/shots/filter/scroll"
+        },
+        {
+          "text": "Scrub",
+          "href": "https://60fps.design/shots/filter/scrub"
+        },
+        {
+          "text": "Slide",
+          "href": "https://60fps.design/shots/filter/slide"
+        },
+        {
+          "text": "Swipe",
+          "href": "https://60fps.design/shots/filter/swipe"
+        },
+        {
+          "text": "Tap",
+          "href": "https://60fps.design/shots/filter/tap"
+        },
+        {
+          "text": "Typing",
+          "href": "https://60fps.design/shots/filter/typing"
+        },
+        {
+          "text": "Blur",
+          "href": "https://60fps.design/shots/filter/blur"
+        },
+        {
+          "text": "Bounce",
+          "href": "https://60fps.design/shots/filter/bounce"
+        },
+        {
+          "text": "Color",
+          "href": "https://60fps.design/shots/filter/color"
+        },
+        {
+          "text": "Confetti",
+          "href": "https://60fps.design/shots/filter/confetti"
+        },
+        {
+          "text": "Draw",
+          "href": "https://60fps.design/shots/filter/draw"
+        },
+        {
+          "text": "Fade",
+          "href": "https://60fps.design/shots/filter/fade"
+        },
+        {
+          "text": "Glow",
+          "href": "https://60fps.design/shots/filter/glow"
+        },
+        {
+          "text": "Grow",
+          "href": "https://60fps.design/shots/filter/grow"
+        },
+        {
+          "text": "Morph",
+          "href": "https://60fps.design/shots/filter/morph"
+        },
+        {
+          "text": "Orbit",
+          "href": "https://60fps.design/shots/filter/orbit"
+        },
+        {
+          "text": "Parallax",
+          "href": "https://60fps.design/shots/filter/parallax"
+        },
+        {
+          "text": "Particles",
+          "href": "https://60fps.design/shots/filter/particles"
+        },
+        {
+          "text": "Pulse",
+          "href": "https://60fps.design/shots/filter/pulse"
+        },
+        {
+          "text": "Reveal",
+          "href": "https://60fps.design/shots/filter/reveal"
+        },
+        {
+          "text": "Sequence",
+          "href": "https://60fps.design/shots/filter/sequence"
+        },
+        {
+          "text": "Shimmer",
+          "href": "https://60fps.design/shots/filter/shimmer"
+        },
+        {
+          "text": "Show/Hide",
+          "href": "https://60fps.design/shots/filter/show-hide"
+        },
+        {
+          "text": "Shrink",
+          "href": "https://60fps.design/shots/filter/shrink"
+        },
+        {
+          "text": "Skeuomorphic",
+          "href": "https://60fps.design/shots/filter/skeuomorphic"
+        },
+        {
+          "text": "Sound",
+          "href": "https://60fps.design/shots/filter/sound"
+        },
+        {
+          "text": "Spin",
+          "href": "https://60fps.design/shots/filter/spin"
+        },
+        {
+          "text": "Spring Physics",
+          "href": "https://60fps.design/shots/filter/spring-physics"
+        },
+        {
+          "text": "Stagger",
+          "href": "https://60fps.design/shots/filter/stagger"
+        },
+        {
+          "text": "Ticker",
+          "href": "https://60fps.design/shots/filter/ticker"
+        },
+        {
+          "text": "Wiggle",
+          "href": "https://60fps.design/shots/filter/wiggle"
+        },
+        {
+          "text": "Zoom",
+          "href": "https://60fps.design/shots/filter/zoom"
+        },
+        {
+          "text": "Books",
+          "href": "https://60fps.design/apps/category/books"
+        },
+        {
+          "text": "Business",
+          "href": "https://60fps.design/apps/category/business"
+        },
+        {
+          "text": "Developer Tools",
+          "href": "https://60fps.design/apps/category/developer-tools"
+        },
+        {
+          "text": "Education",
+          "href": "https://60fps.design/apps/category/education"
+        },
+        {
+          "text": "Entertainment",
+          "href": "https://60fps.design/apps/category/entertainment"
+        },
+        {
+          "text": "Finance",
+          "href": "https://60fps.design/apps/category/finance"
+        },
+        {
+          "text": "Food & Drink",
+          "href": "https://60fps.design/apps/category/food-drink"
+        },
+        {
+          "text": "Games",
+          "href": "https://60fps.design/apps/category/games"
+        },
+        {
+          "text": "Graphics & Design",
+          "href": "https://60fps.design/apps/category/graphics-design"
+        },
+        {
+          "text": "Health & Fitness",
+          "href": "https://60fps.design/apps/category/health-fitness"
+        },
+        {
+          "text": "Lifestyle",
+          "href": "https://60fps.design/apps/category/lifestyle"
+        },
+        {
+          "text": "Magazines & Newspapers",
+          "href": "https://60fps.design/apps/category/magazines-newspapers"
+        },
+        {
+          "text": "Music",
+          "href": "https://60fps.design/apps/category/music"
+        },
+        {
+          "text": "Navigation",
+          "href": "https://60fps.design/apps/category/navigation"
+        },
+        {
+          "text": "News",
+          "href": "https://60fps.design/apps/category/news"
+        },
+        {
+          "text": "Photo & Video",
+          "href": "https://60fps.design/apps/category/photo-video"
+        },
+        {
+          "text": "Productivity",
+          "href": "https://60fps.design/apps/category/productivity"
+        },
+        {
+          "text": "Reference",
+          "href": "https://60fps.design/apps/category/reference"
+        },
+        {
+          "text": "Shopping",
+          "href": "https://60fps.design/apps/category/shopping"
+        },
+        {
+          "text": "Social Networking",
+          "href": "https://60fps.design/apps/category/social-networking"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--one-if-corner-shape-supported": "1"
+      }
+    }
+  },
+  "scope": "public source reference; not a locally reconstructed component",
+  "http_status": 200,
+  "page_errors": []
+}

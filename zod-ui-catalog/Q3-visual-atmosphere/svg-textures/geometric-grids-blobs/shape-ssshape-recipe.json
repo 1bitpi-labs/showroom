@@ -1,0 +1,78 @@
+{
+  "id": "shape-ssshape-recipe",
+  "location": {
+    "quadrant": "Q3-visual-atmosphere",
+    "category": "svg-textures",
+    "section": "geometric-grids-blobs",
+    "file_path": "Q3-visual-atmosphere/svg-textures/geometric-grids-blobs/shape-ssshape-recipe.json"
+  },
+  "tier": "C",
+  "tier_audit": {
+    "visual_verified": true,
+    "verification_scope": "source screenshots only; not local implementation fidelity",
+    "fidelity_type": "visual_spec",
+    "responsive_score": null,
+    "audit_notes": [
+      "Tier C: reference/spec, not ready-to-use code.",
+      "Source DOM measurements may describe gallery chrome, not the referenced product.",
+      "Keyboard, contrast and animation timing not certified."
+    ],
+    "evidence": [
+      "audits/source-evidence/fffuel-co-ssshape/evidence.json",
+      "previews/shape-ssshape-recipe/desktop.png",
+      "previews/shape-ssshape-recipe/mobile.png"
+    ],
+    "source_observations": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "page_horizontal_overflow": false,
+        "broken_images": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "page_horizontal_overflow": false,
+        "broken_images": []
+      }
+    }
+  },
+  "source_site": "fffuel.co",
+  "source_url": "https://www.fffuel.co/ssshape/",
+  "license": {
+    "status": "reference_only_not_code_license",
+    "redistribution": "No source code or original downloadable assets included; screenshots are research evidence.",
+    "url": "https://www.fffuel.co/license/",
+    "restriction": "Generated images may be used in projects but redistribution is restricted; retain only specification and source link."
+  },
+  "stack_compatibility": [
+    "framework-agnostic-spec"
+  ],
+  "style_tags": [
+    "geometric-grids-blobs"
+  ],
+  "artifact": {
+    "type": "visual_spec",
+    "spec": "Fluxo de desenho de pontos para curva orgânica fechada, seguido por ajuste de escala, rotação e inclinação. Implementar geometria original; nenhum SVG de exemplo foi redistribuído.",
+    "observed_headings": [
+      "ssshape\nSVG blob/shape generator that puts you in the driver's seat",
+      "START BY DRAWING A FEW POINTS ↷",
+      "SOME SAMPLE SVG SHAPES CREATED USING THIS TOOL ↷",
+      "ABOUT SSSHAPE: FREE SVG BLOB/SHAPE MAKER",
+      "IF YOU'RE LOOKING TO MAKE ORGANIC-LOOKING LINES/STROKES INSTEAD, CHECK OUT LLLINE, A SISTER TOOL TO THIS."
+    ],
+    "source_dom_evidence": "audits/source-evidence/fffuel-co-ssshape/evidence.json",
+    "states": {
+      "desktop": "captured",
+      "mobile": "captured",
+      "hover": "not audited",
+      "focus": "not audited",
+      "active": "not audited",
+      "disabled": "not audited"
+    }
+  }
+}

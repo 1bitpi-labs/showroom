@@ -1,0 +1,1937 @@
+{
+  "site": "mobbin.com",
+  "url": "https://mobbin.com",
+  "captured_at": "2026-11-12T21:10:50.759635+00:00",
+  "views": {
+    "desktop": {
+      "url": "https://mobbin.com/",
+      "title": "Mobbin — UI & UX design inspiration for mobile & web apps",
+      "text": "MCP\nCustomers\nPricing\nVisit Mobbin on YouTube\nFollow Mobbin on X\nLog in\nWhere\nteams\nand agents\nfind\ndesigns\nthat work.\n\nThe design reference library for apps and sites.\nOver 600,000 shipped screens, new every week.\n\nJoin for free\nSee plans\n\nTrusted by teams and agents at\n\nDesign research took hours.\nNow, it's one search.\n\nEvery designer has that folder.\nHundreds of screenshots saved for later,\nyet somehow never the right one.\n\nJoyful onboarding\nJoyful onboarding\nOne library\nfor all your needs.\n\nApps\n\nSites\n\nScreens\n\nFlows\n\nAnimations\n\nUI Elements\n\nGive your AI agents\naccess to Mobbin.\nConnect MCP\n\nAvailable on Pro & Team plans\n\nCursor\nChatGPT\nClaude\nFigma\nGrok\n\nShow me how top apps design paywalls that make upgrading feel worth it\n\nCurating apps...\nGathering insights...\n\nFound 5 apps\n\nTrusted by teams that build world-class apps.\nRead stories\n\nHow Cursor offloads the 20% to Mobbin, so the team can build the 80%\n\nSaaS/Devtools\n·\nRead story\n\nHow Sanctum's solo designer became a \"1.5x designer team\" without hiring\n\nFintech\n·\nRead story\n\nHow OKX's designers study apps that aren't available in their market\n\nFintech\n·\nRead story\n“\n\nWe want to spend 80% of our time designing new features. For the rest, we look to Mobbin since it's easier to stick with what works.\n\nJohn Bai\nDesigner at SpacexAI\n\nDesigning in fintech?\nFinance+ goes deeper.\n\n60+ investment, banking, and crypto apps, including flows behind KYC walls and geo-locks. Available on Team & Enterprise plans.\n\nExplore Finance+\nFind what works.\nDesign what's next.\n\nMobbin started in 2018 as Jiho's Dropbox folder of screenshots. It's still that folder at heart, just over 600,000 screens bigger.\n\nJoin for free\nSee plans\n\nProducts\n\nPricing\nFinance+\nNew\nMCP\nNew\nChangelog\n\nResources\n\nBlog\nExplore\nColors\nGlossary\nMerch\n\nCompany\n\nContact us\nCareers\nHelp center\n\n© Mobbin 2018–2026.\n\nPrivacy\nTerms\nCopyright\nYouTube\nX (Twitter)\nLinkedIn\n\nWe use cookies. Read more\nabout cookies\n\nAccept\nDeny",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Where\nteams\nand agents\nfind\ndesigns\nthat work.",
+          "bounds": {
+            "x": 351.734375,
+            "y": 228,
+            "width": 736.53125,
+            "height": 240
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "80px",
+            "fontWeight": "652",
+            "lineHeight": "80px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "One library\nfor all your needs.",
+          "bounds": {
+            "x": 549.21875,
+            "y": 2888.5,
+            "width": 341.546875,
+            "height": 96
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "44px",
+            "fontWeight": "652",
+            "lineHeight": "48px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Give your AI agents\naccess to Mobbin.",
+          "bounds": {
+            "x": 197.5,
+            "y": 4010.75,
+            "width": 375.46875,
+            "height": 96
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "44px",
+            "fontWeight": "652",
+            "lineHeight": "48px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Trusted by teams that build world-class apps.",
+          "bounds": {
+            "x": 437.5,
+            "y": 4737,
+            "width": 565,
+            "height": 96
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "44px",
+            "fontWeight": "652",
+            "lineHeight": "48px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Find what works.\nDesign what's next.",
+          "bounds": {
+            "x": 483.5,
+            "y": 6832.21875,
+            "width": 472.984375,
+            "height": 112
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "56px",
+            "fontWeight": "652",
+            "lineHeight": "56px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "MCP\nCustomers\nPricing\nVisit Mobbin on YouTube\nFollow Mobbin on X\nLog in",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 92
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "color(srgb 1 1 1 / 0.9)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "role": null,
+          "text": "Where\nteams\nand agents\nfind\ndesigns\nthat work.\n\nThe design reference library for apps and sites.\nOver 600,000 shipped screens, new every wee",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 7322.21875
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px 0px 32px 32px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Where\nteams\nand agents\nfind\ndesigns\nthat work.\n\nThe design reference library for apps and sites.\nOver 600,000 shipped screens, new every wee",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 776
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "normal",
+            "padding": "200px 0px 80px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 695.34375,
+            "y": 235,
+            "width": 68,
+            "height": 68
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "80px",
+            "fontWeight": "652",
+            "lineHeight": "80px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "20%",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 815.34375,
+            "y": 315,
+            "width": 68,
+            "height": 68
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "80px",
+            "fontWeight": "652",
+            "lineHeight": "80px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "20%",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 647.9375,
+            "y": 395,
+            "width": 68,
+            "height": 68
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "80px",
+            "fontWeight": "652",
+            "lineHeight": "80px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "20%",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 0,
+            "y": 776,
+            "width": 1440,
+            "height": 681.921875
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "normal",
+            "padding": "40px 0px 0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Trusted by teams and agents at",
+          "bounds": {
+            "x": 0,
+            "y": 1457.921875,
+            "width": 1440,
+            "height": 248
+          },
+          "styles": {
+            "display": "grid",
+            "position": "static",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "40px 20px",
+            "padding": "80px 20px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "68.75px 68.75px 68.75px 68.75px 68.75px 68.75px 68.75px 68.75px 68.75px 68.75px 68.75px 68.75px 68.75px 68.75px 68.75px 68.75px"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Design research took hours.\nNow, it's one search.\n\nEvery designer has that folder.\nHundreds of screenshots saved for later,\nyet somehow neve",
+          "bounds": {
+            "x": 0,
+            "y": 1706.921875,
+            "width": 1440,
+            "height": 1101.578125
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "80px normal",
+            "padding": "160px 0px 80px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "One library\nfor all your needs.\n\nApps\n\nSites\n\nScreens\n\nFlows\n\nAnimations\n\nUI Elements",
+          "bounds": {
+            "x": 0,
+            "y": 2808.5,
+            "width": 1440,
+            "height": 1016
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "normal",
+            "padding": "80px 0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Give your AI agents\naccess to Mobbin.\nConnect MCP\n\nAvailable on Pro & Team plans\n\nCursor\nChatGPT\nClaude\nFigma\nGrok\n\nShow me how top apps des",
+          "bounds": {
+            "x": 0,
+            "y": 3824.5,
+            "width": 1440,
+            "height": 752.5
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "normal",
+            "padding": "80px 0px 160px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Trusted by teams that build world-class apps.\nRead stories\n\nHow Cursor offloads the 20% to Mobbin, so the team can build the 80%\n\nSaaS/Devto",
+          "bounds": {
+            "x": 0,
+            "y": 4577,
+            "width": 1440,
+            "height": 1406.828125
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgba(64, 64, 64, 0.06)",
+            "gap": "160px normal",
+            "padding": "160px 0px 100px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Designing in fintech?\nFinance+ goes deeper.\n\n60+ investment, banking, and crypto apps, including flows behind KYC walls and geo-locks. Avail",
+          "bounds": {
+            "x": 0,
+            "y": 5983.828125,
+            "width": 1440,
+            "height": 618.390625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgba(64, 64, 64, 0.06)",
+            "gap": "normal",
+            "padding": "100px 0px 200px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Find what works.\nDesign what's next.\n\nMobbin started in 2018 as Jiho's Dropbox folder of screenshots. It's still that folder at heart, just ",
+          "bounds": {
+            "x": 0,
+            "y": 6602.21875,
+            "width": 1440,
+            "height": 720
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "80px normal",
+            "padding": "200px 0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 0,
+            "y": 737.61376953125,
+            "width": 363.546875,
+            "height": 312.28125
+          },
+          "styles": {
+            "display": "block",
+            "position": "absolute",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgba(255, 255, 255, 0.06)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 363.546875,
+            "y": 737.61376953125,
+            "width": 252.796875,
+            "height": 312.28125
+          },
+          "styles": {
+            "display": "block",
+            "position": "absolute",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgba(255, 255, 255, 0.06)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 616.359375,
+            "y": 737.61376953125,
+            "width": 247.625,
+            "height": 312.28125
+          },
+          "styles": {
+            "display": "block",
+            "position": "absolute",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgba(255, 255, 255, 0.06)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 864,
+            "y": 737.61376953125,
+            "width": 250,
+            "height": 312.28125
+          },
+          "styles": {
+            "display": "block",
+            "position": "absolute",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgba(255, 255, 255, 0.06)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 1114,
+            "y": 737.61376953125,
+            "width": 99.203125,
+            "height": 312.28125
+          },
+          "styles": {
+            "display": "block",
+            "position": "absolute",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgba(255, 255, 255, 0.06)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 1213.203125,
+            "y": 737.61376953125,
+            "width": 226.78125,
+            "height": 312.28125
+          },
+          "styles": {
+            "display": "block",
+            "position": "absolute",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgba(255, 255, 255, 0.06)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "We use cookies. Read more\nabout cookies\n\nAccept\nDeny",
+          "bounds": {
+            "x": 0,
+            "y": 808,
+            "width": 1440,
+            "height": 92
+          },
+          "styles": {
+            "display": "flex",
+            "position": "fixed",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px 20px 32px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Accept",
+          "bounds": {
+            "x": 782.515625,
+            "y": 820,
+            "width": 71.015625,
+            "height": 36
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "14px",
+            "fontWeight": "600",
+            "lineHeight": "20px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgba(255, 255, 255, 0.96)",
+            "gap": "normal",
+            "padding": "0px 12px",
+            "borderRadius": "9999px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Deny",
+          "bounds": {
+            "x": 861.53125,
+            "y": 820,
+            "width": 57.59375,
+            "height": 36
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "14px",
+            "fontWeight": "600",
+            "lineHeight": "20px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px 12px",
+            "borderRadius": "9999px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://mobbin.com/"
+        },
+        {
+          "text": "MCP",
+          "href": "https://mobbin.com/mcp"
+        },
+        {
+          "text": "Customers",
+          "href": "https://mobbin.com/customers"
+        },
+        {
+          "text": "Pricing",
+          "href": "https://mobbin.com/pricing"
+        },
+        {
+          "text": "",
+          "href": "https://mobbin.com/signup"
+        },
+        {
+          "text": "Visit Mobbin on YouTube",
+          "href": "https://www.youtube.com/@mobbindesign"
+        },
+        {
+          "text": "Follow Mobbin on X",
+          "href": "https://x.com/mobbin"
+        },
+        {
+          "text": "Log in",
+          "href": "https://mobbin.com/login"
+        },
+        {
+          "text": "Open Mobbin",
+          "href": "https://mobbin.com/discover"
+        },
+        {
+          "text": "Mobbin",
+          "href": "https://mobbin.com/"
+        },
+        {
+          "text": "Join for free",
+          "href": "https://mobbin.com/signup"
+        },
+        {
+          "text": "See plans",
+          "href": "https://mobbin.com/pricing"
+        },
+        {
+          "text": "Connect MCP",
+          "href": "https://mobbin.com/mcp"
+        },
+        {
+          "text": "Read stories",
+          "href": "https://mobbin.com/customers"
+        },
+        {
+          "text": "How Cursor offloads the 20% to Mobbin, so the team can build the 80%\n\n",
+          "href": "https://mobbin.com/customers/cursor"
+        },
+        {
+          "text": "How Sanctum's solo designer became a \"1.5x designer team\" without hiri",
+          "href": "https://mobbin.com/customers/sanctum"
+        },
+        {
+          "text": "How OKX's designers study apps that aren't available in their market\n\n",
+          "href": "https://mobbin.com/customers/okx"
+        },
+        {
+          "text": "Explore Finance+",
+          "href": "https://mobbin.com/finance"
+        },
+        {
+          "text": "Join for free",
+          "href": "https://mobbin.com/signup"
+        },
+        {
+          "text": "See plans",
+          "href": "https://mobbin.com/pricing"
+        },
+        {
+          "text": "Pricing",
+          "href": "https://mobbin.com/pricing"
+        },
+        {
+          "text": "Finance+\nNew",
+          "href": "https://mobbin.com/finance"
+        },
+        {
+          "text": "MCP\nNew",
+          "href": "https://mobbin.com/mcp"
+        },
+        {
+          "text": "Changelog",
+          "href": "https://mobbin.com/changelog"
+        },
+        {
+          "text": "Blog",
+          "href": "https://mobbin.com/blog"
+        },
+        {
+          "text": "Explore",
+          "href": "https://mobbin.com/explore"
+        },
+        {
+          "text": "Colors",
+          "href": "https://mobbin.com/colors"
+        },
+        {
+          "text": "Glossary",
+          "href": "https://mobbin.com/glossary"
+        },
+        {
+          "text": "Merch",
+          "href": "https://merch.mobbin.com/"
+        },
+        {
+          "text": "Careers",
+          "href": "https://careers.mobbin.com/"
+        },
+        {
+          "text": "Help center",
+          "href": "https://help.mobbin.com/"
+        },
+        {
+          "text": "Privacy",
+          "href": "https://mobbin.com/privacy"
+        },
+        {
+          "text": "Terms",
+          "href": "https://mobbin.com/terms"
+        },
+        {
+          "text": "Copyright",
+          "href": "https://mobbin.com/copyright"
+        },
+        {
+          "text": "YouTube",
+          "href": "https://www.youtube.com/@mobbindesign"
+        },
+        {
+          "text": "X (Twitter)",
+          "href": "https://x.com/mobbin"
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://linkedin.com/company/mobbin"
+        },
+        {
+          "text": "Read more\nabout cookies",
+          "href": "https://mobbin.com/cookie"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--background-secondary-hover": "0 0% 25% / 10%",
+        "--default-font-feature-settings": "\"dlig\" on, \"ss07\" on, \"calt\" off",
+        "--tw-inset-shadow-alpha": "100%",
+        "--tw-ring-shadow": "0 0 #0000",
+        "--background-tertiary-hover": "0 0% 25% / 12%",
+        "--aspect-video": "16 / 9",
+        "--opacity-gray-16": "0 0% 93% / 16%",
+        "--shadow-image-inset-value": "inset 0 0 0 .5px #0000001a",
+        "--red-60": "18 100% 44%",
+        "--glass-text-disabled": "0 0% 93% / 48%",
+        "--glass-background-quaternary": "0 0% 93% / 24%",
+        "--opacity-black-48": "0 0% 15% / 48%",
+        "--border-negative": "18 100% 44%",
+        "--tw-drop-shadow-alpha": "100%",
+        "--background-negative-secondary": "17 100% 92%",
+        "--background-primary": "0 0% 100%",
+        "--background-inverse": "0 0% 8%",
+        "--green-95": "120 100% 9%",
+        "--opacity-gray-8": "0 0% 93% / 8%",
+        "--glass-border-primary": "0 0% 93% / 88%",
+        "--green-60": "103 79% 35%",
+        "--opacity-black-96": "0 0% 15% / 96%",
+        "--text-on-brand": "0 0% 100%",
+        "--border-disabled": "0 0% 25% / 8%",
+        "--neutral-100": "0 0% 8%",
+        "--tw-outline-style": "solid",
+        "--background-modal": "0 0% 100%",
+        "--neutral-20": "0 0% 86%",
+        "--spacing-12": "12px",
+        "--purple-40": "280 97% 72%",
+        "--glass-background-secondary": "0 0% 93% / 8%",
+        "--blue-5": "205 100% 96%",
+        "--tw-inset-ring-shadow": "0 0 #0000",
+        "--text-link-primary-hover": "212 100% 50%",
+        "--green-70": "107 88% 26%",
+        "--shadow-logo-inset-value": "inset 0 0 0 .5px #0000001a",
+        "--color-text-secondary": "hsl(0 0% 44%)",
+        "--purple-60": "280 56% 49%",
+        "--glass-background-primary-inverse": "0 0% 15% / 48%",
+        "--neutral-40": "0 0% 68%",
+        "--opacity-white-96": "0 0% 100% / 96%",
+        "--text-faded-tertiary": "0 0% 0% / 47%",
+        "--color-overscroll-canvas": "hsl(0 0% 100%)",
+        "--red-80": "9 100% 34%",
+        "--text-on-disabled": "0 0% 68%",
+        "--yellow-10": "47 100% 83%",
+        "--text-link-secondary": "0 0% 8%",
+        "--purple-50": "280 62% 56%",
+        "--yellow-30": "48 100% 50%",
+        "--neutral-90": "0 0% 15%",
+        "--blog-page-background": "hsl(0 0% 100%)",
+        "--opacity-white-88": "0 0% 100% / 88%",
+        "--text-disabled": "0 0% 68%",
+        "--shadow-dropdown": "0 8px 24px #0000001f",
+        "--glass-border-primary-hover": "0 0% 93% / 100%",
+        "--text-warning": "34 100% 27%",
+        "--yellow-40": "46 100% 46%",
+        "--tw-inset-shadow": "0 0 #0000",
+        "--tw-ring-offset-color": "#fff",
+        "--background-positive": "103 79% 35%",
+        "--tw-gradient-from": "rgba(0, 0, 0, 0)",
+        "--red-20": "18 100% 85%",
+        "--opacity-gray-12": "0 0% 93% / 12%",
+        "--neutral-50": "0 0% 53%",
+        "--border-warning": "36 100% 33%",
+        "--tw-shadow-alpha": "100%",
+        "--tw-gradient-to": "rgba(0, 0, 0, 0)",
+        "--divider": "0 0% 25% / 6%",
+        "--border-secondary-hover": "0 0% 25% / 16%",
+        "--blue-90": "226 100% 35%",
+        "--opacity-white-24": "0 0% 100% / 24%",
+        "--text-positive": "107 88% 26%",
+        "--glass-background-tertiary": "0 0% 93% / 16%",
+        "--glass-background-unique-cell-button": "0 0% 46% / 48%",
+        "--font-sans": "\"saans\", \"saans Fallback\"",
+        "--background-quaternary": "0 0% 25% / 16%",
+        "--tw-scale-z": "1",
+        "--glass-background-unique-badge": "0 0% 45% / 56%",
+        "--opacity-black-32": "0 0% 15% / 32%",
+        "--opacity-gray-48": "0 0% 93% / 48%"
+      }
+    },
+    "mobile": {
+      "url": "https://mobbin.com/",
+      "title": "Mobbin — UI & UX design inspiration for mobile & web apps",
+      "text": "Where\nteams\nand agents\nfind\ndesigns\nthat work.\n\nThe design reference library for apps and sites. Over 600,000 shipped screens, new every week.\n\nJoin for free\nSee plans\n\nTrusted by teams and agents at\n\nDesign research took hours. Now, it's one search.\n\nEvery designer has that folder. Hundreds of screenshots saved for later, yet somehow never the right one.\n\nJoyful onboarding\nJoyful onboarding\nOne library\nfor all your needs.\n\nApps\n\nSites\n\nScreens\n\nFlows\n\nAnimations\n\nUI Elements\n\nGive your AI agents\naccess to Mobbin.\nConnect MCP\n\nAvailable on Pro & Team plans\n\nCursor\nChatGPT\nClaude\nFigma\nGrok\n\nShow me how top apps design paywalls that make upgrading feel worth it\n\nCurating apps...\nGathering insights...\n\nFound 5 apps\n\nTrusted by teams that build world-class apps.\nRead stories\n\nHow Cursor offloads the 20% to Mobbin, so the team can build the 80%\n\nSaaS/Devtools\n·\nRead story\n\nHow Sanctum's solo designer became a \"1.5x designer team\" without hiring\n\nFintech\n·\nRead story\n\nHow OKX's designers study apps that aren't available in their market\n\nFintech\n·\nRead story\n“\n\nWe want to spend 80% of our time designing new features. For the rest, we look to Mobbin since it's easier to stick with what works.\n\nJohn Bai\nDesigner at SpacexAI\n\nDesigning in fintech?\nFinance+ goes deeper.\n\n60+ investment, banking, and crypto apps, including flows behind KYC walls and geo-locks. Available on Team & Enterprise plans.\n\nExplore Finance+\nFind what works.\nDesign what's next.\n\nMobbin started in 2018 as Jiho's Dropbox folder of screenshots. It's still that folder at heart, just over 600,000 screens bigger.\n\nJoin for free\nSee plans\n\nProducts\n\nPricing\nFinance+\nNew\nMCP\nNew\nChangelog\n\nResources\n\nBlog\nExplore\nColors\nGlossary\nMerch\n\nCompany\n\nContact us\nCareers\nHelp center\n\n© Mobbin 2018–2026.\n\nPrivacy\nTerms\nCopyright\nYouTube\nX (Twitter)\nLinkedIn\n\nWe use cookies. Read more\nabout cookies\n\nAccept\nDeny",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Where\nteams\nand agents\nfind\ndesigns\nthat work.",
+          "bounds": {
+            "x": 28.203125,
+            "y": 255.734375,
+            "width": 333.578125,
+            "height": 110.53125
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "36.842px",
+            "fontWeight": "652",
+            "lineHeight": "36.842px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "One library\nfor all your needs.",
+          "bounds": {
+            "x": 68.03125,
+            "y": 2489.5,
+            "width": 253.921875,
+            "height": 72
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "32px",
+            "fontWeight": "652",
+            "lineHeight": "36px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Give your AI agents\naccess to Mobbin.",
+          "bounds": {
+            "x": 55.703125,
+            "y": 4885.5,
+            "width": 278.59375,
+            "height": 72
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "32px",
+            "fontWeight": "652",
+            "lineHeight": "36px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Trusted by teams that build world-class apps.",
+          "bounds": {
+            "x": 20,
+            "y": 5849.5,
+            "width": 350,
+            "height": 72
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "32px",
+            "fontWeight": "652",
+            "lineHeight": "36px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Find what works.\nDesign what's next.",
+          "bounds": {
+            "x": 56.59375,
+            "y": 8065.875,
+            "width": 276.796875,
+            "height": 72
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "32px",
+            "fontWeight": "652",
+            "lineHeight": "36px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 92
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "color(srgb 1 1 1 / 0.9)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 334,
+            "y": 28,
+            "width": 36,
+            "height": 36
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "12px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "role": null,
+          "text": "Where\nteams\nand agents\nfind\ndesigns\nthat work.\n\nThe design reference library for apps and sites. Over 600,000 shipped screens, new every wee",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 8524.46875
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px 0px 32px 32px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Where\nteams\nand agents\nfind\ndesigns\nthat work.\n\nThe design reference library for apps and sites. Over 600,000 shipped screens, new every wee",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 720
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "normal",
+            "padding": "128px 0px 40px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 183.625,
+            "y": 258.171875,
+            "width": 31.3125,
+            "height": 31.3125
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "36.842px",
+            "fontWeight": "652",
+            "lineHeight": "36.842px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "20%",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 237.90625,
+            "y": 295.015625,
+            "width": 31.3125,
+            "height": 31.3125
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "36.842px",
+            "fontWeight": "652",
+            "lineHeight": "36.842px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "20%",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 162.296875,
+            "y": 331.859375,
+            "width": 31.3125,
+            "height": 31.3125
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "36.842px",
+            "fontWeight": "652",
+            "lineHeight": "36.842px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "20%",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 0,
+            "y": 720,
+            "width": 390,
+            "height": 383.796875
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Trusted by teams and agents at",
+          "bounds": {
+            "x": 0,
+            "y": 1103.796875,
+            "width": 390,
+            "height": 244
+          },
+          "styles": {
+            "display": "grid",
+            "position": "static",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "40px 20px",
+            "padding": "80px 20px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "41.6562px 41.6562px 41.6562px 41.6562px 41.6562px 41.6562px"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Design research took hours. Now, it's one search.\n\nEvery designer has that folder. Hundreds of screenshots saved for later, yet somehow neve",
+          "bounds": {
+            "x": 0,
+            "y": 1348.796875,
+            "width": 390,
+            "height": 1060.703125
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "80px normal",
+            "padding": "160px 0px 80px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "One library\nfor all your needs.\n\nApps\n\nSites\n\nScreens\n\nFlows\n\nAnimations\n\nUI Elements",
+          "bounds": {
+            "x": 0,
+            "y": 2409.5,
+            "width": 390,
+            "height": 2396
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "normal",
+            "padding": "80px 0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Give your AI agents\naccess to Mobbin.\nConnect MCP\n\nAvailable on Pro & Team plans\n\nCursor\nChatGPT\nClaude\nFigma\nGrok\n\nShow me how top apps des",
+          "bounds": {
+            "x": 0,
+            "y": 4805.5,
+            "width": 390,
+            "height": 916
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "normal",
+            "padding": "80px 0px 128px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Trusted by teams that build world-class apps.\nRead stories\n\nHow Cursor offloads the 20% to Mobbin, so the team can build the 80%\n\nSaaS/Devto",
+          "bounds": {
+            "x": 0,
+            "y": 5721.5,
+            "width": 390,
+            "height": 1369.40625
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgba(64, 64, 64, 0.06)",
+            "gap": "80px normal",
+            "padding": "128px 0px 100px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 167,
+            "y": 6502.90625,
+            "width": 24,
+            "height": 8
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgb(20, 20, 20)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "9999px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 199,
+            "y": 6502.90625,
+            "width": 8,
+            "height": 8
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "oklab(0.193047 0.00000876933 0.0000038594 / 0.2)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "9999px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 215,
+            "y": 6502.90625,
+            "width": 8,
+            "height": 8
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "oklab(0.193047 0.00000876933 0.0000038594 / 0.2)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "9999px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Designing in fintech?\nFinance+ goes deeper.\n\n60+ investment, banking, and crypto apps, including flows behind KYC walls and geo-locks. Avail",
+          "bounds": {
+            "x": 0,
+            "y": 7090.90625,
+            "width": 390,
+            "height": 758.375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgba(64, 64, 64, 0.06)",
+            "gap": "normal",
+            "padding": "100px 0px 128px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Find what works.\nDesign what's next.\n\nMobbin started in 2018 as Jiho's Dropbox folder of screenshots. It's still that folder at heart, just ",
+          "bounds": {
+            "x": 0,
+            "y": 7849.28125,
+            "width": 390,
+            "height": 675.1875
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(20, 20, 20)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "40px normal",
+            "padding": "128px 0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 0,
+            "y": 9266.46875,
+            "width": 98.453125,
+            "height": 84.578125
+          },
+          "styles": {
+            "display": "block",
+            "position": "absolute",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgba(255, 255, 255, 0.06)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 98.453125,
+            "y": 9266.46875,
+            "width": 68.453125,
+            "height": 84.578125
+          },
+          "styles": {
+            "display": "block",
+            "position": "absolute",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgba(255, 255, 255, 0.06)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 166.921875,
+            "y": 9266.46875,
+            "width": 67.0625,
+            "height": 84.578125
+          },
+          "styles": {
+            "display": "block",
+            "position": "absolute",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgba(255, 255, 255, 0.06)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 234,
+            "y": 9266.46875,
+            "width": 67.703125,
+            "height": 84.578125
+          },
+          "styles": {
+            "display": "block",
+            "position": "absolute",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgba(255, 255, 255, 0.06)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 301.703125,
+            "y": 9266.46875,
+            "width": 26.859375,
+            "height": 84.578125
+          },
+          "styles": {
+            "display": "block",
+            "position": "absolute",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgba(255, 255, 255, 0.06)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 328.578125,
+            "y": 9266.46875,
+            "width": 61.40625,
+            "height": 84.578125
+          },
+          "styles": {
+            "display": "block",
+            "position": "absolute",
+            "fontFamily": "saans, \"saans Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgba(255, 255, 255, 0.06)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "Mobbin",
+          "href": "https://mobbin.com/"
+        },
+        {
+          "text": "MCP",
+          "href": "https://mobbin.com/mcp"
+        },
+        {
+          "text": "Customers",
+          "href": "https://mobbin.com/customers"
+        },
+        {
+          "text": "Pricing",
+          "href": "https://mobbin.com/pricing"
+        },
+        {
+          "text": "Join for free",
+          "href": "https://mobbin.com/signup"
+        },
+        {
+          "text": "Visit Mobbin on YouTube",
+          "href": "https://www.youtube.com/@mobbindesign"
+        },
+        {
+          "text": "Follow Mobbin on X",
+          "href": "https://x.com/mobbin"
+        },
+        {
+          "text": "Log in",
+          "href": "https://mobbin.com/login"
+        },
+        {
+          "text": "Open Mobbin",
+          "href": "https://mobbin.com/discover"
+        },
+        {
+          "text": "",
+          "href": "https://mobbin.com/"
+        },
+        {
+          "text": "Join for free",
+          "href": "https://mobbin.com/signup"
+        },
+        {
+          "text": "See plans",
+          "href": "https://mobbin.com/pricing"
+        },
+        {
+          "text": "Connect MCP",
+          "href": "https://mobbin.com/mcp"
+        },
+        {
+          "text": "Read stories",
+          "href": "https://mobbin.com/customers"
+        },
+        {
+          "text": "How Cursor offloads the 20% to Mobbin, so the team can build the 80%\n\n",
+          "href": "https://mobbin.com/customers/cursor"
+        },
+        {
+          "text": "How Sanctum's solo designer became a \"1.5x designer team\" without hiri",
+          "href": "https://mobbin.com/customers/sanctum"
+        },
+        {
+          "text": "How OKX's designers study apps that aren't available in their market\n\n",
+          "href": "https://mobbin.com/customers/okx"
+        },
+        {
+          "text": "Explore Finance+",
+          "href": "https://mobbin.com/finance"
+        },
+        {
+          "text": "Join for free",
+          "href": "https://mobbin.com/signup"
+        },
+        {
+          "text": "See plans",
+          "href": "https://mobbin.com/pricing"
+        },
+        {
+          "text": "Pricing",
+          "href": "https://mobbin.com/pricing"
+        },
+        {
+          "text": "Finance+\nNew",
+          "href": "https://mobbin.com/finance"
+        },
+        {
+          "text": "MCP\nNew",
+          "href": "https://mobbin.com/mcp"
+        },
+        {
+          "text": "Changelog",
+          "href": "https://mobbin.com/changelog"
+        },
+        {
+          "text": "Blog",
+          "href": "https://mobbin.com/blog"
+        },
+        {
+          "text": "Explore",
+          "href": "https://mobbin.com/explore"
+        },
+        {
+          "text": "Colors",
+          "href": "https://mobbin.com/colors"
+        },
+        {
+          "text": "Glossary",
+          "href": "https://mobbin.com/glossary"
+        },
+        {
+          "text": "Merch",
+          "href": "https://merch.mobbin.com/"
+        },
+        {
+          "text": "Careers",
+          "href": "https://careers.mobbin.com/"
+        },
+        {
+          "text": "Help center",
+          "href": "https://help.mobbin.com/"
+        },
+        {
+          "text": "Privacy",
+          "href": "https://mobbin.com/privacy"
+        },
+        {
+          "text": "Terms",
+          "href": "https://mobbin.com/terms"
+        },
+        {
+          "text": "Copyright",
+          "href": "https://mobbin.com/copyright"
+        },
+        {
+          "text": "YouTube",
+          "href": "https://www.youtube.com/@mobbindesign"
+        },
+        {
+          "text": "X (Twitter)",
+          "href": "https://x.com/mobbin"
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://linkedin.com/company/mobbin"
+        },
+        {
+          "text": "Read more\nabout cookies",
+          "href": "https://mobbin.com/cookie"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--background-secondary-hover": "0 0% 25% / 10%",
+        "--default-font-feature-settings": "\"dlig\" on, \"ss07\" on, \"calt\" off",
+        "--tw-inset-shadow-alpha": "100%",
+        "--tw-ring-shadow": "0 0 #0000",
+        "--background-tertiary-hover": "0 0% 25% / 12%",
+        "--aspect-video": "16 / 9",
+        "--opacity-gray-16": "0 0% 93% / 16%",
+        "--shadow-image-inset-value": "inset 0 0 0 .5px #0000001a",
+        "--red-60": "18 100% 44%",
+        "--glass-text-disabled": "0 0% 93% / 48%",
+        "--glass-background-quaternary": "0 0% 93% / 24%",
+        "--opacity-black-48": "0 0% 15% / 48%",
+        "--border-negative": "18 100% 44%",
+        "--tw-drop-shadow-alpha": "100%",
+        "--background-negative-secondary": "17 100% 92%",
+        "--background-primary": "0 0% 100%",
+        "--background-inverse": "0 0% 8%",
+        "--green-95": "120 100% 9%",
+        "--opacity-gray-8": "0 0% 93% / 8%",
+        "--glass-border-primary": "0 0% 93% / 88%",
+        "--green-60": "103 79% 35%",
+        "--opacity-black-96": "0 0% 15% / 96%",
+        "--text-on-brand": "0 0% 100%",
+        "--border-disabled": "0 0% 25% / 8%",
+        "--neutral-100": "0 0% 8%",
+        "--tw-outline-style": "solid",
+        "--background-modal": "0 0% 100%",
+        "--neutral-20": "0 0% 86%",
+        "--spacing-12": "12px",
+        "--purple-40": "280 97% 72%",
+        "--glass-background-secondary": "0 0% 93% / 8%",
+        "--blue-5": "205 100% 96%",
+        "--tw-inset-ring-shadow": "0 0 #0000",
+        "--text-link-primary-hover": "212 100% 50%",
+        "--green-70": "107 88% 26%",
+        "--shadow-logo-inset-value": "inset 0 0 0 .5px #0000001a",
+        "--color-text-secondary": "hsl(0 0% 44%)",
+        "--purple-60": "280 56% 49%",
+        "--glass-background-primary-inverse": "0 0% 15% / 48%",
+        "--neutral-40": "0 0% 68%",
+        "--opacity-white-96": "0 0% 100% / 96%",
+        "--text-faded-tertiary": "0 0% 0% / 47%",
+        "--color-overscroll-canvas": "hsl(0 0% 100%)",
+        "--red-80": "9 100% 34%",
+        "--text-on-disabled": "0 0% 68%",
+        "--yellow-10": "47 100% 83%",
+        "--text-link-secondary": "0 0% 8%",
+        "--purple-50": "280 62% 56%",
+        "--yellow-30": "48 100% 50%",
+        "--neutral-90": "0 0% 15%",
+        "--blog-page-background": "hsl(0 0% 100%)",
+        "--opacity-white-88": "0 0% 100% / 88%",
+        "--text-disabled": "0 0% 68%",
+        "--shadow-dropdown": "0 8px 24px #0000001f",
+        "--glass-border-primary-hover": "0 0% 93% / 100%",
+        "--text-warning": "34 100% 27%",
+        "--yellow-40": "46 100% 46%",
+        "--tw-inset-shadow": "0 0 #0000",
+        "--tw-ring-offset-color": "#fff",
+        "--background-positive": "103 79% 35%",
+        "--tw-gradient-from": "rgba(0, 0, 0, 0)",
+        "--red-20": "18 100% 85%",
+        "--opacity-gray-12": "0 0% 93% / 12%",
+        "--neutral-50": "0 0% 53%",
+        "--border-warning": "36 100% 33%",
+        "--tw-shadow-alpha": "100%",
+        "--tw-gradient-to": "rgba(0, 0, 0, 0)",
+        "--divider": "0 0% 25% / 6%",
+        "--border-secondary-hover": "0 0% 25% / 16%",
+        "--blue-90": "226 100% 35%",
+        "--opacity-white-24": "0 0% 100% / 24%",
+        "--text-positive": "107 88% 26%",
+        "--glass-background-tertiary": "0 0% 93% / 16%",
+        "--glass-background-unique-cell-button": "0 0% 46% / 48%",
+        "--font-sans": "\"saans\", \"saans Fallback\"",
+        "--background-quaternary": "0 0% 25% / 16%",
+        "--tw-scale-z": "1",
+        "--glass-background-unique-badge": "0 0% 45% / 56%",
+        "--opacity-black-32": "0 0% 15% / 32%",
+        "--opacity-gray-48": "0 0% 93% / 48%"
+      }
+    }
+  },
+  "scope": "public source reference; not a locally reconstructed component",
+  "http_status": 200,
+  "page_errors": []
+}

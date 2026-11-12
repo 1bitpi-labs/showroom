@@ -1,0 +1,1401 @@
+{
+  "site": "refero.design",
+  "url": "https://refero.design",
+  "captured_at": "2026-11-12T21:10:56.566055+00:00",
+  "views": {
+    "desktop": {
+      "url": "https://refero.design/",
+      "title": "Refero — UI/UX Design Inspiration for Your Next Project",
+      "text": "New research\nWeb apps\niOS apps\nStyles\nPricing\nConnect MCP\nFigma Plugin\nLog In/Sign Up\nConnect MCP\nDesign Research for the AI Era\nReal product screens, flows, and patterns to help designers, builders and AI make better design decisions.\nMeet new research mode\nDescribe your task, get analysis, references, and reasoning back.\nResearch mode\nWeb apps\niOS apps\nStyles\nPopular\nInspiration\nOnboarding\nWorkflows\nData tables with filters\nPaywalls with plan selection\nAI chat with sources and citations\nSaaS landing pages with product screenshots\nCommand palette examples\nSocial media publishing dashboards\nPage Types\nDashboardProduct Page & LandingPaywall & SubscriptionLog InProduct DetailsProfile & Account404 PageCatalog PageBlogAboutCareersContactsDevelopers PageIntegration PageMedia Kit\nMore\nDashboard\nScreens\nFlows\nSigning Up & OnboardingLogging InSubscribingAdding to CartAdding & CreatingChatting & MessagingEditingDeleting AccountResetting PasswordBookingMoney TransferringPersonalizing & CustomizingMedia EditingDesign EditingUploading & Downloading\nMore\nSigning Up & Onboarding\nFlows\nUX Patterns\nTestimonialsFilter & SortingReviews & RatingStatsSearchingChecklist & To DoBilling & PlansPayment MethodDark ModeMoney TransferShoppingTrial & FreemiumActivity & Notification FeedArticle & TextAudio Player\nMore\nTestimonials\nScreens\nUI Elements\nDialog & Modal WindowCards & TilesColor PickerMapTableTabsSkeletonIllustrationLine & Bar ChartFooterNavigation BarSidebar & DrawerToolbar3d IllustrationAnimation\nMore\nDialog & Modal Window\nScreens\nSites\nAI ToolBooksBusinessCollaboration ToolsCommunication ToolsDesign & Media EditingDevelopment ToolsEducationElectronic & DevicesEntertainmentFinanceFitnessFood & DrinkFood DeliveryFundraising\nLog In or Sign Up\nContinue with Google\nor\nContinue with Email\nBy continuing, you agree to our Privacy Policy and Terms of Use.\n\nDesign Research for the AI era\n\nPricing\nRefero MCP\nFigma Plugin\nX / Twitter\nTerms\nPrivacy\n\nHave a question? Contact us: support@refero.design\n\nRefero MCP connects your agent to a curated library of real product interfaces and user flows. It studies before it builds — and the output looks designed, not generated.\nClose\nExplore MCP",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Design Research for the AI Era",
+          "bounds": {
+            "x": 318,
+            "y": 177.65625,
+            "width": 1074,
+            "height": 60
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Title, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif",
+            "fontSize": "50px",
+            "fontWeight": "400",
+            "lineHeight": "60px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Page Types",
+          "bounds": {
+            "x": 359,
+            "y": 1015,
+            "width": 151.75,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Base-Variable, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "500",
+            "lineHeight": "40px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Flows",
+          "bounds": {
+            "x": 359,
+            "y": 2203.546875,
+            "width": 77.53125,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Base-Variable, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "500",
+            "lineHeight": "40px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "UX Patterns",
+          "bounds": {
+            "x": 359,
+            "y": 3669.546875,
+            "width": 153.640625,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Base-Variable, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "500",
+            "lineHeight": "40px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "UI Elements",
+          "bounds": {
+            "x": 359,
+            "y": 4858.09375,
+            "width": 156.515625,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Base-Variable, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "500",
+            "lineHeight": "40px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Sites",
+          "bounds": {
+            "x": 359,
+            "y": 6046.640625,
+            "width": 64.6875,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Base-Variable, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "500",
+            "lineHeight": "40px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "New research",
+          "bounds": {
+            "x": 8,
+            "y": 112,
+            "width": 246,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "Base-Variable, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(19, 21, 27)",
+            "gap": "8px",
+            "padding": "0px 12px",
+            "borderRadius": "12px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "FORM",
+          "role": null,
+          "text": "Research mode\nWeb apps\niOS apps\nStyles",
+          "bounds": {
+            "x": 479,
+            "y": 390.328125,
+            "width": 752,
+            "height": 102
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "Base-Variable, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "500",
+            "lineHeight": "24px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(247, 248, 251)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "24px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 1183,
+            "y": 444.328125,
+            "width": 36,
+            "height": 36
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "Arial",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(221, 223, 234)",
+            "gap": "normal",
+            "padding": "1px 6px",
+            "borderRadius": "50%",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "FORM",
+          "role": null,
+          "text": "Continue with Email",
+          "bounds": {
+            "x": 637,
+            "y": 6542.640625,
+            "width": 436,
+            "height": 88
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "Base-Variable, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "500",
+            "lineHeight": "24px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Continue with Email",
+          "bounds": {
+            "x": 637,
+            "y": 6590.640625,
+            "width": 436,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "Base-Variable, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(19, 21, 27)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "12px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "New research",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "Web apps",
+          "href": "https://refero.design/web-apps"
+        },
+        {
+          "text": "iOS apps",
+          "href": "https://refero.design/ios-apps"
+        },
+        {
+          "text": "Styles",
+          "href": "https://refero.design/styles"
+        },
+        {
+          "text": "Pricing",
+          "href": "https://refero.design/pricing"
+        },
+        {
+          "text": "Connect MCP",
+          "href": "https://refero.design/mcp"
+        },
+        {
+          "text": "Figma Plugin",
+          "href": "https://www.figma.com/community/plugin/1583968086662940972"
+        },
+        {
+          "text": "Log In/Sign Up",
+          "href": "https://refero.design/auth"
+        },
+        {
+          "text": "Connect MCP",
+          "href": "https://refero.design/mcp"
+        },
+        {
+          "text": "Product Hunt 4.916 reviews",
+          "href": "https://www.producthunt.com/products/refero"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "More\nDashboard\nScreens",
+          "href": "https://refero.design/search?page_types[id][]=28&order=trending"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/search/flows?site_id[id][]=undefined&order=trending"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/search/flows?site_id[id][]=undefined&order=trending"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/search/flows?site_id[id][]=undefined&order=trending"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/search/flows?site_id[id][]=undefined&order=trending"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/search/flows?site_id[id][]=undefined&order=trending"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/search/flows?site_id[id][]=undefined&order=trending"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/search/flows?site_id[id][]=undefined&order=trending"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/search/flows?site_id[id][]=undefined&order=trending"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/search/flows?site_id[id][]=undefined&order=trending"
+        },
+        {
+          "text": "More\nSigning Up & Onboarding\nFlows",
+          "href": "https://refero.design/search/flows?flow_types[id][]=1&order=trending"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "More\nTestimonials\nScreens",
+          "href": "https://refero.design/search?design_patterns[id][]=153&order=trending"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "More\nDialog & Modal Window\nScreens",
+          "href": "https://refero.design/search?page_elements[id][]=81&order=trending"
+        },
+        {
+          "text": "Continue with Google",
+          "href": "https://accounts.google.com/o/oauth2/v2/auth?scope=https://www.googleapis.com/auth/userinfo.email%20https://www.googleapis.com/auth/userinfo.profile&access_type=offline&redirect_uri=https://refero.design/auth.html&client_id=55811471039-44n8043r8flmll37u0933r16oostlrjj.apps.googleusercontent.com&response_type=id_token&nonce=2ehd_3jd"
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://doc.refero.design/legal/privacy-policy"
+        },
+        {
+          "text": "Terms of Use",
+          "href": "https://doc.refero.design/legal/terms-of-use"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "Pricing",
+          "href": "https://refero.design/pricing"
+        },
+        {
+          "text": "Refero MCP",
+          "href": "https://refero.design/mcp"
+        },
+        {
+          "text": "Figma Plugin",
+          "href": "https://www.figma.com/community/plugin/1583968086662940972"
+        },
+        {
+          "text": "X / Twitter",
+          "href": "https://x.com/intent/follow?screen_name=referodesign"
+        },
+        {
+          "text": "Terms",
+          "href": "https://doc.refero.design/legal/terms-of-use"
+        },
+        {
+          "text": "Privacy",
+          "href": "https://doc.refero.design/legal/privacy-policy"
+        },
+        {
+          "text": "Explore MCP",
+          "href": "https://refero.design/mcp"
+        }
+      ],
+      "broken_images": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "tokens": {
+        "--fill-base": "rgba(0, 0, 0, 0)"
+      }
+    },
+    "mobile": {
+      "url": "https://refero.design/",
+      "title": "Refero — UI/UX Design Inspiration for Your Next Project",
+      "text": "Connect MCP\nDesign Research for the AI Era\nReal product screens, flows, and patterns to help designers, builders and AI make better design decisions.\nMeet new research mode\nDescribe your task, get analysis, references, and reasoning back.\nresearch\nPage Types\nDashboardProduct Page & LandingPaywall & SubscriptionLog InProduct DetailsProfile & Account404 PageCatalog PageBlogAboutCareersContactsDevelopers PageIntegration PageMedia Kit\nMore\nDashboard\nScreens\nFlows\nSigning Up & OnboardingLogging InSubscribingAdding to CartAdding & CreatingChatting & MessagingEditingDeleting AccountResetting PasswordBookingMoney TransferringPersonalizing & CustomizingMedia EditingDesign EditingUploading & Downloading\nMore\nSigning Up & Onboarding\nFlows\nUX Patterns\nTestimonialsFilter & SortingReviews & RatingStatsSearchingChecklist & To DoBilling & PlansPayment MethodDark ModeMoney TransferShoppingTrial & FreemiumActivity & Notification FeedArticle & TextAudio Player\nMore\nTestimonials\nScreens\nUI Elements\nDialog & Modal WindowCards & TilesColor PickerMapTableTabsSkeletonIllustrationLine & Bar ChartFooterNavigation BarSidebar & DrawerToolbar3d IllustrationAnimation\nMore\nDialog & Modal Window\nScreens\nSites\nAI ToolBooksBusinessCollaboration ToolsCommunication ToolsDesign & Media EditingDevelopment ToolsEducationElectronic & DevicesEntertainmentFinanceFitnessFood & DrinkFood DeliveryFundraising\nLog In or Sign Up\nContinue with Google\nor\nContinue with Email\nBy continuing, you agree to our Privacy Policy and Terms of Use.\n\nDesign Research for the AI era\n\nPricing\nRefero MCP\nFigma Plugin\nX / Twitter\nTerms\nPrivacy\n\nHave a question? Contact us: support@refero.design\n\nRefero MCP connects your agent to a curated library of real product interfaces and user flows. It studies before it builds — and the output looks designed, not generated.\nClose\nExplore MCP",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Design Research for the AI Era",
+          "bounds": {
+            "x": 16,
+            "y": 185.59375,
+            "width": 358,
+            "height": 80
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Title, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif",
+            "fontSize": "34px",
+            "fontWeight": "400",
+            "lineHeight": "40px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Page Types",
+          "bounds": {
+            "x": 57,
+            "y": 1015,
+            "width": 151.75,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Base-Variable, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "500",
+            "lineHeight": "40px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Flows",
+          "bounds": {
+            "x": 57,
+            "y": 1491.828125,
+            "width": 77.53125,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Base-Variable, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "500",
+            "lineHeight": "40px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "UX Patterns",
+          "bounds": {
+            "x": 57,
+            "y": 4840.125,
+            "width": 153.640625,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Base-Variable, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "500",
+            "lineHeight": "40px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "UI Elements",
+          "bounds": {
+            "x": 57,
+            "y": 5316.953125,
+            "width": 156.515625,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Base-Variable, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "500",
+            "lineHeight": "40px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Sites",
+          "bounds": {
+            "x": 57,
+            "y": 5793.78125,
+            "width": 64.6875,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Base-Variable, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "500",
+            "lineHeight": "40px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "FORM",
+          "role": null,
+          "text": "research",
+          "bounds": {
+            "x": 16,
+            "y": 491.203125,
+            "width": 358,
+            "height": 102
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "Base-Variable, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "500",
+            "lineHeight": "24px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(247, 248, 251)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "24px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 326,
+            "y": 545.203125,
+            "width": 36,
+            "height": 36
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "Arial",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(221, 223, 234)",
+            "gap": "normal",
+            "padding": "1px 6px",
+            "borderRadius": "50%",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "FORM",
+          "role": null,
+          "text": "Continue with Email",
+          "bounds": {
+            "x": 40,
+            "y": 6177.78125,
+            "width": 310,
+            "height": 88
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "Base-Variable, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "500",
+            "lineHeight": "24px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Continue with Email",
+          "bounds": {
+            "x": 40,
+            "y": 6225.78125,
+            "width": 310,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "Base-Variable, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(19, 21, 27)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "12px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "New research",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "Web apps",
+          "href": "https://refero.design/web-apps"
+        },
+        {
+          "text": "iOS apps",
+          "href": "https://refero.design/ios-apps"
+        },
+        {
+          "text": "Styles",
+          "href": "https://refero.design/styles"
+        },
+        {
+          "text": "Pricing",
+          "href": "https://refero.design/pricing"
+        },
+        {
+          "text": "Connect MCP",
+          "href": "https://refero.design/mcp"
+        },
+        {
+          "text": "Figma Plugin",
+          "href": "https://www.figma.com/community/plugin/1583968086662940972"
+        },
+        {
+          "text": "Log In/Sign Up",
+          "href": "https://refero.design/auth"
+        },
+        {
+          "text": "Connect MCP",
+          "href": "https://refero.design/mcp"
+        },
+        {
+          "text": "Product Hunt 4.916 reviews",
+          "href": "https://www.producthunt.com/products/refero"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "More\nDashboard\nScreens",
+          "href": "https://refero.design/search?page_types[id][]=28&order=trending"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/search/flows?site_id[id][]=undefined&order=trending"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/search/flows?site_id[id][]=undefined&order=trending"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/search/flows?site_id[id][]=undefined&order=trending"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/search/flows?site_id[id][]=undefined&order=trending"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/search/flows?site_id[id][]=undefined&order=trending"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/search/flows?site_id[id][]=undefined&order=trending"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/search/flows?site_id[id][]=undefined&order=trending"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/search/flows?site_id[id][]=undefined&order=trending"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/search/flows?site_id[id][]=undefined&order=trending"
+        },
+        {
+          "text": "More\nSigning Up & Onboarding\nFlows",
+          "href": "https://refero.design/search/flows?flow_types[id][]=1&order=trending"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "More\nTestimonials\nScreens",
+          "href": "https://refero.design/search?design_patterns[id][]=153&order=trending"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "More\nDialog & Modal Window\nScreens",
+          "href": "https://refero.design/search?page_elements[id][]=81&order=trending"
+        },
+        {
+          "text": "Continue with Google",
+          "href": "https://accounts.google.com/o/oauth2/v2/auth?scope=https://www.googleapis.com/auth/userinfo.email%20https://www.googleapis.com/auth/userinfo.profile&access_type=offline&redirect_uri=https://refero.design/auth.html&client_id=55811471039-44n8043r8flmll37u0933r16oostlrjj.apps.googleusercontent.com&response_type=id_token&nonce=2ehd_3jd"
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://doc.refero.design/legal/privacy-policy"
+        },
+        {
+          "text": "Terms of Use",
+          "href": "https://doc.refero.design/legal/terms-of-use"
+        },
+        {
+          "text": "",
+          "href": "https://refero.design/"
+        },
+        {
+          "text": "Pricing",
+          "href": "https://refero.design/pricing"
+        },
+        {
+          "text": "Refero MCP",
+          "href": "https://refero.design/mcp"
+        },
+        {
+          "text": "Figma Plugin",
+          "href": "https://www.figma.com/community/plugin/1583968086662940972"
+        },
+        {
+          "text": "X / Twitter",
+          "href": "https://x.com/intent/follow?screen_name=referodesign"
+        },
+        {
+          "text": "Terms",
+          "href": "https://doc.refero.design/legal/terms-of-use"
+        },
+        {
+          "text": "Privacy",
+          "href": "https://doc.refero.design/legal/privacy-policy"
+        },
+        {
+          "text": "Explore MCP",
+          "href": "https://refero.design/mcp"
+        }
+      ],
+      "broken_images": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "tokens": {
+        "--fill-base": "rgba(0, 0, 0, 0)"
+      }
+    }
+  },
+  "scope": "public source reference; not a locally reconstructed component",
+  "http_status": 200,
+  "page_errors": []
+}

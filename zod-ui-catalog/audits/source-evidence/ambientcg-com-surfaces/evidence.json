@@ -1,0 +1,2600 @@
+{
+  "site": "ambientcg.com",
+  "url": "https://ambientcg.com/list?type=material,atlas,decal",
+  "captured_at": "2026-11-12T21:13:13.555032+00:00",
+  "views": {
+    "desktop": {
+      "url": "https://ambientcg.com/list?type=material%2Cdecal%2Catlas&sort=popular",
+      "title": "Search | ambientCG",
+      "text": "All Assets\nSurfaces\nEnvironments\nSubstances\n3D\nSupporter Login\nLicense\nDocs\nGallery\n3D\nassets\n.\none\nKeywords\nstoneroughnaturalsmoothbrowngraybricksurbanbeigegroundwoodoldcleanfloorwhite\nType & Category\n↺\nSpecial Techniques\nColor\nCollection\nDisplay & Sort\nGet even more out of ambientCG, starting at 1€/month.\n\nEnjoy ad-free browsing, early asset access, unlimited syncing via Blender or Nextcloud, .sbs project files, news and updates.\n\nFound 2229 Assets\nLoading results...",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Get even more out of ambientCG, starting at 1€/month.",
+          "bounds": {
+            "x": 376,
+            "y": 119.4375,
+            "width": 890.328125,
+            "height": 39
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "HEADER",
+          "role": null,
+          "text": "All Assets\nSurfaces\nEnvironments\nSubstances\n3D\nSupporter Login\nLicense\nDocs\nGallery\n3D\nassets\n.\none",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 42
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "role": null,
+          "text": "Keywords\nstoneroughnaturalsmoothbrowngraybricksurbanbeigegroundwoodoldcleanfloorwhite\nType & Category\n↺\nSpecial Techniques\nColor\nCollection\n",
+          "bounds": {
+            "x": 0,
+            "y": 42,
+            "width": 1440,
+            "height": 6298.875
+          },
+          "styles": {
+            "display": "grid",
+            "position": "relative",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "320px 1120px"
+          }
+        },
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "Keywords\nstoneroughnaturalsmoothbrowngraybricksurbanbeigegroundwoodoldcleanfloorwhite\nType & Category\n↺\nSpecial Techniques\nColor\nCollection\n",
+          "bounds": {
+            "x": 0,
+            "y": 42,
+            "width": 320,
+            "height": 678
+          },
+          "styles": {
+            "display": "block",
+            "position": "sticky",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 320,
+            "y": 42,
+            "width": 25,
+            "height": 27
+          },
+          "styles": {
+            "display": "block",
+            "position": "absolute",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(102, 102, 102)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "1px 6px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "FORM",
+          "role": null,
+          "text": "Keywords\nstoneroughnaturalsmoothbrowngraybricksurbanbeigegroundwoodoldcleanfloorwhite\nType & Category\n↺\nSpecial Techniques\nColor\nCollection\n",
+          "bounds": {
+            "x": 0,
+            "y": 42,
+            "width": 320,
+            "height": 678
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "8px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "stone",
+          "bounds": {
+            "x": 11,
+            "y": 108,
+            "width": 42.5625,
+            "height": 26
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "rough",
+          "bounds": {
+            "x": 59.5625,
+            "y": 108,
+            "width": 44.421875,
+            "height": 26
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "natural",
+          "bounds": {
+            "x": 109.984375,
+            "y": 108,
+            "width": 51.84375,
+            "height": 26
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "smooth",
+          "bounds": {
+            "x": 167.828125,
+            "y": 108,
+            "width": 53.9375,
+            "height": 26
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "brown",
+          "bounds": {
+            "x": 227.765625,
+            "y": 108,
+            "width": 47.859375,
+            "height": 26
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "gray",
+          "bounds": {
+            "x": 11,
+            "y": 140,
+            "width": 35.296875,
+            "height": 26
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "bricks",
+          "bounds": {
+            "x": 52.296875,
+            "y": 140,
+            "width": 45.234375,
+            "height": 26
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "urban",
+          "bounds": {
+            "x": 103.53125,
+            "y": 140,
+            "width": 44.40625,
+            "height": 26
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "beige",
+          "bounds": {
+            "x": 153.9375,
+            "y": 140,
+            "width": 41.65625,
+            "height": 26
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "ground",
+          "bounds": {
+            "x": 201.59375,
+            "y": 140,
+            "width": 51.875,
+            "height": 26
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "wood",
+          "bounds": {
+            "x": 259.46875,
+            "y": 140,
+            "width": 42.484375,
+            "height": 26
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "old",
+          "bounds": {
+            "x": 11,
+            "y": 172,
+            "width": 28.28125,
+            "height": 26
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "clean",
+          "bounds": {
+            "x": 45.28125,
+            "y": 172,
+            "width": 40.796875,
+            "height": 26
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "floor",
+          "bounds": {
+            "x": 92.078125,
+            "y": 172,
+            "width": 38.109375,
+            "height": 26
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "white",
+          "bounds": {
+            "x": 136.1875,
+            "y": 172,
+            "width": 43,
+            "height": 26
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "↺",
+          "bounds": {
+            "x": 283.03515625,
+            "y": 217.5,
+            "width": 34.7578125,
+            "height": 27
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "1px 6px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 162.484375,
+            "y": 439,
+            "width": 149.515625,
+            "height": 25
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(102, 102, 102)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "6px 6px 3px 12px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 8,
+            "y": 373,
+            "width": 20,
+            "height": 20
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(229, 57, 57)",
+            "gap": "normal",
+            "padding": "1px 6px",
+            "borderRadius": "100%",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 43.5,
+            "y": 373,
+            "width": 20,
+            "height": 20
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(229, 229, 57)",
+            "gap": "normal",
+            "padding": "1px 6px",
+            "borderRadius": "100%",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://ambientcg.com/"
+        },
+        {
+          "text": "All Assets",
+          "href": "https://ambientcg.com/list"
+        },
+        {
+          "text": "Surfaces",
+          "href": "https://ambientcg.com/list?type=material,atlas,decal"
+        },
+        {
+          "text": "Environments",
+          "href": "https://ambientcg.com/list?type=hdri,hdri-element"
+        },
+        {
+          "text": "Substances",
+          "href": "https://ambientcg.com/list?type=substance"
+        },
+        {
+          "text": "3D",
+          "href": "https://ambientcg.com/list?type=3d-model,terrain"
+        },
+        {
+          "text": "Supporter Login",
+          "href": "https://ambientcg.com/activate"
+        },
+        {
+          "text": "License",
+          "href": "https://docs.ambientcg.com/license"
+        },
+        {
+          "text": "Docs",
+          "href": "https://docs.ambientcg.com/"
+        },
+        {
+          "text": "Gallery",
+          "href": "https://ambientcg.com/gallery"
+        },
+        {
+          "text": "3D\nassets\n.\none",
+          "href": "https://3dassets.one/"
+        },
+        {
+          "text": "",
+          "href": "https://ko-fi.com/ambientCG"
+        },
+        {
+          "text": "",
+          "href": "https://patreon.com/ambientcg"
+        },
+        {
+          "text": "",
+          "href": "https://mastodon.social/@ambientcg"
+        },
+        {
+          "text": "",
+          "href": "https://bsky.app/profile/ambientcg.com"
+        },
+        {
+          "text": "",
+          "href": "https://artstation.com/ambientcg"
+        },
+        {
+          "text": "",
+          "href": "https://instagram.com/ambientCG"
+        },
+        {
+          "text": "Get even more out of ambientCG, starting at 1€/month.\n\nEnjoy ad-free b",
+          "href": "https://www.patreon.com/ambientCG"
+        },
+        {
+          "text": "",
+          "href": "https://www.patreon.com/ambientCG"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Concrete049"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Planks040"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=PavingStones152"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Fabric086"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks113A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bark016"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Wood096"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Fabric085"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Fabric084"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks105"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks106A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Ground111"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks108A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Clay005"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Asphalt033"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Ground110"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Ground112"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks109A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Tiles141"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Wood095"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Ground109"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks112A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Ground108"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks107A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks111A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=PavingStones151"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks108B"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Clay006"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Clay007"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks109B"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Grass005"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Metal063"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Rock064"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks113B"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks110A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Tiles139"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Clay009"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Ground106"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Tiles143"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks111B"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Gravel043"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks107B"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks106B"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks112B"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Clay008"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks110B"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Ground103"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=CorrugatedSteel009"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Concrete048"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=ScatteredLeaves009"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=GraffitiSet001"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Ground107"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Wood094"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=WoodFloor051"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Tiles140"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Concrete034"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Wood092"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Rock063"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks104"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Metal049A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Road012A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Grass004"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Tiles142"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Grass001"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=WoodFloor064"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Wood051"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Asphalt031"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Marble012"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Ground037"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=PavingStones150"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Metal055A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Carpet016"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Road007"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Concrete047A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Onyx015"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Metal046B"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Plaster001"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Wood066"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Wood049"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks097"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Tiles144"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Ground054"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Concrete046"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Travertine009"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Metal048A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Rock058"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=PaintedPlaster017"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Concrete042A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Tiles138"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Tiles107"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Snow015"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Road008A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Marble016"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=WoodFloor070"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=PavingStones138"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Rubber004"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bark014"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks102"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Ground080"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Metal032"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Wood058"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=ManholeCover011"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Ground068"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Fabric081C"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks101"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks075A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Ground048"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Snow014"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Road013A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Fabric061"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Fabric083"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Road012B"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Wood067"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=WoodFloor043"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Marble021"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Plaster007"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Concrete031"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Metal061B"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Rock051"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Wallpaper001A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Wood060"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Marble006"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Plastic013A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Fabric066"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Ground104"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Grass008"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Metal041A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Planks037A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Wood048"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Rock060"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Fabric030"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Metal053C"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks085"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=RoofingTiles013A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Ground093C"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=WoodFloor040"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Metal050A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Wood026"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Onyx013"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Road009C"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--reduced-width": "max(calc(100% - 300px), 1100px)",
+        "--accent-3": "#92CEEE",
+        "--accent-2": "#116DD5",
+        "--header-height": "30px",
+        "--accent-1": "#0F2C59",
+        "--accent-4": "#d3d6e9",
+        "--text": "#2a2a2a",
+        "--accent-5": "#edf0f8",
+        "--global-width": "100%",
+        "--text-active": "#ffffff",
+        "--text-subtle": "#666666",
+        "--text-subtle-active": "#999999",
+        "--label-new": "#116DD5",
+        "--label-early": "red",
+        "--bg": "#ffffff"
+      }
+    },
+    "mobile": {
+      "url": "https://ambientcg.com/list?type=material%2Cdecal%2Catlas&sort=popular",
+      "title": "Search | ambientCG",
+      "text": "Keywords\nstoneroughnaturalsmoothbrowngraybricksurbanbeigegroundwoodoldcleanfloorwhite\nType & Category\n↺\nSpecial Techniques\nColor\nCollection\nDisplay & Sort\nGet even more out of ambientCG, starting at 1€/month.\n\nEnjoy ad-free browsing, early asset access, unlimited syncing via Blender or Nextcloud, .sbs project files, news and updates.\n\nFound 2229 Assets\nLoading results...",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Get even more out of ambientCG, starting at 1€/month.",
+          "bounds": {
+            "x": 240.21875,
+            "y": 130.3125,
+            "width": 170.078125,
+            "height": 195
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "HEADER",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 52.875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 52,
+            "height": 50.875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "40px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "1px 6px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "role": null,
+          "text": "Keywords\nstoneroughnaturalsmoothbrowngraybricksurbanbeigegroundwoodoldcleanfloorwhite\nType & Category\n↺\nSpecial Techniques\nColor\nCollection\n",
+          "bounds": {
+            "x": 0,
+            "y": 52.875,
+            "width": 390,
+            "height": 30474.875
+          },
+          "styles": {
+            "display": "grid",
+            "position": "relative",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "292.5px 97.5px"
+          }
+        },
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "Keywords\nstoneroughnaturalsmoothbrowngraybricksurbanbeigegroundwoodoldcleanfloorwhite\nType & Category\n↺\nSpecial Techniques\nColor\nCollection\n",
+          "bounds": {
+            "x": 0,
+            "y": 52.875,
+            "width": 292.5,
+            "height": 678
+          },
+          "styles": {
+            "display": "block",
+            "position": "sticky",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 292.5,
+            "y": 52.875,
+            "width": 25,
+            "height": 27
+          },
+          "styles": {
+            "display": "block",
+            "position": "absolute",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(102, 102, 102)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "1px 6px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "FORM",
+          "role": null,
+          "text": "Keywords\nstoneroughnaturalsmoothbrowngraybricksurbanbeigegroundwoodoldcleanfloorwhite\nType & Category\n↺\nSpecial Techniques\nColor\nCollection\n",
+          "bounds": {
+            "x": 0,
+            "y": 52.875,
+            "width": 292.5,
+            "height": 678
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "8px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "stone",
+          "bounds": {
+            "x": 11,
+            "y": 118.875,
+            "width": 42.5625,
+            "height": 26
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "rough",
+          "bounds": {
+            "x": 59.5625,
+            "y": 118.875,
+            "width": 44.421875,
+            "height": 26
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "natural",
+          "bounds": {
+            "x": 109.984375,
+            "y": 118.875,
+            "width": 51.84375,
+            "height": 26
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "smooth",
+          "bounds": {
+            "x": 167.828125,
+            "y": 118.875,
+            "width": 53.9375,
+            "height": 26
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "brown",
+          "bounds": {
+            "x": 227.765625,
+            "y": 118.875,
+            "width": 47.859375,
+            "height": 26
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "gray",
+          "bounds": {
+            "x": 11,
+            "y": 150.875,
+            "width": 35.296875,
+            "height": 26
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "bricks",
+          "bounds": {
+            "x": 52.296875,
+            "y": 150.875,
+            "width": 45.234375,
+            "height": 26
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "urban",
+          "bounds": {
+            "x": 103.53125,
+            "y": 150.875,
+            "width": 44.40625,
+            "height": 26
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "beige",
+          "bounds": {
+            "x": 153.9375,
+            "y": 150.875,
+            "width": 41.65625,
+            "height": 26
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "ground",
+          "bounds": {
+            "x": 201.59375,
+            "y": 150.875,
+            "width": 51.875,
+            "height": 26
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "wood",
+          "bounds": {
+            "x": 11,
+            "y": 182.875,
+            "width": 42.484375,
+            "height": 26
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "old",
+          "bounds": {
+            "x": 59.484375,
+            "y": 182.875,
+            "width": 28.28125,
+            "height": 26
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "clean",
+          "bounds": {
+            "x": 93.765625,
+            "y": 182.875,
+            "width": 40.796875,
+            "height": 26
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "floor",
+          "bounds": {
+            "x": 140.5625,
+            "y": 182.875,
+            "width": 38.109375,
+            "height": 26
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "white",
+          "bounds": {
+            "x": 184.671875,
+            "y": 182.875,
+            "width": 43,
+            "height": 26
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "↺",
+          "bounds": {
+            "x": 255.53515625,
+            "y": 228.375,
+            "width": 34.7578125,
+            "height": 27
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "1px 6px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 134.984375,
+            "y": 449.875,
+            "width": 149.515625,
+            "height": 25
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(102, 102, 102)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "6px 6px 3px 12px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 8,
+            "y": 383.875,
+            "width": 20,
+            "height": 20
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(229, 57, 57)",
+            "gap": "normal",
+            "padding": "1px 6px",
+            "borderRadius": "100%",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "\n\t\t\t\t\t\t\n\t\t\t\t\t",
+          "href": "https://ambientcg.com/"
+        },
+        {
+          "text": "All Assets",
+          "href": "https://ambientcg.com/list"
+        },
+        {
+          "text": "Surfaces",
+          "href": "https://ambientcg.com/list?type=material,atlas,decal"
+        },
+        {
+          "text": "Environments",
+          "href": "https://ambientcg.com/list?type=hdri,hdri-element"
+        },
+        {
+          "text": "Substances",
+          "href": "https://ambientcg.com/list?type=substance"
+        },
+        {
+          "text": "3D",
+          "href": "https://ambientcg.com/list?type=3d-model,terrain"
+        },
+        {
+          "text": "Supporter Login",
+          "href": "https://ambientcg.com/activate"
+        },
+        {
+          "text": "License",
+          "href": "https://docs.ambientcg.com/license"
+        },
+        {
+          "text": "Docs",
+          "href": "https://docs.ambientcg.com/"
+        },
+        {
+          "text": "Gallery",
+          "href": "https://ambientcg.com/gallery"
+        },
+        {
+          "text": "\n\t\t\t\t\t\t3Dassets.one\n\t\t\t\t\t",
+          "href": "https://3dassets.one/"
+        },
+        {
+          "text": "\n                \n            ",
+          "href": "https://ko-fi.com/ambientCG"
+        },
+        {
+          "text": "\n\t\t\t\t\n            ",
+          "href": "https://patreon.com/ambientcg"
+        },
+        {
+          "text": "\n                \n            ",
+          "href": "https://mastodon.social/@ambientcg"
+        },
+        {
+          "text": "\n \t\t\n\t\t",
+          "href": "https://bsky.app/profile/ambientcg.com"
+        },
+        {
+          "text": "\n                \n            ",
+          "href": "https://artstation.com/ambientcg"
+        },
+        {
+          "text": "\n                \n            ",
+          "href": "https://instagram.com/ambientCG"
+        },
+        {
+          "text": "Get even more out of ambientCG, starting at 1€/month.\n\nEnjoy ad-free b",
+          "href": "https://www.patreon.com/ambientCG"
+        },
+        {
+          "text": "",
+          "href": "https://www.patreon.com/ambientCG"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Concrete049"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Planks040"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=PavingStones152"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Fabric086"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks113A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bark016"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Wood096"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Fabric085"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Fabric084"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks105"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks106A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Ground111"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks108A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Clay005"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Asphalt033"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Ground110"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Ground112"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks109A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Tiles141"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Wood095"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Ground109"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks112A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Ground108"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks107A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks111A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=PavingStones151"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks108B"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Clay006"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Clay007"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks109B"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Grass005"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Metal063"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Rock064"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks113B"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks110A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Tiles139"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Clay009"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Ground106"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Tiles143"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks111B"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Gravel043"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks107B"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks106B"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks112B"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Clay008"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks110B"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Ground103"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=CorrugatedSteel009"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Concrete048"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=ScatteredLeaves009"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=GraffitiSet001"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Ground107"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Wood094"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=WoodFloor051"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Tiles140"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Concrete034"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Wood092"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Rock063"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks104"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Metal049A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Road012A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Grass004"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Tiles142"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Grass001"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=WoodFloor064"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Wood051"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Asphalt031"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Marble012"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Ground037"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=PavingStones150"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Metal055A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Carpet016"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Road007"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Concrete047A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Onyx015"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Metal046B"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Plaster001"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Wood066"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Wood049"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks097"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Tiles144"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Ground054"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Concrete046"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Travertine009"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Metal048A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Rock058"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=PaintedPlaster017"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Concrete042A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Tiles138"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Tiles107"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Snow015"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Road008A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Marble016"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=WoodFloor070"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=PavingStones138"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Rubber004"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bark014"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks102"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Ground080"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Metal032"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Wood058"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=ManholeCover011"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Ground068"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Fabric081C"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks101"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks075A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Ground048"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Snow014"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Road013A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Fabric061"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Fabric083"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Road012B"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Wood067"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=WoodFloor043"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Marble021"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Plaster007"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Concrete031"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Metal061B"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Rock051"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Wallpaper001A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Wood060"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Marble006"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Plastic013A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Fabric066"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Ground104"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Grass008"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Metal041A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Planks037A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Wood048"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Rock060"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Fabric030"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Metal053C"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Bricks085"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=RoofingTiles013A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Ground093C"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=WoodFloor040"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Metal050A"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Wood026"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Onyx013"
+        },
+        {
+          "text": "",
+          "href": "https://ambientcg.com/view?id=Road009C"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--reduced-width": "max(calc(100% - 300px), 1100px)",
+        "--accent-3": "#92CEEE",
+        "--accent-2": "#116DD5",
+        "--header-height": "30px",
+        "--accent-1": "#0F2C59",
+        "--accent-4": "#d3d6e9",
+        "--text": "#2a2a2a",
+        "--accent-5": "#edf0f8",
+        "--global-width": "100%",
+        "--text-active": "#ffffff",
+        "--text-subtle": "#666666",
+        "--text-subtle-active": "#999999",
+        "--label-new": "#116DD5",
+        "--label-early": "red",
+        "--bg": "#ffffff"
+      }
+    }
+  },
+  "scope": "public source reference; not a locally reconstructed component",
+  "http_status": 200,
+  "page_errors": []
+}

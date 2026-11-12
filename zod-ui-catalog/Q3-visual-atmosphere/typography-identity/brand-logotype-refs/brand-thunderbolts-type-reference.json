@@ -1,0 +1,76 @@
+{
+  "id": "brand-thunderbolts-type-reference",
+  "location": {
+    "quadrant": "Q3-visual-atmosphere",
+    "category": "typography-identity",
+    "section": "brand-logotype-refs",
+    "file_path": "Q3-visual-atmosphere/typography-identity/brand-logotype-refs/brand-thunderbolts-type-reference.json"
+  },
+  "tier": "C",
+  "tier_audit": {
+    "visual_verified": true,
+    "verification_scope": "source screenshots only; not local implementation fidelity",
+    "fidelity_type": "visual_spec",
+    "responsive_score": null,
+    "audit_notes": [
+      "Tier C: reference/spec, not ready-to-use code.",
+      "Source DOM measurements may describe gallery chrome, not the referenced product.",
+      "Keyboard, contrast and animation timing not certified."
+    ],
+    "evidence": [
+      "audits/source-evidence/fontinlogo-com-thunderbolts/evidence.json",
+      "previews/brand-thunderbolts-type-reference/desktop.png",
+      "previews/brand-thunderbolts-type-reference/mobile.png"
+    ],
+    "source_observations": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "page_horizontal_overflow": false,
+        "broken_images": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "page_horizontal_overflow": false,
+        "broken_images": []
+      }
+    }
+  },
+  "source_site": "fontinlogo.com",
+  "source_url": "https://www.fontinlogo.com/famous-fonts/thunderbolts-font",
+  "license": {
+    "status": "reference_only_not_code_license",
+    "redistribution": "No source code or original downloadable assets included; screenshots are research evidence."
+  },
+  "stack_compatibility": [
+    "framework-agnostic-spec"
+  ],
+  "style_tags": [
+    "brand-logotype-refs"
+  ],
+  "artifact": {
+    "type": "visual_spec",
+    "spec": "Referência tipográfica da ficha Thunderbolts. Não atribuir equivalência exata entre uma fonte alternativa e lettering de marca; licença de fonte e direitos de marca são verificações separadas. Não foram copiados logos ou arquivos de fontes.",
+    "observed_headings": [
+      "Thunderbolts Font Generator",
+      "CUSTOMIZE & DOWNLOAD",
+      "THUNDERBOLTS BY THE NUMBERS",
+      "About the Thunderbolts font",
+      "Frequently\nasked questions"
+    ],
+    "source_dom_evidence": "audits/source-evidence/fontinlogo-com-thunderbolts/evidence.json",
+    "states": {
+      "desktop": "captured",
+      "mobile": "captured",
+      "hover": "not audited",
+      "focus": "not audited",
+      "active": "not audited",
+      "disabled": "not audited"
+    }
+  }
+}

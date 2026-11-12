@@ -1,0 +1,141 @@
+{
+  "id": "shadcn-accordion",
+  "source_url": "https://ui.shadcn.com/view/new-york-v4/accordion-demo",
+  "views": {
+    "desktop": {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "source_http_status": 200,
+      "source_surface_bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 230
+      },
+      "source_style": {
+        "fontFamily": "Geist, \"Geist Fallback\"",
+        "fontSize": "16px",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "local_http_status": 200,
+      "local_style": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "16px",
+        "borderRadius": "0px",
+        "color": "oklch(0.145 0 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "horizontal_overflow": false,
+      "comparison": {
+        "comparable": true,
+        "original_sizes": [
+          [
+            710,
+            270
+          ],
+          [
+            710,
+            270
+          ]
+        ],
+        "common_raster_size": [
+          710,
+          270
+        ],
+        "pixel_similarity": 0.9646676690498839,
+        "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+      },
+      "original_intrinsic_comparison": {
+        "comparable": false,
+        "original_sizes": [
+          [
+            1440,
+            230
+          ],
+          [
+            710,
+            270
+          ]
+        ],
+        "reason": "Different intrinsic size; no resizing for score."
+      },
+      "reference_host_width_normalized_to_local": 710,
+      "state_checks": [
+        "Enter changes aria-expanded"
+      ],
+      "runtime_errors": []
+    },
+    "mobile": {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "source_http_status": 200,
+      "source_surface_bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 310
+      },
+      "source_style": {
+        "fontFamily": "Geist, \"Geist Fallback\"",
+        "fontSize": "16px",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "local_http_status": 200,
+      "local_style": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "16px",
+        "borderRadius": "0px",
+        "color": "oklch(0.145 0 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "horizontal_overflow": false,
+      "comparison": {
+        "comparable": true,
+        "original_sizes": [
+          [
+            308,
+            330
+          ],
+          [
+            308,
+            330
+          ]
+        ],
+        "common_raster_size": [
+          308,
+          330
+        ],
+        "pixel_similarity": 0.933115918543726,
+        "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+      },
+      "original_intrinsic_comparison": {
+        "comparable": false,
+        "original_sizes": [
+          [
+            390,
+            310
+          ],
+          [
+            308,
+            330
+          ]
+        ],
+        "reason": "Different intrinsic size; no resizing for score."
+      },
+      "reference_host_width_normalized_to_local": 308,
+      "state_checks": [
+        "Enter changes aria-expanded"
+      ],
+      "runtime_errors": []
+    }
+  },
+  "classification": "pending manual review"
+}

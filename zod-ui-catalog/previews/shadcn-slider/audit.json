@@ -1,0 +1,141 @@
+{
+  "id": "shadcn-slider",
+  "source_url": "https://ui.shadcn.com/view/new-york-v4/slider-demo",
+  "views": {
+    "desktop": {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "source_http_status": 200,
+      "source_surface_bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 864,
+        "height": 6
+      },
+      "source_style": {
+        "fontFamily": "Geist, \"Geist Fallback\"",
+        "fontSize": "16px",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "local_http_status": 200,
+      "local_style": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "16px",
+        "borderRadius": "0px",
+        "color": "oklch(0.145 0 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "horizontal_overflow": false,
+      "comparison": {
+        "comparable": true,
+        "original_sizes": [
+          [
+            426,
+            6
+          ],
+          [
+            426,
+            6
+          ]
+        ],
+        "common_raster_size": [
+          426,
+          6
+        ],
+        "pixel_similarity": 0.9563472337291724,
+        "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+      },
+      "original_intrinsic_comparison": {
+        "comparable": false,
+        "original_sizes": [
+          [
+            864,
+            6
+          ],
+          [
+            426,
+            6
+          ]
+        ],
+        "reason": "Different intrinsic size; no resizing for score."
+      },
+      "reference_host_width_normalized_to_local": 426,
+      "state_checks": [
+        "ArrowRight changes aria-valuenow"
+      ],
+      "runtime_errors": []
+    },
+    "mobile": {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "source_http_status": 200,
+      "source_surface_bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 234,
+        "height": 6
+      },
+      "source_style": {
+        "fontFamily": "Geist, \"Geist Fallback\"",
+        "fontSize": "16px",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "local_http_status": 200,
+      "local_style": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "16px",
+        "borderRadius": "0px",
+        "color": "oklch(0.145 0 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "horizontal_overflow": false,
+      "comparison": {
+        "comparable": true,
+        "original_sizes": [
+          [
+            185,
+            6
+          ],
+          [
+            186,
+            6
+          ]
+        ],
+        "common_raster_size": [
+          185,
+          6
+        ],
+        "pixel_similarity": 0.9420985691573927,
+        "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+      },
+      "original_intrinsic_comparison": {
+        "comparable": false,
+        "original_sizes": [
+          [
+            234,
+            6
+          ],
+          [
+            186,
+            6
+          ]
+        ],
+        "reason": "Different intrinsic size; no resizing for score."
+      },
+      "reference_host_width_normalized_to_local": 184.796875,
+      "state_checks": [
+        "ArrowRight changes aria-valuenow"
+      ],
+      "runtime_errors": []
+    }
+  },
+  "classification": "pending manual review"
+}

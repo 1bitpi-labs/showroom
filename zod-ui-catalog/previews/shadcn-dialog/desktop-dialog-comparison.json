@@ -1,0 +1,19 @@
+{
+  "comparable": true,
+  "original_sizes": [
+    [
+      426,
+      324
+    ],
+    [
+      426,
+      324
+    ]
+  ],
+  "common_raster_size": [
+    426,
+    324
+  ],
+  "pixel_similarity": 0.9798005859736811,
+  "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+}

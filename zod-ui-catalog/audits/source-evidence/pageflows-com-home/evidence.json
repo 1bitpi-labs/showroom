@@ -1,0 +1,2578 @@
+{
+  "site": "pageflows.com",
+  "url": "https://pageflows.com",
+  "captured_at": "2026-11-12T21:10:50.759860+00:00",
+  "views": {
+    "desktop": {
+      "url": "https://pageflows.com/",
+      "title": "UI/UX Design Inspiration & User Flows from Top Apps — Page Flows",
+      "text": "iOS\nAndroid\nWeb\nEmails\nLogin\nTry 3 Days\n\nSupporting over 100,000+ designers worldwide\n\nUI/UX Inspiration from Real User Flows\n\nExplore real-world user flows and design patterns from leading apps and websites.\n\nTry 3 Days\nExplore Flows\n \n \n \n \n \nTrusted by 10,000+ brands\nWhy Choose Page Flows?\nReal-World User Flow Examples\n\nGain insights into the user experiences of popular apps and websites. Browse through user onboarding processes, login pages, checkouts, search flows, and more to enhance your own designs.\n\nScreen Recordings & Annotations\n\nWatch detailed screen recordings with step-by-step annotations highlighting key UI/UX design elements & interactions. Understand exactly how top companies guide users through their digital experiences.\n\nFilter and Search with Ease\n\nQuickly find the screen flows you need with powerful\nfiltering options for categories, industries, and UX patterns.\nSave time by accessing precisely what you’re looking for\nwith just a few clicks.\n\nLearn from the Best\n\nAccess a curated library of UX flows from top companies like Airbnb, Dropbox, and Slack. Discover how market leaders design intuitive, user-friendly experiences and apply these insights to your projects.\n\nPage Flows Empowers UX Research for All\n\nDiscover how leading brands design, test, and implement user experiences, and apply these proven strategies to your UI/UX designs.\n\nUX & UI Inspiration for\nDesigners\n\nPage Flows showcases visual examples & case studies from industry leaders, helping create intuitive, engaging, & high-converting user interfaces & experiences.\n\nRefine the User Journey for\nProduct Managers\n\nLeverage Page Flows to uncover best practices for optimizing product onboarding, enhancing conversion funnels, & improving customer retention.\n\nPerfect App Flows for\nDevelopers\n\nPage Flows equips developers with actionable insights & step-by-step examples to fine-tune UX design elements & ensure seamless app performance.\n\nTrusted by Designers and\nProduct Teams Worldwide\n\nPage Flows is an absolutely essential tool for product designers and founders!\n\nC\nChris S.\n\nFounder\n\nJust found Page Flows, they literally have vids of proven and successful website user flows.\n\nIt’s not free but ideal for anyone stuck on things like user onboarding or user journeys.\n\nJ\nJack O.\n\nDesigner\n\nCan’t say it enough: love love love Page Flows for real-life design inspiration. Massive timesaver.\n\nJ\nJane P.\n\nDesigner\n\nI find pageflows.com to be a really helpful resource for finding interaction design inspiration. They capture user flows from a wide range of web and mobile applications and patterns.\n\nS\nShankar S.\n\nUX/UI Designer\n\nToday I found that someone has recorded themself over 2,000 times going through different user flows on various apps and made them all available for $99 a year.\n\nThank you Page Flows! This is a real timeaver!\n\nM\nMatt N.\n\nUX/UI Designer\n\nThis is one product -- done well.\n\nA\nAazar S.\n\nUI/UX Designer\n\nPage Flows has been a game changer for our design team. The ability to see how top companies craft their experiences is invaluable.\n\nJ\nJessica K.\n\nLead UX Designer\n\nUsing Page Flows has drastically improved my workflow. Not only does it help me solve UX problems, it’s also super helpful to get validated by seeing what others are doing. I highly recommend\n\nA\nAdam S.\n\nHead of Product\n\nAwesome tool!! Love it.\n\nK\nKaro W.\n\nDesigner\n\nA must-have tool for anyone serious about improving their product's user experience.\n\nM\nMichael R.\n\nProduct Manager\n\nPage Flows is an absolutely essential tool for product designers and founders!\n\nC\nChris S.\n\nFounder\n\nJust found Page Flows, they literally have vids of proven and successful website user flows.\n\nIt’s not free but ideal for anyone stuck on things like user onboarding or user journeys.\n\nJ\nJack O.\n\nDesigner\n\nCan’t say it enough: love love love Page Flows for real-life design inspiration. Massive timesaver.\n\nJ\nJane P.\n\nDesigner\n\nI find pageflows.com to be a really helpful resource for finding interaction design in",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "UI/UX Inspiration from Real User Flows",
+          "bounds": {
+            "x": 355,
+            "y": 172,
+            "width": 730,
+            "height": 132
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "57px",
+            "fontWeight": "700",
+            "lineHeight": "66px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Why Choose Page Flows?",
+          "bounds": {
+            "x": 470,
+            "y": 1102,
+            "width": 500,
+            "height": 55
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "44px",
+            "fontWeight": "600",
+            "lineHeight": "55px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Page Flows Empowers UX Research for All",
+          "bounds": {
+            "x": 510,
+            "y": 2942,
+            "width": 420,
+            "height": 110
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "44px",
+            "fontWeight": "600",
+            "lineHeight": "55px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Trusted by Designers and\nProduct Teams Worldwide",
+          "bounds": {
+            "x": 430,
+            "y": 3582,
+            "width": 580,
+            "height": 110
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "44px",
+            "fontWeight": "600",
+            "lineHeight": "55px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Choose the Plan That Fits Your Needs",
+          "bounds": {
+            "x": 326.5,
+            "y": 4532,
+            "width": 787,
+            "height": 55
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "44px",
+            "fontWeight": "600",
+            "lineHeight": "55px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Stay Ahead in UX Design",
+          "bounds": {
+            "x": 30,
+            "y": 5575,
+            "width": 1380,
+            "height": 55
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "44px",
+            "fontWeight": "600",
+            "lineHeight": "55px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "HEADER",
+          "role": null,
+          "text": "iOS\nAndroid\nWeb\nEmails\nLogin\nTry 3 Days",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 112
+          },
+          "styles": {
+            "display": "block",
+            "position": "fixed",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(24, 24, 27)",
+            "gap": "normal",
+            "padding": "30px 40px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "FORM",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 135.296875,
+            "y": 33,
+            "width": 366.09375,
+            "height": 46
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Login",
+          "bounds": {
+            "x": 1248.875,
+            "y": 32,
+            "width": 41.046875,
+            "height": 48
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "FORM",
+          "role": null,
+          "text": "Try 3 Days",
+          "bounds": {
+            "x": 1304.921875,
+            "y": 32,
+            "width": 95.0625,
+            "height": 48
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Try 3 Days",
+          "bounds": {
+            "x": 1304.921875,
+            "y": 32,
+            "width": 95.0625,
+            "height": 48
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "600",
+            "lineHeight": "17px",
+            "color": "rgb(11, 11, 13)",
+            "backgroundColor": "rgb(254, 240, 138)",
+            "gap": "10px",
+            "padding": "0px 15px",
+            "borderRadius": "10px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Supporting over 100,000+ designers worldwide\n\nUI/UX Inspiration from Real User Flows\n\nExplore real-world user flows and design patterns from",
+          "bounds": {
+            "x": 0,
+            "y": 96,
+            "width": 1440,
+            "height": 367
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "30px 0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": " \n \n \n \n ",
+          "bounds": {
+            "x": 0,
+            "y": 463,
+            "width": 1440,
+            "height": 355
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "40px 0px 0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Trusted by 10,000+ brands",
+          "bounds": {
+            "x": 0,
+            "y": 898,
+            "width": 1440,
+            "height": 84
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Why Choose Page Flows?\nReal-World User Flow Examples\n\nGain insights into the user experiences of popular apps and websites. Browse through u",
+          "bounds": {
+            "x": 10,
+            "y": 1002,
+            "width": 1420,
+            "height": 1940
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px 20px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Page Flows Empowers UX Research for All\n\nDiscover how leading brands design, test, and implement user experiences, and apply these proven st",
+          "bounds": {
+            "x": 0,
+            "y": 2942,
+            "width": 1440,
+            "height": 535
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Trusted by Designers and\nProduct Teams Worldwide\n\nPage Flows is an absolutely essential tool for product designers and founders!\n\nC\nChris S.",
+          "bounds": {
+            "x": 0,
+            "y": 3477,
+            "width": 1440,
+            "height": 1035
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "100px 0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Choose the Plan That Fits Your Needs\n\nUnlock full access to the Page Flows library with our affordable subscription plans. Start with a 3-da",
+          "bounds": {
+            "x": 0,
+            "y": 4532,
+            "width": 1440,
+            "height": 908
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Get Started",
+          "bounds": {
+            "x": 953.65625,
+            "y": 4898,
+            "width": 343.34375,
+            "height": 48
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "19.84px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "normal",
+            "padding": "14px 16px",
+            "borderRadius": "10px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Stay Ahead in UX Design\n\nJoin thousands of top designers and product managers who trust Page Flows to craft exceptional user experiences. Su",
+          "bounds": {
+            "x": 0,
+            "y": 5440,
+            "width": 1440,
+            "height": 722
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(39, 39, 42)",
+            "gap": "normal",
+            "padding": "80px 0px 0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://pageflows.com/"
+        },
+        {
+          "text": "",
+          "href": "https://pageflows.com/#"
+        },
+        {
+          "text": "    Revolut ",
+          "href": "https://pageflows.com/post/ios/onboarding/revolut/"
+        },
+        {
+          "text": "    Robinh... ",
+          "href": "https://pageflows.com/post/ios/onboarding/robinhood/"
+        },
+        {
+          "text": "    Monzo ",
+          "href": "https://pageflows.com/post/ios/onboarding/monzo/"
+        },
+        {
+          "text": "    N26 ",
+          "href": "https://pageflows.com/post/ios/onboarding/n26/"
+        },
+        {
+          "text": "    Spotify ",
+          "href": "https://pageflows.com/post/ios/onboarding/spotify/"
+        },
+        {
+          "text": "    Starling ",
+          "href": "https://pageflows.com/post/ios/onboarding/starling/"
+        },
+        {
+          "text": "    Monese ",
+          "href": "https://pageflows.com/post/ios/onboarding/monese/"
+        },
+        {
+          "text": "    Chase ",
+          "href": "https://pageflows.com/post/ios/onboarding/chase/"
+        },
+        {
+          "text": "    Finch ",
+          "href": "https://pageflows.com/post/android/onboarding/finch/"
+        },
+        {
+          "text": "    Snapc... ",
+          "href": "https://pageflows.com/post/android/onboarding/snapchat/"
+        },
+        {
+          "text": "    Dropbox ",
+          "href": "https://pageflows.com/post/android/onboarding/dropbox/"
+        },
+        {
+          "text": "    TikTok ",
+          "href": "https://pageflows.com/post/android/onboarding/tiktok/"
+        },
+        {
+          "text": "    Badoo ",
+          "href": "https://pageflows.com/post/android/onboarding/badoo/"
+        },
+        {
+          "text": "    OKX ",
+          "href": "https://pageflows.com/post/android/onboarding/okx/"
+        },
+        {
+          "text": "    Duolin... ",
+          "href": "https://pageflows.com/post/android/onboarding/duolingo/"
+        },
+        {
+          "text": "    Asana ",
+          "href": "https://pageflows.com/post/android/onboarding/asana/"
+        },
+        {
+          "text": "    Stripe ",
+          "href": "https://pageflows.com/post/desktop-web/onboarding/stripe/"
+        },
+        {
+          "text": "    Notion ",
+          "href": "https://pageflows.com/post/desktop-web/onboarding/notion/"
+        },
+        {
+          "text": "    Interc... ",
+          "href": "https://pageflows.com/post/desktop-web/onboarding/intercom/"
+        },
+        {
+          "text": "    Slack ",
+          "href": "https://pageflows.com/post/desktop-web/onboarding/slack/"
+        },
+        {
+          "text": "    Shopify ",
+          "href": "https://pageflows.com/post/desktop-web/onboarding/shopify/"
+        },
+        {
+          "text": "    Dovetail ",
+          "href": "https://pageflows.com/post/desktop-web/onboarding/dovetail/"
+        },
+        {
+          "text": "    Asana ",
+          "href": "https://pageflows.com/post/desktop-web/onboarding/asana/"
+        },
+        {
+          "text": "    Ampli... ",
+          "href": "https://pageflows.com/post/desktop-web/onboarding/amplitude/"
+        },
+        {
+          "text": "    Sign Up ",
+          "href": "https://pageflows.com/ios/screens/sign-up/"
+        },
+        {
+          "text": "    Login ",
+          "href": "https://pageflows.com/ios/flows/logging-in/"
+        },
+        {
+          "text": "    Checkout ",
+          "href": "https://pageflows.com/ios/screens/checkout/"
+        },
+        {
+          "text": "    Upgrade ",
+          "href": "https://pageflows.com/ios/screens/upgrade/"
+        },
+        {
+          "text": "    Sign Up ",
+          "href": "https://pageflows.com/android/screens/sign-up/"
+        },
+        {
+          "text": "    Filter ",
+          "href": "https://pageflows.com/android/screens/filter/"
+        },
+        {
+          "text": "    Product details ",
+          "href": "https://pageflows.com/android/screens/product-detail/"
+        },
+        {
+          "text": "    Search ",
+          "href": "https://pageflows.com/android/screens/search/"
+        },
+        {
+          "text": "    Dashboard ",
+          "href": "https://pageflows.com/web/screens/dashboard/"
+        },
+        {
+          "text": "    Plans & pricing ",
+          "href": "https://pageflows.com/web/screens/pricing-plans/"
+        },
+        {
+          "text": "    Signup ",
+          "href": "https://pageflows.com/web/screens/sign-up/"
+        },
+        {
+          "text": "    Forgot password ",
+          "href": "https://pageflows.com/web/screens/forgot-password/"
+        },
+        {
+          "text": "       Text Field ",
+          "href": "https://pageflows.com/ios/elements/text-field/"
+        },
+        {
+          "text": "       Buttons ",
+          "href": "https://pageflows.com/ios/elements/button/"
+        },
+        {
+          "text": "       Cards ",
+          "href": "https://pageflows.com/ios/elements/card/"
+        },
+        {
+          "text": "       Bottom  sheet ",
+          "href": "https://pageflows.com/ios/elements/bottom-sheet/"
+        },
+        {
+          "text": "       Tabs ",
+          "href": "https://pageflows.com/ios/elements/tabs/"
+        },
+        {
+          "text": "       Text Field ",
+          "href": "https://pageflows.com/android/elements/text-field/"
+        },
+        {
+          "text": "       Buttons ",
+          "href": "https://pageflows.com/android/elements/button/"
+        },
+        {
+          "text": "       Cards ",
+          "href": "https://pageflows.com/android/elements/card/"
+        },
+        {
+          "text": "       Bottom  sheet ",
+          "href": "https://pageflows.com/android/elements/bottom-sheet/"
+        },
+        {
+          "text": "       Tabs ",
+          "href": "https://pageflows.com/android/elements/tabs/"
+        },
+        {
+          "text": "       Text Field ",
+          "href": "https://pageflows.com/web/elements/text-field/"
+        },
+        {
+          "text": "       Buttons ",
+          "href": "https://pageflows.com/web/elements/button/"
+        },
+        {
+          "text": "       Cards ",
+          "href": "https://pageflows.com/web/elements/card/"
+        },
+        {
+          "text": "       Bottom  sheet ",
+          "href": "https://pageflows.com/web/elements/bottom-sheet/"
+        },
+        {
+          "text": "       Tabs ",
+          "href": "https://pageflows.com/web/elements/tabs/"
+        },
+        {
+          "text": "       Onboa... ",
+          "href": "https://pageflows.com/ios/flows/onboarding/"
+        },
+        {
+          "text": "          Booking ",
+          "href": "https://pageflows.com/ios/flows/booking-a-hotel/"
+        },
+        {
+          "text": "        Buying ",
+          "href": "https://pageflows.com/ios/flows/purchasing-ordering/"
+        },
+        {
+          "text": "       Adding ",
+          "href": "https://pageflows.com/ios/flows/creating-adding/"
+        },
+        {
+          "text": "       Chat ",
+          "href": "https://pageflows.com/ios/flows/chat/"
+        },
+        {
+          "text": "       Onboa... ",
+          "href": "https://pageflows.com/android/flows/onboarding/"
+        },
+        {
+          "text": "          Booking ",
+          "href": "https://pageflows.com/android/flows/booking-a-room/"
+        },
+        {
+          "text": "        Buying ",
+          "href": "https://pageflows.com/android/flows/purchasing-ordering/"
+        },
+        {
+          "text": "       Adding ",
+          "href": "https://pageflows.com/android/flows/creating-adding/"
+        },
+        {
+          "text": "       Chat ",
+          "href": "https://pageflows.com/android/flows/chatting/"
+        },
+        {
+          "text": "       Onboa... ",
+          "href": "https://pageflows.com/web/flows/onboarding/"
+        },
+        {
+          "text": "          Booking ",
+          "href": "https://pageflows.com/web/flows/booking-a-flight/"
+        },
+        {
+          "text": "        Buying ",
+          "href": "https://pageflows.com/web/flows/purchasing-ordering/"
+        },
+        {
+          "text": "       Adding ",
+          "href": "https://pageflows.com/web/flows/creating-adding/"
+        },
+        {
+          "text": "       Chat ",
+          "href": "https://pageflows.com/web/flows/chat/"
+        },
+        {
+          "text": "    Calendly ",
+          "href": "https://pageflows.com/emails/product/calendly/"
+        },
+        {
+          "text": "    Eventb... ",
+          "href": "https://pageflows.com/emails/product/eventbrite/"
+        },
+        {
+          "text": "    Beehiiv ",
+          "href": "https://pageflows.com/emails/product/beehiiv/"
+        },
+        {
+          "text": "    Airtable ",
+          "href": "https://pageflows.com/emails/product/airtable/"
+        },
+        {
+          "text": "       Onboa... ",
+          "href": "https://pageflows.com/ios/flows/onboarding/"
+        },
+        {
+          "text": "          Booking ",
+          "href": "https://pageflows.com/ios/flows/booking-a-hotel/"
+        },
+        {
+          "text": "        Buying ",
+          "href": "https://pageflows.com/ios/flows/purchasing-ordering/"
+        },
+        {
+          "text": "       Adding ",
+          "href": "https://pageflows.com/ios/flows/creating-adding/"
+        },
+        {
+          "text": "       Chat ",
+          "href": "https://pageflows.com/ios/flows/chat/"
+        },
+        {
+          "text": "       Onboa... ",
+          "href": "https://pageflows.com/android/flows/onboarding/"
+        },
+        {
+          "text": "          Booking ",
+          "href": "https://pageflows.com/android/flows/booking-a-room/"
+        },
+        {
+          "text": "        Buying ",
+          "href": "https://pageflows.com/android/flows/purchasing-ordering/"
+        },
+        {
+          "text": "       Adding ",
+          "href": "https://pageflows.com/android/flows/creating-adding/"
+        },
+        {
+          "text": "       Chat ",
+          "href": "https://pageflows.com/android/flows/chatting/"
+        },
+        {
+          "text": "       Onboa... ",
+          "href": "https://pageflows.com/web/flows/onboarding/"
+        },
+        {
+          "text": "          Booking ",
+          "href": "https://pageflows.com/web/flows/booking-a-flight/"
+        },
+        {
+          "text": "        Buying ",
+          "href": "https://pageflows.com/web/flows/purchasing-ordering/"
+        },
+        {
+          "text": "       Adding ",
+          "href": "https://pageflows.com/web/flows/creating-adding/"
+        },
+        {
+          "text": "       Chat ",
+          "href": "https://pageflows.com/web/flows/chat/"
+        },
+        {
+          "text": "Upgrading Account",
+          "href": "https://pageflows.com/ios/flows/upgrading-account/"
+        },
+        {
+          "text": "Deactivating & Deleting Account",
+          "href": "https://pageflows.com/ios/flows/deactivating-deleting/"
+        },
+        {
+          "text": "Logging In",
+          "href": "https://pageflows.com/ios/flows/logging-in/"
+        },
+        {
+          "text": "Logging Out",
+          "href": "https://pageflows.com/ios/flows/logging-out/"
+        },
+        {
+          "text": "Editing Profile",
+          "href": "https://pageflows.com/ios/flows/editing-profile/"
+        },
+        {
+          "text": "Reactivating & Restoring Account",
+          "href": "https://pageflows.com/ios/flows/reactivating-restoring-account/"
+        },
+        {
+          "text": "Resetting Password",
+          "href": "https://pageflows.com/ios/flows/resetting-password/"
+        },
+        {
+          "text": "Switching Account",
+          "href": "https://pageflows.com/ios/flows/switching-account/"
+        },
+        {
+          "text": "Verifying",
+          "href": "https://pageflows.com/ios/flows/verifying/"
+        },
+        {
+          "text": "Upgrading Account",
+          "href": "https://pageflows.com/ios/flows/upgrading-account/"
+        },
+        {
+          "text": "Deactivating & Deleting Account",
+          "href": "https://pageflows.com/ios/flows/deactivating-deleting/"
+        },
+        {
+          "text": "Logging In",
+          "href": "https://pageflows.com/ios/flows/logging-in/"
+        },
+        {
+          "text": "Logging Out",
+          "href": "https://pageflows.com/ios/flows/logging-out/"
+        },
+        {
+          "text": "Editing Profile",
+          "href": "https://pageflows.com/ios/flows/editing-profile/"
+        },
+        {
+          "text": "Reactivating & Restoring Account",
+          "href": "https://pageflows.com/ios/flows/reactivating-restoring-account/"
+        },
+        {
+          "text": "Resetting Password",
+          "href": "https://pageflows.com/ios/flows/resetting-password/"
+        },
+        {
+          "text": "Switching Account",
+          "href": "https://pageflows.com/ios/flows/switching-account/"
+        },
+        {
+          "text": "Verifying",
+          "href": "https://pageflows.com/ios/flows/verifying/"
+        },
+        {
+          "text": "Upgrading Account",
+          "href": "https://pageflows.com/ios/flows/upgrading-account/"
+        },
+        {
+          "text": "Deactivating & Deleting Account",
+          "href": "https://pageflows.com/ios/flows/deactivating-deleting/"
+        },
+        {
+          "text": "Logging In",
+          "href": "https://pageflows.com/ios/flows/logging-in/"
+        },
+        {
+          "text": "Logging Out",
+          "href": "https://pageflows.com/ios/flows/logging-out/"
+        },
+        {
+          "text": "Editing Profile",
+          "href": "https://pageflows.com/ios/flows/editing-profile/"
+        },
+        {
+          "text": "Reactivating & Restoring Account",
+          "href": "https://pageflows.com/ios/flows/reactivating-restoring-account/"
+        },
+        {
+          "text": "Resetting Password",
+          "href": "https://pageflows.com/ios/flows/resetting-password/"
+        },
+        {
+          "text": "Switching Account",
+          "href": "https://pageflows.com/ios/flows/switching-account/"
+        },
+        {
+          "text": "Verifying",
+          "href": "https://pageflows.com/ios/flows/verifying/"
+        },
+        {
+          "text": "Creating & Adding",
+          "href": "https://pageflows.com/ios/flows/creating-adding/"
+        },
+        {
+          "text": "Searching & Finding",
+          "href": "https://pageflows.com/ios/flows/searching-finding/"
+        },
+        {
+          "text": "Analyzing Stats",
+          "href": "https://pageflows.com/ios/flows/analytics-stats/"
+        },
+        {
+          "text": "Importing & Exporting",
+          "href": "https://pageflows.com/ios/flows/importing-exporting/"
+        },
+        {
+          "text": "Deleting & Removing",
+          "href": "https://pageflows.com/ios/flows/deleting-removing/"
+        },
+        {
+          "text": "Filtering & Sorting",
+          "href": "https://pageflows.com/ios/flows/filtering-sorting/"
+        },
+        {
+          "text": "Saving To Collection & Favoriting",
+          "href": "https://pageflows.com/ios/flows/saving-collection-favoriting/"
+        },
+        {
+          "text": "Scanning",
+          "href": "https://pageflows.com/ios/flows/scanning/"
+        },
+        {
+          "text": "Submitting & Applying",
+          "href": "https://pageflows.com/ios/flows/submitting-applying/"
+        },
+        {
+          "text": "Listening",
+          "href": "https://pageflows.com/ios/flows/listening/"
+        },
+        {
+          "text": "Managing",
+          "href": "https://pageflows.com/ios/flows/managing/"
+        },
+        {
+          "text": "Moving",
+          "href": "https://pageflows.com/ios/flows/moving/"
+        },
+        {
+          "text": "Requesting",
+          "href": "https://pageflows.com/ios/flows/requesting/"
+        },
+        {
+          "text": "Starting & Completing",
+          "href": "https://pageflows.com/ios/flows/starting-completing/"
+        },
+        {
+          "text": "Logging & Tracking",
+          "href": "https://pageflows.com/ios/flows/logging-tracking/"
+        },
+        {
+          "text": "Settings & Customizing",
+          "href": "https://pageflows.com/ios/flows/settings-customizing/"
+        },
+        {
+          "text": "Archiving",
+          "href": "https://pageflows.com/ios/flows/archiving/"
+        },
+        {
+          "text": "Watching Video",
+          "href": "https://pageflows.com/ios/flows/watching-video/"
+        },
+        {
+          "text": "Selecting & Choosing",
+          "href": "https://pageflows.com/ios/flows/selecting-choosing/"
+        },
+        {
+          "text": "Editing & Updating",
+          "href": "https://pageflows.com/ios/flows/editing-updating/"
+        },
+        {
+          "text": "Uploading & Downloading",
+          "href": "https://pageflows.com/ios/flows/uploading-downloading/"
+        },
+        {
+          "text": "Copying & Duplicating",
+          "href": "https://pageflows.com/ios/flows/copying-duplicating/"
+        },
+        {
+          "text": "Recording",
+          "href": "https://pageflows.com/ios/flows/recording/"
+        },
+        {
+          "text": "Pinning",
+          "href": "https://pageflows.com/ios/flows/pinning/"
+        },
+        {
+          "text": "Creating & Adding",
+          "href": "https://pageflows.com/ios/flows/creating-adding/"
+        },
+        {
+          "text": "Searching & Finding",
+          "href": "https://pageflows.com/ios/flows/searching-finding/"
+        },
+        {
+          "text": "Analyzing Stats",
+          "href": "https://pageflows.com/ios/flows/analytics-stats/"
+        },
+        {
+          "text": "Importing & Exporting",
+          "href": "https://pageflows.com/ios/flows/importing-exporting/"
+        },
+        {
+          "text": "Deleting & Removing",
+          "href": "https://pageflows.com/ios/flows/deleting-removing/"
+        },
+        {
+          "text": "Filtering & Sorting",
+          "href": "https://pageflows.com/ios/flows/filtering-sorting/"
+        },
+        {
+          "text": "Saving To Collection & Favoriting",
+          "href": "https://pageflows.com/ios/flows/saving-collection-favoriting/"
+        },
+        {
+          "text": "Scanning",
+          "href": "https://pageflows.com/ios/flows/scanning/"
+        },
+        {
+          "text": "Submitting & Applying",
+          "href": "https://pageflows.com/ios/flows/submitting-applying/"
+        },
+        {
+          "text": "Listening",
+          "href": "https://pageflows.com/ios/flows/listening/"
+        },
+        {
+          "text": "Managing",
+          "href": "https://pageflows.com/ios/flows/managing/"
+        },
+        {
+          "text": "Moving",
+          "href": "https://pageflows.com/ios/flows/moving/"
+        },
+        {
+          "text": "Requesting",
+          "href": "https://pageflows.com/ios/flows/requesting/"
+        },
+        {
+          "text": "Starting & Completing",
+          "href": "https://pageflows.com/ios/flows/starting-completing/"
+        },
+        {
+          "text": "Logging & Tracking",
+          "href": "https://pageflows.com/ios/flows/logging-tracking/"
+        },
+        {
+          "text": "Settings & Customizing",
+          "href": "https://pageflows.com/ios/flows/settings-customizing/"
+        },
+        {
+          "text": "Archiving",
+          "href": "https://pageflows.com/ios/flows/archiving/"
+        },
+        {
+          "text": "Watching Video",
+          "href": "https://pageflows.com/ios/flows/watching-video/"
+        },
+        {
+          "text": "Selecting & Choosing",
+          "href": "https://pageflows.com/ios/flows/selecting-choosing/"
+        },
+        {
+          "text": "Editing & Updating",
+          "href": "https://pageflows.com/ios/flows/editing-updating/"
+        },
+        {
+          "text": "Uploading & Downloading",
+          "href": "https://pageflows.com/ios/flows/uploading-downloading/"
+        },
+        {
+          "text": "Copying & Duplicating",
+          "href": "https://pageflows.com/ios/flows/copying-duplicating/"
+        },
+        {
+          "text": "Recording",
+          "href": "https://pageflows.com/ios/flows/recording/"
+        },
+        {
+          "text": "Pinning",
+          "href": "https://pageflows.com/ios/flows/pinning/"
+        },
+        {
+          "text": "Creating & Adding",
+          "href": "https://pageflows.com/ios/flows/creating-adding/"
+        },
+        {
+          "text": "Searching & Finding",
+          "href": "https://pageflows.com/ios/flows/searching-finding/"
+        },
+        {
+          "text": "Analyzing Stats",
+          "href": "https://pageflows.com/ios/flows/analytics-stats/"
+        },
+        {
+          "text": "Importing & Exporting",
+          "href": "https://pageflows.com/ios/flows/importing-exporting/"
+        },
+        {
+          "text": "Deleting & Removing",
+          "href": "https://pageflows.com/ios/flows/deleting-removing/"
+        },
+        {
+          "text": "Filtering & Sorting",
+          "href": "https://pageflows.com/ios/flows/filtering-sorting/"
+        },
+        {
+          "text": "Saving To Collection & Favoriting",
+          "href": "https://pageflows.com/ios/flows/saving-collection-favoriting/"
+        },
+        {
+          "text": "Scanning",
+          "href": "https://pageflows.com/ios/flows/scanning/"
+        },
+        {
+          "text": "Submitting & Applying",
+          "href": "https://pageflows.com/ios/flows/submitting-applying/"
+        },
+        {
+          "text": "Listening",
+          "href": "https://pageflows.com/ios/flows/listening/"
+        },
+        {
+          "text": "Managing",
+          "href": "https://pageflows.com/ios/flows/managing/"
+        },
+        {
+          "text": "Moving",
+          "href": "https://pageflows.com/ios/flows/moving/"
+        },
+        {
+          "text": "Requesting",
+          "href": "https://pageflows.com/ios/flows/requesting/"
+        },
+        {
+          "text": "Starting & Completing",
+          "href": "https://pageflows.com/ios/flows/starting-completing/"
+        },
+        {
+          "text": "Logging & Tracking",
+          "href": "https://pageflows.com/ios/flows/logging-tracking/"
+        },
+        {
+          "text": "Settings & Customizing",
+          "href": "https://pageflows.com/ios/flows/settings-customizing/"
+        },
+        {
+          "text": "Archiving",
+          "href": "https://pageflows.com/ios/flows/archiving/"
+        },
+        {
+          "text": "Watching Video",
+          "href": "https://pageflows.com/ios/flows/watching-video/"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--tw-ring-offset-shadow": "0 0 #0000",
+        "--tw-contrast": "",
+        "--tw-backdrop-sepia": "",
+        "--tw-ring-shadow": "0 0 #0000",
+        "--tw-sepia": "",
+        "--tw-skew-x": "0",
+        "--tw-ordinal": "",
+        "--tw-backdrop-saturate": "",
+        "--tw-backdrop-blur": "",
+        "--tw-shadow": "0 0 #0000",
+        "--tw-translate-x": "0",
+        "--tw-ring-inset": "",
+        "--tw-ring-offset-width": "0px",
+        "--tw-backdrop-invert": "",
+        "--tw-saturate": "",
+        "--tw-scroll-snap-strictness": "proximity",
+        "--tw-numeric-spacing": "",
+        "--tw-grayscale": "",
+        "--tw-scale-x": "1",
+        "--tw-border-spacing-x": "0",
+        "--tw-backdrop-hue-rotate": "",
+        "--tw-shadow-colored": "0 0 #0000",
+        "--tw-brightness": "",
+        "--tw-border-spacing-y": "0",
+        "--tw-numeric-fraction": "",
+        "--tw-backdrop-grayscale": "",
+        "--tw-hue-rotate": "",
+        "--tw-scale-y": "1",
+        "--tw-pan-y": "",
+        "--tw-backdrop-contrast": "",
+        "--tw-drop-shadow": "",
+        "--tw-skew-y": "0",
+        "--tw-ring-color": "rgb(68 142 227 / 0.5)",
+        "--tw-backdrop-brightness": "",
+        "--tw-slashed-zero": "",
+        "--tw-blur": "",
+        "--tw-invert": "",
+        "--tw-pan-x": "",
+        "--tw-translate-y": "0",
+        "--tw-backdrop-opacity": "",
+        "--tw-numeric-figure": "",
+        "--tw-rotate": "0",
+        "--tw-pinch-zoom": "",
+        "--tw-ring-offset-color": "#fff"
+      }
+    },
+    "mobile": {
+      "url": "https://pageflows.com/",
+      "title": "UI/UX Design Inspiration & User Flows from Top Apps — Page Flows",
+      "text": "iOS\nAndroid\nWeb\nEmails\nLogin\nTry 3 Days\n\nSupporting over 100,000+ designers worldwide\n\nUI/UX Inspiration from Real User Flows\n\nExplore real-world user flows and design patterns from leading apps and websites.\n\nTry 3 Days\nExplore Flows\n \n \n \n \n \nTrusted by 10,000+ brands\nWhy Choose Page Flows?\nReal-World User Flow Examples\n\nGain insights into the user experiences of popular apps and websites. Browse through user onboarding processes, login pages, checkouts, search flows, and more to enhance your own designs.\n\nScreen Recordings & Annotations\n\nWatch detailed screen recordings with step-by-step annotations highlighting key UI/UX design elements & interactions. Understand exactly how top companies guide users through their digital experiences.\n\nFilter and Search with Ease\n\nQuickly find the screen flows you need with powerful filtering options for categories, industries, and UX patterns. Save time by accessing precisely what you’re looking for with just a few clicks.\n\nLearn from the Best\n\nAccess a curated library of UX flows from top companies like Airbnb, Dropbox, and Slack. Discover how market leaders design intuitive, user-friendly experiences and apply these insights to your projects.\n\nPage Flows Empowers UX Research for All\n\nDiscover how leading brands design, test, and implement user experiences, and apply these proven strategies to your UI/UX designs.\n\nUX & UI Inspiration for\nDesigners\n\nPage Flows showcases visual examples & case studies from industry leaders, helping create intuitive, engaging, & high-converting user interfaces & experiences.\n\nRefine the User Journey for\nProduct Managers\n\nLeverage Page Flows to uncover best practices for optimizing product onboarding, enhancing conversion funnels, & improving customer retention.\n\nPerfect App Flows for\nDevelopers\n\nPage Flows equips developers with actionable insights & step-by-step examples to fine-tune UX design elements & ensure seamless app performance.\n\nTrusted by Designers and Product Teams Worldwide\n\nPage Flows has been a game changer for our design team. The ability to see how top companies craft their experiences is invaluable.\n\nJ\nJessica K.\n\nLead UX Designer\n\nUsing Page Flows has drastically improved my workflow. Not only does it help me solve UX problems, it’s also super helpful to get validated by seeing what others are doing. I highly recommend\n\nA\nAdam S.\n\nHead of Product\n\nAwesome tool!! Love it.\n\nK\nKaro W.\n\nDesigner\n\nA must-have tool for anyone serious about improving their product's user experience.\n\nM\nMichael R.\n\nProduct Manager\n\nPage Flows is an absolutely essential tool for product designers and founders!\n\nC\nChris S.\n\nFounder\n\nJust found Page Flows, they literally have vids of proven and successful website user flows.\n\nIt’s not free but ideal for anyone stuck on things like user onboarding or user journeys.\n\nJ\nJack O.\n\nDesigner\n\nCan’t say it enough: love love love Page Flows for real-life design inspiration. Massive timesaver.\n\nJ\nJane P.\n\nDesigner\n\nI find pageflows.com to be a really helpful resource for finding interaction design inspiration. They capture user flows from a wide range of web and mobile applications and patterns.\n\nS\nShankar S.\n\nUX/UI Designer\n\nToday I found that someone has recorded themself over 2,000 times going through different user flows on various apps and made them all available for $99 a year.\n\nThank you Page Flows! This is a real timeaver!\n\nM\nMatt N.\n\nUX/UI Designer\n\nThis is one product -- done well.\n\nA\nAazar S.\n\nUI/UX Designer\n\nPage Flows has been a game changer for our design team. The ability to see how top companies craft their experiences is invaluable.\n\nJ\nJessica K.\n\nLead UX Designer\n\nUsing Page Flows has drastically improved my workflow. Not only does it help me solve UX problems, it’s also super helpful to get validated by seeing what others are doing. I highly recommend\n\nA\nAdam S.\n\nHead of Product\n\nAwesome tool!! Love it.\n\nK\nKaro W.\n\nDesigner\n\nA must-have tool for anyone serious about improving their product's user experience",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "horizontal_overflow": true,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "UI/UX Inspiration from Real User Flows",
+          "bounds": {
+            "x": 20,
+            "y": 236,
+            "width": 350,
+            "height": 90
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "36px",
+            "fontWeight": "700",
+            "lineHeight": "45px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Why Choose Page Flows?",
+          "bounds": {
+            "x": 20,
+            "y": 1016,
+            "width": 350,
+            "height": 43
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "30px",
+            "fontWeight": "600",
+            "lineHeight": "43px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Page Flows Empowers UX Research for All",
+          "bounds": {
+            "x": 0,
+            "y": 3318.125,
+            "width": 390,
+            "height": 86
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "30px",
+            "fontWeight": "600",
+            "lineHeight": "43px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Trusted by Designers and Product Teams Worldwide",
+          "bounds": {
+            "x": 20,
+            "y": 4280.125,
+            "width": 350,
+            "height": 76
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "30px",
+            "fontWeight": "600",
+            "lineHeight": "38px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px 20px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Choose the Plan That Fits Your Needs",
+          "bounds": {
+            "x": 20,
+            "y": 5106.125,
+            "width": 350,
+            "height": 86
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "30px",
+            "fontWeight": "600",
+            "lineHeight": "43px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Stay Ahead in UX Design",
+          "bounds": {
+            "x": 20,
+            "y": 7206.125,
+            "width": 350,
+            "height": 43
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "30px",
+            "fontWeight": "600",
+            "lineHeight": "43px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "HEADER",
+          "role": null,
+          "text": "iOS\nAndroid\nWeb\nEmails\nLogin\nTry 3 Days",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 140
+          },
+          "styles": {
+            "display": "block",
+            "position": "fixed",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(24, 24, 27)",
+            "gap": "normal",
+            "padding": "20px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "FORM",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 87,
+            "y": 21,
+            "width": 100,
+            "height": 46
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Login",
+          "bounds": {
+            "x": 244.390625,
+            "y": 24,
+            "width": 35.609375,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "FORM",
+          "role": null,
+          "text": "Try 3 Days",
+          "bounds": {
+            "x": 295,
+            "y": 24,
+            "width": 75,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Try 3 Days",
+          "bounds": {
+            "x": 295,
+            "y": 24,
+            "width": 75,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "600",
+            "lineHeight": "15px",
+            "color": "rgb(11, 11, 13)",
+            "backgroundColor": "rgb(254, 240, 138)",
+            "gap": "10px",
+            "padding": "0px",
+            "borderRadius": "10px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Supporting over 100,000+ designers worldwide\n\nUI/UX Inspiration from Real User Flows\n\nExplore real-world user flows and design patterns from",
+          "bounds": {
+            "x": 0,
+            "y": 128,
+            "width": 390,
+            "height": 383
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "30px 0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": " \n \n \n \n ",
+          "bounds": {
+            "x": 0,
+            "y": 511,
+            "width": 390,
+            "height": 211
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "40px 0px 0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Trusted by 10,000+ brands",
+          "bounds": {
+            "x": 0,
+            "y": 802,
+            "width": 390,
+            "height": 134
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Why Choose Page Flows?\nReal-World User Flow Examples\n\nGain insights into the user experiences of popular apps and websites. Browse through u",
+          "bounds": {
+            "x": 0,
+            "y": 956,
+            "width": 390,
+            "height": 2362.125
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px 20px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Page Flows Empowers UX Research for All\n\nDiscover how leading brands design, test, and implement user experiences, and apply these proven st",
+          "bounds": {
+            "x": 0,
+            "y": 3318.125,
+            "width": 390,
+            "height": 877
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Trusted by Designers and Product Teams Worldwide\n\nPage Flows has been a game changer for our design team. The ability to see how top compani",
+          "bounds": {
+            "x": 0,
+            "y": 4195.125,
+            "width": 390,
+            "height": 891
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "80px 0px 60px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Choose the Plan That Fits Your Needs\n\nUnlock full access to the Page Flows library with our affordable subscription plans. Start with a 3-da",
+          "bounds": {
+            "x": 0,
+            "y": 5106.125,
+            "width": 390,
+            "height": 1965
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Get Started",
+          "bounds": {
+            "x": 36,
+            "y": 6677.125,
+            "width": 320,
+            "height": 48
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "19.84px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "normal",
+            "padding": "14px 16px",
+            "borderRadius": "10px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Stay Ahead in UX Design\n\nJoin thousands of top designers and product managers who trust Page Flows to craft exceptional user experiences. Su",
+          "bounds": {
+            "x": 0,
+            "y": 7071.125,
+            "width": 390,
+            "height": 788
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(39, 39, 42)",
+            "gap": "normal",
+            "padding": "80px 0px 0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://pageflows.com/"
+        },
+        {
+          "text": "",
+          "href": "https://pageflows.com/#"
+        },
+        {
+          "text": "    Revolut ",
+          "href": "https://pageflows.com/post/ios/onboarding/revolut/"
+        },
+        {
+          "text": "    Robinh... ",
+          "href": "https://pageflows.com/post/ios/onboarding/robinhood/"
+        },
+        {
+          "text": "    Monzo ",
+          "href": "https://pageflows.com/post/ios/onboarding/monzo/"
+        },
+        {
+          "text": "    N26 ",
+          "href": "https://pageflows.com/post/ios/onboarding/n26/"
+        },
+        {
+          "text": "    Spotify ",
+          "href": "https://pageflows.com/post/ios/onboarding/spotify/"
+        },
+        {
+          "text": "    Starling ",
+          "href": "https://pageflows.com/post/ios/onboarding/starling/"
+        },
+        {
+          "text": "    Monese ",
+          "href": "https://pageflows.com/post/ios/onboarding/monese/"
+        },
+        {
+          "text": "    Chase ",
+          "href": "https://pageflows.com/post/ios/onboarding/chase/"
+        },
+        {
+          "text": "    Finch ",
+          "href": "https://pageflows.com/post/android/onboarding/finch/"
+        },
+        {
+          "text": "    Snapc... ",
+          "href": "https://pageflows.com/post/android/onboarding/snapchat/"
+        },
+        {
+          "text": "    Dropbox ",
+          "href": "https://pageflows.com/post/android/onboarding/dropbox/"
+        },
+        {
+          "text": "    TikTok ",
+          "href": "https://pageflows.com/post/android/onboarding/tiktok/"
+        },
+        {
+          "text": "    Badoo ",
+          "href": "https://pageflows.com/post/android/onboarding/badoo/"
+        },
+        {
+          "text": "    OKX ",
+          "href": "https://pageflows.com/post/android/onboarding/okx/"
+        },
+        {
+          "text": "    Duolin... ",
+          "href": "https://pageflows.com/post/android/onboarding/duolingo/"
+        },
+        {
+          "text": "    Asana ",
+          "href": "https://pageflows.com/post/android/onboarding/asana/"
+        },
+        {
+          "text": "    Stripe ",
+          "href": "https://pageflows.com/post/desktop-web/onboarding/stripe/"
+        },
+        {
+          "text": "    Notion ",
+          "href": "https://pageflows.com/post/desktop-web/onboarding/notion/"
+        },
+        {
+          "text": "    Interc... ",
+          "href": "https://pageflows.com/post/desktop-web/onboarding/intercom/"
+        },
+        {
+          "text": "    Slack ",
+          "href": "https://pageflows.com/post/desktop-web/onboarding/slack/"
+        },
+        {
+          "text": "    Shopify ",
+          "href": "https://pageflows.com/post/desktop-web/onboarding/shopify/"
+        },
+        {
+          "text": "    Dovetail ",
+          "href": "https://pageflows.com/post/desktop-web/onboarding/dovetail/"
+        },
+        {
+          "text": "    Asana ",
+          "href": "https://pageflows.com/post/desktop-web/onboarding/asana/"
+        },
+        {
+          "text": "    Ampli... ",
+          "href": "https://pageflows.com/post/desktop-web/onboarding/amplitude/"
+        },
+        {
+          "text": "    Sign Up ",
+          "href": "https://pageflows.com/ios/screens/sign-up/"
+        },
+        {
+          "text": "    Login ",
+          "href": "https://pageflows.com/ios/flows/logging-in/"
+        },
+        {
+          "text": "    Checkout ",
+          "href": "https://pageflows.com/ios/screens/checkout/"
+        },
+        {
+          "text": "    Upgrade ",
+          "href": "https://pageflows.com/ios/screens/upgrade/"
+        },
+        {
+          "text": "    Sign Up ",
+          "href": "https://pageflows.com/android/screens/sign-up/"
+        },
+        {
+          "text": "    Filter ",
+          "href": "https://pageflows.com/android/screens/filter/"
+        },
+        {
+          "text": "    Product details ",
+          "href": "https://pageflows.com/android/screens/product-detail/"
+        },
+        {
+          "text": "    Search ",
+          "href": "https://pageflows.com/android/screens/search/"
+        },
+        {
+          "text": "    Dashboard ",
+          "href": "https://pageflows.com/web/screens/dashboard/"
+        },
+        {
+          "text": "    Plans & pricing ",
+          "href": "https://pageflows.com/web/screens/pricing-plans/"
+        },
+        {
+          "text": "    Signup ",
+          "href": "https://pageflows.com/web/screens/sign-up/"
+        },
+        {
+          "text": "    Forgot password ",
+          "href": "https://pageflows.com/web/screens/forgot-password/"
+        },
+        {
+          "text": "       Text Field ",
+          "href": "https://pageflows.com/ios/elements/text-field/"
+        },
+        {
+          "text": "       Buttons ",
+          "href": "https://pageflows.com/ios/elements/button/"
+        },
+        {
+          "text": "       Cards ",
+          "href": "https://pageflows.com/ios/elements/card/"
+        },
+        {
+          "text": "       Bottom  sheet ",
+          "href": "https://pageflows.com/ios/elements/bottom-sheet/"
+        },
+        {
+          "text": "       Tabs ",
+          "href": "https://pageflows.com/ios/elements/tabs/"
+        },
+        {
+          "text": "       Text Field ",
+          "href": "https://pageflows.com/android/elements/text-field/"
+        },
+        {
+          "text": "       Buttons ",
+          "href": "https://pageflows.com/android/elements/button/"
+        },
+        {
+          "text": "       Cards ",
+          "href": "https://pageflows.com/android/elements/card/"
+        },
+        {
+          "text": "       Bottom  sheet ",
+          "href": "https://pageflows.com/android/elements/bottom-sheet/"
+        },
+        {
+          "text": "       Tabs ",
+          "href": "https://pageflows.com/android/elements/tabs/"
+        },
+        {
+          "text": "       Text Field ",
+          "href": "https://pageflows.com/web/elements/text-field/"
+        },
+        {
+          "text": "       Buttons ",
+          "href": "https://pageflows.com/web/elements/button/"
+        },
+        {
+          "text": "       Cards ",
+          "href": "https://pageflows.com/web/elements/card/"
+        },
+        {
+          "text": "       Bottom  sheet ",
+          "href": "https://pageflows.com/web/elements/bottom-sheet/"
+        },
+        {
+          "text": "       Tabs ",
+          "href": "https://pageflows.com/web/elements/tabs/"
+        },
+        {
+          "text": "       Onboa... ",
+          "href": "https://pageflows.com/ios/flows/onboarding/"
+        },
+        {
+          "text": "          Booking ",
+          "href": "https://pageflows.com/ios/flows/booking-a-hotel/"
+        },
+        {
+          "text": "        Buying ",
+          "href": "https://pageflows.com/ios/flows/purchasing-ordering/"
+        },
+        {
+          "text": "       Adding ",
+          "href": "https://pageflows.com/ios/flows/creating-adding/"
+        },
+        {
+          "text": "       Chat ",
+          "href": "https://pageflows.com/ios/flows/chat/"
+        },
+        {
+          "text": "       Onboa... ",
+          "href": "https://pageflows.com/android/flows/onboarding/"
+        },
+        {
+          "text": "          Booking ",
+          "href": "https://pageflows.com/android/flows/booking-a-room/"
+        },
+        {
+          "text": "        Buying ",
+          "href": "https://pageflows.com/android/flows/purchasing-ordering/"
+        },
+        {
+          "text": "       Adding ",
+          "href": "https://pageflows.com/android/flows/creating-adding/"
+        },
+        {
+          "text": "       Chat ",
+          "href": "https://pageflows.com/android/flows/chatting/"
+        },
+        {
+          "text": "       Onboa... ",
+          "href": "https://pageflows.com/web/flows/onboarding/"
+        },
+        {
+          "text": "          Booking ",
+          "href": "https://pageflows.com/web/flows/booking-a-flight/"
+        },
+        {
+          "text": "        Buying ",
+          "href": "https://pageflows.com/web/flows/purchasing-ordering/"
+        },
+        {
+          "text": "       Adding ",
+          "href": "https://pageflows.com/web/flows/creating-adding/"
+        },
+        {
+          "text": "       Chat ",
+          "href": "https://pageflows.com/web/flows/chat/"
+        },
+        {
+          "text": "    Calendly ",
+          "href": "https://pageflows.com/emails/product/calendly/"
+        },
+        {
+          "text": "    Eventb... ",
+          "href": "https://pageflows.com/emails/product/eventbrite/"
+        },
+        {
+          "text": "    Beehiiv ",
+          "href": "https://pageflows.com/emails/product/beehiiv/"
+        },
+        {
+          "text": "    Airtable ",
+          "href": "https://pageflows.com/emails/product/airtable/"
+        },
+        {
+          "text": "       Onboa... ",
+          "href": "https://pageflows.com/ios/flows/onboarding/"
+        },
+        {
+          "text": "          Booking ",
+          "href": "https://pageflows.com/ios/flows/booking-a-hotel/"
+        },
+        {
+          "text": "        Buying ",
+          "href": "https://pageflows.com/ios/flows/purchasing-ordering/"
+        },
+        {
+          "text": "       Adding ",
+          "href": "https://pageflows.com/ios/flows/creating-adding/"
+        },
+        {
+          "text": "       Chat ",
+          "href": "https://pageflows.com/ios/flows/chat/"
+        },
+        {
+          "text": "       Onboa... ",
+          "href": "https://pageflows.com/android/flows/onboarding/"
+        },
+        {
+          "text": "          Booking ",
+          "href": "https://pageflows.com/android/flows/booking-a-room/"
+        },
+        {
+          "text": "        Buying ",
+          "href": "https://pageflows.com/android/flows/purchasing-ordering/"
+        },
+        {
+          "text": "       Adding ",
+          "href": "https://pageflows.com/android/flows/creating-adding/"
+        },
+        {
+          "text": "       Chat ",
+          "href": "https://pageflows.com/android/flows/chatting/"
+        },
+        {
+          "text": "       Onboa... ",
+          "href": "https://pageflows.com/web/flows/onboarding/"
+        },
+        {
+          "text": "          Booking ",
+          "href": "https://pageflows.com/web/flows/booking-a-flight/"
+        },
+        {
+          "text": "        Buying ",
+          "href": "https://pageflows.com/web/flows/purchasing-ordering/"
+        },
+        {
+          "text": "       Adding ",
+          "href": "https://pageflows.com/web/flows/creating-adding/"
+        },
+        {
+          "text": "       Chat ",
+          "href": "https://pageflows.com/web/flows/chat/"
+        },
+        {
+          "text": "Upgrading Account",
+          "href": "https://pageflows.com/ios/flows/upgrading-account/"
+        },
+        {
+          "text": "Deactivating & Deleting Account",
+          "href": "https://pageflows.com/ios/flows/deactivating-deleting/"
+        },
+        {
+          "text": "Logging In",
+          "href": "https://pageflows.com/ios/flows/logging-in/"
+        },
+        {
+          "text": "Logging Out",
+          "href": "https://pageflows.com/ios/flows/logging-out/"
+        },
+        {
+          "text": "Editing Profile",
+          "href": "https://pageflows.com/ios/flows/editing-profile/"
+        },
+        {
+          "text": "Reactivating & Restoring Account",
+          "href": "https://pageflows.com/ios/flows/reactivating-restoring-account/"
+        },
+        {
+          "text": "Resetting Password",
+          "href": "https://pageflows.com/ios/flows/resetting-password/"
+        },
+        {
+          "text": "Switching Account",
+          "href": "https://pageflows.com/ios/flows/switching-account/"
+        },
+        {
+          "text": "Verifying",
+          "href": "https://pageflows.com/ios/flows/verifying/"
+        },
+        {
+          "text": "Upgrading Account",
+          "href": "https://pageflows.com/ios/flows/upgrading-account/"
+        },
+        {
+          "text": "Deactivating & Deleting Account",
+          "href": "https://pageflows.com/ios/flows/deactivating-deleting/"
+        },
+        {
+          "text": "Logging In",
+          "href": "https://pageflows.com/ios/flows/logging-in/"
+        },
+        {
+          "text": "Logging Out",
+          "href": "https://pageflows.com/ios/flows/logging-out/"
+        },
+        {
+          "text": "Editing Profile",
+          "href": "https://pageflows.com/ios/flows/editing-profile/"
+        },
+        {
+          "text": "Reactivating & Restoring Account",
+          "href": "https://pageflows.com/ios/flows/reactivating-restoring-account/"
+        },
+        {
+          "text": "Resetting Password",
+          "href": "https://pageflows.com/ios/flows/resetting-password/"
+        },
+        {
+          "text": "Switching Account",
+          "href": "https://pageflows.com/ios/flows/switching-account/"
+        },
+        {
+          "text": "Verifying",
+          "href": "https://pageflows.com/ios/flows/verifying/"
+        },
+        {
+          "text": "Upgrading Account",
+          "href": "https://pageflows.com/ios/flows/upgrading-account/"
+        },
+        {
+          "text": "Deactivating & Deleting Account",
+          "href": "https://pageflows.com/ios/flows/deactivating-deleting/"
+        },
+        {
+          "text": "Logging In",
+          "href": "https://pageflows.com/ios/flows/logging-in/"
+        },
+        {
+          "text": "Logging Out",
+          "href": "https://pageflows.com/ios/flows/logging-out/"
+        },
+        {
+          "text": "Editing Profile",
+          "href": "https://pageflows.com/ios/flows/editing-profile/"
+        },
+        {
+          "text": "Reactivating & Restoring Account",
+          "href": "https://pageflows.com/ios/flows/reactivating-restoring-account/"
+        },
+        {
+          "text": "Resetting Password",
+          "href": "https://pageflows.com/ios/flows/resetting-password/"
+        },
+        {
+          "text": "Switching Account",
+          "href": "https://pageflows.com/ios/flows/switching-account/"
+        },
+        {
+          "text": "Verifying",
+          "href": "https://pageflows.com/ios/flows/verifying/"
+        },
+        {
+          "text": "Creating & Adding",
+          "href": "https://pageflows.com/ios/flows/creating-adding/"
+        },
+        {
+          "text": "Searching & Finding",
+          "href": "https://pageflows.com/ios/flows/searching-finding/"
+        },
+        {
+          "text": "Analyzing Stats",
+          "href": "https://pageflows.com/ios/flows/analytics-stats/"
+        },
+        {
+          "text": "Importing & Exporting",
+          "href": "https://pageflows.com/ios/flows/importing-exporting/"
+        },
+        {
+          "text": "Deleting & Removing",
+          "href": "https://pageflows.com/ios/flows/deleting-removing/"
+        },
+        {
+          "text": "Filtering & Sorting",
+          "href": "https://pageflows.com/ios/flows/filtering-sorting/"
+        },
+        {
+          "text": "Saving To Collection & Favoriting",
+          "href": "https://pageflows.com/ios/flows/saving-collection-favoriting/"
+        },
+        {
+          "text": "Scanning",
+          "href": "https://pageflows.com/ios/flows/scanning/"
+        },
+        {
+          "text": "Submitting & Applying",
+          "href": "https://pageflows.com/ios/flows/submitting-applying/"
+        },
+        {
+          "text": "Listening",
+          "href": "https://pageflows.com/ios/flows/listening/"
+        },
+        {
+          "text": "Managing",
+          "href": "https://pageflows.com/ios/flows/managing/"
+        },
+        {
+          "text": "Moving",
+          "href": "https://pageflows.com/ios/flows/moving/"
+        },
+        {
+          "text": "Requesting",
+          "href": "https://pageflows.com/ios/flows/requesting/"
+        },
+        {
+          "text": "Starting & Completing",
+          "href": "https://pageflows.com/ios/flows/starting-completing/"
+        },
+        {
+          "text": "Logging & Tracking",
+          "href": "https://pageflows.com/ios/flows/logging-tracking/"
+        },
+        {
+          "text": "Settings & Customizing",
+          "href": "https://pageflows.com/ios/flows/settings-customizing/"
+        },
+        {
+          "text": "Archiving",
+          "href": "https://pageflows.com/ios/flows/archiving/"
+        },
+        {
+          "text": "Watching Video",
+          "href": "https://pageflows.com/ios/flows/watching-video/"
+        },
+        {
+          "text": "Selecting & Choosing",
+          "href": "https://pageflows.com/ios/flows/selecting-choosing/"
+        },
+        {
+          "text": "Editing & Updating",
+          "href": "https://pageflows.com/ios/flows/editing-updating/"
+        },
+        {
+          "text": "Uploading & Downloading",
+          "href": "https://pageflows.com/ios/flows/uploading-downloading/"
+        },
+        {
+          "text": "Copying & Duplicating",
+          "href": "https://pageflows.com/ios/flows/copying-duplicating/"
+        },
+        {
+          "text": "Recording",
+          "href": "https://pageflows.com/ios/flows/recording/"
+        },
+        {
+          "text": "Pinning",
+          "href": "https://pageflows.com/ios/flows/pinning/"
+        },
+        {
+          "text": "Creating & Adding",
+          "href": "https://pageflows.com/ios/flows/creating-adding/"
+        },
+        {
+          "text": "Searching & Finding",
+          "href": "https://pageflows.com/ios/flows/searching-finding/"
+        },
+        {
+          "text": "Analyzing Stats",
+          "href": "https://pageflows.com/ios/flows/analytics-stats/"
+        },
+        {
+          "text": "Importing & Exporting",
+          "href": "https://pageflows.com/ios/flows/importing-exporting/"
+        },
+        {
+          "text": "Deleting & Removing",
+          "href": "https://pageflows.com/ios/flows/deleting-removing/"
+        },
+        {
+          "text": "Filtering & Sorting",
+          "href": "https://pageflows.com/ios/flows/filtering-sorting/"
+        },
+        {
+          "text": "Saving To Collection & Favoriting",
+          "href": "https://pageflows.com/ios/flows/saving-collection-favoriting/"
+        },
+        {
+          "text": "Scanning",
+          "href": "https://pageflows.com/ios/flows/scanning/"
+        },
+        {
+          "text": "Submitting & Applying",
+          "href": "https://pageflows.com/ios/flows/submitting-applying/"
+        },
+        {
+          "text": "Listening",
+          "href": "https://pageflows.com/ios/flows/listening/"
+        },
+        {
+          "text": "Managing",
+          "href": "https://pageflows.com/ios/flows/managing/"
+        },
+        {
+          "text": "Moving",
+          "href": "https://pageflows.com/ios/flows/moving/"
+        },
+        {
+          "text": "Requesting",
+          "href": "https://pageflows.com/ios/flows/requesting/"
+        },
+        {
+          "text": "Starting & Completing",
+          "href": "https://pageflows.com/ios/flows/starting-completing/"
+        },
+        {
+          "text": "Logging & Tracking",
+          "href": "https://pageflows.com/ios/flows/logging-tracking/"
+        },
+        {
+          "text": "Settings & Customizing",
+          "href": "https://pageflows.com/ios/flows/settings-customizing/"
+        },
+        {
+          "text": "Archiving",
+          "href": "https://pageflows.com/ios/flows/archiving/"
+        },
+        {
+          "text": "Watching Video",
+          "href": "https://pageflows.com/ios/flows/watching-video/"
+        },
+        {
+          "text": "Selecting & Choosing",
+          "href": "https://pageflows.com/ios/flows/selecting-choosing/"
+        },
+        {
+          "text": "Editing & Updating",
+          "href": "https://pageflows.com/ios/flows/editing-updating/"
+        },
+        {
+          "text": "Uploading & Downloading",
+          "href": "https://pageflows.com/ios/flows/uploading-downloading/"
+        },
+        {
+          "text": "Copying & Duplicating",
+          "href": "https://pageflows.com/ios/flows/copying-duplicating/"
+        },
+        {
+          "text": "Recording",
+          "href": "https://pageflows.com/ios/flows/recording/"
+        },
+        {
+          "text": "Pinning",
+          "href": "https://pageflows.com/ios/flows/pinning/"
+        },
+        {
+          "text": "Creating & Adding",
+          "href": "https://pageflows.com/ios/flows/creating-adding/"
+        },
+        {
+          "text": "Searching & Finding",
+          "href": "https://pageflows.com/ios/flows/searching-finding/"
+        },
+        {
+          "text": "Analyzing Stats",
+          "href": "https://pageflows.com/ios/flows/analytics-stats/"
+        },
+        {
+          "text": "Importing & Exporting",
+          "href": "https://pageflows.com/ios/flows/importing-exporting/"
+        },
+        {
+          "text": "Deleting & Removing",
+          "href": "https://pageflows.com/ios/flows/deleting-removing/"
+        },
+        {
+          "text": "Filtering & Sorting",
+          "href": "https://pageflows.com/ios/flows/filtering-sorting/"
+        },
+        {
+          "text": "Saving To Collection & Favoriting",
+          "href": "https://pageflows.com/ios/flows/saving-collection-favoriting/"
+        },
+        {
+          "text": "Scanning",
+          "href": "https://pageflows.com/ios/flows/scanning/"
+        },
+        {
+          "text": "Submitting & Applying",
+          "href": "https://pageflows.com/ios/flows/submitting-applying/"
+        },
+        {
+          "text": "Listening",
+          "href": "https://pageflows.com/ios/flows/listening/"
+        },
+        {
+          "text": "Managing",
+          "href": "https://pageflows.com/ios/flows/managing/"
+        },
+        {
+          "text": "Moving",
+          "href": "https://pageflows.com/ios/flows/moving/"
+        },
+        {
+          "text": "Requesting",
+          "href": "https://pageflows.com/ios/flows/requesting/"
+        },
+        {
+          "text": "Starting & Completing",
+          "href": "https://pageflows.com/ios/flows/starting-completing/"
+        },
+        {
+          "text": "Logging & Tracking",
+          "href": "https://pageflows.com/ios/flows/logging-tracking/"
+        },
+        {
+          "text": "Settings & Customizing",
+          "href": "https://pageflows.com/ios/flows/settings-customizing/"
+        },
+        {
+          "text": "Archiving",
+          "href": "https://pageflows.com/ios/flows/archiving/"
+        },
+        {
+          "text": "Watching Video",
+          "href": "https://pageflows.com/ios/flows/watching-video/"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--tw-ring-offset-shadow": "0 0 #0000",
+        "--tw-contrast": "",
+        "--tw-backdrop-sepia": "",
+        "--tw-ring-shadow": "0 0 #0000",
+        "--tw-sepia": "",
+        "--tw-skew-x": "0",
+        "--tw-ordinal": "",
+        "--tw-backdrop-saturate": "",
+        "--tw-backdrop-blur": "",
+        "--tw-shadow": "0 0 #0000",
+        "--tw-translate-x": "0",
+        "--tw-ring-inset": "",
+        "--tw-ring-offset-width": "0px",
+        "--tw-backdrop-invert": "",
+        "--tw-saturate": "",
+        "--tw-scroll-snap-strictness": "proximity",
+        "--tw-numeric-spacing": "",
+        "--tw-grayscale": "",
+        "--tw-scale-x": "1",
+        "--tw-border-spacing-x": "0",
+        "--tw-backdrop-hue-rotate": "",
+        "--tw-shadow-colored": "0 0 #0000",
+        "--tw-brightness": "",
+        "--tw-border-spacing-y": "0",
+        "--tw-numeric-fraction": "",
+        "--tw-backdrop-grayscale": "",
+        "--tw-hue-rotate": "",
+        "--tw-scale-y": "1",
+        "--tw-pan-y": "",
+        "--tw-backdrop-contrast": "",
+        "--tw-drop-shadow": "",
+        "--tw-skew-y": "0",
+        "--tw-ring-color": "rgb(68 142 227 / 0.5)",
+        "--tw-backdrop-brightness": "",
+        "--tw-slashed-zero": "",
+        "--tw-blur": "",
+        "--tw-invert": "",
+        "--tw-pan-x": "",
+        "--tw-translate-y": "0",
+        "--tw-backdrop-opacity": "",
+        "--tw-numeric-figure": "",
+        "--tw-rotate": "0",
+        "--tw-pinch-zoom": "",
+        "--tw-ring-offset-color": "#fff"
+      }
+    }
+  },
+  "scope": "public source reference; not a locally reconstructed component",
+  "http_status": 200,
+  "page_errors": [
+    "Cannot read properties of null (reading 'addEventListener')"
+  ]
+}

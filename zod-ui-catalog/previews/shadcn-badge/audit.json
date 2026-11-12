@@ -1,0 +1,111 @@
+{
+  "id": "shadcn-badge",
+  "source_url": "https://ui.shadcn.com/view/new-york-v4/badge-demo",
+  "views": {
+    "desktop": {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "source_http_status": 200,
+      "source_surface_bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 54.109375,
+        "height": 22
+      },
+      "source_style": {
+        "fontFamily": "Geist, \"Geist Fallback\"",
+        "fontSize": "12px",
+        "borderRadius": "3.35544e+07px",
+        "color": "lab(98.26 0 0)",
+        "backgroundColor": "lab(0 0 0)"
+      },
+      "local_http_status": 200,
+      "local_style": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "12px",
+        "borderRadius": "3.35544e+07px",
+        "color": "oklch(0.985 0 0)",
+        "backgroundColor": "oklch(0.205 0 0)"
+      },
+      "horizontal_overflow": false,
+      "comparison": {
+        "comparable": true,
+        "original_sizes": [
+          [
+            55,
+            22
+          ],
+          [
+            54,
+            22
+          ]
+        ],
+        "common_raster_size": [
+          54,
+          22
+        ],
+        "pixel_similarity": 0.8603386809269162,
+        "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+      },
+      "state_checks": [
+        "Static presentation: keyboard input not applicable"
+      ],
+      "runtime_errors": []
+    },
+    "mobile": {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "source_http_status": 200,
+      "source_surface_bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 54.109375,
+        "height": 22
+      },
+      "source_style": {
+        "fontFamily": "Geist, \"Geist Fallback\"",
+        "fontSize": "12px",
+        "borderRadius": "3.35544e+07px",
+        "color": "lab(98.26 0 0)",
+        "backgroundColor": "lab(0 0 0)"
+      },
+      "local_http_status": 200,
+      "local_style": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "12px",
+        "borderRadius": "3.35544e+07px",
+        "color": "oklch(0.985 0 0)",
+        "backgroundColor": "oklch(0.205 0 0)"
+      },
+      "horizontal_overflow": false,
+      "comparison": {
+        "comparable": true,
+        "original_sizes": [
+          [
+            55,
+            22
+          ],
+          [
+            54,
+            22
+          ]
+        ],
+        "common_raster_size": [
+          54,
+          22
+        ],
+        "pixel_similarity": 0.8603386809269162,
+        "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+      },
+      "state_checks": [
+        "Static presentation: keyboard input not applicable"
+      ],
+      "runtime_errors": []
+    }
+  },
+  "classification": "pending manual review"
+}

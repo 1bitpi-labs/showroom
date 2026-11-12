@@ -1,0 +1,127 @@
+{
+  "id": "dithercn-aurora",
+  "location": {
+    "quadrant": "Q3-visual-atmosphere",
+    "category": "shaders-webgl",
+    "section": "aurora-mesh-gradients",
+    "file_path": "Q3-visual-atmosphere/shaders-webgl/aurora-mesh-gradients/dithercn-aurora.json"
+  },
+  "tier": "S",
+  "tier_audit": {
+    "visual_verified": true,
+    "fidelity_type": "native_registry_code_with_static_surface_comparison",
+    "responsive_score": null,
+    "audit_notes": [
+      "Native MIT registry code preserved unchanged.",
+      "Manual comparison confirms static shader geometry, palette and dither pattern; desktop/mobile local render passes without JS errors or horizontal overflow.",
+      "Tier S requires host token and utility-CSS integration. No S+: full accessibility and animated-state audit not completed.",
+      "Pixel metrics describe the shader surface only and are supporting evidence, not an automatic tier formula."
+    ],
+    "comparison": {
+      "reference": {
+        "width": 224,
+        "height": 174,
+        "rect": {
+          "w": 672,
+          "h": 522
+        },
+        "state": "static"
+      },
+      "local": {
+        "width": 224,
+        "height": 174,
+        "rect": {
+          "w": 672,
+          "h": 522
+        },
+        "state": "static"
+      },
+      "comparison": "Common integer raster area; no rescaling",
+      "limitations": [
+        "Pixel metric is not a quality tier.",
+        "Only desktop same-size shader surface compared; no WCAG certification.",
+        "Reduced motion static state; animated timing not compared."
+      ],
+      "original_image_sizes": [
+        [
+          672,
+          522
+        ],
+        [
+          672,
+          523
+        ]
+      ],
+      "pixel_similarity": 0.9880718059893179
+    },
+    "mobile_comparison": {
+      "reference": {
+        "width": 114,
+        "height": 140,
+        "rect": {
+          "w": 342,
+          "h": 420
+        },
+        "state": "static"
+      },
+      "local": {
+        "width": 114,
+        "height": 140,
+        "rect": {
+          "w": 342,
+          "h": 420
+        },
+        "state": "static"
+      },
+      "pixel_similarity": 0.9681268618998581,
+      "limitations": [
+        "Pixel metric is not a quality tier.",
+        "Only mobile same-size shader surface compared; no WCAG certification.",
+        "Reduced motion static state; animated timing not compared."
+      ]
+    },
+    "evidence": [
+      "previews/dithercn-aurora-local/audit.json",
+      "previews/dithercn-aurora-local/comparison.json",
+      "previews/dithercn-aurora-local/comparison-mobile.json",
+      "assets/dithercn/aurora.json",
+      "assets/dithercn/LICENSE"
+    ]
+  },
+  "source_site": "dithercn.dev",
+  "source_url": "https://dithercn.dev/docs/backgrounds/aurora",
+  "license": {
+    "spdx": "MIT",
+    "url": "https://github.com/opencoredev/dithercn/blob/main/LICENSE",
+    "local": "assets/dithercn/LICENSE"
+  },
+  "stack_compatibility": [
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "WebGL"
+  ],
+  "style_tags": [
+    "dither",
+    "decorative",
+    "reduced-motion",
+    "aurora-mesh-gradients"
+  ],
+  "artifact": {
+    "type": "registry_component",
+    "registry": "assets/dithercn/aurora.json",
+    "dependencies": [
+      "assets/dithercn/dither-core.json",
+      "assets/dithercn/dither-tokens.json",
+      "React",
+      "shadcn cn utility (clsx + tailwind-merge)"
+    ],
+    "integration": [
+      "Preserve MIT notice.",
+      "Supply Tailwind utility CSS or equivalent styles and --dither-* tokens.",
+      "Keep decorative surface aria-hidden and do not place interactive content inside it.",
+      "Validate overlaid text contrast and target device WebGL fallback."
+    ],
+    "local_audit_fixture": "audits/native-render-fixture"
+  }
+}

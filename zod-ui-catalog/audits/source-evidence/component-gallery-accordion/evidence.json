@@ -1,0 +1,2476 @@
+{
+  "site": "component.gallery",
+  "url": "https://component.gallery/components/accordion",
+  "captured_at": "2026-11-12T21:11:37.592360+00:00",
+  "views": {
+    "desktop": {
+      "url": "https://component.gallery/components/accordion/",
+      "title": "🪗 Accordion | The Component Gallery",
+      "text": "The Component Gallery\nSEARCH\n^\nK\nCOMPONENTS\nDESIGN SYSTEMS\nABOUT\nComponent\nAccordion\n\nAlso known as: Arrow toggle, Collapse, Collapsible sections, Collapsible, Details, Disclosure, Expandable, Expander, ShowyHideyThing\n\nAn accordion is a vertical stack of interactive headings used to toggle the display of further information; each item can be 'collapsed' with just a short label visible or 'expanded' to show the full content.\n\nON THIS PAGE\nExamples\nDescription\nMarkup\nApproach 1: Heading with Button\nApproach 2: Summary and Details\nInteractivity\nStyling\nUsage guidelines\nFootnotes\nResources\nName distribution\n101 EXAMPLES\n\nFilter:\n\nTech\nFeatures\nSort by:\nDesign system\nComponent name\nCopy URLs\nAccordion\n\nA11Y Style Guide\n\nTECH\njQuery\nFEATURES\nCode examples\nUsage guidelines\nAccessibility\nUnmaintained\nOpen source\nCollapse\n\nAnt Design\n\nTECH\nReact\nFEATURES\nCode examples\nAccessibility issues\nOpen source\nDisclosure\n\nAriakit\n\nTECH\nReact\nFEATURES\nCode examples\nOpen source\nAccessibility\nAccordion\n\nAuro\n\nTECH\nWeb Components\nSass\nFEATURES\nCode examples\nUsage guidelines\nOpen source\nAccordion\n\nBackpack\n\nTECH\nMobile\nReact\nFEATURES\nCode examples\nUsage guidelines\nOpen source\nTone of voice\nAccordion\n\nBase Web\n\nTECH\nReact\nCSS-in-JS\nFEATURES\nCode examples\nUsage guidelines\nOpen source\nAccordion\n\nBBC Global Experience Language\n\nFEATURES\nAccessibility\nUsage guidelines\nUnmaintained\nCollapse\n\nBlueprint\n\nTECH\nReact\nSass\nFEATURES\nOpen source\nAccordion\n\nBolt Design System\n\nTECH\nSass\nTwig\nWeb Components\nFEATURES\nCode examples\nTone of voice\nOpen source\nCollapse\n\nBootstrap\n\nTECH\nSass\nFEATURES\nCode examples\nAccessibility\nOpen source\nExpandable helper\n\nBrighton & Hove City Council Website pattern library\n\nFEATURES\nUnmaintained\nAccordion\n\nCarbon Design System\n\nTECH\nReact\nVanilla JS\nAngular\nVue\nSvelte\nWeb Components\nFEATURES\nCode examples\nUsage guidelines\nOpen source\nAccordion\n\nCauldron\n\nTECH\nReact\nCSS\nFEATURES\nCode examples\nUsage guidelines\nAccessibility\nOpen source\nExpandCollapsePanel\n\nCauldron\n\nTECH\nReact\nCSS\nFEATURES\nCode examples\nUsage guidelines\nAccessibility\nOpen source\nAccordion\n\nCedar\n\nTECH\nVue\nSass\nCSS Modules\nFEATURES\nUsage guidelines\nCode examples\nOpen source\nAccordion\n\nChakra UI\n\nTECH\nReact\nCSS-in-JS\nFEATURES\nCode examples\nOpen source\nCollapsible\n\nChakra UI\n\nTECH\nReact\nCSS-in-JS\nFEATURES\nCode examples\nOpen source\nAccordion\n\nClarity Design System\n\nTECH\nCSS\nAngular\nWeb Components\nFEATURES\nCode examples\nUsage guidelines\nOpen source\nStack View\n\nClarity Design System\n\nTECH\nCSS\nAngular\nWeb Components\nFEATURES\nCode examples\nUsage guidelines\nOpen source\nAccordion\n\nCoral\n\nTECH\nReact\nFEATURES\nCode examples\nTone of voice\nOpen source\nAccordion\n\nCrayons\n\nTECH\nWeb Components\nFEATURES\nCode examples\nOpen source\nAccordion\n\nDecathlon Design System\n\nTECH\nCSS\nReact\nSvelte\nVue\nWeb Components\nFEATURES\nUsage guidelines\nCode examples\nAccessibility\nOpen source\nAccordion\n\nDell Design System\n\nTECH\nVanilla JS\nFEATURES\nCode examples\nUsage guidelines\nView More/Less\n\nDell Design System\n\nTECH\nVanilla JS\nFEATURES\nCode examples\nUsage guidelines\nAccordion\n\neBay MIND Patterns\n\nFEATURES\nAccessibility\nUsage guidelines\nOpen source\nDetails\n\neBay MIND Patterns\n\nFEATURES\nAccessibility\nUsage guidelines\nOpen source\nExpansion\n\neBay Playbook\n\nTECH\nHTML\nReact\nFEATURES\nCode examples\nAccordion\n\nElastic UI framework\n\nTECH\nReact\nCSS-in-JS\nFEATURES\nCode examples\nOpen source\nAccordion\n\nElisa Design System\n\nTECH\nReact\nFEATURES\nUsage guidelines\nCode examples\nAccessibility\nAccordion\n\nFlowbite\n\nTECH\nTailwind CSS\nFEATURES\nOpen source\nCode examples\nAccordion\n\nForma 36\n\nTECH\nReact\nCSS-in-JS\nFEATURES\nCode examples\nOpen source\nCollapse\n\nGeist Design System\n\nTECH\nReact\nFEATURES\nCode examples\nAccordion\n\ngeneric-components\n\nTECH\nWeb Components\nFEATURES\nCode examples\nAccessibility\nOpen source\nDisclosure\n\ngeneric-components\n\nTECH\nWeb Components\nFEATURES\nCode examples\nAccessibility\nOpen source\nAccordion\n\nGestalt\n\nTECH\nReact\nCSS\nFEATURES\nCode examples\nOpen source\nUsage guidelines\nAccordion\n\ngiffgaff design system\n\nFEATUR",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Accordion",
+          "bounds": {
+            "x": 108.96875,
+            "y": 108.96875,
+            "width": 367.640625,
+            "height": 107.921875
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "107.917px",
+            "fontWeight": "400",
+            "lineHeight": "107.917px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "101 EXAMPLES",
+          "bounds": {
+            "x": 396.75,
+            "y": 480.75,
+            "width": 970.25,
+            "height": 56.578125
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "24.5008px",
+            "fontWeight": "400",
+            "lineHeight": "32.5861px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "16px 16px 8px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Accordion",
+          "bounds": {
+            "x": 412.75,
+            "y": 836.390625,
+            "width": 125.21875,
+            "height": 41.359375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "36.7648px",
+            "fontWeight": "400",
+            "lineHeight": "41.3604px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "TECH",
+          "bounds": {
+            "x": 412.75,
+            "y": 914.234375,
+            "width": 290.75,
+            "height": 19.984375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "13.328px",
+            "fontWeight": "500",
+            "lineHeight": "19.992px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "FEATURES",
+          "bounds": {
+            "x": 412.75,
+            "y": 972.546875,
+            "width": 290.75,
+            "height": 19.984375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "13.328px",
+            "fontWeight": "500",
+            "lineHeight": "19.992px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Collapse",
+          "bounds": {
+            "x": 736.5,
+            "y": 836.375,
+            "width": 104.15625,
+            "height": 41.359375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "36.7648px",
+            "fontWeight": "400",
+            "lineHeight": "41.3604px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "TECH",
+          "bounds": {
+            "x": 736.5,
+            "y": 944.5625,
+            "width": 290.734375,
+            "height": 19.984375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "13.328px",
+            "fontWeight": "500",
+            "lineHeight": "19.992px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "FEATURES",
+          "bounds": {
+            "x": 736.5,
+            "y": 1002.875,
+            "width": 290.734375,
+            "height": 19.984375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "13.328px",
+            "fontWeight": "500",
+            "lineHeight": "19.992px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Disclosure",
+          "bounds": {
+            "x": 1060.234375,
+            "y": 836.390625,
+            "width": 127.265625,
+            "height": 41.359375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "36.7648px",
+            "fontWeight": "400",
+            "lineHeight": "41.3604px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "TECH",
+          "bounds": {
+            "x": 1060.234375,
+            "y": 944.5625,
+            "width": 290.765625,
+            "height": 19.984375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "13.328px",
+            "fontWeight": "500",
+            "lineHeight": "19.992px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "FEATURES",
+          "bounds": {
+            "x": 1060.234375,
+            "y": 1002.875,
+            "width": 290.765625,
+            "height": 19.984375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "13.328px",
+            "fontWeight": "500",
+            "lineHeight": "19.992px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Accordion",
+          "bounds": {
+            "x": 412.75,
+            "y": 1346.578125,
+            "width": 125.21875,
+            "height": 41.359375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "36.7648px",
+            "fontWeight": "400",
+            "lineHeight": "41.3604px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "HEADER",
+          "role": null,
+          "text": "The Component Gallery\nSEARCH\n^\nK\nCOMPONENTS\nDESIGN SYSTEMS\nABOUT",
+          "bounds": {
+            "x": 73,
+            "y": 0,
+            "width": 1294,
+            "height": 72
+          },
+          "styles": {
+            "display": "grid",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "1px",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "subgrid [] [] [] [] [] [] [] [] [] [] [] [] []"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "SEARCH\n^\nK",
+          "bounds": {
+            "x": 512.65625,
+            "y": 24,
+            "width": 146.84375,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "20px",
+            "fontWeight": "400",
+            "lineHeight": "30px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "8px",
+            "padding": "8px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 887.328125,
+            "y": 24,
+            "width": 40,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "8px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "COMPONENTS\nDESIGN SYSTEMS\nABOUT",
+          "bounds": {
+            "x": 936.328125,
+            "y": 0,
+            "width": 430.671875,
+            "height": 72
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgb(247, 245, 242)",
+            "gap": "normal",
+            "padding": "24px 16px 16px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "role": null,
+          "text": "Component\nAccordion\n\nAlso known as: Arrow toggle, Collapse, Collapsible sections, Collapsible, Details, Disclosure, Expandable, Expander, Sh",
+          "bounds": {
+            "x": 73,
+            "y": 73,
+            "width": 1294,
+            "height": 22537.984375
+          },
+          "styles": {
+            "display": "grid",
+            "position": "relative",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgb(247, 245, 242)",
+            "gap": "1px normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "subgrid [] [] [] [] [] [] [] [] [] [] [] [] []"
+          }
+        },
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "ON THIS PAGE\nExamples\nDescription\nMarkup\nApproach 1: Heading with Button\nApproach 2: Summary and Details\nInteractivity\nStyling\nUsage guideli",
+          "bounds": {
+            "x": 73,
+            "y": 480.75,
+            "width": 322.75,
+            "height": 429.90625
+          },
+          "styles": {
+            "display": "block",
+            "position": "sticky",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "16px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Tech",
+          "bounds": {
+            "x": 469.40625,
+            "y": 545.328125,
+            "width": 75.46875,
+            "height": 36
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16.3264px",
+            "fontWeight": "550",
+            "lineHeight": "20px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "8px 16px 8px 8px",
+            "borderRadius": "6px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Features",
+          "bounds": {
+            "x": 560.875,
+            "y": 545.328125,
+            "width": 102.3125,
+            "height": 36
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16.3264px",
+            "fontWeight": "550",
+            "lineHeight": "20px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "8px 16px 8px 8px",
+            "borderRadius": "6px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Copy URLs",
+          "bounds": {
+            "x": 1240.4375,
+            "y": 496.75,
+            "width": 110.5625,
+            "height": 26
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16.3264px",
+            "fontWeight": "550",
+            "lineHeight": "24px",
+            "color": "rgb(95, 93, 91)",
+            "backgroundColor": "rgb(247, 245, 242)",
+            "gap": "4px",
+            "padding": "0px 8px",
+            "borderRadius": "6px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "FOOTNOTES\n\nDetails & Summary elements: Caniuse.com ↩\n\nTwo Issues Styling the Details Element and How to Solve Them, Greg Gibson on CSS-Trick",
+          "bounds": {
+            "x": 412.75,
+            "y": 21163.890625,
+            "width": 614.828125,
+            "height": 110.453125
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16.3264px",
+            "fontWeight": "400",
+            "lineHeight": "24.4896px",
+            "color": "rgb(114, 111, 109)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "The Component Gallery",
+          "href": "https://component.gallery/"
+        },
+        {
+          "text": "COMPONENTS",
+          "href": "https://component.gallery/components"
+        },
+        {
+          "text": "DESIGN SYSTEMS",
+          "href": "https://component.gallery/design-systems"
+        },
+        {
+          "text": "ABOUT",
+          "href": "https://component.gallery/about"
+        },
+        {
+          "text": "Examples",
+          "href": "https://component.gallery/components/accordion/#examples"
+        },
+        {
+          "text": "Description",
+          "href": "https://component.gallery/components/accordion/#description"
+        },
+        {
+          "text": "Markup",
+          "href": "https://component.gallery/components/accordion/#markup"
+        },
+        {
+          "text": "Approach 1: Heading with Button",
+          "href": "https://component.gallery/components/accordion/#approach-1-heading-with-button"
+        },
+        {
+          "text": "Approach 2: Summary and Details",
+          "href": "https://component.gallery/components/accordion/#approach-2-summary-and-details"
+        },
+        {
+          "text": "Interactivity",
+          "href": "https://component.gallery/components/accordion/#interactivity"
+        },
+        {
+          "text": "Styling",
+          "href": "https://component.gallery/components/accordion/#styling"
+        },
+        {
+          "text": "Usage guidelines",
+          "href": "https://component.gallery/components/accordion/#usage-guidelines"
+        },
+        {
+          "text": "Footnotes",
+          "href": "https://component.gallery/components/accordion/#footnote-label"
+        },
+        {
+          "text": "Resources",
+          "href": "https://component.gallery/components/accordion/#resources"
+        },
+        {
+          "text": "Name distribution",
+          "href": "https://component.gallery/components/accordion/#name-distribution"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://a11y-style-guide.com/style-guide/section-navigation.html#kssref-navigation-accordion"
+        },
+        {
+          "text": "Collapse",
+          "href": "https://ant.design/components/collapse"
+        },
+        {
+          "text": "Disclosure",
+          "href": "https://ariakit.org/components/disclosure"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://auro.alaskaair.com/components/auro/accordion"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://www.skyscanner.design/latest/components/accordion/web-sEshz9Z5"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://baseweb.design/components/accordion/"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://www.bbc.co.uk/gel/guidelines/accordion"
+        },
+        {
+          "text": "Collapse",
+          "href": "https://blueprintjs.com/docs/#core/components/collapse"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://boltdesignsystem.com/pattern-lab/?p=viewall-components-accordion"
+        },
+        {
+          "text": "Collapse",
+          "href": "https://getbootstrap.com/docs/4.3/components/collapse/"
+        },
+        {
+          "text": "Expandable helper",
+          "href": "http://design.brighton-hove.gov.uk/website-pattern-library.php?p=expandable-helper#/"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://carbondesignsystem.com/components/accordion/usage/"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://cauldron.dequelabs.com/components/Accordion"
+        },
+        {
+          "text": "ExpandCollapsePanel",
+          "href": "https://cauldron.dequelabs.com/components/ExpandCollapsePanel"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://cedar.rei.com/components/accordion"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://chakra-ui.com/docs/components/accordion"
+        },
+        {
+          "text": "Collapsible",
+          "href": "https://chakra-ui.com/docs/components/collapsible"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://clarity.design/documentation/accordion"
+        },
+        {
+          "text": "Stack View",
+          "href": "https://clarity.design/documentation/stack-view"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://design.talend.com/?path=/docs/navigation-accordion--docs"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://crayons.freshworks.com/components/core/accordion/"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://www.decathlon.design/726f8c765/p/04348b-accordion/b/228a62"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://www.delldesignsystem.com/components/accordion/"
+        },
+        {
+          "text": "View More/Less",
+          "href": "https://vanilla.delldesignsystem.com/2.17.1/index.html?path=/docs/components-view-more-less--related"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://ebay.gitbook.io/mindpatterns/disclosure/accordion"
+        },
+        {
+          "text": "Details",
+          "href": "https://ebay.gitbook.io/mindpatterns/disclosure/details"
+        },
+        {
+          "text": "Expansion",
+          "href": "https://playbook.ebay.com/design-system/components/expansion"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://eui.elastic.co/docs/components/containers/accordion/"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://designsystem.elisa.fi/9b207b2c3/p/418ae1-accordion"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://flowbite.com/docs/components/accordion/"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://f36.contentful.com/components/accordion"
+        },
+        {
+          "text": "Collapse",
+          "href": "https://vercel.com/geist/collapse"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://genericcomponents.netlify.app/generic-accordion/demo/index.html"
+        },
+        {
+          "text": "Disclosure",
+          "href": "https://genericcomponents.netlify.app/generic-disclosure/demo/index.html"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://gestalt.pinterest.systems/web/accordion"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://www.giffgaff.design/components/for-web/accordion/"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://gold.designsystemau.org/components/accordion/"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://design-system.service.gov.uk/components/accordion/"
+        },
+        {
+          "text": "Details",
+          "href": "https://design-system.service.gov.uk/components/details/"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://v2.grommet.io/accordion"
+        },
+        {
+          "text": "Disclosure",
+          "href": "https://headlessui.com/react/disclosure"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://hds.hel.fi/components/accordion"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://www.heroui.com/docs/components/accordion"
+        },
+        {
+          "text": "Collapsible sections",
+          "href": "https://inclusive-components.design/collapsible-sections/"
+        },
+        {
+          "text": "ToggleDetails",
+          "href": "https://instructure.design/#ToggleDetails"
+        },
+        {
+          "text": "ToggleGroup",
+          "href": "https://instructure.design/#ToggleGroup"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://jokul.fremtind.no/komponenter/accordion"
+        },
+        {
+          "text": "ExpandButton",
+          "href": "https://jokul.fremtind.no/komponenter/expandbutton"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://www.lightningdesignsystem.com/components/accordion/"
+        },
+        {
+          "text": "Expandable Section",
+          "href": "https://www.lightningdesignsystem.com/components/expandable-section/"
+        },
+        {
+          "text": "Summary Detail",
+          "href": "https://www.lightningdesignsystem.com/components/summary-detail/"
+        },
+        {
+          "text": "Details",
+          "href": "https://protocol.mozilla.org/components/detail/details.html"
+        },
+        {
+          "text": "Details component",
+          "href": "https://protocol.mozilla.org/components/detail/details-component--default.html"
+        },
+        {
+          "text": "Expandable",
+          "href": "https://design.ns.nl/4a05a30ad/p/54d9a8-expandable"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://www.newskit.co.uk/components/accordion/"
+        },
+        {
+          "text": "Expander",
+          "href": "https://service-manual.nhs.uk/design-system/components/expander"
+        },
+        {
+          "text": "Details",
+          "href": "https://service-manual.nhs.uk/design-system/components/details"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://britishgas.design/docs/components/ns-accordion"
+        },
+        {
+          "text": "Expander",
+          "href": "https://britishgas.design/docs/components/ns-expander"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://ons-design-system.netlify.app/components/accordion/"
+        },
+        {
+          "text": "Details",
+          "href": "https://ons-design-system.netlify.app/components/details/"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://designsystem.ontario.ca/components/detail/accordions.html"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://orbit.kiwi/components/accordion/"
+        },
+        {
+          "text": "Collapse",
+          "href": "https://orbit.kiwi/components/collapse/"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://design.gitlab.com/components/accordion"
+        },
+        {
+          "text": "Disclosure",
+          "href": "https://paste.twilio.design/components/disclosure"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://www.patternfly.org/components/accordion"
+        },
+        {
+          "text": "Expandable section",
+          "href": "https://www.patternfly.org/components/expandable-section"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://designsystem.porsche.com/v3/components/accordion/examples"
+        },
+        {
+          "text": "Details",
+          "href": "https://primer.style/design/components/details"
+        },
+        {
+          "text": "Expansion Item",
+          "href": "https://quasar.dev/vue-components/expansion-item"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://radix-ui.com/primitives/docs/components/accordion"
+        },
+        {
+          "text": "Collapsible",
+          "href": "https://radix-ui.com/primitives/docs/components/collapsible"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://reach.tech/accordion"
+        },
+        {
+          "text": "Disclosure",
+          "href": "https://reach.tech/disclosure"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://ux.redhat.com/elements/accordion/"
+        },
+        {
+          "text": "Disclosure",
+          "href": "https://ux.redhat.com/elements/disclosure/"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://components.ruter.as/#/Components/Interactive/Accordion"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://design-systems.sainsburys.co.uk/components/accordion/"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://designlibrary.sebgroup.com/components/accordion/"
+        },
+        {
+          "text": "Section expander",
+          "href": "https://designlibrary.sebgroup.com/components/section-expander/"
+        },
+        {
+          "text": "Collapsible",
+          "href": "https://sproutsocial.com/seeds/components/collapsible"
+        },
+        {
+          "text": "Accordion Item",
+          "href": "https://seek-oss.github.io/seek-style-guide/accordion"
+        },
+        {
+          "text": "Read More",
+          "href": "https://seek-oss.github.io/seek-style-guide/read-more"
+        },
+        {
+          "text": "Toggle Content",
+          "href": "https://seek-oss.github.io/seek-style-guide/toggle-content"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://ui.shadcn.com/docs/components/accordion"
+        },
+        {
+          "text": "Collapsible",
+          "href": "https://ui.shadcn.com/docs/components/collapsible"
+        },
+        {
+          "text": "Details",
+          "href": "https://shoelace.style/components/details"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://theguardian.design/2a1e5182b/p/38c5aa-accordion"
+        },
+        {
+          "text": "Expandable",
+          "href": "https://stackoverflow.design/product/components/expandable"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://www.subzero.axis.bank.in/components/accordion"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://designsystem.digital.gov/components/accordion/"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://design.visa.com/components/accordion/"
+        },
+        {
+          "text": "Collapsible containers",
+          "href": "https://design-system.w3.org/components/collapsible-containers.html"
+        },
+        {
+          "text": "Disclosure",
+          "href": "https://design.wonderflow.ai/get-started/components/actions/disclosure"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://design.wonderflow.ai/get-started/components/actions/accordion"
+        },
+        {
+          "text": "Expander",
+          "href": "https://design.wonderflow.ai/get-started/components/actions/expander"
+        },
+        {
+          "text": "Details",
+          "href": "https://webawesome.com/docs/components/details/"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://designsystem.tfwm.org.uk/components/accordion/"
+        },
+        {
+          "text": "Details",
+          "href": "https://designsystem.tfwm.org.uk/components/details/"
+        },
+        {
+          "text": "Expandable container",
+          "href": "https://canvas.workday.com/components/containers/expandable-container"
+        },
+        {
+          "text": "details",
+          "href": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details"
+        },
+        {
+          "text": "summary",
+          "href": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary"
+        },
+        {
+          "text": "details",
+          "href": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details"
+        },
+        {
+          "text": "1",
+          "href": "https://component.gallery/components/accordion/#user-content-fn-1"
+        },
+        {
+          "text": "first example",
+          "href": "https://component.gallery/components/accordion/#approach-1-heading-with-button"
+        },
+        {
+          "text": "progressively enhance",
+          "href": "https://www.gov.uk/service-manual/technology/using-progressive-enhancement"
+        },
+        {
+          "text": "Inclusive Components",
+          "href": "https://inclusive-components.design/collapsible-sections/"
+        },
+        {
+          "text": "second example",
+          "href": "https://component.gallery/components/accordion/#approach-2-summary-and-details"
+        },
+        {
+          "text": "2",
+          "href": "https://component.gallery/components/accordion/#user-content-fn-2"
+        },
+        {
+          "text": "affordance",
+          "href": "https://uxplanet.org/ux-design-glossary-how-to-use-affordances-in-user-interfaces-393c8e9686e4"
+        },
+        {
+          "text": "tabs",
+          "href": "https://component.gallery/components/tabs"
+        },
+        {
+          "text": "Details & Summary elements: Caniuse.com",
+          "href": "https://caniuse.com/#feat=details"
+        },
+        {
+          "text": "↩",
+          "href": "https://component.gallery/components/accordion/#user-content-fnref-1"
+        },
+        {
+          "text": "Two Issues Styling the Details Element and How to Solve Them",
+          "href": "https://css-tricks.com/two-issues-styling-the-details-element-and-how-to-solve-them/"
+        },
+        {
+          "text": "↩",
+          "href": "https://component.gallery/components/accordion/#user-content-fnref-2"
+        },
+        {
+          "text": "Accordion Icons: Which Signifiers Work Best?",
+          "href": "https://www.nngroup.com/articles/accordion-icons/"
+        },
+        {
+          "text": "Stop Using ‘Drop-down’",
+          "href": "https://adrianroselli.com/2020/03/stop-using-drop-down.html"
+        },
+        {
+          "text": "Why <details> is Not an Accordion",
+          "href": "https://daverupert.com/2019/12/why-details-is-not-an-accordion/"
+        },
+        {
+          "text": "Accordion Guidelines",
+          "href": "https://balsamiq.com/learn/ui-control-guidelines/accordions/"
+        },
+        {
+          "text": "UI cheat sheet: Accordions",
+          "href": "https://uxdesign.cc/ui-cheat-sheet-accordions-3e88f0d4dfee"
+        },
+        {
+          "text": "Iain Bean",
+          "href": "https://iainbean.com/"
+        },
+        {
+          "text": "Astro",
+          "href": "https://astro.build/"
+        },
+        {
+          "text": "Airtable",
+          "href": "https://airtable.com/"
+        },
+        {
+          "text": "Cloudflare Pages",
+          "href": "https://pages.cloudflare.com/"
+        },
+        {
+          "text": "Pagefind",
+          "href": "https://pagefind.app/"
+        },
+        {
+          "text": "this puppeteer script",
+          "href": "https://github.com/inbn/screenshot-urls"
+        },
+        {
+          "text": "Tailwind",
+          "href": "https://tailwindcss.com/"
+        },
+        {
+          "text": "Instrument Serif",
+          "href": "https://fonts.google.com/specimen/Instrument+Serif"
+        },
+        {
+          "text": "Instrument Sans",
+          "href": "https://fonts.google.com/specimen/Instrument+Sans"
+        },
+        {
+          "text": "JetBrains Mono",
+          "href": "https://www.jetbrains.com/lp/mono/"
+        },
+        {
+          "text": "About",
+          "href": "https://component.gallery/about"
+        },
+        {
+          "text": "Contribute",
+          "href": "https://component.gallery/contribute"
+        },
+        {
+          "text": "Changelog",
+          "href": "https://component.gallery/changelog"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--tw-ring-offset-shadow": "0 0 #0000",
+        "--tw-backdrop-sepia": "",
+        "--tw-ring-shadow": "0 0 #0000",
+        "--tw-sepia": "",
+        "--tw-ordinal": "",
+        "--tw-backdrop-saturate": "",
+        "--tw-contain-style": "",
+        "--tw-ring-inset": "",
+        "--tw-backdrop-invert": "",
+        "--tw-numeric-spacing": "",
+        "--color-bg-primary": "#f7f5f2",
+        "--tw-border-spacing-x": "0",
+        "--color-text-highlight": "#1f1d1d",
+        "--color-text-secondary": "#726f6d",
+        "--tw-brightness": "",
+        "--tw-backdrop-grayscale": "",
+        "--tw-hue-rotate": "",
+        "--tw-scale-y": "1",
+        "--tw-pan-y": "",
+        "--tw-backdrop-contrast": "",
+        "--tw-drop-shadow": "",
+        "--color-border-primary": "#ccc9c5",
+        "--tw-ring-color": "rgb(59 130 246 / .5)",
+        "--tw-backdrop-brightness": "",
+        "--fade-size": "72px",
+        "--tw-pan-x": "",
+        "--tw-translate-y": "0",
+        "--tw-rotate": "0",
+        "--tw-ring-offset-color": "#fff",
+        "--tw-contain-size": "",
+        "--tw-contrast": "",
+        "--color-bg-highlight-invert": "#1f1d1d",
+        "--color-border-highlight": "#1f1d1d",
+        "--tw-skew-x": "0",
+        "--tw-backdrop-blur": "",
+        "--tw-shadow": "0 0 #0000",
+        "--tw-translate-x": "0",
+        "--tw-ring-offset-width": "0px",
+        "--tw-gradient-via-position": "",
+        "--color-text-decoration": "#5f5d5b",
+        "--color-text-highlight-invert": "#f7f5f2",
+        "--tw-saturate": "",
+        "--tw-scroll-snap-strictness": "proximity",
+        "--tw-grayscale": "",
+        "--tw-scale-x": "1",
+        "--color-bg-highlight": "#fff",
+        "--grid-display-size": "calc((100vw - 9rem - 1px) / 36)",
+        "--tw-backdrop-hue-rotate": "",
+        "--tw-shadow-colored": "0 0 #0000",
+        "--color-gradient-highlight-2": "#343232",
+        "--tw-gradient-to-position": "",
+        "--tw-border-spacing-y": "0",
+        "--tw-numeric-fraction": "",
+        "--color-gradient-background": "#eceae6",
+        "--color-gradient-highlight-1": "#8b8885",
+        "--tw-skew-y": "0",
+        "--tw-slashed-zero": "",
+        "--tw-blur": "",
+        "--tw-invert": "",
+        "--color-text-primary": "#4a4846",
+        "--tw-backdrop-opacity": "",
+        "--tw-gradient-from-position": "",
+        "--color-bg-secondary": "#e2dfdb",
+        "--tw-numeric-figure": "",
+        "--tw-pinch-zoom": "",
+        "--tw-contain-paint": "",
+        "--tw-contain-layout": ""
+      }
+    },
+    "mobile": {
+      "url": "https://component.gallery/components/accordion/",
+      "title": "🪗 Accordion | The Component Gallery",
+      "text": "The Component Gallery\nSEARCH\nCOMPONENTS\nDESIGN SYSTEMS\nABOUT\nComponent\nAccordion\n\nAlso known as: Arrow toggle, Collapse, Collapsible sections, Collapsible, Details, Disclosure, Expandable, Expander, ShowyHideyThing\n\nAn accordion is a vertical stack of interactive headings used to toggle the display of further information; each item can be 'collapsed' with just a short label visible or 'expanded' to show the full content.\n\nON THIS PAGE\nExamples\nDescription\nMarkup\nApproach 1: Heading with Button\nApproach 2: Summary and Details\nInteractivity\nStyling\nUsage guidelines\nFootnotes\nResources\nName distribution\n101 EXAMPLES\n\nFilter:\n\nTech\nFeatures\nSort by:\nDesign system\nComponent name\nCopy URLs\nAccordion\n\nA11Y Style Guide\n\nTECH\njQuery\nFEATURES\nCode examples\nUsage guidelines\nAccessibility\nUnmaintained\nOpen source\nCollapse\n\nAnt Design\n\nTECH\nReact\nFEATURES\nCode examples\nAccessibility issues\nOpen source\nDisclosure\n\nAriakit\n\nTECH\nReact\nFEATURES\nCode examples\nOpen source\nAccessibility\nAccordion\n\nAuro\n\nTECH\nWeb Components\nSass\nFEATURES\nCode examples\nUsage guidelines\nOpen source\nAccordion\n\nBackpack\n\nTECH\nMobile\nReact\nFEATURES\nCode examples\nUsage guidelines\nOpen source\nTone of voice\nAccordion\n\nBase Web\n\nTECH\nReact\nCSS-in-JS\nFEATURES\nCode examples\nUsage guidelines\nOpen source\nAccordion\n\nBBC Global Experience Language\n\nFEATURES\nAccessibility\nUsage guidelines\nUnmaintained\nCollapse\n\nBlueprint\n\nTECH\nReact\nSass\nFEATURES\nOpen source\nAccordion\n\nBolt Design System\n\nTECH\nSass\nTwig\nWeb Components\nFEATURES\nCode examples\nTone of voice\nOpen source\nCollapse\n\nBootstrap\n\nTECH\nSass\nFEATURES\nCode examples\nAccessibility\nOpen source\nExpandable helper\n\nBrighton & Hove City Council Website pattern library\n\nFEATURES\nUnmaintained\nAccordion\n\nCarbon Design System\n\nTECH\nReact\nVanilla JS\nAngular\nVue\nSvelte\nWeb Components\nFEATURES\nCode examples\nUsage guidelines\nOpen source\nAccordion\n\nCauldron\n\nTECH\nReact\nCSS\nFEATURES\nCode examples\nUsage guidelines\nAccessibility\nOpen source\nExpandCollapsePanel\n\nCauldron\n\nTECH\nReact\nCSS\nFEATURES\nCode examples\nUsage guidelines\nAccessibility\nOpen source\nAccordion\n\nCedar\n\nTECH\nVue\nSass\nCSS Modules\nFEATURES\nUsage guidelines\nCode examples\nOpen source\nAccordion\n\nChakra UI\n\nTECH\nReact\nCSS-in-JS\nFEATURES\nCode examples\nOpen source\nCollapsible\n\nChakra UI\n\nTECH\nReact\nCSS-in-JS\nFEATURES\nCode examples\nOpen source\nAccordion\n\nClarity Design System\n\nTECH\nCSS\nAngular\nWeb Components\nFEATURES\nCode examples\nUsage guidelines\nOpen source\nStack View\n\nClarity Design System\n\nTECH\nCSS\nAngular\nWeb Components\nFEATURES\nCode examples\nUsage guidelines\nOpen source\nAccordion\n\nCoral\n\nTECH\nReact\nFEATURES\nCode examples\nTone of voice\nOpen source\nAccordion\n\nCrayons\n\nTECH\nWeb Components\nFEATURES\nCode examples\nOpen source\nAccordion\n\nDecathlon Design System\n\nTECH\nCSS\nReact\nSvelte\nVue\nWeb Components\nFEATURES\nUsage guidelines\nCode examples\nAccessibility\nOpen source\nAccordion\n\nDell Design System\n\nTECH\nVanilla JS\nFEATURES\nCode examples\nUsage guidelines\nView More/Less\n\nDell Design System\n\nTECH\nVanilla JS\nFEATURES\nCode examples\nUsage guidelines\nAccordion\n\neBay MIND Patterns\n\nFEATURES\nAccessibility\nUsage guidelines\nOpen source\nDetails\n\neBay MIND Patterns\n\nFEATURES\nAccessibility\nUsage guidelines\nOpen source\nExpansion\n\neBay Playbook\n\nTECH\nHTML\nReact\nFEATURES\nCode examples\nAccordion\n\nElastic UI framework\n\nTECH\nReact\nCSS-in-JS\nFEATURES\nCode examples\nOpen source\nAccordion\n\nElisa Design System\n\nTECH\nReact\nFEATURES\nUsage guidelines\nCode examples\nAccessibility\nAccordion\n\nFlowbite\n\nTECH\nTailwind CSS\nFEATURES\nOpen source\nCode examples\nAccordion\n\nForma 36\n\nTECH\nReact\nCSS-in-JS\nFEATURES\nCode examples\nOpen source\nCollapse\n\nGeist Design System\n\nTECH\nReact\nFEATURES\nCode examples\nAccordion\n\ngeneric-components\n\nTECH\nWeb Components\nFEATURES\nCode examples\nAccessibility\nOpen source\nDisclosure\n\ngeneric-components\n\nTECH\nWeb Components\nFEATURES\nCode examples\nAccessibility\nOpen source\nAccordion\n\nGestalt\n\nTECH\nReact\nCSS\nFEATURES\nCode examples\nOpen source\nUsage guidelines\nAccordion\n\ngiffgaff design system\n\nFEATURES\nU",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Accordion",
+          "bounds": {
+            "x": 39.203125,
+            "y": 168.578125,
+            "width": 145.171875,
+            "height": 42.625
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "42.625px",
+            "fontWeight": "400",
+            "lineHeight": "42.625px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "101 EXAMPLES",
+          "bounds": {
+            "x": 25,
+            "y": 1182.78125,
+            "width": 340,
+            "height": 48.5625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "18.4743px",
+            "fontWeight": "400",
+            "lineHeight": "24.5708px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "16px 16px 8px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Accordion",
+          "bounds": {
+            "x": 41,
+            "y": 1607.34375,
+            "width": 81.078125,
+            "height": 26.765625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "23.8011px",
+            "fontWeight": "400",
+            "lineHeight": "26.7763px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "TECH",
+          "bounds": {
+            "x": 41,
+            "y": 1667.671875,
+            "width": 308,
+            "height": 19.03125
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "12.6913px",
+            "fontWeight": "500",
+            "lineHeight": "19.0369px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "FEATURES",
+          "bounds": {
+            "x": 41,
+            "y": 1723.078125,
+            "width": 308,
+            "height": 19.03125
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "12.6913px",
+            "fontWeight": "500",
+            "lineHeight": "19.0369px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Collapse",
+          "bounds": {
+            "x": 41,
+            "y": 2074.859375,
+            "width": 67.453125,
+            "height": 26.765625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "23.8011px",
+            "fontWeight": "400",
+            "lineHeight": "26.7763px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "TECH",
+          "bounds": {
+            "x": 41,
+            "y": 2135.1875,
+            "width": 308,
+            "height": 19.03125
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "12.6913px",
+            "fontWeight": "500",
+            "lineHeight": "19.0369px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "FEATURES",
+          "bounds": {
+            "x": 41,
+            "y": 2190.59375,
+            "width": 308,
+            "height": 19.03125
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "12.6913px",
+            "fontWeight": "500",
+            "lineHeight": "19.0369px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Disclosure",
+          "bounds": {
+            "x": 41,
+            "y": 2542.375,
+            "width": 82.421875,
+            "height": 26.765625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "23.8011px",
+            "fontWeight": "400",
+            "lineHeight": "26.7763px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "TECH",
+          "bounds": {
+            "x": 41,
+            "y": 2602.703125,
+            "width": 308,
+            "height": 19.03125
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "12.6913px",
+            "fontWeight": "500",
+            "lineHeight": "19.0369px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "FEATURES",
+          "bounds": {
+            "x": 41,
+            "y": 2658.109375,
+            "width": 308,
+            "height": 19.03125
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "12.6913px",
+            "fontWeight": "500",
+            "lineHeight": "19.0369px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Accordion",
+          "bounds": {
+            "x": 41,
+            "y": 2981.515625,
+            "width": 81.078125,
+            "height": 26.765625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "23.8011px",
+            "fontWeight": "400",
+            "lineHeight": "26.7763px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "HEADER",
+          "role": null,
+          "text": "The Component Gallery\nSEARCH\nCOMPONENTS\nDESIGN SYSTEMS\nABOUT",
+          "bounds": {
+            "x": 25,
+            "y": 0,
+            "width": 340,
+            "height": 113
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "1px normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "subgrid"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "SEARCH",
+          "bounds": {
+            "x": 273,
+            "y": 8,
+            "width": 40,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16.2923px",
+            "fontWeight": "400",
+            "lineHeight": "24.4385px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "8px",
+            "padding": "12px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 317,
+            "y": 8,
+            "width": 40,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "8px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "COMPONENTS\nDESIGN SYSTEMS\nABOUT",
+          "bounds": {
+            "x": 25,
+            "y": 57,
+            "width": 340,
+            "height": 56
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgb(247, 245, 242)",
+            "gap": "normal",
+            "padding": "16px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "role": null,
+          "text": "Component\nAccordion\n\nAlso known as: Arrow toggle, Collapse, Collapsible sections, Collapsible, Details, Disclosure, Expandable, Expander, Sh",
+          "bounds": {
+            "x": 25,
+            "y": 114,
+            "width": 340,
+            "height": 52918.546875
+          },
+          "styles": {
+            "display": "grid",
+            "position": "relative",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgb(247, 245, 242)",
+            "gap": "1px normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "subgrid [] [] [] [] [] [] [] [] [] [] [] [] []"
+          }
+        },
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "ON THIS PAGE\nExamples\nDescription\nMarkup\nApproach 1: Heading with Button\nApproach 2: Summary and Details\nInteractivity\nStyling\nUsage guideli",
+          "bounds": {
+            "x": 25,
+            "y": 792.03125,
+            "width": 340,
+            "height": 389.75
+          },
+          "styles": {
+            "display": "block",
+            "position": "sticky",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "16px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Tech",
+          "bounds": {
+            "x": 33,
+            "y": 1267.34375,
+            "width": 154,
+            "height": 36
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "14.3749px",
+            "fontWeight": "550",
+            "lineHeight": "20px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "8px 16px 8px 8px",
+            "borderRadius": "6px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Features",
+          "bounds": {
+            "x": 33,
+            "y": 1303.34375,
+            "width": 154,
+            "height": 36
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "14.3749px",
+            "fontWeight": "550",
+            "lineHeight": "20px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "8px 16px 8px 8px",
+            "borderRadius": "6px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Copy URLs",
+          "bounds": {
+            "x": 203,
+            "y": 1308.34375,
+            "width": 101.875,
+            "height": 26
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "14.3749px",
+            "fontWeight": "550",
+            "lineHeight": "24px",
+            "color": "rgb(95, 93, 91)",
+            "backgroundColor": "rgb(247, 245, 242)",
+            "gap": "4px",
+            "padding": "0px 8px",
+            "borderRadius": "6px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "FOOTNOTES\n\nDetails & Summary elements: Caniuse.com ↩\n\nTwo Issues Styling the Details Element and How to Solve Them, Greg Gibson on CSS-Trick",
+          "bounds": {
+            "x": 41,
+            "y": 50768.640625,
+            "width": 308,
+            "height": 103.6875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "14.3749px",
+            "fontWeight": "400",
+            "lineHeight": "21.5623px",
+            "color": "rgb(114, 111, 109)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "The Component Gallery",
+          "href": "https://component.gallery/"
+        },
+        {
+          "text": "COMPONENTS",
+          "href": "https://component.gallery/components"
+        },
+        {
+          "text": "DESIGN SYSTEMS",
+          "href": "https://component.gallery/design-systems"
+        },
+        {
+          "text": "ABOUT",
+          "href": "https://component.gallery/about"
+        },
+        {
+          "text": "Examples",
+          "href": "https://component.gallery/components/accordion/#examples"
+        },
+        {
+          "text": "Description",
+          "href": "https://component.gallery/components/accordion/#description"
+        },
+        {
+          "text": "Markup",
+          "href": "https://component.gallery/components/accordion/#markup"
+        },
+        {
+          "text": "Approach 1: Heading with Button",
+          "href": "https://component.gallery/components/accordion/#approach-1-heading-with-button"
+        },
+        {
+          "text": "Approach 2: Summary and Details",
+          "href": "https://component.gallery/components/accordion/#approach-2-summary-and-details"
+        },
+        {
+          "text": "Interactivity",
+          "href": "https://component.gallery/components/accordion/#interactivity"
+        },
+        {
+          "text": "Styling",
+          "href": "https://component.gallery/components/accordion/#styling"
+        },
+        {
+          "text": "Usage guidelines",
+          "href": "https://component.gallery/components/accordion/#usage-guidelines"
+        },
+        {
+          "text": "Footnotes",
+          "href": "https://component.gallery/components/accordion/#footnote-label"
+        },
+        {
+          "text": "Resources",
+          "href": "https://component.gallery/components/accordion/#resources"
+        },
+        {
+          "text": "Name distribution",
+          "href": "https://component.gallery/components/accordion/#name-distribution"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://a11y-style-guide.com/style-guide/section-navigation.html#kssref-navigation-accordion"
+        },
+        {
+          "text": "Collapse",
+          "href": "https://ant.design/components/collapse"
+        },
+        {
+          "text": "Disclosure",
+          "href": "https://ariakit.org/components/disclosure"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://auro.alaskaair.com/components/auro/accordion"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://www.skyscanner.design/latest/components/accordion/web-sEshz9Z5"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://baseweb.design/components/accordion/"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://www.bbc.co.uk/gel/guidelines/accordion"
+        },
+        {
+          "text": "Collapse",
+          "href": "https://blueprintjs.com/docs/#core/components/collapse"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://boltdesignsystem.com/pattern-lab/?p=viewall-components-accordion"
+        },
+        {
+          "text": "Collapse",
+          "href": "https://getbootstrap.com/docs/4.3/components/collapse/"
+        },
+        {
+          "text": "Expandable helper",
+          "href": "http://design.brighton-hove.gov.uk/website-pattern-library.php?p=expandable-helper#/"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://carbondesignsystem.com/components/accordion/usage/"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://cauldron.dequelabs.com/components/Accordion"
+        },
+        {
+          "text": "ExpandCollapsePanel",
+          "href": "https://cauldron.dequelabs.com/components/ExpandCollapsePanel"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://cedar.rei.com/components/accordion"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://chakra-ui.com/docs/components/accordion"
+        },
+        {
+          "text": "Collapsible",
+          "href": "https://chakra-ui.com/docs/components/collapsible"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://clarity.design/documentation/accordion"
+        },
+        {
+          "text": "Stack View",
+          "href": "https://clarity.design/documentation/stack-view"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://design.talend.com/?path=/docs/navigation-accordion--docs"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://crayons.freshworks.com/components/core/accordion/"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://www.decathlon.design/726f8c765/p/04348b-accordion/b/228a62"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://www.delldesignsystem.com/components/accordion/"
+        },
+        {
+          "text": "View More/Less",
+          "href": "https://vanilla.delldesignsystem.com/2.17.1/index.html?path=/docs/components-view-more-less--related"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://ebay.gitbook.io/mindpatterns/disclosure/accordion"
+        },
+        {
+          "text": "Details",
+          "href": "https://ebay.gitbook.io/mindpatterns/disclosure/details"
+        },
+        {
+          "text": "Expansion",
+          "href": "https://playbook.ebay.com/design-system/components/expansion"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://eui.elastic.co/docs/components/containers/accordion/"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://designsystem.elisa.fi/9b207b2c3/p/418ae1-accordion"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://flowbite.com/docs/components/accordion/"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://f36.contentful.com/components/accordion"
+        },
+        {
+          "text": "Collapse",
+          "href": "https://vercel.com/geist/collapse"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://genericcomponents.netlify.app/generic-accordion/demo/index.html"
+        },
+        {
+          "text": "Disclosure",
+          "href": "https://genericcomponents.netlify.app/generic-disclosure/demo/index.html"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://gestalt.pinterest.systems/web/accordion"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://www.giffgaff.design/components/for-web/accordion/"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://gold.designsystemau.org/components/accordion/"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://design-system.service.gov.uk/components/accordion/"
+        },
+        {
+          "text": "Details",
+          "href": "https://design-system.service.gov.uk/components/details/"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://v2.grommet.io/accordion"
+        },
+        {
+          "text": "Disclosure",
+          "href": "https://headlessui.com/react/disclosure"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://hds.hel.fi/components/accordion"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://www.heroui.com/docs/components/accordion"
+        },
+        {
+          "text": "Collapsible sections",
+          "href": "https://inclusive-components.design/collapsible-sections/"
+        },
+        {
+          "text": "ToggleDetails",
+          "href": "https://instructure.design/#ToggleDetails"
+        },
+        {
+          "text": "ToggleGroup",
+          "href": "https://instructure.design/#ToggleGroup"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://jokul.fremtind.no/komponenter/accordion"
+        },
+        {
+          "text": "ExpandButton",
+          "href": "https://jokul.fremtind.no/komponenter/expandbutton"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://www.lightningdesignsystem.com/components/accordion/"
+        },
+        {
+          "text": "Expandable Section",
+          "href": "https://www.lightningdesignsystem.com/components/expandable-section/"
+        },
+        {
+          "text": "Summary Detail",
+          "href": "https://www.lightningdesignsystem.com/components/summary-detail/"
+        },
+        {
+          "text": "Details",
+          "href": "https://protocol.mozilla.org/components/detail/details.html"
+        },
+        {
+          "text": "Details component",
+          "href": "https://protocol.mozilla.org/components/detail/details-component--default.html"
+        },
+        {
+          "text": "Expandable",
+          "href": "https://design.ns.nl/4a05a30ad/p/54d9a8-expandable"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://www.newskit.co.uk/components/accordion/"
+        },
+        {
+          "text": "Expander",
+          "href": "https://service-manual.nhs.uk/design-system/components/expander"
+        },
+        {
+          "text": "Details",
+          "href": "https://service-manual.nhs.uk/design-system/components/details"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://britishgas.design/docs/components/ns-accordion"
+        },
+        {
+          "text": "Expander",
+          "href": "https://britishgas.design/docs/components/ns-expander"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://ons-design-system.netlify.app/components/accordion/"
+        },
+        {
+          "text": "Details",
+          "href": "https://ons-design-system.netlify.app/components/details/"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://designsystem.ontario.ca/components/detail/accordions.html"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://orbit.kiwi/components/accordion/"
+        },
+        {
+          "text": "Collapse",
+          "href": "https://orbit.kiwi/components/collapse/"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://design.gitlab.com/components/accordion"
+        },
+        {
+          "text": "Disclosure",
+          "href": "https://paste.twilio.design/components/disclosure"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://www.patternfly.org/components/accordion"
+        },
+        {
+          "text": "Expandable section",
+          "href": "https://www.patternfly.org/components/expandable-section"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://designsystem.porsche.com/v3/components/accordion/examples"
+        },
+        {
+          "text": "Details",
+          "href": "https://primer.style/design/components/details"
+        },
+        {
+          "text": "Expansion Item",
+          "href": "https://quasar.dev/vue-components/expansion-item"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://radix-ui.com/primitives/docs/components/accordion"
+        },
+        {
+          "text": "Collapsible",
+          "href": "https://radix-ui.com/primitives/docs/components/collapsible"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://reach.tech/accordion"
+        },
+        {
+          "text": "Disclosure",
+          "href": "https://reach.tech/disclosure"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://ux.redhat.com/elements/accordion/"
+        },
+        {
+          "text": "Disclosure",
+          "href": "https://ux.redhat.com/elements/disclosure/"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://components.ruter.as/#/Components/Interactive/Accordion"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://design-systems.sainsburys.co.uk/components/accordion/"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://designlibrary.sebgroup.com/components/accordion/"
+        },
+        {
+          "text": "Section expander",
+          "href": "https://designlibrary.sebgroup.com/components/section-expander/"
+        },
+        {
+          "text": "Collapsible",
+          "href": "https://sproutsocial.com/seeds/components/collapsible"
+        },
+        {
+          "text": "Accordion Item",
+          "href": "https://seek-oss.github.io/seek-style-guide/accordion"
+        },
+        {
+          "text": "Read More",
+          "href": "https://seek-oss.github.io/seek-style-guide/read-more"
+        },
+        {
+          "text": "Toggle Content",
+          "href": "https://seek-oss.github.io/seek-style-guide/toggle-content"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://ui.shadcn.com/docs/components/accordion"
+        },
+        {
+          "text": "Collapsible",
+          "href": "https://ui.shadcn.com/docs/components/collapsible"
+        },
+        {
+          "text": "Details",
+          "href": "https://shoelace.style/components/details"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://theguardian.design/2a1e5182b/p/38c5aa-accordion"
+        },
+        {
+          "text": "Expandable",
+          "href": "https://stackoverflow.design/product/components/expandable"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://www.subzero.axis.bank.in/components/accordion"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://designsystem.digital.gov/components/accordion/"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://design.visa.com/components/accordion/"
+        },
+        {
+          "text": "Collapsible containers",
+          "href": "https://design-system.w3.org/components/collapsible-containers.html"
+        },
+        {
+          "text": "Disclosure",
+          "href": "https://design.wonderflow.ai/get-started/components/actions/disclosure"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://design.wonderflow.ai/get-started/components/actions/accordion"
+        },
+        {
+          "text": "Expander",
+          "href": "https://design.wonderflow.ai/get-started/components/actions/expander"
+        },
+        {
+          "text": "Details",
+          "href": "https://webawesome.com/docs/components/details/"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://designsystem.tfwm.org.uk/components/accordion/"
+        },
+        {
+          "text": "Details",
+          "href": "https://designsystem.tfwm.org.uk/components/details/"
+        },
+        {
+          "text": "Expandable container",
+          "href": "https://canvas.workday.com/components/containers/expandable-container"
+        },
+        {
+          "text": "details",
+          "href": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details"
+        },
+        {
+          "text": "summary",
+          "href": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary"
+        },
+        {
+          "text": "details",
+          "href": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details"
+        },
+        {
+          "text": "1",
+          "href": "https://component.gallery/components/accordion/#user-content-fn-1"
+        },
+        {
+          "text": "first example",
+          "href": "https://component.gallery/components/accordion/#approach-1-heading-with-button"
+        },
+        {
+          "text": "progressively enhance",
+          "href": "https://www.gov.uk/service-manual/technology/using-progressive-enhancement"
+        },
+        {
+          "text": "Inclusive Components",
+          "href": "https://inclusive-components.design/collapsible-sections/"
+        },
+        {
+          "text": "second example",
+          "href": "https://component.gallery/components/accordion/#approach-2-summary-and-details"
+        },
+        {
+          "text": "2",
+          "href": "https://component.gallery/components/accordion/#user-content-fn-2"
+        },
+        {
+          "text": "affordance",
+          "href": "https://uxplanet.org/ux-design-glossary-how-to-use-affordances-in-user-interfaces-393c8e9686e4"
+        },
+        {
+          "text": "tabs",
+          "href": "https://component.gallery/components/tabs"
+        },
+        {
+          "text": "Details & Summary elements: Caniuse.com",
+          "href": "https://caniuse.com/#feat=details"
+        },
+        {
+          "text": "↩",
+          "href": "https://component.gallery/components/accordion/#user-content-fnref-1"
+        },
+        {
+          "text": "Two Issues Styling the Details Element and How to Solve Them",
+          "href": "https://css-tricks.com/two-issues-styling-the-details-element-and-how-to-solve-them/"
+        },
+        {
+          "text": "↩",
+          "href": "https://component.gallery/components/accordion/#user-content-fnref-2"
+        },
+        {
+          "text": "Accordion Icons: Which Signifiers Work Best?",
+          "href": "https://www.nngroup.com/articles/accordion-icons/"
+        },
+        {
+          "text": "Stop Using ‘Drop-down’",
+          "href": "https://adrianroselli.com/2020/03/stop-using-drop-down.html"
+        },
+        {
+          "text": "Why <details> is Not an Accordion",
+          "href": "https://daverupert.com/2019/12/why-details-is-not-an-accordion/"
+        },
+        {
+          "text": "Accordion Guidelines",
+          "href": "https://balsamiq.com/learn/ui-control-guidelines/accordions/"
+        },
+        {
+          "text": "UI cheat sheet: Accordions",
+          "href": "https://uxdesign.cc/ui-cheat-sheet-accordions-3e88f0d4dfee"
+        },
+        {
+          "text": "Iain Bean",
+          "href": "https://iainbean.com/"
+        },
+        {
+          "text": "Astro",
+          "href": "https://astro.build/"
+        },
+        {
+          "text": "Airtable",
+          "href": "https://airtable.com/"
+        },
+        {
+          "text": "Cloudflare Pages",
+          "href": "https://pages.cloudflare.com/"
+        },
+        {
+          "text": "Pagefind",
+          "href": "https://pagefind.app/"
+        },
+        {
+          "text": "this puppeteer script",
+          "href": "https://github.com/inbn/screenshot-urls"
+        },
+        {
+          "text": "Tailwind",
+          "href": "https://tailwindcss.com/"
+        },
+        {
+          "text": "Instrument Serif",
+          "href": "https://fonts.google.com/specimen/Instrument+Serif"
+        },
+        {
+          "text": "Instrument Sans",
+          "href": "https://fonts.google.com/specimen/Instrument+Sans"
+        },
+        {
+          "text": "JetBrains Mono",
+          "href": "https://www.jetbrains.com/lp/mono/"
+        },
+        {
+          "text": "About",
+          "href": "https://component.gallery/about"
+        },
+        {
+          "text": "Contribute",
+          "href": "https://component.gallery/contribute"
+        },
+        {
+          "text": "Changelog",
+          "href": "https://component.gallery/changelog"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--tw-ring-offset-shadow": "0 0 #0000",
+        "--tw-backdrop-sepia": "",
+        "--tw-ring-shadow": "0 0 #0000",
+        "--tw-sepia": "",
+        "--tw-ordinal": "",
+        "--tw-backdrop-saturate": "",
+        "--tw-contain-style": "",
+        "--tw-ring-inset": "",
+        "--tw-backdrop-invert": "",
+        "--tw-numeric-spacing": "",
+        "--color-bg-primary": "#f7f5f2",
+        "--tw-border-spacing-x": "0",
+        "--color-text-highlight": "#1f1d1d",
+        "--color-text-secondary": "#726f6d",
+        "--tw-brightness": "",
+        "--tw-backdrop-grayscale": "",
+        "--tw-hue-rotate": "",
+        "--tw-scale-y": "1",
+        "--tw-pan-y": "",
+        "--tw-backdrop-contrast": "",
+        "--tw-drop-shadow": "",
+        "--color-border-primary": "#ccc9c5",
+        "--tw-ring-color": "rgb(59 130 246 / .5)",
+        "--tw-backdrop-brightness": "",
+        "--fade-size": "24px",
+        "--tw-pan-x": "",
+        "--tw-translate-y": "0",
+        "--tw-rotate": "0",
+        "--tw-ring-offset-color": "#fff",
+        "--tw-contain-size": "",
+        "--tw-contrast": "",
+        "--color-bg-highlight-invert": "#1f1d1d",
+        "--color-border-highlight": "#1f1d1d",
+        "--tw-skew-x": "0",
+        "--tw-backdrop-blur": "",
+        "--tw-shadow": "0 0 #0000",
+        "--tw-translate-x": "0",
+        "--tw-ring-offset-width": "0px",
+        "--tw-gradient-via-position": "",
+        "--color-text-decoration": "#5f5d5b",
+        "--color-text-highlight-invert": "#f7f5f2",
+        "--tw-saturate": "",
+        "--tw-scroll-snap-strictness": "proximity",
+        "--tw-grayscale": "",
+        "--tw-scale-x": "1",
+        "--color-bg-highlight": "#fff",
+        "--grid-display-size": "calc((100vw - 3rem - 1px) / 24)",
+        "--tw-backdrop-hue-rotate": "",
+        "--tw-shadow-colored": "0 0 #0000",
+        "--color-gradient-highlight-2": "#343232",
+        "--tw-gradient-to-position": "",
+        "--tw-border-spacing-y": "0",
+        "--tw-numeric-fraction": "",
+        "--color-gradient-background": "#eceae6",
+        "--color-gradient-highlight-1": "#8b8885",
+        "--tw-skew-y": "0",
+        "--tw-slashed-zero": "",
+        "--tw-blur": "",
+        "--tw-invert": "",
+        "--color-text-primary": "#4a4846",
+        "--tw-backdrop-opacity": "",
+        "--tw-gradient-from-position": "",
+        "--color-bg-secondary": "#e2dfdb",
+        "--tw-numeric-figure": "",
+        "--tw-pinch-zoom": "",
+        "--tw-contain-paint": "",
+        "--tw-contain-layout": ""
+      }
+    }
+  },
+  "scope": "public source reference; not a locally reconstructed component",
+  "http_status": 200,
+  "page_errors": [
+    "Transition was aborted because of invalid state. Viewport size changed"
+  ]
+}

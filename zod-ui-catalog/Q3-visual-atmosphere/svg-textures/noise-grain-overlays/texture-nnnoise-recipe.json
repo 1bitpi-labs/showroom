@@ -1,0 +1,78 @@
+{
+  "id": "texture-nnnoise-recipe",
+  "location": {
+    "quadrant": "Q3-visual-atmosphere",
+    "category": "svg-textures",
+    "section": "noise-grain-overlays",
+    "file_path": "Q3-visual-atmosphere/svg-textures/noise-grain-overlays/texture-nnnoise-recipe.json"
+  },
+  "tier": "C",
+  "tier_audit": {
+    "visual_verified": true,
+    "verification_scope": "source screenshots only; not local implementation fidelity",
+    "fidelity_type": "visual_spec",
+    "responsive_score": null,
+    "audit_notes": [
+      "Tier C: reference/spec, not ready-to-use code.",
+      "Source DOM measurements may describe gallery chrome, not the referenced product.",
+      "Keyboard, contrast and animation timing not certified."
+    ],
+    "evidence": [
+      "audits/source-evidence/fffuel-co-nnnoise/evidence.json",
+      "previews/texture-nnnoise-recipe/desktop.png",
+      "previews/texture-nnnoise-recipe/mobile.png"
+    ],
+    "source_observations": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "page_horizontal_overflow": false,
+        "broken_images": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "page_horizontal_overflow": false,
+        "broken_images": []
+      }
+    }
+  },
+  "source_site": "fffuel.co",
+  "source_url": "https://www.fffuel.co/nnnoise/",
+  "license": {
+    "status": "reference_only_not_code_license",
+    "redistribution": "No source code or original downloadable assets included; screenshots are research evidence.",
+    "url": "https://www.fffuel.co/license/",
+    "restriction": "Generated images may be used in projects but redistribution is restricted; retain only specification and source link."
+  },
+  "stack_compatibility": [
+    "framework-agnostic-spec"
+  ],
+  "style_tags": [
+    "noise-grain-overlays"
+  ],
+  "artifact": {
+    "type": "visual_spec",
+    "spec": "Receita conceitual de textura SVG por feTurbulence e iluminação especular, com controles de frequência, opacidade e iluminação. Implementar receita própria. A licença consultada restringe redistribuição dos assets; nenhum SVG da fonte foi copiado para o catálogo.",
+    "observed_headings": [
+      "nnnoise\nSVG generator for subtle or not-so-subtle noise textures",
+      "ABOUT NNNOISE",
+      "SVG GENERATORS, TOOLS & DESIGN RESOURCES\n↓",
+      "cccolor\nHEX, RGB & HSL color picker",
+      "pppalette\ncolor palette generator"
+    ],
+    "source_dom_evidence": "audits/source-evidence/fffuel-co-nnnoise/evidence.json",
+    "states": {
+      "desktop": "captured",
+      "mobile": "captured",
+      "hover": "not audited",
+      "focus": "not audited",
+      "active": "not audited",
+      "disabled": "not audited"
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "id": "shadcn-textarea",
+  "source_url": "https://ui.shadcn.com/view/new-york-v4/textarea-demo",
+  "views": {
+    "desktop": {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "source_http_status": 200,
+      "source_surface_bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 64
+      },
+      "source_style": {
+        "fontFamily": "Geist, \"Geist Fallback\"",
+        "fontSize": "14px",
+        "borderRadius": "8px",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "local_http_status": 200,
+      "local_style": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "14px",
+        "borderRadius": "8px",
+        "color": "oklch(0.145 0 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "horizontal_overflow": false,
+      "comparison": {
+        "comparable": true,
+        "original_sizes": [
+          [
+            710,
+            64
+          ],
+          [
+            710,
+            64
+          ]
+        ],
+        "common_raster_size": [
+          710,
+          64
+        ],
+        "pixel_similarity": 0.9957803438276719,
+        "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+      },
+      "original_intrinsic_comparison": {
+        "comparable": false,
+        "original_sizes": [
+          [
+            1440,
+            64
+          ],
+          [
+            710,
+            64
+          ]
+        ],
+        "reason": "Different intrinsic size; no resizing for score."
+      },
+      "reference_host_width_normalized_to_local": 710,
+      "state_checks": [
+        "Text entry and focus verified",
+        "Disabled state verified"
+      ],
+      "runtime_errors": []
+    },
+    "mobile": {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "source_http_status": 200,
+      "source_surface_bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 64
+      },
+      "source_style": {
+        "fontFamily": "Geist, \"Geist Fallback\"",
+        "fontSize": "16px",
+        "borderRadius": "8px",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "local_http_status": 200,
+      "local_style": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "16px",
+        "borderRadius": "8px",
+        "color": "oklch(0.145 0 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "horizontal_overflow": false,
+      "comparison": {
+        "comparable": true,
+        "original_sizes": [
+          [
+            308,
+            64
+          ],
+          [
+            308,
+            64
+          ]
+        ],
+        "common_raster_size": [
+          308,
+          64
+        ],
+        "pixel_similarity": 0.9876137955182073,
+        "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+      },
+      "original_intrinsic_comparison": {
+        "comparable": false,
+        "original_sizes": [
+          [
+            390,
+            64
+          ],
+          [
+            308,
+            64
+          ]
+        ],
+        "reason": "Different intrinsic size; no resizing for score."
+      },
+      "reference_host_width_normalized_to_local": 308,
+      "state_checks": [
+        "Text entry and focus verified",
+        "Disabled state verified"
+      ],
+      "runtime_errors": []
+    }
+  },
+  "classification": "pending manual review"
+}

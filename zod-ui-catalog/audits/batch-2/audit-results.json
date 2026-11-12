@@ -1,0 +1,4662 @@
+[
+  {
+    "id": "dithercn-dither-glow",
+    "source_url": "https://dithercn.dev/docs/backgrounds/dither-glow",
+    "views": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 368,
+          "y": 292,
+          "width": 672,
+          "height": 522
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "15px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              672,
+              522
+            ],
+            [
+              672,
+              522
+            ]
+          ],
+          "common_raster_size": [
+            672,
+            522
+          ],
+          "pixel_similarity": 0.98867481006877,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 224,
+          "height": 174,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 24,
+          "y": 291.5625,
+          "width": 342,
+          "height": 420
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "16.8px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              342,
+              421
+            ],
+            [
+              342,
+              420
+            ]
+          ],
+          "common_raster_size": [
+            342,
+            420
+          ],
+          "pixel_similarity": 0.9351517956110319,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 114,
+          "height": 140,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      }
+    },
+    "classification": "pending manual review"
+  },
+  {
+    "id": "dithercn-mesh-gradient",
+    "source_url": "https://dithercn.dev/docs/backgrounds/mesh-gradient",
+    "views": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 368,
+          "y": 292,
+          "width": 672,
+          "height": 522
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "15px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              672,
+              522
+            ],
+            [
+              672,
+              522
+            ]
+          ],
+          "common_raster_size": [
+            672,
+            522
+          ],
+          "pixel_similarity": 0.9297764603925861,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 224,
+          "height": 174,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 24,
+          "y": 291.5625,
+          "width": 342,
+          "height": 420
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "16.8px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              342,
+              421
+            ],
+            [
+              342,
+              420
+            ]
+          ],
+          "common_raster_size": [
+            342,
+            420
+          ],
+          "pixel_similarity": 0.8910844194727924,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 114,
+          "height": 140,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      }
+    },
+    "classification": "pending manual review"
+  },
+  {
+    "id": "dithercn-noise-field",
+    "source_url": "https://dithercn.dev/docs/backgrounds/noise-field",
+    "views": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 368,
+          "y": 292,
+          "width": 672,
+          "height": 522
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "15px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              672,
+              522
+            ],
+            [
+              672,
+              522
+            ]
+          ],
+          "common_raster_size": [
+            672,
+            522
+          ],
+          "pixel_similarity": 0.9847827253506767,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 224,
+          "height": 174,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 24,
+          "y": 291.5625,
+          "width": 342,
+          "height": 420
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "16.8px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              342,
+              421
+            ],
+            [
+              342,
+              420
+            ]
+          ],
+          "common_raster_size": [
+            342,
+            420
+          ],
+          "pixel_similarity": 0.9095081840403478,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 114,
+          "height": 140,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      }
+    },
+    "classification": "pending manual review"
+  },
+  {
+    "id": "dithercn-plasma",
+    "source_url": "https://dithercn.dev/docs/backgrounds/plasma",
+    "views": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 368,
+          "y": 292,
+          "width": 672,
+          "height": 522
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "15px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              672,
+              522
+            ],
+            [
+              672,
+              522
+            ]
+          ],
+          "common_raster_size": [
+            672,
+            522
+          ],
+          "pixel_similarity": 0.8754040100501673,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 224,
+          "height": 174,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 24,
+          "y": 291.5625,
+          "width": 342,
+          "height": 420
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "16.8px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              342,
+              421
+            ],
+            [
+              342,
+              420
+            ]
+          ],
+          "common_raster_size": [
+            342,
+            420
+          ],
+          "pixel_similarity": 0.8798065060982158,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 114,
+          "height": 140,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      }
+    },
+    "classification": "pending manual review"
+  },
+  {
+    "id": "dithercn-starfield",
+    "source_url": "https://dithercn.dev/docs/backgrounds/starfield",
+    "views": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 368,
+          "y": 292,
+          "width": 672,
+          "height": 522
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "15px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              672,
+              522
+            ],
+            [
+              672,
+              522
+            ]
+          ],
+          "common_raster_size": [
+            672,
+            522
+          ],
+          "pixel_similarity": 0.9761548435892023,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 224,
+          "height": 174,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 24,
+          "y": 291.5625,
+          "width": 342,
+          "height": 420
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "16.8px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              342,
+              421
+            ],
+            [
+              342,
+              420
+            ]
+          ],
+          "common_raster_size": [
+            342,
+            420
+          ],
+          "pixel_similarity": 0.968531377463266,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 114,
+          "height": 140,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      }
+    },
+    "classification": "pending manual review"
+  },
+  {
+    "id": "dithercn-halftone",
+    "source_url": "https://dithercn.dev/docs/backgrounds/halftone",
+    "views": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 368,
+          "y": 292,
+          "width": 672,
+          "height": 520
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "15px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              672,
+              520
+            ],
+            [
+              672,
+              520
+            ]
+          ],
+          "common_raster_size": [
+            672,
+            520
+          ],
+          "pixel_similarity": 0.9703055645335057,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 672,
+          "height": 520,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 24,
+          "y": 316.75,
+          "width": 342,
+          "height": 420
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "16.8px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              342,
+              421
+            ],
+            [
+              342,
+              420
+            ]
+          ],
+          "common_raster_size": [
+            342,
+            420
+          ],
+          "pixel_similarity": 0.9321413555675682,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 342,
+          "height": 420,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      }
+    },
+    "classification": "pending manual review"
+  },
+  {
+    "id": "dithercn-horizon",
+    "source_url": "https://dithercn.dev/docs/backgrounds/horizon",
+    "views": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 368,
+          "y": 292,
+          "width": 672,
+          "height": 522
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "15px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              672,
+              522
+            ],
+            [
+              672,
+              522
+            ]
+          ],
+          "common_raster_size": [
+            672,
+            522
+          ],
+          "pixel_similarity": 0.9897679617824141,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 224,
+          "height": 174,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 24,
+          "y": 291.5625,
+          "width": 342,
+          "height": 420
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "16.8px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              342,
+              421
+            ],
+            [
+              342,
+              420
+            ]
+          ],
+          "common_raster_size": [
+            342,
+            420
+          ],
+          "pixel_similarity": 0.9615910145734707,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 114,
+          "height": 140,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      }
+    },
+    "classification": "pending manual review"
+  },
+  {
+    "id": "dithercn-beams",
+    "source_url": "https://dithercn.dev/docs/backgrounds/beams",
+    "views": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 368,
+          "y": 268,
+          "width": 672,
+          "height": 522
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "15px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              672,
+              522
+            ],
+            [
+              672,
+              522
+            ]
+          ],
+          "common_raster_size": [
+            672,
+            522
+          ],
+          "pixel_similarity": 0.9874895621296624,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 224,
+          "height": 174,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 24,
+          "y": 291.5625,
+          "width": 342,
+          "height": 420
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "16.8px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              342,
+              421
+            ],
+            [
+              342,
+              420
+            ]
+          ],
+          "common_raster_size": [
+            342,
+            420
+          ],
+          "pixel_similarity": 0.9270940877975622,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 114,
+          "height": 140,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      }
+    },
+    "classification": "pending manual review"
+  },
+  {
+    "id": "dithercn-eclipse",
+    "source_url": "https://dithercn.dev/docs/backgrounds/eclipse",
+    "views": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 368,
+          "y": 292,
+          "width": 672,
+          "height": 522
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "15px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              672,
+              522
+            ],
+            [
+              672,
+              522
+            ]
+          ],
+          "common_raster_size": [
+            672,
+            522
+          ],
+          "pixel_similarity": 0.9901820929521233,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 224,
+          "height": 174,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 24,
+          "y": 291.5625,
+          "width": 342,
+          "height": 420
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "16.8px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              342,
+              421
+            ],
+            [
+              342,
+              420
+            ]
+          ],
+          "common_raster_size": [
+            342,
+            420
+          ],
+          "pixel_similarity": 0.9537700733314769,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 114,
+          "height": 140,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      }
+    },
+    "classification": "pending manual review"
+  },
+  {
+    "id": "dithercn-dither-orb",
+    "source_url": "https://dithercn.dev/docs/backgrounds/dither-orb",
+    "views": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 368,
+          "y": 292,
+          "width": 672,
+          "height": 522
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "15px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              672,
+              522
+            ],
+            [
+              672,
+              522
+            ]
+          ],
+          "common_raster_size": [
+            672,
+            522
+          ],
+          "pixel_similarity": 0.981353700484025,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 224,
+          "height": 174,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 24,
+          "y": 291.5625,
+          "width": 342,
+          "height": 420
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "16.8px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              342,
+              421
+            ],
+            [
+              342,
+              420
+            ]
+          ],
+          "common_raster_size": [
+            342,
+            420
+          ],
+          "pixel_similarity": 0.9627588306277677,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 114,
+          "height": 140,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      }
+    },
+    "classification": "pending manual review"
+  },
+  {
+    "id": "dithercn-contours",
+    "source_url": "https://dithercn.dev/docs/backgrounds/contours",
+    "views": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 368,
+          "y": 292,
+          "width": 672,
+          "height": 522
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "15px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              672,
+              522
+            ],
+            [
+              672,
+              522
+            ]
+          ],
+          "common_raster_size": [
+            672,
+            522
+          ],
+          "pixel_similarity": 0.989138641301561,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 224,
+          "height": 174,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 24,
+          "y": 291.5625,
+          "width": 342,
+          "height": 420
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "16.8px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              342,
+              421
+            ],
+            [
+              342,
+              420
+            ]
+          ],
+          "common_raster_size": [
+            342,
+            420
+          ],
+          "pixel_similarity": 0.9585950533559753,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 114,
+          "height": 140,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      }
+    },
+    "classification": "pending manual review"
+  },
+  {
+    "id": "dithercn-ripples",
+    "source_url": "https://dithercn.dev/docs/backgrounds/ripples",
+    "views": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 368,
+          "y": 292,
+          "width": 672,
+          "height": 522
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "15px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              672,
+              522
+            ],
+            [
+              672,
+              522
+            ]
+          ],
+          "common_raster_size": [
+            672,
+            522
+          ],
+          "pixel_similarity": 0.9890966401460541,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 224,
+          "height": 174,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 24,
+          "y": 291.5625,
+          "width": 342,
+          "height": 420
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "16.8px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              342,
+              421
+            ],
+            [
+              342,
+              420
+            ]
+          ],
+          "common_raster_size": [
+            342,
+            420
+          ],
+          "pixel_similarity": 0.9610024061606449,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 114,
+          "height": 140,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      }
+    },
+    "classification": "pending manual review"
+  },
+  {
+    "id": "dithercn-retro-grid",
+    "source_url": "https://dithercn.dev/docs/backgrounds/retro-grid",
+    "views": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 368,
+          "y": 292,
+          "width": 672,
+          "height": 522
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "15px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              672,
+              522
+            ],
+            [
+              672,
+              522
+            ]
+          ],
+          "common_raster_size": [
+            672,
+            522
+          ],
+          "pixel_similarity": 0.9877119696324678,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 224,
+          "height": 174,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 24,
+          "y": 291.5625,
+          "width": 342,
+          "height": 420
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "16.8px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              342,
+              421
+            ],
+            [
+              342,
+              420
+            ]
+          ],
+          "common_raster_size": [
+            342,
+            420
+          ],
+          "pixel_similarity": 0.9535673788683765,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 114,
+          "height": 140,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      }
+    },
+    "classification": "pending manual review"
+  },
+  {
+    "id": "dithercn-silk",
+    "source_url": "https://dithercn.dev/docs/backgrounds/silk",
+    "views": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 368,
+          "y": 292,
+          "width": 672,
+          "height": 522
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "15px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              672,
+              522
+            ],
+            [
+              672,
+              522
+            ]
+          ],
+          "common_raster_size": [
+            672,
+            522
+          ],
+          "pixel_similarity": 0.9780637851138753,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 224,
+          "height": 174,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 24,
+          "y": 291.5625,
+          "width": 342,
+          "height": 420
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "16.8px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              342,
+              421
+            ],
+            [
+              342,
+              420
+            ]
+          ],
+          "common_raster_size": [
+            342,
+            420
+          ],
+          "pixel_similarity": 0.9480824701550535,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 114,
+          "height": 140,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      }
+    },
+    "classification": "pending manual review"
+  },
+  {
+    "id": "dithercn-tunnel",
+    "source_url": "https://dithercn.dev/docs/backgrounds/tunnel",
+    "views": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 368,
+          "y": 268,
+          "width": 672,
+          "height": 522
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "15px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              672,
+              522
+            ],
+            [
+              672,
+              522
+            ]
+          ],
+          "common_raster_size": [
+            672,
+            522
+          ],
+          "pixel_similarity": 0.9876187480100597,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 224,
+          "height": 174,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 24,
+          "y": 266.375,
+          "width": 342,
+          "height": 420
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "16.8px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              342,
+              421
+            ],
+            [
+              342,
+              420
+            ]
+          ],
+          "common_raster_size": [
+            342,
+            420
+          ],
+          "pixel_similarity": 0.9883184995895694,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 114,
+          "height": 140,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      }
+    },
+    "classification": "pending manual review"
+  },
+  {
+    "id": "dithercn-smoke",
+    "source_url": "https://dithercn.dev/docs/backgrounds/smoke",
+    "views": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 368,
+          "y": 268,
+          "width": 672,
+          "height": 522
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "15px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              672,
+              522
+            ],
+            [
+              672,
+              522
+            ]
+          ],
+          "common_raster_size": [
+            672,
+            522
+          ],
+          "pixel_similarity": 0.8965112545656833,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 224,
+          "height": 174,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 24,
+          "y": 266.375,
+          "width": 342,
+          "height": 420
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "16.8px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              342,
+              421
+            ],
+            [
+              342,
+              420
+            ]
+          ],
+          "common_raster_size": [
+            342,
+            420
+          ],
+          "pixel_similarity": 0.897543249918551,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 114,
+          "height": 140,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      }
+    },
+    "classification": "pending manual review"
+  },
+  {
+    "id": "dithercn-metaballs",
+    "source_url": "https://dithercn.dev/docs/backgrounds/metaballs",
+    "views": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 368,
+          "y": 268,
+          "width": 672,
+          "height": 522
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "15px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              672,
+              522
+            ],
+            [
+              672,
+              522
+            ]
+          ],
+          "common_raster_size": [
+            672,
+            522
+          ],
+          "pixel_similarity": 0.8750392621927443,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 224,
+          "height": 174,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 24,
+          "y": 266.375,
+          "width": 342,
+          "height": 420
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "16.8px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              342,
+              421
+            ],
+            [
+              342,
+              420
+            ]
+          ],
+          "common_raster_size": [
+            342,
+            420
+          ],
+          "pixel_similarity": 0.8712750831326683,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 114,
+          "height": 140,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      }
+    },
+    "classification": "pending manual review"
+  },
+  {
+    "id": "dithercn-ridgelines",
+    "source_url": "https://dithercn.dev/docs/backgrounds/ridgelines",
+    "views": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 368,
+          "y": 268,
+          "width": 672,
+          "height": 522
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "15px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              672,
+              522
+            ],
+            [
+              672,
+              522
+            ]
+          ],
+          "common_raster_size": [
+            672,
+            522
+          ],
+          "pixel_similarity": 0.9871380879938182,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 224,
+          "height": 174,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 24,
+          "y": 266.375,
+          "width": 342,
+          "height": 420
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "16.8px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              342,
+              421
+            ],
+            [
+              342,
+              420
+            ]
+          ],
+          "common_raster_size": [
+            342,
+            420
+          ],
+          "pixel_similarity": 0.987103215555228,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 114,
+          "height": 140,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      }
+    },
+    "classification": "pending manual review"
+  },
+  {
+    "id": "dithercn-flow-field",
+    "source_url": "https://dithercn.dev/docs/backgrounds/flow-field",
+    "views": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 368,
+          "y": 292,
+          "width": 672,
+          "height": 522
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "15px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              672,
+              522
+            ],
+            [
+              672,
+              522
+            ]
+          ],
+          "common_raster_size": [
+            672,
+            522
+          ],
+          "pixel_similarity": 0.9915185428151678,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 224,
+          "height": 174,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 24,
+          "y": 316.75,
+          "width": 342,
+          "height": 420
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "16.8px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              342,
+              421
+            ],
+            [
+              342,
+              420
+            ]
+          ],
+          "common_raster_size": [
+            342,
+            420
+          ],
+          "pixel_similarity": 0.9869917258651348,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 114,
+          "height": 140,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      }
+    },
+    "classification": "pending manual review"
+  },
+  {
+    "id": "dithercn-voronoi",
+    "source_url": "https://dithercn.dev/docs/backgrounds/voronoi",
+    "views": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 368,
+          "y": 292,
+          "width": 672,
+          "height": 522
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "15px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              672,
+              522
+            ],
+            [
+              672,
+              522
+            ]
+          ],
+          "common_raster_size": [
+            672,
+            522
+          ],
+          "pixel_similarity": 0.9326900124673113,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 224,
+          "height": 174,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 24,
+          "y": 316.75,
+          "width": 342,
+          "height": 420
+        },
+        "source_style": {
+          "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+          "fontSize": "16.8px",
+          "borderRadius": "0px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "inherited_tokens": {
+          "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+          "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+          "--dither-paper": "lab(5.71933% 0 0)",
+          "--dither-bloom": "1",
+          "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+          "--dither-color-red": "lab(60.882% 63.0569 37.6481)",
+          "--dither-color-grey": "lab(60.56% 0 0)",
+          "--background": "lab(0% 0 0)",
+          "--dither-color-pink": "lab(67.6099% 55.1302 -6.10187)",
+          "--dither-color-purple": "lab(62.5115% 40.7447 -53.5724)",
+          "--dither-cell": "3px",
+          "--dither-color-green": "lab(76.6505% -52.576 31.4764)",
+          "--primary": "lab(66.0612% 11.9021 -53.8414)",
+          "--foreground": "lab(98.26% 0 0)"
+        },
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(238, 238, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              342,
+              421
+            ],
+            [
+              342,
+              420
+            ]
+          ],
+          "common_raster_size": [
+            342,
+            420
+          ],
+          "pixel_similarity": 0.9063543208056452,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "shader_state": {
+          "state": "static",
+          "width": 114,
+          "height": 140,
+          "decorative": "true"
+        },
+        "state_checks": [
+          "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+        ],
+        "runtime_errors": []
+      }
+    },
+    "classification": "pending manual review"
+  },
+  {
+    "id": "shadcn-button",
+    "source_url": "https://ui.shadcn.com/view/new-york-v4/button-demo",
+    "views": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 77.71875,
+          "height": 36
+        },
+        "source_style": {
+          "fontFamily": "Geist, \"Geist Fallback\"",
+          "fontSize": "14px",
+          "borderRadius": "8px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "lab(100 0 0)"
+        },
+        "local_http_status": 200,
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "14px",
+          "borderRadius": "8px",
+          "color": "oklch(0.145 0 0)",
+          "backgroundColor": "oklch(1 0 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              78,
+              36
+            ],
+            [
+              76,
+              36
+            ]
+          ],
+          "common_raster_size": [
+            76,
+            36
+          ],
+          "pixel_similarity": 0.9489422084623322,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "state_checks": [
+          "Keyboard focus verified",
+          "Hover captured",
+          "Disabled state verified"
+        ],
+        "runtime_errors": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 77.71875,
+          "height": 36
+        },
+        "source_style": {
+          "fontFamily": "Geist, \"Geist Fallback\"",
+          "fontSize": "14px",
+          "borderRadius": "8px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "lab(100 0 0)"
+        },
+        "local_http_status": 200,
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "14px",
+          "borderRadius": "8px",
+          "color": "oklch(0.145 0 0)",
+          "backgroundColor": "oklch(1 0 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              78,
+              36
+            ],
+            [
+              76,
+              36
+            ]
+          ],
+          "common_raster_size": [
+            76,
+            36
+          ],
+          "pixel_similarity": 0.9489422084623322,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "state_checks": [
+          "Keyboard focus verified",
+          "Hover captured",
+          "Disabled state verified"
+        ],
+        "runtime_errors": []
+      }
+    },
+    "classification": "pending manual review"
+  },
+  {
+    "id": "shadcn-badge",
+    "source_url": "https://ui.shadcn.com/view/new-york-v4/badge-demo",
+    "views": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 54.109375,
+          "height": 22
+        },
+        "source_style": {
+          "fontFamily": "Geist, \"Geist Fallback\"",
+          "fontSize": "12px",
+          "borderRadius": "3.35544e+07px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "lab(0 0 0)"
+        },
+        "local_http_status": 200,
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "12px",
+          "borderRadius": "3.35544e+07px",
+          "color": "oklch(0.985 0 0)",
+          "backgroundColor": "oklch(0.205 0 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              55,
+              22
+            ],
+            [
+              54,
+              22
+            ]
+          ],
+          "common_raster_size": [
+            54,
+            22
+          ],
+          "pixel_similarity": 0.8603386809269162,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "state_checks": [
+          "Static presentation: keyboard input not applicable"
+        ],
+        "runtime_errors": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 54.109375,
+          "height": 22
+        },
+        "source_style": {
+          "fontFamily": "Geist, \"Geist Fallback\"",
+          "fontSize": "12px",
+          "borderRadius": "3.35544e+07px",
+          "color": "lab(98.26 0 0)",
+          "backgroundColor": "lab(0 0 0)"
+        },
+        "local_http_status": 200,
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "12px",
+          "borderRadius": "3.35544e+07px",
+          "color": "oklch(0.985 0 0)",
+          "backgroundColor": "oklch(0.205 0 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              55,
+              22
+            ],
+            [
+              54,
+              22
+            ]
+          ],
+          "common_raster_size": [
+            54,
+            22
+          ],
+          "pixel_similarity": 0.8603386809269162,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "state_checks": [
+          "Static presentation: keyboard input not applicable"
+        ],
+        "runtime_errors": []
+      }
+    },
+    "classification": "pending manual review"
+  },
+  {
+    "id": "shadcn-card",
+    "source_url": "https://ui.shadcn.com/view/new-york-v4/card-demo",
+    "views": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 384,
+          "height": 388
+        },
+        "source_style": {
+          "fontFamily": "Geist, \"Geist Fallback\"",
+          "fontSize": "16px",
+          "borderRadius": "14px",
+          "color": "lab(0 0 0)",
+          "backgroundColor": "lab(100 0 0)"
+        },
+        "local_http_status": 200,
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "14px",
+          "color": "oklch(0.145 0 0)",
+          "backgroundColor": "oklch(1 0 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              384,
+              388
+            ],
+            [
+              384,
+              388
+            ]
+          ],
+          "common_raster_size": [
+            384,
+            388
+          ],
+          "pixel_similarity": 0.974586739227478,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "state_checks": [
+          "Static presentation: keyboard input not applicable"
+        ],
+        "runtime_errors": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 384,
+          "height": 388
+        },
+        "source_style": {
+          "fontFamily": "Geist, \"Geist Fallback\"",
+          "fontSize": "16px",
+          "borderRadius": "14px",
+          "color": "lab(0 0 0)",
+          "backgroundColor": "lab(100 0 0)"
+        },
+        "local_http_status": 200,
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "14px",
+          "color": "oklch(0.145 0 0)",
+          "backgroundColor": "oklch(1 0 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              308,
+              388
+            ],
+            [
+              308,
+              388
+            ]
+          ],
+          "common_raster_size": [
+            308,
+            388
+          ],
+          "pixel_similarity": 0.9699049207311791,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "original_intrinsic_comparison": {
+          "comparable": false,
+          "original_sizes": [
+            [
+              384,
+              388
+            ],
+            [
+              308,
+              388
+            ]
+          ],
+          "reason": "Different intrinsic size; no resizing for score."
+        },
+        "reference_host_width_normalized_to_local": 308,
+        "state_checks": [
+          "Static presentation: keyboard input not applicable"
+        ],
+        "runtime_errors": []
+      }
+    },
+    "classification": "pending manual review"
+  },
+  {
+    "id": "shadcn-input",
+    "source_url": "https://ui.shadcn.com/view/new-york-v4/input-demo",
+    "views": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 36
+        },
+        "source_style": {
+          "fontFamily": "Geist, \"Geist Fallback\"",
+          "fontSize": "14px",
+          "borderRadius": "8px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "14px",
+          "borderRadius": "8px",
+          "color": "oklch(0.145 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              710,
+              36
+            ],
+            [
+              710,
+              36
+            ]
+          ],
+          "common_raster_size": [
+            710,
+            36
+          ],
+          "pixel_similarity": 0.9988091073675166,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "original_intrinsic_comparison": {
+          "comparable": false,
+          "original_sizes": [
+            [
+              1440,
+              36
+            ],
+            [
+              710,
+              36
+            ]
+          ],
+          "reason": "Different intrinsic size; no resizing for score."
+        },
+        "reference_host_width_normalized_to_local": 710,
+        "state_checks": [
+          "Text entry and focus verified",
+          "Disabled state verified"
+        ],
+        "runtime_errors": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 36
+        },
+        "source_style": {
+          "fontFamily": "Geist, \"Geist Fallback\"",
+          "fontSize": "16px",
+          "borderRadius": "8px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "8px",
+          "color": "oklch(0.145 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              308,
+              36
+            ],
+            [
+              308,
+              36
+            ]
+          ],
+          "common_raster_size": [
+            308,
+            36
+          ],
+          "pixel_similarity": 0.9923634100104688,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "original_intrinsic_comparison": {
+          "comparable": false,
+          "original_sizes": [
+            [
+              390,
+              36
+            ],
+            [
+              308,
+              36
+            ]
+          ],
+          "reason": "Different intrinsic size; no resizing for score."
+        },
+        "reference_host_width_normalized_to_local": 308,
+        "state_checks": [
+          "Text entry and focus verified",
+          "Disabled state verified"
+        ],
+        "runtime_errors": []
+      }
+    },
+    "classification": "pending manual review"
+  },
+  {
+    "id": "shadcn-textarea",
+    "source_url": "https://ui.shadcn.com/view/new-york-v4/textarea-demo",
+    "views": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 64
+        },
+        "source_style": {
+          "fontFamily": "Geist, \"Geist Fallback\"",
+          "fontSize": "14px",
+          "borderRadius": "8px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "14px",
+          "borderRadius": "8px",
+          "color": "oklch(0.145 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              710,
+              64
+            ],
+            [
+              710,
+              64
+            ]
+          ],
+          "common_raster_size": [
+            710,
+            64
+          ],
+          "pixel_similarity": 0.9957803438276719,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "original_intrinsic_comparison": {
+          "comparable": false,
+          "original_sizes": [
+            [
+              1440,
+              64
+            ],
+            [
+              710,
+              64
+            ]
+          ],
+          "reason": "Different intrinsic size; no resizing for score."
+        },
+        "reference_host_width_normalized_to_local": 710,
+        "state_checks": [
+          "Text entry and focus verified",
+          "Disabled state verified"
+        ],
+        "runtime_errors": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 64
+        },
+        "source_style": {
+          "fontFamily": "Geist, \"Geist Fallback\"",
+          "fontSize": "16px",
+          "borderRadius": "8px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "8px",
+          "color": "oklch(0.145 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              308,
+              64
+            ],
+            [
+              308,
+              64
+            ]
+          ],
+          "common_raster_size": [
+            308,
+            64
+          ],
+          "pixel_similarity": 0.9876137955182073,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "original_intrinsic_comparison": {
+          "comparable": false,
+          "original_sizes": [
+            [
+              390,
+              64
+            ],
+            [
+              308,
+              64
+            ]
+          ],
+          "reason": "Different intrinsic size; no resizing for score."
+        },
+        "reference_host_width_normalized_to_local": 308,
+        "state_checks": [
+          "Text entry and focus verified",
+          "Disabled state verified"
+        ],
+        "runtime_errors": []
+      }
+    },
+    "classification": "pending manual review"
+  },
+  {
+    "id": "shadcn-checkbox",
+    "source_url": "https://ui.shadcn.com/view/new-york-v4/checkbox-demo",
+    "views": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 16
+        },
+        "source_style": {
+          "fontFamily": "Geist, \"Geist Fallback\"",
+          "fontSize": "16px",
+          "borderRadius": "4px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "4px",
+          "color": "oklch(0.145 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              16,
+              16
+            ],
+            [
+              17,
+              16
+            ]
+          ],
+          "common_raster_size": [
+            16,
+            16
+          ],
+          "pixel_similarity": 0.9837469362745098,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "state_checks": [
+          "Space toggles aria-checked",
+          "Disabled state verified"
+        ],
+        "runtime_errors": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 16
+        },
+        "source_style": {
+          "fontFamily": "Geist, \"Geist Fallback\"",
+          "fontSize": "16px",
+          "borderRadius": "4px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "4px",
+          "color": "oklch(0.145 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              16,
+              16
+            ],
+            [
+              16,
+              16
+            ]
+          ],
+          "common_raster_size": [
+            16,
+            16
+          ],
+          "pixel_similarity": 0.9998161764705882,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "state_checks": [
+          "Space toggles aria-checked",
+          "Disabled state verified"
+        ],
+        "runtime_errors": []
+      }
+    },
+    "classification": "pending manual review"
+  },
+  {
+    "id": "shadcn-switch",
+    "source_url": "https://ui.shadcn.com/view/new-york-v4/switch-demo",
+    "views": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 18.390625
+        },
+        "source_style": {
+          "fontFamily": "Geist, \"Geist Fallback\"",
+          "fontSize": "16px",
+          "borderRadius": "3.35544e+07px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "lab(90.952 0 -0.0000119209)"
+        },
+        "local_http_status": 200,
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "3.35544e+07px",
+          "color": "oklch(0.145 0 0)",
+          "backgroundColor": "oklch(0.922 0 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              32,
+              19
+            ],
+            [
+              33,
+              20
+            ]
+          ],
+          "common_raster_size": [
+            32,
+            19
+          ],
+          "pixel_similarity": 0.9835397316821466,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "state_checks": [
+          "Space toggles aria-checked",
+          "Disabled state verified"
+        ],
+        "runtime_errors": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 18.390625
+        },
+        "source_style": {
+          "fontFamily": "Geist, \"Geist Fallback\"",
+          "fontSize": "16px",
+          "borderRadius": "3.35544e+07px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "lab(90.952 0 -0.0000119209)"
+        },
+        "local_http_status": 200,
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "3.35544e+07px",
+          "color": "oklch(0.145 0 0)",
+          "backgroundColor": "oklch(0.922 0 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              32,
+              19
+            ],
+            [
+              33,
+              20
+            ]
+          ],
+          "common_raster_size": [
+            32,
+            19
+          ],
+          "pixel_similarity": 0.9835397316821466,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "state_checks": [
+          "Space toggles aria-checked",
+          "Disabled state verified"
+        ],
+        "runtime_errors": []
+      }
+    },
+    "classification": "pending manual review"
+  },
+  {
+    "id": "shadcn-tabs",
+    "source_url": "https://ui.shadcn.com/view/new-york-v4/tabs-demo",
+    "views": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 384,
+          "height": 390
+        },
+        "source_style": {
+          "fontFamily": "Geist, \"Geist Fallback\"",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "oklch(0.145 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              384,
+              390
+            ],
+            [
+              384,
+              390
+            ]
+          ],
+          "common_raster_size": [
+            384,
+            390
+          ],
+          "pixel_similarity": 0.9841587062175298,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "state_checks": [
+          "ArrowRight moves focus and activates second tab"
+        ],
+        "runtime_errors": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 384,
+          "height": 390
+        },
+        "source_style": {
+          "fontFamily": "Geist, \"Geist Fallback\"",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "oklch(0.145 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              308,
+              390
+            ],
+            [
+              308,
+              390
+            ]
+          ],
+          "common_raster_size": [
+            308,
+            390
+          ],
+          "pixel_similarity": 0.9780506421682892,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "original_intrinsic_comparison": {
+          "comparable": false,
+          "original_sizes": [
+            [
+              384,
+              390
+            ],
+            [
+              308,
+              390
+            ]
+          ],
+          "reason": "Different intrinsic size; no resizing for score."
+        },
+        "reference_host_width_normalized_to_local": 308,
+        "state_checks": [
+          "ArrowRight moves focus and activates second tab"
+        ],
+        "runtime_errors": []
+      }
+    },
+    "classification": "pending manual review"
+  },
+  {
+    "id": "shadcn-accordion",
+    "source_url": "https://ui.shadcn.com/view/new-york-v4/accordion-demo",
+    "views": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 230
+        },
+        "source_style": {
+          "fontFamily": "Geist, \"Geist Fallback\"",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "oklch(0.145 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              710,
+              270
+            ],
+            [
+              710,
+              270
+            ]
+          ],
+          "common_raster_size": [
+            710,
+            270
+          ],
+          "pixel_similarity": 0.9646676690498839,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "original_intrinsic_comparison": {
+          "comparable": false,
+          "original_sizes": [
+            [
+              1440,
+              230
+            ],
+            [
+              710,
+              270
+            ]
+          ],
+          "reason": "Different intrinsic size; no resizing for score."
+        },
+        "reference_host_width_normalized_to_local": 710,
+        "state_checks": [
+          "Enter changes aria-expanded"
+        ],
+        "runtime_errors": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 310
+        },
+        "source_style": {
+          "fontFamily": "Geist, \"Geist Fallback\"",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "oklch(0.145 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              308,
+              330
+            ],
+            [
+              308,
+              330
+            ]
+          ],
+          "common_raster_size": [
+            308,
+            330
+          ],
+          "pixel_similarity": 0.933115918543726,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "original_intrinsic_comparison": {
+          "comparable": false,
+          "original_sizes": [
+            [
+              390,
+              310
+            ],
+            [
+              308,
+              330
+            ]
+          ],
+          "reason": "Different intrinsic size; no resizing for score."
+        },
+        "reference_host_width_normalized_to_local": 308,
+        "state_checks": [
+          "Enter changes aria-expanded"
+        ],
+        "runtime_errors": []
+      }
+    },
+    "classification": "pending manual review"
+  },
+  {
+    "id": "shadcn-dialog",
+    "source_url": "https://ui.shadcn.com/view/new-york-v4/dialog-demo",
+    "views": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 114.109375,
+          "height": 36
+        },
+        "source_style": {
+          "fontFamily": "Geist, \"Geist Fallback\"",
+          "fontSize": "14px",
+          "borderRadius": "8px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "lab(100 0 0)"
+        },
+        "local_http_status": 200,
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "14px",
+          "borderRadius": "8px",
+          "color": "oklch(0.145 0 0)",
+          "backgroundColor": "oklch(1 0 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              112,
+              36
+            ],
+            [
+              112,
+              36
+            ]
+          ],
+          "common_raster_size": [
+            112,
+            36
+          ],
+          "pixel_similarity": 0.9419954092748211,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "original_intrinsic_comparison": {
+          "comparable": false,
+          "original_sizes": [
+            [
+              115,
+              36
+            ],
+            [
+              112,
+              36
+            ]
+          ],
+          "reason": "Different intrinsic size; no resizing for score."
+        },
+        "reference_host_width_normalized_to_local": 111.828125,
+        "state_checks": [
+          "Enter opens named dialog",
+          "Opened dialog surface compared against original demo",
+          "Eight Tab presses keep focus inside dialog",
+          "Escape closes and restores trigger focus"
+        ],
+        "runtime_errors": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 114.109375,
+          "height": 36
+        },
+        "source_style": {
+          "fontFamily": "Geist, \"Geist Fallback\"",
+          "fontSize": "14px",
+          "borderRadius": "8px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "lab(100 0 0)"
+        },
+        "local_http_status": 200,
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "14px",
+          "borderRadius": "8px",
+          "color": "oklch(0.145 0 0)",
+          "backgroundColor": "oklch(1 0 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              112,
+              36
+            ],
+            [
+              112,
+              36
+            ]
+          ],
+          "common_raster_size": [
+            112,
+            36
+          ],
+          "pixel_similarity": 0.9419954092748211,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "original_intrinsic_comparison": {
+          "comparable": false,
+          "original_sizes": [
+            [
+              115,
+              36
+            ],
+            [
+              112,
+              36
+            ]
+          ],
+          "reason": "Different intrinsic size; no resizing for score."
+        },
+        "reference_host_width_normalized_to_local": 111.828125,
+        "state_checks": [
+          "Enter opens named dialog",
+          "Opened dialog surface compared against original demo",
+          "Eight Tab presses keep focus inside dialog",
+          "Escape closes and restores trigger focus"
+        ],
+        "runtime_errors": []
+      }
+    },
+    "classification": "pending manual review"
+  },
+  {
+    "id": "shadcn-progress",
+    "source_url": "https://ui.shadcn.com/view/new-york-v4/progress-demo",
+    "views": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 864,
+          "height": 8
+        },
+        "source_style": {
+          "fontFamily": "Geist, \"Geist Fallback\"",
+          "fontSize": "16px",
+          "borderRadius": "3.35544e+07px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "oklab(0 0 0 / 0.2)"
+        },
+        "local_http_status": 200,
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "3.35544e+07px",
+          "color": "oklch(0.145 0 0)",
+          "backgroundColor": "oklab(0.205 0 0 / 0.2)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              426,
+              8
+            ],
+            [
+              426,
+              8
+            ]
+          ],
+          "common_raster_size": [
+            426,
+            8
+          ],
+          "pixel_similarity": 0.934009942004971,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "original_intrinsic_comparison": {
+          "comparable": false,
+          "original_sizes": [
+            [
+              864,
+              8
+            ],
+            [
+              426,
+              8
+            ]
+          ],
+          "reason": "Different intrinsic size; no resizing for score."
+        },
+        "reference_host_width_normalized_to_local": 426,
+        "state_checks": [
+          "Progressbar role present; demo is timed and value may vary"
+        ],
+        "runtime_errors": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 234,
+          "height": 8
+        },
+        "source_style": {
+          "fontFamily": "Geist, \"Geist Fallback\"",
+          "fontSize": "16px",
+          "borderRadius": "3.35544e+07px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "oklab(0 0 0 / 0.2)"
+        },
+        "local_http_status": 200,
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "3.35544e+07px",
+          "color": "oklch(0.145 0 0)",
+          "backgroundColor": "oklab(0.205 0 0 / 0.2)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              185,
+              8
+            ],
+            [
+              186,
+              8
+            ]
+          ],
+          "common_raster_size": [
+            185,
+            8
+          ],
+          "pixel_similarity": 0.9293375728669846,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "original_intrinsic_comparison": {
+          "comparable": false,
+          "original_sizes": [
+            [
+              234,
+              8
+            ],
+            [
+              186,
+              8
+            ]
+          ],
+          "reason": "Different intrinsic size; no resizing for score."
+        },
+        "reference_host_width_normalized_to_local": 184.796875,
+        "state_checks": [
+          "Progressbar role present; demo is timed and value may vary"
+        ],
+        "runtime_errors": []
+      }
+    },
+    "classification": "pending manual review"
+  },
+  {
+    "id": "shadcn-slider",
+    "source_url": "https://ui.shadcn.com/view/new-york-v4/slider-demo",
+    "views": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 864,
+          "height": 6
+        },
+        "source_style": {
+          "fontFamily": "Geist, \"Geist Fallback\"",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "oklch(0.145 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              426,
+              6
+            ],
+            [
+              426,
+              6
+            ]
+          ],
+          "common_raster_size": [
+            426,
+            6
+          ],
+          "pixel_similarity": 0.9563472337291724,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "original_intrinsic_comparison": {
+          "comparable": false,
+          "original_sizes": [
+            [
+              864,
+              6
+            ],
+            [
+              426,
+              6
+            ]
+          ],
+          "reason": "Different intrinsic size; no resizing for score."
+        },
+        "reference_host_width_normalized_to_local": 426,
+        "state_checks": [
+          "ArrowRight changes aria-valuenow"
+        ],
+        "runtime_errors": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "source_http_status": 200,
+        "source_surface_bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 234,
+          "height": 6
+        },
+        "source_style": {
+          "fontFamily": "Geist, \"Geist Fallback\"",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "local_http_status": 200,
+        "local_style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": "16px",
+          "borderRadius": "0px",
+          "color": "oklch(0.145 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "horizontal_overflow": false,
+        "comparison": {
+          "comparable": true,
+          "original_sizes": [
+            [
+              185,
+              6
+            ],
+            [
+              186,
+              6
+            ]
+          ],
+          "common_raster_size": [
+            185,
+            6
+          ],
+          "pixel_similarity": 0.9420985691573927,
+          "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+        },
+        "original_intrinsic_comparison": {
+          "comparable": false,
+          "original_sizes": [
+            [
+              234,
+              6
+            ],
+            [
+              186,
+              6
+            ]
+          ],
+          "reason": "Different intrinsic size; no resizing for score."
+        },
+        "reference_host_width_normalized_to_local": 184.796875,
+        "state_checks": [
+          "ArrowRight changes aria-valuenow"
+        ],
+        "runtime_errors": []
+      }
+    },
+    "classification": "pending manual review"
+  }
+]

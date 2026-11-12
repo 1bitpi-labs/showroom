@@ -1,0 +1,388 @@
+{
+  "site": "navbar.gallery",
+  "url": "https://www.navbar.gallery/navbar/supaste",
+  "captured_at": "2026-11-12T21:11:32.567546+00:00",
+  "views": {
+    "desktop": {
+      "url": "https://www.navbar.gallery/navbar/supaste",
+      "title": "Supaste Static Navigation Design – Navbar Gallery",
+      "text": "Navbar Gallery\n\nAll Types\n\nStatic\n\nDropdown\n\nMega Menu\n\nSide Bar\n\nSearch Bar\n\nAnnouncement\n\nFull Screen\n\nBreadcrumbs\n\nSupaste\n\nSupaste saves your clipboard and screenshots in a beautiful visual history, automatically grouped by type, app, and custom categories, so you can search, find, and paste anything back in seconds.\n\nVisit Website\n\nDesigned by\n\nSolt Wagner\n\nSubmitted by\n\nSolt Wagner\n\nNavbar Type\n\nStatic\n\nWebsite Type\n\nMacOS App\n\nBuilt with Framer\n\nMobile view",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Supaste",
+          "bounds": {
+            "x": 342.546875,
+            "y": 663.84375,
+            "width": 142.328125,
+            "height": 46
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Neuemontreal, Arial, sans-serif",
+            "fontSize": "40px",
+            "fontWeight": "400",
+            "lineHeight": "46px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Navbar Gallery\n\nAll Types\n\nStatic\n\nDropdown\n\nMega Menu\n\nSide Bar\n\nSearch Bar\n\nAnnouncement\n\nFull Screen\n\nBreadcrumbs\n\nSupaste\n\nSupaste saves",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 1425.28125
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Neuemontreal, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.6px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "Navbar Gallery",
+          "href": "https://www.navbar.gallery/"
+        },
+        {
+          "text": "All Types",
+          "href": "https://www.navbar.gallery/browse"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/type/static"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/type/dropdowns"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/type/mega-menu"
+        },
+        {
+          "text": "Find out more\n\n",
+          "href": "https://www.navbar.gallery/blog/what-is-a-mega-menu"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/type/side-bar"
+        },
+        {
+          "text": "Find out more\n\n",
+          "href": "https://www.navbar.gallery/blog/sidebar-navigation"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/type/search-bar"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/type/announcement"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/type/full-screen"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/type/breadcrumbs"
+        },
+        {
+          "text": "",
+          "href": "https://dub.sh/navbar-mobbin?ref=navbar.gallery"
+        },
+        {
+          "text": "Subscribe",
+          "href": "https://suupercharged.substack.com/subscribe?ref=navbar.gallery"
+        },
+        {
+          "text": "Twitter",
+          "href": "https://twitter.com/navbargallery?ref=navbar.gallery"
+        },
+        {
+          "text": "Blog",
+          "href": "https://www.navbar.gallery/blog"
+        },
+        {
+          "text": "",
+          "href": "https://dub.sh/navbar-mobbin?ref=navbar.gallery"
+        },
+        {
+          "text": "\n  \n",
+          "href": "https://twitter.com/navbargallery?ref=navbar.gallery"
+        },
+        {
+          "text": "\n  \n  \n  \n",
+          "href": "https://twitter.com/navbargallery?ref=navbar.gallery"
+        },
+        {
+          "text": "Visit Website",
+          "href": "https://www.supaste.com/?ref=navbar.gallery"
+        },
+        {
+          "text": "Solt Wagner",
+          "href": "https://x.com/soltwagner?ref=navbar.gallery"
+        },
+        {
+          "text": "Christina Liubynska",
+          "href": "https://www.supercharged.design/?ref=navbar.gallery"
+        },
+        {
+          "text": "Solt Wagner",
+          "href": "https://x.com/soltwagner?ref=navbar.gallery"
+        },
+        {
+          "text": "Static",
+          "href": "https://www.navbar.gallery/navbar/supaste#"
+        },
+        {
+          "text": "MacOS App",
+          "href": "https://www.navbar.gallery/style/macos-app"
+        },
+        {
+          "text": "\n  \n  \nBuilt with Webflow",
+          "href": "https://webflow.com/?ref=navbar.gallery"
+        },
+        {
+          "text": "Built with Framer",
+          "href": "https://framer.link/supercharged?ref=navbar.gallery"
+        },
+        {
+          "text": "",
+          "href": "https://dub.sh/navbar-mobbin?ref=navbar.gallery"
+        },
+        {
+          "text": "Sponsored by Mobbin",
+          "href": "https://dub.sh/navbar-mobbin?ref=navbar.gallery"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--grey": "#292929",
+        "--text-white": "#f5f5f5",
+        "--white": "white",
+        "--black": "#111"
+      }
+    },
+    "mobile": {
+      "url": "https://www.navbar.gallery/navbar/supaste",
+      "title": "Supaste Static Navigation Design – Navbar Gallery",
+      "text": "Navbar Gallery\nDesktop view\nMobile view\nSupaste\n\nSupaste saves your clipboard and screenshots in a beautiful visual history, automatically grouped by type, app, and custom categories, so you can search, find, and paste anything back in seconds.\n\nVisit Website\n\nDesigned by\n\nSolt Wagner\n\nSubmitted by\n\nSolt Wagner\n\nNavbar Type\n\nStatic\n\nWebsite Type\n\nMacOS App\n\nBuilt with Framer",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Supaste",
+          "bounds": {
+            "x": 83.1875,
+            "y": 120.765625,
+            "width": 113.859375,
+            "height": 36.796875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Neuemontreal, Arial, sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "400",
+            "lineHeight": "36.8px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Navbar Gallery\nDesktop view\nMobile view\nSupaste\n\nSupaste saves your clipboard and screenshots in a beautiful visual history, automatically g",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 2105.34375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Neuemontreal, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.6px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "Navbar Gallery",
+          "href": "https://www.navbar.gallery/"
+        },
+        {
+          "text": "\n  \n    \n    \n    \n    \n    \n    \n    \n    \n  \n  \n    \n      \n      \n ",
+          "href": "https://www.navbar.gallery/browse"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/type/static"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/type/dropdowns"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/type/mega-menu"
+        },
+        {
+          "text": "Find out more\n\n",
+          "href": "https://www.navbar.gallery/blog/what-is-a-mega-menu"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/type/side-bar"
+        },
+        {
+          "text": "Find out more\n\n",
+          "href": "https://www.navbar.gallery/blog/sidebar-navigation"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/type/search-bar"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/type/announcement"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/type/full-screen"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/type/breadcrumbs"
+        },
+        {
+          "text": "",
+          "href": "https://dub.sh/navbar-mobbin?ref=navbar.gallery"
+        },
+        {
+          "text": "Subscribe",
+          "href": "https://suupercharged.substack.com/subscribe?ref=navbar.gallery"
+        },
+        {
+          "text": "Twitter",
+          "href": "https://twitter.com/navbargallery?ref=navbar.gallery"
+        },
+        {
+          "text": "Blog",
+          "href": "https://www.navbar.gallery/blog"
+        },
+        {
+          "text": "Sponsored by Mobbin",
+          "href": "https://dub.sh/navbar-mobbin?ref=navbar.gallery"
+        },
+        {
+          "text": "\n  \n",
+          "href": "https://twitter.com/navbargallery?ref=navbar.gallery"
+        },
+        {
+          "text": "\n  \n  \n  \n",
+          "href": "https://twitter.com/navbargallery?ref=navbar.gallery"
+        },
+        {
+          "text": "Visit Website",
+          "href": "https://www.supaste.com/?ref=navbar.gallery"
+        },
+        {
+          "text": "Solt Wagner",
+          "href": "https://x.com/soltwagner?ref=navbar.gallery"
+        },
+        {
+          "text": "Christina Liubynska",
+          "href": "https://www.supercharged.design/?ref=navbar.gallery"
+        },
+        {
+          "text": "Solt Wagner",
+          "href": "https://x.com/soltwagner?ref=navbar.gallery"
+        },
+        {
+          "text": "Static",
+          "href": "https://www.navbar.gallery/navbar/supaste#"
+        },
+        {
+          "text": "MacOS App",
+          "href": "https://www.navbar.gallery/style/macos-app"
+        },
+        {
+          "text": "\n  \n  \nBuilt with Webflow",
+          "href": "https://webflow.com/?ref=navbar.gallery"
+        },
+        {
+          "text": "Built with Framer",
+          "href": "https://framer.link/supercharged?ref=navbar.gallery"
+        },
+        {
+          "text": "",
+          "href": "https://dub.sh/navbar-mobbin?ref=navbar.gallery"
+        },
+        {
+          "text": "",
+          "href": "https://dub.sh/navbar-mobbin?ref=navbar.gallery"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--grey": "#292929",
+        "--text-white": "#f5f5f5",
+        "--white": "white",
+        "--black": "#111"
+      }
+    }
+  },
+  "scope": "public source reference; not a locally reconstructed component",
+  "http_status": 200,
+  "page_errors": []
+}

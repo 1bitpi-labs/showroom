@@ -1,0 +1,73 @@
+{
+  "id": "motion-liquid-stepper-reference",
+  "location": {
+    "quadrant": "Q4-ux-motion",
+    "category": "micro-interactions",
+    "section": "spring-physics-presets",
+    "file_path": "Q4-ux-motion/micro-interactions/spring-physics-presets/motion-liquid-stepper-reference.json"
+  },
+  "tier": "C",
+  "tier_audit": {
+    "visual_verified": true,
+    "verification_scope": "source screenshots only; not local implementation fidelity",
+    "fidelity_type": "visual_spec",
+    "responsive_score": null,
+    "audit_notes": [
+      "Tier C: reference/spec, not ready-to-use code.",
+      "Source DOM measurements may describe gallery chrome, not the referenced product.",
+      "Keyboard, contrast and animation timing not certified."
+    ],
+    "evidence": [
+      "audits/source-evidence/recent-design-liquid-stepper/evidence.json",
+      "previews/motion-liquid-stepper-reference/desktop.png",
+      "previews/motion-liquid-stepper-reference/mobile.png"
+    ],
+    "source_observations": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "page_horizontal_overflow": false,
+        "broken_images": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "page_horizontal_overflow": false,
+        "broken_images": []
+      }
+    }
+  },
+  "source_site": "recent.design",
+  "source_url": "https://recent.design/i/lrtfzrm-liquid-stepper-interaction",
+  "license": {
+    "status": "reference_only_not_code_license",
+    "redistribution": "No source code or original downloadable assets included; screenshots are research evidence."
+  },
+  "stack_compatibility": [
+    "framework-agnostic-spec"
+  ],
+  "style_tags": [
+    "spring-physics-presets"
+  ],
+  "artifact": {
+    "type": "visual_spec",
+    "spec": "Referência de checkout com etapas em cápsulas, transição orgânica e cores por progresso. Constantes de mola, duração e easing não foram medidas. A seção spring-physics-presets é destino taxonômico; não há preset físico extraído. Oferecer alternativa reduced-motion na implementação.",
+    "observed_headings": [
+      "Browse",
+      "Resources"
+    ],
+    "source_dom_evidence": "audits/source-evidence/recent-design-liquid-stepper/evidence.json",
+    "states": {
+      "desktop": "captured",
+      "mobile": "captured",
+      "hover": "not audited",
+      "focus": "not audited",
+      "active": "not audited",
+      "disabled": "not audited"
+    }
+  }
+}

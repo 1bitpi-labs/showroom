@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/Manavarya09/design-extract/main/README.md",
+    "status": 200,
+    "file": "zod-ui-catalog/audits/tool-discovery/design-extract-README.md",
+    "bytes": 34565,
+    "normalization": "Trailing whitespace removed for repository formatting; bytes records original HTTP response size.",
+    "stored_bytes": 34564
+  },
+  {
+    "url": "https://raw.githubusercontent.com/stsgs1980/ui-extractor/main/README.md",
+    "status": 200,
+    "file": "zod-ui-catalog/audits/tool-discovery/ui-extractor-README.md",
+    "bytes": 5455
+  },
+  {
+    "url": "https://raw.githubusercontent.com/dembrandt/dembrandt/main/README.md",
+    "status": 200,
+    "file": "zod-ui-catalog/audits/tool-discovery/dembrandt-README.md",
+    "bytes": 13270
+  },
+  {
+    "url": "https://raw.githubusercontent.com/unclecode/crawl4ai/main/README.md",
+    "status": 200,
+    "file": "zod-ui-catalog/audits/tool-discovery/crawl4ai-README.md",
+    "bytes": 28525,
+    "normalization": "Trailing whitespace removed for repository formatting; bytes records original HTTP response size.",
+    "stored_bytes": 28523
+  },
+  {
+    "url": "https://dithercn.dev/r/registry.json",
+    "status": 200,
+    "file": "zod-ui-catalog/audits/tool-discovery/registry.json",
+    "bytes": 44310
+  },
+  {
+    "url": "https://dithercn.dev/llms.txt",
+    "status": 200,
+    "file": "zod-ui-catalog/audits/tool-discovery/llms.txt",
+    "bytes": 17527
+  }
+]

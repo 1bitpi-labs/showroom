@@ -1,0 +1,101 @@
+{
+  "id": "dithercn-dither-glow",
+  "location": {
+    "quadrant": "Q3-visual-atmosphere",
+    "category": "shaders-webgl",
+    "section": "ordered-dithering",
+    "file_path": "Q3-visual-atmosphere/shaders-webgl/ordered-dithering/dithercn-dither-glow.json"
+  },
+  "tier": "S",
+  "tier_audit": {
+    "visual_verified": true,
+    "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+    "responsive_score": null,
+    "audit_notes": [
+      "Padrão, enquadramento e hierarquia tonal visualmente coerentes com a referência nas duas larguras.",
+      "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime.",
+      "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+      "No full WCAG certification; no claim of whole-page percentage fidelity."
+    ],
+    "evidence": [
+      "previews/dithercn-dither-glow/audit.json",
+      "audits/batch-2/manual-review.json",
+      "previews/dithercn-dither-glow/desktop.png",
+      "previews/dithercn-dither-glow/mobile.png",
+      "assets/dithercn/LICENSE"
+    ],
+    "viewports": [
+      "1440x900",
+      "390x844"
+    ],
+    "state_checks": {
+      "desktop": [
+        "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+      ],
+      "mobile": [
+        "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+      ]
+    }
+  },
+  "source_site": "dithercn.dev",
+  "source_url": "https://dithercn.dev/docs/backgrounds/dither-glow",
+  "license": {
+    "spdx": "MIT",
+    "local": "assets/dithercn/LICENSE",
+    "url": "https://github.com/opencoredev/dithercn/blob/main/LICENSE"
+  },
+  "stack_compatibility": [
+    "React",
+    "TypeScript",
+    "Tailwind CSS v4",
+    "WebGL"
+  ],
+  "style_tags": [
+    "ordered-dithering",
+    "dithercn",
+    "native-source"
+  ],
+  "artifact": {
+    "type": "registry_component",
+    "registry": "assets/dithercn/dither-glow.json",
+    "sha256": "9943776a6a25d41c852e963fdfff192573c32e219a0ad421232e78d4e3884816",
+    "demo_registry": null,
+    "dependencies": [
+      "assets/dithercn/dither-core.json",
+      "assets/dithercn/dither-tokens.json",
+      "React",
+      "TypeScript",
+      "Tailwind CSS v4",
+      "clsx",
+      "tailwind-merge"
+    ],
+    "fixture": "audits/batch-2/fixture",
+    "adaptation_required": [
+      "Mapear tokens --dither-* e dimensionar o container no projeto host."
+    ],
+    "tokens": [
+      "--dither-color-blue",
+      "--dither-ink",
+      "--dither-paper",
+      "--dither-bloom",
+      "--dither-color-orange",
+      "--dither-color-red",
+      "--dither-color-grey",
+      "--background",
+      "--dither-color-pink",
+      "--dither-color-purple",
+      "--dither-cell",
+      "--dither-color-green",
+      "--primary",
+      "--foreground"
+    ],
+    "states_tested": {
+      "desktop": [
+        "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+      ],
+      "mobile": [
+        "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+      ]
+    }
+  }
+}

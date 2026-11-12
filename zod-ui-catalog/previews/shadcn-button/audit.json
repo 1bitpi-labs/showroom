@@ -1,0 +1,115 @@
+{
+  "id": "shadcn-button",
+  "source_url": "https://ui.shadcn.com/view/new-york-v4/button-demo",
+  "views": {
+    "desktop": {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "source_http_status": 200,
+      "source_surface_bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 77.71875,
+        "height": 36
+      },
+      "source_style": {
+        "fontFamily": "Geist, \"Geist Fallback\"",
+        "fontSize": "14px",
+        "borderRadius": "8px",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "lab(100 0 0)"
+      },
+      "local_http_status": 200,
+      "local_style": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "14px",
+        "borderRadius": "8px",
+        "color": "oklch(0.145 0 0)",
+        "backgroundColor": "oklch(1 0 0)"
+      },
+      "horizontal_overflow": false,
+      "comparison": {
+        "comparable": true,
+        "original_sizes": [
+          [
+            78,
+            36
+          ],
+          [
+            76,
+            36
+          ]
+        ],
+        "common_raster_size": [
+          76,
+          36
+        ],
+        "pixel_similarity": 0.9489422084623322,
+        "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+      },
+      "state_checks": [
+        "Keyboard focus verified",
+        "Hover captured",
+        "Disabled state verified"
+      ],
+      "runtime_errors": []
+    },
+    "mobile": {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "source_http_status": 200,
+      "source_surface_bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 77.71875,
+        "height": 36
+      },
+      "source_style": {
+        "fontFamily": "Geist, \"Geist Fallback\"",
+        "fontSize": "14px",
+        "borderRadius": "8px",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "lab(100 0 0)"
+      },
+      "local_http_status": 200,
+      "local_style": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "14px",
+        "borderRadius": "8px",
+        "color": "oklch(0.145 0 0)",
+        "backgroundColor": "oklch(1 0 0)"
+      },
+      "horizontal_overflow": false,
+      "comparison": {
+        "comparable": true,
+        "original_sizes": [
+          [
+            78,
+            36
+          ],
+          [
+            76,
+            36
+          ]
+        ],
+        "common_raster_size": [
+          76,
+          36
+        ],
+        "pixel_similarity": 0.9489422084623322,
+        "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+      },
+      "state_checks": [
+        "Keyboard focus verified",
+        "Hover captured",
+        "Disabled state verified"
+      ],
+      "runtime_errors": []
+    }
+  },
+  "classification": "pending manual review"
+}

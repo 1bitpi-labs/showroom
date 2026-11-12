@@ -1,0 +1,656 @@
+{
+  "schema_version": 1,
+  "quadrant": "Q4-ux-motion",
+  "count": 11,
+  "sections": {
+    "user-flows": {
+      "onboarding-sequences": [
+        {
+          "id": "motion-health-intro-reference",
+          "location": {
+            "quadrant": "Q4-ux-motion",
+            "category": "user-flows",
+            "section": "onboarding-sequences",
+            "file_path": "Q4-ux-motion/user-flows/onboarding-sequences/motion-health-intro-reference.json"
+          },
+          "tier": "C",
+          "tier_audit": {
+            "visual_verified": true,
+            "verification_scope": "source screenshots only; not local implementation fidelity",
+            "fidelity_type": "visual_spec",
+            "responsive_score": null,
+            "audit_notes": [
+              "Tier C: reference/spec, not ready-to-use code.",
+              "Source DOM measurements may describe gallery chrome, not the referenced product.",
+              "Keyboard, contrast and animation timing not certified."
+            ],
+            "evidence": [
+              "audits/source-evidence/60fps-design-health-intro/evidence.json",
+              "previews/motion-health-intro-reference/desktop.png",
+              "previews/motion-health-intro-reference/mobile.png"
+            ],
+            "source_observations": {
+              "desktop": {
+                "viewport": {
+                  "width": 1440,
+                  "height": 900
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              },
+              "mobile": {
+                "viewport": {
+                  "width": 390,
+                  "height": 844
+                },
+                "page_horizontal_overflow": true,
+                "broken_images": []
+              }
+            }
+          },
+          "source_site": "60fps.design",
+          "source_url": "https://60fps.design/shots/apple-health-longevity-intro-animation",
+          "license": {
+            "status": "reference_only_not_code_license",
+            "redistribution": "No source code or original downloadable assets included; screenshots are research evidence."
+          },
+          "stack_compatibility": [
+            "framework-agnostic-spec"
+          ],
+          "style_tags": [
+            "onboarding-sequences"
+          ]
+        },
+        {
+          "id": "pageflows-revolut-onboarding-public-outline",
+          "location": {
+            "quadrant": "Q4-ux-motion",
+            "category": "user-flows",
+            "section": "onboarding-sequences",
+            "file_path": "Q4-ux-motion/user-flows/onboarding-sequences/pageflows-revolut-onboarding-public-outline.json"
+          },
+          "tier": "C",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "public_partial_visual_spec",
+            "responsive_score": null,
+            "audit_notes": [
+              "Public introductory frames and public chapter outline only. Subsequent screens require signup; no authentication bypass.",
+              "Historical recording version July 2020, not evidence of current Revolut UI.",
+              "Browser viewports describe the Page Flows page, not the original iPhone recording."
+            ],
+            "evidence": [
+              "audits/source-evidence/pageflows-com-retry-individual-flow/evidence.json",
+              "previews/pageflows-revolut-onboarding-public-outline/desktop.png",
+              "previews/pageflows-revolut-onboarding-public-outline/mobile.png"
+            ]
+          },
+          "source_site": "pageflows.com",
+          "source_url": "https://pageflows.com/post/ios/onboarding/revolut/",
+          "license": {
+            "status": "reference_only",
+            "restriction": "No source code or premium recording redistributed."
+          },
+          "stack_compatibility": [
+            "framework-agnostic-spec"
+          ],
+          "style_tags": [
+            "onboarding",
+            "finance",
+            "historical",
+            "partial-reference"
+          ]
+        }
+      ],
+      "checkout-billing": [],
+      "settings-dashboards": []
+    },
+    "micro-interactions": {
+      "spring-physics-presets": [
+        {
+          "id": "motion-liquid-stepper-reference",
+          "location": {
+            "quadrant": "Q4-ux-motion",
+            "category": "micro-interactions",
+            "section": "spring-physics-presets",
+            "file_path": "Q4-ux-motion/micro-interactions/spring-physics-presets/motion-liquid-stepper-reference.json"
+          },
+          "tier": "C",
+          "tier_audit": {
+            "visual_verified": true,
+            "verification_scope": "source screenshots only; not local implementation fidelity",
+            "fidelity_type": "visual_spec",
+            "responsive_score": null,
+            "audit_notes": [
+              "Tier C: reference/spec, not ready-to-use code.",
+              "Source DOM measurements may describe gallery chrome, not the referenced product.",
+              "Keyboard, contrast and animation timing not certified."
+            ],
+            "evidence": [
+              "audits/source-evidence/recent-design-liquid-stepper/evidence.json",
+              "previews/motion-liquid-stepper-reference/desktop.png",
+              "previews/motion-liquid-stepper-reference/mobile.png"
+            ],
+            "source_observations": {
+              "desktop": {
+                "viewport": {
+                  "width": 1440,
+                  "height": 900
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              },
+              "mobile": {
+                "viewport": {
+                  "width": 390,
+                  "height": 844
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              }
+            }
+          },
+          "source_site": "recent.design",
+          "source_url": "https://recent.design/i/lrtfzrm-liquid-stepper-interaction",
+          "license": {
+            "status": "reference_only_not_code_license",
+            "redistribution": "No source code or original downloadable assets included; screenshots are research evidence."
+          },
+          "stack_compatibility": [
+            "framework-agnostic-spec"
+          ],
+          "style_tags": [
+            "spring-physics-presets"
+          ]
+        }
+      ],
+      "scroll-linked-reveals": [],
+      "tactile-button-states": [
+        {
+          "id": "shadcn-button",
+          "location": {
+            "quadrant": "Q4-ux-motion",
+            "category": "micro-interactions",
+            "section": "tactile-button-states",
+            "file_path": "Q4-ux-motion/micro-interactions/tactile-button-states/shadcn-button.json"
+          },
+          "tier": "A",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+            "responsive_score": null,
+            "audit_notes": [
+              "Estrutura e estados do demo preservados; integração local usa Arial, enquanto a fonte oficial usa Geist.",
+              "Normalizar tema, fonte, aliases e largura do host antes de tratar como plug-and-play. Comparações normalizadas mantêm a captura original separada.",
+              "Checks de interação registrados em audit.json; sem certificação completa de contraste, leitor de tela ou fluxo de negócio.",
+              "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+              "No full WCAG certification; no claim of whole-page percentage fidelity."
+            ],
+            "evidence": [
+              "previews/shadcn-button/audit.json",
+              "audits/batch-2/manual-review.json",
+              "previews/shadcn-button/desktop.png",
+              "previews/shadcn-button/mobile.png",
+              "assets/shadcn/LICENSE"
+            ],
+            "viewports": [
+              "1440x900",
+              "390x844"
+            ],
+            "state_checks": {
+              "desktop": [
+                "Keyboard focus verified",
+                "Hover captured",
+                "Disabled state verified"
+              ],
+              "mobile": [
+                "Keyboard focus verified",
+                "Hover captured",
+                "Disabled state verified"
+              ]
+            }
+          },
+          "source_site": "ui.shadcn.com",
+          "source_url": "https://ui.shadcn.com/view/new-york-v4/button-demo",
+          "license": {
+            "spdx": "MIT",
+            "local": "assets/shadcn/LICENSE",
+            "url": "https://github.com/shadcn-ui/ui/blob/main/LICENSE.md"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS v4",
+            "Radix UI"
+          ],
+          "style_tags": [
+            "tactile-button-states",
+            "shadcn",
+            "native-source"
+          ]
+        }
+      ],
+      "toggle-controls": [
+        {
+          "id": "shadcn-switch",
+          "location": {
+            "quadrant": "Q4-ux-motion",
+            "category": "micro-interactions",
+            "section": "toggle-controls",
+            "file_path": "Q4-ux-motion/micro-interactions/toggle-controls/shadcn-switch.json"
+          },
+          "tier": "A",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+            "responsive_score": null,
+            "audit_notes": [
+              "Estrutura e estados do demo preservados; integração local usa Arial, enquanto a fonte oficial usa Geist.",
+              "Normalizar tema, fonte, aliases e largura do host antes de tratar como plug-and-play. Comparações normalizadas mantêm a captura original separada.",
+              "Checks de interação registrados em audit.json; sem certificação completa de contraste, leitor de tela ou fluxo de negócio.",
+              "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+              "No full WCAG certification; no claim of whole-page percentage fidelity."
+            ],
+            "evidence": [
+              "previews/shadcn-switch/audit.json",
+              "audits/batch-2/manual-review.json",
+              "previews/shadcn-switch/desktop.png",
+              "previews/shadcn-switch/mobile.png",
+              "assets/shadcn/LICENSE"
+            ],
+            "viewports": [
+              "1440x900",
+              "390x844"
+            ],
+            "state_checks": {
+              "desktop": [
+                "Space toggles aria-checked",
+                "Disabled state verified"
+              ],
+              "mobile": [
+                "Space toggles aria-checked",
+                "Disabled state verified"
+              ]
+            }
+          },
+          "source_site": "ui.shadcn.com",
+          "source_url": "https://ui.shadcn.com/view/new-york-v4/switch-demo",
+          "license": {
+            "spdx": "MIT",
+            "local": "assets/shadcn/LICENSE",
+            "url": "https://github.com/shadcn-ui/ui/blob/main/LICENSE.md"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS v4",
+            "Radix UI"
+          ],
+          "style_tags": [
+            "toggle-controls",
+            "shadcn",
+            "native-source"
+          ]
+        }
+      ],
+      "progress-feedback": [
+        {
+          "id": "shadcn-progress",
+          "location": {
+            "quadrant": "Q4-ux-motion",
+            "category": "micro-interactions",
+            "section": "progress-feedback",
+            "file_path": "Q4-ux-motion/micro-interactions/progress-feedback/shadcn-progress.json"
+          },
+          "tier": "A",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+            "responsive_score": null,
+            "audit_notes": [
+              "Estrutura e estados do demo preservados; integração local usa Arial, enquanto a fonte oficial usa Geist.",
+              "Normalizar tema, fonte, aliases e largura do host antes de tratar como plug-and-play. Comparações normalizadas mantêm a captura original separada.",
+              "Checks de interação registrados em audit.json; sem certificação completa de contraste, leitor de tela ou fluxo de negócio.",
+              "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+              "No full WCAG certification; no claim of whole-page percentage fidelity."
+            ],
+            "evidence": [
+              "previews/shadcn-progress/audit.json",
+              "audits/batch-2/manual-review.json",
+              "previews/shadcn-progress/desktop.png",
+              "previews/shadcn-progress/mobile.png",
+              "assets/shadcn/LICENSE"
+            ],
+            "viewports": [
+              "1440x900",
+              "390x844"
+            ],
+            "state_checks": {
+              "desktop": [
+                "Progressbar role present; demo is timed and value may vary"
+              ],
+              "mobile": [
+                "Progressbar role present; demo is timed and value may vary"
+              ]
+            }
+          },
+          "source_site": "ui.shadcn.com",
+          "source_url": "https://ui.shadcn.com/view/new-york-v4/progress-demo",
+          "license": {
+            "spdx": "MIT",
+            "local": "assets/shadcn/LICENSE",
+            "url": "https://github.com/shadcn-ui/ui/blob/main/LICENSE.md"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS v4",
+            "Radix UI"
+          ],
+          "style_tags": [
+            "progress-feedback",
+            "shadcn",
+            "native-source"
+          ]
+        }
+      ],
+      "range-controls": [
+        {
+          "id": "shadcn-slider",
+          "location": {
+            "quadrant": "Q4-ux-motion",
+            "category": "micro-interactions",
+            "section": "range-controls",
+            "file_path": "Q4-ux-motion/micro-interactions/range-controls/shadcn-slider.json"
+          },
+          "tier": "A",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+            "responsive_score": null,
+            "audit_notes": [
+              "Estrutura e estados do demo preservados; integração local usa Arial, enquanto a fonte oficial usa Geist.",
+              "Normalizar tema, fonte, aliases e largura do host antes de tratar como plug-and-play. Comparações normalizadas mantêm a captura original separada.",
+              "Checks de interação registrados em audit.json; sem certificação completa de contraste, leitor de tela ou fluxo de negócio.",
+              "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+              "No full WCAG certification; no claim of whole-page percentage fidelity."
+            ],
+            "evidence": [
+              "previews/shadcn-slider/audit.json",
+              "audits/batch-2/manual-review.json",
+              "previews/shadcn-slider/desktop.png",
+              "previews/shadcn-slider/mobile.png",
+              "assets/shadcn/LICENSE"
+            ],
+            "viewports": [
+              "1440x900",
+              "390x844"
+            ],
+            "state_checks": {
+              "desktop": [
+                "ArrowRight changes aria-valuenow"
+              ],
+              "mobile": [
+                "ArrowRight changes aria-valuenow"
+              ]
+            }
+          },
+          "source_site": "ui.shadcn.com",
+          "source_url": "https://ui.shadcn.com/view/new-york-v4/slider-demo",
+          "license": {
+            "spdx": "MIT",
+            "local": "assets/shadcn/LICENSE",
+            "url": "https://github.com/shadcn-ui/ui/blob/main/LICENSE.md"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS v4",
+            "Radix UI"
+          ],
+          "style_tags": [
+            "range-controls",
+            "shadcn",
+            "native-source"
+          ]
+        }
+      ]
+    },
+    "accessibility-specs": {
+      "aria-keyboard-contracts": [
+        {
+          "id": "ux-tabs-contract-reference",
+          "location": {
+            "quadrant": "Q4-ux-motion",
+            "category": "accessibility-specs",
+            "section": "aria-keyboard-contracts",
+            "file_path": "Q4-ux-motion/accessibility-specs/aria-keyboard-contracts/ux-tabs-contract-reference.json"
+          },
+          "tier": "C",
+          "tier_audit": {
+            "visual_verified": true,
+            "verification_scope": "source screenshots only; not local implementation fidelity",
+            "fidelity_type": "visual_spec",
+            "responsive_score": null,
+            "audit_notes": [
+              "Tier C: reference/spec, not ready-to-use code.",
+              "Source DOM measurements may describe gallery chrome, not the referenced product.",
+              "Keyboard, contrast and animation timing not certified."
+            ],
+            "evidence": [
+              "audits/source-evidence/component-gallery-tabs/evidence.json",
+              "previews/ux-tabs-contract-reference/desktop.png",
+              "previews/ux-tabs-contract-reference/mobile.png"
+            ],
+            "source_observations": {
+              "desktop": {
+                "viewport": {
+                  "width": 1440,
+                  "height": 900
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              },
+              "mobile": {
+                "viewport": {
+                  "width": 390,
+                  "height": 844
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              }
+            }
+          },
+          "source_site": "component.gallery",
+          "source_url": "https://component.gallery/components/tabs",
+          "license": {
+            "status": "reference_only_not_code_license",
+            "redistribution": "No source code or original downloadable assets included; screenshots are research evidence."
+          },
+          "stack_compatibility": [
+            "framework-agnostic-spec"
+          ],
+          "style_tags": [
+            "aria-keyboard-contracts"
+          ]
+        },
+        {
+          "id": "ux-accordion-contract-reference",
+          "location": {
+            "quadrant": "Q4-ux-motion",
+            "category": "accessibility-specs",
+            "section": "aria-keyboard-contracts",
+            "file_path": "Q4-ux-motion/accessibility-specs/aria-keyboard-contracts/ux-accordion-contract-reference.json"
+          },
+          "tier": "C",
+          "tier_audit": {
+            "visual_verified": true,
+            "verification_scope": "source screenshots only; not local implementation fidelity",
+            "fidelity_type": "visual_spec",
+            "responsive_score": null,
+            "audit_notes": [
+              "Tier C: reference/spec, not ready-to-use code.",
+              "Source DOM measurements may describe gallery chrome, not the referenced product.",
+              "Keyboard, contrast and animation timing not certified."
+            ],
+            "evidence": [
+              "audits/source-evidence/component-gallery-accordion/evidence.json",
+              "previews/ux-accordion-contract-reference/desktop.png",
+              "previews/ux-accordion-contract-reference/mobile.png"
+            ],
+            "source_observations": {
+              "desktop": {
+                "viewport": {
+                  "width": 1440,
+                  "height": 900
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              },
+              "mobile": {
+                "viewport": {
+                  "width": 390,
+                  "height": 844
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              }
+            }
+          },
+          "source_site": "component.gallery",
+          "source_url": "https://component.gallery/components/accordion",
+          "license": {
+            "status": "reference_only_not_code_license",
+            "redistribution": "No source code or original downloadable assets included; screenshots are research evidence."
+          },
+          "stack_compatibility": [
+            "framework-agnostic-spec"
+          ],
+          "style_tags": [
+            "aria-keyboard-contracts"
+          ]
+        },
+        {
+          "id": "shadcn-checkbox",
+          "location": {
+            "quadrant": "Q4-ux-motion",
+            "category": "accessibility-specs",
+            "section": "aria-keyboard-contracts",
+            "file_path": "Q4-ux-motion/accessibility-specs/aria-keyboard-contracts/shadcn-checkbox.json"
+          },
+          "tier": "A",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+            "responsive_score": null,
+            "audit_notes": [
+              "Estrutura e estados do demo preservados; integração local usa Arial, enquanto a fonte oficial usa Geist.",
+              "Normalizar tema, fonte, aliases e largura do host antes de tratar como plug-and-play. Comparações normalizadas mantêm a captura original separada.",
+              "Checks de interação registrados em audit.json; sem certificação completa de contraste, leitor de tela ou fluxo de negócio.",
+              "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+              "No full WCAG certification; no claim of whole-page percentage fidelity."
+            ],
+            "evidence": [
+              "previews/shadcn-checkbox/audit.json",
+              "audits/batch-2/manual-review.json",
+              "previews/shadcn-checkbox/desktop.png",
+              "previews/shadcn-checkbox/mobile.png",
+              "assets/shadcn/LICENSE"
+            ],
+            "viewports": [
+              "1440x900",
+              "390x844"
+            ],
+            "state_checks": {
+              "desktop": [
+                "Space toggles aria-checked",
+                "Disabled state verified"
+              ],
+              "mobile": [
+                "Space toggles aria-checked",
+                "Disabled state verified"
+              ]
+            }
+          },
+          "source_site": "ui.shadcn.com",
+          "source_url": "https://ui.shadcn.com/view/new-york-v4/checkbox-demo",
+          "license": {
+            "spdx": "MIT",
+            "local": "assets/shadcn/LICENSE",
+            "url": "https://github.com/shadcn-ui/ui/blob/main/LICENSE.md"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS v4",
+            "Radix UI"
+          ],
+          "style_tags": [
+            "aria-keyboard-contracts",
+            "shadcn",
+            "native-source"
+          ]
+        },
+        {
+          "id": "shadcn-accordion",
+          "location": {
+            "quadrant": "Q4-ux-motion",
+            "category": "accessibility-specs",
+            "section": "aria-keyboard-contracts",
+            "file_path": "Q4-ux-motion/accessibility-specs/aria-keyboard-contracts/shadcn-accordion.json"
+          },
+          "tier": "A",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+            "responsive_score": null,
+            "audit_notes": [
+              "Estrutura e estados do demo preservados; integração local usa Arial, enquanto a fonte oficial usa Geist.",
+              "Normalizar tema, fonte, aliases e largura do host antes de tratar como plug-and-play. Comparações normalizadas mantêm a captura original separada.",
+              "Checks de interação registrados em audit.json; sem certificação completa de contraste, leitor de tela ou fluxo de negócio.",
+              "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+              "No full WCAG certification; no claim of whole-page percentage fidelity."
+            ],
+            "evidence": [
+              "previews/shadcn-accordion/audit.json",
+              "audits/batch-2/manual-review.json",
+              "previews/shadcn-accordion/desktop.png",
+              "previews/shadcn-accordion/mobile.png",
+              "assets/shadcn/LICENSE"
+            ],
+            "viewports": [
+              "1440x900",
+              "390x844"
+            ],
+            "state_checks": {
+              "desktop": [
+                "Enter changes aria-expanded"
+              ],
+              "mobile": [
+                "Enter changes aria-expanded"
+              ]
+            }
+          },
+          "source_site": "ui.shadcn.com",
+          "source_url": "https://ui.shadcn.com/view/new-york-v4/accordion-demo",
+          "license": {
+            "spdx": "MIT",
+            "local": "assets/shadcn/LICENSE",
+            "url": "https://github.com/shadcn-ui/ui/blob/main/LICENSE.md"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS v4",
+            "Radix UI"
+          ],
+          "style_tags": [
+            "aria-keyboard-contracts",
+            "shadcn",
+            "native-source"
+          ]
+        }
+      ]
+    }
+  }
+}
