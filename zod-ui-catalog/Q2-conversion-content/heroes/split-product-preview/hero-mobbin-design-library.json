@@ -1,0 +1,76 @@
+{
+  "id": "hero-mobbin-design-library",
+  "location": {
+    "quadrant": "Q2-conversion-content",
+    "category": "heroes",
+    "section": "split-product-preview",
+    "file_path": "Q2-conversion-content/heroes/split-product-preview/hero-mobbin-design-library.json"
+  },
+  "tier": "C",
+  "tier_audit": {
+    "visual_verified": true,
+    "verification_scope": "source screenshots only; not local implementation fidelity",
+    "fidelity_type": "visual_spec",
+    "responsive_score": null,
+    "audit_notes": [
+      "Tier C: reference/spec, not ready-to-use code.",
+      "Source DOM measurements may describe gallery chrome, not the referenced product.",
+      "Keyboard, contrast and animation timing not certified."
+    ],
+    "evidence": [
+      "audits/source-evidence/mobbin-com-home/evidence.json",
+      "previews/hero-mobbin-design-library/desktop.png",
+      "previews/hero-mobbin-design-library/mobile.png"
+    ],
+    "source_observations": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "page_horizontal_overflow": false,
+        "broken_images": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "page_horizontal_overflow": false,
+        "broken_images": []
+      }
+    }
+  },
+  "source_site": "mobbin.com",
+  "source_url": "https://mobbin.com",
+  "license": {
+    "status": "reference_only_not_code_license",
+    "redistribution": "No source code or original downloadable assets included; screenshots are research evidence."
+  },
+  "stack_compatibility": [
+    "framework-agnostic-spec"
+  ],
+  "style_tags": [
+    "split-product-preview"
+  ],
+  "artifact": {
+    "type": "visual_spec",
+    "spec": "Hero de marketing público com tipografia em destaque, apresentação da biblioteca e dois caminhos de conversão. Não representa extração de telas ou fluxos privados do Mobbin.",
+    "observed_headings": [
+      "Where\nteams\nand agents\nfind\ndesigns\nthat work.",
+      "One library\nfor all your needs.",
+      "Give your AI agents\naccess to Mobbin.",
+      "Trusted by teams that build world-class apps.",
+      "Find what works.\nDesign what's next."
+    ],
+    "source_dom_evidence": "audits/source-evidence/mobbin-com-home/evidence.json",
+    "states": {
+      "desktop": "captured",
+      "mobile": "captured",
+      "hover": "not audited",
+      "focus": "not audited",
+      "active": "not audited",
+      "disabled": "not audited"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "quadrant": "Q1-structure-nav",
+  "count": 0,
+  "sections": {
+    "navbars": {
+      "floating-glass": [],
+      "minimal-sticky": [],
+      "mega-menu-enterprise": [],
+      "mobile-drawers": []
+    },
+    "page-blueprints": {
+      "saas-dark-tech": [],
+      "editorial-minimal": [],
+      "ai-product-launch": [],
+      "interactive-showcase": []
+    },
+    "shells-footers": {
+      "dashboard-sidebars": [],
+      "multi-column-footers": []
+    }
+  }
+}

@@ -1,0 +1,1888 @@
+{
+  "site": "fffuel.co",
+  "url": "https://www.fffuel.co/nnnoise/",
+  "captured_at": "2026-11-12T21:11:21.541828+00:00",
+  "views": {
+    "desktop": {
+      "url": "https://www.fffuel.co/nnnoise/",
+      "title": "nnnoise: Online SVG Noise Texture Generator | fffuel",
+      "text": "🔥 Syntax - Web Development Podcast\nnnnoise\nSVG generator for subtle or not-so-subtle noise textures\n save\n copy SVG\nbackground color\nlight source color\ndesaturate\nfractal noise\nturbulence\nopacity\nfrequency\nlight surface scale\nlight elevation\nlight specularity\nABOUT NNNOISE\n\nThis SVG noise generator tool allows you to quickly and easily create noise textures to use in your web designs via CSS background images. The generated textures are great to add a subtle organic feel to the background color of elements on a page or to a whole page. For example, instead of having a solid-colored background, you could generate a very subtle SVG texture using this tool for a more organic feel.\n\nTo use the generated textures, simply add something like this to your CSS:\n\n\nbody { background-image: url('/nnnoise.svg'); }\n\nFor tiling the texture as a background in CSS you probably don't need to do anything more since the CSS initial value for background-repeat is repeat. If for some reason the background is not tiling, just make sure to set background-repeat to repeat. The sizing of the background should also be automatic and you won't need to set background-size.\n\nYou can use an online tool like rrrasterize to convert the SVG textures as optimized PNGs or JPEGs, if you need the textures in a different format.\n\n🎨 This noise generator tool pairs well with cccolor, simple color picker that makes it easy to find a color that fits just right.\n\nThis tool makes use of SVG filters to accomplish the effect, especially the feTurbulence and feSpecularLighting filters. If this is over your head, no worries, as you don't need to understand the underlining details to make use of these textures. If you are interested in geeking out however, here some more reading material about SVG filters. Here's also a great tool to play with SVG filters.\n\nSVG GENERATORS, TOOLS & DESIGN RESOURCES\n↓\ncccolor\nHEX, RGB & HSL color picker\npppalette\ncolor palette generator\nhhhue\ncurated color palettes\nssshape\nSVG blob generator\nllline\nSVG line generator\ndddepth\nAI-generated 3D shapes\nsssvg\nSVG reference\nSVG Spinners\nHow to make them\nffflux\nfluid SVG gradients\ntttexture\ngrunge textures\naaabstract\nabstract backgrounds\nrrrepeat\nrepeating SVG shapes\nwwwatercolor\nwatercolor backgrounds\nhhholographic\nholographic backgrounds\nmmmotif\nSVG patterns with a 3D feel\ngggrain\ngrainy gradient generator\nuuunion\nmesh-like gradient generator\nnnneon\nglowing SVG shapes\nccclaymoji\nemoji maker\niiisometric\nisometric design builder\nsssurf\nSVG wave generator\nqqquad\ngenerative patterns\ndddraw\nfreehand SVG drawing tool\npppointed\nSVG arrow maker\ncccloud\ncloud SVGs\nssstar\nstar SVGs\nlllove\nheart SVGs\nbbblurry\nblurry background shapes\nuuundulate\nmake some SVG ripples\nccchaos\nwild wavy SVG shapes\noooscillate\ncurvy line patterns\nffflurry\nmake it rain, SVG-style\ncccoil\nSVG spiral waves\nssspiral\nSVG spiral patterns\ncccircular\nSVG gradient circle patterns\nrrreplicate\nSVG line pattern generator\ntttwinkle\nbursting line patterns\nssscales\ngradient SVG patterns\nrrrainbow\ncolorful background patterns\nttten\n10 Print-inspired pattern generator\nssscribble\nmake SVG scribbles\npppixelate\npixel art patterns\nsssquiggly\nwavy line patterns\nooorganize\nSVG grid patterns\nvvvortex\nspinning circle patterns\ngggyrate\nspinning geometric patterns\nllleaves\norganic SVG backgrounds\nggglitch\nglitchy shapes\nppperspective\nshapes that vanish\nsssurface\nSVG circles that feel 3D\nhhhorizon\nCyberpunk-style backgrounds\nsssplatter\nmake funky SVG shapes\nssspill\ngenerate melting SVGs\nssspot\norganic speck patterns\nwwwhirl\ntwisting line patterns\nrrreflection\nSVG circle patterns\nbbburst\nconfetti generator\ndddynamite\ndecorative SVG shapes\ndddivided\nsplit SVG shapes\nlllook\nfun line icons\ndddoodle\nhand-drawn doodles\npppsychedelic\npsychedelic backgrounds\nrrrasterize\nconvert SVG to PNG\neeencode\nencode SVG to Base64\nrrready?\nsupport chart for web features\nCSS Selectors\nA Visual Guide\n\nPick + Convert colors\n\nCCCOLOR\n\nA simple color picker app for Mac, Windows & Linu",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "nnnoise\nSVG generator for subtle or not-so-subtle noise textures",
+          "bounds": {
+            "x": 8,
+            "y": 70.390625,
+            "width": 72,
+            "height": 548.421875
+          },
+          "styles": {
+            "display": "block",
+            "position": "absolute",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(79, 50, 118)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "ABOUT NNNOISE",
+          "bounds": {
+            "x": 384,
+            "y": 1470.96875,
+            "width": 672,
+            "height": 30.25
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "lineHeight": "30.25px",
+            "color": "rgb(79, 50, 118)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "SVG GENERATORS, TOOLS & DESIGN RESOURCES\n↓",
+          "bounds": {
+            "x": 32,
+            "y": 2792.640625,
+            "width": 1376,
+            "height": 66
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "22px",
+            "fontWeight": "500",
+            "lineHeight": "33px",
+            "color": "rgb(79, 50, 118)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "cccolor\nHEX, RGB & HSL color picker",
+          "bounds": {
+            "x": 73.59375,
+            "y": 3039.640625,
+            "width": 236.796875,
+            "height": 54
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "48px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "rgb(0, 33, 72)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "pppalette\ncolor palette generator",
+          "bounds": {
+            "x": 431.046875,
+            "y": 3039.640625,
+            "width": 225.890625,
+            "height": 54
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "48px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "hhhue\ncurated color palettes",
+          "bounds": {
+            "x": 799.59375,
+            "y": 3039.640625,
+            "width": 192.796875,
+            "height": 54
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "48px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "rgb(0, 71, 188)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "ssshape\nSVG blob generator",
+          "bounds": {
+            "x": 1152.1875,
+            "y": 3039.640625,
+            "width": 191.625,
+            "height": 54
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "48px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "llline\nSVG line generator",
+          "bounds": {
+            "x": 112.21875,
+            "y": 3391.640625,
+            "width": 159.5625,
+            "height": 54
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "48px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "dddepth\nAI-generated 3D shapes",
+          "bounds": {
+            "x": 439.765625,
+            "y": 3393.640625,
+            "width": 208.453125,
+            "height": 50
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "36px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "rgb(77, 54, 76)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "sssvg\nSVG reference",
+          "bounds": {
+            "x": 834.796875,
+            "y": 3378.640625,
+            "width": 122.40625,
+            "height": 80
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "36px",
+            "fontWeight": "500",
+            "lineHeight": "40px",
+            "color": "rgb(95, 61, 143)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "SVG Spinners\nHow to make them",
+          "bounds": {
+            "x": 1133.890625,
+            "y": 3393.640625,
+            "width": 228.203125,
+            "height": 50
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "36px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "rgb(95, 61, 143)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "ffflux\nfluid SVG gradients",
+          "bounds": {
+            "x": 109.25,
+            "y": 3743.640625,
+            "width": 165.5,
+            "height": 54
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "48px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "rgb(46, 218, 132)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "HEADER",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 0,
+            "y": 60,
+            "width": 1440,
+            "height": 53
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "lineHeight": "33px",
+            "color": "rgb(79, 50, 118)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px 8px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": " save",
+          "bounds": {
+            "x": 1152.140625,
+            "y": 843,
+            "width": 104.875,
+            "height": 41
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "lineHeight": "33px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "4px 15.2px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": " copy SVG",
+          "bounds": {
+            "x": 1269.015625,
+            "y": 843,
+            "width": 158.984375,
+            "height": 41
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "lineHeight": "33px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "4px 15.2px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "desaturate",
+          "bounds": {
+            "x": 366.71875,
+            "y": 1021,
+            "width": 150.546875,
+            "height": 52.796875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "19.2px",
+            "fontWeight": "700",
+            "lineHeight": "28.8px",
+            "color": "rgb(119, 77, 179)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "8px 12px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "fractal noise",
+          "bounds": {
+            "x": 835.28125,
+            "y": 861,
+            "width": 160.09375,
+            "height": 52.796875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "lineHeight": "33px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(119, 77, 179)",
+            "gap": "normal",
+            "padding": "8px 12px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "turbulence",
+          "bounds": {
+            "x": 1011.375,
+            "y": 861,
+            "width": 149.328125,
+            "height": 52.796875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "19.2px",
+            "fontWeight": "700",
+            "lineHeight": "28.8px",
+            "color": "rgb(119, 77, 179)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "8px 12px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "ABOUT NNNOISE\n\nThis SVG noise generator tool allows you to quickly and easily create noise textures to use in your web designs via CSS backg",
+          "bounds": {
+            "x": 384,
+            "y": 1470.96875,
+            "width": 672,
+            "height": 1134
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "lineHeight": "30.25px",
+            "color": "rgb(79, 50, 118)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "SVG GENERATORS, TOOLS & DESIGN RESOURCES\n↓\ncccolor\nHEX, RGB & HSL color picker\npppalette\ncolor palette generator\nhhhue\ncurated color palette",
+          "bounds": {
+            "x": 0,
+            "y": 2760.640625,
+            "width": 1440,
+            "height": 6130
+          },
+          "styles": {
+            "display": "grid",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "22px",
+            "fontWeight": "500",
+            "lineHeight": "33px",
+            "color": "rgb(79, 50, 118)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "32px",
+            "padding": "32px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "320px 320px 320px 320px"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "Syntax - Web Development Podcast",
+          "href": "https://syntax.fm/"
+        },
+        {
+          "text": "",
+          "href": "https://www.fffuel.co/"
+        },
+        {
+          "text": "rrrasterize",
+          "href": "https://www.fffuel.co/rrrasterize/"
+        },
+        {
+          "text": "cccolor",
+          "href": "https://www.fffuel.co/cccolor/"
+        },
+        {
+          "text": "feTurbulence",
+          "href": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feTurbulence"
+        },
+        {
+          "text": "feSpecularLighting",
+          "href": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feSpecularLighting"
+        },
+        {
+          "text": "some",
+          "href": "https://www.smashingmagazine.com/2015/05/why-the-svg-filter-is-awesome/"
+        },
+        {
+          "text": "more",
+          "href": "https://tympanus.net/codrops/2019/02/19/svg-filter-effects-creating-texture-with-feturbulence/"
+        },
+        {
+          "text": "reading",
+          "href": "https://css-tricks.com/creating-patterns-with-svg-filters/"
+        },
+        {
+          "text": "material",
+          "href": "https://tympanus.net/codrops/2019/01/15/svg-filters-101/"
+        },
+        {
+          "text": "a great tool",
+          "href": "https://yoksel.github.io/svg-filters/"
+        },
+        {
+          "text": "cccolor\nHEX, RGB & HSL color picker",
+          "href": "https://www.fffuel.co/cccolor/"
+        },
+        {
+          "text": "pppalette\ncolor palette generator",
+          "href": "https://www.fffuel.co/pppalette/"
+        },
+        {
+          "text": "hhhue\ncurated color palettes",
+          "href": "https://www.fffuel.co/hhhue/"
+        },
+        {
+          "text": "ssshape\nSVG blob generator",
+          "href": "https://www.fffuel.co/ssshape/"
+        },
+        {
+          "text": "llline\nSVG line generator",
+          "href": "https://www.fffuel.co/llline/"
+        },
+        {
+          "text": "dddepth\nAI-generated 3D shapes",
+          "href": "https://www.fffuel.co/dddepth/"
+        },
+        {
+          "text": "sssvg\nSVG reference",
+          "href": "https://www.fffuel.co/sssvg/"
+        },
+        {
+          "text": "SVG Spinners\nHow to make them",
+          "href": "https://www.fffuel.co/svg-spinner/"
+        },
+        {
+          "text": "ffflux\nfluid SVG gradients",
+          "href": "https://www.fffuel.co/ffflux/"
+        },
+        {
+          "text": "tttexture\ngrunge textures",
+          "href": "https://www.fffuel.co/tttexture/"
+        },
+        {
+          "text": "aaabstract\nabstract backgrounds",
+          "href": "https://www.fffuel.co/aaabstract/"
+        },
+        {
+          "text": "rrrepeat\nrepeating SVG shapes",
+          "href": "https://www.fffuel.co/rrrepeat/"
+        },
+        {
+          "text": "wwwatercolor\nwatercolor backgrounds",
+          "href": "https://www.fffuel.co/wwwatercolor/"
+        },
+        {
+          "text": "hhholographic\nholographic backgrounds",
+          "href": "https://www.fffuel.co/hhholographic/"
+        },
+        {
+          "text": "mmmotif\nSVG patterns with a 3D feel",
+          "href": "https://www.fffuel.co/mmmotif/"
+        },
+        {
+          "text": "gggrain\ngrainy gradient generator",
+          "href": "https://www.fffuel.co/gggrain/"
+        },
+        {
+          "text": "uuunion\nmesh-like gradient generator",
+          "href": "https://www.fffuel.co/uuunion/"
+        },
+        {
+          "text": "nnneon\nglowing SVG shapes",
+          "href": "https://www.fffuel.co/nnneon/"
+        },
+        {
+          "text": "ccclaymoji\nemoji maker",
+          "href": "https://www.fffuel.co/ccclaymoji/"
+        },
+        {
+          "text": "iiisometric\nisometric design builder",
+          "href": "https://www.fffuel.co/iiisometric/"
+        },
+        {
+          "text": "sssurf\nSVG wave generator",
+          "href": "https://www.fffuel.co/sssurf/"
+        },
+        {
+          "text": "qqquad\ngenerative patterns",
+          "href": "https://www.fffuel.co/qqquad/"
+        },
+        {
+          "text": "dddraw\nfreehand SVG drawing tool",
+          "href": "https://www.fffuel.co/dddraw/"
+        },
+        {
+          "text": "pppointed\nSVG arrow maker",
+          "href": "https://www.fffuel.co/pppointed/"
+        },
+        {
+          "text": "cccloud\ncloud SVGs",
+          "href": "https://www.fffuel.co/cccloud/"
+        },
+        {
+          "text": "ssstar\nstar SVGs",
+          "href": "https://www.fffuel.co/ssstar/"
+        },
+        {
+          "text": "lllove\nheart SVGs",
+          "href": "https://www.fffuel.co/lllove/"
+        },
+        {
+          "text": "bbblurry\nblurry background shapes",
+          "href": "https://www.fffuel.co/bbblurry/"
+        },
+        {
+          "text": "uuundulate\nmake some SVG ripples",
+          "href": "https://www.fffuel.co/uuundulate/"
+        },
+        {
+          "text": "ccchaos\nwild wavy SVG shapes",
+          "href": "https://www.fffuel.co/ccchaos/"
+        },
+        {
+          "text": "oooscillate\ncurvy line patterns",
+          "href": "https://www.fffuel.co/oooscillate/"
+        },
+        {
+          "text": "ffflurry\nmake it rain, SVG-style",
+          "href": "https://www.fffuel.co/ffflurry/"
+        },
+        {
+          "text": "cccoil\nSVG spiral waves",
+          "href": "https://www.fffuel.co/cccoil/"
+        },
+        {
+          "text": "ssspiral\nSVG spiral patterns",
+          "href": "https://www.fffuel.co/ssspiral/"
+        },
+        {
+          "text": "cccircular\nSVG gradient circle patterns",
+          "href": "https://www.fffuel.co/cccircular/"
+        },
+        {
+          "text": "rrreplicate\nSVG line pattern generator",
+          "href": "https://www.fffuel.co/rrreplicate/"
+        },
+        {
+          "text": "tttwinkle\nbursting line patterns",
+          "href": "https://www.fffuel.co/tttwinkle/"
+        },
+        {
+          "text": "ssscales\ngradient SVG patterns",
+          "href": "https://www.fffuel.co/ssscales/"
+        },
+        {
+          "text": "rrrainbow\ncolorful background patterns",
+          "href": "https://www.fffuel.co/rrrainbow/"
+        },
+        {
+          "text": "ttten\n10 Print-inspired pattern generator",
+          "href": "https://www.fffuel.co/ttten/"
+        },
+        {
+          "text": "ssscribble\nmake SVG scribbles",
+          "href": "https://www.fffuel.co/ssscribble/"
+        },
+        {
+          "text": "pppixelate\npixel art patterns",
+          "href": "https://www.fffuel.co/pppixelate/"
+        },
+        {
+          "text": "sssquiggly\nwavy line patterns",
+          "href": "https://www.fffuel.co/sssquiggly/"
+        },
+        {
+          "text": "ooorganize\nSVG grid patterns",
+          "href": "https://www.fffuel.co/ooorganize/"
+        },
+        {
+          "text": "vvvortex\nspinning circle patterns",
+          "href": "https://www.fffuel.co/vvvortex/"
+        },
+        {
+          "text": "gggyrate\nspinning geometric patterns",
+          "href": "https://www.fffuel.co/gggyrate/"
+        },
+        {
+          "text": "llleaves\norganic SVG backgrounds",
+          "href": "https://www.fffuel.co/llleaves/"
+        },
+        {
+          "text": "ggglitch\nglitchy shapes",
+          "href": "https://www.fffuel.co/ggglitch/"
+        },
+        {
+          "text": "ppperspective\nshapes that vanish",
+          "href": "https://www.fffuel.co/ppperspective/"
+        },
+        {
+          "text": "sssurface\nSVG circles that feel 3D",
+          "href": "https://www.fffuel.co/sssurface/"
+        },
+        {
+          "text": "hhhorizon\nCyberpunk-style backgrounds",
+          "href": "https://www.fffuel.co/hhhorizon/"
+        },
+        {
+          "text": "sssplatter\nmake funky SVG shapes",
+          "href": "https://www.fffuel.co/sssplatter/"
+        },
+        {
+          "text": "ssspill\ngenerate melting SVGs",
+          "href": "https://www.fffuel.co/ssspill/"
+        },
+        {
+          "text": "ssspot\norganic speck patterns",
+          "href": "https://www.fffuel.co/ssspot/"
+        },
+        {
+          "text": "wwwhirl\ntwisting line patterns",
+          "href": "https://www.fffuel.co/wwwhirl/"
+        },
+        {
+          "text": "rrreflection\nSVG circle patterns",
+          "href": "https://www.fffuel.co/rrreflection/"
+        },
+        {
+          "text": "bbburst\nconfetti generator",
+          "href": "https://www.fffuel.co/bbburst/"
+        },
+        {
+          "text": "dddynamite\ndecorative SVG shapes",
+          "href": "https://www.fffuel.co/dddynamite/"
+        },
+        {
+          "text": "dddivided\nsplit SVG shapes",
+          "href": "https://www.fffuel.co/dddivided/"
+        },
+        {
+          "text": "lllook\nfun line icons",
+          "href": "https://www.fffuel.co/lllook/"
+        },
+        {
+          "text": "dddoodle\nhand-drawn doodles",
+          "href": "https://www.fffuel.co/dddoodle/"
+        },
+        {
+          "text": "pppsychedelic\npsychedelic backgrounds",
+          "href": "https://www.fffuel.co/pppsychedelic/"
+        },
+        {
+          "text": "rrrasterize\nconvert SVG to PNG",
+          "href": "https://www.fffuel.co/rrrasterize/"
+        },
+        {
+          "text": "eeencode\nencode SVG to Base64",
+          "href": "https://www.fffuel.co/eeencode/"
+        },
+        {
+          "text": "rrready?\nsupport chart for web features",
+          "href": "https://www.fffuel.co/rrready/"
+        },
+        {
+          "text": "CSS Selectors\nA Visual Guide",
+          "href": "https://www.fffuel.co/css-selectors/"
+        },
+        {
+          "text": "Get it here",
+          "href": "https://www.fffuel.co/app/"
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/syntax_fm/"
+        },
+        {
+          "text": "",
+          "href": "https://twitter.com/syntaxfm"
+        },
+        {
+          "text": "privacy",
+          "href": "https://syntax.fm/pages/privacy"
+        },
+        {
+          "text": "terms",
+          "href": "https://syntax.fm/pages/terms-of-service"
+        },
+        {
+          "text": "license",
+          "href": "https://www.fffuel.co/license/"
+        },
+        {
+          "text": "",
+          "href": "https://twitter.com/intent/tweet?text=%F0%9F%8E%A8%20%23SVG%20generator%20for%20noise%20textures%3A%20https%3A%2F%2Ffffuel.co/nnnoise/%20via%20%40ffffffuel"
+        },
+        {
+          "text": "",
+          "href": "https://www.reddit.com/submit?url=https%3A%2F%2Ffffuel.co/nnnoise/&title=SVG%20generator%20for%20noise%20textures"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--sl-input-placeholder-color-disabled": "hsl(240 5.2% 33.9%)",
+        "--sl-line-height-dense": "1.4",
+        "--sl-color-gray-200": "hsl(240 5.9% 90%)",
+        "--sl-color-yellow-200": "hsl(52.8 98.3% 76.9%)",
+        "--sl-color-emerald-900": "hsl(164.2 85.7% 16.5%)",
+        "--sl-color-teal-950": "hsl(176.5 58.6% 11.4%)",
+        "--sl-color-emerald-800": "hsl(163.1 88.1% 19.8%)",
+        "--sl-color-yellow-400": "hsl(47.9 95.8% 53.1%)",
+        "--sl-panel-border-width": "1px",
+        "--sl-color-yellow-700": "hsl(35.5 91.7% 32.9%)",
+        "--sl-tooltip-line-height": "1.4",
+        "--sl-color-neutral-500": "hsl(240 3.8% 46.1%)",
+        "--shadow-base-clr": "265 40% 20%",
+        "--sl-color-amber-700": "hsl(26 90.5% 37.1%)",
+        "--sl-color-fuchsia-800": "hsl(295.4 70.2% 32.9%)",
+        "--accent-lightness": "50%",
+        "--sl-color-amber-600": "hsl(32.1 94.6% 43.7%)",
+        "--sl-color-pink-950": "hsl(336.2 65.4% 15.9%)",
+        "--clr-11": "hsl(265,40%,11%)",
+        "--sl-input-placeholder-color": "hsl(240 3.8% 46.1%)",
+        "--sl-input-height-small": "1.875rem",
+        "--sl-spacing-3x-small": "0.125rem",
+        "--sl-line-height-loose": "2.2",
+        "--sl-color-danger-200": "hsl(0 96.3% 89.4%)",
+        "--shadow-clr-1": "hsl(265 40% 20%/0.047)",
+        "--sl-color-orange-500": "hsl(24.6 95% 53.1%)",
+        "--sl-tooltip-arrow-size": "6px",
+        "--sl-input-focus-ring-offset": "0",
+        "--bg": "#f4f1f9",
+        "--sl-transition-fast": "150ms",
+        "--sl-input-spacing-medium": "1rem",
+        "--sl-color-amber-100": "hsl(48 96.5% 88.8%)",
+        "--clr-85": "hsl(265,40%,85%)",
+        "--sl-color-green-50": "hsl(138.5 76.5% 96.7%)",
+        "--sl-color-sky-800": "hsl(201 90% 27.5%)",
+        "--sl-color-blue-500": "hsl(217.2 91.2% 59.8%)",
+        "--sl-color-emerald-100": "hsl(149.3 80.4% 90%)",
+        "--sl-input-border-width": "1px",
+        "--clr-99": "hsl(265,40%,99%)",
+        "--sl-input-help-text-font-size-large": "1rem",
+        "--sl-input-filled-background-color-hover": "hsl(240 4.8% 95.9%)",
+        "--sl-font-serif": "Georgia, \"Times New Roman\", serif",
+        "--clr-33": "hsl(265,40%,33%)",
+        "--sl-letter-spacing-looser": "0.15em",
+        "--sl-spacing-x-small": "0.5rem",
+        "--sl-color-success-800": "hsl(142.8 64.2% 24.1%)",
+        "--sl-z-index-toast": "950",
+        "--sl-color-rose-300": "hsl(352.6 95.7% 81.8%)",
+        "--tw-ring-color": "rgba(59,130,246,0.5)",
+        "--sl-color-lime-50": "hsl(78.3 92% 95.1%)",
+        "--sl-overlay-background-color": "hsl(240 3.8% 46.1% / 33%)",
+        "--sl-transition-slow": "500ms",
+        "--accent-15": "hsla(calc(265 - 90),40%,50%,15%)",
+        "--sl-input-required-content-color": "",
+        "--sl-color-amber-200": "hsl(48 96.6% 76.7%)",
+        "--sl-input-color-hover": "hsl(240 5.3% 26.1%)",
+        "--sl-shadow-x-small": "0 1px 2px hsl(240 3.8% 46.1% / 6%)",
+        "--primary-0": "hsla(265,40%,50%,0%)",
+        "--sl-color-teal-400": "hsl(172.5 66% 50.4%)",
+        "--sl-color-primary-800": "hsl(201 90% 27.5%)",
+        "--sl-color-primary-600": "hsl(200.4 98% 39.4%)",
+        "--accent-10": "hsla(calc(265 - 90),40%,50%,10%)",
+        "--sl-color-neutral-0": "hsl(0, 0%, 100%)",
+        "--sl-tooltip-font-family": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto,\n    Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\",\n    \"Segoe UI Symbol\"",
+        "--sl-color-red-400": "hsl(0 90.6% 70.8%)",
+        "--sl-color-emerald-50": "hsl(151.8 81% 95.9%)",
+        "--sl-shadow-large": "0 2px 8px hsl(240 3.8% 46.1% / 12%)",
+        "--sl-color-fuchsia-950": "hsl(297.1 56.8% 14.5%)",
+        "--sl-color-gray-400": "hsl(240 5% 64.9%)",
+        "--sl-color-red-700": "hsl(0 73.7% 41.8%)",
+        "--accent-bright3": "hsl(calc(265 - 90),85%,85%)",
+        "--clr-20": "hsl(265,40%,20%)",
+        "--sl-input-background-color": "hsl(0, 0%, 100%)",
+        "--sl-color-sky-700": "hsl(201.3 96.3% 32.2%)",
+        "--sl-panel-background-color": "hsl(0, 0%, 100%)",
+        "--sl-color-gray-700": "hsl(240 5.3% 26.1%)",
+        "--sl-line-height-normal": "1.8",
+        "--sl-input-filled-background-color-focus": "hsl(240 4.8% 95.9%)",
+        "--sl-color-cyan-900": "hsl(196.4 63.6% 23.7%)",
+        "--sl-color-pink-50": "hsl(327.3 73.3% 97.1%)"
+      }
+    },
+    "mobile": {
+      "url": "https://www.fffuel.co/nnnoise/",
+      "title": "nnnoise: Online SVG Noise Texture Generator | fffuel",
+      "text": "Syntax - Web Development Podcast\nnnnoise\nSVG generator for subtle or not-so-subtle noise textures\nbackground color\nlight source color\ndesaturate\nfractal noise\nturbulence\nopacity\nfrequency\nlight surface scale\nlight elevation\nlight specularity\nABOUT NNNOISE\n\nThis SVG noise generator tool allows you to quickly and easily create noise textures to use in your web designs via CSS background images. The generated textures are great to add a subtle organic feel to the background color of elements on a page or to a whole page. For example, instead of having a solid-colored background, you could generate a very subtle SVG texture using this tool for a more organic feel.\n\nTo use the generated textures, simply add something like this to your CSS:\n\n\nbody { background-image: url('/nnnoise.svg'); }\n\nFor tiling the texture as a background in CSS you probably don't need to do anything more since the CSS initial value for background-repeat is repeat. If for some reason the background is not tiling, just make sure to set background-repeat to repeat. The sizing of the background should also be automatic and you won't need to set background-size.\n\nYou can use an online tool like rrrasterize to convert the SVG textures as optimized PNGs or JPEGs, if you need the textures in a different format.\n\n🎨 This noise generator tool pairs well with cccolor, simple color picker that makes it easy to find a color that fits just right.\n\nThis tool makes use of SVG filters to accomplish the effect, especially the feTurbulence and feSpecularLighting filters. If this is over your head, no worries, as you don't need to understand the underlining details to make use of these textures. If you are interested in geeking out however, here some more reading material about SVG filters. Here's also a great tool to play with SVG filters.\n\nSVG GENERATORS, TOOLS & DESIGN RESOURCES\n↓\ncccolor\nHEX, RGB & HSL color picker\npppalette\ncolor palette generator\nhhhue\ncurated color palettes\nssshape\nSVG blob generator\nllline\nSVG line generator\ndddepth\nAI-generated 3D shapes\nsssvg\nSVG reference\nSVG Spinners\nHow to make them\nffflux\nfluid SVG gradients\ntttexture\ngrunge textures\naaabstract\nabstract backgrounds\nrrrepeat\nrepeating SVG shapes\nwwwatercolor\nwatercolor backgrounds\nhhholographic\nholographic backgrounds\nmmmotif\nSVG patterns with a 3D feel\ngggrain\ngrainy gradient generator\nuuunion\nmesh-like gradient generator\nnnneon\nglowing SVG shapes\nccclaymoji\nemoji maker\niiisometric\nisometric design builder\nsssurf\nSVG wave generator\nqqquad\ngenerative patterns\ndddraw\nfreehand SVG drawing tool\npppointed\nSVG arrow maker\ncccloud\ncloud SVGs\nssstar\nstar SVGs\nlllove\nheart SVGs\nbbblurry\nblurry background shapes\nuuundulate\nmake some SVG ripples\nccchaos\nwild wavy SVG shapes\noooscillate\ncurvy line patterns\nffflurry\nmake it rain, SVG-style\ncccoil\nSVG spiral waves\nssspiral\nSVG spiral patterns\ncccircular\nSVG gradient circle patterns\nrrreplicate\nSVG line pattern generator\ntttwinkle\nbursting line patterns\nssscales\ngradient SVG patterns\nrrrainbow\ncolorful background patterns\nttten\n10 Print-inspired pattern generator\nssscribble\nmake SVG scribbles\npppixelate\npixel art patterns\nsssquiggly\nwavy line patterns\nooorganize\nSVG grid patterns\nvvvortex\nspinning circle patterns\ngggyrate\nspinning geometric patterns\nllleaves\norganic SVG backgrounds\nggglitch\nglitchy shapes\nppperspective\nshapes that vanish\nsssurface\nSVG circles that feel 3D\nhhhorizon\nCyberpunk-style backgrounds\nsssplatter\nmake funky SVG shapes\nssspill\ngenerate melting SVGs\nssspot\norganic speck patterns\nwwwhirl\ntwisting line patterns\nrrreflection\nSVG circle patterns\nbbburst\nconfetti generator\ndddynamite\ndecorative SVG shapes\ndddivided\nsplit SVG shapes\nlllook\nfun line icons\ndddoodle\nhand-drawn doodles\npppsychedelic\npsychedelic backgrounds\nrrrasterize\nconvert SVG to PNG\neeencode\nencode SVG to Base64\nrrready?\nsupport chart for web features\nCSS Selectors\nA Visual Guide\n\nPick + Convert colors\n\nCCCOLOR\n\nA simple color picker app for Mac, Windows & Linux\n\nGet it here\n\n©20",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "nnnoise\nSVG generator for subtle or not-so-subtle noise textures",
+          "bounds": {
+            "x": 8,
+            "y": 54.390625,
+            "width": 240,
+            "height": 68
+          },
+          "styles": {
+            "display": "block",
+            "position": "absolute",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "16px",
+            "color": "rgb(79, 50, 118)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "ABOUT NNNOISE",
+          "bounds": {
+            "x": 24,
+            "y": 1579.171875,
+            "width": 342,
+            "height": 30.25
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "lineHeight": "30.25px",
+            "color": "rgb(79, 50, 118)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "SVG GENERATORS, TOOLS & DESIGN RESOURCES\n↓",
+          "bounds": {
+            "x": 12,
+            "y": 3727.84375,
+            "width": 366,
+            "height": 99
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "22px",
+            "fontWeight": "500",
+            "lineHeight": "33px",
+            "color": "rgb(79, 50, 118)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "cccolor\nHEX, RGB & HSL color picker",
+          "bounds": {
+            "x": 12,
+            "y": 3913.34375,
+            "width": 177,
+            "height": 60
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "rgb(0, 33, 72)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "pppalette\ncolor palette generator",
+          "bounds": {
+            "x": 211.234375,
+            "y": 3923.34375,
+            "width": 156.515625,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "hhhue\ncurated color palettes",
+          "bounds": {
+            "x": 25.515625,
+            "y": 4112.34375,
+            "width": 149.953125,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "rgb(0, 71, 188)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "ssshape\nSVG blob generator",
+          "bounds": {
+            "x": 224.34375,
+            "y": 4110.84375,
+            "width": 130.296875,
+            "height": 43
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "llline\nSVG line generator",
+          "bounds": {
+            "x": 38.4375,
+            "y": 4299.84375,
+            "width": 124.109375,
+            "height": 43
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "dddepth\nAI-generated 3D shapes",
+          "bounds": {
+            "x": 208.421875,
+            "y": 4300.34375,
+            "width": 162.140625,
+            "height": 42
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "rgb(77, 54, 76)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "sssvg\nSVG reference",
+          "bounds": {
+            "x": 52.890625,
+            "y": 4482.34375,
+            "width": 95.21875,
+            "height": 56
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "500",
+            "lineHeight": "28px",
+            "color": "rgb(95, 61, 143)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "SVG Spinners\nHow to make them",
+          "bounds": {
+            "x": 226.109375,
+            "y": 4489.34375,
+            "width": 126.78125,
+            "height": 42
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "rgb(95, 61, 143)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "ffflux\nfluid SVG gradients",
+          "bounds": {
+            "x": 36.125,
+            "y": 4679.34375,
+            "width": 128.734375,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "rgb(46, 218, 132)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "HEADER",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 0,
+            "y": 48,
+            "width": 390,
+            "height": 53
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "lineHeight": "33px",
+            "color": "rgb(79, 50, 118)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px 8px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 144.625,
+            "y": 791,
+            "width": 46.375,
+            "height": 41
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "lineHeight": "33px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "4px 15.2px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 199,
+            "y": 791,
+            "width": 46.375,
+            "height": 41
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "lineHeight": "33px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "4px 15.2px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "desaturate",
+          "bounds": {
+            "x": 129.5625,
+            "y": 781,
+            "width": 130.859375,
+            "height": 48
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "700",
+            "lineHeight": "24px",
+            "color": "rgb(119, 77, 179)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "8px 12px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "fractal noise",
+          "bounds": {
+            "x": 48,
+            "y": 885,
+            "width": 148.15625,
+            "height": 82
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "lineHeight": "33px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(119, 77, 179)",
+            "gap": "normal",
+            "padding": "8px 12px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "turbulence",
+          "bounds": {
+            "x": 212.15625,
+            "y": 885,
+            "width": 129.84375,
+            "height": 82
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "700",
+            "lineHeight": "24px",
+            "color": "rgb(119, 77, 179)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "8px 12px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "ABOUT NNNOISE\n\nThis SVG noise generator tool allows you to quickly and easily create noise textures to use in your web designs via CSS backg",
+          "bounds": {
+            "x": 24,
+            "y": 1579.171875,
+            "width": 342,
+            "height": 1981
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "lineHeight": "30.25px",
+            "color": "rgb(79, 50, 118)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "SVG GENERATORS, TOOLS & DESIGN RESOURCES\n↓\ncccolor\nHEX, RGB & HSL color picker\npppalette\ncolor palette generator\nhhhue\ncurated color palette",
+          "bounds": {
+            "x": 0,
+            "y": 3715.84375,
+            "width": 390,
+            "height": 6376
+          },
+          "styles": {
+            "display": "grid",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "22px",
+            "fontWeight": "500",
+            "lineHeight": "33px",
+            "color": "rgb(79, 50, 118)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "12px",
+            "padding": "12px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "177px 177px"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "Syntax - Web Development Podcast",
+          "href": "https://syntax.fm/"
+        },
+        {
+          "text": "",
+          "href": "https://www.fffuel.co/"
+        },
+        {
+          "text": "rrrasterize",
+          "href": "https://www.fffuel.co/rrrasterize/"
+        },
+        {
+          "text": "cccolor",
+          "href": "https://www.fffuel.co/cccolor/"
+        },
+        {
+          "text": "feTurbulence",
+          "href": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feTurbulence"
+        },
+        {
+          "text": "feSpecularLighting",
+          "href": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feSpecularLighting"
+        },
+        {
+          "text": "some",
+          "href": "https://www.smashingmagazine.com/2015/05/why-the-svg-filter-is-awesome/"
+        },
+        {
+          "text": "more",
+          "href": "https://tympanus.net/codrops/2019/02/19/svg-filter-effects-creating-texture-with-feturbulence/"
+        },
+        {
+          "text": "reading",
+          "href": "https://css-tricks.com/creating-patterns-with-svg-filters/"
+        },
+        {
+          "text": "material",
+          "href": "https://tympanus.net/codrops/2019/01/15/svg-filters-101/"
+        },
+        {
+          "text": "a great tool",
+          "href": "https://yoksel.github.io/svg-filters/"
+        },
+        {
+          "text": "cccolor\nHEX, RGB & HSL color picker",
+          "href": "https://www.fffuel.co/cccolor/"
+        },
+        {
+          "text": "pppalette\ncolor palette generator",
+          "href": "https://www.fffuel.co/pppalette/"
+        },
+        {
+          "text": "hhhue\ncurated color palettes",
+          "href": "https://www.fffuel.co/hhhue/"
+        },
+        {
+          "text": "ssshape\nSVG blob generator",
+          "href": "https://www.fffuel.co/ssshape/"
+        },
+        {
+          "text": "llline\nSVG line generator",
+          "href": "https://www.fffuel.co/llline/"
+        },
+        {
+          "text": "dddepth\nAI-generated 3D shapes",
+          "href": "https://www.fffuel.co/dddepth/"
+        },
+        {
+          "text": "sssvg\nSVG reference",
+          "href": "https://www.fffuel.co/sssvg/"
+        },
+        {
+          "text": "SVG Spinners\nHow to make them",
+          "href": "https://www.fffuel.co/svg-spinner/"
+        },
+        {
+          "text": "ffflux\nfluid SVG gradients",
+          "href": "https://www.fffuel.co/ffflux/"
+        },
+        {
+          "text": "tttexture\ngrunge textures",
+          "href": "https://www.fffuel.co/tttexture/"
+        },
+        {
+          "text": "aaabstract\nabstract backgrounds",
+          "href": "https://www.fffuel.co/aaabstract/"
+        },
+        {
+          "text": "rrrepeat\nrepeating SVG shapes",
+          "href": "https://www.fffuel.co/rrrepeat/"
+        },
+        {
+          "text": "wwwatercolor\nwatercolor backgrounds",
+          "href": "https://www.fffuel.co/wwwatercolor/"
+        },
+        {
+          "text": "hhholographic\nholographic backgrounds",
+          "href": "https://www.fffuel.co/hhholographic/"
+        },
+        {
+          "text": "mmmotif\nSVG patterns with a 3D feel",
+          "href": "https://www.fffuel.co/mmmotif/"
+        },
+        {
+          "text": "gggrain\ngrainy gradient generator",
+          "href": "https://www.fffuel.co/gggrain/"
+        },
+        {
+          "text": "uuunion\nmesh-like gradient generator",
+          "href": "https://www.fffuel.co/uuunion/"
+        },
+        {
+          "text": "nnneon\nglowing SVG shapes",
+          "href": "https://www.fffuel.co/nnneon/"
+        },
+        {
+          "text": "ccclaymoji\nemoji maker",
+          "href": "https://www.fffuel.co/ccclaymoji/"
+        },
+        {
+          "text": "iiisometric\nisometric design builder",
+          "href": "https://www.fffuel.co/iiisometric/"
+        },
+        {
+          "text": "sssurf\nSVG wave generator",
+          "href": "https://www.fffuel.co/sssurf/"
+        },
+        {
+          "text": "qqquad\ngenerative patterns",
+          "href": "https://www.fffuel.co/qqquad/"
+        },
+        {
+          "text": "dddraw\nfreehand SVG drawing tool",
+          "href": "https://www.fffuel.co/dddraw/"
+        },
+        {
+          "text": "pppointed\nSVG arrow maker",
+          "href": "https://www.fffuel.co/pppointed/"
+        },
+        {
+          "text": "cccloud\ncloud SVGs",
+          "href": "https://www.fffuel.co/cccloud/"
+        },
+        {
+          "text": "ssstar\nstar SVGs",
+          "href": "https://www.fffuel.co/ssstar/"
+        },
+        {
+          "text": "lllove\nheart SVGs",
+          "href": "https://www.fffuel.co/lllove/"
+        },
+        {
+          "text": "bbblurry\nblurry background shapes",
+          "href": "https://www.fffuel.co/bbblurry/"
+        },
+        {
+          "text": "uuundulate\nmake some SVG ripples",
+          "href": "https://www.fffuel.co/uuundulate/"
+        },
+        {
+          "text": "ccchaos\nwild wavy SVG shapes",
+          "href": "https://www.fffuel.co/ccchaos/"
+        },
+        {
+          "text": "oooscillate\ncurvy line patterns",
+          "href": "https://www.fffuel.co/oooscillate/"
+        },
+        {
+          "text": "ffflurry\nmake it rain, SVG-style",
+          "href": "https://www.fffuel.co/ffflurry/"
+        },
+        {
+          "text": "cccoil\nSVG spiral waves",
+          "href": "https://www.fffuel.co/cccoil/"
+        },
+        {
+          "text": "ssspiral\nSVG spiral patterns",
+          "href": "https://www.fffuel.co/ssspiral/"
+        },
+        {
+          "text": "cccircular\nSVG gradient circle patterns",
+          "href": "https://www.fffuel.co/cccircular/"
+        },
+        {
+          "text": "rrreplicate\nSVG line pattern generator",
+          "href": "https://www.fffuel.co/rrreplicate/"
+        },
+        {
+          "text": "tttwinkle\nbursting line patterns",
+          "href": "https://www.fffuel.co/tttwinkle/"
+        },
+        {
+          "text": "ssscales\ngradient SVG patterns",
+          "href": "https://www.fffuel.co/ssscales/"
+        },
+        {
+          "text": "rrrainbow\ncolorful background patterns",
+          "href": "https://www.fffuel.co/rrrainbow/"
+        },
+        {
+          "text": "ttten\n10 Print-inspired pattern generator",
+          "href": "https://www.fffuel.co/ttten/"
+        },
+        {
+          "text": "ssscribble\nmake SVG scribbles",
+          "href": "https://www.fffuel.co/ssscribble/"
+        },
+        {
+          "text": "pppixelate\npixel art patterns",
+          "href": "https://www.fffuel.co/pppixelate/"
+        },
+        {
+          "text": "sssquiggly\nwavy line patterns",
+          "href": "https://www.fffuel.co/sssquiggly/"
+        },
+        {
+          "text": "ooorganize\nSVG grid patterns",
+          "href": "https://www.fffuel.co/ooorganize/"
+        },
+        {
+          "text": "vvvortex\nspinning circle patterns",
+          "href": "https://www.fffuel.co/vvvortex/"
+        },
+        {
+          "text": "gggyrate\nspinning geometric patterns",
+          "href": "https://www.fffuel.co/gggyrate/"
+        },
+        {
+          "text": "llleaves\norganic SVG backgrounds",
+          "href": "https://www.fffuel.co/llleaves/"
+        },
+        {
+          "text": "ggglitch\nglitchy shapes",
+          "href": "https://www.fffuel.co/ggglitch/"
+        },
+        {
+          "text": "ppperspective\nshapes that vanish",
+          "href": "https://www.fffuel.co/ppperspective/"
+        },
+        {
+          "text": "sssurface\nSVG circles that feel 3D",
+          "href": "https://www.fffuel.co/sssurface/"
+        },
+        {
+          "text": "hhhorizon\nCyberpunk-style backgrounds",
+          "href": "https://www.fffuel.co/hhhorizon/"
+        },
+        {
+          "text": "sssplatter\nmake funky SVG shapes",
+          "href": "https://www.fffuel.co/sssplatter/"
+        },
+        {
+          "text": "ssspill\ngenerate melting SVGs",
+          "href": "https://www.fffuel.co/ssspill/"
+        },
+        {
+          "text": "ssspot\norganic speck patterns",
+          "href": "https://www.fffuel.co/ssspot/"
+        },
+        {
+          "text": "wwwhirl\ntwisting line patterns",
+          "href": "https://www.fffuel.co/wwwhirl/"
+        },
+        {
+          "text": "rrreflection\nSVG circle patterns",
+          "href": "https://www.fffuel.co/rrreflection/"
+        },
+        {
+          "text": "bbburst\nconfetti generator",
+          "href": "https://www.fffuel.co/bbburst/"
+        },
+        {
+          "text": "dddynamite\ndecorative SVG shapes",
+          "href": "https://www.fffuel.co/dddynamite/"
+        },
+        {
+          "text": "dddivided\nsplit SVG shapes",
+          "href": "https://www.fffuel.co/dddivided/"
+        },
+        {
+          "text": "lllook\nfun line icons",
+          "href": "https://www.fffuel.co/lllook/"
+        },
+        {
+          "text": "dddoodle\nhand-drawn doodles",
+          "href": "https://www.fffuel.co/dddoodle/"
+        },
+        {
+          "text": "pppsychedelic\npsychedelic backgrounds",
+          "href": "https://www.fffuel.co/pppsychedelic/"
+        },
+        {
+          "text": "rrrasterize\nconvert SVG to PNG",
+          "href": "https://www.fffuel.co/rrrasterize/"
+        },
+        {
+          "text": "eeencode\nencode SVG to Base64",
+          "href": "https://www.fffuel.co/eeencode/"
+        },
+        {
+          "text": "rrready?\nsupport chart for web features",
+          "href": "https://www.fffuel.co/rrready/"
+        },
+        {
+          "text": "CSS Selectors\nA Visual Guide",
+          "href": "https://www.fffuel.co/css-selectors/"
+        },
+        {
+          "text": "Get it here",
+          "href": "https://www.fffuel.co/app/"
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/syntax_fm/"
+        },
+        {
+          "text": "",
+          "href": "https://twitter.com/syntaxfm"
+        },
+        {
+          "text": "privacy",
+          "href": "https://syntax.fm/pages/privacy"
+        },
+        {
+          "text": "terms",
+          "href": "https://syntax.fm/pages/terms-of-service"
+        },
+        {
+          "text": "license",
+          "href": "https://www.fffuel.co/license/"
+        },
+        {
+          "text": " ",
+          "href": "https://twitter.com/intent/tweet?text=%F0%9F%8E%A8%20%23SVG%20generator%20for%20noise%20textures%3A%20https%3A%2F%2Ffffuel.co/nnnoise/%20via%20%40ffffffuel"
+        },
+        {
+          "text": "",
+          "href": "https://www.reddit.com/submit?url=https%3A%2F%2Ffffuel.co/nnnoise/&title=SVG%20generator%20for%20noise%20textures"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--sl-input-placeholder-color-disabled": "hsl(240 5.2% 33.9%)",
+        "--sl-line-height-dense": "1.4",
+        "--sl-color-gray-200": "hsl(240 5.9% 90%)",
+        "--sl-color-yellow-200": "hsl(52.8 98.3% 76.9%)",
+        "--sl-color-emerald-900": "hsl(164.2 85.7% 16.5%)",
+        "--sl-color-teal-950": "hsl(176.5 58.6% 11.4%)",
+        "--sl-color-emerald-800": "hsl(163.1 88.1% 19.8%)",
+        "--sl-color-yellow-400": "hsl(47.9 95.8% 53.1%)",
+        "--sl-panel-border-width": "1px",
+        "--sl-color-yellow-700": "hsl(35.5 91.7% 32.9%)",
+        "--sl-tooltip-line-height": "1.4",
+        "--sl-color-neutral-500": "hsl(240 3.8% 46.1%)",
+        "--shadow-base-clr": "265 40% 20%",
+        "--sl-color-amber-700": "hsl(26 90.5% 37.1%)",
+        "--sl-color-fuchsia-800": "hsl(295.4 70.2% 32.9%)",
+        "--accent-lightness": "50%",
+        "--sl-color-amber-600": "hsl(32.1 94.6% 43.7%)",
+        "--sl-color-pink-950": "hsl(336.2 65.4% 15.9%)",
+        "--clr-11": "hsl(265,40%,11%)",
+        "--sl-input-placeholder-color": "hsl(240 3.8% 46.1%)",
+        "--sl-input-height-small": "1.875rem",
+        "--sl-spacing-3x-small": "0.125rem",
+        "--sl-line-height-loose": "2.2",
+        "--sl-color-danger-200": "hsl(0 96.3% 89.4%)",
+        "--shadow-clr-1": "hsl(265 40% 20%/0.047)",
+        "--sl-color-orange-500": "hsl(24.6 95% 53.1%)",
+        "--sl-tooltip-arrow-size": "6px",
+        "--sl-input-focus-ring-offset": "0",
+        "--bg": "#f4f1f9",
+        "--sl-transition-fast": "150ms",
+        "--sl-input-spacing-medium": "1rem",
+        "--sl-color-amber-100": "hsl(48 96.5% 88.8%)",
+        "--clr-85": "hsl(265,40%,85%)",
+        "--sl-color-green-50": "hsl(138.5 76.5% 96.7%)",
+        "--sl-color-sky-800": "hsl(201 90% 27.5%)",
+        "--sl-color-blue-500": "hsl(217.2 91.2% 59.8%)",
+        "--sl-color-emerald-100": "hsl(149.3 80.4% 90%)",
+        "--sl-input-border-width": "1px",
+        "--clr-99": "hsl(265,40%,99%)",
+        "--sl-input-help-text-font-size-large": "1rem",
+        "--sl-input-filled-background-color-hover": "hsl(240 4.8% 95.9%)",
+        "--sl-font-serif": "Georgia, \"Times New Roman\", serif",
+        "--clr-33": "hsl(265,40%,33%)",
+        "--sl-letter-spacing-looser": "0.15em",
+        "--sl-spacing-x-small": "0.5rem",
+        "--sl-color-success-800": "hsl(142.8 64.2% 24.1%)",
+        "--sl-z-index-toast": "950",
+        "--sl-color-rose-300": "hsl(352.6 95.7% 81.8%)",
+        "--tw-ring-color": "rgba(59,130,246,0.5)",
+        "--sl-color-lime-50": "hsl(78.3 92% 95.1%)",
+        "--sl-overlay-background-color": "hsl(240 3.8% 46.1% / 33%)",
+        "--sl-transition-slow": "500ms",
+        "--accent-15": "hsla(calc(265 - 90),40%,50%,15%)",
+        "--sl-input-required-content-color": "",
+        "--sl-color-amber-200": "hsl(48 96.6% 76.7%)",
+        "--sl-input-color-hover": "hsl(240 5.3% 26.1%)",
+        "--sl-shadow-x-small": "0 1px 2px hsl(240 3.8% 46.1% / 6%)",
+        "--primary-0": "hsla(265,40%,50%,0%)",
+        "--sl-color-teal-400": "hsl(172.5 66% 50.4%)",
+        "--sl-color-primary-800": "hsl(201 90% 27.5%)",
+        "--sl-color-primary-600": "hsl(200.4 98% 39.4%)",
+        "--accent-10": "hsla(calc(265 - 90),40%,50%,10%)",
+        "--sl-color-neutral-0": "hsl(0, 0%, 100%)",
+        "--sl-tooltip-font-family": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto,\n    Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\",\n    \"Segoe UI Symbol\"",
+        "--sl-color-red-400": "hsl(0 90.6% 70.8%)",
+        "--sl-color-emerald-50": "hsl(151.8 81% 95.9%)",
+        "--sl-shadow-large": "0 2px 8px hsl(240 3.8% 46.1% / 12%)",
+        "--sl-color-fuchsia-950": "hsl(297.1 56.8% 14.5%)",
+        "--sl-color-gray-400": "hsl(240 5% 64.9%)",
+        "--sl-color-red-700": "hsl(0 73.7% 41.8%)",
+        "--accent-bright3": "hsl(calc(265 - 90),85%,85%)",
+        "--clr-20": "hsl(265,40%,20%)",
+        "--sl-input-background-color": "hsl(0, 0%, 100%)",
+        "--sl-color-sky-700": "hsl(201.3 96.3% 32.2%)",
+        "--sl-panel-background-color": "hsl(0, 0%, 100%)",
+        "--sl-color-gray-700": "hsl(240 5.3% 26.1%)",
+        "--sl-line-height-normal": "1.8",
+        "--sl-input-filled-background-color-focus": "hsl(240 4.8% 95.9%)",
+        "--sl-color-cyan-900": "hsl(196.4 63.6% 23.7%)",
+        "--sl-color-pink-50": "hsl(327.3 73.3% 97.1%)"
+      }
+    }
+  },
+  "scope": "public source reference; not a locally reconstructed component",
+  "http_status": 200,
+  "page_errors": []
+}

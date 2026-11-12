@@ -1,0 +1,576 @@
+{
+  "schema_version": 1,
+  "quadrant": "Q2-conversion-content",
+  "count": 9,
+  "sections": {
+    "heroes": {
+      "centered-shader-hero": [],
+      "split-product-preview": [
+        {
+          "id": "hero-mahero-craft",
+          "location": {
+            "quadrant": "Q2-conversion-content",
+            "category": "heroes",
+            "section": "split-product-preview",
+            "file_path": "Q2-conversion-content/heroes/split-product-preview/hero-mahero-craft.json"
+          },
+          "tier": "C",
+          "tier_audit": {
+            "visual_verified": true,
+            "verification_scope": "source screenshots only; not local implementation fidelity",
+            "fidelity_type": "visual_spec",
+            "responsive_score": null,
+            "audit_notes": [
+              "Tier C: reference/spec, not ready-to-use code.",
+              "Source DOM measurements may describe gallery chrome, not the referenced product.",
+              "Keyboard, contrast and animation timing not certified."
+            ],
+            "evidence": [
+              "audits/source-evidence/mahero-supply-home/evidence.json",
+              "previews/hero-mahero-craft/desktop.png",
+              "previews/hero-mahero-craft/mobile.png"
+            ],
+            "source_observations": {
+              "desktop": {
+                "viewport": {
+                  "width": 1440,
+                  "height": 900
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": [
+                  "https://gk4zttl3xunfz8cp.public.blob.vercel-storage.com/products/1779379135236-vy79jvwt4fc.webp",
+                  "https://gk4zttl3xunfz8cp.public.blob.vercel-storage.com/products/1779116848358.gif",
+                  "https://gk4zttl3xunfz8cp.public.blob.vercel-storage.com/products/1779424448824-ahmq4qinb1b.gif",
+                  "https://gk4zttl3xunfz8cp.public.blob.vercel-storage.com/products/1779123275950.webp",
+                  "https://gk4zttl3xunfz8cp.public.blob.vercel-storage.com/products/1779292188626-r1h33auwxnh.png",
+                  "https://gk4zttl3xunfz8cp.public.blob.vercel-storage.com/products/1779292432589-l873r6fol2p.png",
+                  "https://gk4zttl3xunfz8cp.public.blob.vercel-storage.com/products/1779292564799-qk6uer49zsa.png"
+                ]
+              },
+              "mobile": {
+                "viewport": {
+                  "width": 390,
+                  "height": 844
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              }
+            }
+          },
+          "source_site": "mahero.supply",
+          "source_url": "https://mahero.supply",
+          "license": {
+            "status": "reference_only_not_code_license",
+            "redistribution": "No source code or original downloadable assets included; screenshots are research evidence."
+          },
+          "stack_compatibility": [
+            "framework-agnostic-spec"
+          ],
+          "style_tags": [
+            "split-product-preview"
+          ]
+        },
+        {
+          "id": "hero-mobbin-design-library",
+          "location": {
+            "quadrant": "Q2-conversion-content",
+            "category": "heroes",
+            "section": "split-product-preview",
+            "file_path": "Q2-conversion-content/heroes/split-product-preview/hero-mobbin-design-library.json"
+          },
+          "tier": "C",
+          "tier_audit": {
+            "visual_verified": true,
+            "verification_scope": "source screenshots only; not local implementation fidelity",
+            "fidelity_type": "visual_spec",
+            "responsive_score": null,
+            "audit_notes": [
+              "Tier C: reference/spec, not ready-to-use code.",
+              "Source DOM measurements may describe gallery chrome, not the referenced product.",
+              "Keyboard, contrast and animation timing not certified."
+            ],
+            "evidence": [
+              "audits/source-evidence/mobbin-com-home/evidence.json",
+              "previews/hero-mobbin-design-library/desktop.png",
+              "previews/hero-mobbin-design-library/mobile.png"
+            ],
+            "source_observations": {
+              "desktop": {
+                "viewport": {
+                  "width": 1440,
+                  "height": 900
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              },
+              "mobile": {
+                "viewport": {
+                  "width": 390,
+                  "height": 844
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              }
+            }
+          },
+          "source_site": "mobbin.com",
+          "source_url": "https://mobbin.com",
+          "license": {
+            "status": "reference_only_not_code_license",
+            "redistribution": "No source code or original downloadable assets included; screenshots are research evidence."
+          },
+          "stack_compatibility": [
+            "framework-agnostic-spec"
+          ],
+          "style_tags": [
+            "split-product-preview"
+          ]
+        }
+      ],
+      "interactive-3d-hero": [
+        {
+          "id": "hero-anatomy-atelier-reference",
+          "location": {
+            "quadrant": "Q2-conversion-content",
+            "category": "heroes",
+            "section": "interactive-3d-hero",
+            "file_path": "Q2-conversion-content/heroes/interactive-3d-hero/hero-anatomy-atelier-reference.json"
+          },
+          "tier": "C",
+          "tier_audit": {
+            "visual_verified": true,
+            "verification_scope": "source screenshots only; not local implementation fidelity",
+            "fidelity_type": "visual_spec",
+            "responsive_score": null,
+            "audit_notes": [
+              "Tier C: reference/spec, not ready-to-use code.",
+              "Source DOM measurements may describe gallery chrome, not the referenced product.",
+              "Keyboard, contrast and animation timing not certified."
+            ],
+            "evidence": [
+              "audits/source-evidence/prettysites-io-anatomy-atelier/evidence.json",
+              "previews/hero-anatomy-atelier-reference/desktop.png",
+              "previews/hero-anatomy-atelier-reference/mobile.png"
+            ],
+            "source_observations": {
+              "desktop": {
+                "viewport": {
+                  "width": 1440,
+                  "height": 900
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              },
+              "mobile": {
+                "viewport": {
+                  "width": 390,
+                  "height": 844
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              }
+            }
+          },
+          "source_site": "prettysites.io",
+          "source_url": "https://prettysites.io/?prompt=anatomy-atelier",
+          "license": {
+            "status": "reference_only_not_code_license",
+            "redistribution": "No source code or original downloadable assets included; screenshots are research evidence."
+          },
+          "stack_compatibility": [
+            "framework-agnostic-spec"
+          ],
+          "style_tags": [
+            "interactive-3d-hero"
+          ]
+        }
+      ]
+    },
+    "feature-grids": {
+      "bento-asymmetric": [],
+      "interactive-tabs-showcase": [
+        {
+          "id": "shadcn-tabs",
+          "location": {
+            "quadrant": "Q2-conversion-content",
+            "category": "feature-grids",
+            "section": "interactive-tabs-showcase",
+            "file_path": "Q2-conversion-content/feature-grids/interactive-tabs-showcase/shadcn-tabs.json"
+          },
+          "tier": "A",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+            "responsive_score": null,
+            "audit_notes": [
+              "Estrutura e estados do demo preservados; integração local usa Arial, enquanto a fonte oficial usa Geist.",
+              "Normalizar tema, fonte, aliases e largura do host antes de tratar como plug-and-play. Comparações normalizadas mantêm a captura original separada.",
+              "Checks de interação registrados em audit.json; sem certificação completa de contraste, leitor de tela ou fluxo de negócio.",
+              "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+              "No full WCAG certification; no claim of whole-page percentage fidelity."
+            ],
+            "evidence": [
+              "previews/shadcn-tabs/audit.json",
+              "audits/batch-2/manual-review.json",
+              "previews/shadcn-tabs/desktop.png",
+              "previews/shadcn-tabs/mobile.png",
+              "assets/shadcn/LICENSE"
+            ],
+            "viewports": [
+              "1440x900",
+              "390x844"
+            ],
+            "state_checks": {
+              "desktop": [
+                "ArrowRight moves focus and activates second tab"
+              ],
+              "mobile": [
+                "ArrowRight moves focus and activates second tab"
+              ]
+            }
+          },
+          "source_site": "ui.shadcn.com",
+          "source_url": "https://ui.shadcn.com/view/new-york-v4/tabs-demo",
+          "license": {
+            "spdx": "MIT",
+            "local": "assets/shadcn/LICENSE",
+            "url": "https://github.com/shadcn-ui/ui/blob/main/LICENSE.md"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS v4",
+            "Radix UI"
+          ],
+          "style_tags": [
+            "interactive-tabs-showcase",
+            "shadcn",
+            "native-source"
+          ]
+        }
+      ],
+      "step-by-step-workflows": []
+    },
+    "pricing-proof": {
+      "tiered-cards-toggle": [],
+      "enterprise-comparison": [],
+      "social-proof-walls": [],
+      "status-badges": [
+        {
+          "id": "shadcn-badge",
+          "location": {
+            "quadrant": "Q2-conversion-content",
+            "category": "pricing-proof",
+            "section": "status-badges",
+            "file_path": "Q2-conversion-content/pricing-proof/status-badges/shadcn-badge.json"
+          },
+          "tier": "A",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+            "responsive_score": null,
+            "audit_notes": [
+              "Estrutura e estados do demo preservados; integração local usa Arial, enquanto a fonte oficial usa Geist.",
+              "Normalizar tema, fonte, aliases e largura do host antes de tratar como plug-and-play. Comparações normalizadas mantêm a captura original separada.",
+              "Checks de interação registrados em audit.json; sem certificação completa de contraste, leitor de tela ou fluxo de negócio.",
+              "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+              "No full WCAG certification; no claim of whole-page percentage fidelity."
+            ],
+            "evidence": [
+              "previews/shadcn-badge/audit.json",
+              "audits/batch-2/manual-review.json",
+              "previews/shadcn-badge/desktop.png",
+              "previews/shadcn-badge/mobile.png",
+              "assets/shadcn/LICENSE"
+            ],
+            "viewports": [
+              "1440x900",
+              "390x844"
+            ],
+            "state_checks": {
+              "desktop": [
+                "Static presentation: keyboard input not applicable"
+              ],
+              "mobile": [
+                "Static presentation: keyboard input not applicable"
+              ]
+            }
+          },
+          "source_site": "ui.shadcn.com",
+          "source_url": "https://ui.shadcn.com/view/new-york-v4/badge-demo",
+          "license": {
+            "spdx": "MIT",
+            "local": "assets/shadcn/LICENSE",
+            "url": "https://github.com/shadcn-ui/ui/blob/main/LICENSE.md"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS v4",
+            "Radix UI"
+          ],
+          "style_tags": [
+            "status-badges",
+            "shadcn",
+            "native-source"
+          ]
+        }
+      ]
+    },
+    "forms-overlays": {
+      "waitlist-capture": [],
+      "command-palettes-modals": [
+        {
+          "id": "shadcn-dialog",
+          "location": {
+            "quadrant": "Q2-conversion-content",
+            "category": "forms-overlays",
+            "section": "command-palettes-modals",
+            "file_path": "Q2-conversion-content/forms-overlays/command-palettes-modals/shadcn-dialog.json"
+          },
+          "tier": "A",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+            "responsive_score": null,
+            "audit_notes": [
+              "Estrutura e estados do demo preservados; integração local usa Arial, enquanto a fonte oficial usa Geist.",
+              "Normalizar tema, fonte, aliases e largura do host antes de tratar como plug-and-play. Comparações normalizadas mantêm a captura original separada.",
+              "Checks de interação registrados em audit.json; sem certificação completa de contraste, leitor de tela ou fluxo de negócio.",
+              "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+              "No full WCAG certification; no claim of whole-page percentage fidelity."
+            ],
+            "evidence": [
+              "previews/shadcn-dialog/audit.json",
+              "audits/batch-2/manual-review.json",
+              "previews/shadcn-dialog/desktop.png",
+              "previews/shadcn-dialog/mobile.png",
+              "assets/shadcn/LICENSE"
+            ],
+            "viewports": [
+              "1440x900",
+              "390x844"
+            ],
+            "state_checks": {
+              "desktop": [
+                "Enter opens named dialog",
+                "Opened dialog surface compared against original demo",
+                "Eight Tab presses keep focus inside dialog",
+                "Escape closes and restores trigger focus"
+              ],
+              "mobile": [
+                "Enter opens named dialog",
+                "Opened dialog surface compared against original demo",
+                "Eight Tab presses keep focus inside dialog",
+                "Escape closes and restores trigger focus"
+              ]
+            }
+          },
+          "source_site": "ui.shadcn.com",
+          "source_url": "https://ui.shadcn.com/view/new-york-v4/dialog-demo",
+          "license": {
+            "spdx": "MIT",
+            "local": "assets/shadcn/LICENSE",
+            "url": "https://github.com/shadcn-ui/ui/blob/main/LICENSE.md"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS v4",
+            "Radix UI"
+          ],
+          "style_tags": [
+            "command-palettes-modals",
+            "shadcn",
+            "native-source"
+          ]
+        }
+      ],
+      "authentication-cards": [
+        {
+          "id": "shadcn-card",
+          "location": {
+            "quadrant": "Q2-conversion-content",
+            "category": "forms-overlays",
+            "section": "authentication-cards",
+            "file_path": "Q2-conversion-content/forms-overlays/authentication-cards/shadcn-card.json"
+          },
+          "tier": "A",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+            "responsive_score": null,
+            "audit_notes": [
+              "Estrutura e estados do demo preservados; integração local usa Arial, enquanto a fonte oficial usa Geist.",
+              "Normalizar tema, fonte, aliases e largura do host antes de tratar como plug-and-play. Comparações normalizadas mantêm a captura original separada.",
+              "Checks de interação registrados em audit.json; sem certificação completa de contraste, leitor de tela ou fluxo de negócio.",
+              "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+              "No full WCAG certification; no claim of whole-page percentage fidelity."
+            ],
+            "evidence": [
+              "previews/shadcn-card/audit.json",
+              "audits/batch-2/manual-review.json",
+              "previews/shadcn-card/desktop.png",
+              "previews/shadcn-card/mobile.png",
+              "assets/shadcn/LICENSE"
+            ],
+            "viewports": [
+              "1440x900",
+              "390x844"
+            ],
+            "state_checks": {
+              "desktop": [
+                "Static presentation: keyboard input not applicable"
+              ],
+              "mobile": [
+                "Static presentation: keyboard input not applicable"
+              ]
+            }
+          },
+          "source_site": "ui.shadcn.com",
+          "source_url": "https://ui.shadcn.com/view/new-york-v4/card-demo",
+          "license": {
+            "spdx": "MIT",
+            "local": "assets/shadcn/LICENSE",
+            "url": "https://github.com/shadcn-ui/ui/blob/main/LICENSE.md"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS v4",
+            "Radix UI"
+          ],
+          "style_tags": [
+            "authentication-cards",
+            "shadcn",
+            "native-source"
+          ]
+        }
+      ],
+      "text-inputs": [
+        {
+          "id": "shadcn-input",
+          "location": {
+            "quadrant": "Q2-conversion-content",
+            "category": "forms-overlays",
+            "section": "text-inputs",
+            "file_path": "Q2-conversion-content/forms-overlays/text-inputs/shadcn-input.json"
+          },
+          "tier": "A",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+            "responsive_score": null,
+            "audit_notes": [
+              "Estrutura e estados do demo preservados; integração local usa Arial, enquanto a fonte oficial usa Geist.",
+              "Normalizar tema, fonte, aliases e largura do host antes de tratar como plug-and-play. Comparações normalizadas mantêm a captura original separada.",
+              "Checks de interação registrados em audit.json; sem certificação completa de contraste, leitor de tela ou fluxo de negócio.",
+              "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+              "No full WCAG certification; no claim of whole-page percentage fidelity."
+            ],
+            "evidence": [
+              "previews/shadcn-input/audit.json",
+              "audits/batch-2/manual-review.json",
+              "previews/shadcn-input/desktop.png",
+              "previews/shadcn-input/mobile.png",
+              "assets/shadcn/LICENSE"
+            ],
+            "viewports": [
+              "1440x900",
+              "390x844"
+            ],
+            "state_checks": {
+              "desktop": [
+                "Text entry and focus verified",
+                "Disabled state verified"
+              ],
+              "mobile": [
+                "Text entry and focus verified",
+                "Disabled state verified"
+              ]
+            }
+          },
+          "source_site": "ui.shadcn.com",
+          "source_url": "https://ui.shadcn.com/view/new-york-v4/input-demo",
+          "license": {
+            "spdx": "MIT",
+            "local": "assets/shadcn/LICENSE",
+            "url": "https://github.com/shadcn-ui/ui/blob/main/LICENSE.md"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS v4",
+            "Radix UI"
+          ],
+          "style_tags": [
+            "text-inputs",
+            "shadcn",
+            "native-source"
+          ]
+        },
+        {
+          "id": "shadcn-textarea",
+          "location": {
+            "quadrant": "Q2-conversion-content",
+            "category": "forms-overlays",
+            "section": "text-inputs",
+            "file_path": "Q2-conversion-content/forms-overlays/text-inputs/shadcn-textarea.json"
+          },
+          "tier": "A",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+            "responsive_score": null,
+            "audit_notes": [
+              "Estrutura e estados do demo preservados; integração local usa Arial, enquanto a fonte oficial usa Geist.",
+              "Normalizar tema, fonte, aliases e largura do host antes de tratar como plug-and-play. Comparações normalizadas mantêm a captura original separada.",
+              "Checks de interação registrados em audit.json; sem certificação completa de contraste, leitor de tela ou fluxo de negócio.",
+              "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+              "No full WCAG certification; no claim of whole-page percentage fidelity."
+            ],
+            "evidence": [
+              "previews/shadcn-textarea/audit.json",
+              "audits/batch-2/manual-review.json",
+              "previews/shadcn-textarea/desktop.png",
+              "previews/shadcn-textarea/mobile.png",
+              "assets/shadcn/LICENSE"
+            ],
+            "viewports": [
+              "1440x900",
+              "390x844"
+            ],
+            "state_checks": {
+              "desktop": [
+                "Text entry and focus verified",
+                "Disabled state verified"
+              ],
+              "mobile": [
+                "Text entry and focus verified",
+                "Disabled state verified"
+              ]
+            }
+          },
+          "source_site": "ui.shadcn.com",
+          "source_url": "https://ui.shadcn.com/view/new-york-v4/textarea-demo",
+          "license": {
+            "spdx": "MIT",
+            "local": "assets/shadcn/LICENSE",
+            "url": "https://github.com/shadcn-ui/ui/blob/main/LICENSE.md"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS v4",
+            "Radix UI"
+          ],
+          "style_tags": [
+            "text-inputs",
+            "shadcn",
+            "native-source"
+          ]
+        }
+      ]
+    }
+  }
+}

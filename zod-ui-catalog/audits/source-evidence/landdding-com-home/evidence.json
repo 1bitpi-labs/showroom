@@ -1,0 +1,1896 @@
+{
+  "site": "landdding.com",
+  "url": "https://landdding.com",
+  "captured_at": "2026-11-12T21:10:31.529266+00:00",
+  "views": {
+    "desktop": {
+      "url": "https://landdding.com/",
+      "title": "Inspirational new website designs - Landdding",
+      "text": "Get PRO\nSign In\nSubmit Landdding\nDaily\nWeekly\nDesign\nAI\nOther Categories\nTemplates\nBlog\nAdvertise\n\nUPDATED DAILY\n\nInspirational website designs, from the best designers.\n\nThe curated gallery of landing pages and website templates that designers bookmark — fresh picks every day across Webflow, Framer, WordPress, Wix and Squarespace.\n\nDESIGNS\n2.7k\nDESIGNERS\n1.9k\nCATEGORIES\n40\nPLATFORMS\n5\nTRENDING\nTech\nDesign\nSans Serif\nSoftware\nService\nAgency\nAll →\nS\nLeedlime | Find Verified Leads for Your LinkedIn Outreach\nRicardo Lopez\n5\nS\nbem | Structured work automation for critical industries\nAnas Davies\n5\nS\nSunflower. An inbox that works, for you.\nJude Murray\n4\nBuild & Host premium websites and web apps!\nGet Started\nPartnership with Modulify.ai\nS\nMatic: The Floor-Cleaning Robot Rated 10/10 by WIRED\nTerry Harington\n3\nS\nGenerous Branding - Agence de Branding - La Marque au Coeur ©\nAdele Pollard\n4\nS\nLive audio sessions for nervous system regulation · Byotōne\nJakub Tucker\n4\nS\nFragment Studio · Independent Designer for Visual Identity, Websites &amp; Product Design\nJayden Benton\n3\nS\nMagnet Lover | Premium Custom Magnets for Bands, Tours &amp; Music Brands\nCeline Villegas\n3\nS\nSutéra - Reality By Design\nNoah Arika\n7\nS\nHome | moremud.co\nNate Cobb\n5\nS\nSymmetry AI — The Work Finds Itself and Gets Done\nAli Lindsey\n4\nS\nTim Van Damme (Max Voltar) — Product Designer at Figma\nIan Gill\n4\nS\nJosh Taylor\nFlaka Kallaba\n5\nS\nDessn - Design in production\nFilip Levine\n5\nS\nEthena - Digital Dollars for the Internet Economy\nBethany Byrne\n4\nGET YOUR SITE FEATURED\nBuilt something beautiful? Let designers find it.\n\nJoin thousands of creators showcasing their best work to a community hungry for inspiration.\n\nSubmit a site\n→\nGo PRO\n\nWith over a billion websites in the world, Landdding is where the best are showcased — to inspire, teach and get discovered ✨\n\nRESOURCES\nBlog\nCollections\nDesigners\nBrowse by tag\nBrowse by color\nFree tools\nState of Landing Pages 2026\nEditorial standards\nPLATFORM\nAbout\nAdvertise\nNewsletter\nFAQ\nContact\nBROWSE CATEGORIES\nAdvertising\nAgency\nAI\nAnimals\nArchitecture\nArt\nAutomotive\nCareer\nCharity\nCorporate\nDesign\nE-commerce\nEducation\nEntertainment\nSee all categories\n→\nMORE BY AZWEDO\nA little ecosystem of tools we build for designers and builders\nModulify\nAI Webflow Site Builder\n↗\nGoat Slider\nCreative & Dynamic sliders in Webflow\n↗\nModulo\nExplore 500+ Webflow components\n↗\nWeDoFlow\nWebflow Design Agency\n↗\nLogoToUse\nThe place for 120m Logos\n↗\nFontInLogo\nFind fonts in best brands\n↗\nWonderList\n127 Premium Web Design in Figma\n↗\nIkonik\n50k+ Copyright Free Icons\n↗\n© 2026 Landdding.com·Made with 💙 by Azwedo\nTerms of Service\nPrivacy Policy\nEditorial\nContact\nLight\nDark\nAuto",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Inspirational website designs, from the best designers.",
+          "bounds": {
+            "x": 49,
+            "y": 235.703125,
+            "width": 650,
+            "height": 91.1875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Inter, sans-serif",
+            "fontSize": "38px",
+            "fontWeight": "500",
+            "lineHeight": "45.6px",
+            "color": "rgb(17, 24, 39)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Built something beautiful? Let designers find it.",
+          "bounds": {
+            "x": 69,
+            "y": 1941.3125,
+            "width": 640,
+            "height": 91.1875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Inter, sans-serif",
+            "fontSize": "38px",
+            "fontWeight": "500",
+            "lineHeight": "45.6px",
+            "color": "rgb(17, 24, 39)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Get PRO\nSign In\nSubmit Landdding\nDaily\nWeekly\nDesign\nAI\nOther Categories\nTemplates\nBlog\nAdvertise\n\nUPDATED DAILY\n\nInspirational website desi",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 2973.8125
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Inter, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "16.8px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 1129.890625,
+            "y": 18,
+            "width": 36,
+            "height": 36
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Inter, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "16.8px",
+            "color": "rgb(102, 102, 102)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Daily\nWeekly\nDesign\nAI\nOther Categories\nTemplates\nBlog\nAdvertise\n\nUPDATED DAILY\n\nInspirational website designs, from the best designers.\n\nTh",
+          "bounds": {
+            "x": 0,
+            "y": 72,
+            "width": 1440,
+            "height": 1743.515625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Inter, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "16.8px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "HEADER",
+          "role": null,
+          "text": "UPDATED DAILY\n\nInspirational website designs, from the best designers.\n\nThe curated gallery of landing pages and website templates that desi",
+          "bounds": {
+            "x": 24,
+            "y": 156,
+            "width": 1392,
+            "height": 281.890625
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "Inter, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "16.8px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(242, 241, 239)",
+            "gap": "normal",
+            "padding": "48px 24px",
+            "borderRadius": "18px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "S\nLeedlime | Find Verified Leads for Your LinkedIn Outreach\nRicardo Lopez\n5\nS\nbem | Structured work automation for critical industries\nAnas ",
+          "bounds": {
+            "x": 0,
+            "y": 465.890625,
+            "width": 1440,
+            "height": 1349.625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Inter, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "16.8px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Get Started",
+          "bounds": {
+            "x": 1110,
+            "y": 578.09375,
+            "width": 117.03125,
+            "height": 36.796875
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Inter, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "600",
+            "lineHeight": "16.8px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(0, 0, 0)",
+            "gap": "normal",
+            "padding": "10px 20px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "radio",
+          "text": "Light",
+          "bounds": {
+            "x": 1186.609375,
+            "y": 2895.8125,
+            "width": 74.9375,
+            "height": 26
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Inter, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "500",
+            "lineHeight": "13px",
+            "color": "rgb(107, 114, 128)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "6px",
+            "padding": "6px 12px",
+            "borderRadius": "999px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "radio",
+          "text": "Dark",
+          "bounds": {
+            "x": 1263.546875,
+            "y": 2895.8125,
+            "width": 73.265625,
+            "height": 26
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Inter, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "500",
+            "lineHeight": "13px",
+            "color": "rgb(107, 114, 128)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "6px",
+            "padding": "6px 12px",
+            "borderRadius": "999px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "radio",
+          "text": "Auto",
+          "bounds": {
+            "x": 1338.8125,
+            "y": 2895.8125,
+            "width": 73.1875,
+            "height": 26
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Inter, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "500",
+            "lineHeight": "13px",
+            "color": "rgb(17, 24, 39)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "6px",
+            "padding": "6px 12px",
+            "borderRadius": "999px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://landdding.com/"
+        },
+        {
+          "text": "Get PRO",
+          "href": "https://landdding.com/pro"
+        },
+        {
+          "text": "Submit Landdding",
+          "href": "https://landdding.com/submit"
+        },
+        {
+          "text": "Daily",
+          "href": "https://landdding.com/"
+        },
+        {
+          "text": "Weekly",
+          "href": "https://landdding.com/weekly"
+        },
+        {
+          "text": "Design",
+          "href": "https://landdding.com/c/design"
+        },
+        {
+          "text": "AI",
+          "href": "https://landdding.com/c/ai"
+        },
+        {
+          "text": "Advertising",
+          "href": "https://landdding.com/c/advertising"
+        },
+        {
+          "text": "Agency",
+          "href": "https://landdding.com/c/agency"
+        },
+        {
+          "text": "Animals",
+          "href": "https://landdding.com/c/animals"
+        },
+        {
+          "text": "Architecture",
+          "href": "https://landdding.com/c/architecture"
+        },
+        {
+          "text": "Art",
+          "href": "https://landdding.com/c/art"
+        },
+        {
+          "text": "Automotive",
+          "href": "https://landdding.com/c/automotive"
+        },
+        {
+          "text": "Career",
+          "href": "https://landdding.com/c/career"
+        },
+        {
+          "text": "Charity",
+          "href": "https://landdding.com/c/charity"
+        },
+        {
+          "text": "Corporate",
+          "href": "https://landdding.com/c/corporate"
+        },
+        {
+          "text": "E-commerce",
+          "href": "https://landdding.com/c/e-commerce"
+        },
+        {
+          "text": "Education",
+          "href": "https://landdding.com/c/education"
+        },
+        {
+          "text": "Entertainment",
+          "href": "https://landdding.com/c/entertainment"
+        },
+        {
+          "text": "Fashion & Beauty",
+          "href": "https://landdding.com/c/fashion-beauty"
+        },
+        {
+          "text": "Finance",
+          "href": "https://landdding.com/c/finance"
+        },
+        {
+          "text": "Food & Drinks",
+          "href": "https://landdding.com/c/food-drinks"
+        },
+        {
+          "text": "Furniture & Interiors",
+          "href": "https://landdding.com/c/furniture-interiors"
+        },
+        {
+          "text": "Gaming",
+          "href": "https://landdding.com/c/gaming"
+        },
+        {
+          "text": "Health & Wellness",
+          "href": "https://landdding.com/c/health-wellness"
+        },
+        {
+          "text": "HR",
+          "href": "https://landdding.com/c/hr"
+        },
+        {
+          "text": "Institutional",
+          "href": "https://landdding.com/c/institutional"
+        },
+        {
+          "text": "Magazine",
+          "href": "https://landdding.com/c/magazine"
+        },
+        {
+          "text": "Medical",
+          "href": "https://landdding.com/c/medical"
+        },
+        {
+          "text": "Movie",
+          "href": "https://landdding.com/c/movie"
+        },
+        {
+          "text": "News & Blogs",
+          "href": "https://landdding.com/c/news-blogs"
+        },
+        {
+          "text": "Non-Profit",
+          "href": "https://landdding.com/c/non-profit"
+        },
+        {
+          "text": "Photography",
+          "href": "https://landdding.com/c/photography"
+        },
+        {
+          "text": "Portfolio",
+          "href": "https://landdding.com/c/portfolio"
+        },
+        {
+          "text": "PR",
+          "href": "https://landdding.com/c/pr"
+        },
+        {
+          "text": "Real Estate",
+          "href": "https://landdding.com/c/real-estate"
+        },
+        {
+          "text": "SaaS",
+          "href": "https://landdding.com/c/saas"
+        },
+        {
+          "text": "Social Media",
+          "href": "https://landdding.com/c/social-media"
+        },
+        {
+          "text": "Sports",
+          "href": "https://landdding.com/c/sports"
+        },
+        {
+          "text": "Startup",
+          "href": "https://landdding.com/c/startup"
+        },
+        {
+          "text": "Technology",
+          "href": "https://landdding.com/c/technology"
+        },
+        {
+          "text": "Travel",
+          "href": "https://landdding.com/c/travel"
+        },
+        {
+          "text": "Weather",
+          "href": "https://landdding.com/c/weather"
+        },
+        {
+          "text": "Web3",
+          "href": "https://landdding.com/c/web3"
+        },
+        {
+          "text": "Writing",
+          "href": "https://landdding.com/c/writing"
+        },
+        {
+          "text": "Templates",
+          "href": "https://landdding.com/templates"
+        },
+        {
+          "text": "Advertising",
+          "href": "https://landdding.com/c/advertising"
+        },
+        {
+          "text": "Agency",
+          "href": "https://landdding.com/c/agency"
+        },
+        {
+          "text": "AI",
+          "href": "https://landdding.com/c/ai"
+        },
+        {
+          "text": "Animals",
+          "href": "https://landdding.com/c/animals"
+        },
+        {
+          "text": "Architecture",
+          "href": "https://landdding.com/c/architecture"
+        },
+        {
+          "text": "Art",
+          "href": "https://landdding.com/c/art"
+        },
+        {
+          "text": "Automotive",
+          "href": "https://landdding.com/c/automotive"
+        },
+        {
+          "text": "Career",
+          "href": "https://landdding.com/c/career"
+        },
+        {
+          "text": "Charity",
+          "href": "https://landdding.com/c/charity"
+        },
+        {
+          "text": "Corporate",
+          "href": "https://landdding.com/c/corporate"
+        },
+        {
+          "text": "Design",
+          "href": "https://landdding.com/c/design"
+        },
+        {
+          "text": "E-commerce",
+          "href": "https://landdding.com/c/e-commerce"
+        },
+        {
+          "text": "Education",
+          "href": "https://landdding.com/c/education"
+        },
+        {
+          "text": "Entertainment",
+          "href": "https://landdding.com/c/entertainment"
+        },
+        {
+          "text": "Fashion & Beauty",
+          "href": "https://landdding.com/c/fashion-beauty"
+        },
+        {
+          "text": "Finance",
+          "href": "https://landdding.com/c/finance"
+        },
+        {
+          "text": "Food & Drinks",
+          "href": "https://landdding.com/c/food-drinks"
+        },
+        {
+          "text": "Furniture & Interiors",
+          "href": "https://landdding.com/c/furniture-interiors"
+        },
+        {
+          "text": "Gaming",
+          "href": "https://landdding.com/c/gaming"
+        },
+        {
+          "text": "Health & Wellness",
+          "href": "https://landdding.com/c/health-wellness"
+        },
+        {
+          "text": "HR",
+          "href": "https://landdding.com/c/hr"
+        },
+        {
+          "text": "Institutional",
+          "href": "https://landdding.com/c/institutional"
+        },
+        {
+          "text": "Magazine",
+          "href": "https://landdding.com/c/magazine"
+        },
+        {
+          "text": "Medical",
+          "href": "https://landdding.com/c/medical"
+        },
+        {
+          "text": "Movie",
+          "href": "https://landdding.com/c/movie"
+        },
+        {
+          "text": "News & Blogs",
+          "href": "https://landdding.com/c/news-blogs"
+        },
+        {
+          "text": "Non-Profit",
+          "href": "https://landdding.com/c/non-profit"
+        },
+        {
+          "text": "Photography",
+          "href": "https://landdding.com/c/photography"
+        },
+        {
+          "text": "Portfolio",
+          "href": "https://landdding.com/c/portfolio"
+        },
+        {
+          "text": "PR",
+          "href": "https://landdding.com/c/pr"
+        },
+        {
+          "text": "Real Estate",
+          "href": "https://landdding.com/c/real-estate"
+        },
+        {
+          "text": "SaaS",
+          "href": "https://landdding.com/c/saas"
+        },
+        {
+          "text": "Social Media",
+          "href": "https://landdding.com/c/social-media"
+        },
+        {
+          "text": "Sports",
+          "href": "https://landdding.com/c/sports"
+        },
+        {
+          "text": "Startup",
+          "href": "https://landdding.com/c/startup"
+        },
+        {
+          "text": "Technology",
+          "href": "https://landdding.com/c/technology"
+        },
+        {
+          "text": "Travel",
+          "href": "https://landdding.com/c/travel"
+        },
+        {
+          "text": "Weather",
+          "href": "https://landdding.com/c/weather"
+        },
+        {
+          "text": "Web3",
+          "href": "https://landdding.com/c/web3"
+        },
+        {
+          "text": "Writing",
+          "href": "https://landdding.com/c/writing"
+        },
+        {
+          "text": "Templates",
+          "href": "https://landdding.com/templates"
+        },
+        {
+          "text": "Blog",
+          "href": "https://landdding.com/blog"
+        },
+        {
+          "text": "Advertise",
+          "href": "https://landdding.com/advertise"
+        },
+        {
+          "text": "Tech",
+          "href": "https://landdding.com/tag/tech"
+        },
+        {
+          "text": "Design",
+          "href": "https://landdding.com/tag/design"
+        },
+        {
+          "text": "Sans Serif",
+          "href": "https://landdding.com/tag/sans-serif"
+        },
+        {
+          "text": "Software",
+          "href": "https://landdding.com/tag/software"
+        },
+        {
+          "text": "Service",
+          "href": "https://landdding.com/tag/service"
+        },
+        {
+          "text": "Agency",
+          "href": "https://landdding.com/tag/agency"
+        },
+        {
+          "text": "All →",
+          "href": "https://landdding.com/tag"
+        },
+        {
+          "text": "S\nLeedlime | Find Verified Leads for Your LinkedIn Outreach\nRicardo Lo",
+          "href": "https://landdding.com/l/leedlime-com-32e4aca1"
+        },
+        {
+          "text": "S\nbem | Structured work automation for critical industries\nAnas Davies",
+          "href": "https://landdding.com/l/bem-ai-71b59971"
+        },
+        {
+          "text": "S\nSunflower. An inbox that works, for you.\nJude Murray\n4",
+          "href": "https://landdding.com/l/sunflower-me-e65b18cb"
+        },
+        {
+          "text": "S\nMatic: The Floor-Cleaning Robot Rated 10/10 by WIRED\nTerry Harington",
+          "href": "https://landdding.com/l/maticrobots-com-560268e3"
+        },
+        {
+          "text": "S\nGenerous Branding - Agence de Branding - La Marque au Coeur ©\nAdele ",
+          "href": "https://landdding.com/l/generousbranding-com-d65f9847"
+        },
+        {
+          "text": "S\nLive audio sessions for nervous system regulation · Byotōne\nJakub Tu",
+          "href": "https://landdding.com/l/byotone-com-d7af770c"
+        },
+        {
+          "text": "S\nFragment Studio · Independent Designer for Visual Identity, Websites",
+          "href": "https://landdding.com/l/fragment-im-a185f2a4"
+        },
+        {
+          "text": "S\nMagnet Lover | Premium Custom Magnets for Bands, Tours &amp; Music B",
+          "href": "https://landdding.com/l/magnetlover-com-d7a44573"
+        },
+        {
+          "text": "S\nSutéra - Reality By Design\nNoah Arika\n7",
+          "href": "https://landdding.com/l/sutera-ch-ca0b0aac"
+        },
+        {
+          "text": "S\nHome | moremud.co\nNate Cobb\n5",
+          "href": "https://landdding.com/l/moremud-co-b9a7c2f3"
+        },
+        {
+          "text": "S\nSymmetry AI — The Work Finds Itself and Gets Done\nAli Lindsey\n4",
+          "href": "https://landdding.com/l/getsymmetry-com-dbc1c34f"
+        },
+        {
+          "text": "S\nTim Van Damme (Max Voltar) — Product Designer at Figma\nIan Gill\n4",
+          "href": "https://landdding.com/l/timvandamme-com-ebdaaf6d"
+        },
+        {
+          "text": "S\nJosh Taylor\nFlaka Kallaba\n5",
+          "href": "https://landdding.com/l/joshuataylordesign-com-be6974c6"
+        },
+        {
+          "text": "S\nDessn - Design in production\nFilip Levine\n5",
+          "href": "https://landdding.com/l/dessn-com-8f85b17c"
+        },
+        {
+          "text": "S\nEthena - Digital Dollars for the Internet Economy\nBethany Byrne\n4",
+          "href": "https://landdding.com/l/ethena-fi-c1e7bd56"
+        },
+        {
+          "text": "Submit a site\n→",
+          "href": "https://landdding.com/submit"
+        },
+        {
+          "text": "Go PRO",
+          "href": "https://landdding.com/pro"
+        },
+        {
+          "text": "",
+          "href": "https://landdding.com/"
+        },
+        {
+          "text": "",
+          "href": "https://linkedin.com/company/landdding"
+        },
+        {
+          "text": "",
+          "href": "https://pinterest.com/landdding"
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/landdding"
+        },
+        {
+          "text": "",
+          "href": "https://instagram.com/landdding"
+        },
+        {
+          "text": "Blog",
+          "href": "https://landdding.com/blog"
+        },
+        {
+          "text": "Collections",
+          "href": "https://landdding.com/collections"
+        },
+        {
+          "text": "Designers",
+          "href": "https://landdding.com/u"
+        },
+        {
+          "text": "Browse by tag",
+          "href": "https://landdding.com/tag"
+        },
+        {
+          "text": "Browse by color",
+          "href": "https://landdding.com/color"
+        },
+        {
+          "text": "Free tools",
+          "href": "https://landdding.com/tools"
+        },
+        {
+          "text": "State of Landing Pages 2026",
+          "href": "https://landdding.com/state-of-landing-pages-2026"
+        },
+        {
+          "text": "Editorial standards",
+          "href": "https://landdding.com/editorial"
+        },
+        {
+          "text": "About",
+          "href": "https://landdding.com/about"
+        },
+        {
+          "text": "Advertise",
+          "href": "https://landdding.com/advertise"
+        },
+        {
+          "text": "Newsletter",
+          "href": "https://landdding.com/newsletter"
+        },
+        {
+          "text": "FAQ",
+          "href": "https://landdding.com/faq"
+        },
+        {
+          "text": "Contact",
+          "href": "https://landdding.com/contact"
+        },
+        {
+          "text": "Advertising",
+          "href": "https://landdding.com/c/advertising"
+        },
+        {
+          "text": "Agency",
+          "href": "https://landdding.com/c/agency"
+        },
+        {
+          "text": "AI",
+          "href": "https://landdding.com/c/ai"
+        },
+        {
+          "text": "Animals",
+          "href": "https://landdding.com/c/animals"
+        },
+        {
+          "text": "Architecture",
+          "href": "https://landdding.com/c/architecture"
+        },
+        {
+          "text": "Art",
+          "href": "https://landdding.com/c/art"
+        },
+        {
+          "text": "Automotive",
+          "href": "https://landdding.com/c/automotive"
+        },
+        {
+          "text": "Career",
+          "href": "https://landdding.com/c/career"
+        },
+        {
+          "text": "Charity",
+          "href": "https://landdding.com/c/charity"
+        },
+        {
+          "text": "Corporate",
+          "href": "https://landdding.com/c/corporate"
+        },
+        {
+          "text": "Design",
+          "href": "https://landdding.com/c/design"
+        },
+        {
+          "text": "E-commerce",
+          "href": "https://landdding.com/c/e-commerce"
+        },
+        {
+          "text": "Education",
+          "href": "https://landdding.com/c/education"
+        },
+        {
+          "text": "Entertainment",
+          "href": "https://landdding.com/c/entertainment"
+        },
+        {
+          "text": "See all categories\n→",
+          "href": "https://landdding.com/c"
+        },
+        {
+          "text": "Modulify\nAI Webflow Site Builder\n↗",
+          "href": "https://modulify.ai/?ref=landdding.com"
+        },
+        {
+          "text": "Goat Slider\nCreative & Dynamic sliders in Webflow\n↗",
+          "href": "https://www.goatslider.com/?ref=landdding.com"
+        },
+        {
+          "text": "Modulo\nExplore 500+ Webflow components\n↗",
+          "href": "https://app.buildwithmodulo.com/?ref=landdding.com"
+        },
+        {
+          "text": "WeDoFlow\nWebflow Design Agency\n↗",
+          "href": "https://wedoflow.com/?ref=landdding.com"
+        },
+        {
+          "text": "LogoToUse\nThe place for 120m Logos\n↗",
+          "href": "https://logotouse.com/?ref=landdding.com"
+        },
+        {
+          "text": "FontInLogo\nFind fonts in best brands\n↗",
+          "href": "https://fontinlogo.com/?ref=landdding.com"
+        },
+        {
+          "text": "WonderList\n127 Premium Web Design in Figma\n↗",
+          "href": "https://wonderlist.design/?ref=landdding.com"
+        },
+        {
+          "text": "Ikonik\n50k+ Copyright Free Icons\n↗",
+          "href": "https://ikonik.modulify.ai/?ref=landdding.com"
+        },
+        {
+          "text": "Landdding.com",
+          "href": "https://landdding.com/"
+        },
+        {
+          "text": "Azwedo",
+          "href": "https://azwedo.com/?ref=landdding.com"
+        },
+        {
+          "text": "Terms of Service",
+          "href": "https://landdding.com/terms"
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://landdding.com/privacy"
+        },
+        {
+          "text": "Editorial",
+          "href": "https://landdding.com/editorial"
+        },
+        {
+          "text": "Contact",
+          "href": "https://landdding.com/contact"
+        },
+        {
+          "text": "",
+          "href": "https://modulify.ai/?ref=landdding.modulify.website"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--lightningcss-light": "",
+        "--secondary-bg": "#f2f1ef",
+        "--border-color": "#efeeeb",
+        "--lightningcss-dark": "",
+        "--page-bg": "#f7f7f5"
+      }
+    },
+    "mobile": {
+      "url": "https://landdding.com/",
+      "title": "Inspirational new website designs - Landdding",
+      "text": "Sign In\nDaily\nWeekly\nCategory\nBlog\n\nUPDATED DAILY\n\nInspirational website designs, from the best designers.\n\nThe curated gallery of landing pages and website templates that designers bookmark — fresh picks every day across Webflow, Framer, WordPress, Wix and Squarespace.\n\nDESIGNS\n2.7k\nDESIGNERS\n1.9k\nCATEGORIES\n40\nPLATFORMS\n5\nTRENDING\nTech\nDesign\nSans Serif\nSoftware\nService\nAgency\nAll →\nS\nLeedlime | Find Verified Leads for Your LinkedIn Outreach\nRicardo Lopez\n5\nS\nbem | Structured work automation for critical industries\nAnas Davies\n5\nS\nSunflower. An inbox that works, for you.\nJude Murray\n4\nBuild & Host premium websites and web apps!\nGet Started\nPartnership with Modulify.ai\nS\nMatic: The Floor-Cleaning Robot Rated 10/10 by WIRED\nTerry Harington\n3\nS\nGenerous Branding - Agence de Branding - La Marque au Coeur ©\nAdele Pollard\n4\nS\nLive audio sessions for nervous system regulation · Byotōne\nJakub Tucker\n4\nS\nFragment Studio · Independent Designer for Visual Identity, Websites &amp; Product Design\nJayden Benton\n3\nS\nMagnet Lover | Premium Custom Magnets for Bands, Tours &amp; Music Brands\nCeline Villegas\n3\nS\nSutéra - Reality By Design\nNoah Arika\n7\nS\nHome | moremud.co\nNate Cobb\n5\nS\nSymmetry AI — The Work Finds Itself and Gets Done\nAli Lindsey\n4\nS\nTim Van Damme (Max Voltar) — Product Designer at Figma\nIan Gill\n4\nS\nJosh Taylor\nFlaka Kallaba\n5\nS\nDessn - Design in production\nFilip Levine\n5\nS\nEthena - Digital Dollars for the Internet Economy\nBethany Byrne\n4\nGET YOUR SITE FEATURED\nBuilt something beautiful? Let designers find it.\n\nJoin thousands of creators showcasing their best work to a community hungry for inspiration.\n\nSubmit a site\n→\nGo PRO\n\nWith over a billion websites in the world, Landdding is where the best are showcased — to inspire, teach and get discovered ✨\n\nRESOURCES\nBlog\nCollections\nDesigners\nBrowse by tag\nBrowse by color\nFree tools\nState of Landing Pages 2026\nEditorial standards\nPLATFORM\nAbout\nAdvertise\nNewsletter\nFAQ\nContact\nBROWSE CATEGORIES\nAdvertising\nAgency\nAI\nAnimals\nArchitecture\nArt\nAutomotive\nCareer\nCharity\nCorporate\nDesign\nE-commerce\nEducation\nEntertainment\nSee all categories\n→\nMORE BY AZWEDO\nA little ecosystem of tools we build for designers and builders\nModulify\nAI Webflow Site Builder\n↗\nGoat Slider\nCreative & Dynamic sliders in Webflow\n↗\nModulo\nExplore 500+ Webflow components\n↗\nWeDoFlow\nWebflow Design Agency\n↗\nLogoToUse\nThe place for 120m Logos\n↗\nFontInLogo\nFind fonts in best brands\n↗\nWonderList\n127 Premium Web Design in Figma\n↗\nIkonik\n50k+ Copyright Free Icons\n↗\n© 2026 Landdding.com·Made with 💙 by Azwedo\nTerms of Service\nPrivacy Policy\nEditorial\nContact\nLight\nDark\nAuto",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Inspirational website designs, from the best designers.",
+          "bounds": {
+            "x": 33,
+            "y": 194.703125,
+            "width": 324,
+            "height": 100.78125
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Inter, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "500",
+            "lineHeight": "33.6px",
+            "color": "rgb(17, 24, 39)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Built something beautiful? Let designers find it.",
+          "bounds": {
+            "x": 39,
+            "y": 6069.46875,
+            "width": 312,
+            "height": 62.375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Inter, sans-serif",
+            "fontSize": "26px",
+            "fontWeight": "500",
+            "lineHeight": "31.2px",
+            "color": "rgb(17, 24, 39)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Sign In\nDaily\nWeekly\nCategory\nBlog\n\nUPDATED DAILY\n\nInspirational website designs, from the best designers.\n\nThe curated gallery of landing p",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 7991.109375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Inter, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "16.8px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 207.359375,
+            "y": 20,
+            "width": 32,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Inter, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "16.8px",
+            "color": "rgb(102, 102, 102)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Daily\nWeekly\nCategory\nBlog\n\nUPDATED DAILY\n\nInspirational website designs, from the best designers.\n\nThe curated gallery of landing pages and",
+          "bounds": {
+            "x": 0,
+            "y": 72,
+            "width": 390,
+            "height": 5911.671875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Inter, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "16.8px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "HEADER",
+          "role": null,
+          "text": "UPDATED DAILY\n\nInspirational website designs, from the best designers.\n\nThe curated gallery of landing pages and website templates that desi",
+          "bounds": {
+            "x": 16,
+            "y": 131,
+            "width": 358,
+            "height": 465.40625
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "Inter, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "16.8px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(242, 241, 239)",
+            "gap": "normal",
+            "padding": "32px 16px",
+            "borderRadius": "18px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "S\nLeedlime | Find Verified Leads for Your LinkedIn Outreach\nRicardo Lopez\n5\nS\nbem | Structured work automation for critical industries\nAnas ",
+          "bounds": {
+            "x": 0,
+            "y": 624.40625,
+            "width": 390,
+            "height": 5359.265625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Inter, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "16.8px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Get Started",
+          "bounds": {
+            "x": 40,
+            "y": 1748.40625,
+            "width": 117.03125,
+            "height": 36.796875
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Inter, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "600",
+            "lineHeight": "16.8px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(0, 0, 0)",
+            "gap": "normal",
+            "padding": "10px 20px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "radio",
+          "text": "Light",
+          "bounds": {
+            "x": 20,
+            "y": 7929.109375,
+            "width": 74.9375,
+            "height": 26
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Inter, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "500",
+            "lineHeight": "13px",
+            "color": "rgb(107, 114, 128)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "6px",
+            "padding": "6px 12px",
+            "borderRadius": "999px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "radio",
+          "text": "Dark",
+          "bounds": {
+            "x": 96.9375,
+            "y": 7929.109375,
+            "width": 73.265625,
+            "height": 26
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Inter, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "500",
+            "lineHeight": "13px",
+            "color": "rgb(107, 114, 128)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "6px",
+            "padding": "6px 12px",
+            "borderRadius": "999px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "radio",
+          "text": "Auto",
+          "bounds": {
+            "x": 172.203125,
+            "y": 7929.109375,
+            "width": 73.1875,
+            "height": 26
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Inter, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "500",
+            "lineHeight": "13px",
+            "color": "rgb(17, 24, 39)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "6px",
+            "padding": "6px 12px",
+            "borderRadius": "999px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://landdding.com/"
+        },
+        {
+          "text": "Get PRO",
+          "href": "https://landdding.com/pro"
+        },
+        {
+          "text": "",
+          "href": "https://landdding.com/submit"
+        },
+        {
+          "text": "Daily",
+          "href": "https://landdding.com/"
+        },
+        {
+          "text": "Weekly",
+          "href": "https://landdding.com/weekly"
+        },
+        {
+          "text": "Design",
+          "href": "https://landdding.com/c/design"
+        },
+        {
+          "text": "AI",
+          "href": "https://landdding.com/c/ai"
+        },
+        {
+          "text": "Advertising",
+          "href": "https://landdding.com/c/advertising"
+        },
+        {
+          "text": "Agency",
+          "href": "https://landdding.com/c/agency"
+        },
+        {
+          "text": "Animals",
+          "href": "https://landdding.com/c/animals"
+        },
+        {
+          "text": "Architecture",
+          "href": "https://landdding.com/c/architecture"
+        },
+        {
+          "text": "Art",
+          "href": "https://landdding.com/c/art"
+        },
+        {
+          "text": "Automotive",
+          "href": "https://landdding.com/c/automotive"
+        },
+        {
+          "text": "Career",
+          "href": "https://landdding.com/c/career"
+        },
+        {
+          "text": "Charity",
+          "href": "https://landdding.com/c/charity"
+        },
+        {
+          "text": "Corporate",
+          "href": "https://landdding.com/c/corporate"
+        },
+        {
+          "text": "E-commerce",
+          "href": "https://landdding.com/c/e-commerce"
+        },
+        {
+          "text": "Education",
+          "href": "https://landdding.com/c/education"
+        },
+        {
+          "text": "Entertainment",
+          "href": "https://landdding.com/c/entertainment"
+        },
+        {
+          "text": "Fashion & Beauty",
+          "href": "https://landdding.com/c/fashion-beauty"
+        },
+        {
+          "text": "Finance",
+          "href": "https://landdding.com/c/finance"
+        },
+        {
+          "text": "Food & Drinks",
+          "href": "https://landdding.com/c/food-drinks"
+        },
+        {
+          "text": "Furniture & Interiors",
+          "href": "https://landdding.com/c/furniture-interiors"
+        },
+        {
+          "text": "Gaming",
+          "href": "https://landdding.com/c/gaming"
+        },
+        {
+          "text": "Health & Wellness",
+          "href": "https://landdding.com/c/health-wellness"
+        },
+        {
+          "text": "HR",
+          "href": "https://landdding.com/c/hr"
+        },
+        {
+          "text": "Institutional",
+          "href": "https://landdding.com/c/institutional"
+        },
+        {
+          "text": "Magazine",
+          "href": "https://landdding.com/c/magazine"
+        },
+        {
+          "text": "Medical",
+          "href": "https://landdding.com/c/medical"
+        },
+        {
+          "text": "Movie",
+          "href": "https://landdding.com/c/movie"
+        },
+        {
+          "text": "News & Blogs",
+          "href": "https://landdding.com/c/news-blogs"
+        },
+        {
+          "text": "Non-Profit",
+          "href": "https://landdding.com/c/non-profit"
+        },
+        {
+          "text": "Photography",
+          "href": "https://landdding.com/c/photography"
+        },
+        {
+          "text": "Portfolio",
+          "href": "https://landdding.com/c/portfolio"
+        },
+        {
+          "text": "PR",
+          "href": "https://landdding.com/c/pr"
+        },
+        {
+          "text": "Real Estate",
+          "href": "https://landdding.com/c/real-estate"
+        },
+        {
+          "text": "SaaS",
+          "href": "https://landdding.com/c/saas"
+        },
+        {
+          "text": "Social Media",
+          "href": "https://landdding.com/c/social-media"
+        },
+        {
+          "text": "Sports",
+          "href": "https://landdding.com/c/sports"
+        },
+        {
+          "text": "Startup",
+          "href": "https://landdding.com/c/startup"
+        },
+        {
+          "text": "Technology",
+          "href": "https://landdding.com/c/technology"
+        },
+        {
+          "text": "Travel",
+          "href": "https://landdding.com/c/travel"
+        },
+        {
+          "text": "Weather",
+          "href": "https://landdding.com/c/weather"
+        },
+        {
+          "text": "Web3",
+          "href": "https://landdding.com/c/web3"
+        },
+        {
+          "text": "Writing",
+          "href": "https://landdding.com/c/writing"
+        },
+        {
+          "text": "Templates",
+          "href": "https://landdding.com/templates"
+        },
+        {
+          "text": "Advertising",
+          "href": "https://landdding.com/c/advertising"
+        },
+        {
+          "text": "Agency",
+          "href": "https://landdding.com/c/agency"
+        },
+        {
+          "text": "AI",
+          "href": "https://landdding.com/c/ai"
+        },
+        {
+          "text": "Animals",
+          "href": "https://landdding.com/c/animals"
+        },
+        {
+          "text": "Architecture",
+          "href": "https://landdding.com/c/architecture"
+        },
+        {
+          "text": "Art",
+          "href": "https://landdding.com/c/art"
+        },
+        {
+          "text": "Automotive",
+          "href": "https://landdding.com/c/automotive"
+        },
+        {
+          "text": "Career",
+          "href": "https://landdding.com/c/career"
+        },
+        {
+          "text": "Charity",
+          "href": "https://landdding.com/c/charity"
+        },
+        {
+          "text": "Corporate",
+          "href": "https://landdding.com/c/corporate"
+        },
+        {
+          "text": "Design",
+          "href": "https://landdding.com/c/design"
+        },
+        {
+          "text": "E-commerce",
+          "href": "https://landdding.com/c/e-commerce"
+        },
+        {
+          "text": "Education",
+          "href": "https://landdding.com/c/education"
+        },
+        {
+          "text": "Entertainment",
+          "href": "https://landdding.com/c/entertainment"
+        },
+        {
+          "text": "Fashion & Beauty",
+          "href": "https://landdding.com/c/fashion-beauty"
+        },
+        {
+          "text": "Finance",
+          "href": "https://landdding.com/c/finance"
+        },
+        {
+          "text": "Food & Drinks",
+          "href": "https://landdding.com/c/food-drinks"
+        },
+        {
+          "text": "Furniture & Interiors",
+          "href": "https://landdding.com/c/furniture-interiors"
+        },
+        {
+          "text": "Gaming",
+          "href": "https://landdding.com/c/gaming"
+        },
+        {
+          "text": "Health & Wellness",
+          "href": "https://landdding.com/c/health-wellness"
+        },
+        {
+          "text": "HR",
+          "href": "https://landdding.com/c/hr"
+        },
+        {
+          "text": "Institutional",
+          "href": "https://landdding.com/c/institutional"
+        },
+        {
+          "text": "Magazine",
+          "href": "https://landdding.com/c/magazine"
+        },
+        {
+          "text": "Medical",
+          "href": "https://landdding.com/c/medical"
+        },
+        {
+          "text": "Movie",
+          "href": "https://landdding.com/c/movie"
+        },
+        {
+          "text": "News & Blogs",
+          "href": "https://landdding.com/c/news-blogs"
+        },
+        {
+          "text": "Non-Profit",
+          "href": "https://landdding.com/c/non-profit"
+        },
+        {
+          "text": "Photography",
+          "href": "https://landdding.com/c/photography"
+        },
+        {
+          "text": "Portfolio",
+          "href": "https://landdding.com/c/portfolio"
+        },
+        {
+          "text": "PR",
+          "href": "https://landdding.com/c/pr"
+        },
+        {
+          "text": "Real Estate",
+          "href": "https://landdding.com/c/real-estate"
+        },
+        {
+          "text": "SaaS",
+          "href": "https://landdding.com/c/saas"
+        },
+        {
+          "text": "Social Media",
+          "href": "https://landdding.com/c/social-media"
+        },
+        {
+          "text": "Sports",
+          "href": "https://landdding.com/c/sports"
+        },
+        {
+          "text": "Startup",
+          "href": "https://landdding.com/c/startup"
+        },
+        {
+          "text": "Technology",
+          "href": "https://landdding.com/c/technology"
+        },
+        {
+          "text": "Travel",
+          "href": "https://landdding.com/c/travel"
+        },
+        {
+          "text": "Weather",
+          "href": "https://landdding.com/c/weather"
+        },
+        {
+          "text": "Web3",
+          "href": "https://landdding.com/c/web3"
+        },
+        {
+          "text": "Writing",
+          "href": "https://landdding.com/c/writing"
+        },
+        {
+          "text": "Templates",
+          "href": "https://landdding.com/templates"
+        },
+        {
+          "text": "Blog",
+          "href": "https://landdding.com/blog"
+        },
+        {
+          "text": "Advertise",
+          "href": "https://landdding.com/advertise"
+        },
+        {
+          "text": "Tech",
+          "href": "https://landdding.com/tag/tech"
+        },
+        {
+          "text": "Design",
+          "href": "https://landdding.com/tag/design"
+        },
+        {
+          "text": "Sans Serif",
+          "href": "https://landdding.com/tag/sans-serif"
+        },
+        {
+          "text": "Software",
+          "href": "https://landdding.com/tag/software"
+        },
+        {
+          "text": "Service",
+          "href": "https://landdding.com/tag/service"
+        },
+        {
+          "text": "Agency",
+          "href": "https://landdding.com/tag/agency"
+        },
+        {
+          "text": "All →",
+          "href": "https://landdding.com/tag"
+        },
+        {
+          "text": "S\nLeedlime | Find Verified Leads for Your LinkedIn Outreach\nRicardo Lo",
+          "href": "https://landdding.com/l/leedlime-com-32e4aca1"
+        },
+        {
+          "text": "S\nbem | Structured work automation for critical industries\nAnas Davies",
+          "href": "https://landdding.com/l/bem-ai-71b59971"
+        },
+        {
+          "text": "S\nSunflower. An inbox that works, for you.\nJude Murray\n4",
+          "href": "https://landdding.com/l/sunflower-me-e65b18cb"
+        },
+        {
+          "text": "S\nMatic: The Floor-Cleaning Robot Rated 10/10 by WIRED\nTerry Harington",
+          "href": "https://landdding.com/l/maticrobots-com-560268e3"
+        },
+        {
+          "text": "S\nGenerous Branding - Agence de Branding - La Marque au Coeur ©\nAdele ",
+          "href": "https://landdding.com/l/generousbranding-com-d65f9847"
+        },
+        {
+          "text": "S\nLive audio sessions for nervous system regulation · Byotōne\nJakub Tu",
+          "href": "https://landdding.com/l/byotone-com-d7af770c"
+        },
+        {
+          "text": "S\nFragment Studio · Independent Designer for Visual Identity, Websites",
+          "href": "https://landdding.com/l/fragment-im-a185f2a4"
+        },
+        {
+          "text": "S\nMagnet Lover | Premium Custom Magnets for Bands, Tours &amp; Music B",
+          "href": "https://landdding.com/l/magnetlover-com-d7a44573"
+        },
+        {
+          "text": "S\nSutéra - Reality By Design\nNoah Arika\n7",
+          "href": "https://landdding.com/l/sutera-ch-ca0b0aac"
+        },
+        {
+          "text": "S\nHome | moremud.co\nNate Cobb\n5",
+          "href": "https://landdding.com/l/moremud-co-b9a7c2f3"
+        },
+        {
+          "text": "S\nSymmetry AI — The Work Finds Itself and Gets Done\nAli Lindsey\n4",
+          "href": "https://landdding.com/l/getsymmetry-com-dbc1c34f"
+        },
+        {
+          "text": "S\nTim Van Damme (Max Voltar) — Product Designer at Figma\nIan Gill\n4",
+          "href": "https://landdding.com/l/timvandamme-com-ebdaaf6d"
+        },
+        {
+          "text": "S\nJosh Taylor\nFlaka Kallaba\n5",
+          "href": "https://landdding.com/l/joshuataylordesign-com-be6974c6"
+        },
+        {
+          "text": "S\nDessn - Design in production\nFilip Levine\n5",
+          "href": "https://landdding.com/l/dessn-com-8f85b17c"
+        },
+        {
+          "text": "S\nEthena - Digital Dollars for the Internet Economy\nBethany Byrne\n4",
+          "href": "https://landdding.com/l/ethena-fi-c1e7bd56"
+        },
+        {
+          "text": "Submit a site\n→",
+          "href": "https://landdding.com/submit"
+        },
+        {
+          "text": "Go PRO",
+          "href": "https://landdding.com/pro"
+        },
+        {
+          "text": "",
+          "href": "https://landdding.com/"
+        },
+        {
+          "text": "",
+          "href": "https://linkedin.com/company/landdding"
+        },
+        {
+          "text": "",
+          "href": "https://pinterest.com/landdding"
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/landdding"
+        },
+        {
+          "text": "",
+          "href": "https://instagram.com/landdding"
+        },
+        {
+          "text": "Blog",
+          "href": "https://landdding.com/blog"
+        },
+        {
+          "text": "Collections",
+          "href": "https://landdding.com/collections"
+        },
+        {
+          "text": "Designers",
+          "href": "https://landdding.com/u"
+        },
+        {
+          "text": "Browse by tag",
+          "href": "https://landdding.com/tag"
+        },
+        {
+          "text": "Browse by color",
+          "href": "https://landdding.com/color"
+        },
+        {
+          "text": "Free tools",
+          "href": "https://landdding.com/tools"
+        },
+        {
+          "text": "State of Landing Pages 2026",
+          "href": "https://landdding.com/state-of-landing-pages-2026"
+        },
+        {
+          "text": "Editorial standards",
+          "href": "https://landdding.com/editorial"
+        },
+        {
+          "text": "About",
+          "href": "https://landdding.com/about"
+        },
+        {
+          "text": "Advertise",
+          "href": "https://landdding.com/advertise"
+        },
+        {
+          "text": "Newsletter",
+          "href": "https://landdding.com/newsletter"
+        },
+        {
+          "text": "FAQ",
+          "href": "https://landdding.com/faq"
+        },
+        {
+          "text": "Contact",
+          "href": "https://landdding.com/contact"
+        },
+        {
+          "text": "Advertising",
+          "href": "https://landdding.com/c/advertising"
+        },
+        {
+          "text": "Agency",
+          "href": "https://landdding.com/c/agency"
+        },
+        {
+          "text": "AI",
+          "href": "https://landdding.com/c/ai"
+        },
+        {
+          "text": "Animals",
+          "href": "https://landdding.com/c/animals"
+        },
+        {
+          "text": "Architecture",
+          "href": "https://landdding.com/c/architecture"
+        },
+        {
+          "text": "Art",
+          "href": "https://landdding.com/c/art"
+        },
+        {
+          "text": "Automotive",
+          "href": "https://landdding.com/c/automotive"
+        },
+        {
+          "text": "Career",
+          "href": "https://landdding.com/c/career"
+        },
+        {
+          "text": "Charity",
+          "href": "https://landdding.com/c/charity"
+        },
+        {
+          "text": "Corporate",
+          "href": "https://landdding.com/c/corporate"
+        },
+        {
+          "text": "Design",
+          "href": "https://landdding.com/c/design"
+        },
+        {
+          "text": "E-commerce",
+          "href": "https://landdding.com/c/e-commerce"
+        },
+        {
+          "text": "Education",
+          "href": "https://landdding.com/c/education"
+        },
+        {
+          "text": "Entertainment",
+          "href": "https://landdding.com/c/entertainment"
+        },
+        {
+          "text": "See all categories\n→",
+          "href": "https://landdding.com/c"
+        },
+        {
+          "text": "Modulify\nAI Webflow Site Builder\n↗",
+          "href": "https://modulify.ai/?ref=landdding.com"
+        },
+        {
+          "text": "Goat Slider\nCreative & Dynamic sliders in Webflow\n↗",
+          "href": "https://www.goatslider.com/?ref=landdding.com"
+        },
+        {
+          "text": "Modulo\nExplore 500+ Webflow components\n↗",
+          "href": "https://app.buildwithmodulo.com/?ref=landdding.com"
+        },
+        {
+          "text": "WeDoFlow\nWebflow Design Agency\n↗",
+          "href": "https://wedoflow.com/?ref=landdding.com"
+        },
+        {
+          "text": "LogoToUse\nThe place for 120m Logos\n↗",
+          "href": "https://logotouse.com/?ref=landdding.com"
+        },
+        {
+          "text": "FontInLogo\nFind fonts in best brands\n↗",
+          "href": "https://fontinlogo.com/?ref=landdding.com"
+        },
+        {
+          "text": "WonderList\n127 Premium Web Design in Figma\n↗",
+          "href": "https://wonderlist.design/?ref=landdding.com"
+        },
+        {
+          "text": "Ikonik\n50k+ Copyright Free Icons\n↗",
+          "href": "https://ikonik.modulify.ai/?ref=landdding.com"
+        },
+        {
+          "text": "Landdding.com",
+          "href": "https://landdding.com/"
+        },
+        {
+          "text": "Azwedo",
+          "href": "https://azwedo.com/?ref=landdding.com"
+        },
+        {
+          "text": "Terms of Service",
+          "href": "https://landdding.com/terms"
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://landdding.com/privacy"
+        },
+        {
+          "text": "Editorial",
+          "href": "https://landdding.com/editorial"
+        },
+        {
+          "text": "Contact",
+          "href": "https://landdding.com/contact"
+        },
+        {
+          "text": "",
+          "href": "https://modulify.ai/?ref=landdding.modulify.website"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--lightningcss-light": "",
+        "--secondary-bg": "#f2f1ef",
+        "--border-color": "#efeeeb",
+        "--lightningcss-dark": "",
+        "--page-bg": "#f7f7f5"
+      }
+    }
+  },
+  "scope": "public source reference; not a locally reconstructed component",
+  "http_status": 200,
+  "page_errors": []
+}

@@ -1,0 +1,76 @@
+{
+  "id": "ux-tabs-contract-reference",
+  "location": {
+    "quadrant": "Q4-ux-motion",
+    "category": "accessibility-specs",
+    "section": "aria-keyboard-contracts",
+    "file_path": "Q4-ux-motion/accessibility-specs/aria-keyboard-contracts/ux-tabs-contract-reference.json"
+  },
+  "tier": "C",
+  "tier_audit": {
+    "visual_verified": true,
+    "verification_scope": "source screenshots only; not local implementation fidelity",
+    "fidelity_type": "visual_spec",
+    "responsive_score": null,
+    "audit_notes": [
+      "Tier C: reference/spec, not ready-to-use code.",
+      "Source DOM measurements may describe gallery chrome, not the referenced product.",
+      "Keyboard, contrast and animation timing not certified."
+    ],
+    "evidence": [
+      "audits/source-evidence/component-gallery-tabs/evidence.json",
+      "previews/ux-tabs-contract-reference/desktop.png",
+      "previews/ux-tabs-contract-reference/mobile.png"
+    ],
+    "source_observations": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "page_horizontal_overflow": false,
+        "broken_images": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "page_horizontal_overflow": false,
+        "broken_images": []
+      }
+    }
+  },
+  "source_site": "component.gallery",
+  "source_url": "https://component.gallery/components/tabs",
+  "license": {
+    "status": "reference_only_not_code_license",
+    "redistribution": "No source code or original downloadable assets included; screenshots are research evidence."
+  },
+  "stack_compatibility": [
+    "framework-agnostic-spec"
+  ],
+  "style_tags": [
+    "aria-keyboard-contracts"
+  ],
+  "artifact": {
+    "type": "visual_spec",
+    "spec": "Referência de interface com painéis alternados. Contrato proposto para implementação: tablist/tab/tabpanel, aria-selected, relações por ID, foco gerenciado e setas/Home/End conforme orientação e modo de ativação escolhido. Este contrato é recomendação própria, não resultado de teste de todas as bibliotecas listadas.",
+    "observed_headings": [
+      "Tabs",
+      "80 EXAMPLES",
+      "Tabs",
+      "TECH",
+      "FEATURES"
+    ],
+    "source_dom_evidence": "audits/source-evidence/component-gallery-tabs/evidence.json",
+    "states": {
+      "desktop": "captured",
+      "mobile": "captured",
+      "hover": "not audited",
+      "focus": "not audited",
+      "active": "not audited",
+      "disabled": "not audited"
+    }
+  }
+}

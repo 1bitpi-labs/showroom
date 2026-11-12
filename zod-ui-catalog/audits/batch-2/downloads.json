@@ -1,0 +1,354 @@
+[
+  {
+    "source": "dithercn",
+    "name": "dither-glow",
+    "url": "https://dithercn.dev/r/dither-glow.json",
+    "http_status": 200,
+    "file": "assets/dithercn/dither-glow.json",
+    "sha256": "9943776a6a25d41c852e963fdfff192573c32e219a0ad421232e78d4e3884816"
+  },
+  {
+    "source": "dithercn",
+    "name": "mesh-gradient",
+    "url": "https://dithercn.dev/r/mesh-gradient.json",
+    "http_status": 200,
+    "file": "assets/dithercn/mesh-gradient.json",
+    "sha256": "79f272833df8b4b5a3d4920388861a9c1e565ae8e1af2b67596e63cff650971b"
+  },
+  {
+    "source": "dithercn",
+    "name": "noise-field",
+    "url": "https://dithercn.dev/r/noise-field.json",
+    "http_status": 200,
+    "file": "assets/dithercn/noise-field.json",
+    "sha256": "5d9a85a63b15f794ee95994d85bc36cdf57e35e80cf26137c287df434d154124"
+  },
+  {
+    "source": "dithercn",
+    "name": "plasma",
+    "url": "https://dithercn.dev/r/plasma.json",
+    "http_status": 200,
+    "file": "assets/dithercn/plasma.json",
+    "sha256": "d3ce40f9d663d7deccb70a48479c1c6cc2b223e72af7f433262e5ae23a7e7b8b"
+  },
+  {
+    "source": "dithercn",
+    "name": "starfield",
+    "url": "https://dithercn.dev/r/starfield.json",
+    "http_status": 200,
+    "file": "assets/dithercn/starfield.json",
+    "sha256": "b5091a0704795299f0a7cc91902a53d269c2b3209528c5b96f3447bf4fe10210"
+  },
+  {
+    "source": "dithercn",
+    "name": "halftone",
+    "url": "https://dithercn.dev/r/halftone.json",
+    "http_status": 200,
+    "file": "assets/dithercn/halftone.json",
+    "sha256": "6a28b821fdfa5a948ece18c5c011b84ee59191a7a0b8619ca8a70ec59b4bdb3b"
+  },
+  {
+    "source": "dithercn",
+    "name": "horizon",
+    "url": "https://dithercn.dev/r/horizon.json",
+    "http_status": 200,
+    "file": "assets/dithercn/horizon.json",
+    "sha256": "1a995a707cacc9209d0f090c519093cb06282fb754a15c130eef8a21429979c7"
+  },
+  {
+    "source": "dithercn",
+    "name": "beams",
+    "url": "https://dithercn.dev/r/beams.json",
+    "http_status": 200,
+    "file": "assets/dithercn/beams.json",
+    "sha256": "7427e0208ac573bfda0af5dcc1d200b2ae515c0e69976e86c8d6774e404b948a"
+  },
+  {
+    "source": "dithercn",
+    "name": "eclipse",
+    "url": "https://dithercn.dev/r/eclipse.json",
+    "http_status": 200,
+    "file": "assets/dithercn/eclipse.json",
+    "sha256": "721debfc91af552e8582036600f4b2a225245bead571f87934ad70ec386711e8"
+  },
+  {
+    "source": "dithercn",
+    "name": "dither-orb",
+    "url": "https://dithercn.dev/r/dither-orb.json",
+    "http_status": 200,
+    "file": "assets/dithercn/dither-orb.json",
+    "sha256": "811c75ec23d46761d76c21656a17f88b8e5ac9529c483ba649eed947a51658d1"
+  },
+  {
+    "source": "dithercn",
+    "name": "contours",
+    "url": "https://dithercn.dev/r/contours.json",
+    "http_status": 200,
+    "file": "assets/dithercn/contours.json",
+    "sha256": "9cb0622ec13dea79d7ad85d52a2e302f19b34a0e03314c47ff1786bb801e3a46"
+  },
+  {
+    "source": "dithercn",
+    "name": "ripples",
+    "url": "https://dithercn.dev/r/ripples.json",
+    "http_status": 200,
+    "file": "assets/dithercn/ripples.json",
+    "sha256": "b72b0fea066c16e4b98414e4a659fb4d702858d3d160d0d853a325b7799685ac"
+  },
+  {
+    "source": "dithercn",
+    "name": "retro-grid",
+    "url": "https://dithercn.dev/r/retro-grid.json",
+    "http_status": 200,
+    "file": "assets/dithercn/retro-grid.json",
+    "sha256": "6a8ab4849486ee578c263d1314dd56f43d5d9fda33f96e85e2e3643dc4eeb4f2"
+  },
+  {
+    "source": "dithercn",
+    "name": "silk",
+    "url": "https://dithercn.dev/r/silk.json",
+    "http_status": 200,
+    "file": "assets/dithercn/silk.json",
+    "sha256": "46c8797446f910291932326e7ba8e8f6f0c72105641db24d9389cbfa955cbfd5"
+  },
+  {
+    "source": "dithercn",
+    "name": "tunnel",
+    "url": "https://dithercn.dev/r/tunnel.json",
+    "http_status": 200,
+    "file": "assets/dithercn/tunnel.json",
+    "sha256": "405c65ea3fdc7c8392fd942b9bd1c8101dab2733e1fae4a297f4166ea87b145e"
+  },
+  {
+    "source": "dithercn",
+    "name": "smoke",
+    "url": "https://dithercn.dev/r/smoke.json",
+    "http_status": 200,
+    "file": "assets/dithercn/smoke.json",
+    "sha256": "463f60b9afea5dc207c60087a6c059430f3a80b96073645350ccbfa5ce5a8d3b"
+  },
+  {
+    "source": "dithercn",
+    "name": "metaballs",
+    "url": "https://dithercn.dev/r/metaballs.json",
+    "http_status": 200,
+    "file": "assets/dithercn/metaballs.json",
+    "sha256": "adc0302a8a5f50a3ef276aadfa7818b1f7ec482f65a3f8ce7b2793f834c62ac6"
+  },
+  {
+    "source": "dithercn",
+    "name": "ridgelines",
+    "url": "https://dithercn.dev/r/ridgelines.json",
+    "http_status": 200,
+    "file": "assets/dithercn/ridgelines.json",
+    "sha256": "dff77947c3172cc6354fef40a58ad577353329ba71a763fc20a0bc25bc8e849a"
+  },
+  {
+    "source": "dithercn",
+    "name": "flow-field",
+    "url": "https://dithercn.dev/r/flow-field.json",
+    "http_status": 200,
+    "file": "assets/dithercn/flow-field.json",
+    "sha256": "f9e3215ffa27de978aaa9bf0d612154f0af195aaead355ca2096acdd3ccca812"
+  },
+  {
+    "source": "dithercn",
+    "name": "voronoi",
+    "url": "https://dithercn.dev/r/voronoi.json",
+    "http_status": 200,
+    "file": "assets/dithercn/voronoi.json",
+    "sha256": "71c7e00d616bf19e2ac2f65eab85731775d9739824141e74223c139c4cb879bf"
+  },
+  {
+    "source": "shadcn",
+    "name": "button",
+    "url": "https://ui.shadcn.com/r/styles/new-york-v4/button.json",
+    "http_status": 200,
+    "file": "assets/shadcn/button.json",
+    "sha256": "4b8d7d848742727973c1b088af8d15f0b628272a1316f2d2fa344e73ddff9e9c"
+  },
+  {
+    "source": "shadcn",
+    "name": "badge",
+    "url": "https://ui.shadcn.com/r/styles/new-york-v4/badge.json",
+    "http_status": 200,
+    "file": "assets/shadcn/badge.json",
+    "sha256": "0f988b37cf1c56e7ecc83b1dcf24c9af4e73ce4341da5caf2c9d9b07a551319b"
+  },
+  {
+    "source": "shadcn",
+    "name": "card",
+    "url": "https://ui.shadcn.com/r/styles/new-york-v4/card.json",
+    "http_status": 200,
+    "file": "assets/shadcn/card.json",
+    "sha256": "c7ebaa49ba2a0613838558f3892c5007523c2dc26d6b36a244145d454a796106"
+  },
+  {
+    "source": "shadcn",
+    "name": "input",
+    "url": "https://ui.shadcn.com/r/styles/new-york-v4/input.json",
+    "http_status": 200,
+    "file": "assets/shadcn/input.json",
+    "sha256": "b1fffa12ba72ce30a291749012b47235eda110648b8106725ced22b5b31c8f1b"
+  },
+  {
+    "source": "shadcn",
+    "name": "textarea",
+    "url": "https://ui.shadcn.com/r/styles/new-york-v4/textarea.json",
+    "http_status": 200,
+    "file": "assets/shadcn/textarea.json",
+    "sha256": "2367d3964326b19ca2355f872d08153c86932abd4b103b5fd02039a3f2cb8ae5"
+  },
+  {
+    "source": "shadcn",
+    "name": "checkbox",
+    "url": "https://ui.shadcn.com/r/styles/new-york-v4/checkbox.json",
+    "http_status": 200,
+    "file": "assets/shadcn/checkbox.json",
+    "sha256": "567b649e4cd68c05bfdc58ca00fa04aee38bca291cd6f16ed7776ec06ba3d6bd"
+  },
+  {
+    "source": "shadcn",
+    "name": "switch",
+    "url": "https://ui.shadcn.com/r/styles/new-york-v4/switch.json",
+    "http_status": 200,
+    "file": "assets/shadcn/switch.json",
+    "sha256": "cc526c3a4827be315be746355a988e22dacc99d663ed31924fd30c2507cdc005"
+  },
+  {
+    "source": "shadcn",
+    "name": "tabs",
+    "url": "https://ui.shadcn.com/r/styles/new-york-v4/tabs.json",
+    "http_status": 200,
+    "file": "assets/shadcn/tabs.json",
+    "sha256": "49320e6dcf56570753bb14ed3f5d66acf07d12e183c0e9024466995b25be5b1d"
+  },
+  {
+    "source": "shadcn",
+    "name": "accordion",
+    "url": "https://ui.shadcn.com/r/styles/new-york-v4/accordion.json",
+    "http_status": 200,
+    "file": "assets/shadcn/accordion.json",
+    "sha256": "93254d43d27259998b10c7bb5261f85bdc44509d46309a5c10a1e5d126a8d279"
+  },
+  {
+    "source": "shadcn",
+    "name": "dialog",
+    "url": "https://ui.shadcn.com/r/styles/new-york-v4/dialog.json",
+    "http_status": 200,
+    "file": "assets/shadcn/dialog.json",
+    "sha256": "0115e3a57aa55a978c5fed0d77f7e98edd694215aae3e569def3fff722ba9f26"
+  },
+  {
+    "source": "shadcn",
+    "name": "progress",
+    "url": "https://ui.shadcn.com/r/styles/new-york-v4/progress.json",
+    "http_status": 200,
+    "file": "assets/shadcn/progress.json",
+    "sha256": "ca0c7ae4d88b8039a9ee64653569cf8be6a058070d9f719d2294c9d49d56bcab"
+  },
+  {
+    "source": "shadcn",
+    "name": "slider",
+    "url": "https://ui.shadcn.com/r/styles/new-york-v4/slider.json",
+    "http_status": 200,
+    "file": "assets/shadcn/slider.json",
+    "sha256": "99f6044fa83df91dfda17d3cc57cf5297c3759d57fd483665e518e4961208e73"
+  },
+  {
+    "source": "shadcn",
+    "name": "button-demo",
+    "url": "https://ui.shadcn.com/r/styles/new-york-v4/button-demo.json",
+    "http_status": 200,
+    "file": "assets/shadcn/button-demo.json",
+    "sha256": "c138dbbd347e4dd6b9e4088b55c9d028dc9dd41818c6e961879b773027e71a83"
+  },
+  {
+    "source": "shadcn",
+    "name": "badge-demo",
+    "url": "https://ui.shadcn.com/r/styles/new-york-v4/badge-demo.json",
+    "http_status": 200,
+    "file": "assets/shadcn/badge-demo.json",
+    "sha256": "7dcc67e52b506c0ac42cb7f9a844acca30ec2344411b73c2bdb642e981491373"
+  },
+  {
+    "source": "shadcn",
+    "name": "card-demo",
+    "url": "https://ui.shadcn.com/r/styles/new-york-v4/card-demo.json",
+    "http_status": 200,
+    "file": "assets/shadcn/card-demo.json",
+    "sha256": "d49211d7827233c0967cb3a83a16f6b79473b91a8441b7144c6be785b53ea2d0"
+  },
+  {
+    "source": "shadcn",
+    "name": "input-demo",
+    "url": "https://ui.shadcn.com/r/styles/new-york-v4/input-demo.json",
+    "http_status": 200,
+    "file": "assets/shadcn/input-demo.json",
+    "sha256": "c87f2c01e446f634d5bb934a4f2b2a9952f44e023cbf9f05acfd5c218fac43a1"
+  },
+  {
+    "source": "shadcn",
+    "name": "textarea-demo",
+    "url": "https://ui.shadcn.com/r/styles/new-york-v4/textarea-demo.json",
+    "http_status": 200,
+    "file": "assets/shadcn/textarea-demo.json",
+    "sha256": "0365e384d818adbef78a8b8a63987a53d9399b0cccbb0308fe0f8b796c6bc8d3"
+  },
+  {
+    "source": "shadcn",
+    "name": "checkbox-demo",
+    "url": "https://ui.shadcn.com/r/styles/new-york-v4/checkbox-demo.json",
+    "http_status": 200,
+    "file": "assets/shadcn/checkbox-demo.json",
+    "sha256": "085146796a068ff4dac8e02305fc79acde6ae4498a1effb9c8f158eb280e9a11"
+  },
+  {
+    "source": "shadcn",
+    "name": "switch-demo",
+    "url": "https://ui.shadcn.com/r/styles/new-york-v4/switch-demo.json",
+    "http_status": 200,
+    "file": "assets/shadcn/switch-demo.json",
+    "sha256": "95bd91e36f5912c499cbb7865d66f61b0ef206145e8860748dad4493188b3973"
+  },
+  {
+    "source": "shadcn",
+    "name": "tabs-demo",
+    "url": "https://ui.shadcn.com/r/styles/new-york-v4/tabs-demo.json",
+    "http_status": 200,
+    "file": "assets/shadcn/tabs-demo.json",
+    "sha256": "746857cdb199cb705366de7ed169744ef7257f4120576e9a25db42376aa7b591"
+  },
+  {
+    "source": "shadcn",
+    "name": "accordion-demo",
+    "url": "https://ui.shadcn.com/r/styles/new-york-v4/accordion-demo.json",
+    "http_status": 200,
+    "file": "assets/shadcn/accordion-demo.json",
+    "sha256": "ba2c5aacf6a8c78ede9ca1004b1074f125805efc9e4fd351e73017aa3889f7ec"
+  },
+  {
+    "source": "shadcn",
+    "name": "dialog-demo",
+    "url": "https://ui.shadcn.com/r/styles/new-york-v4/dialog-demo.json",
+    "http_status": 200,
+    "file": "assets/shadcn/dialog-demo.json",
+    "sha256": "c06e990a210255df0c3f39ee95496d5f902302652f8ab38346358525d74982f4"
+  },
+  {
+    "source": "shadcn",
+    "name": "progress-demo",
+    "url": "https://ui.shadcn.com/r/styles/new-york-v4/progress-demo.json",
+    "http_status": 200,
+    "file": "assets/shadcn/progress-demo.json",
+    "sha256": "8783d4491c888ba2263f7803f7fc8e250d93273fc1548b98daf1525f67a470e3"
+  },
+  {
+    "source": "shadcn",
+    "name": "slider-demo",
+    "url": "https://ui.shadcn.com/r/styles/new-york-v4/slider-demo.json",
+    "http_status": 200,
+    "file": "assets/shadcn/slider-demo.json",
+    "sha256": "1d22d531f976e843556fa1393b3728a0e5e3c4d18596b1e0ed74149c4bb34d63"
+  }
+]

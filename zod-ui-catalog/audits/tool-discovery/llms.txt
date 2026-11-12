@@ -1,0 +1,131 @@
+# dithercn
+
+> Add dithers to anything in your app. dithercn gives your coding agent the primitives: a dither engine and a skill that teaches it. Ask for any dither and your agent builds it on the engine, in your shadcn theme. The backgrounds, charts and interface pieces in the docs are examples. Use this index to discover the available documentation pages, markdown mirrors, and registry resources before browsing.
+
+## Start here
+
+dithercn is an engine, not a component menu. The components under Backgrounds, Charts, Interface, Text and Images are examples of what the engine draws. When a user asks for a dither, build the one they asked for:
+
+1. Install the engine and the agent skill: `npx shadcn@latest add https://dithercn.dev/r/dithercn-skill.json`. Then follow the skill (https://dithercn.dev/.well-known/agent-skills/dithercn/SKILL.md).
+2. Write your own field on `DitherShader`: [Write your own dither](https://dithercn.dev/docs/engine/write-your-own.md). A field is a GLSL function that returns a tone from 0 to 1; any shape you can describe with math works.
+3. Colour it from the theme: [Palettes](https://dithercn.dev/docs/engine/palettes.md). For many hues at once (a rainbow, RGB, a different colour per line or shape), add a `colorField` next to the field; the "Any number of hues" section shows how.
+4. Install an example only when it is what the user asked for. Otherwise read the closest one's source for technique and write your own.
+
+## When to use dithercn
+
+Use dithercn when a user asks for:
+
+- A dithered, Bayer, halftone, ordered-dither or pixel texture anywhere in a React or shadcn/ui app
+- A dithered hero or section background, such as an aurora, gradient, globe, starfield or waves
+- Charts and status displays with a dithered fill: area, bar, line, donut, gauge, heatmap, sparkline, progress and uptime bars
+- Interface pieces with a dithered finish, such as cards, buttons, loaders, skeletons and avatars
+- Display text or images drawn, revealed or converted with a dither, and PNG, SVG or CSS exports of any dither
+
+Install the skill first, then build on the engine in `lib/dither`. Start from the closest example only when one fits; otherwise write a new field.
+
+## Official CLI
+
+dithercn has no CLI of its own. It installs with two official CLIs:
+
+- shadcn CLI, for the engine, the skill and any example: `npx shadcn@latest add https://dithercn.dev/r/dithercn-skill.json` (or any `https://dithercn.dev/r/<name>.json` from the [registry index](https://dithercn.dev/r/registry.json))
+- skills CLI, for the agent skill alone in Claude Code, Codex, Cursor, Gemini CLI and others: `npx skills add https://dithercn.dev`
+
+## Docs
+
+- Get started
+  - [Introduction](https://dithercn.dev/docs.md): A dither engine your coding agent uses to build any dither for your landing page or dashboard.
+  - [Installation](https://dithercn.dev/docs/installation.md): Add the dithercn engine and agent skill to a shadcn project, or install a single example.
+  - [Theming](https://dithercn.dev/docs/theming.md): How dithercn reads your shadcn theme, and how to override colours and cell size.
+- Examples: Every component built on the engine, grouped by what it is for.
+  - [Catalog](https://dithercn.dev/docs/examples.md): Every example component built on the dithercn engine, grouped by what it's for.
+- Backgrounds: Full-bleed dithered surfaces for heroes, sections and cards.
+  - [Dither gradient](https://dithercn.dev/docs/backgrounds/dither-gradient.md): A linear, radial or conic gradient drawn as a dither, for heroes, section breaks and cards.
+  - [Dither glow](https://dithercn.dev/docs/backgrounds/dither-glow.md): A soft dithered spotlight from an edge, a corner or any point, for heroes, pricing cards and quiet section backgrounds.
+  - [Mesh gradient](https://dithercn.dev/docs/backgrounds/mesh-gradient.md): Three to five colour blobs that drift and melt into each other, drawn as a dither, for heroes and sign-up screens.
+  - [Aurora](https://dithercn.dev/docs/backgrounds/aurora.md): Curtains of light that fold, sway and shimmer, drawn as a dither, with knobs for colour, rays, tilt and drift.
+  - [Noise field](https://dithercn.dev/docs/backgrounds/noise-field.md): A slow, folding noise texture drawn as a dither, in four styles, with a mask that clears space for the text on top.
+  - [Waves](https://dithercn.dev/docs/backgrounds/waves.md): Layered swells under a glowing horizon, or thin lines like a sound wave, drawn as a dither.
+  - [Plasma](https://dithercn.dev/docs/backgrounds/plasma.md): Classic plasma: overlapping sine waves that flow into each other, dithered in two colours or a whole palette.
+  - [Beams](https://dithercn.dev/docs/backgrounds/beams.md): God rays: shafts of light from a point or an edge that sweep slowly and fade with distance.
+  - [Silk](https://dithercn.dev/docs/backgrounds/silk.md): Folds of silk catching the light: smooth sheets that ripple and shift, with a bright highlight along each crest.
+  - [Smoke](https://dithercn.dev/docs/backgrounds/smoke.md): Soft smoke that billows upward and thins out, lit from above, drawn as a dither.
+  - [Fire](https://dithercn.dev/docs/backgrounds/fire.md): Flames rising from the edge of the box, with a hot base, tapering tongues that lick up and tear off, and embers that drift above them, drawn as a dither.
+  - [Flow field](https://dithercn.dev/docs/backgrounds/flow-field.md): A wind map drawn as a dither: streamlines of a slowly turning, swirling flow, with bright streaks that travel along them and leave fading tails.
+  - [Contours](https://dithercn.dev/docs/backgrounds/contours.md): A topographic map drawn as a dither: contour lines over slowly drifting hills, with heavier index lines and a light hillshade.
+  - [Ripples](https://dithercn.dev/docs/backgrounds/ripples.md): Concentric rings spreading from one to four points and crossing like drops on still water, drawn as a dither.
+  - [Rain](https://dithercn.dev/docs/backgrounds/rain.md): Rain on a window at night: a few big, soft city lights out of focus behind the glass, drops that show them flipped and brighter like tiny lenses, and bigger drops that slide down and leave wet trails.
+  - [Ridgelines](https://dithercn.dev/docs/backgrounds/ridgelines.md): Stacked ridge lines like a pulsar plot, each hiding the ones behind it, drawn as a dither.
+  - [Metaballs](https://dithercn.dev/docs/backgrounds/metaballs.md): Soft blobs that drift, merge and split like a lava lamp, drawn as a dither.
+  - [Voronoi Cells](https://dithercn.dev/docs/backgrounds/voronoi.md): A cellular surface like soap foam, crackle glaze or raised stone tiles, drawn as a dither, with cells that slowly swell, shrink and trade edges.
+  - [Tunnel](https://dithercn.dev/docs/backgrounds/tunnel.md): A slow flight down a tunnel of round or square rings, drawn as a dither.
+  - [Retro grid](https://dithercn.dev/docs/backgrounds/retro-grid.md): A perspective grid floor scrolling towards a horizon under a striped, glowing sun, drawn as a dither.
+  - [Eclipse](https://dithercn.dev/docs/backgrounds/eclipse.md): A dark disc with a glowing rim and a soft corona that breathes slowly, for launch pages and event heroes.
+  - [Black Hole](https://dithercn.dev/docs/backgrounds/black-hole.md): A black hole with a dark shadow, a thin photon ring and a hot accretion disk seen at a slant, its far side lensed over the top and under the bottom, orbiting with one side brighter.
+  - [Horizon](https://dithercn.dev/docs/backgrounds/horizon.md): A planet's horizon seen from space, with a lit rim, a drifting aurora glow and fixed stars. The landing page hero, with props.
+  - [Starfield](https://dithercn.dev/docs/backgrounds/starfield.md): Dithered stars in three parallax layers that twinkle and drift slowly, for space themes, sign-in pages and launch pages.
+  - [Galaxy](https://dithercn.dev/docs/backgrounds/galaxy.md): A tilted spiral galaxy turning slowly, with a bright core, arms with knots of stars, dust lanes and fixed stars behind.
+  - [Halftone](https://dithercn.dev/docs/backgrounds/halftone.md): A print halftone: round dots on a rotated screen that swell and shrink with a source, in one ink or up to three overlapping like CMYK.
+  - [Moiré](https://dithercn.dev/docs/backgrounds/moire.md): Two fine gratings laid over each other and sliding slowly, so huge interference bands bloom, sweep and turn across the box, as when two window screens overlap.
+  - [Dither globe](https://dithercn.dev/docs/backgrounds/dither-globe.md): A rotating dithered globe with a lit terminator, pulsing markers and arcs, for global sections of a landing page.
+  - [Dot map](https://dithercn.dev/docs/backgrounds/dot-map.md): A flat world map in dithered dots with pulsing markers and dotted arcs, for customers-worldwide sections.
+  - [Dither orb](https://dithercn.dev/docs/backgrounds/dither-orb.md): A lit, dithered orb that breathes slowly and leans towards the pointer, for AI and assistant surfaces.
+  - [Dither fade](https://dithercn.dev/docs/backgrounds/dither-fade.md): A dithered edge that fades a section's content into a solid colour, for the seam between two sections or the end of a clipped list.
+- Charts: Charts and status displays with a dithered fill.
+  - [Area chart](https://dithercn.dev/docs/charts/area-chart.md): A line over a dithered fill that is densest at the line, for revenue, traffic and other totals over time.
+  - [Bar chart](https://dithercn.dev/docs/charts/bar-chart.md): Dithered bars with a solid cap, grouped or stacked, for weekly counts and period comparisons.
+  - [Line chart](https://dithercn.dev/docs/charts/line-chart.md): Crisp lines with dithered range bands and point markers, for latency, conversion and period-over-period comparisons.
+  - [Sparkline](https://dithercn.dev/docs/charts/sparkline.md): A tiny inline trend with a dithered fill and a dot on the latest value, for stat cards and table rows.
+  - [Heatmap](https://dithercn.dev/docs/charts/heatmap.md): A calendar or matrix heatmap built from dither cells, where every square steps cleanly from a few dots to solid.
+  - [Donut chart](https://dithercn.dev/docs/charts/donut-chart.md): A donut or pie chart drawn in dither cells, with a colour and texture per slice and a centre that follows the pointer.
+  - [Radar chart](https://dithercn.dev/docs/charts/radar-chart.md): One or more series across several axes, drawn as polygons of dither cells whose density steps up ring by ring.
+  - [Gauge](https://dithercn.dev/docs/charts/gauge.md): A radial gauge of dithered blocks for a single reading, such as load, usage or a score, with a solid block at the value.
+  - [Progress bar](https://dithercn.dev/docs/charts/progress-bar.md): A progress bar built from dither cells: any fill texture with a solid leading edge, stacked parts, step segments and an indeterminate comet.
+  - [Uptime bar](https://dithercn.dev/docs/charts/uptime-bar.md): A status-page row of daily bars, told apart by colour and texture, with details for each day.
+  - [Stat card](https://dithercn.dev/docs/charts/stat-card.md): A KPI card with a headline number, a coloured delta and a dithered trend along the bottom.
+- Interface: Everyday interface pieces with a dithered finish.
+  - [Dither button](https://dithercn.dev/docs/interface/dither-button.md): A button with a lit, dithered surface: a highlight dithered down from the top, a shade dithered up from the bottom, brighter on hover and pressed in on click.
+  - [Dither switch](https://dithercn.dev/docs/interface/dither-switch.md): A toggle switch whose track fills with dither behind the thumb as it turns on, stepping through the Bayer levels, and drains the same way when it turns off.
+  - [Dither slider](https://dithercn.dev/docs/interface/dither-slider.md): A range slider whose fill is a Bayer ramp that gets denser towards the thumb and ends in a solid edge, with a lit, dithered thumb. One thumb or two, steps and tick marks.
+  - [Dither tabs](https://dithercn.dev/docs/interface/dither-tabs.md): Tabs whose active indicator is a dithered pill or underline that glides to the chosen tab, dissolving out of the old one and in at the new one through the Bayer levels.
+  - [Avatar](https://dithercn.dev/docs/interface/avatar.md): A generative avatar: a mirrored dither face drawn from a name, with a group that overlaps and counts the rest.
+  - [Dither card](https://dithercn.dev/docs/interface/dither-card.md): A card with a dithered glow in a corner or along an edge and a dithered rim on its border, which can grow through the levels on hover.
+  - [Divider](https://dithercn.dev/docs/interface/divider.md): A horizontal or vertical dithered rule whose ends fade out, with an optional label in the middle.
+  - [Skeleton](https://dithercn.dev/docs/interface/skeleton.md): Loading placeholders drawn in dither, for blocks, text lines and avatars, with a dense band that sweeps across or a pulse that steps through the Bayer levels.
+  - [Loader](https://dithercn.dev/docs/interface/loader.md): A small dithered loading indicator: a ring with a comet tail, three dots that dissolve in turn, a pulse, or a sweeping bar.
+  - [Empty state](https://dithercn.dev/docs/interface/empty-state.md): A lit, dithered illustration with a title, a description and an action, for views with nothing in them yet.
+  - [Dropzone](https://dithercn.dev/docs/interface/dropzone.md): A file drop area with a dithered dashed border that marches round its edge, thickens and pulls a glow in on drag-over, and turns red for files it can't take.
+  - [Not found](https://dithercn.dev/docs/interface/not-found.md): A complete 404 block: big dithered block digits that print in and catch the light, a message, a detail line and actions.
+- Text: Display text drawn, revealed or counted with a dither.
+  - [Dither text](https://dithercn.dev/docs/text/dither-text.md): A display headline whose letters are filled with a dithered gradient, noise, dots or hatching, in any palette colour, from hero size down to section headings.
+  - [Dissolve text](https://dithercn.dev/docs/text/dissolve-text.md): Text that dissolves in through Bayer thresholds by character, word or line, in any order, settling solid or into a dithered texture, and can dissolve back out.
+  - [Scramble text](https://dithercn.dev/docs/text/scramble-text.md): Text that resolves character by character through dithered blocks and glyphs, with no layout shift. Plays on mount, in view, on hover or when the text changes.
+  - [Dither number](https://dithercn.dev/docs/text/dither-number.md): An animated number for KPI tiles and landing stats: tabular digits that roll or resolve through a dither, with Intl formatting, prefix and suffix, colour and size presets.
+- Images: Your images and logos, dithered.
+  - [Dither image](https://dithercn.dev/docs/images/dither-image.md): Any photo dithered to a preset or your own palette, with crisp pixels and a coarse-to-fine reveal as it loads.
+  - [Image compare](https://dithercn.dev/docs/images/image-compare.md): A draggable before and after slider: the dithered image on one side, the original or another dither on the other.
+  - [Scroll reveal image](https://dithercn.dev/docs/images/scroll-reveal-image.md): An image that sharpens from coarse dithered blocks to the full photo as you scroll it into view.
+  - [Dithered logo](https://dithercn.dev/docs/images/dithered-logo.md): An SVG or PNG logo redrawn on a pixel grid: exact edges, a dithered fill inside, and an optional shimmer or scan line.
+  - [Logo marquee](https://dithercn.dev/docs/images/logo-marquee.md): A looping row, or a still wall, of logos in one dithered treatment, with soft or dithered edges.
+- Engine: How dither-core works and how to build your own dither on it.
+  - [Dither engine](https://dithercn.dev/docs/engine/dither-engine.md): How dither-core, the engine behind every dithercn dither, turns a tone into dots: threshold matrices, levels, error diffusion, and the three ways to draw.
+  - [Write your own dither](https://dithercn.dev/docs/engine/write-your-own.md): Build a dithered background from scratch on DitherShader: a tone, a shape, then motion and props.
+  - [Palettes](https://dithercn.dev/docs/engine/palettes.md): How dithers take their colours from your theme, and how to use more than two.
+  - [Pixel scale](https://dithercn.dev/docs/engine/pixel-scale.md): How big one dither cell is, how it stays crisp on every screen, and how to change it.
+  - [Motion](https://dithercn.dev/docs/engine/motion.md): How animated dithers run, pause and hold still, including under reduced motion.
+  - [Performance](https://dithercn.dev/docs/engine/performance.md): What a dither costs to draw, and how dither-core keeps a page of them cheap.
+  - [Export](https://dithercn.dev/docs/engine/export.md): Turn any dither into a PNG, a compact SVG or a CSS rule from your own code, with dither-export.
+
+## About
+
+- [About dithercn](https://dithercn.dev/about.md): who makes it and why
+- [Contact](https://dithercn.dev/contact.md): bugs, email and security reports
+- [Privacy](https://dithercn.dev/privacy.md): what the site collects
+
+## Machine-readable Resources
+
+- [Full documentation](https://dithercn.dev/llms-full.txt)
+- [Homepage markdown](https://dithercn.dev/llms.md/content.md)
+- [OpenAPI description](https://dithercn.dev/openapi.json)
+- [API catalog](https://dithercn.dev/.well-known/api-catalog)
+- [dithercn agent skill](https://dithercn.dev/.well-known/agent-skills/dithercn/SKILL.md): build any dither on the engine
+- [shadcn MCP server documentation](https://ui.shadcn.com/docs/mcp)

@@ -1,0 +1,26 @@
+{
+  "reference": {
+    "width": 114,
+    "height": 140,
+    "rect": {
+      "w": 342,
+      "h": 420
+    },
+    "state": "static"
+  },
+  "local": {
+    "width": 114,
+    "height": 140,
+    "rect": {
+      "w": 342,
+      "h": 420
+    },
+    "state": "static"
+  },
+  "pixel_similarity": 0.9486661050496236,
+  "limitations": [
+    "Pixel metric is not a quality tier.",
+    "Only mobile same-size shader surface compared; no WCAG certification.",
+    "Reduced motion static state; animated timing not compared."
+  ]
+}

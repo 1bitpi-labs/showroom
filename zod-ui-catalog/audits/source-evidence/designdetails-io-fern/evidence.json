@@ -1,0 +1,3054 @@
+{
+  "site": "designdetails.io",
+  "url": "https://designdetails.io/websites/buildwithfern-com",
+  "captured_at": "2026-11-12T21:13:00.381711+00:00",
+  "views": {
+    "desktop": {
+      "url": "https://designdetails.io/websites/buildwithfern-com",
+      "title": "Fern Website Design — Screenshots, Sections & Motion · Design Details",
+      "text": "Skip to content\nNew\n\nNAVIGATE\n\nInfo\nSponsorship\nPress kit\nSubmit a website\nPrivacy\nTerms\n\nSETTINGS\n\nFeedback\n© 2026 Design Details\nhello@designdetails.io\nSearch websites, sections, categories…\n/\nSubmit\nSubscribe\n\nCURATED WEBSITE DESIGN REFERENCES\n\nWebsite and landing page examples.\n\nHand-picked landing pages and websites, each with a scroll recording, full-page captures, and the details behind the design.\n\nBROWSE\nAll\nAI\nDeveloper Tools\nSkip past the designs\nFE\nFern\nAI Agent Cloud\nArtie\nBlacksmith\nZoah\nPartner\nPluto Security\nLocalCan\nNeon\nCaptain\nPartner\nNew\n\nNAVIGATE\n\nInfo\nSponsorship\nPress kit\nSubmit a website\nPrivacy\nTerms\n\nSETTINGS\n\nFeedback\n© 2026 Design Details\nhello@designdetails.io\nView\nSections\nRelated\nOverview\nVideo\nDesktop\nMobile\nFern\n\nStart with OpenAPI. Generate SDKs in multiple languages, interactive API documentation, and an agent-first CLI.\n\nbuildwithfern.com\nVisit website\nSave\nDownload DESIGN.md\nRemix\nIndustry\nDeveloper Tools\nSite type\nLanding, Blog\nPlatform\nCustom code\nTech\nNext.js, Astro, Tailwind CSS\nStyle\nMinimal, Corporate, Developer Focused\nBusiness model\nSoftware\nPresence\nOnline\nComponents\nNavigation Bar, Hero, Logo Strip, Stat Block, Feature Card, Testimonial Card, Footer, UI Mockup Simulation\nTypography\nDisplay — GT Planar; Heading — GT Planar; Body — GT Planar; Mono — JetBrains Mono\nPalette\nOG image\nVideo\nPlay\nDesktop\nCopy image\nMobile\nCopy image\nSections\nNavbar\nFern Navbar\nFeatures\nCentered heading with protocol chips\nTestimonials\nMigration case studies with logos\nFeatures\nIcon cards and Postman callout\nCTA\nCentered closing call with two buttons\nHero\nDeveloper and Agent Experience Hero\nFeatures\nDesigned for the AI era\nOther\nNative Postman Support Demo\nEditorial\nField notes from the Fern team\nStats\nLogo row and metric cards\nFeatures\nThree columns for docs, SDKs, CLI\nFeatures\nEnterprise features with UI mockups\nTestimonials\nQuote cards with metrics\nOther\nOversized dotted logo wordmark\nFeatures\nDocs, SDKs, and CLI Platform Grid\nCTA\nMigrate to the enterprise platform\nTestimonials\nHear It From Our Customers\nFooter\nFern newsletter and site footer\nRelated websites\nArtie\nBlacksmith\nZoah\nCaptain\nNeon\nLocalCan\nPluto Security\nAI Agent Cloud\nInside the Fern website design\n\nFern is a developer tools website built with custom code, Next.js, Astro, and Tailwind CSS. Its pages are built from navbar, stats, features, testimonials, CTA, other, hero, editorial, and footer sections, shown here in full-page captures and a scroll recording. Typography: GT Planar (display text, headings, and body text) and JetBrains Mono (monospaced text). Colours: background #F7F7F7, text #202020, surface #FFFFFF, secondary text #737373.\n\nStart with OpenAPI. Generate SDKs in multiple languages, interactive API documentation, and an agent-first CLI. Its visual style is minimal, corporate, and developer focused, with navigation bar, hero, and logo strip among its components.\n\nWHY WE PICKED IT\n\nA deep blue hero with a soft gradient horizon frames an actual docs browser and a mono-type terminal window side by side, showing the product mid-task instead of describing it. Below, a plain grey background with bold black stat numbers and small logo marks keeps the long page easy to scan while still building trust through named customers.\n\nWHAT TO LOOK FOR\nNavbar: a short menu: only the destinations visitors actually look for\nStats: three or four numbers that matter to the buyer\nFeatures: benefits framed around what the user gets, not internal capability names\nTestimonials: names, roles, and photos or logos for credibility\nSECTIONS FROM FERN\nNavbar section\nStats: Logo row and metric cards\nFeatures: Centered heading with protocol chips\nFeatures: Three columns for docs, SDKs, CLI\nTestimonials: Migration case studies with logos\nFeatures: Enterprise features with UI mockups\nFEATURED IN\nBest SaaS website designs that explain the product fast\nSIMILAR WEBSITES\nArtie\nNeon\nBlacksmith\nLocalCan\nMore developer tools website examples\nQUESTIONS DESIGNERS ASK\nWhat",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Website and landing page examples.",
+          "bounds": {
+            "x": 112,
+            "y": 161,
+            "width": 890.40625,
+            "height": 24
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Fern",
+          "bounds": {
+            "x": 1161,
+            "y": 103,
+            "width": 49.359375,
+            "height": 28.796875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "650",
+            "lineHeight": "28.8px",
+            "color": "rgb(36, 38, 34)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Sections",
+          "bounds": {
+            "x": 96,
+            "y": 7259.703125,
+            "width": 1010,
+            "height": 42
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "500",
+            "lineHeight": "42px",
+            "color": "rgb(36, 38, 34)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Related websites",
+          "bounds": {
+            "x": 96,
+            "y": 10338.703125,
+            "width": 1010,
+            "height": 42
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "500",
+            "lineHeight": "42px",
+            "color": "rgb(36, 38, 34)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Inside the Fern website design",
+          "bounds": {
+            "x": 96,
+            "y": 13087.609375,
+            "width": 1010,
+            "height": 44
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "40px",
+            "fontWeight": "500",
+            "lineHeight": "44px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "WHY WE PICKED IT",
+          "bounds": {
+            "x": 118,
+            "y": 13396.359375,
+            "width": 698,
+            "height": 19.5
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "600",
+            "lineHeight": "19.5px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "WHAT TO LOOK FOR",
+          "bounds": {
+            "x": 96,
+            "y": 13599.796875,
+            "width": 315.328125,
+            "height": 19.5
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "600",
+            "lineHeight": "19.5px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "SECTIONS FROM FERN",
+          "bounds": {
+            "x": 443.328125,
+            "y": 13599.796875,
+            "width": 315.328125,
+            "height": 19.5
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "600",
+            "lineHeight": "19.5px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "FEATURED IN",
+          "bounds": {
+            "x": 790.65625,
+            "y": 13599.796875,
+            "width": 315.34375,
+            "height": 19.5
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "600",
+            "lineHeight": "19.5px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "SIMILAR WEBSITES",
+          "bounds": {
+            "x": 96,
+            "y": 13928.296875,
+            "width": 315.328125,
+            "height": 19.5
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "600",
+            "lineHeight": "19.5px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "QUESTIONS DESIGNERS ASK",
+          "bounds": {
+            "x": 96,
+            "y": 14165.296875,
+            "width": 1010,
+            "height": 19.5
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "600",
+            "lineHeight": "19.5px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "New",
+          "bounds": {
+            "x": 13,
+            "y": 77,
+            "width": 54,
+            "height": 348
+          },
+          "styles": {
+            "display": "grid",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(25, 25, 23)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "4px",
+            "padding": "8px 6px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "42px"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 27,
+            "y": 771,
+            "width": 26,
+            "height": 26
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(25, 25, 23)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "999px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 27,
+            "y": 799,
+            "width": 26,
+            "height": 26
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(104, 104, 98)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "999px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 19,
+            "y": 835,
+            "width": 42,
+            "height": 44
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "18px",
+            "color": "rgb(104, 104, 98)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "10px",
+            "padding": "0px",
+            "borderRadius": "4px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": "dialog",
+          "text": "NAVIGATE\n\nInfo\nSponsorship\nPress kit\nSubmit a website\nPrivacy\nTerms\n\nSETTINGS\n\nFeedback\n© 2026 Design Details\nhello@designdetails.io",
+          "bounds": {
+            "x": 12,
+            "y": 356.44000244140625,
+            "width": 320.1000061035156,
+            "height": 531.5599975585938
+          },
+          "styles": {
+            "display": "flex",
+            "position": "fixed",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(25, 25, 23)",
+            "backgroundColor": "rgb(251, 251, 248)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "10px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "role": null,
+          "text": "Search websites, sections, categories…\n/\nSubmit\nSubscribe\n\nCURATED WEBSITE DESIGN REFERENCES\n\nWebsite and landing page examples.\n\nHand-picke",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 1777.1875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(25, 25, 23)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px 0px 0px 72px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Search websites, sections, categories…\n/",
+          "bounds": {
+            "x": 476,
+            "y": 13,
+            "width": 560,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "lineHeight": "19.5px",
+            "color": "rgb(107, 112, 102)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "10px",
+            "padding": "0px 12px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Subscribe",
+          "bounds": {
+            "x": 1302.71875,
+            "y": 13,
+            "width": 97.28125,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "600",
+            "lineHeight": "19.5px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(37, 40, 34)",
+            "gap": "normal",
+            "padding": "0px 16px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "CURATED WEBSITE DESIGN REFERENCES\n\nWebsite and landing page examples.\n\nHand-picked landing pages and websites, each with a scroll recording,",
+          "bounds": {
+            "x": 112,
+            "y": 81,
+            "width": 1288,
+            "height": 217.875
+          },
+          "styles": {
+            "display": "grid",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "57.6px",
+            "padding": "56px 0px 50px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "890.406px 340px"
+          }
+        },
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "All\nAI\nDeveloper Tools",
+          "bounds": {
+            "x": 173.75,
+            "y": 315.875,
+            "width": 1226.25,
+            "height": 42
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "8px",
+            "padding": "0px 0px 6px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 154,
+            "y": 415.875,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 591.328125,
+            "y": 415.875,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 1028.65625,
+            "y": 415.875,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 154,
+            "y": 762.203125,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 591.328125,
+            "y": 762.203125,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 154,
+            "y": 1108.53125,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 591.328125,
+            "y": 1108.53125,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 1028.65625,
+            "y": 1108.53125,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 154,
+            "y": 1454.859375,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "New",
+          "bounds": {
+            "x": 13,
+            "y": 77,
+            "width": 54,
+            "height": 348
+          },
+          "styles": {
+            "display": "grid",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "4px",
+            "padding": "8px 6px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "42px"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 27,
+            "y": 771,
+            "width": 26,
+            "height": 26
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "999px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 27,
+            "y": 799,
+            "width": 26,
+            "height": 26
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(102, 107, 96)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "999px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 19,
+            "y": 835,
+            "width": 42,
+            "height": 44
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "18px",
+            "color": "rgb(102, 107, 96)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "10px",
+            "padding": "0px",
+            "borderRadius": "4px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": "dialog",
+          "text": "NAVIGATE\n\nInfo\nSponsorship\nPress kit\nSubmit a website\nPrivacy\nTerms\n\nSETTINGS\n\nFeedback\n© 2026 Design Details\nhello@designdetails.io",
+          "bounds": {
+            "x": 12,
+            "y": 356.44000244140625,
+            "width": 320.1000061035156,
+            "height": 531.5599975585938
+          },
+          "styles": {
+            "display": "flex",
+            "position": "fixed",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgb(251, 251, 248)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "10px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "https://designdetails.io/websites/buildwithfern-com#main-content"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/websites"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/sections"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/categories"
+        },
+        {
+          "text": "New",
+          "href": "https://designdetails.io/typography"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/collections"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/saved"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/newsletter"
+        },
+        {
+          "text": "Info",
+          "href": "https://designdetails.io/info"
+        },
+        {
+          "text": "Sponsorship",
+          "href": "https://designdetails.io/sponsorship"
+        },
+        {
+          "text": "Press kit",
+          "href": "https://designdetails.io/presskit"
+        },
+        {
+          "text": "Submit a website",
+          "href": "https://designdetails.io/submit"
+        },
+        {
+          "text": "Privacy",
+          "href": "https://designdetails.io/privacy"
+        },
+        {
+          "text": "Terms",
+          "href": "https://designdetails.io/terms"
+        },
+        {
+          "text": "Feedback",
+          "href": "https://designdetails.io/feedback"
+        },
+        {
+          "text": "",
+          "href": "https://www.pinterest.com/DesignDetailsIO/"
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/designdetailsio/"
+        },
+        {
+          "text": "",
+          "href": "https://www.threads.net/@designdetailsio"
+        },
+        {
+          "text": "",
+          "href": "https://x.com/DesignDetailsIO"
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/profile.php?id=61595255246370"
+        },
+        {
+          "text": "Submit",
+          "href": "https://designdetails.io/submit"
+        },
+        {
+          "text": "privacy policy",
+          "href": "https://designdetails.io/privacy"
+        },
+        {
+          "text": "All",
+          "href": "https://designdetails.io/"
+        },
+        {
+          "text": "AI",
+          "href": "https://designdetails.io/categories/ai"
+        },
+        {
+          "text": "Developer Tools",
+          "href": "https://designdetails.io/categories/developer-tools"
+        },
+        {
+          "text": "Skip past the designs",
+          "href": "https://designdetails.io/websites/buildwithfern-com#after-designs"
+        },
+        {
+          "text": "FE\nFern",
+          "href": "https://designdetails.io/websites/buildwithfern-com"
+        },
+        {
+          "text": "AI Agent Cloud",
+          "href": "https://designdetails.io/websites/e2b-dev"
+        },
+        {
+          "text": "Artie",
+          "href": "https://designdetails.io/websites/artie-com"
+        },
+        {
+          "text": "Blacksmith",
+          "href": "https://designdetails.io/websites/blacksmith-sh"
+        },
+        {
+          "text": "Zoah",
+          "href": "https://designdetails.io/websites/zoah-com"
+        },
+        {
+          "text": "",
+          "href": "https://www.practical-ui.com/?ref=designdetails.io"
+        },
+        {
+          "text": "Pluto Security",
+          "href": "https://designdetails.io/websites/pluto-security"
+        },
+        {
+          "text": "LocalCan",
+          "href": "https://designdetails.io/websites/localcan-com"
+        },
+        {
+          "text": "Neon",
+          "href": "https://designdetails.io/websites/neon-com"
+        },
+        {
+          "text": "Captain",
+          "href": "https://designdetails.io/websites/captain"
+        },
+        {
+          "text": "",
+          "href": "https://mobbin.com/?via=getdesign"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/websites"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/sections"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/categories"
+        },
+        {
+          "text": "New",
+          "href": "https://designdetails.io/typography"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/collections"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/saved"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/newsletter"
+        },
+        {
+          "text": "Info",
+          "href": "https://designdetails.io/info"
+        },
+        {
+          "text": "Sponsorship",
+          "href": "https://designdetails.io/sponsorship"
+        },
+        {
+          "text": "Press kit",
+          "href": "https://designdetails.io/presskit"
+        },
+        {
+          "text": "Submit a website",
+          "href": "https://designdetails.io/submit"
+        },
+        {
+          "text": "Privacy",
+          "href": "https://designdetails.io/privacy"
+        },
+        {
+          "text": "Terms",
+          "href": "https://designdetails.io/terms"
+        },
+        {
+          "text": "Feedback",
+          "href": "https://designdetails.io/feedback"
+        },
+        {
+          "text": "",
+          "href": "https://www.pinterest.com/DesignDetailsIO/"
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/designdetailsio/"
+        },
+        {
+          "text": "",
+          "href": "https://www.threads.net/@designdetailsio"
+        },
+        {
+          "text": "",
+          "href": "https://x.com/DesignDetailsIO"
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/profile.php?id=61595255246370"
+        },
+        {
+          "text": "Design Details",
+          "href": "https://designdetails.io/"
+        },
+        {
+          "text": "View",
+          "href": "https://designdetails.io/websites/buildwithfern-com#view"
+        },
+        {
+          "text": "Sections",
+          "href": "https://designdetails.io/websites/buildwithfern-com#sections"
+        },
+        {
+          "text": "Related",
+          "href": "https://designdetails.io/websites/buildwithfern-com#related"
+        },
+        {
+          "text": "",
+          "href": "https://x.com/intent/post?url=https%3A%2F%2Fdesigndetails.io%2Fwebsites%2Fbuildwithfern-com%3Futm_source%3Dx%26utm_medium%3Dshare%26utm_campaign%3Dviewer&text=Fern%20on%20Design%20Details"
+        },
+        {
+          "text": "",
+          "href": "https://www.threads.net/intent/post?text=Fern%20on%20Design%20Details%20https%3A%2F%2Fdesigndetails.io%2Fwebsites%2Fbuildwithfern-com%3Futm_source%3Dthreads%26utm_medium%3Dshare%26utm_campaign%3Dviewer"
+        },
+        {
+          "text": "",
+          "href": "https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fdesigndetails.io%2Fwebsites%2Fbuildwithfern-com%3Futm_source%3Dpinterest%26utm_medium%3Dshare%26utm_campaign%3Dviewer&media=https%3A%2F%2Fmedia.designdetails.io%2Flibrary%2F181e707620669e1cf5ebeafc0ab2e6cff0458b8aa11d7afd712f03be02854aca%2Fthumbnail-cc379b7a-2026-11-10T06-52-12-926Z.png&description=Fern%20on%20Design%20Details"
+        },
+        {
+          "text": "",
+          "href": "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdesigndetails.io%2Fwebsites%2Fbuildwithfern-com%3Futm_source%3Dlinkedin%26utm_medium%3Dshare%26utm_campaign%3Dviewer"
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdesigndetails.io%2Fwebsites%2Fbuildwithfern-com%3Futm_source%3Dfacebook%26utm_medium%3Dshare%26utm_campaign%3Dviewer"
+        },
+        {
+          "text": "",
+          "href": "https://media.designdetails.io/library/405adddabf0c59f9caa030bef1ce5c5834c4a9f2f10b1bc276232a6c73856d12/desktop_full-cc379b7a-2026-11-10T06-52-06-508Z.webp"
+        },
+        {
+          "text": "buildwithfern.com",
+          "href": "https://buildwithfern.com/?ref=designdetails.io"
+        },
+        {
+          "text": "Visit website",
+          "href": "https://buildwithfern.com/?ref=designdetails.io"
+        },
+        {
+          "text": "Download DESIGN.md",
+          "href": "https://designdetails.io/api/design/buildwithfern-com"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/remix/buildwithfern-com"
+        },
+        {
+          "text": "Remix",
+          "href": "https://designdetails.io/remix/buildwithfern-com"
+        },
+        {
+          "text": "Developer Tools",
+          "href": "https://designdetails.io/categories/developer-tools"
+        },
+        {
+          "text": "Landing",
+          "href": "https://designdetails.io/websites?site-type=landing"
+        },
+        {
+          "text": "Blog",
+          "href": "https://designdetails.io/websites?site-type=blog"
+        },
+        {
+          "text": "Custom code",
+          "href": "https://designdetails.io/websites?platform=custom-code"
+        },
+        {
+          "text": "Next.js",
+          "href": "https://designdetails.io/websites?tech=next-js"
+        },
+        {
+          "text": "Astro",
+          "href": "https://designdetails.io/websites?tech=astro"
+        },
+        {
+          "text": "Tailwind CSS",
+          "href": "https://designdetails.io/websites?tech=tailwind-css"
+        },
+        {
+          "text": "Minimal",
+          "href": "https://designdetails.io/websites?style=minimal"
+        },
+        {
+          "text": "Corporate",
+          "href": "https://designdetails.io/websites?style=corporate"
+        },
+        {
+          "text": "Developer Focused",
+          "href": "https://designdetails.io/websites?style=developer-focused"
+        },
+        {
+          "text": "Software",
+          "href": "https://designdetails.io/websites?business-model=software"
+        },
+        {
+          "text": "Online",
+          "href": "https://designdetails.io/websites?presence=online"
+        },
+        {
+          "text": "Navigation Bar",
+          "href": "https://designdetails.io/section-types/navbar"
+        },
+        {
+          "text": "Hero",
+          "href": "https://designdetails.io/section-types/hero"
+        },
+        {
+          "text": "Logo Strip",
+          "href": "https://designdetails.io/section-types/logo-cloud"
+        },
+        {
+          "text": "Stat Block",
+          "href": "https://designdetails.io/websites?component=stat-block"
+        },
+        {
+          "text": "Feature Card",
+          "href": "https://designdetails.io/section-types/features"
+        },
+        {
+          "text": "Testimonial Card",
+          "href": "https://designdetails.io/section-types/testimonials"
+        },
+        {
+          "text": "Footer",
+          "href": "https://designdetails.io/section-types/footer"
+        },
+        {
+          "text": "UI Mockup Simulation",
+          "href": "https://designdetails.io/websites?component=ui-mockup-simulation"
+        },
+        {
+          "text": "GT Planar",
+          "href": "https://designdetails.io/typography?font=gt-planar"
+        },
+        {
+          "text": "GT Planar",
+          "href": "https://designdetails.io/typography?font=gt-planar"
+        },
+        {
+          "text": "GT Planar",
+          "href": "https://designdetails.io/typography?font=gt-planar"
+        },
+        {
+          "text": "JetBrains Mono",
+          "href": "https://designdetails.io/typography?font=jetbrains-mono"
+        },
+        {
+          "text": "",
+          "href": "https://media.designdetails.io/library/550e69faee3756660c10d3d1959ef85e8e525249076856b875f629889313caac/og_image-cc379b7a-2026-11-10T06-52-15-014Z.webp"
+        },
+        {
+          "text": "Navbar\nFern Navbar",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--navbar-41461529"
+        },
+        {
+          "text": "Features\nCentered heading with protocol chips",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--features-db980169"
+        },
+        {
+          "text": "Testimonials\nMigration case studies with logos",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--testimonials-a70774f0"
+        },
+        {
+          "text": "Features\nIcon cards and Postman callout",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--features-42d7af26"
+        },
+        {
+          "text": "CTA\nCentered closing call with two buttons",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--cta-ff255da1"
+        },
+        {
+          "text": "Hero\nDeveloper and Agent Experience Hero",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--ai-ff982dff-ffb9-43fd-b0b8-54bd8bc76740"
+        },
+        {
+          "text": "Features\nDesigned for the AI era",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--ai-5dc4c784-4ab7-41ec-ac5b-71d018cad683"
+        },
+        {
+          "text": "Other\nNative Postman Support Demo",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--ai-02c4f721-fb6a-4389-919f-fb71920486d7"
+        },
+        {
+          "text": "Editorial\nField notes from the Fern team",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--ai-374bee4b-948a-4405-a4d2-304b2c9d0bae"
+        },
+        {
+          "text": "Stats\nLogo row and metric cards",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--stats-b7f67cb0"
+        },
+        {
+          "text": "Features\nThree columns for docs, SDKs, CLI",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--features-e0d6070a"
+        },
+        {
+          "text": "Features\nEnterprise features with UI mockups",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--features-fd0dd1d9"
+        },
+        {
+          "text": "Testimonials\nQuote cards with metrics",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--testimonials-0614d1a5"
+        },
+        {
+          "text": "Other\nOversized dotted logo wordmark",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--other-833943c5"
+        },
+        {
+          "text": "Features\nDocs, SDKs, and CLI Platform Grid",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--ai-1dbbfde9-fc8e-42f4-907b-fcda7c9c7a3c"
+        },
+        {
+          "text": "CTA\nMigrate to the enterprise platform",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--ai-8f8786ba-b19a-4e01-a10b-0a6c690a6c8d"
+        },
+        {
+          "text": "Testimonials\nHear It From Our Customers",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--ai-bfd5f597-4e2a-4118-9798-d01a8fdba802"
+        },
+        {
+          "text": "Footer\nFern newsletter and site footer",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--ai-dacd4b23-77fa-418a-85f8-15d51faf793a"
+        },
+        {
+          "text": "Artie",
+          "href": "https://designdetails.io/websites/artie-com"
+        },
+        {
+          "text": "Blacksmith",
+          "href": "https://designdetails.io/websites/blacksmith-sh"
+        },
+        {
+          "text": "Zoah",
+          "href": "https://designdetails.io/websites/zoah-com"
+        },
+        {
+          "text": "Captain",
+          "href": "https://designdetails.io/websites/captain"
+        },
+        {
+          "text": "Neon",
+          "href": "https://designdetails.io/websites/neon-com"
+        },
+        {
+          "text": "LocalCan",
+          "href": "https://designdetails.io/websites/localcan-com"
+        },
+        {
+          "text": "Pluto Security",
+          "href": "https://designdetails.io/websites/pluto-security"
+        },
+        {
+          "text": "AI Agent Cloud",
+          "href": "https://designdetails.io/websites/e2b-dev"
+        },
+        {
+          "text": "Navbar section",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--navbar-41461529"
+        },
+        {
+          "text": "Stats: Logo row and metric cards",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--stats-b7f67cb0"
+        },
+        {
+          "text": "Features: Centered heading with protocol chips",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--features-db980169"
+        },
+        {
+          "text": "Features: Three columns for docs, SDKs, CLI",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--features-e0d6070a"
+        },
+        {
+          "text": "Testimonials: Migration case studies with logos",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--testimonials-a70774f0"
+        },
+        {
+          "text": "Features: Enterprise features with UI mockups",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--features-fd0dd1d9"
+        },
+        {
+          "text": "Best SaaS website designs that explain the product fast",
+          "href": "https://designdetails.io/collections/saas-websites"
+        },
+        {
+          "text": "Artie",
+          "href": "https://designdetails.io/websites/artie-com"
+        },
+        {
+          "text": "Neon",
+          "href": "https://designdetails.io/websites/neon-com"
+        },
+        {
+          "text": "Blacksmith",
+          "href": "https://designdetails.io/websites/blacksmith-sh"
+        },
+        {
+          "text": "LocalCan",
+          "href": "https://designdetails.io/websites/localcan-com"
+        },
+        {
+          "text": "More developer tools website examples",
+          "href": "https://designdetails.io/categories/developer-tools"
+        },
+        {
+          "text": "privacy policy",
+          "href": "https://designdetails.io/privacy"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--border": "#deded7",
+        "--tw-ring-offset-shadow": "0 0 #0000",
+        "--font-editorial": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "--tw-inset-shadow-alpha": "100%",
+        "--page-slide-distance": "8px",
+        "--tw-ring-shadow": "0 0 #0000",
+        "--dropdown-open-dur": ".25s",
+        "--page-hero-padding-bottom": "50px",
+        "--field-surface": "#fff",
+        "--button-surface": "#252822",
+        "--aspect-video": "16 / 9",
+        "--leading-relaxed": "1.625",
+        "--field-placeholder": "#6b7066",
+        "--control-muted": "#f7f8f3",
+        "--ease-in-out": "cubic-bezier(.4, 0, .2, 1)",
+        "--popover-shadow": "0 18px 48px #191e142e",
+        "--accent": "#e4ec96",
+        "--tw-drop-shadow-alpha": "100%",
+        "--page-secondary": "#5f665c",
+        "--page-muted": "#666b60",
+        "--surface-muted": "#eaeae7",
+        "--default-transition-timing-function": "cubic-bezier(.4, 0, .2, 1)",
+        "--page-fade-ease": "cubic-bezier(.22, 1, .36, 1)",
+        "--page-canvas": "#edf0ec",
+        "--resize-dur": ".3s",
+        "--tw-outline-style": "solid",
+        "--resize-ease": "cubic-bezier(.22, 1, .36, 1)",
+        "--control-surface": "#fff",
+        "--page-hero-padding-top": "100px",
+        "--tw-inset-ring-shadow": "0 0 #0000",
+        "--spacing": ".25rem",
+        "--background": "#fff",
+        "--muted": "#686862",
+        "--lightningcss-dark": "",
+        "--tw-translate-z": "0",
+        "--button-foreground": "#fff",
+        "--page-slide-ease": "cubic-bezier(.22, 1, .36, 1)",
+        "--tw-scale-y": "1",
+        "--sidebar-active-ink": "#20231e",
+        "--font-mono": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+        "--text-xl--line-height": "calc(1.75 / 1.25)",
+        "--field-foreground": "#20231e",
+        "--font-weight-semibold": "600",
+        "--text-sm": ".875rem",
+        "--tw-translate-y": "0",
+        "--page-blur": "3px",
+        "--ring": "#444d3d",
+        "--tw-inset-shadow": "0 0 #0000",
+        "--tw-ring-offset-color": "#fff",
+        "--sidebar-canvas": "#fff",
+        "--color-white": "#fff",
+        "--dropdown-pre-scale": ".97",
+        "--page-exit-enabled": "1",
+        "--tw-shadow-alpha": "100%",
+        "--thumbnail-mat": "clamp(16px, 1.5vw, 24px)",
+        "--leading-tight": "1.25",
+        "--page-foreground": "#20231e",
+        "--sidebar-active": "#e8eae7",
+        "--sidebar-hover": "#f1f2f0",
+        "--lightningcss-light": "",
+        "--dropdown-closing-scale": ".99",
+        "--font-sans": "\"DM Sans\", \"DM Sans Fallback\"",
+        "--tw-divide-y-reverse": "0",
+        "--tw-border-style": "solid",
+        "--tw-scale-z": "1",
+        "--radius": "2px",
+        "--dropdown-close-dur": ".15s",
+        "--blur-2xl": "40px",
+        "--color-background": "#fff",
+        "--page-fade-dur": ".2s",
+        "--container-2xl": "42rem",
+        "--tw-shadow": "0 0 #0000",
+        "--container-sm": "24rem",
+        "--tw-translate-x": "0",
+        "--tw-ring-offset-width": "0px",
+        "--text-sm--line-height": "calc(1.25 / .875)",
+        "--text-xs": ".75rem",
+        "--default-font-family": "\"DM Sans\", \"DM Sans Fallback\"",
+        "--text-xs--line-height": "calc(1 / .75)",
+        "--color-black": "#000"
+      }
+    },
+    "mobile": {
+      "url": "https://designdetails.io/websites/buildwithfern-com",
+      "title": "Fern Website Design — Screenshots, Sections & Motion · Design Details",
+      "text": "Skip to content\nNew\n\nNAVIGATE\n\nInfo\nSponsorship\nPress kit\nSubmit a website\nPrivacy\nTerms\n\nSETTINGS\n\nFeedback\nTheme\n© 2026 Design Details\nhello@designdetails.io\nSearch websites, sections, categories…\nSubmit\nSubscribe\n\nCURATED WEBSITE DESIGN REFERENCES\n\nWebsite and landing page examples.\n\nHand-picked landing pages and websites, each with a scroll recording, full-page captures, and the details behind the design.\n\nBrowse filters\nSkip past the designs\nFE\nFern\nAI Agent Cloud\nArtie\nBlacksmith\nZoah\nPartner\nPluto Security\nLocalCan\nNeon\nCaptain\nPartner\nDesign Details\nView\nSections\nRelated\nFern\n\nStart with OpenAPI. Generate SDKs in multiple languages, interactive API documentation, and an agent-first CLI.\n\nbuildwithfern.com\nDetails & actions\nVideo\nPlay\nSections\nNavbar\nFern Navbar\nStats\nLogo row and metric cards\nFeatures\nCentered heading with protocol chips\nFeatures\nThree columns for docs, SDKs, CLI\nTestimonials\nMigration case studies with logos\nFeatures\nEnterprise features with UI mockups\nFeatures\nIcon cards and Postman callout\nTestimonials\nQuote cards with metrics\nCTA\nCentered closing call with two buttons\nOther\nOversized dotted logo wordmark\nHero\nDeveloper and Agent Experience Hero\nFeatures\nDocs, SDKs, and CLI Platform Grid\nFeatures\nDesigned for the AI era\nCTA\nMigrate to the enterprise platform\nOther\nNative Postman Support Demo\nTestimonials\nHear It From Our Customers\nEditorial\nField notes from the Fern team\nFooter\nFern newsletter and site footer\nRelated websites\nArtie\nNeon\nBlacksmith\nLocalCan\nZoah\nPluto Security\nCaptain\nAI Agent Cloud\nInside the Fern website design\n\nFern is a developer tools website built with custom code, Next.js, Astro, and Tailwind CSS. Its pages are built from navbar, stats, features, testimonials, CTA, other, hero, editorial, and footer sections, shown here in full-page captures and a scroll recording. Typography: GT Planar (display text, headings, and body text) and JetBrains Mono (monospaced text). Colours: background #F7F7F7, text #202020, surface #FFFFFF, secondary text #737373.\n\nStart with OpenAPI. Generate SDKs in multiple languages, interactive API documentation, and an agent-first CLI. Its visual style is minimal, corporate, and developer focused, with navigation bar, hero, and logo strip among its components.\n\nWHY WE PICKED IT\n\nA deep blue hero with a soft gradient horizon frames an actual docs browser and a mono-type terminal window side by side, showing the product mid-task instead of describing it. Below, a plain grey background with bold black stat numbers and small logo marks keeps the long page easy to scan while still building trust through named customers.\n\nWHAT TO LOOK FOR\nNavbar: a short menu: only the destinations visitors actually look for\nStats: three or four numbers that matter to the buyer\nFeatures: benefits framed around what the user gets, not internal capability names\nTestimonials: names, roles, and photos or logos for credibility\nSECTIONS FROM FERN\nNavbar section\nStats: Logo row and metric cards\nFeatures: Centered heading with protocol chips\nFeatures: Three columns for docs, SDKs, CLI\nTestimonials: Migration case studies with logos\nFeatures: Enterprise features with UI mockups\nFEATURED IN\nBest SaaS website designs that explain the product fast\nSIMILAR WEBSITES\nArtie\nNeon\nBlacksmith\nLocalCan\nMore developer tools website examples\nQUESTIONS DESIGNERS ASK\nWhat fonts does Fern use?\n\nFern uses GT Planar for display text, headings, and body text, and JetBrains Mono for monospaced text, measured from the captured page's CSS.\n\nWhat is the Fern website built with?\n\nThe Fern website is built with custom code, Next.js, Astro, and Tailwind CSS, detected when the page was captured.\n\nWhat colours does the Fern website use?\n\nMeasured from the captured page's CSS, the Fern website uses #F7F7F7 for the background, #202020 for text, #FFFFFF for surfaces, and #737373 for secondary text.\n\nWhat sections does the Fern website have?\n\nThe Fern website includes navbar, stats, features, testimonials, CTA, other, ",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Website and landing page examples.",
+          "bounds": {
+            "x": 16,
+            "y": 185.796875,
+            "width": 358,
+            "height": 24
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Fern",
+          "bounds": {
+            "x": 29,
+            "y": 149,
+            "width": 49.359375,
+            "height": 28.796875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "650",
+            "lineHeight": "28.8px",
+            "color": "rgb(36, 38, 34)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Sections",
+          "bounds": {
+            "x": 12,
+            "y": 740.03125,
+            "width": 366,
+            "height": 42
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "500",
+            "lineHeight": "42px",
+            "color": "rgb(36, 38, 34)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Related websites",
+          "bounds": {
+            "x": 12,
+            "y": 5264.796875,
+            "width": 366,
+            "height": 42
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "500",
+            "lineHeight": "42px",
+            "color": "rgb(36, 38, 34)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Inside the Fern website design",
+          "bounds": {
+            "x": 12,
+            "y": 9017.265625,
+            "width": 366,
+            "height": 61.59375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "500",
+            "lineHeight": "30.8px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "WHY WE PICKED IT",
+          "bounds": {
+            "x": 34,
+            "y": 9548.359375,
+            "width": 344,
+            "height": 19.5
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "600",
+            "lineHeight": "19.5px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "WHAT TO LOOK FOR",
+          "bounds": {
+            "x": 12,
+            "y": 9860.546875,
+            "width": 366,
+            "height": 19.5
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "600",
+            "lineHeight": "19.5px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "SECTIONS FROM FERN",
+          "bounds": {
+            "x": 12,
+            "y": 10120.046875,
+            "width": 366,
+            "height": 19.5
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "600",
+            "lineHeight": "19.5px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "FEATURED IN",
+          "bounds": {
+            "x": 12,
+            "y": 10350.546875,
+            "width": 366,
+            "height": 19.5
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "600",
+            "lineHeight": "19.5px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "SIMILAR WEBSITES",
+          "bounds": {
+            "x": 12,
+            "y": 10451.046875,
+            "width": 366,
+            "height": 19.5
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "600",
+            "lineHeight": "19.5px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "QUESTIONS DESIGNERS ASK",
+          "bounds": {
+            "x": 12,
+            "y": 10688.046875,
+            "width": 366,
+            "height": 19.5
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "600",
+            "lineHeight": "19.5px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "New",
+          "bounds": {
+            "x": 63,
+            "y": 9,
+            "width": 263,
+            "height": 44
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(25, 25, 23)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "2px",
+            "padding": "0px 4px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 331,
+            "y": 9,
+            "width": 44,
+            "height": 44
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "18px",
+            "color": "rgb(104, 104, 98)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "10px",
+            "padding": "0px",
+            "borderRadius": "4px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": "dialog",
+          "text": "NAVIGATE\n\nInfo\nSponsorship\nPress kit\nSubmit a website\nPrivacy\nTerms\n\nSETTINGS\n\nFeedback\nTheme\n© 2026 Design Details\nhello@designdetails.io",
+          "bounds": {
+            "x": 12,
+            "y": 255.82000732421875,
+            "width": 320.1000061035156,
+            "height": 576.1799926757812
+          },
+          "styles": {
+            "display": "flex",
+            "position": "fixed",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(25, 25, 23)",
+            "backgroundColor": "rgb(251, 251, 248)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "10px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 257.4100036621094,
+            "y": 652.550048828125,
+            "width": 25.220001220703125,
+            "height": 25.219970703125
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(25, 25, 23)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "999px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 284.57000732421875,
+            "y": 652.550048828125,
+            "width": 25.220001220703125,
+            "height": 25.219970703125
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(104, 104, 98)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "999px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "role": null,
+          "text": "Search websites, sections, categories…\nSubmit\nSubscribe\n\nCURATED WEBSITE DESIGN REFERENCES\n\nWebsite and landing page examples.\n\nHand-picked ",
+          "bounds": {
+            "x": 0,
+            "y": 62,
+            "width": 390,
+            "height": 3277.234375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(25, 25, 23)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Search websites, sections, categories…",
+          "bounds": {
+            "x": 16,
+            "y": 62,
+            "width": 190.09375,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "lineHeight": "19.5px",
+            "color": "rgb(107, 112, 102)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "10px",
+            "padding": "0px 12px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Subscribe",
+          "bounds": {
+            "x": 289.59375,
+            "y": 62,
+            "width": 84.40625,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "600",
+            "lineHeight": "18px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(37, 40, 34)",
+            "gap": "normal",
+            "padding": "0px 12px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "CURATED WEBSITE DESIGN REFERENCES\n\nWebsite and landing page examples.\n\nHand-picked landing pages and websites, each with a scroll recording,",
+          "bounds": {
+            "x": 16,
+            "y": 122,
+            "width": 358,
+            "height": 223.984375
+          },
+          "styles": {
+            "display": "grid",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "22px",
+            "padding": "32px 0px 28px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "358px"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Browse filters",
+          "bounds": {
+            "x": 16,
+            "y": 278.984375,
+            "width": 112.546875,
+            "height": 38
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "11px",
+            "fontWeight": "400",
+            "lineHeight": "16.5px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgb(245, 246, 241)",
+            "gap": "6px",
+            "padding": "0px 10px",
+            "borderRadius": "5px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 42,
+            "y": 369.984375,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 42,
+            "y": 639.734375,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 42,
+            "y": 909.484375,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 42,
+            "y": 1179.234375,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 42,
+            "y": 1448.984375,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 42,
+            "y": 1988.484375,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 42,
+            "y": 2258.234375,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 42,
+            "y": 2527.984375,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 42,
+            "y": 2797.734375,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "HEADER",
+          "role": null,
+          "text": "Design Details\nView\nSections\nRelated",
+          "bounds": {
+            "x": 12,
+            "y": 0,
+            "width": 366,
+            "height": 120
+          },
+          "styles": {
+            "display": "grid",
+            "position": "sticky",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(36, 38, 34)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "8px",
+            "padding": "10px 0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "242px 116px"
+          }
+        },
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "View\nSections\nRelated",
+          "bounds": {
+            "x": 12,
+            "y": 64,
+            "width": 184.546875,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(36, 38, 34)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "12px",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 279,
+            "y": 67,
+            "width": 32,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "11px",
+            "fontWeight": "400",
+            "lineHeight": "16.5px",
+            "color": "rgb(37, 38, 34)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "5px",
+            "padding": "0px 7px",
+            "borderRadius": "3px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 311,
+            "y": 67,
+            "width": 32,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "11px",
+            "fontWeight": "400",
+            "lineHeight": "16.5px",
+            "color": "rgb(92, 94, 89)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "5px",
+            "padding": "0px 7px",
+            "borderRadius": "3px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 343,
+            "y": 67,
+            "width": 32,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "11px",
+            "fontWeight": "400",
+            "lineHeight": "16.5px",
+            "color": "rgb(92, 94, 89)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "5px",
+            "padding": "0px 7px",
+            "borderRadius": "3px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "https://designdetails.io/websites/buildwithfern-com#main-content"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/websites"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/sections"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/categories"
+        },
+        {
+          "text": "New",
+          "href": "https://designdetails.io/typography"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/collections"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/saved"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/newsletter"
+        },
+        {
+          "text": "Info",
+          "href": "https://designdetails.io/info"
+        },
+        {
+          "text": "Sponsorship",
+          "href": "https://designdetails.io/sponsorship"
+        },
+        {
+          "text": "Press kit",
+          "href": "https://designdetails.io/presskit"
+        },
+        {
+          "text": "Submit a website",
+          "href": "https://designdetails.io/submit"
+        },
+        {
+          "text": "Privacy",
+          "href": "https://designdetails.io/privacy"
+        },
+        {
+          "text": "Terms",
+          "href": "https://designdetails.io/terms"
+        },
+        {
+          "text": "Feedback",
+          "href": "https://designdetails.io/feedback"
+        },
+        {
+          "text": "",
+          "href": "https://www.pinterest.com/DesignDetailsIO/"
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/designdetailsio/"
+        },
+        {
+          "text": "",
+          "href": "https://www.threads.net/@designdetailsio"
+        },
+        {
+          "text": "",
+          "href": "https://x.com/DesignDetailsIO"
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/profile.php?id=61595255246370"
+        },
+        {
+          "text": "Submit",
+          "href": "https://designdetails.io/submit"
+        },
+        {
+          "text": "privacy policy",
+          "href": "https://designdetails.io/privacy"
+        },
+        {
+          "text": "All",
+          "href": "https://designdetails.io/"
+        },
+        {
+          "text": "AI",
+          "href": "https://designdetails.io/categories/ai"
+        },
+        {
+          "text": "Developer Tools",
+          "href": "https://designdetails.io/categories/developer-tools"
+        },
+        {
+          "text": "Skip past the designs",
+          "href": "https://designdetails.io/websites/buildwithfern-com#after-designs"
+        },
+        {
+          "text": "FE\nFern",
+          "href": "https://designdetails.io/websites/buildwithfern-com"
+        },
+        {
+          "text": "AI Agent Cloud",
+          "href": "https://designdetails.io/websites/e2b-dev"
+        },
+        {
+          "text": "Artie",
+          "href": "https://designdetails.io/websites/artie-com"
+        },
+        {
+          "text": "Blacksmith",
+          "href": "https://designdetails.io/websites/blacksmith-sh"
+        },
+        {
+          "text": "Zoah",
+          "href": "https://designdetails.io/websites/zoah-com"
+        },
+        {
+          "text": "",
+          "href": "https://www.practical-ui.com/?ref=designdetails.io"
+        },
+        {
+          "text": "Pluto Security",
+          "href": "https://designdetails.io/websites/pluto-security"
+        },
+        {
+          "text": "LocalCan",
+          "href": "https://designdetails.io/websites/localcan-com"
+        },
+        {
+          "text": "Neon",
+          "href": "https://designdetails.io/websites/neon-com"
+        },
+        {
+          "text": "Captain",
+          "href": "https://designdetails.io/websites/captain"
+        },
+        {
+          "text": "",
+          "href": "https://mobbin.com/?via=getdesign"
+        },
+        {
+          "text": "Design Details",
+          "href": "https://designdetails.io/"
+        },
+        {
+          "text": "Websites",
+          "href": "https://designdetails.io/websites"
+        },
+        {
+          "text": "Sections",
+          "href": "https://designdetails.io/sections"
+        },
+        {
+          "text": "Categories",
+          "href": "https://designdetails.io/categories"
+        },
+        {
+          "text": "TypographyNew",
+          "href": "https://designdetails.io/typography"
+        },
+        {
+          "text": "Collections",
+          "href": "https://designdetails.io/collections"
+        },
+        {
+          "text": "Saved",
+          "href": "https://designdetails.io/saved"
+        },
+        {
+          "text": "Weekly Picks",
+          "href": "https://designdetails.io/newsletter"
+        },
+        {
+          "text": "Info",
+          "href": "https://designdetails.io/info"
+        },
+        {
+          "text": "Sponsorship",
+          "href": "https://designdetails.io/sponsorship"
+        },
+        {
+          "text": "Press kit",
+          "href": "https://designdetails.io/presskit"
+        },
+        {
+          "text": "Submit a website",
+          "href": "https://designdetails.io/submit"
+        },
+        {
+          "text": "Privacy",
+          "href": "https://designdetails.io/privacy"
+        },
+        {
+          "text": "Terms",
+          "href": "https://designdetails.io/terms"
+        },
+        {
+          "text": "Feedback",
+          "href": "https://designdetails.io/feedback"
+        },
+        {
+          "text": "",
+          "href": "https://www.pinterest.com/DesignDetailsIO/"
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/designdetailsio/"
+        },
+        {
+          "text": "",
+          "href": "https://www.threads.net/@designdetailsio"
+        },
+        {
+          "text": "",
+          "href": "https://x.com/DesignDetailsIO"
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/profile.php?id=61595255246370"
+        },
+        {
+          "text": "Design Details",
+          "href": "https://designdetails.io/"
+        },
+        {
+          "text": "View",
+          "href": "https://designdetails.io/websites/buildwithfern-com#view"
+        },
+        {
+          "text": "Sections",
+          "href": "https://designdetails.io/websites/buildwithfern-com#sections"
+        },
+        {
+          "text": "Related",
+          "href": "https://designdetails.io/websites/buildwithfern-com#related"
+        },
+        {
+          "text": "",
+          "href": "https://x.com/intent/post?url=https%3A%2F%2Fdesigndetails.io%2Fwebsites%2Fbuildwithfern-com%3Futm_source%3Dx%26utm_medium%3Dshare%26utm_campaign%3Dviewer&text=Fern%20on%20Design%20Details"
+        },
+        {
+          "text": "",
+          "href": "https://www.threads.net/intent/post?text=Fern%20on%20Design%20Details%20https%3A%2F%2Fdesigndetails.io%2Fwebsites%2Fbuildwithfern-com%3Futm_source%3Dthreads%26utm_medium%3Dshare%26utm_campaign%3Dviewer"
+        },
+        {
+          "text": "",
+          "href": "https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fdesigndetails.io%2Fwebsites%2Fbuildwithfern-com%3Futm_source%3Dpinterest%26utm_medium%3Dshare%26utm_campaign%3Dviewer&media=https%3A%2F%2Fmedia.designdetails.io%2Flibrary%2F181e707620669e1cf5ebeafc0ab2e6cff0458b8aa11d7afd712f03be02854aca%2Fthumbnail-cc379b7a-2026-11-10T06-52-12-926Z.png&description=Fern%20on%20Design%20Details"
+        },
+        {
+          "text": "",
+          "href": "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdesigndetails.io%2Fwebsites%2Fbuildwithfern-com%3Futm_source%3Dlinkedin%26utm_medium%3Dshare%26utm_campaign%3Dviewer"
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdesigndetails.io%2Fwebsites%2Fbuildwithfern-com%3Futm_source%3Dfacebook%26utm_medium%3Dshare%26utm_campaign%3Dviewer"
+        },
+        {
+          "text": "",
+          "href": "https://media.designdetails.io/library/5717665606d4a0e85fbcf0deecb1f768afb5d48dceeb3a54badbf9d144ce004f/motion-1794296458841.mp4"
+        },
+        {
+          "text": "buildwithfern.com",
+          "href": "https://buildwithfern.com/?ref=designdetails.io"
+        },
+        {
+          "text": "",
+          "href": "https://buildwithfern.com/?ref=designdetails.io"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/api/design/buildwithfern-com"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/remix/buildwithfern-com"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/remix/buildwithfern-com"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/categories/developer-tools"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/websites?site-type=landing"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/websites?site-type=blog"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/websites?platform=custom-code"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/websites?tech=next-js"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/websites?tech=astro"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/websites?tech=tailwind-css"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/websites?style=minimal"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/websites?style=corporate"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/websites?style=developer-focused"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/websites?business-model=software"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/websites?presence=online"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/section-types/navbar"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/section-types/hero"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/section-types/logo-cloud"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/websites?component=stat-block"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/section-types/features"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/section-types/testimonials"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/section-types/footer"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/websites?component=ui-mockup-simulation"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/typography?font=gt-planar"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/typography?font=gt-planar"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/typography?font=gt-planar"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/typography?font=jetbrains-mono"
+        },
+        {
+          "text": "",
+          "href": "https://media.designdetails.io/library/550e69faee3756660c10d3d1959ef85e8e525249076856b875f629889313caac/og_image-cc379b7a-2026-11-10T06-52-15-014Z.webp"
+        },
+        {
+          "text": "Navbar\nFern Navbar",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--navbar-41461529"
+        },
+        {
+          "text": "Stats\nLogo row and metric cards",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--stats-b7f67cb0"
+        },
+        {
+          "text": "Features\nCentered heading with protocol chips",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--features-db980169"
+        },
+        {
+          "text": "Features\nThree columns for docs, SDKs, CLI",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--features-e0d6070a"
+        },
+        {
+          "text": "Testimonials\nMigration case studies with logos",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--testimonials-a70774f0"
+        },
+        {
+          "text": "Features\nEnterprise features with UI mockups",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--features-fd0dd1d9"
+        },
+        {
+          "text": "Features\nIcon cards and Postman callout",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--features-42d7af26"
+        },
+        {
+          "text": "Testimonials\nQuote cards with metrics",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--testimonials-0614d1a5"
+        },
+        {
+          "text": "CTA\nCentered closing call with two buttons",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--cta-ff255da1"
+        },
+        {
+          "text": "Other\nOversized dotted logo wordmark",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--other-833943c5"
+        },
+        {
+          "text": "Hero\nDeveloper and Agent Experience Hero",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--ai-ff982dff-ffb9-43fd-b0b8-54bd8bc76740"
+        },
+        {
+          "text": "Features\nDocs, SDKs, and CLI Platform Grid",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--ai-1dbbfde9-fc8e-42f4-907b-fcda7c9c7a3c"
+        },
+        {
+          "text": "Features\nDesigned for the AI era",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--ai-5dc4c784-4ab7-41ec-ac5b-71d018cad683"
+        },
+        {
+          "text": "CTA\nMigrate to the enterprise platform",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--ai-8f8786ba-b19a-4e01-a10b-0a6c690a6c8d"
+        },
+        {
+          "text": "Other\nNative Postman Support Demo",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--ai-02c4f721-fb6a-4389-919f-fb71920486d7"
+        },
+        {
+          "text": "Testimonials\nHear It From Our Customers",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--ai-bfd5f597-4e2a-4118-9798-d01a8fdba802"
+        },
+        {
+          "text": "Editorial\nField notes from the Fern team",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--ai-374bee4b-948a-4405-a4d2-304b2c9d0bae"
+        },
+        {
+          "text": "Footer\nFern newsletter and site footer",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--ai-dacd4b23-77fa-418a-85f8-15d51faf793a"
+        },
+        {
+          "text": "Artie",
+          "href": "https://designdetails.io/websites/artie-com"
+        },
+        {
+          "text": "Neon",
+          "href": "https://designdetails.io/websites/neon-com"
+        },
+        {
+          "text": "Blacksmith",
+          "href": "https://designdetails.io/websites/blacksmith-sh"
+        },
+        {
+          "text": "LocalCan",
+          "href": "https://designdetails.io/websites/localcan-com"
+        },
+        {
+          "text": "Zoah",
+          "href": "https://designdetails.io/websites/zoah-com"
+        },
+        {
+          "text": "Pluto Security",
+          "href": "https://designdetails.io/websites/pluto-security"
+        },
+        {
+          "text": "Captain",
+          "href": "https://designdetails.io/websites/captain"
+        },
+        {
+          "text": "AI Agent Cloud",
+          "href": "https://designdetails.io/websites/e2b-dev"
+        },
+        {
+          "text": "Navbar section",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--navbar-41461529"
+        },
+        {
+          "text": "Stats: Logo row and metric cards",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--stats-b7f67cb0"
+        },
+        {
+          "text": "Features: Centered heading with protocol chips",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--features-db980169"
+        },
+        {
+          "text": "Features: Three columns for docs, SDKs, CLI",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--features-e0d6070a"
+        },
+        {
+          "text": "Testimonials: Migration case studies with logos",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--testimonials-a70774f0"
+        },
+        {
+          "text": "Features: Enterprise features with UI mockups",
+          "href": "https://designdetails.io/sections/buildwithfern-com--home--features-fd0dd1d9"
+        },
+        {
+          "text": "Best SaaS website designs that explain the product fast",
+          "href": "https://designdetails.io/collections/saas-websites"
+        },
+        {
+          "text": "Artie",
+          "href": "https://designdetails.io/websites/artie-com"
+        },
+        {
+          "text": "Neon",
+          "href": "https://designdetails.io/websites/neon-com"
+        },
+        {
+          "text": "Blacksmith",
+          "href": "https://designdetails.io/websites/blacksmith-sh"
+        },
+        {
+          "text": "LocalCan",
+          "href": "https://designdetails.io/websites/localcan-com"
+        },
+        {
+          "text": "More developer tools website examples",
+          "href": "https://designdetails.io/categories/developer-tools"
+        },
+        {
+          "text": "privacy policy",
+          "href": "https://designdetails.io/privacy"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--border": "#deded7",
+        "--tw-ring-offset-shadow": "0 0 #0000",
+        "--font-editorial": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "--tw-inset-shadow-alpha": "100%",
+        "--page-slide-distance": "8px",
+        "--tw-ring-shadow": "0 0 #0000",
+        "--dropdown-open-dur": ".25s",
+        "--page-hero-padding-bottom": "50px",
+        "--field-surface": "#fff",
+        "--button-surface": "#252822",
+        "--aspect-video": "16 / 9",
+        "--leading-relaxed": "1.625",
+        "--field-placeholder": "#6b7066",
+        "--control-muted": "#f7f8f3",
+        "--ease-in-out": "cubic-bezier(.4, 0, .2, 1)",
+        "--popover-shadow": "0 18px 48px #191e142e",
+        "--accent": "#e4ec96",
+        "--tw-drop-shadow-alpha": "100%",
+        "--page-secondary": "#5f665c",
+        "--page-muted": "#666b60",
+        "--surface-muted": "#eaeae7",
+        "--default-transition-timing-function": "cubic-bezier(.4, 0, .2, 1)",
+        "--page-fade-ease": "cubic-bezier(.22, 1, .36, 1)",
+        "--page-canvas": "#edf0ec",
+        "--resize-dur": ".3s",
+        "--tw-outline-style": "solid",
+        "--resize-ease": "cubic-bezier(.22, 1, .36, 1)",
+        "--control-surface": "#fff",
+        "--page-hero-padding-top": "100px",
+        "--tw-inset-ring-shadow": "0 0 #0000",
+        "--spacing": ".25rem",
+        "--background": "#fff",
+        "--muted": "#686862",
+        "--lightningcss-dark": "",
+        "--tw-translate-z": "0",
+        "--button-foreground": "#fff",
+        "--page-slide-ease": "cubic-bezier(.22, 1, .36, 1)",
+        "--tw-scale-y": "1",
+        "--sidebar-active-ink": "#20231e",
+        "--font-mono": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+        "--text-xl--line-height": "calc(1.75 / 1.25)",
+        "--field-foreground": "#20231e",
+        "--font-weight-semibold": "600",
+        "--text-sm": ".875rem",
+        "--tw-translate-y": "0",
+        "--page-blur": "3px",
+        "--ring": "#444d3d",
+        "--tw-inset-shadow": "0 0 #0000",
+        "--tw-ring-offset-color": "#fff",
+        "--sidebar-canvas": "#fff",
+        "--color-white": "#fff",
+        "--dropdown-pre-scale": ".97",
+        "--page-exit-enabled": "1",
+        "--tw-shadow-alpha": "100%",
+        "--thumbnail-mat": "10px",
+        "--leading-tight": "1.25",
+        "--page-foreground": "#20231e",
+        "--sidebar-active": "#e8eae7",
+        "--sidebar-hover": "#f1f2f0",
+        "--lightningcss-light": "",
+        "--dropdown-closing-scale": ".99",
+        "--font-sans": "\"DM Sans\", \"DM Sans Fallback\"",
+        "--tw-divide-y-reverse": "0",
+        "--tw-border-style": "solid",
+        "--tw-scale-z": "1",
+        "--radius": "2px",
+        "--dropdown-close-dur": ".15s",
+        "--blur-2xl": "40px",
+        "--color-background": "#fff",
+        "--page-fade-dur": ".2s",
+        "--container-2xl": "42rem",
+        "--tw-shadow": "0 0 #0000",
+        "--container-sm": "24rem",
+        "--tw-translate-x": "0",
+        "--tw-ring-offset-width": "0px",
+        "--text-sm--line-height": "calc(1.25 / .875)",
+        "--text-xs": ".75rem",
+        "--default-font-family": "\"DM Sans\", \"DM Sans Fallback\"",
+        "--text-xs--line-height": "calc(1 / .75)",
+        "--color-black": "#000"
+      }
+    }
+  },
+  "scope": "public source reference; not a locally reconstructed component",
+  "http_status": 200,
+  "page_errors": []
+}

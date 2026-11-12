@@ -1,0 +1,167 @@
+[
+  {
+    "id": "dithercn-dither-glow",
+    "tier": "S",
+    "file": "Q3-visual-atmosphere/shaders-webgl/ordered-dithering/dithercn-dither-glow.json"
+  },
+  {
+    "id": "dithercn-mesh-gradient",
+    "tier": "A",
+    "file": "Q3-visual-atmosphere/shaders-webgl/aurora-mesh-gradients/dithercn-mesh-gradient.json"
+  },
+  {
+    "id": "dithercn-noise-field",
+    "tier": "S",
+    "file": "Q3-visual-atmosphere/shaders-webgl/ordered-dithering/dithercn-noise-field.json"
+  },
+  {
+    "id": "dithercn-plasma",
+    "tier": "A",
+    "file": "Q3-visual-atmosphere/shaders-webgl/aurora-mesh-gradients/dithercn-plasma.json"
+  },
+  {
+    "id": "dithercn-starfield",
+    "tier": "A",
+    "file": "Q3-visual-atmosphere/shaders-webgl/particle-chrome-effects/dithercn-starfield.json"
+  },
+  {
+    "id": "dithercn-halftone",
+    "tier": "A",
+    "file": "Q3-visual-atmosphere/shaders-webgl/ordered-dithering/dithercn-halftone.json"
+  },
+  {
+    "id": "dithercn-horizon",
+    "tier": "S",
+    "file": "Q3-visual-atmosphere/shaders-webgl/ordered-dithering/dithercn-horizon.json"
+  },
+  {
+    "id": "dithercn-beams",
+    "tier": "S",
+    "file": "Q3-visual-atmosphere/shaders-webgl/aurora-mesh-gradients/dithercn-beams.json"
+  },
+  {
+    "id": "dithercn-eclipse",
+    "tier": "S",
+    "file": "Q3-visual-atmosphere/shaders-webgl/ordered-dithering/dithercn-eclipse.json"
+  },
+  {
+    "id": "dithercn-dither-orb",
+    "tier": "A",
+    "file": "Q3-visual-atmosphere/shaders-webgl/particle-chrome-effects/dithercn-dither-orb.json"
+  },
+  {
+    "id": "dithercn-contours",
+    "tier": "S",
+    "file": "Q3-visual-atmosphere/shaders-webgl/ordered-dithering/dithercn-contours.json"
+  },
+  {
+    "id": "dithercn-ripples",
+    "tier": "S",
+    "file": "Q3-visual-atmosphere/shaders-webgl/ordered-dithering/dithercn-ripples.json"
+  },
+  {
+    "id": "dithercn-retro-grid",
+    "tier": "S",
+    "file": "Q3-visual-atmosphere/shaders-webgl/ordered-dithering/dithercn-retro-grid.json"
+  },
+  {
+    "id": "dithercn-silk",
+    "tier": "S",
+    "file": "Q3-visual-atmosphere/shaders-webgl/aurora-mesh-gradients/dithercn-silk.json"
+  },
+  {
+    "id": "dithercn-tunnel",
+    "tier": "S",
+    "file": "Q3-visual-atmosphere/shaders-webgl/ordered-dithering/dithercn-tunnel.json"
+  },
+  {
+    "id": "dithercn-smoke",
+    "tier": "A",
+    "file": "Q3-visual-atmosphere/shaders-webgl/aurora-mesh-gradients/dithercn-smoke.json"
+  },
+  {
+    "id": "dithercn-metaballs",
+    "tier": "A",
+    "file": "Q3-visual-atmosphere/shaders-webgl/aurora-mesh-gradients/dithercn-metaballs.json"
+  },
+  {
+    "id": "dithercn-ridgelines",
+    "tier": "S",
+    "file": "Q3-visual-atmosphere/shaders-webgl/ordered-dithering/dithercn-ridgelines.json"
+  },
+  {
+    "id": "dithercn-flow-field",
+    "tier": "S",
+    "file": "Q3-visual-atmosphere/shaders-webgl/particle-chrome-effects/dithercn-flow-field.json"
+  },
+  {
+    "id": "dithercn-voronoi",
+    "tier": "A",
+    "file": "Q3-visual-atmosphere/shaders-webgl/particle-chrome-effects/dithercn-voronoi.json"
+  },
+  {
+    "id": "shadcn-button",
+    "tier": "A",
+    "file": "Q4-ux-motion/micro-interactions/tactile-button-states/shadcn-button.json"
+  },
+  {
+    "id": "shadcn-badge",
+    "tier": "A",
+    "file": "Q2-conversion-content/pricing-proof/status-badges/shadcn-badge.json"
+  },
+  {
+    "id": "shadcn-card",
+    "tier": "A",
+    "file": "Q2-conversion-content/forms-overlays/authentication-cards/shadcn-card.json"
+  },
+  {
+    "id": "shadcn-input",
+    "tier": "A",
+    "file": "Q2-conversion-content/forms-overlays/text-inputs/shadcn-input.json"
+  },
+  {
+    "id": "shadcn-textarea",
+    "tier": "A",
+    "file": "Q2-conversion-content/forms-overlays/text-inputs/shadcn-textarea.json"
+  },
+  {
+    "id": "shadcn-checkbox",
+    "tier": "A",
+    "file": "Q4-ux-motion/accessibility-specs/aria-keyboard-contracts/shadcn-checkbox.json"
+  },
+  {
+    "id": "shadcn-switch",
+    "tier": "A",
+    "file": "Q4-ux-motion/micro-interactions/toggle-controls/shadcn-switch.json"
+  },
+  {
+    "id": "shadcn-tabs",
+    "tier": "A",
+    "file": "Q2-conversion-content/feature-grids/interactive-tabs-showcase/shadcn-tabs.json"
+  },
+  {
+    "id": "shadcn-accordion",
+    "tier": "A",
+    "file": "Q4-ux-motion/accessibility-specs/aria-keyboard-contracts/shadcn-accordion.json"
+  },
+  {
+    "id": "shadcn-dialog",
+    "tier": "A",
+    "file": "Q2-conversion-content/forms-overlays/command-palettes-modals/shadcn-dialog.json"
+  },
+  {
+    "id": "shadcn-progress",
+    "tier": "A",
+    "file": "Q4-ux-motion/micro-interactions/progress-feedback/shadcn-progress.json"
+  },
+  {
+    "id": "shadcn-slider",
+    "tier": "A",
+    "file": "Q4-ux-motion/micro-interactions/range-controls/shadcn-slider.json"
+  },
+  {
+    "id": "pageflows-revolut-onboarding-public-outline",
+    "tier": "C",
+    "file": "Q4-ux-motion/user-flows/onboarding-sequences/pageflows-revolut-onboarding-public-outline.json"
+  }
+]

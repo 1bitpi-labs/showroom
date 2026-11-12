@@ -1,0 +1,891 @@
+{
+  "site": "spottedinprod.com",
+  "url": "https://www.spottedinprod.com/apps/abode",
+  "captured_at": "2026-11-12T21:11:48.156637+00:00",
+  "views": {
+    "desktop": {
+      "url": "https://www.spottedinprod.com/apps/abode",
+      "title": "Abode | Spotted in Prod",
+      "text": "Abode\nHome\nClips\nJobs\nLeaderboard\nLog in\nAbode\nFollow\nDownload\nRank\n01\nTeam type\nStartup\nCategory\nGames\nTeam",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Abode",
+          "bounds": {
+            "x": 24,
+            "y": 192,
+            "width": 92.53125,
+            "height": 41.59375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "500",
+            "lineHeight": "41.6px",
+            "color": "color(display-p3 0 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Rank",
+          "bounds": {
+            "x": 24,
+            "y": 317.59375,
+            "width": 29.546875,
+            "height": 16.46875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "fontSize": "12.6667px",
+            "fontWeight": "500",
+            "lineHeight": "16.4667px",
+            "color": "color(display-p3 0.243137 0.243137 0.243137)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Team type",
+          "bounds": {
+            "x": 77.546875,
+            "y": 317.59375,
+            "width": 58.390625,
+            "height": 16.46875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "fontSize": "12.6667px",
+            "fontWeight": "500",
+            "lineHeight": "16.4667px",
+            "color": "color(display-p3 0.243137 0.243137 0.243137)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Category",
+          "bounds": {
+            "x": 159.9375,
+            "y": 317.59375,
+            "width": 51.359375,
+            "height": 16.46875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "fontSize": "12.6667px",
+            "fontWeight": "500",
+            "lineHeight": "16.4667px",
+            "color": "color(display-p3 0.243137 0.243137 0.243137)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Team",
+          "bounds": {
+            "x": 24,
+            "y": 384.265625,
+            "width": 372,
+            "height": 16.46875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "fontSize": "12.6667px",
+            "fontWeight": "500",
+            "lineHeight": "16.4667px",
+            "color": "color(display-p3 0.243137 0.243137 0.243137)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Abode",
+          "bounds": {
+            "x": 591,
+            "y": 16,
+            "width": 300,
+            "height": 34
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "18.2px",
+            "color": "color(display-p3 0.243137 0.243137 0.243137)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "5px 34px 5px 6px",
+            "borderRadius": "999px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "Home\nClips\nJobs\nLeaderboard",
+          "bounds": {
+            "x": 16,
+            "y": 16,
+            "width": 297.5,
+            "height": 34
+          },
+          "styles": {
+            "display": "flex",
+            "position": "fixed",
+            "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "color(display-p3 0 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "8px",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 1313.84375,
+            "y": 16,
+            "width": 34,
+            "height": 34
+          },
+          "styles": {
+            "display": "grid",
+            "position": "static",
+            "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "50%",
+            "gridTemplateColumns": "34px"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Log in",
+          "bounds": {
+            "x": 1355.84375,
+            "y": 16,
+            "width": 68.15625,
+            "height": 34
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "18.2px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px 15px",
+            "borderRadius": "999px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "role": null,
+          "text": "Abode\nFollow\nDownload\nRank\n01\nTeam type\nStartup\nCategory\nGames\nTeam",
+          "bounds": {
+            "x": 0,
+            "y": 66,
+            "width": 1440,
+            "height": 834
+          },
+          "styles": {
+            "display": "block",
+            "position": "fixed",
+            "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "color(display-p3 0 0 0)",
+            "backgroundColor": "color(display-p3 1 1 1)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "HEADER",
+          "role": null,
+          "text": "Abode\nFollow\nDownload",
+          "bounds": {
+            "x": 24,
+            "y": 98,
+            "width": 372,
+            "height": 219.59375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "lineHeight": "16.9px",
+            "color": "color(display-p3 0 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Follow",
+          "bounds": {
+            "x": 21.5,
+            "y": 249.59375,
+            "width": 100,
+            "height": 36
+          },
+          "styles": {
+            "display": "grid",
+            "position": "relative",
+            "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "18.2px",
+            "color": "color(display-p3 1 1 1)",
+            "backgroundColor": "color(display-p3 0 0 0)",
+            "gap": "normal",
+            "padding": "0px 10.6667px",
+            "borderRadius": "999px",
+            "gridTemplateColumns": "59.1406px"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Download",
+          "bounds": {
+            "x": 129.5,
+            "y": 249.59375,
+            "width": 100,
+            "height": 36
+          },
+          "styles": {
+            "display": "grid",
+            "position": "static",
+            "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "18.2px",
+            "color": "color(display-p3 0 0 0)",
+            "backgroundColor": "color(display-p3 1 1 1)",
+            "gap": "normal",
+            "padding": "0px 10.6667px",
+            "borderRadius": "999px",
+            "gridTemplateColumns": "76.6875px"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Rank\n01\nTeam type\nStartup\nCategory\nGames",
+          "bounds": {
+            "x": 24,
+            "y": 317.59375,
+            "width": 372,
+            "height": 42.671875
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "lineHeight": "16.9px",
+            "color": "color(display-p3 0 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "24px",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Team",
+          "bounds": {
+            "x": 24,
+            "y": 384.265625,
+            "width": 372,
+            "height": 62.46875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "lineHeight": "16.9px",
+            "color": "color(display-p3 0 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 419,
+            "y": 66,
+            "width": 1021,
+            "height": 834
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "color(display-p3 0 0 0)",
+            "backgroundColor": "color(display-p3 1 1 1)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/clips"
+        },
+        {
+          "text": "Home",
+          "href": "https://www.spottedinprod.com/"
+        },
+        {
+          "text": "Clips",
+          "href": "https://www.spottedinprod.com/clips"
+        },
+        {
+          "text": "Jobs",
+          "href": "https://www.spottedinprod.com/jobs"
+        },
+        {
+          "text": "Leaderboard",
+          "href": "https://www.spottedinprod.com/leaderboard"
+        },
+        {
+          "text": "01",
+          "href": "https://www.spottedinprod.com/leaderboard?view=apps&app=abode&period=all-time"
+        },
+        {
+          "text": "Startup",
+          "href": "https://www.spottedinprod.com/tags/team_type/startup"
+        },
+        {
+          "text": "Games",
+          "href": "https://www.spottedinprod.com/tags/category/games"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/joseph-s1"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/aliszu"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/apps/abode/451"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/apps/abode/450"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/apps/abode/449"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/apps/abode/448"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/apps/abode/447"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/apps/abode/325"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/apps/abode/20"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/apps/abode/19"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/apps/abode/18"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/apps/abode/16"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--border": "#dbdbdb",
+        "--topbar-search-leading-offset": "calc((28px + 6px + 281px) / 2 - 18px)",
+        "--text-2xl": ".875rem",
+        "--type-medium-weight": "400",
+        "--gallery-viewport-inset": "calc(2 * 8px)",
+        "--duration-snappy": ".22s",
+        "--hyperlink-color": "color(display-p3 1 .415686 0)",
+        "--page-footer-vertical-inset": "14px",
+        "--text-lg": ".875rem",
+        "--feed-card-asset-size": "20px",
+        "--bg-3-dark": "color(display-p3 .0941177 .0862745 .0862745)",
+        "--fg-3": "color(display-p3 .490196 .490196 .490196)",
+        "--overlay-secondary-selection-shadow": "inset 0 0 0 #ffffff05",
+        "--fg-1-dark": "color(display-p3 1 1 1)",
+        "--control-muted-bg": "color(display-p3 .960784 .960784 .960784)",
+        "--ease-snappy": "cubic-bezier(.175, .885, .32, 1.1)",
+        "--dialog-header-height": "calc(32px + 16px + 16px)",
+        "--_number-flow-dx": "0px",
+        "--overlay-secondary-selection-color": "#fff",
+        "--fg-4-light": "color(display-p3 .556863 .556863 .556863)",
+        "--gallery-metadata-easing": "ease",
+        "--type-label-weight": "400",
+        "--overlay-secondary-color": "#fff",
+        "--dialog-radius": "20px",
+        "--danger-light": "color(display-p3 .996078 .921569 .921569)",
+        "--header-control-radius": "calc(34px * .3)",
+        "--overlay-backdrop": "#0000001a",
+        "--font-secondary": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "--page-chrome-control-padding": "10px",
+        "--gallery-metadata-duration": ".22s",
+        "--dialog-outer-inset": "16px",
+        "--escape-control-bg": "color(display-p3 .960784 .960784 .960784)",
+        "--modal-scrim-color": "#bbbaba",
+        "--font-mono": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "--control-muted-bg-hover": "color(display-p3 .905882 .905882 .905882)",
+        "--gallery-panel-width": "clamp(calc(288px * 1.15), 20vw, 400px)",
+        "--overlay-color": "color(display-p3 0 0 0)",
+        "--gallery-panel-radius": "17px",
+        "--type-label-size": ".75rem",
+        "--gallery-count-inline-inset": "calc(15px - 2pt)",
+        "--gallery-media-max-height": "calc(916px * 1.05 * .97)",
+        "--dialog-inner-inset": "10px",
+        "--gallery-space-large": "calc(3 * 8px)",
+        "--overlay-background": "#ffffffbf",
+        "--overlay-secondary-filter": "none",
+        "--warning": "color(display-p3 1 .556863 0)",
+        "--border-2-dark": "color(display-p3 .243137 .243137 .243137)",
+        "--device-background": "rgb(232, 228, 220)",
+        "--selection-color": "color(display-p3 1 1 1)",
+        "--body-color": "color(display-p3 0 0 0)",
+        "--gallery-pill-radius": "999px",
+        "--selection-bg": "color(display-p3 1 .415686 0)",
+        "--overlay-selection-color": "color(display-p3 0 0 0)",
+        "--body-bg": "color(display-p3 1 1 1)",
+        "--chrome-height": "62px",
+        "--page-chrome-vertical-inset": "12px",
+        "--gallery-header-control-padding": "8pt",
+        "--bg-1": "color(display-p3 .976471 .976471 .976471)",
+        "--border-1-light": "color(display-p3 .858824 .858824 .858824)",
+        "--font-sans": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "--fg-2-light": "color(display-p3 .243137 .243137 .243137)",
+        "--status-block": "rgb(198, 192, 182)",
+        "--feed-card-header-size": "44px",
+        "--gallery-surface-background": "#fffffff2",
+        "--overlay-selection-background": "#fff9",
+        "--border-2-light": "color(display-p3 .858824 .858824 .858824)",
+        "--bg-4-dark": "color(display-p3 .164706 .156863 .156863)",
+        "--type-small-size": ".75rem",
+        "--danger": "color(display-p3 .827451 .301961 .388235)",
+        "--page-chrome-label-padding": "6px",
+        "--gallery-control-height": "34px",
+        "--collection-rail-height": "76px",
+        "--_number-flow-d-opacity": "0",
+        "--fg-3-light": "color(display-p3 .490196 .490196 .490196)",
+        "--duration-swift": ".8s",
+        "--header-slide-duration": ".26s",
+        "--chrome-inset": "14px",
+        "--focus-color": "color(display-p3 0 0 0)",
+        "--footer-chrome-height": "66px",
+        "--bg-4": "color(display-p3 .823529 .823529 .823529)"
+      }
+    },
+    "mobile": {
+      "url": "https://www.spottedinprod.com/apps/abode",
+      "title": "Abode | Spotted in Prod",
+      "text": "Abode\n10",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "horizontal_overflow": false,
+      "headings": [],
+      "components": [
+        {
+          "tag": "MAIN",
+          "role": null,
+          "text": "Abode\n10",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 2064.90625
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "color(display-p3 0 0 0)",
+            "backgroundColor": "color(display-p3 1 1 1)",
+            "gap": "normal",
+            "padding": "56px 0px 0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "HEADER",
+          "role": null,
+          "text": "Abode\n10",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 56
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "color(display-p3 0 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "12px",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "Abode",
+          "bounds": {
+            "x": 12,
+            "y": 12,
+            "width": 122.484375,
+            "height": 44
+          },
+          "styles": {
+            "display": "flex",
+            "position": "fixed",
+            "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "color(display-p3 0 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "8px",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 12,
+            "y": 12,
+            "width": 44,
+            "height": 44
+          },
+          "styles": {
+            "display": "grid",
+            "position": "static",
+            "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "18.2px",
+            "color": "color(display-p3 0.243137 0.243137 0.243137)",
+            "backgroundColor": "rgba(255, 255, 255, 0.7)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "999px",
+            "gridTemplateColumns": "42px"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "Download",
+          "href": "https://api.spottedinprod.com/downloads?url=https%3A%2F%2Ftestflight.apple.com%2Fjoin%2F9Arozgr9"
+        },
+        {
+          "text": "01",
+          "href": "https://www.spottedinprod.com/leaderboard?view=apps&app=abode&period=all-time"
+        },
+        {
+          "text": "Startup",
+          "href": "https://www.spottedinprod.com/tags/team_type/startup"
+        },
+        {
+          "text": "Games",
+          "href": "https://www.spottedinprod.com/tags/category/games"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/joseph-s1"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/aliszu"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/apps/abode/451"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/apps/abode/450"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/apps/abode/449"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/apps/abode/448"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/apps/abode/447"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/apps/abode/325"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/apps/abode/20"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/apps/abode/19"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/apps/abode/18"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/apps/abode/16"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/apps/abode/451"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/apps/abode/450"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/apps/abode/449"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/apps/abode/448"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/apps/abode/447"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/apps/abode/325"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/apps/abode/20"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/apps/abode/19"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/apps/abode/18"
+        },
+        {
+          "text": "",
+          "href": "https://www.spottedinprod.com/apps/abode/16"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--border": "#dbdbdb",
+        "--topbar-search-leading-offset": "calc((28px + 6px + 281px) / 2 - 18px)",
+        "--text-2xl": ".875rem",
+        "--type-medium-weight": "400",
+        "--gallery-viewport-inset": "calc(2 * 8px)",
+        "--duration-snappy": ".22s",
+        "--hyperlink-color": "color(display-p3 1 .415686 0)",
+        "--page-footer-vertical-inset": "14px",
+        "--text-lg": ".875rem",
+        "--feed-card-asset-size": "20px",
+        "--bg-3-dark": "color(display-p3 .0941177 .0862745 .0862745)",
+        "--fg-3": "color(display-p3 .490196 .490196 .490196)",
+        "--overlay-secondary-selection-shadow": "inset 0 0 0 #ffffff05",
+        "--fg-1-dark": "color(display-p3 1 1 1)",
+        "--control-muted-bg": "color(display-p3 .960784 .960784 .960784)",
+        "--ease-snappy": "cubic-bezier(.175, .885, .32, 1.1)",
+        "--dialog-header-height": "calc(32px + 16px + 16px)",
+        "--_number-flow-dx": "0px",
+        "--overlay-secondary-selection-color": "#fff",
+        "--fg-4-light": "color(display-p3 .556863 .556863 .556863)",
+        "--gallery-metadata-easing": "ease",
+        "--type-label-weight": "400",
+        "--overlay-secondary-color": "#fff",
+        "--dialog-radius": "20px",
+        "--danger-light": "color(display-p3 .996078 .921569 .921569)",
+        "--header-control-radius": "calc(34px * .3)",
+        "--overlay-backdrop": "#0000001a",
+        "--font-secondary": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "--page-chrome-control-padding": "10px",
+        "--gallery-metadata-duration": ".22s",
+        "--dialog-outer-inset": "16px",
+        "--escape-control-bg": "color(display-p3 .960784 .960784 .960784)",
+        "--modal-scrim-color": "#bbbaba",
+        "--font-mono": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "--control-muted-bg-hover": "color(display-p3 .905882 .905882 .905882)",
+        "--gallery-panel-width": "100vw",
+        "--overlay-color": "color(display-p3 0 0 0)",
+        "--gallery-panel-radius": "17px",
+        "--type-label-size": ".75rem",
+        "--gallery-count-inline-inset": "calc(15px - 2pt)",
+        "--gallery-media-max-height": "calc(916px * 1.05 * .97)",
+        "--dialog-inner-inset": "10px",
+        "--gallery-space-large": "calc(3 * 8px)",
+        "--overlay-background": "#ffffffbf",
+        "--overlay-secondary-filter": "none",
+        "--warning": "color(display-p3 1 .556863 0)",
+        "--border-2-dark": "color(display-p3 .243137 .243137 .243137)",
+        "--device-background": "rgb(232, 228, 220)",
+        "--selection-color": "color(display-p3 1 1 1)",
+        "--body-color": "color(display-p3 0 0 0)",
+        "--gallery-pill-radius": "999px",
+        "--selection-bg": "color(display-p3 1 .415686 0)",
+        "--overlay-selection-color": "color(display-p3 0 0 0)",
+        "--body-bg": "color(display-p3 1 1 1)",
+        "--chrome-height": "62px",
+        "--page-chrome-vertical-inset": "12px",
+        "--gallery-header-control-padding": "8pt",
+        "--bg-1": "color(display-p3 .976471 .976471 .976471)",
+        "--border-1-light": "color(display-p3 .858824 .858824 .858824)",
+        "--font-sans": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "--fg-2-light": "color(display-p3 .243137 .243137 .243137)",
+        "--status-block": "rgb(198, 192, 182)",
+        "--feed-card-header-size": "44px",
+        "--gallery-surface-background": "#fffffff2",
+        "--overlay-selection-background": "#fff9",
+        "--border-2-light": "color(display-p3 .858824 .858824 .858824)",
+        "--bg-4-dark": "color(display-p3 .164706 .156863 .156863)",
+        "--type-small-size": ".75rem",
+        "--danger": "color(display-p3 .827451 .301961 .388235)",
+        "--page-chrome-label-padding": "6px",
+        "--gallery-control-height": "34px",
+        "--collection-rail-height": "76px",
+        "--_number-flow-d-opacity": "0",
+        "--fg-3-light": "color(display-p3 .490196 .490196 .490196)",
+        "--duration-swift": ".8s",
+        "--header-slide-duration": ".26s",
+        "--chrome-inset": "14px",
+        "--focus-color": "color(display-p3 0 0 0)",
+        "--footer-chrome-height": "66px",
+        "--bg-4": "color(display-p3 .823529 .823529 .823529)"
+      }
+    }
+  },
+  "scope": "public source reference; not a locally reconstructed component",
+  "http_status": 200,
+  "page_errors": []
+}

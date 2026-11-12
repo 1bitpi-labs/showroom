@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "total_items": 53,
+  "quadrants": {
+    "Q1-structure-nav": {
+      "index": "index/q1-structure-nav.json",
+      "count": 4,
+      "sections": {
+        "navbars": [
+          "floating-glass",
+          "minimal-sticky",
+          "mega-menu-enterprise",
+          "mobile-drawers"
+        ],
+        "page-blueprints": [
+          "saas-dark-tech",
+          "editorial-minimal",
+          "ai-product-launch",
+          "interactive-showcase"
+        ],
+        "shells-footers": [
+          "dashboard-sidebars",
+          "multi-column-footers"
+        ]
+      }
+    },
+    "Q2-conversion-content": {
+      "index": "index/q2-conversion-content.json",
+      "count": 9,
+      "sections": {
+        "heroes": [
+          "centered-shader-hero",
+          "split-product-preview",
+          "interactive-3d-hero"
+        ],
+        "feature-grids": [
+          "bento-asymmetric",
+          "interactive-tabs-showcase",
+          "step-by-step-workflows"
+        ],
+        "pricing-proof": [
+          "tiered-cards-toggle",
+          "enterprise-comparison",
+          "social-proof-walls",
+          "status-badges"
+        ],
+        "forms-overlays": [
+          "waitlist-capture",
+          "command-palettes-modals",
+          "authentication-cards",
+          "text-inputs"
+        ]
+      }
+    },
+    "Q3-visual-atmosphere": {
+      "index": "index/q3-visual-atmosphere.json",
+      "count": 29,
+      "sections": {
+        "shaders-webgl": [
+          "ordered-dithering",
+          "aurora-mesh-gradients",
+          "particle-chrome-effects"
+        ],
+        "svg-textures": [
+          "noise-grain-overlays",
+          "geometric-grids-blobs",
+          "custom-gradients"
+        ],
+        "typography-identity": [
+          "display-sans-pairings",
+          "tech-mono-pairings",
+          "brand-logotype-refs"
+        ],
+        "3d-scenes-materials": [
+          "low-poly-glb-models",
+          "pbr-textures-hdri"
+        ]
+      }
+    },
+    "Q4-ux-motion": {
+      "index": "index/q4-ux-motion.json",
+      "count": 11,
+      "sections": {
+        "user-flows": [
+          "onboarding-sequences",
+          "checkout-billing",
+          "settings-dashboards"
+        ],
+        "micro-interactions": [
+          "spring-physics-presets",
+          "scroll-linked-reveals",
+          "tactile-button-states",
+          "toggle-controls",
+          "progress-feedback",
+          "range-controls"
+        ],
+        "accessibility-specs": [
+          "aria-keyboard-contracts"
+        ]
+      }
+    }
+  }
+}

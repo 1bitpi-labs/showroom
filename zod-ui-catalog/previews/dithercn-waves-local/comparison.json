@@ -1,0 +1,37 @@
+{
+  "reference": {
+    "width": 224,
+    "height": 174,
+    "rect": {
+      "w": 672,
+      "h": 522
+    },
+    "state": "static"
+  },
+  "local": {
+    "width": 224,
+    "height": 174,
+    "rect": {
+      "w": 672,
+      "h": 522
+    },
+    "state": "static"
+  },
+  "comparison": "Common integer raster area; no rescaling",
+  "limitations": [
+    "Pixel metric is not a quality tier.",
+    "Only desktop same-size shader surface compared; no WCAG certification.",
+    "Reduced motion static state; animated timing not compared."
+  ],
+  "original_image_sizes": [
+    [
+      672,
+      522
+    ],
+    [
+      672,
+      523
+    ]
+  ],
+  "pixel_similarity": 0.9877267749373057
+}

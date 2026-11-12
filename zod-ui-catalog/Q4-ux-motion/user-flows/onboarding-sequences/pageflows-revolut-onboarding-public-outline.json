@@ -1,0 +1,46 @@
+{
+  "id": "pageflows-revolut-onboarding-public-outline",
+  "location": {
+    "quadrant": "Q4-ux-motion",
+    "category": "user-flows",
+    "section": "onboarding-sequences",
+    "file_path": "Q4-ux-motion/user-flows/onboarding-sequences/pageflows-revolut-onboarding-public-outline.json"
+  },
+  "tier": "C",
+  "tier_audit": {
+    "visual_verified": true,
+    "fidelity_type": "public_partial_visual_spec",
+    "responsive_score": null,
+    "audit_notes": [
+      "Public introductory frames and public chapter outline only. Subsequent screens require signup; no authentication bypass.",
+      "Historical recording version July 2020, not evidence of current Revolut UI.",
+      "Browser viewports describe the Page Flows page, not the original iPhone recording."
+    ],
+    "evidence": [
+      "audits/source-evidence/pageflows-com-retry-individual-flow/evidence.json",
+      "previews/pageflows-revolut-onboarding-public-outline/desktop.png",
+      "previews/pageflows-revolut-onboarding-public-outline/mobile.png"
+    ]
+  },
+  "source_site": "pageflows.com",
+  "source_url": "https://pageflows.com/post/ios/onboarding/revolut/",
+  "license": {
+    "status": "reference_only",
+    "restriction": "No source code or premium recording redistributed."
+  },
+  "stack_compatibility": [
+    "framework-agnostic-spec"
+  ],
+  "style_tags": [
+    "onboarding",
+    "finance",
+    "historical",
+    "partial-reference"
+  ],
+  "artifact": {
+    "type": "visual_spec",
+    "spec": "Separar introdução, verificação de contato, perfil/endereço, identificação e financiamento inicial em etapas com feedback explícito. O índice público sugere esta estrutura; implementar fluxo próprio e validar requisitos atuais. Não se trata de código ou de reprodução das 29 telas.",
+    "recording_version": "July 2020",
+    "access_status": "partial_public_outline; premium screens pending authorized session"
+  }
+}

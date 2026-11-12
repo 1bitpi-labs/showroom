@@ -1,0 +1,270 @@
+{
+  "date": "2026-11-12",
+  "sources": 19,
+  "public_pages": 42,
+  "catalog_items": 20,
+  "tiers": {
+    "C": 18,
+    "S": 2
+  },
+  "not_extracted": {
+    "pixlpin.com": "HTTP 403 / Cloudflare. Nenhum componente extraído.",
+    "refero.design": "Home pública capturada, com imagens ausentes nesta sessão. Biblioteca interna e fluxos não extraídos.",
+    "pageflows.com": "Home e diretório público de onboarding capturados. Nenhum fluxo individual completo extraído.",
+    "spottedinprod.com": "Home e ficha Abode capturadas. Nenhum clipe/fluxo completo extraído."
+  },
+  "pages": [
+    {
+      "site": "60fps.design",
+      "url": "https://60fps.design/shots/apple-health-longevity-intro-animation",
+      "status": 200,
+      "evidence": "audits/source-evidence/60fps-design-health-intro/evidence.json"
+    },
+    {
+      "site": "60fps.design",
+      "url": "https://60fps.design",
+      "status": 200,
+      "evidence": "audits/source-evidence/60fps-design-home/evidence.json"
+    },
+    {
+      "site": "ambientcg.com",
+      "url": "https://ambientcg.com/view?id=Concrete049",
+      "status": 200,
+      "evidence": "audits/source-evidence/ambientcg-com-concrete049/evidence.json"
+    },
+    {
+      "site": "ambientcg.com",
+      "url": "https://ambientcg.com",
+      "status": 200,
+      "evidence": "audits/source-evidence/ambientcg-com-home/evidence.json"
+    },
+    {
+      "site": "ambientcg.com",
+      "url": "https://ambientcg.com/list?type=material,atlas,decal",
+      "status": 200,
+      "evidence": "audits/source-evidence/ambientcg-com-surfaces/evidence.json"
+    },
+    {
+      "site": "component.gallery",
+      "url": "https://component.gallery/components/accordion",
+      "status": 200,
+      "evidence": "audits/source-evidence/component-gallery-accordion/evidence.json"
+    },
+    {
+      "site": "component.gallery",
+      "url": "https://component.gallery",
+      "status": 200,
+      "evidence": "audits/source-evidence/component-gallery-home/evidence.json"
+    },
+    {
+      "site": "component.gallery",
+      "url": "https://component.gallery/components/tabs",
+      "status": 200,
+      "evidence": "audits/source-evidence/component-gallery-tabs/evidence.json"
+    },
+    {
+      "site": "designdetails.io",
+      "url": "https://designdetails.io/websites/buildwithfern-com",
+      "status": 200,
+      "evidence": "audits/source-evidence/designdetails-io-fern/evidence.json"
+    },
+    {
+      "site": "designdetails.io",
+      "url": "https://designdetails.io",
+      "status": 200,
+      "evidence": "audits/source-evidence/designdetails-io-home/evidence.json"
+    },
+    {
+      "site": "dithercn.dev",
+      "url": "https://dithercn.dev/docs/backgrounds/aurora",
+      "status": 200,
+      "evidence": "audits/source-evidence/dithercn-dev-aurora/evidence.json"
+    },
+    {
+      "site": "dithercn.dev",
+      "url": "https://dithercn.dev",
+      "status": 200,
+      "evidence": "audits/source-evidence/dithercn-dev-home/evidence.json"
+    },
+    {
+      "site": "dithercn.dev",
+      "url": "https://dithercn.dev/docs/backgrounds/waves",
+      "status": 200,
+      "evidence": "audits/source-evidence/dithercn-dev-waves/evidence.json"
+    },
+    {
+      "site": "fffuel.co",
+      "url": "https://fffuel.co",
+      "status": 200,
+      "evidence": "audits/source-evidence/fffuel-co-home/evidence.json"
+    },
+    {
+      "site": "fffuel.co",
+      "url": "https://www.fffuel.co/license/",
+      "status": 200,
+      "evidence": "audits/source-evidence/fffuel-co-license/evidence.json"
+    },
+    {
+      "site": "fffuel.co",
+      "url": "https://www.fffuel.co/nnnoise/",
+      "status": 200,
+      "evidence": "audits/source-evidence/fffuel-co-nnnoise/evidence.json"
+    },
+    {
+      "site": "fffuel.co",
+      "url": "https://www.fffuel.co/ssshape/",
+      "status": 200,
+      "evidence": "audits/source-evidence/fffuel-co-ssshape/evidence.json"
+    },
+    {
+      "site": "fontinlogo.com",
+      "url": "https://fontinlogo.com",
+      "status": 200,
+      "evidence": "audits/source-evidence/fontinlogo-com-home/evidence.json"
+    },
+    {
+      "site": "fontinlogo.com",
+      "url": "https://www.fontinlogo.com/famous-fonts/thunderbolts-font",
+      "status": 200,
+      "evidence": "audits/source-evidence/fontinlogo-com-thunderbolts/evidence.json"
+    },
+    {
+      "site": "fontshare.com",
+      "url": "https://fontshare.com",
+      "status": 200,
+      "evidence": "audits/source-evidence/fontshare-com-home/evidence.json"
+    },
+    {
+      "site": "fontshare.com",
+      "url": "https://fontshare.com/pairs",
+      "status": 200,
+      "evidence": "audits/source-evidence/fontshare-com-pairs/evidence.json"
+    },
+    {
+      "site": "fontshare.com",
+      "url": "https://fontshare.com/fonts/satoshi",
+      "status": 200,
+      "evidence": "audits/source-evidence/fontshare-com-satoshi/evidence.json"
+    },
+    {
+      "site": "landdding.com",
+      "url": "https://landdding.com/l/bem-ai-71b59971",
+      "status": 200,
+      "evidence": "audits/source-evidence/landdding-com-bem/evidence.json"
+    },
+    {
+      "site": "landdding.com",
+      "url": "https://landdding.com",
+      "status": 200,
+      "evidence": "audits/source-evidence/landdding-com-home/evidence.json"
+    },
+    {
+      "site": "mahero.supply",
+      "url": "https://mahero.supply",
+      "status": 200,
+      "evidence": "audits/source-evidence/mahero-supply-home/evidence.json"
+    },
+    {
+      "site": "mahero.supply",
+      "url": "https://www.mahero.supply/template/wonderful-hero",
+      "status": 200,
+      "evidence": "audits/source-evidence/mahero-supply-wonderful-hero/evidence.json"
+    },
+    {
+      "site": "mobbin.com",
+      "url": "https://mobbin.com",
+      "status": 200,
+      "evidence": "audits/source-evidence/mobbin-com-home/evidence.json"
+    },
+    {
+      "site": "navbar.gallery",
+      "url": "https://www.navbar.gallery/navbar/cloudflare",
+      "status": 200,
+      "evidence": "audits/source-evidence/navbar-gallery-cloudflare/evidence.json"
+    },
+    {
+      "site": "navbar.gallery",
+      "url": "https://navbar.gallery",
+      "status": 200,
+      "evidence": "audits/source-evidence/navbar-gallery-home/evidence.json"
+    },
+    {
+      "site": "navbar.gallery",
+      "url": "https://www.navbar.gallery/navbar/supaste",
+      "status": 200,
+      "evidence": "audits/source-evidence/navbar-gallery-supaste/evidence.json"
+    },
+    {
+      "site": "pageflows.com",
+      "url": "https://pageflows.com",
+      "status": 200,
+      "evidence": "audits/source-evidence/pageflows-com-home/evidence.json"
+    },
+    {
+      "site": "pageflows.com",
+      "url": "https://pageflows.com/ios/flows/onboarding/",
+      "status": 200,
+      "evidence": "audits/source-evidence/pageflows-com-onboarding/evidence.json"
+    },
+    {
+      "site": "pixlpin.com",
+      "url": "https://pixlpin.com",
+      "status": 403,
+      "evidence": "audits/source-evidence/pixlpin-com-home/evidence.json"
+    },
+    {
+      "site": "poly.pizza",
+      "url": "https://poly.pizza/bundle/City-Kit-0CkvGrBJ0u",
+      "status": 200,
+      "evidence": "audits/source-evidence/poly-pizza-city-kit/evidence.json"
+    },
+    {
+      "site": "poly.pizza",
+      "url": "https://poly.pizza",
+      "status": 200,
+      "evidence": "audits/source-evidence/poly-pizza-home/evidence.json"
+    },
+    {
+      "site": "prettysites.io",
+      "url": "https://prettysites.io/?prompt=anatomy-atelier",
+      "status": 200,
+      "evidence": "audits/source-evidence/prettysites-io-anatomy-atelier/evidence.json"
+    },
+    {
+      "site": "prettysites.io",
+      "url": "https://prettysites.io",
+      "status": 200,
+      "evidence": "audits/source-evidence/prettysites-io-home/evidence.json"
+    },
+    {
+      "site": "recent.design",
+      "url": "https://recent.design",
+      "status": 200,
+      "evidence": "audits/source-evidence/recent-design-home/evidence.json"
+    },
+    {
+      "site": "recent.design",
+      "url": "https://recent.design/i/lrtfzrm-liquid-stepper-interaction",
+      "status": 200,
+      "evidence": "audits/source-evidence/recent-design-liquid-stepper/evidence.json"
+    },
+    {
+      "site": "refero.design",
+      "url": "https://refero.design",
+      "status": 200,
+      "evidence": "audits/source-evidence/refero-design-home/evidence.json"
+    },
+    {
+      "site": "spottedinprod.com",
+      "url": "https://www.spottedinprod.com/apps/abode",
+      "status": 200,
+      "evidence": "audits/source-evidence/spottedinprod-com-abode/evidence.json"
+    },
+    {
+      "site": "spottedinprod.com",
+      "url": "https://spottedinprod.com",
+      "status": 200,
+      "evidence": "audits/source-evidence/spottedinprod-com-home/evidence.json"
+    }
+  ]
+}

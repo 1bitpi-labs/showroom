@@ -1,0 +1,106 @@
+{
+  "id": "shadcn-switch",
+  "location": {
+    "quadrant": "Q4-ux-motion",
+    "category": "micro-interactions",
+    "section": "toggle-controls",
+    "file_path": "Q4-ux-motion/micro-interactions/toggle-controls/shadcn-switch.json"
+  },
+  "tier": "A",
+  "tier_audit": {
+    "visual_verified": true,
+    "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+    "responsive_score": null,
+    "audit_notes": [
+      "Estrutura e estados do demo preservados; integração local usa Arial, enquanto a fonte oficial usa Geist.",
+      "Normalizar tema, fonte, aliases e largura do host antes de tratar como plug-and-play. Comparações normalizadas mantêm a captura original separada.",
+      "Checks de interação registrados em audit.json; sem certificação completa de contraste, leitor de tela ou fluxo de negócio.",
+      "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+      "No full WCAG certification; no claim of whole-page percentage fidelity."
+    ],
+    "evidence": [
+      "previews/shadcn-switch/audit.json",
+      "audits/batch-2/manual-review.json",
+      "previews/shadcn-switch/desktop.png",
+      "previews/shadcn-switch/mobile.png",
+      "assets/shadcn/LICENSE"
+    ],
+    "viewports": [
+      "1440x900",
+      "390x844"
+    ],
+    "state_checks": {
+      "desktop": [
+        "Space toggles aria-checked",
+        "Disabled state verified"
+      ],
+      "mobile": [
+        "Space toggles aria-checked",
+        "Disabled state verified"
+      ]
+    }
+  },
+  "source_site": "ui.shadcn.com",
+  "source_url": "https://ui.shadcn.com/view/new-york-v4/switch-demo",
+  "license": {
+    "spdx": "MIT",
+    "local": "assets/shadcn/LICENSE",
+    "url": "https://github.com/shadcn-ui/ui/blob/main/LICENSE.md"
+  },
+  "stack_compatibility": [
+    "React",
+    "TypeScript",
+    "Tailwind CSS v4",
+    "Radix UI"
+  ],
+  "style_tags": [
+    "toggle-controls",
+    "shadcn",
+    "native-source"
+  ],
+  "artifact": {
+    "type": "registry_component",
+    "registry": "assets/shadcn/switch.json",
+    "sha256": "cc526c3a4827be315be746355a988e22dacc99d663ed31924fd30c2507cdc005",
+    "demo_registry": "assets/shadcn/switch-demo.json",
+    "dependencies": [
+      "React",
+      "Tailwind CSS v4",
+      "TypeScript",
+      "clsx",
+      "radix-ui",
+      "react",
+      "tailwind-merge",
+      "tw-animate-css",
+      "assets/shadcn/label.json",
+      "assets/shadcn/switch.json",
+      "assets/shadcn/switch-demo.json"
+    ],
+    "fixture": "audits/batch-2/fixture",
+    "adaptation_required": [
+      "Importar tokens de tema e CSS Tailwind v4.",
+      "Mapear o import cn para utilitário compatível clsx + tailwind-merge.",
+      "Normalizar fonte Geist e dimensões do container."
+    ],
+    "tokens": [
+      "--background",
+      "--foreground",
+      "--primary",
+      "--primary-foreground",
+      "--border",
+      "--input",
+      "--ring",
+      "--radius"
+    ],
+    "states_tested": {
+      "desktop": [
+        "Space toggles aria-checked",
+        "Disabled state verified"
+      ],
+      "mobile": [
+        "Space toggles aria-checked",
+        "Disabled state verified"
+      ]
+    }
+  }
+}

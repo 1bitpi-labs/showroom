@@ -1,0 +1,102 @@
+{
+  "id": "shadcn-accordion",
+  "location": {
+    "quadrant": "Q4-ux-motion",
+    "category": "accessibility-specs",
+    "section": "aria-keyboard-contracts",
+    "file_path": "Q4-ux-motion/accessibility-specs/aria-keyboard-contracts/shadcn-accordion.json"
+  },
+  "tier": "A",
+  "tier_audit": {
+    "visual_verified": true,
+    "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+    "responsive_score": null,
+    "audit_notes": [
+      "Estrutura e estados do demo preservados; integração local usa Arial, enquanto a fonte oficial usa Geist.",
+      "Normalizar tema, fonte, aliases e largura do host antes de tratar como plug-and-play. Comparações normalizadas mantêm a captura original separada.",
+      "Checks de interação registrados em audit.json; sem certificação completa de contraste, leitor de tela ou fluxo de negócio.",
+      "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+      "No full WCAG certification; no claim of whole-page percentage fidelity."
+    ],
+    "evidence": [
+      "previews/shadcn-accordion/audit.json",
+      "audits/batch-2/manual-review.json",
+      "previews/shadcn-accordion/desktop.png",
+      "previews/shadcn-accordion/mobile.png",
+      "assets/shadcn/LICENSE"
+    ],
+    "viewports": [
+      "1440x900",
+      "390x844"
+    ],
+    "state_checks": {
+      "desktop": [
+        "Enter changes aria-expanded"
+      ],
+      "mobile": [
+        "Enter changes aria-expanded"
+      ]
+    }
+  },
+  "source_site": "ui.shadcn.com",
+  "source_url": "https://ui.shadcn.com/view/new-york-v4/accordion-demo",
+  "license": {
+    "spdx": "MIT",
+    "local": "assets/shadcn/LICENSE",
+    "url": "https://github.com/shadcn-ui/ui/blob/main/LICENSE.md"
+  },
+  "stack_compatibility": [
+    "React",
+    "TypeScript",
+    "Tailwind CSS v4",
+    "Radix UI"
+  ],
+  "style_tags": [
+    "aria-keyboard-contracts",
+    "shadcn",
+    "native-source"
+  ],
+  "artifact": {
+    "type": "registry_component",
+    "registry": "assets/shadcn/accordion.json",
+    "sha256": "93254d43d27259998b10c7bb5261f85bdc44509d46309a5c10a1e5d126a8d279",
+    "demo_registry": "assets/shadcn/accordion-demo.json",
+    "dependencies": [
+      "React",
+      "Tailwind CSS v4",
+      "TypeScript",
+      "clsx",
+      "lucide-react",
+      "radix-ui",
+      "react",
+      "tailwind-merge",
+      "tw-animate-css",
+      "assets/shadcn/accordion.json",
+      "assets/shadcn/accordion-demo.json"
+    ],
+    "fixture": "audits/batch-2/fixture",
+    "adaptation_required": [
+      "Importar tokens de tema e CSS Tailwind v4.",
+      "Mapear o import cn para utilitário compatível clsx + tailwind-merge.",
+      "Normalizar fonte Geist e dimensões do container."
+    ],
+    "tokens": [
+      "--background",
+      "--foreground",
+      "--primary",
+      "--primary-foreground",
+      "--border",
+      "--input",
+      "--ring",
+      "--radius"
+    ],
+    "states_tested": {
+      "desktop": [
+        "Enter changes aria-expanded"
+      ],
+      "mobile": [
+        "Enter changes aria-expanded"
+      ]
+    }
+  }
+}

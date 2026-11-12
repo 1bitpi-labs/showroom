@@ -1,0 +1,2464 @@
+{
+  "site": "dithercn.dev",
+  "url": "https://dithercn.dev",
+  "captured_at": "2026-11-12T21:10:26.045675+00:00",
+  "views": {
+    "desktop": {
+      "url": "https://dithercn.dev/",
+      "title": "dithercn - Add dithers to anything in your app",
+      "text": "For the complete documentation index, see llms.txt. Markdown variants are available by appending .md to any URL or sending an Accept: text/markdown header. The dithercn agent skill, for building any dither on the engine, is at /.well-known/agent-skills/dithercn/SKILL.md.\ndithercn\nDocs\nExamples\nEngine\nSearch\nGitHub\n140\nstars\nToggle theme\nAdd dithers to anything in your app.\n\nDithered shaders and UI for shadcn/ui. One prompt for your coding agent.\n\nRead the docs\nCopy agent prompt\nPrompt copied\nStart from an example.\n\n63 components in 5 groups, all built on the engine. Install one as it is, or hand it to your agent to change.\n\nSee all 63 in the catalog\nAurora\nBackgrounds\nGauge\nCharts\nStat card\nCharts\nBar chart\nCharts\nDither text\nText\nDither globe\nBackgrounds\nDonut chart\nCharts\nAvatar\nInterface\nDither image\nImages\nWaves\nBackgrounds\nHeatmap\nCharts\nProgress bar\nCharts\nDither button\nInterface\nAsk for any dither.\n\nThe skill teaches your agent the engine, so one sentence is enough: what it is, where it goes, how it should feel.\n\nContours\nUsage meter\nRipples\n\nField notes for the trail\n\nMaps, routes and the long way round.\n\nA dithered topographic background behind the hero. Slow, and quiet enough to read over.\n\nA 21-line GLSL field on DitherShader, written for this page.\nWhat's inside.\n\ndithercn is an open-source dither engine for shadcn/ui projects, with an agent skill that teaches your coding agent to use it. Everything installs as code in your repo.\n\nThe engine\n\ndither-core installs into lib/dither as plain source you own. It turns a tone between 0 and 1 into dots with Bayer and blue-noise threshold matrices, then draws them three ways: a WebGL shader for anything that moves, SVG patterns and CSS masks for static fills, and a one-off pass for photos and logos. Colours come from your shadcn theme, animation pauses offscreen and respects reduced motion, and any dither exports to PNG, SVG or CSS.\n\nThe agent skill\n\nA SKILL.md with references that teaches Claude Code, Codex, Cursor, Gemini and other coding agents to use the engine. It walks the agent through picking a technique, writing a field, placing the dither on a landing page or dashboard, colouring it from your theme, and checking it in a browser in light and dark mode at desktop and phone widths.\n\n63 examples in 5 groups\nBackgrounds 31\n\nFull-bleed dithered surfaces for heroes, sections and cards. Dither gradient, Dither glow, Mesh gradient, Aurora and 27 more.\n\nCharts 11\n\nCharts and status displays with a dithered fill. Area chart, Bar chart, Line chart, Sparkline and 7 more.\n\nInterface 12\n\nEveryday interface pieces with a dithered finish. Dither button, Dither switch, Dither slider, Dither tabs and 8 more.\n\nText 4\n\nDisplay text drawn, revealed or counted with a dither. Dither text, Dissolve text, Scramble text, Dither number.\n\nImages 5\n\nYour images and logos, dithered. Dither image, Image compare, Scroll reveal image, Dithered logo and 1 more.\n\nOne command, then ask.\n\nAdd the skill with the skills CLI, for Claude Code, Codex, Cursor or any other agent. Your agent adds the engine the first time it builds a dither.\n\nnpm\nyarn\npnpm\nbun\n$ pnpm dlx skills add https://dithercn.dev\nCopy\n.agents/skills/dithercn/\nThe skill, for Codex, Cursor, Gemini and others.\n.claude/skills/dithercn/\nThe same skill, for Claude Code.\nlib/dither/\nThe engine, added by your agent the first time it builds a dither.\nglobals.css\n--dither-ink, --dither-paper and friends, from your theme.\nWhat to ask your agent\n\nUsing shadcn? npx shadcn@latest add https://dithercn.dev/r/dithercn-skill.json installs the skill and the engine together. Installation has both commands.\n\ndithercn\n\nA dither engine with an agent skill, for shadcn projects. MIT licensed.\n\nGitHub\n140\nstars\nGet started\nIntroduction\nInstallation\nTheming\nWrite your own dither\nExamples\nBackgrounds\nCharts\nInterface\nText\nImages\nFor agents\nSKILL.md\nllms.txt\nllms-full.txt\nRegistry index\ndithercn\nAbout\nContact\nPrivacy\nMore from OpenCore\nSocial SDK TypeScript SDK for",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Add dithers to anything in your app.",
+          "bounds": {
+            "x": 292,
+            "y": 266.984375,
+            "width": 856,
+            "height": 155.03125
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "76px",
+            "fontWeight": "500",
+            "lineHeight": "77.52px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Start from an example.",
+          "bounds": {
+            "x": 52,
+            "y": 1074.8125,
+            "width": 751.328125,
+            "height": 61.1875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "60px",
+            "fontWeight": "500",
+            "lineHeight": "61.2px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Ask for any dither.",
+          "bounds": {
+            "x": 52,
+            "y": 4022,
+            "width": 751.328125,
+            "height": 61.1875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "60px",
+            "fontWeight": "500",
+            "lineHeight": "61.2px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "What's inside.",
+          "bounds": {
+            "x": 52,
+            "y": 5106,
+            "width": 751.328125,
+            "height": 61.1875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "60px",
+            "fontWeight": "500",
+            "lineHeight": "61.2px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "The engine",
+          "bounds": {
+            "x": 52,
+            "y": 5236.1875,
+            "width": 652,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "18px",
+            "fontWeight": "500",
+            "lineHeight": "28px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "The agent skill",
+          "bounds": {
+            "x": 736,
+            "y": 5236.1875,
+            "width": 652,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "18px",
+            "fontWeight": "500",
+            "lineHeight": "28px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "63 examples in 5 groups",
+          "bounds": {
+            "x": 52,
+            "y": 5464.1875,
+            "width": 1336,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "18px",
+            "fontWeight": "500",
+            "lineHeight": "28px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "One command, then ask.",
+          "bounds": {
+            "x": 399.890625,
+            "y": 5867.1875,
+            "width": 640.21875,
+            "height": 61.1875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "60px",
+            "fontWeight": "500",
+            "lineHeight": "61.2px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Get started",
+          "bounds": {
+            "x": 489.328125,
+            "y": 6626.6875,
+            "width": 206.671875,
+            "height": 20
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Examples",
+          "bounds": {
+            "x": 720,
+            "y": 6626.6875,
+            "width": 206.65625,
+            "height": 20
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "For agents",
+          "bounds": {
+            "x": 950.65625,
+            "y": 6626.6875,
+            "width": 206.671875,
+            "height": 20
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "dithercn",
+          "bounds": {
+            "x": 1181.328125,
+            "y": 6626.6875,
+            "width": 206.671875,
+            "height": 20
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "HEADER",
+          "role": null,
+          "text": "dithercn\nDocs\nExamples\nEngine\nSearch\nGitHub\n140\nstars\nToggle theme",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 72
+          },
+          "styles": {
+            "display": "flex",
+            "position": "sticky",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px 12px 8px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "Docs\nExamples\nEngine",
+          "bounds": {
+            "x": 485.203125,
+            "y": 24,
+            "width": 222.109375,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "4px",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Search",
+          "bounds": {
+            "x": 867.953125,
+            "y": 24,
+            "width": 95.4375,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "20px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "oklab(0.984998 -0.00000956655 0.0000230074 / 0.06)",
+            "gap": "8px",
+            "padding": "0px 14px 0px 12px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Toggle theme",
+          "bounds": {
+            "x": 1049,
+            "y": 24,
+            "width": 32,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "8px",
+            "padding": "0px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "role": null,
+          "text": "Add dithers to anything in your app.\n\nDithered shaders and UI for shadcn/ui. One prompt for your coding agent.\n\nRead the docs\nCopy agent pro",
+          "bounds": {
+            "x": 0,
+            "y": 72,
+            "width": 1440,
+            "height": 7262.5625
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Add dithers to anything in your app.\n\nDithered shaders and UI for shadcn/ui. One prompt for your coding agent.\n\nRead the docs\nCopy agent pro",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 900
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "8px 8px 0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Copy agent prompt\nPrompt copied",
+          "bounds": {
+            "x": 703.734375,
+            "y": 534.015625,
+            "width": 201.515625,
+            "height": 44
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "15.2px",
+            "fontWeight": "500",
+            "lineHeight": "22.8px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "oklab(0.999998 -0.00000980496 0.0000234246 / 0.036)",
+            "gap": "8px",
+            "padding": "0px 20px 1px 19px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Start from an example.\n\n63 components in 5 groups, all built on the engine. Install one as it is, or hand it to your agent to change.\n\nSee a",
+          "bounds": {
+            "x": 0,
+            "y": 900,
+            "width": 1440,
+            "height": 3010
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px 8px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Ask for any dither.\n\nThe skill teaches your agent the engine, so one sentence is enough: what it is, where it goes, how it should feel.\n\nCon",
+          "bounds": {
+            "x": 0,
+            "y": 3910,
+            "width": 1440,
+            "height": 1061.1875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px 8px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "role": "tablist",
+          "text": "Contours\nUsage meter\nRipples",
+          "bounds": {
+            "x": 48,
+            "y": 4123.1875,
+            "width": 1344,
+            "height": 48
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "4px",
+            "padding": "4px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "tab",
+          "text": "Contours",
+          "bounds": {
+            "x": 52,
+            "y": 4127.1875,
+            "width": 92.4375,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "lab(9.52 -0.00000745058 0)",
+            "gap": "normal",
+            "padding": "0px 16px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "tab",
+          "text": "Usage meter",
+          "bounds": {
+            "x": 148.4375,
+            "y": 4127.1875,
+            "width": 115.171875,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px 16px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "tab",
+          "text": "Ripples",
+          "bounds": {
+            "x": 267.609375,
+            "y": 4127.1875,
+            "width": 80.671875,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px 16px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "What's inside.\n\ndithercn is an open-source dither engine for shadcn/ui projects, with an agent skill that teaches your coding agent to use i",
+          "bounds": {
+            "x": 0,
+            "y": 4971.1875,
+            "width": 1440,
+            "height": 784
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px 8px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "One command, then ask.\n\nAdd the skill with the skills CLI, for Claude Code, Codex, Cursor or any other agent. Your agent adds the engine the",
+          "bounds": {
+            "x": 0,
+            "y": 5755.1875,
+            "width": 1440,
+            "height": 790.5
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px 8px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "role": "tablist",
+          "text": "npm\nyarn\npnpm\nbun",
+          "bounds": {
+            "x": 349,
+            "y": 6077.375,
+            "width": 196.84375,
+            "height": 36
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "20px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "tab",
+          "text": "npm",
+          "bounds": {
+            "x": 373,
+            "y": 6081.375,
+            "width": 39.609375,
+            "height": 28
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"JetBrains Mono\", \"JetBrains Mono Fallback\"",
+            "fontSize": "12px",
+            "fontWeight": "500",
+            "lineHeight": "16px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "6px",
+            "padding": "2px 8px 4px",
+            "borderRadius": "4px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "tab",
+          "text": "yarn",
+          "bounds": {
+            "x": 412.609375,
+            "y": 6081.375,
+            "width": 46.8125,
+            "height": 28
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"JetBrains Mono\", \"JetBrains Mono Fallback\"",
+            "fontSize": "12px",
+            "fontWeight": "500",
+            "lineHeight": "16px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "6px",
+            "padding": "2px 8px 4px",
+            "borderRadius": "4px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "tab",
+          "text": "pnpm",
+          "bounds": {
+            "x": 459.421875,
+            "y": 6081.375,
+            "width": 46.8125,
+            "height": 28
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"JetBrains Mono\", \"JetBrains Mono Fallback\"",
+            "fontSize": "12px",
+            "fontWeight": "500",
+            "lineHeight": "16px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "oklab(0.999998 -0.00000980496 0.0000234246 / 0.036)",
+            "gap": "6px",
+            "padding": "2px 8px 4px",
+            "borderRadius": "4px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "tab",
+          "text": "bun",
+          "bounds": {
+            "x": 506.234375,
+            "y": 6081.375,
+            "width": 39.609375,
+            "height": 28
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"JetBrains Mono\", \"JetBrains Mono Fallback\"",
+            "fontSize": "12px",
+            "fontWeight": "500",
+            "lineHeight": "16px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "6px",
+            "padding": "2px 8px 4px",
+            "borderRadius": "4px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Copy",
+          "bounds": {
+            "x": 1069,
+            "y": 6079.375,
+            "width": 28,
+            "height": 28
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "lab(86.08 -0.0000298023 0)",
+            "backgroundColor": "lab(5.71933 0 0)",
+            "gap": "8px",
+            "padding": "0px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "Get started\nIntroduction\nInstallation\nTheming\nWrite your own dither",
+          "bounds": {
+            "x": 489.328125,
+            "y": 6626.6875,
+            "width": 206.671875,
+            "height": 184
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "12px",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "Examples\nBackgrounds\nCharts\nInterface\nText\nImages",
+          "bounds": {
+            "x": 720,
+            "y": 6626.6875,
+            "width": 206.65625,
+            "height": 184
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "12px",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "For agents\nSKILL.md\nllms.txt\nllms-full.txt\nRegistry index",
+          "bounds": {
+            "x": 950.65625,
+            "y": 6626.6875,
+            "width": 206.671875,
+            "height": 184
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "12px",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "dithercn",
+          "href": "https://dithercn.dev/"
+        },
+        {
+          "text": "Docs",
+          "href": "https://dithercn.dev/docs"
+        },
+        {
+          "text": "Examples",
+          "href": "https://dithercn.dev/docs/examples"
+        },
+        {
+          "text": "Engine",
+          "href": "https://dithercn.dev/docs/engine/dither-engine"
+        },
+        {
+          "text": "GitHub\n140\nstars",
+          "href": "https://github.com/opencoredev/dithercn"
+        },
+        {
+          "text": "Read the docs",
+          "href": "https://dithercn.dev/docs"
+        },
+        {
+          "text": "See all 63 in the catalog",
+          "href": "https://dithercn.dev/docs/examples"
+        },
+        {
+          "text": "Aurora\nBackgrounds",
+          "href": "https://dithercn.dev/docs/backgrounds/aurora"
+        },
+        {
+          "text": "Gauge\nCharts",
+          "href": "https://dithercn.dev/docs/charts/gauge"
+        },
+        {
+          "text": "Stat card\nCharts",
+          "href": "https://dithercn.dev/docs/charts/stat-card"
+        },
+        {
+          "text": "Bar chart\nCharts",
+          "href": "https://dithercn.dev/docs/charts/bar-chart"
+        },
+        {
+          "text": "Dither text\nText",
+          "href": "https://dithercn.dev/docs/text/dither-text"
+        },
+        {
+          "text": "Dither globe\nBackgrounds",
+          "href": "https://dithercn.dev/docs/backgrounds/dither-globe"
+        },
+        {
+          "text": "Donut chart\nCharts",
+          "href": "https://dithercn.dev/docs/charts/donut-chart"
+        },
+        {
+          "text": "Avatar\nInterface",
+          "href": "https://dithercn.dev/docs/interface/avatar"
+        },
+        {
+          "text": "Dither image\nImages",
+          "href": "https://dithercn.dev/docs/images/dither-image"
+        },
+        {
+          "text": "Waves\nBackgrounds",
+          "href": "https://dithercn.dev/docs/backgrounds/waves"
+        },
+        {
+          "text": "Heatmap\nCharts",
+          "href": "https://dithercn.dev/docs/charts/heatmap"
+        },
+        {
+          "text": "Progress bar\nCharts",
+          "href": "https://dithercn.dev/docs/charts/progress-bar"
+        },
+        {
+          "text": "Dither button\nInterface",
+          "href": "https://dithercn.dev/docs/interface/dither-button"
+        },
+        {
+          "text": "Backgrounds 31",
+          "href": "https://dithercn.dev/docs/examples#catalog-backgrounds"
+        },
+        {
+          "text": "Charts 11",
+          "href": "https://dithercn.dev/docs/examples#catalog-charts"
+        },
+        {
+          "text": "Interface 12",
+          "href": "https://dithercn.dev/docs/examples#catalog-interface"
+        },
+        {
+          "text": "Text 4",
+          "href": "https://dithercn.dev/docs/examples#catalog-text"
+        },
+        {
+          "text": "Images 5",
+          "href": "https://dithercn.dev/docs/examples#catalog-images"
+        },
+        {
+          "text": "What to ask your agent",
+          "href": "https://dithercn.dev/docs#ask-your-agent-for-a-dither"
+        },
+        {
+          "text": "Installation",
+          "href": "https://dithercn.dev/docs/installation"
+        },
+        {
+          "text": "GitHub\n140\nstars",
+          "href": "https://github.com/opencoredev/dithercn"
+        },
+        {
+          "text": "Introduction",
+          "href": "https://dithercn.dev/docs"
+        },
+        {
+          "text": "Installation",
+          "href": "https://dithercn.dev/docs/installation"
+        },
+        {
+          "text": "Theming",
+          "href": "https://dithercn.dev/docs/theming"
+        },
+        {
+          "text": "Write your own dither",
+          "href": "https://dithercn.dev/docs/engine/write-your-own"
+        },
+        {
+          "text": "Backgrounds",
+          "href": "https://dithercn.dev/docs/examples#catalog-backgrounds"
+        },
+        {
+          "text": "Charts",
+          "href": "https://dithercn.dev/docs/examples#catalog-charts"
+        },
+        {
+          "text": "Interface",
+          "href": "https://dithercn.dev/docs/examples#catalog-interface"
+        },
+        {
+          "text": "Text",
+          "href": "https://dithercn.dev/docs/examples#catalog-text"
+        },
+        {
+          "text": "Images",
+          "href": "https://dithercn.dev/docs/examples#catalog-images"
+        },
+        {
+          "text": "SKILL.md",
+          "href": "https://dithercn.dev/.well-known/agent-skills/dithercn/SKILL.md"
+        },
+        {
+          "text": "llms.txt",
+          "href": "https://dithercn.dev/llms.txt"
+        },
+        {
+          "text": "llms-full.txt",
+          "href": "https://dithercn.dev/llms-full.txt"
+        },
+        {
+          "text": "Registry index",
+          "href": "https://dithercn.dev/r/registry.json"
+        },
+        {
+          "text": "About",
+          "href": "https://dithercn.dev/about"
+        },
+        {
+          "text": "Contact",
+          "href": "https://dithercn.dev/contact"
+        },
+        {
+          "text": "Privacy",
+          "href": "https://dithercn.dev/privacy"
+        },
+        {
+          "text": "Social SDK TypeScript SDK for social APIs",
+          "href": "https://social-sdk.dev/"
+        },
+        {
+          "text": "Email SDK Email for TypeScript apps",
+          "href": "https://email-sdk.dev/"
+        },
+        {
+          "text": "Domain SDK Custom domains for TypeScript",
+          "href": "https://www.domain-sdk.dev/"
+        },
+        {
+          "text": "SMS SDK One SDK for SMS providers",
+          "href": "https://www.sms-sdk.com/"
+        },
+        {
+          "text": "Sandbox SDK One SDK for cloud sandboxes",
+          "href": "https://sandbox-sdk.app/"
+        },
+        {
+          "text": "Login with ChatGPT ChatGPT sign-in for your app",
+          "href": "https://loginwithchatgpt.dev/"
+        },
+        {
+          "text": "gradients.sh Animated gradients for React",
+          "href": "https://gradients.sh/"
+        },
+        {
+          "text": "BG0 Background removal on your device",
+          "href": "https://bg0.dev/"
+        },
+        {
+          "text": "convt File conversion on your computer",
+          "href": "https://convt.app/"
+        },
+        {
+          "text": "Amend Close the loop on user requests",
+          "href": "https://amend.sh/"
+        },
+        {
+          "text": "agentdrop Instant links for agent output",
+          "href": "https://www.agent-drop.co/"
+        },
+        {
+          "text": "Akeru Bot Open-source desktop app for Grok bots",
+          "href": "https://www.akeru-bot.com/"
+        },
+        {
+          "text": "Leo The developer behind OpenCore",
+          "href": "https://leodev.cv/"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--container-md": "28rem",
+        "--border": "lab(100% 0 0/.08)",
+        "--tw-inset-shadow-alpha": "100%",
+        "--tw-ring-shadow": "0 0 #0000",
+        "--text-2xl": "1.5rem",
+        "--sidebar-primary-foreground": "lab(0% 0 0)",
+        "--aspect-video": "16 / 9",
+        "--card": "lab(5.71933% 0 0)",
+        "--tw-drop-shadow-alpha": "100%",
+        "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+        "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+        "--text-7xl": "4.5rem",
+        "--tw-animation-delay": "0s",
+        "--text-lg": "1.125rem",
+        "--text-8xl--line-height": "1",
+        "--primary-foreground": "lab(0% 0 0)",
+        "--card-foreground": "lab(98.26% 0 0)",
+        "--surface-foreground": "lab(79.12% -.0000298023 -.0000119209)",
+        "--tw-outline-style": "solid",
+        "--text-5xl--line-height": "1",
+        "--tw-inset-ring-shadow": "0 0 #0000",
+        "--text-base--line-height": "calc(1.5 / 1)",
+        "--sidebar-accent-foreground": "lab(98.26% 0 0)",
+        "--muted": "lab(9.52% -.00000745058 0)",
+        "--dither-paper": "lab(0% 0 0)",
+        "--tw-animation-direction": "normal",
+        "--tw-enter-scale": "1",
+        "--color-code-foreground": "lab(86.08% -.0000298023 0)",
+        "--accent-foreground": "lab(98.26% 0 0)",
+        "--font-mono": "",
+        "--tracking-wider": ".05em",
+        "--popover": "lab(7.22637% -.0000149012 0)",
+        "--color-dither-green": "lab(76.6505% -52.576 31.4764)",
+        "--ring": "lab(66.0612% 11.9021 -53.8414/.6)",
+        "--tw-inset-shadow": "0 0 #0000",
+        "--tw-ring-offset-color": "#fff",
+        "--text-lg--line-height": "calc(1.75 / 1.125)",
+        "--tw-gradient-from": "rgba(0, 0, 0, 0)",
+        "--color-white": "#fff",
+        "--breakpoint-2xl": "96rem",
+        "--tw-gradient-to": "rgba(0, 0, 0, 0)",
+        "--tw-shadow-alpha": "100%",
+        "--dither-bloom": "1",
+        "--radius-sm": "calc(.375rem - 4px)",
+        "--sidebar-foreground": "lab(98.26% 0 0)",
+        "--font-sans": "",
+        "--sidebar-accent": "lab(9.52% -.00000745058 0)",
+        "--tw-exit-rotate": "0",
+        "--tw-scale-z": "1",
+        "--font-weight-bold": "700",
+        "--radius": ".375rem",
+        "--popover-foreground": "lab(98.26% 0 0)",
+        "--container-sm": "24rem",
+        "--tw-ring-offset-width": "0px",
+        "--tw-exit-translate-y": "0",
+        "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+        "--tw-gradient-via-position": "50%",
+        "--text-6xl": "3.75rem",
+        "--color-dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+        "--default-font-family": "",
+        "--duration-enter": ".21s",
+        "--text-xs--line-height": "calc(1 / .75)",
+        "--tw-space-x-reverse": "0",
+        "--container-lg": "32rem",
+        "--selection": "lab(66.0612% 11.9021 -53.8414)",
+        "--duration-move": ".32s",
+        "--tw-gradient-to-position": "100%",
+        "--default-transition-duration": ".15s",
+        "--chart-4": "lab(39.2214% 26.9192 -70.8472)",
+        "--chart-2": "lab(51.3656% 20.0498 -67.5053)",
+        "--animate-pulse": "pulse 2s cubic-bezier(.4, 0, .6, 1) infinite",
+        "--radius-2xl": "1rem",
+        "--text-7xl--line-height": "1",
+        "--text-xl": "1.25rem",
+        "--color-neutral-900": "lab(7.78201% -.0000149012 0)",
+        "--container-xs": "20rem",
+        "--radius-lg": ".375rem",
+        "--surface": "lab(5.71933% 0 0)",
+        "--sidebar-primary": "lab(66.0612% 11.9021 -53.8414)",
+        "--tw-gradient-from-position": "0%"
+      }
+    },
+    "mobile": {
+      "url": "https://dithercn.dev/",
+      "title": "dithercn - Add dithers to anything in your app",
+      "text": "For the complete documentation index, see llms.txt. Markdown variants are available by appending .md to any URL or sending an Accept: text/markdown header. The dithercn agent skill, for building any dither on the engine, is at /.well-known/agent-skills/dithercn/SKILL.md.\nToggle Menu\ndithercn\nSearch\nGitHub\n140\nstars\nToggle theme\nAdd dithers to anything in your app.\n\nDithered shaders and UI for shadcn/ui. One prompt for your coding agent.\n\nRead the docs\nCopy agent prompt\nPrompt copied\nStart from an example.\n\n63 components in 5 groups, all built on the engine. Install one as it is, or hand it to your agent to change.\n\nSee all 63 in the catalog\nAurora\nBackgrounds\nGauge\nCharts\nStat card\nCharts\nBar chart\nCharts\nDither text\nText\nDither globe\nBackgrounds\nDither image\nImages\nProgress bar\nCharts\nAsk for any dither.\n\nThe skill teaches your agent the engine, so one sentence is enough: what it is, where it goes, how it should feel.\n\nContours\nUsage meter\nRipples\n\nField notes for the trail\n\nMaps, routes and the long way round.\n\nA dithered topographic background behind the hero. Slow, and quiet enough to read over.\n\nA 21-line GLSL field on DitherShader, written for this page.\nWhat's inside.\n\ndithercn is an open-source dither engine for shadcn/ui projects, with an agent skill that teaches your coding agent to use it. Everything installs as code in your repo.\n\nThe engine\n\ndither-core installs into lib/dither as plain source you own. It turns a tone between 0 and 1 into dots with Bayer and blue-noise threshold matrices, then draws them three ways: a WebGL shader for anything that moves, SVG patterns and CSS masks for static fills, and a one-off pass for photos and logos. Colours come from your shadcn theme, animation pauses offscreen and respects reduced motion, and any dither exports to PNG, SVG or CSS.\n\nThe agent skill\n\nA SKILL.md with references that teaches Claude Code, Codex, Cursor, Gemini and other coding agents to use the engine. It walks the agent through picking a technique, writing a field, placing the dither on a landing page or dashboard, colouring it from your theme, and checking it in a browser in light and dark mode at desktop and phone widths.\n\n63 examples in 5 groups\nBackgrounds 31\n\nFull-bleed dithered surfaces for heroes, sections and cards. Dither gradient, Dither glow, Mesh gradient, Aurora and 27 more.\n\nCharts 11\n\nCharts and status displays with a dithered fill. Area chart, Bar chart, Line chart, Sparkline and 7 more.\n\nInterface 12\n\nEveryday interface pieces with a dithered finish. Dither button, Dither switch, Dither slider, Dither tabs and 8 more.\n\nText 4\n\nDisplay text drawn, revealed or counted with a dither. Dither text, Dissolve text, Scramble text, Dither number.\n\nImages 5\n\nYour images and logos, dithered. Dither image, Image compare, Scroll reveal image, Dithered logo and 1 more.\n\nOne command, then ask.\n\nAdd the skill with the skills CLI, for Claude Code, Codex, Cursor or any other agent. Your agent adds the engine the first time it builds a dither.\n\nnpm\nyarn\npnpm\nbun\n$ pnpm dlx skills add\nhttps://dithercn.dev\nCopy\n.agents/skills/dithercn/\nThe skill, for Codex, Cursor, Gemini and others.\n.claude/skills/dithercn/\nThe same skill, for Claude Code.\nlib/dither/\nThe engine, added by your agent the first time it builds a dither.\nglobals.css\n--dither-ink, --dither-paper and friends, from your theme.\nWhat to ask your agent\n\nUsing shadcn? npx shadcn@latest add https://dithercn.dev/r/dithercn-skill.json installs the skill and the engine together. Installation has both commands.\n\ndithercn\n\nA dither engine with an agent skill, for shadcn projects. MIT licensed.\n\nGitHub\n140\nstars\nGet started\nIntroduction\nInstallation\nTheming\nWrite your own dither\nExamples\nBackgrounds\nCharts\nInterface\nText\nImages\nFor agents\nSKILL.md\nllms.txt\nllms-full.txt\nRegistry index\ndithercn\nAbout\nContact\nPrivacy\nMore from OpenCore\nSocial SDK TypeScript SDK for social APIs\nEmail SDK Email for TypeScript apps\nDomain SDK Custom domains for TypeScript\nSMS SDK One ",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Add dithers to anything in your app.",
+          "bounds": {
+            "x": 29,
+            "y": 200.859375,
+            "width": 332,
+            "height": 127.265625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "41.6px",
+            "fontWeight": "500",
+            "lineHeight": "42.432px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Start from an example.",
+          "bounds": {
+            "x": 24,
+            "y": 940,
+            "width": 342,
+            "height": 81.59375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "40px",
+            "fontWeight": "500",
+            "lineHeight": "40.8px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Ask for any dither.",
+          "bounds": {
+            "x": 24,
+            "y": 4865.59375,
+            "width": 342,
+            "height": 40.796875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "40px",
+            "fontWeight": "500",
+            "lineHeight": "40.8px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "What's inside.",
+          "bounds": {
+            "x": 24,
+            "y": 5886.390625,
+            "width": 342,
+            "height": 40.796875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "40px",
+            "fontWeight": "500",
+            "lineHeight": "40.8px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "The engine",
+          "bounds": {
+            "x": 24,
+            "y": 6128.1875,
+            "width": 342,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "18px",
+            "fontWeight": "500",
+            "lineHeight": "28px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "The agent skill",
+          "bounds": {
+            "x": 24,
+            "y": 6489.1875,
+            "width": 342,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "18px",
+            "fontWeight": "500",
+            "lineHeight": "28px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "63 examples in 5 groups",
+          "bounds": {
+            "x": 24,
+            "y": 6765.1875,
+            "width": 342,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "18px",
+            "fontWeight": "500",
+            "lineHeight": "28px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "One command, then ask.",
+          "bounds": {
+            "x": 24,
+            "y": 7620.1875,
+            "width": 342,
+            "height": 81.59375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "40px",
+            "fontWeight": "500",
+            "lineHeight": "40.8px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Get started",
+          "bounds": {
+            "x": 24,
+            "y": 8855.90625,
+            "width": 159,
+            "height": 20
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Examples",
+          "bounds": {
+            "x": 207,
+            "y": 8855.90625,
+            "width": 159,
+            "height": 20
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "For agents",
+          "bounds": {
+            "x": 24,
+            "y": 9079.90625,
+            "width": 159,
+            "height": 20
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "dithercn",
+          "bounds": {
+            "x": 207,
+            "y": 9079.90625,
+            "width": 159,
+            "height": 20
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "HEADER",
+          "role": null,
+          "text": "Toggle Menu\ndithercn\nSearch\nGitHub\n140\nstars\nToggle theme",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 72
+          },
+          "styles": {
+            "display": "flex",
+            "position": "sticky",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px 12px 8px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Toggle Menu",
+          "bounds": {
+            "x": 19,
+            "y": 24,
+            "width": 32,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "8px",
+            "padding": "0px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Search",
+          "bounds": {
+            "x": 205.390625,
+            "y": 24,
+            "width": 32,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "20px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "8px",
+            "padding": "0px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Toggle theme",
+          "bounds": {
+            "x": 339,
+            "y": 24,
+            "width": 32,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "8px",
+            "padding": "0px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "role": null,
+          "text": "Add dithers to anything in your app.\n\nDithered shaders and UI for shadcn/ui. One prompt for your coding agent.\n\nRead the docs\nCopy agent pro",
+          "bounds": {
+            "x": 0,
+            "y": 72,
+            "width": 390,
+            "height": 9767.78125
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Add dithers to anything in your app.\n\nDithered shaders and UI for shadcn/ui. One prompt for your coding agent.\n\nRead the docs\nCopy agent pro",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 844
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "8px 8px 0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Copy agent prompt\nPrompt copied",
+          "bounds": {
+            "x": 94.234375,
+            "y": 496.125,
+            "width": 201.515625,
+            "height": 44
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "15.2px",
+            "fontWeight": "500",
+            "lineHeight": "22.8px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "oklab(0.999998 -0.00000980496 0.0000234246 / 0.036)",
+            "gap": "8px",
+            "padding": "0px 20px 1px 19px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Start from an example.\n\n63 components in 5 groups, all built on the engine. Install one as it is, or hand it to your agent to change.\n\nSee a",
+          "bounds": {
+            "x": 0,
+            "y": 844,
+            "width": 390,
+            "height": 3941.59375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px 8px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Ask for any dither.\n\nThe skill teaches your agent the engine, so one sentence is enough: what it is, where it goes, how it should feel.\n\nCon",
+          "bounds": {
+            "x": 0,
+            "y": 4785.59375,
+            "width": 390,
+            "height": 1020.796875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px 8px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "role": "tablist",
+          "text": "Contours\nUsage meter\nRipples",
+          "bounds": {
+            "x": 20,
+            "y": 5050.390625,
+            "width": 350,
+            "height": 48
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "4px",
+            "padding": "4px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "tab",
+          "text": "Contours",
+          "bounds": {
+            "x": 24,
+            "y": 5054.390625,
+            "width": 92.4375,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "lab(9.52 -0.00000745058 0)",
+            "gap": "normal",
+            "padding": "0px 16px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "tab",
+          "text": "Usage meter",
+          "bounds": {
+            "x": 120.4375,
+            "y": 5054.390625,
+            "width": 115.171875,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px 16px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "tab",
+          "text": "Ripples",
+          "bounds": {
+            "x": 239.609375,
+            "y": 5054.390625,
+            "width": 80.671875,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px 16px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "What's inside.\n\ndithercn is an open-source dither engine for shadcn/ui projects, with an agent skill that teaches your coding agent to use i",
+          "bounds": {
+            "x": 0,
+            "y": 5806.390625,
+            "width": 390,
+            "height": 1733.796875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px 8px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "One command, then ask.\n\nAdd the skill with the skills CLI, for Claude Code, Codex, Cursor or any other agent. Your agent adds the engine the",
+          "bounds": {
+            "x": 0,
+            "y": 7540.1875,
+            "width": 390,
+            "height": 1114.71875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px 8px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "role": "tablist",
+          "text": "npm\nyarn\npnpm\nbun",
+          "bounds": {
+            "x": 37,
+            "y": 7878.78125,
+            "width": 196.84375,
+            "height": 36
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "20px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "tab",
+          "text": "npm",
+          "bounds": {
+            "x": 61,
+            "y": 7882.78125,
+            "width": 39.609375,
+            "height": 28
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"JetBrains Mono\", \"JetBrains Mono Fallback\"",
+            "fontSize": "12px",
+            "fontWeight": "500",
+            "lineHeight": "16px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "6px",
+            "padding": "2px 8px 4px",
+            "borderRadius": "4px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "tab",
+          "text": "yarn",
+          "bounds": {
+            "x": 100.609375,
+            "y": 7882.78125,
+            "width": 46.8125,
+            "height": 28
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"JetBrains Mono\", \"JetBrains Mono Fallback\"",
+            "fontSize": "12px",
+            "fontWeight": "500",
+            "lineHeight": "16px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "6px",
+            "padding": "2px 8px 4px",
+            "borderRadius": "4px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "tab",
+          "text": "pnpm",
+          "bounds": {
+            "x": 147.421875,
+            "y": 7882.78125,
+            "width": 46.8125,
+            "height": 28
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"JetBrains Mono\", \"JetBrains Mono Fallback\"",
+            "fontSize": "12px",
+            "fontWeight": "500",
+            "lineHeight": "16px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "oklab(0.999998 -0.00000980496 0.0000234246 / 0.036)",
+            "gap": "6px",
+            "padding": "2px 8px 4px",
+            "borderRadius": "4px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": "tab",
+          "text": "bun",
+          "bounds": {
+            "x": 194.234375,
+            "y": 7882.78125,
+            "width": 39.609375,
+            "height": 28
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"JetBrains Mono\", \"JetBrains Mono Fallback\"",
+            "fontSize": "12px",
+            "fontWeight": "500",
+            "lineHeight": "16px",
+            "color": "lab(65.2 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "6px",
+            "padding": "2px 8px 4px",
+            "borderRadius": "4px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Copy",
+          "bounds": {
+            "x": 331,
+            "y": 7880.78125,
+            "width": 28,
+            "height": 28
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "color": "lab(86.08 -0.0000298023 0)",
+            "backgroundColor": "lab(5.71933 0 0)",
+            "gap": "8px",
+            "padding": "0px",
+            "borderRadius": "3.35544e+07px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "Get started\nIntroduction\nInstallation\nTheming\nWrite your own dither",
+          "bounds": {
+            "x": 24,
+            "y": 8855.90625,
+            "width": 159,
+            "height": 184
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "12px",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "Examples\nBackgrounds\nCharts\nInterface\nText\nImages",
+          "bounds": {
+            "x": 207,
+            "y": 8855.90625,
+            "width": 159,
+            "height": 184
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "12px",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "For agents\nSKILL.md\nllms.txt\nllms-full.txt\nRegistry index",
+          "bounds": {
+            "x": 24,
+            "y": 9079.90625,
+            "width": 159,
+            "height": 152
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "lab(98.26 0 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "12px",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "dithercn",
+          "href": "https://dithercn.dev/"
+        },
+        {
+          "text": "Docs",
+          "href": "https://dithercn.dev/docs"
+        },
+        {
+          "text": "Examples",
+          "href": "https://dithercn.dev/docs/examples"
+        },
+        {
+          "text": "Engine",
+          "href": "https://dithercn.dev/docs/engine/dither-engine"
+        },
+        {
+          "text": "GitHub\n140\nstars",
+          "href": "https://github.com/opencoredev/dithercn"
+        },
+        {
+          "text": "Read the docs",
+          "href": "https://dithercn.dev/docs"
+        },
+        {
+          "text": "See all 63 in the catalog",
+          "href": "https://dithercn.dev/docs/examples"
+        },
+        {
+          "text": "Aurora\nBackgrounds",
+          "href": "https://dithercn.dev/docs/backgrounds/aurora"
+        },
+        {
+          "text": "Gauge\nCharts",
+          "href": "https://dithercn.dev/docs/charts/gauge"
+        },
+        {
+          "text": "Stat card\nCharts",
+          "href": "https://dithercn.dev/docs/charts/stat-card"
+        },
+        {
+          "text": "Bar chart\nCharts",
+          "href": "https://dithercn.dev/docs/charts/bar-chart"
+        },
+        {
+          "text": "Dither text\nText",
+          "href": "https://dithercn.dev/docs/text/dither-text"
+        },
+        {
+          "text": "Dither globe\nBackgrounds",
+          "href": "https://dithercn.dev/docs/backgrounds/dither-globe"
+        },
+        {
+          "text": "Donut chartCharts",
+          "href": "https://dithercn.dev/docs/charts/donut-chart"
+        },
+        {
+          "text": "AvatarInterface",
+          "href": "https://dithercn.dev/docs/interface/avatar"
+        },
+        {
+          "text": "Dither image\nImages",
+          "href": "https://dithercn.dev/docs/images/dither-image"
+        },
+        {
+          "text": "WavesBackgrounds",
+          "href": "https://dithercn.dev/docs/backgrounds/waves"
+        },
+        {
+          "text": "HeatmapCharts",
+          "href": "https://dithercn.dev/docs/charts/heatmap"
+        },
+        {
+          "text": "Progress bar\nCharts",
+          "href": "https://dithercn.dev/docs/charts/progress-bar"
+        },
+        {
+          "text": "Dither buttonInterface",
+          "href": "https://dithercn.dev/docs/interface/dither-button"
+        },
+        {
+          "text": "Backgrounds 31",
+          "href": "https://dithercn.dev/docs/examples#catalog-backgrounds"
+        },
+        {
+          "text": "Charts 11",
+          "href": "https://dithercn.dev/docs/examples#catalog-charts"
+        },
+        {
+          "text": "Interface 12",
+          "href": "https://dithercn.dev/docs/examples#catalog-interface"
+        },
+        {
+          "text": "Text 4",
+          "href": "https://dithercn.dev/docs/examples#catalog-text"
+        },
+        {
+          "text": "Images 5",
+          "href": "https://dithercn.dev/docs/examples#catalog-images"
+        },
+        {
+          "text": "What to ask your agent",
+          "href": "https://dithercn.dev/docs#ask-your-agent-for-a-dither"
+        },
+        {
+          "text": "Installation",
+          "href": "https://dithercn.dev/docs/installation"
+        },
+        {
+          "text": "GitHub\n140\nstars",
+          "href": "https://github.com/opencoredev/dithercn"
+        },
+        {
+          "text": "Introduction",
+          "href": "https://dithercn.dev/docs"
+        },
+        {
+          "text": "Installation",
+          "href": "https://dithercn.dev/docs/installation"
+        },
+        {
+          "text": "Theming",
+          "href": "https://dithercn.dev/docs/theming"
+        },
+        {
+          "text": "Write your own dither",
+          "href": "https://dithercn.dev/docs/engine/write-your-own"
+        },
+        {
+          "text": "Backgrounds",
+          "href": "https://dithercn.dev/docs/examples#catalog-backgrounds"
+        },
+        {
+          "text": "Charts",
+          "href": "https://dithercn.dev/docs/examples#catalog-charts"
+        },
+        {
+          "text": "Interface",
+          "href": "https://dithercn.dev/docs/examples#catalog-interface"
+        },
+        {
+          "text": "Text",
+          "href": "https://dithercn.dev/docs/examples#catalog-text"
+        },
+        {
+          "text": "Images",
+          "href": "https://dithercn.dev/docs/examples#catalog-images"
+        },
+        {
+          "text": "SKILL.md",
+          "href": "https://dithercn.dev/.well-known/agent-skills/dithercn/SKILL.md"
+        },
+        {
+          "text": "llms.txt",
+          "href": "https://dithercn.dev/llms.txt"
+        },
+        {
+          "text": "llms-full.txt",
+          "href": "https://dithercn.dev/llms-full.txt"
+        },
+        {
+          "text": "Registry index",
+          "href": "https://dithercn.dev/r/registry.json"
+        },
+        {
+          "text": "About",
+          "href": "https://dithercn.dev/about"
+        },
+        {
+          "text": "Contact",
+          "href": "https://dithercn.dev/contact"
+        },
+        {
+          "text": "Privacy",
+          "href": "https://dithercn.dev/privacy"
+        },
+        {
+          "text": "Social SDK TypeScript SDK for social APIs",
+          "href": "https://social-sdk.dev/"
+        },
+        {
+          "text": "Email SDK Email for TypeScript apps",
+          "href": "https://email-sdk.dev/"
+        },
+        {
+          "text": "Domain SDK Custom domains for TypeScript",
+          "href": "https://www.domain-sdk.dev/"
+        },
+        {
+          "text": "SMS SDK One SDK for SMS providers",
+          "href": "https://www.sms-sdk.com/"
+        },
+        {
+          "text": "Sandbox SDK One SDK for cloud sandboxes",
+          "href": "https://sandbox-sdk.app/"
+        },
+        {
+          "text": "Login with ChatGPT ChatGPT sign-in for your app",
+          "href": "https://loginwithchatgpt.dev/"
+        },
+        {
+          "text": "gradients.sh Animated gradients for React",
+          "href": "https://gradients.sh/"
+        },
+        {
+          "text": "BG0 Background removal on your device",
+          "href": "https://bg0.dev/"
+        },
+        {
+          "text": "convt File conversion on your computer",
+          "href": "https://convt.app/"
+        },
+        {
+          "text": "Amend Close the loop on user requests",
+          "href": "https://amend.sh/"
+        },
+        {
+          "text": "agentdrop Instant links for agent output",
+          "href": "https://www.agent-drop.co/"
+        },
+        {
+          "text": "Akeru Bot Open-source desktop app for Grok bots",
+          "href": "https://www.akeru-bot.com/"
+        },
+        {
+          "text": "Leo The developer behind OpenCore",
+          "href": "https://leodev.cv/"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--container-md": "28rem",
+        "--border": "lab(100% 0 0/.08)",
+        "--tw-inset-shadow-alpha": "100%",
+        "--tw-ring-shadow": "0 0 #0000",
+        "--text-2xl": "1.5rem",
+        "--sidebar-primary-foreground": "lab(0% 0 0)",
+        "--aspect-video": "16 / 9",
+        "--card": "lab(5.71933% 0 0)",
+        "--tw-drop-shadow-alpha": "100%",
+        "--dither-color-blue": "lab(67.3837% -15.3887 -43.8205)",
+        "--dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+        "--text-7xl": "4.5rem",
+        "--tw-animation-delay": "0s",
+        "--text-lg": "1.125rem",
+        "--text-8xl--line-height": "1",
+        "--primary-foreground": "lab(0% 0 0)",
+        "--card-foreground": "lab(98.26% 0 0)",
+        "--surface-foreground": "lab(79.12% -.0000298023 -.0000119209)",
+        "--tw-outline-style": "solid",
+        "--text-5xl--line-height": "1",
+        "--tw-inset-ring-shadow": "0 0 #0000",
+        "--text-base--line-height": "calc(1.5 / 1)",
+        "--sidebar-accent-foreground": "lab(98.26% 0 0)",
+        "--muted": "lab(9.52% -.00000745058 0)",
+        "--dither-paper": "lab(0% 0 0)",
+        "--tw-animation-direction": "normal",
+        "--tw-enter-scale": "1",
+        "--color-code-foreground": "lab(86.08% -.0000298023 0)",
+        "--accent-foreground": "lab(98.26% 0 0)",
+        "--font-mono": "",
+        "--tracking-wider": ".05em",
+        "--popover": "lab(7.22637% -.0000149012 0)",
+        "--color-dither-green": "lab(76.6505% -52.576 31.4764)",
+        "--ring": "lab(66.0612% 11.9021 -53.8414/.6)",
+        "--tw-inset-shadow": "0 0 #0000",
+        "--tw-ring-offset-color": "#fff",
+        "--text-lg--line-height": "calc(1.75 / 1.125)",
+        "--tw-gradient-from": "rgba(0, 0, 0, 0)",
+        "--color-white": "#fff",
+        "--breakpoint-2xl": "96rem",
+        "--tw-gradient-to": "rgba(0, 0, 0, 0)",
+        "--tw-shadow-alpha": "100%",
+        "--dither-bloom": "1",
+        "--radius-sm": "calc(.375rem - 4px)",
+        "--sidebar-foreground": "lab(98.26% 0 0)",
+        "--font-sans": "",
+        "--sidebar-accent": "lab(9.52% -.00000745058 0)",
+        "--tw-exit-rotate": "0",
+        "--tw-scale-z": "1",
+        "--font-weight-bold": "700",
+        "--radius": ".375rem",
+        "--popover-foreground": "lab(98.26% 0 0)",
+        "--container-sm": "24rem",
+        "--tw-ring-offset-width": "0px",
+        "--tw-exit-translate-y": "0",
+        "--dither-color-orange": "lab(75.1093% 29.6402 59.9246)",
+        "--tw-gradient-via-position": "50%",
+        "--text-6xl": "3.75rem",
+        "--color-dither-ink": "lab(66.0612% 11.9021 -53.8414)",
+        "--default-font-family": "",
+        "--duration-enter": ".21s",
+        "--text-xs--line-height": "calc(1 / .75)",
+        "--tw-space-x-reverse": "0",
+        "--container-lg": "32rem",
+        "--selection": "lab(66.0612% 11.9021 -53.8414)",
+        "--duration-move": ".32s",
+        "--tw-gradient-to-position": "100%",
+        "--default-transition-duration": ".15s",
+        "--chart-4": "lab(39.2214% 26.9192 -70.8472)",
+        "--chart-2": "lab(51.3656% 20.0498 -67.5053)",
+        "--animate-pulse": "pulse 2s cubic-bezier(.4, 0, .6, 1) infinite",
+        "--radius-2xl": "1rem",
+        "--text-7xl--line-height": "1",
+        "--text-xl": "1.25rem",
+        "--color-neutral-900": "lab(7.78201% -.0000149012 0)",
+        "--container-xs": "20rem",
+        "--radius-lg": ".375rem",
+        "--surface": "lab(5.71933% 0 0)",
+        "--sidebar-primary": "lab(66.0612% 11.9021 -53.8414)",
+        "--tw-gradient-from-position": "0%"
+      }
+    }
+  },
+  "scope": "public source reference; not a locally reconstructed component",
+  "http_status": 200,
+  "page_errors": []
+}

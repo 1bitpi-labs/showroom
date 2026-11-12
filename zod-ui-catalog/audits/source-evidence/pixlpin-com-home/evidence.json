@@ -1,0 +1,304 @@
+{
+  "site": "pixlpin.com",
+  "url": "https://pixlpin.com",
+  "captured_at": "2026-11-12T21:10:38.523928+00:00",
+  "views": {
+    "desktop": {
+      "url": "https://pixlpin.com/",
+      "title": "Attention Required! | Cloudflare",
+      "text": "Sorry, you have been blocked\nYou are unable to access pixlpin.com\nWhy have I been blocked?\n\nThis website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data.\n\nWhat can I do to resolve this?\n\nYou can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page.\n\nCloudflare Ray ID: a598864e98f3f245 • Your IP: Click to reveal • Performance & security by Cloudflare",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Sorry, you have been blocked",
+          "bounds": {
+            "x": 240,
+            "y": 34.984375,
+            "width": 960,
+            "height": 72
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Helvetica Neue\", Arial, sans-serif",
+            "fontSize": "60px",
+            "fontWeight": "300",
+            "lineHeight": "72px",
+            "color": "rgb(64, 64, 64)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "You are unable to access pixlpin.com",
+          "bounds": {
+            "x": 240,
+            "y": 106.984375,
+            "width": 960,
+            "height": 39
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Helvetica Neue\", Arial, sans-serif",
+            "fontSize": "30px",
+            "fontWeight": "300",
+            "lineHeight": "39px",
+            "color": "rgb(89, 89, 89)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Why have I been blocked?",
+          "bounds": {
+            "x": 240,
+            "y": 718.984375,
+            "width": 457.5,
+            "height": 39
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Helvetica Neue\", Arial, sans-serif",
+            "fontSize": "30px",
+            "fontWeight": "400",
+            "lineHeight": "39px",
+            "color": "rgb(64, 64, 64)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "What can I do to resolve this?",
+          "bounds": {
+            "x": 742.5,
+            "y": 718.984375,
+            "width": 457.5,
+            "height": 39
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Helvetica Neue\", Arial, sans-serif",
+            "fontSize": "30px",
+            "fontWeight": "400",
+            "lineHeight": "39px",
+            "color": "rgb(64, 64, 64)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Click to reveal",
+          "bounds": {
+            "x": 706.0625,
+            "y": 956.484375,
+            "width": 81.640625,
+            "height": 19.5
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Helvetica Neue\", Arial, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "lineHeight": "19.5px",
+            "color": "rgb(0, 81, 195)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "Cloudflare",
+          "href": "https://www.cloudflare.com/5xx-error-landing"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {}
+    },
+    "mobile": {
+      "url": "https://pixlpin.com/",
+      "title": "Attention Required! | Cloudflare",
+      "text": "Sorry, you have been blocked\nYou are unable to access pixlpin.com\nWhy have I been blocked?\n\nThis website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data.\n\nWhat can I do to resolve this?\n\nYou can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page.\n\nCloudflare Ray ID: a598864e98f3f245\nYour IP: Click to reveal\nPerformance & security by Cloudflare",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Sorry, you have been blocked",
+          "bounds": {
+            "x": 19.5,
+            "y": 25,
+            "width": 351,
+            "height": 86.375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Helvetica Neue\", Arial, sans-serif",
+            "fontSize": "36px",
+            "fontWeight": "300",
+            "lineHeight": "43.2px",
+            "color": "rgb(64, 64, 64)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "You are unable to access pixlpin.com",
+          "bounds": {
+            "x": 19.5,
+            "y": 111.375,
+            "width": 351,
+            "height": 78
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Helvetica Neue\", Arial, sans-serif",
+            "fontSize": "30px",
+            "fontWeight": "300",
+            "lineHeight": "39px",
+            "color": "rgb(89, 89, 89)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Why have I been blocked?",
+          "bounds": {
+            "x": 19.5,
+            "y": 458.375,
+            "width": 351,
+            "height": 78
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Helvetica Neue\", Arial, sans-serif",
+            "fontSize": "30px",
+            "fontWeight": "400",
+            "lineHeight": "39px",
+            "color": "rgb(64, 64, 64)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "What can I do to resolve this?",
+          "bounds": {
+            "x": 19.5,
+            "y": 731.375,
+            "width": 351,
+            "height": 78
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Helvetica Neue\", Arial, sans-serif",
+            "fontSize": "30px",
+            "fontWeight": "400",
+            "lineHeight": "39px",
+            "color": "rgb(64, 64, 64)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Click to reveal",
+          "bounds": {
+            "x": 68.890625,
+            "y": 1034.859375,
+            "width": 81.640625,
+            "height": 19.5
+          },
+          "styles": {
+            "display": "inline-block",
+            "position": "static",
+            "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Helvetica Neue\", Arial, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "lineHeight": "19.5px",
+            "color": "rgb(0, 81, 195)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "Cloudflare",
+          "href": "https://www.cloudflare.com/5xx-error-landing"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {}
+    }
+  },
+  "scope": "public source reference; not a locally reconstructed component",
+  "http_status": 403,
+  "page_errors": []
+}

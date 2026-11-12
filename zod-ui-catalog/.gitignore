@@ -1,0 +1,14 @@
+.catalog.lock
+.publish-*/
+__pycache__/
+*.pyc
+audits/native-render-fixture/node_modules/
+audits/native-render-fixture/bundle.js
+audits/native-render-fixture/src/components/
+audits/native-render-fixture/src/lib/dither/
+audits/batch-2/fixture/node_modules/
+audits/batch-2/fixture/bundle.js
+audits/batch-2/fixture/output.css
+audits/batch-2/fixture/src/components/
+audits/batch-2/fixture/src/lib/dither/
+audits/batch-2/fixture/src/demos/

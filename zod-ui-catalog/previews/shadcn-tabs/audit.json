@@ -1,0 +1,126 @@
+{
+  "id": "shadcn-tabs",
+  "source_url": "https://ui.shadcn.com/view/new-york-v4/tabs-demo",
+  "views": {
+    "desktop": {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "source_http_status": 200,
+      "source_surface_bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 384,
+        "height": 390
+      },
+      "source_style": {
+        "fontFamily": "Geist, \"Geist Fallback\"",
+        "fontSize": "16px",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "local_http_status": 200,
+      "local_style": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "16px",
+        "borderRadius": "0px",
+        "color": "oklch(0.145 0 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "horizontal_overflow": false,
+      "comparison": {
+        "comparable": true,
+        "original_sizes": [
+          [
+            384,
+            390
+          ],
+          [
+            384,
+            390
+          ]
+        ],
+        "common_raster_size": [
+          384,
+          390
+        ],
+        "pixel_similarity": 0.9841587062175298,
+        "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+      },
+      "state_checks": [
+        "ArrowRight moves focus and activates second tab"
+      ],
+      "runtime_errors": []
+    },
+    "mobile": {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "source_http_status": 200,
+      "source_surface_bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 384,
+        "height": 390
+      },
+      "source_style": {
+        "fontFamily": "Geist, \"Geist Fallback\"",
+        "fontSize": "16px",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "local_http_status": 200,
+      "local_style": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "16px",
+        "borderRadius": "0px",
+        "color": "oklch(0.145 0 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "horizontal_overflow": false,
+      "comparison": {
+        "comparable": true,
+        "original_sizes": [
+          [
+            308,
+            390
+          ],
+          [
+            308,
+            390
+          ]
+        ],
+        "common_raster_size": [
+          308,
+          390
+        ],
+        "pixel_similarity": 0.9780506421682892,
+        "limitation": "Surface-only pixel metric, not a tier formula, WCAG score or entire-page fidelity."
+      },
+      "original_intrinsic_comparison": {
+        "comparable": false,
+        "original_sizes": [
+          [
+            384,
+            390
+          ],
+          [
+            308,
+            390
+          ]
+        ],
+        "reason": "Different intrinsic size; no resizing for score."
+      },
+      "reference_host_width_normalized_to_local": 308,
+      "state_checks": [
+        "ArrowRight moves focus and activates second tab"
+      ],
+      "runtime_errors": []
+    }
+  },
+  "classification": "pending manual review"
+}

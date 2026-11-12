@@ -1,0 +1,3147 @@
+{
+  "site": "pageflows.com",
+  "url": "https://pageflows.com/post/ios/onboarding/revolut/",
+  "captured_at": "2026-11-12T21:24:38.185499+00:00",
+  "views": {
+    "desktop": {
+      "url": "https://pageflows.com/post/ios/onboarding/revolut/",
+      "title": "Revolut Onboarding Flow on iOS | Page Flows",
+      "text": "iOS\nAndroid\nWeb\nEmails\nLogin\nTry 3 Days\nOnboarding Flow in Revolut for iOS\n\nWatch a recorded Onboarding flow inside Revolut for iOS. Every screen, tap, and transition is captured step by step — see exactly how Revolut designs the Onboarding experience on iPhone.\n\nFinance\n\nRevolut is mobile-based alternative bank that offers financial services ranging from a current accounts to a cryptocurrency exchange.\n\nSave\niOS\nEmails\nFlows\nVersion: July 2020\nShowing 16 Flows\nOnboarding\nOrdering a debit card\nInvesting\nBuying crypto currency\nSending currency\nDepositing funds\nActivity feed\nRequesting payment\nAnalytics/Stats\nCreating a budget\nSearching\nExporting data\nCreating a pot\nSupport\nBuying commodities\nGeneral browsing\nIn this video\n00:00\nApp store listing\n00:03\nSplash screen\n00:06\nIntroduction slides\n00:15\nEnter phone number\n00:30\nVerify phone number\n00:59\nEnable Face ID\n01:03\nSelect country\n01:07\nAddress lookup\n01:24\nAdd address\n01:28\nEnter name\n01:35\nEnter D.O.B.\n01:47\nEnter email\n02:05\nSelect goal\n02:11\nNotification permissions\n02:16\nAdd money\n02:21\nVerify identity\n02:26\nSelect identity type\n02:44\nAdd driver's licence photo\n02:48\nConfirm ID photo\n03:02\nTake selfie\n03:04\nAdd money\n03:06\nSet amount\n03:14\nAdd payment details\n03:25\nTransaction being processed\n03:30\nSelect card type\n03:46\nVirtual card created\n03:51\nEnable Apple Pay\n03:54\nHome\nOnboarding\n29 Screens\nApp store listing\nSplash screen\nIntroduction slides\n\nSign up to unlock this user flow\n\nTry 3 Days\nEnter phone number\n\nSign up to unlock this user flow\n\nTry 3 Days\nVerify phone number\n\nSign up to unlock this user flow\n\nTry 3 Days\nEnable Face ID\n\nSign up to unlock this user flow\n\nTry 3 Days\nSelect country\n\nSign up to unlock this user flow\n\nTry 3 Days\nAddress lookup\n\nSign up to unlock this user flow\n\nTry 3 Days\nAdd address\n\nSign up to unlock this user flow\n\nTry 3 Days\nEnter name\n\nSign up to unlock this user flow\n\nTry 3 Days\nEnter D.O.B.\n\nSign up to unlock this user flow\n\nTry 3 Days\nEnter email\n\nSign up to unlock this user flow\n\nTry 3 Days\nSelect goal\n\nSign up to unlock this user flow\n\nTry 3 Days\nNotification permissions\n\nSign up to unlock this user flow\n\nTry 3 Days\nAdd money\n\nSign up to unlock this user flow\n\nTry 3 Days\nVerify identity\n\nSign up to unlock this user flow\n\nTry 3 Days\nSelect identity type\n\nSign up to unlock this user flow\n\nTry 3 Days\nAdd driver's licence photo\n\nSign up to unlock this user flow\n\nTry 3 Days\nConfirm ID photo\n\nSign up to unlock this user flow\n\nTry 3 Days\nTake selfie\n\nSign up to unlock this user flow\n\nTry 3 Days\nAdd money\n\nSign up to unlock this user flow\n\nTry 3 Days\nSet amount\n\nSign up to unlock this user flow\n\nTry 3 Days\nAdd payment details\n\nSign up to unlock this user flow\n\nTry 3 Days\nTransaction being processed\n\nSign up to unlock this user flow\n\nTry 3 Days\nSelect card type\n\nSign up to unlock this user flow\n\nTry 3 Days\nSelect card type\n\nSign up to unlock this user flow\n\nTry 3 Days\nVirtual card created\n\nSign up to unlock this user flow\n\nTry 3 Days\nEnable Apple Pay\n\nSign up to unlock this user flow\n\nTry 3 Days\nHome\nOther Finance apps you might like\nCoinbase\nCrypto trading platform\nN26\nMobile bank\nWise\nInternational money transfers\nMonzo\nDigital banking app\nRevolut Onboarding Flow on iOS — Screen by Screen\n\nThis recording documents the Onboarding flow inside Revolut on iOS, captured screen by screen from the live app. Rather than showing a static screenshot or a summarized case study, it preserves the full sequence — every transition, microcopy change, and UX decision — so you can study what Revolut actually ships, not what they describe.\n\nHow Revolut Structures the Onboarding Experience\n\nThe Onboarding flow is a specific moment inside the Revolut experience, and studying it in isolation (while still showing it in the context of a real product) makes it easier to extract patterns you can apply elsewhere. Notice how Revolut structures the flow: what it shows first, how it builds momentum, where it places friction, and how it handles completion.\n\nA Real Refere",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Onboarding Flow in Revolut for iOS",
+          "bounds": {
+            "x": 145,
+            "y": 152,
+            "width": 930.625,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "30px",
+            "fontWeight": "600",
+            "lineHeight": "40px",
+            "color": "rgb(250, 250, 250)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 150,
+            "y": 55.09375,
+            "width": 105.171875,
+            "height": 28.796875
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "600",
+            "lineHeight": "28.8px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 536.7999877929688,
+            "y": 311.1999816894531,
+            "width": 366.4000244140625,
+            "height": 19.20001220703125
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 536.7999877929688,
+            "y": 397.6000061035156,
+            "width": 366.4000244140625,
+            "height": 19.199981689453125
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 576.7999877929688,
+            "y": 386.3999938964844,
+            "width": 286.4000244140625,
+            "height": 28.800018310546875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "36px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Other Finance apps you might like",
+          "bounds": {
+            "x": 40,
+            "y": 1728,
+            "width": 1360,
+            "height": 30
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "600",
+            "lineHeight": "30px",
+            "color": "rgb(244, 244, 245)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px 4px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Revolut Onboarding Flow on iOS — Screen by Screen",
+          "bounds": {
+            "x": 360,
+            "y": 2304,
+            "width": 720,
+            "height": 36
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "700",
+            "lineHeight": "36px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "How Revolut Structures the Onboarding Experience",
+          "bounds": {
+            "x": 360,
+            "y": 2492,
+            "width": 720,
+            "height": 36
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "700",
+            "lineHeight": "36px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "A Real Reference for Onboarding Research",
+          "bounds": {
+            "x": 360,
+            "y": 2680,
+            "width": 720,
+            "height": 36
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "700",
+            "lineHeight": "36px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Frequently Asked Questions",
+          "bounds": {
+            "x": 360,
+            "y": 2923,
+            "width": 720,
+            "height": 36
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "700",
+            "lineHeight": "36px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "How was this Onboarding flow in Revolut recorded?",
+          "bounds": {
+            "x": 360,
+            "y": 2983,
+            "width": 720,
+            "height": 26
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "600",
+            "lineHeight": "26px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "How long is the Onboarding flow in Revolut?",
+          "bounds": {
+            "x": 360,
+            "y": 3093,
+            "width": 720,
+            "height": 26
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "600",
+            "lineHeight": "26px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "HEADER",
+          "role": null,
+          "text": "iOS\nAndroid\nWeb\nEmails\nLogin\nTry 3 Days",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 112
+          },
+          "styles": {
+            "display": "block",
+            "position": "fixed",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(24, 24, 27)",
+            "gap": "normal",
+            "padding": "30px 40px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "FORM",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 135.296875,
+            "y": 48,
+            "width": 366.09375,
+            "height": 16
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Login",
+          "bounds": {
+            "x": 1248.875,
+            "y": 32,
+            "width": 41.046875,
+            "height": 48
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "FORM",
+          "role": null,
+          "text": "Try 3 Days",
+          "bounds": {
+            "x": 1304.921875,
+            "y": 32,
+            "width": 95.0625,
+            "height": 48
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Try 3 Days",
+          "bounds": {
+            "x": 1304.921875,
+            "y": 32,
+            "width": 95.0625,
+            "height": 48
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "600",
+            "lineHeight": "17px",
+            "color": "rgb(11, 11, 13)",
+            "backgroundColor": "rgb(254, 240, 138)",
+            "gap": "10px",
+            "padding": "0px 15px",
+            "borderRadius": "10px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "role": null,
+          "text": "Onboarding Flow in Revolut for iOS\n\nWatch a recorded Onboarding flow inside Revolut for iOS. Every screen, tap, and transition is captured s",
+          "bounds": {
+            "x": 0,
+            "y": 112,
+            "width": 1440,
+            "height": 3367
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(15, 23, 42)",
+            "backgroundColor": "rgb(24, 24, 27)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Onboarding Flow in Revolut for iOS\n\nWatch a recorded Onboarding flow inside Revolut for iOS. Every screen, tap, and transition is captured s",
+          "bounds": {
+            "x": 0,
+            "y": 112,
+            "width": 1440,
+            "height": 290
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(15, 23, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "40px 0px 60px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "iOS\nEmails",
+          "bounds": {
+            "x": 0,
+            "y": 402,
+            "width": 1440,
+            "height": 48
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(15, 23, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Flows\nVersion: July 2020",
+          "bounds": {
+            "x": 0,
+            "y": 450,
+            "width": 1440,
+            "height": 89
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(15, 23, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "40px 30px 0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Version: July 2020",
+          "bounds": {
+            "x": 1221.359375,
+            "y": 491,
+            "width": 188.640625,
+            "height": 48
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "20px",
+            "color": "rgb(212, 212, 216)",
+            "backgroundColor": "rgb(39, 39, 42)",
+            "gap": "10px",
+            "padding": "14px 18px",
+            "borderRadius": "10px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Showing 16 Flows\nOnboarding\nOrdering a debit card\nInvesting\nBuying crypto currency\nSending currency\nDepositing funds\nActivity feed\nRequestin",
+          "bounds": {
+            "x": 0,
+            "y": 539,
+            "width": 1440,
+            "height": 1141
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(15, 23, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 64,
+            "y": 476,
+            "width": 40,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "400",
+            "lineHeight": "36px",
+            "color": "rgb(15, 23, 42)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "100px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 1336,
+            "y": 476,
+            "width": 40,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "400",
+            "lineHeight": "36px",
+            "color": "rgb(15, 23, 42)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "100px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 668.6624755859375,
+            "y": 503.20001220703125,
+            "width": 102.66253662109375,
+            "height": 33.5999755859375
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "600",
+            "lineHeight": "18px",
+            "color": "rgb(24, 24, 27)",
+            "backgroundColor": "rgb(243, 229, 140)",
+            "gap": "normal",
+            "padding": "12px",
+            "borderRadius": "10px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 536.7999877929688,
+            "y": 552.7999877929688,
+            "width": 177.20001220703125,
+            "height": 36
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "700",
+            "lineHeight": "24px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(39, 39, 42)",
+            "gap": "normal",
+            "padding": "14px 18px",
+            "borderRadius": "100px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 726,
+            "y": 552.7999877929688,
+            "width": 177.20001220703125,
+            "height": 36
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "700",
+            "lineHeight": "24px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(244, 228, 141)",
+            "gap": "normal",
+            "padding": "14px 18px",
+            "borderRadius": "100px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 576.7999877929688,
+            "y": 477.6000061035156,
+            "width": 137.20001220703125,
+            "height": 35.999969482421875
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "700",
+            "lineHeight": "24px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(39, 39, 42)",
+            "gap": "normal",
+            "padding": "14px 18px",
+            "borderRadius": "100px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 726,
+            "y": 477.6000061035156,
+            "width": 137.20001220703125,
+            "height": 35.999969482421875
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "700",
+            "lineHeight": "24px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(204, 55, 55)",
+            "gap": "normal",
+            "padding": "14px 18px",
+            "borderRadius": "100px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Revolut Onboarding Flow on iOS — Screen by Screen\n\nThis recording documents the Onboarding flow inside Revolut on iOS, captured screen by sc",
+          "bounds": {
+            "x": 0,
+            "y": 2240,
+            "width": 1440,
+            "height": 1239
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(161, 161, 170)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "64px 0px 80px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://pageflows.com/"
+        },
+        {
+          "text": "",
+          "href": "https://pageflows.com/post/ios/onboarding/revolut/#"
+        },
+        {
+          "text": "    Revolut ",
+          "href": "https://pageflows.com/post/ios/onboarding/revolut/"
+        },
+        {
+          "text": "    Robinh... ",
+          "href": "https://pageflows.com/post/ios/onboarding/robinhood/"
+        },
+        {
+          "text": "    Monzo ",
+          "href": "https://pageflows.com/post/ios/onboarding/monzo/"
+        },
+        {
+          "text": "    N26 ",
+          "href": "https://pageflows.com/post/ios/onboarding/n26/"
+        },
+        {
+          "text": "    Spotify ",
+          "href": "https://pageflows.com/post/ios/onboarding/spotify/"
+        },
+        {
+          "text": "    Starling ",
+          "href": "https://pageflows.com/post/ios/onboarding/starling/"
+        },
+        {
+          "text": "    Monese ",
+          "href": "https://pageflows.com/post/ios/onboarding/monese/"
+        },
+        {
+          "text": "    Chase ",
+          "href": "https://pageflows.com/post/ios/onboarding/chase/"
+        },
+        {
+          "text": "    Finch ",
+          "href": "https://pageflows.com/post/android/onboarding/finch/"
+        },
+        {
+          "text": "    Snapc... ",
+          "href": "https://pageflows.com/post/android/onboarding/snapchat/"
+        },
+        {
+          "text": "    Dropbox ",
+          "href": "https://pageflows.com/post/android/onboarding/dropbox/"
+        },
+        {
+          "text": "    TikTok ",
+          "href": "https://pageflows.com/post/android/onboarding/tiktok/"
+        },
+        {
+          "text": "    Badoo ",
+          "href": "https://pageflows.com/post/android/onboarding/badoo/"
+        },
+        {
+          "text": "    OKX ",
+          "href": "https://pageflows.com/post/android/onboarding/okx/"
+        },
+        {
+          "text": "    Duolin... ",
+          "href": "https://pageflows.com/post/android/onboarding/duolingo/"
+        },
+        {
+          "text": "    Asana ",
+          "href": "https://pageflows.com/post/android/onboarding/asana/"
+        },
+        {
+          "text": "    Stripe ",
+          "href": "https://pageflows.com/post/desktop-web/onboarding/stripe/"
+        },
+        {
+          "text": "    Notion ",
+          "href": "https://pageflows.com/post/desktop-web/onboarding/notion/"
+        },
+        {
+          "text": "    Interc... ",
+          "href": "https://pageflows.com/post/desktop-web/onboarding/intercom/"
+        },
+        {
+          "text": "    Slack ",
+          "href": "https://pageflows.com/post/desktop-web/onboarding/slack/"
+        },
+        {
+          "text": "    Shopify ",
+          "href": "https://pageflows.com/post/desktop-web/onboarding/shopify/"
+        },
+        {
+          "text": "    Dovetail ",
+          "href": "https://pageflows.com/post/desktop-web/onboarding/dovetail/"
+        },
+        {
+          "text": "    Asana ",
+          "href": "https://pageflows.com/post/desktop-web/onboarding/asana/"
+        },
+        {
+          "text": "    Ampli... ",
+          "href": "https://pageflows.com/post/desktop-web/onboarding/amplitude/"
+        },
+        {
+          "text": "    Sign Up ",
+          "href": "https://pageflows.com/ios/screens/sign-up/"
+        },
+        {
+          "text": "    Login ",
+          "href": "https://pageflows.com/ios/flows/logging-in/"
+        },
+        {
+          "text": "    Checkout ",
+          "href": "https://pageflows.com/ios/screens/checkout/"
+        },
+        {
+          "text": "    Upgrade ",
+          "href": "https://pageflows.com/ios/screens/upgrade/"
+        },
+        {
+          "text": "    Sign Up ",
+          "href": "https://pageflows.com/android/screens/sign-up/"
+        },
+        {
+          "text": "    Filter ",
+          "href": "https://pageflows.com/android/screens/filter/"
+        },
+        {
+          "text": "    Product details ",
+          "href": "https://pageflows.com/android/screens/product-detail/"
+        },
+        {
+          "text": "    Search ",
+          "href": "https://pageflows.com/android/screens/search/"
+        },
+        {
+          "text": "    Dashboard ",
+          "href": "https://pageflows.com/web/screens/dashboard/"
+        },
+        {
+          "text": "    Plans & pricing ",
+          "href": "https://pageflows.com/web/screens/pricing-plans/"
+        },
+        {
+          "text": "    Signup ",
+          "href": "https://pageflows.com/web/screens/sign-up/"
+        },
+        {
+          "text": "    Forgot password ",
+          "href": "https://pageflows.com/web/screens/forgot-password/"
+        },
+        {
+          "text": "       Text Field ",
+          "href": "https://pageflows.com/ios/elements/text-field/"
+        },
+        {
+          "text": "       Buttons ",
+          "href": "https://pageflows.com/ios/elements/button/"
+        },
+        {
+          "text": "       Cards ",
+          "href": "https://pageflows.com/ios/elements/card/"
+        },
+        {
+          "text": "       Bottom  sheet ",
+          "href": "https://pageflows.com/ios/elements/bottom-sheet/"
+        },
+        {
+          "text": "       Tabs ",
+          "href": "https://pageflows.com/ios/elements/tabs/"
+        },
+        {
+          "text": "       Text Field ",
+          "href": "https://pageflows.com/android/elements/text-field/"
+        },
+        {
+          "text": "       Buttons ",
+          "href": "https://pageflows.com/android/elements/button/"
+        },
+        {
+          "text": "       Cards ",
+          "href": "https://pageflows.com/android/elements/card/"
+        },
+        {
+          "text": "       Bottom  sheet ",
+          "href": "https://pageflows.com/android/elements/bottom-sheet/"
+        },
+        {
+          "text": "       Tabs ",
+          "href": "https://pageflows.com/android/elements/tabs/"
+        },
+        {
+          "text": "       Text Field ",
+          "href": "https://pageflows.com/web/elements/text-field/"
+        },
+        {
+          "text": "       Buttons ",
+          "href": "https://pageflows.com/web/elements/button/"
+        },
+        {
+          "text": "       Cards ",
+          "href": "https://pageflows.com/web/elements/card/"
+        },
+        {
+          "text": "       Bottom  sheet ",
+          "href": "https://pageflows.com/web/elements/bottom-sheet/"
+        },
+        {
+          "text": "       Tabs ",
+          "href": "https://pageflows.com/web/elements/tabs/"
+        },
+        {
+          "text": "       Onboa... ",
+          "href": "https://pageflows.com/ios/flows/onboarding/"
+        },
+        {
+          "text": "          Booking ",
+          "href": "https://pageflows.com/ios/flows/booking-a-hotel/"
+        },
+        {
+          "text": "        Buying ",
+          "href": "https://pageflows.com/ios/flows/purchasing-ordering/"
+        },
+        {
+          "text": "       Adding ",
+          "href": "https://pageflows.com/ios/flows/creating-adding/"
+        },
+        {
+          "text": "       Chat ",
+          "href": "https://pageflows.com/ios/flows/chat/"
+        },
+        {
+          "text": "       Onboa... ",
+          "href": "https://pageflows.com/android/flows/onboarding/"
+        },
+        {
+          "text": "          Booking ",
+          "href": "https://pageflows.com/android/flows/booking-a-room/"
+        },
+        {
+          "text": "        Buying ",
+          "href": "https://pageflows.com/android/flows/purchasing-ordering/"
+        },
+        {
+          "text": "       Adding ",
+          "href": "https://pageflows.com/android/flows/creating-adding/"
+        },
+        {
+          "text": "       Chat ",
+          "href": "https://pageflows.com/android/flows/chatting/"
+        },
+        {
+          "text": "       Onboa... ",
+          "href": "https://pageflows.com/web/flows/onboarding/"
+        },
+        {
+          "text": "          Booking ",
+          "href": "https://pageflows.com/web/flows/booking-a-flight/"
+        },
+        {
+          "text": "        Buying ",
+          "href": "https://pageflows.com/web/flows/purchasing-ordering/"
+        },
+        {
+          "text": "       Adding ",
+          "href": "https://pageflows.com/web/flows/creating-adding/"
+        },
+        {
+          "text": "       Chat ",
+          "href": "https://pageflows.com/web/flows/chat/"
+        },
+        {
+          "text": "    Calendly ",
+          "href": "https://pageflows.com/emails/product/calendly/"
+        },
+        {
+          "text": "    Eventb... ",
+          "href": "https://pageflows.com/emails/product/eventbrite/"
+        },
+        {
+          "text": "    Beehiiv ",
+          "href": "https://pageflows.com/emails/product/beehiiv/"
+        },
+        {
+          "text": "    Airtable ",
+          "href": "https://pageflows.com/emails/product/airtable/"
+        },
+        {
+          "text": "       Onboa... ",
+          "href": "https://pageflows.com/ios/flows/onboarding/"
+        },
+        {
+          "text": "          Booking ",
+          "href": "https://pageflows.com/ios/flows/booking-a-hotel/"
+        },
+        {
+          "text": "        Buying ",
+          "href": "https://pageflows.com/ios/flows/purchasing-ordering/"
+        },
+        {
+          "text": "       Adding ",
+          "href": "https://pageflows.com/ios/flows/creating-adding/"
+        },
+        {
+          "text": "       Chat ",
+          "href": "https://pageflows.com/ios/flows/chat/"
+        },
+        {
+          "text": "       Onboa... ",
+          "href": "https://pageflows.com/android/flows/onboarding/"
+        },
+        {
+          "text": "          Booking ",
+          "href": "https://pageflows.com/android/flows/booking-a-room/"
+        },
+        {
+          "text": "        Buying ",
+          "href": "https://pageflows.com/android/flows/purchasing-ordering/"
+        },
+        {
+          "text": "       Adding ",
+          "href": "https://pageflows.com/android/flows/creating-adding/"
+        },
+        {
+          "text": "       Chat ",
+          "href": "https://pageflows.com/android/flows/chatting/"
+        },
+        {
+          "text": "       Onboa... ",
+          "href": "https://pageflows.com/web/flows/onboarding/"
+        },
+        {
+          "text": "          Booking ",
+          "href": "https://pageflows.com/web/flows/booking-a-flight/"
+        },
+        {
+          "text": "        Buying ",
+          "href": "https://pageflows.com/web/flows/purchasing-ordering/"
+        },
+        {
+          "text": "       Adding ",
+          "href": "https://pageflows.com/web/flows/creating-adding/"
+        },
+        {
+          "text": "       Chat ",
+          "href": "https://pageflows.com/web/flows/chat/"
+        },
+        {
+          "text": "Upgrading Account",
+          "href": "https://pageflows.com/ios/flows/upgrading-account/"
+        },
+        {
+          "text": "Deactivating & Deleting Account",
+          "href": "https://pageflows.com/ios/flows/deactivating-deleting/"
+        },
+        {
+          "text": "Logging In",
+          "href": "https://pageflows.com/ios/flows/logging-in/"
+        },
+        {
+          "text": "Logging Out",
+          "href": "https://pageflows.com/ios/flows/logging-out/"
+        },
+        {
+          "text": "Editing Profile",
+          "href": "https://pageflows.com/ios/flows/editing-profile/"
+        },
+        {
+          "text": "Reactivating & Restoring Account",
+          "href": "https://pageflows.com/ios/flows/reactivating-restoring-account/"
+        },
+        {
+          "text": "Resetting Password",
+          "href": "https://pageflows.com/ios/flows/resetting-password/"
+        },
+        {
+          "text": "Switching Account",
+          "href": "https://pageflows.com/ios/flows/switching-account/"
+        },
+        {
+          "text": "Verifying",
+          "href": "https://pageflows.com/ios/flows/verifying/"
+        },
+        {
+          "text": "Upgrading Account",
+          "href": "https://pageflows.com/ios/flows/upgrading-account/"
+        },
+        {
+          "text": "Deactivating & Deleting Account",
+          "href": "https://pageflows.com/ios/flows/deactivating-deleting/"
+        },
+        {
+          "text": "Logging In",
+          "href": "https://pageflows.com/ios/flows/logging-in/"
+        },
+        {
+          "text": "Logging Out",
+          "href": "https://pageflows.com/ios/flows/logging-out/"
+        },
+        {
+          "text": "Editing Profile",
+          "href": "https://pageflows.com/ios/flows/editing-profile/"
+        },
+        {
+          "text": "Reactivating & Restoring Account",
+          "href": "https://pageflows.com/ios/flows/reactivating-restoring-account/"
+        },
+        {
+          "text": "Resetting Password",
+          "href": "https://pageflows.com/ios/flows/resetting-password/"
+        },
+        {
+          "text": "Switching Account",
+          "href": "https://pageflows.com/ios/flows/switching-account/"
+        },
+        {
+          "text": "Verifying",
+          "href": "https://pageflows.com/ios/flows/verifying/"
+        },
+        {
+          "text": "Upgrading Account",
+          "href": "https://pageflows.com/ios/flows/upgrading-account/"
+        },
+        {
+          "text": "Deactivating & Deleting Account",
+          "href": "https://pageflows.com/ios/flows/deactivating-deleting/"
+        },
+        {
+          "text": "Logging In",
+          "href": "https://pageflows.com/ios/flows/logging-in/"
+        },
+        {
+          "text": "Logging Out",
+          "href": "https://pageflows.com/ios/flows/logging-out/"
+        },
+        {
+          "text": "Editing Profile",
+          "href": "https://pageflows.com/ios/flows/editing-profile/"
+        },
+        {
+          "text": "Reactivating & Restoring Account",
+          "href": "https://pageflows.com/ios/flows/reactivating-restoring-account/"
+        },
+        {
+          "text": "Resetting Password",
+          "href": "https://pageflows.com/ios/flows/resetting-password/"
+        },
+        {
+          "text": "Switching Account",
+          "href": "https://pageflows.com/ios/flows/switching-account/"
+        },
+        {
+          "text": "Verifying",
+          "href": "https://pageflows.com/ios/flows/verifying/"
+        },
+        {
+          "text": "Creating & Adding",
+          "href": "https://pageflows.com/ios/flows/creating-adding/"
+        },
+        {
+          "text": "Searching & Finding",
+          "href": "https://pageflows.com/ios/flows/searching-finding/"
+        },
+        {
+          "text": "Analyzing Stats",
+          "href": "https://pageflows.com/ios/flows/analytics-stats/"
+        },
+        {
+          "text": "Importing & Exporting",
+          "href": "https://pageflows.com/ios/flows/importing-exporting/"
+        },
+        {
+          "text": "Deleting & Removing",
+          "href": "https://pageflows.com/ios/flows/deleting-removing/"
+        },
+        {
+          "text": "Filtering & Sorting",
+          "href": "https://pageflows.com/ios/flows/filtering-sorting/"
+        },
+        {
+          "text": "Saving To Collection & Favoriting",
+          "href": "https://pageflows.com/ios/flows/saving-collection-favoriting/"
+        },
+        {
+          "text": "Scanning",
+          "href": "https://pageflows.com/ios/flows/scanning/"
+        },
+        {
+          "text": "Submitting & Applying",
+          "href": "https://pageflows.com/ios/flows/submitting-applying/"
+        },
+        {
+          "text": "Listening",
+          "href": "https://pageflows.com/ios/flows/listening/"
+        },
+        {
+          "text": "Managing",
+          "href": "https://pageflows.com/ios/flows/managing/"
+        },
+        {
+          "text": "Moving",
+          "href": "https://pageflows.com/ios/flows/moving/"
+        },
+        {
+          "text": "Requesting",
+          "href": "https://pageflows.com/ios/flows/requesting/"
+        },
+        {
+          "text": "Starting & Completing",
+          "href": "https://pageflows.com/ios/flows/starting-completing/"
+        },
+        {
+          "text": "Logging & Tracking",
+          "href": "https://pageflows.com/ios/flows/logging-tracking/"
+        },
+        {
+          "text": "Settings & Customizing",
+          "href": "https://pageflows.com/ios/flows/settings-customizing/"
+        },
+        {
+          "text": "Archiving",
+          "href": "https://pageflows.com/ios/flows/archiving/"
+        },
+        {
+          "text": "Watching Video",
+          "href": "https://pageflows.com/ios/flows/watching-video/"
+        },
+        {
+          "text": "Selecting & Choosing",
+          "href": "https://pageflows.com/ios/flows/selecting-choosing/"
+        },
+        {
+          "text": "Editing & Updating",
+          "href": "https://pageflows.com/ios/flows/editing-updating/"
+        },
+        {
+          "text": "Uploading & Downloading",
+          "href": "https://pageflows.com/ios/flows/uploading-downloading/"
+        },
+        {
+          "text": "Copying & Duplicating",
+          "href": "https://pageflows.com/ios/flows/copying-duplicating/"
+        },
+        {
+          "text": "Recording",
+          "href": "https://pageflows.com/ios/flows/recording/"
+        },
+        {
+          "text": "Pinning",
+          "href": "https://pageflows.com/ios/flows/pinning/"
+        },
+        {
+          "text": "Creating & Adding",
+          "href": "https://pageflows.com/ios/flows/creating-adding/"
+        },
+        {
+          "text": "Searching & Finding",
+          "href": "https://pageflows.com/ios/flows/searching-finding/"
+        },
+        {
+          "text": "Analyzing Stats",
+          "href": "https://pageflows.com/ios/flows/analytics-stats/"
+        },
+        {
+          "text": "Importing & Exporting",
+          "href": "https://pageflows.com/ios/flows/importing-exporting/"
+        },
+        {
+          "text": "Deleting & Removing",
+          "href": "https://pageflows.com/ios/flows/deleting-removing/"
+        },
+        {
+          "text": "Filtering & Sorting",
+          "href": "https://pageflows.com/ios/flows/filtering-sorting/"
+        },
+        {
+          "text": "Saving To Collection & Favoriting",
+          "href": "https://pageflows.com/ios/flows/saving-collection-favoriting/"
+        },
+        {
+          "text": "Scanning",
+          "href": "https://pageflows.com/ios/flows/scanning/"
+        },
+        {
+          "text": "Submitting & Applying",
+          "href": "https://pageflows.com/ios/flows/submitting-applying/"
+        },
+        {
+          "text": "Listening",
+          "href": "https://pageflows.com/ios/flows/listening/"
+        },
+        {
+          "text": "Managing",
+          "href": "https://pageflows.com/ios/flows/managing/"
+        },
+        {
+          "text": "Moving",
+          "href": "https://pageflows.com/ios/flows/moving/"
+        },
+        {
+          "text": "Requesting",
+          "href": "https://pageflows.com/ios/flows/requesting/"
+        },
+        {
+          "text": "Starting & Completing",
+          "href": "https://pageflows.com/ios/flows/starting-completing/"
+        },
+        {
+          "text": "Logging & Tracking",
+          "href": "https://pageflows.com/ios/flows/logging-tracking/"
+        },
+        {
+          "text": "Settings & Customizing",
+          "href": "https://pageflows.com/ios/flows/settings-customizing/"
+        },
+        {
+          "text": "Archiving",
+          "href": "https://pageflows.com/ios/flows/archiving/"
+        },
+        {
+          "text": "Watching Video",
+          "href": "https://pageflows.com/ios/flows/watching-video/"
+        },
+        {
+          "text": "Selecting & Choosing",
+          "href": "https://pageflows.com/ios/flows/selecting-choosing/"
+        },
+        {
+          "text": "Editing & Updating",
+          "href": "https://pageflows.com/ios/flows/editing-updating/"
+        },
+        {
+          "text": "Uploading & Downloading",
+          "href": "https://pageflows.com/ios/flows/uploading-downloading/"
+        },
+        {
+          "text": "Copying & Duplicating",
+          "href": "https://pageflows.com/ios/flows/copying-duplicating/"
+        },
+        {
+          "text": "Recording",
+          "href": "https://pageflows.com/ios/flows/recording/"
+        },
+        {
+          "text": "Pinning",
+          "href": "https://pageflows.com/ios/flows/pinning/"
+        },
+        {
+          "text": "Creating & Adding",
+          "href": "https://pageflows.com/ios/flows/creating-adding/"
+        },
+        {
+          "text": "Searching & Finding",
+          "href": "https://pageflows.com/ios/flows/searching-finding/"
+        },
+        {
+          "text": "Analyzing Stats",
+          "href": "https://pageflows.com/ios/flows/analytics-stats/"
+        },
+        {
+          "text": "Importing & Exporting",
+          "href": "https://pageflows.com/ios/flows/importing-exporting/"
+        },
+        {
+          "text": "Deleting & Removing",
+          "href": "https://pageflows.com/ios/flows/deleting-removing/"
+        },
+        {
+          "text": "Filtering & Sorting",
+          "href": "https://pageflows.com/ios/flows/filtering-sorting/"
+        },
+        {
+          "text": "Saving To Collection & Favoriting",
+          "href": "https://pageflows.com/ios/flows/saving-collection-favoriting/"
+        },
+        {
+          "text": "Scanning",
+          "href": "https://pageflows.com/ios/flows/scanning/"
+        },
+        {
+          "text": "Submitting & Applying",
+          "href": "https://pageflows.com/ios/flows/submitting-applying/"
+        },
+        {
+          "text": "Listening",
+          "href": "https://pageflows.com/ios/flows/listening/"
+        },
+        {
+          "text": "Managing",
+          "href": "https://pageflows.com/ios/flows/managing/"
+        },
+        {
+          "text": "Moving",
+          "href": "https://pageflows.com/ios/flows/moving/"
+        },
+        {
+          "text": "Requesting",
+          "href": "https://pageflows.com/ios/flows/requesting/"
+        },
+        {
+          "text": "Starting & Completing",
+          "href": "https://pageflows.com/ios/flows/starting-completing/"
+        },
+        {
+          "text": "Logging & Tracking",
+          "href": "https://pageflows.com/ios/flows/logging-tracking/"
+        },
+        {
+          "text": "Settings & Customizing",
+          "href": "https://pageflows.com/ios/flows/settings-customizing/"
+        },
+        {
+          "text": "Archiving",
+          "href": "https://pageflows.com/ios/flows/archiving/"
+        },
+        {
+          "text": "Watching Video",
+          "href": "https://pageflows.com/ios/flows/watching-video/"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--tw-ring-offset-shadow": "0 0 #0000",
+        "--tw-contrast": "",
+        "--tw-backdrop-sepia": "",
+        "--tw-ring-shadow": "0 0 #0000",
+        "--tw-sepia": "",
+        "--tw-skew-x": "0",
+        "--tw-ordinal": "",
+        "--tw-backdrop-saturate": "",
+        "--tw-backdrop-blur": "",
+        "--tw-shadow": "0 0 #0000",
+        "--tw-translate-x": "0",
+        "--tw-ring-inset": "",
+        "--tw-ring-offset-width": "0px",
+        "--tw-backdrop-invert": "",
+        "--tw-saturate": "",
+        "--tw-scroll-snap-strictness": "proximity",
+        "--tw-numeric-spacing": "",
+        "--tw-grayscale": "",
+        "--tw-scale-x": "1",
+        "--tw-border-spacing-x": "0",
+        "--tw-backdrop-hue-rotate": "",
+        "--tw-shadow-colored": "0 0 #0000",
+        "--tw-border-spacing-y": "0",
+        "--tw-brightness": "",
+        "--tw-numeric-fraction": "",
+        "--tw-backdrop-grayscale": "",
+        "--tw-hue-rotate": "",
+        "--tw-scale-y": "1",
+        "--tw-pan-y": "",
+        "--tw-backdrop-contrast": "",
+        "--tw-drop-shadow": "",
+        "--tw-skew-y": "0",
+        "--tw-ring-color": "rgb(68 142 227 / 0.5)",
+        "--tw-backdrop-brightness": "",
+        "--tw-slashed-zero": "",
+        "--tw-blur": "",
+        "--tw-invert": "",
+        "--tw-pan-x": "",
+        "--tw-translate-y": "0",
+        "--tw-backdrop-opacity": "",
+        "--tw-numeric-figure": "",
+        "--tw-rotate": "0",
+        "--tw-pinch-zoom": "",
+        "--tw-ring-offset-color": "#fff"
+      }
+    },
+    "mobile": {
+      "url": "https://pageflows.com/post/ios/onboarding/revolut/",
+      "title": "Revolut Onboarding Flow on iOS | Page Flows",
+      "text": "iOS\nAndroid\nWeb\nEmails\nLogin\nTry 3 Days\nOnboarding Flow in Revolut for iOS\n\nWatch a recorded Onboarding flow inside Revolut for iOS. Every screen, tap, and transition is captured step by step — see exactly how Revolut designs the Onboarding experience on iPhone.\n\nFinance\n\nRevolut is mobile-based alternative bank that offers financial services ranging from a current accounts to a cryptocurrency exchange.\n\nSave\niOS\nEmails\nFlows\nVersion: July 2020\nOnboarding\n29 Screens\nApp store listing\nSplash screen\nIntroduction slides\n\nSign up to unlock this user flow\n\nTry 3 Days\nEnter phone number\n\nSign up to unlock this user flow\n\nTry 3 Days\nVerify phone number\n\nSign up to unlock this user flow\n\nTry 3 Days\nEnable Face ID\n\nSign up to unlock this user flow\n\nTry 3 Days\nSelect country\n\nSign up to unlock this user flow\n\nTry 3 Days\nAddress lookup\n\nSign up to unlock this user flow\n\nTry 3 Days\nAdd address\n\nSign up to unlock this user flow\n\nTry 3 Days\nEnter name\n\nSign up to unlock this user flow\n\nTry 3 Days\nEnter D.O.B.\n\nSign up to unlock this user flow\n\nTry 3 Days\nEnter email\n\nSign up to unlock this user flow\n\nTry 3 Days\nSelect goal\n\nSign up to unlock this user flow\n\nTry 3 Days\nNotification permissions\n\nSign up to unlock this user flow\n\nTry 3 Days\nAdd money\n\nSign up to unlock this user flow\n\nTry 3 Days\nVerify identity\n\nSign up to unlock this user flow\n\nTry 3 Days\nSelect identity type\n\nSign up to unlock this user flow\n\nTry 3 Days\nAdd driver's licence photo\n\nSign up to unlock this user flow\n\nTry 3 Days\nConfirm ID photo\n\nSign up to unlock this user flow\n\nTry 3 Days\nTake selfie\n\nSign up to unlock this user flow\n\nTry 3 Days\nAdd money\n\nSign up to unlock this user flow\n\nTry 3 Days\nSet amount\n\nSign up to unlock this user flow\n\nTry 3 Days\nAdd payment details\n\nSign up to unlock this user flow\n\nTry 3 Days\nTransaction being processed\n\nSign up to unlock this user flow\n\nTry 3 Days\nSelect card type\n\nSign up to unlock this user flow\n\nTry 3 Days\nSelect card type\n\nSign up to unlock this user flow\n\nTry 3 Days\nVirtual card created\n\nSign up to unlock this user flow\n\nTry 3 Days\nEnable Apple Pay\n\nSign up to unlock this user flow\n\nTry 3 Days\nHome\nOther Finance apps you might like\nCoinbase\nCrypto trading platform\nN26\nMobile bank\nWise\nInternational money transfers\nMonzo\nDigital banking app\nRevolut Onboarding Flow on iOS — Screen by Screen\n\nThis recording documents the Onboarding flow inside Revolut on iOS, captured screen by screen from the live app. Rather than showing a static screenshot or a summarized case study, it preserves the full sequence — every transition, microcopy change, and UX decision — so you can study what Revolut actually ships, not what they describe.\n\nHow Revolut Structures the Onboarding Experience\n\nThe Onboarding flow is a specific moment inside the Revolut experience, and studying it in isolation (while still showing it in the context of a real product) makes it easier to extract patterns you can apply elsewhere. Notice how Revolut structures the flow: what it shows first, how it builds momentum, where it places friction, and how it handles completion.\n\nA Real Reference for Onboarding Research\n\nFor designers researching Onboarding patterns, this recording gives you a direct, real-world reference. For Revolut enthusiasts or competitors, it's a detailed look at how the brand approaches this specific user journey on iOS.\n\nFrequently Asked Questions\nHow was this Onboarding flow in Revolut recorded?\n\nThe flow was captured directly from the live iOS version of Revolut, preserving the full sequence of screens and interactions exactly as a real user would experience them.\n\nHow long is the Onboarding flow in Revolut?\n\nLength depends on how Revolut has designed the flow — some Onboarding sequences are intentionally brief, others include multiple steps. Watch the full recording to see the complete timing.\n\nHow often is the Revolut Onboarding flow updated?\n\nRecordings are refreshed when Revolut ships significant redesigns, so the documentation reflects the current",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "horizontal_overflow": true,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Onboarding Flow in Revolut for iOS",
+          "bounds": {
+            "x": 30,
+            "y": 307,
+            "width": 330,
+            "height": 80
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "30px",
+            "fontWeight": "600",
+            "lineHeight": "40px",
+            "color": "rgb(250, 250, 250)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 86.75,
+            "y": 33.09375,
+            "width": 73.171875,
+            "height": 18
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": "600",
+            "lineHeight": "18px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 71.39999389648438,
+            "y": 283.1999816894531,
+            "width": 247.19998168945312,
+            "height": 19.20001220703125
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 71.39999389648438,
+            "y": 369.6000061035156,
+            "width": 247.19998168945312,
+            "height": 19.199981689453125
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 71.39999389648438,
+            "y": 358.3999938964844,
+            "width": 247.19998168945312,
+            "height": 28.800018310546875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "36px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Other Finance apps you might like",
+          "bounds": {
+            "x": 20,
+            "y": 1649,
+            "width": 350,
+            "height": 30
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "600",
+            "lineHeight": "30px",
+            "color": "rgb(244, 244, 245)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px 4px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Revolut Onboarding Flow on iOS — Screen by Screen",
+          "bounds": {
+            "x": 38,
+            "y": 2119,
+            "width": 314,
+            "height": 56
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "22px",
+            "fontWeight": "700",
+            "lineHeight": "28px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "How Revolut Structures the Onboarding Experience",
+          "bounds": {
+            "x": 38,
+            "y": 2457,
+            "width": 314,
+            "height": 56
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "22px",
+            "fontWeight": "700",
+            "lineHeight": "28px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "A Real Reference for Onboarding Research",
+          "bounds": {
+            "x": 38,
+            "y": 2795,
+            "width": 314,
+            "height": 56
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "22px",
+            "fontWeight": "700",
+            "lineHeight": "28px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Frequently Asked Questions",
+          "bounds": {
+            "x": 38,
+            "y": 3104,
+            "width": 314,
+            "height": 28
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "22px",
+            "fontWeight": "700",
+            "lineHeight": "28px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "How was this Onboarding flow in Revolut recorded?",
+          "bounds": {
+            "x": 38,
+            "y": 3156,
+            "width": 314,
+            "height": 48
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "17px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "How long is the Onboarding flow in Revolut?",
+          "bounds": {
+            "x": 38,
+            "y": 3366,
+            "width": 314,
+            "height": 48
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "17px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "HEADER",
+          "role": null,
+          "text": "iOS\nAndroid\nWeb\nEmails\nLogin\nTry 3 Days",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 140
+          },
+          "styles": {
+            "display": "block",
+            "position": "fixed",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(24, 24, 27)",
+            "gap": "normal",
+            "padding": "20px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "FORM",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 87,
+            "y": 36,
+            "width": 100,
+            "height": 16
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Login",
+          "bounds": {
+            "x": 244.390625,
+            "y": 24,
+            "width": 35.609375,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "FORM",
+          "role": null,
+          "text": "Try 3 Days",
+          "bounds": {
+            "x": 295,
+            "y": 24,
+            "width": 75,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Try 3 Days",
+          "bounds": {
+            "x": 295,
+            "y": 24,
+            "width": 75,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "600",
+            "lineHeight": "17px",
+            "color": "rgb(11, 11, 13)",
+            "backgroundColor": "rgb(254, 240, 138)",
+            "gap": "10px",
+            "padding": "0px 15px",
+            "borderRadius": "10px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "role": null,
+          "text": "Onboarding Flow in Revolut for iOS\n\nWatch a recorded Onboarding flow inside Revolut for iOS. Every screen, tap, and transition is captured s",
+          "bounds": {
+            "x": 0,
+            "y": 112,
+            "width": 390,
+            "height": 3898
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(15, 23, 42)",
+            "backgroundColor": "rgb(24, 24, 27)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Onboarding Flow in Revolut for iOS\n\nWatch a recorded Onboarding flow inside Revolut for iOS. Every screen, tap, and transition is captured s",
+          "bounds": {
+            "x": 0,
+            "y": 112,
+            "width": 390,
+            "height": 668
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(15, 23, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "40px 0px 60px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "iOS\nEmails",
+          "bounds": {
+            "x": 0,
+            "y": 780,
+            "width": 390,
+            "height": 48
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(15, 23, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Flows\nVersion: July 2020",
+          "bounds": {
+            "x": 0,
+            "y": 828,
+            "width": 390,
+            "height": 159
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(15, 23, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "20px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Version: July 2020",
+          "bounds": {
+            "x": 100.671875,
+            "y": 919,
+            "width": 188.640625,
+            "height": 48
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "20px",
+            "color": "rgb(212, 212, 216)",
+            "backgroundColor": "rgb(39, 39, 42)",
+            "gap": "10px",
+            "padding": "14px 18px",
+            "borderRadius": "10px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Onboarding\n29 Screens\nApp store listing\nSplash screen\nIntroduction slides\n\nSign up to unlock this user flow\n\nTry 3 Days\nEnter phone number\n\n",
+          "bounds": {
+            "x": 0,
+            "y": 1027,
+            "width": 390,
+            "height": 574
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(15, 23, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 25.75,
+            "y": 465.671875,
+            "width": 40,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "400",
+            "lineHeight": "36px",
+            "color": "rgb(15, 23, 42)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "100px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 324.25,
+            "y": 465.671875,
+            "width": 40,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "400",
+            "lineHeight": "36px",
+            "color": "rgb(15, 23, 42)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "100px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 143.66249084472656,
+            "y": 475.20001220703125,
+            "width": 102.66250610351562,
+            "height": 33.5999755859375
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "600",
+            "lineHeight": "18px",
+            "color": "rgb(24, 24, 27)",
+            "backgroundColor": "rgb(243, 229, 140)",
+            "gap": "normal",
+            "padding": "12px",
+            "borderRadius": "10px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 71.39999389648438,
+            "y": 524.7999877929688,
+            "width": 117.60000610351562,
+            "height": 36
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "700",
+            "lineHeight": "24px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(39, 39, 42)",
+            "gap": "normal",
+            "padding": "14px 18px",
+            "borderRadius": "100px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 201,
+            "y": 524.7999877929688,
+            "width": 117.5999755859375,
+            "height": 36
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "700",
+            "lineHeight": "24px",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(244, 228, 141)",
+            "gap": "normal",
+            "padding": "14px 18px",
+            "borderRadius": "100px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 71.39999389648438,
+            "y": 449.6000061035156,
+            "width": 117.60000610351562,
+            "height": 36
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "700",
+            "lineHeight": "24px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(39, 39, 42)",
+            "gap": "normal",
+            "padding": "14px 18px",
+            "borderRadius": "100px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 201,
+            "y": 449.6000061035156,
+            "width": 117.5999755859375,
+            "height": 36
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "700",
+            "lineHeight": "24px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(204, 55, 55)",
+            "gap": "normal",
+            "padding": "14px 18px",
+            "borderRadius": "100px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Revolut Onboarding Flow on iOS — Screen by Screen\n\nThis recording documents the Onboarding flow inside Revolut on iOS, captured screen by sc",
+          "bounds": {
+            "x": 0,
+            "y": 2071,
+            "width": 390,
+            "height": 1939
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Geist, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(161, 161, 170)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "48px 18px 64px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://pageflows.com/"
+        },
+        {
+          "text": "",
+          "href": "https://pageflows.com/post/ios/onboarding/revolut/#"
+        },
+        {
+          "text": "    Revolut ",
+          "href": "https://pageflows.com/post/ios/onboarding/revolut/"
+        },
+        {
+          "text": "    Robinh... ",
+          "href": "https://pageflows.com/post/ios/onboarding/robinhood/"
+        },
+        {
+          "text": "    Monzo ",
+          "href": "https://pageflows.com/post/ios/onboarding/monzo/"
+        },
+        {
+          "text": "    N26 ",
+          "href": "https://pageflows.com/post/ios/onboarding/n26/"
+        },
+        {
+          "text": "    Spotify ",
+          "href": "https://pageflows.com/post/ios/onboarding/spotify/"
+        },
+        {
+          "text": "    Starling ",
+          "href": "https://pageflows.com/post/ios/onboarding/starling/"
+        },
+        {
+          "text": "    Monese ",
+          "href": "https://pageflows.com/post/ios/onboarding/monese/"
+        },
+        {
+          "text": "    Chase ",
+          "href": "https://pageflows.com/post/ios/onboarding/chase/"
+        },
+        {
+          "text": "    Finch ",
+          "href": "https://pageflows.com/post/android/onboarding/finch/"
+        },
+        {
+          "text": "    Snapc... ",
+          "href": "https://pageflows.com/post/android/onboarding/snapchat/"
+        },
+        {
+          "text": "    Dropbox ",
+          "href": "https://pageflows.com/post/android/onboarding/dropbox/"
+        },
+        {
+          "text": "    TikTok ",
+          "href": "https://pageflows.com/post/android/onboarding/tiktok/"
+        },
+        {
+          "text": "    Badoo ",
+          "href": "https://pageflows.com/post/android/onboarding/badoo/"
+        },
+        {
+          "text": "    OKX ",
+          "href": "https://pageflows.com/post/android/onboarding/okx/"
+        },
+        {
+          "text": "    Duolin... ",
+          "href": "https://pageflows.com/post/android/onboarding/duolingo/"
+        },
+        {
+          "text": "    Asana ",
+          "href": "https://pageflows.com/post/android/onboarding/asana/"
+        },
+        {
+          "text": "    Stripe ",
+          "href": "https://pageflows.com/post/desktop-web/onboarding/stripe/"
+        },
+        {
+          "text": "    Notion ",
+          "href": "https://pageflows.com/post/desktop-web/onboarding/notion/"
+        },
+        {
+          "text": "    Interc... ",
+          "href": "https://pageflows.com/post/desktop-web/onboarding/intercom/"
+        },
+        {
+          "text": "    Slack ",
+          "href": "https://pageflows.com/post/desktop-web/onboarding/slack/"
+        },
+        {
+          "text": "    Shopify ",
+          "href": "https://pageflows.com/post/desktop-web/onboarding/shopify/"
+        },
+        {
+          "text": "    Dovetail ",
+          "href": "https://pageflows.com/post/desktop-web/onboarding/dovetail/"
+        },
+        {
+          "text": "    Asana ",
+          "href": "https://pageflows.com/post/desktop-web/onboarding/asana/"
+        },
+        {
+          "text": "    Ampli... ",
+          "href": "https://pageflows.com/post/desktop-web/onboarding/amplitude/"
+        },
+        {
+          "text": "    Sign Up ",
+          "href": "https://pageflows.com/ios/screens/sign-up/"
+        },
+        {
+          "text": "    Login ",
+          "href": "https://pageflows.com/ios/flows/logging-in/"
+        },
+        {
+          "text": "    Checkout ",
+          "href": "https://pageflows.com/ios/screens/checkout/"
+        },
+        {
+          "text": "    Upgrade ",
+          "href": "https://pageflows.com/ios/screens/upgrade/"
+        },
+        {
+          "text": "    Sign Up ",
+          "href": "https://pageflows.com/android/screens/sign-up/"
+        },
+        {
+          "text": "    Filter ",
+          "href": "https://pageflows.com/android/screens/filter/"
+        },
+        {
+          "text": "    Product details ",
+          "href": "https://pageflows.com/android/screens/product-detail/"
+        },
+        {
+          "text": "    Search ",
+          "href": "https://pageflows.com/android/screens/search/"
+        },
+        {
+          "text": "    Dashboard ",
+          "href": "https://pageflows.com/web/screens/dashboard/"
+        },
+        {
+          "text": "    Plans & pricing ",
+          "href": "https://pageflows.com/web/screens/pricing-plans/"
+        },
+        {
+          "text": "    Signup ",
+          "href": "https://pageflows.com/web/screens/sign-up/"
+        },
+        {
+          "text": "    Forgot password ",
+          "href": "https://pageflows.com/web/screens/forgot-password/"
+        },
+        {
+          "text": "       Text Field ",
+          "href": "https://pageflows.com/ios/elements/text-field/"
+        },
+        {
+          "text": "       Buttons ",
+          "href": "https://pageflows.com/ios/elements/button/"
+        },
+        {
+          "text": "       Cards ",
+          "href": "https://pageflows.com/ios/elements/card/"
+        },
+        {
+          "text": "       Bottom  sheet ",
+          "href": "https://pageflows.com/ios/elements/bottom-sheet/"
+        },
+        {
+          "text": "       Tabs ",
+          "href": "https://pageflows.com/ios/elements/tabs/"
+        },
+        {
+          "text": "       Text Field ",
+          "href": "https://pageflows.com/android/elements/text-field/"
+        },
+        {
+          "text": "       Buttons ",
+          "href": "https://pageflows.com/android/elements/button/"
+        },
+        {
+          "text": "       Cards ",
+          "href": "https://pageflows.com/android/elements/card/"
+        },
+        {
+          "text": "       Bottom  sheet ",
+          "href": "https://pageflows.com/android/elements/bottom-sheet/"
+        },
+        {
+          "text": "       Tabs ",
+          "href": "https://pageflows.com/android/elements/tabs/"
+        },
+        {
+          "text": "       Text Field ",
+          "href": "https://pageflows.com/web/elements/text-field/"
+        },
+        {
+          "text": "       Buttons ",
+          "href": "https://pageflows.com/web/elements/button/"
+        },
+        {
+          "text": "       Cards ",
+          "href": "https://pageflows.com/web/elements/card/"
+        },
+        {
+          "text": "       Bottom  sheet ",
+          "href": "https://pageflows.com/web/elements/bottom-sheet/"
+        },
+        {
+          "text": "       Tabs ",
+          "href": "https://pageflows.com/web/elements/tabs/"
+        },
+        {
+          "text": "       Onboa... ",
+          "href": "https://pageflows.com/ios/flows/onboarding/"
+        },
+        {
+          "text": "          Booking ",
+          "href": "https://pageflows.com/ios/flows/booking-a-hotel/"
+        },
+        {
+          "text": "        Buying ",
+          "href": "https://pageflows.com/ios/flows/purchasing-ordering/"
+        },
+        {
+          "text": "       Adding ",
+          "href": "https://pageflows.com/ios/flows/creating-adding/"
+        },
+        {
+          "text": "       Chat ",
+          "href": "https://pageflows.com/ios/flows/chat/"
+        },
+        {
+          "text": "       Onboa... ",
+          "href": "https://pageflows.com/android/flows/onboarding/"
+        },
+        {
+          "text": "          Booking ",
+          "href": "https://pageflows.com/android/flows/booking-a-room/"
+        },
+        {
+          "text": "        Buying ",
+          "href": "https://pageflows.com/android/flows/purchasing-ordering/"
+        },
+        {
+          "text": "       Adding ",
+          "href": "https://pageflows.com/android/flows/creating-adding/"
+        },
+        {
+          "text": "       Chat ",
+          "href": "https://pageflows.com/android/flows/chatting/"
+        },
+        {
+          "text": "       Onboa... ",
+          "href": "https://pageflows.com/web/flows/onboarding/"
+        },
+        {
+          "text": "          Booking ",
+          "href": "https://pageflows.com/web/flows/booking-a-flight/"
+        },
+        {
+          "text": "        Buying ",
+          "href": "https://pageflows.com/web/flows/purchasing-ordering/"
+        },
+        {
+          "text": "       Adding ",
+          "href": "https://pageflows.com/web/flows/creating-adding/"
+        },
+        {
+          "text": "       Chat ",
+          "href": "https://pageflows.com/web/flows/chat/"
+        },
+        {
+          "text": "    Calendly ",
+          "href": "https://pageflows.com/emails/product/calendly/"
+        },
+        {
+          "text": "    Eventb... ",
+          "href": "https://pageflows.com/emails/product/eventbrite/"
+        },
+        {
+          "text": "    Beehiiv ",
+          "href": "https://pageflows.com/emails/product/beehiiv/"
+        },
+        {
+          "text": "    Airtable ",
+          "href": "https://pageflows.com/emails/product/airtable/"
+        },
+        {
+          "text": "       Onboa... ",
+          "href": "https://pageflows.com/ios/flows/onboarding/"
+        },
+        {
+          "text": "          Booking ",
+          "href": "https://pageflows.com/ios/flows/booking-a-hotel/"
+        },
+        {
+          "text": "        Buying ",
+          "href": "https://pageflows.com/ios/flows/purchasing-ordering/"
+        },
+        {
+          "text": "       Adding ",
+          "href": "https://pageflows.com/ios/flows/creating-adding/"
+        },
+        {
+          "text": "       Chat ",
+          "href": "https://pageflows.com/ios/flows/chat/"
+        },
+        {
+          "text": "       Onboa... ",
+          "href": "https://pageflows.com/android/flows/onboarding/"
+        },
+        {
+          "text": "          Booking ",
+          "href": "https://pageflows.com/android/flows/booking-a-room/"
+        },
+        {
+          "text": "        Buying ",
+          "href": "https://pageflows.com/android/flows/purchasing-ordering/"
+        },
+        {
+          "text": "       Adding ",
+          "href": "https://pageflows.com/android/flows/creating-adding/"
+        },
+        {
+          "text": "       Chat ",
+          "href": "https://pageflows.com/android/flows/chatting/"
+        },
+        {
+          "text": "       Onboa... ",
+          "href": "https://pageflows.com/web/flows/onboarding/"
+        },
+        {
+          "text": "          Booking ",
+          "href": "https://pageflows.com/web/flows/booking-a-flight/"
+        },
+        {
+          "text": "        Buying ",
+          "href": "https://pageflows.com/web/flows/purchasing-ordering/"
+        },
+        {
+          "text": "       Adding ",
+          "href": "https://pageflows.com/web/flows/creating-adding/"
+        },
+        {
+          "text": "       Chat ",
+          "href": "https://pageflows.com/web/flows/chat/"
+        },
+        {
+          "text": "Upgrading Account",
+          "href": "https://pageflows.com/ios/flows/upgrading-account/"
+        },
+        {
+          "text": "Deactivating & Deleting Account",
+          "href": "https://pageflows.com/ios/flows/deactivating-deleting/"
+        },
+        {
+          "text": "Logging In",
+          "href": "https://pageflows.com/ios/flows/logging-in/"
+        },
+        {
+          "text": "Logging Out",
+          "href": "https://pageflows.com/ios/flows/logging-out/"
+        },
+        {
+          "text": "Editing Profile",
+          "href": "https://pageflows.com/ios/flows/editing-profile/"
+        },
+        {
+          "text": "Reactivating & Restoring Account",
+          "href": "https://pageflows.com/ios/flows/reactivating-restoring-account/"
+        },
+        {
+          "text": "Resetting Password",
+          "href": "https://pageflows.com/ios/flows/resetting-password/"
+        },
+        {
+          "text": "Switching Account",
+          "href": "https://pageflows.com/ios/flows/switching-account/"
+        },
+        {
+          "text": "Verifying",
+          "href": "https://pageflows.com/ios/flows/verifying/"
+        },
+        {
+          "text": "Upgrading Account",
+          "href": "https://pageflows.com/ios/flows/upgrading-account/"
+        },
+        {
+          "text": "Deactivating & Deleting Account",
+          "href": "https://pageflows.com/ios/flows/deactivating-deleting/"
+        },
+        {
+          "text": "Logging In",
+          "href": "https://pageflows.com/ios/flows/logging-in/"
+        },
+        {
+          "text": "Logging Out",
+          "href": "https://pageflows.com/ios/flows/logging-out/"
+        },
+        {
+          "text": "Editing Profile",
+          "href": "https://pageflows.com/ios/flows/editing-profile/"
+        },
+        {
+          "text": "Reactivating & Restoring Account",
+          "href": "https://pageflows.com/ios/flows/reactivating-restoring-account/"
+        },
+        {
+          "text": "Resetting Password",
+          "href": "https://pageflows.com/ios/flows/resetting-password/"
+        },
+        {
+          "text": "Switching Account",
+          "href": "https://pageflows.com/ios/flows/switching-account/"
+        },
+        {
+          "text": "Verifying",
+          "href": "https://pageflows.com/ios/flows/verifying/"
+        },
+        {
+          "text": "Upgrading Account",
+          "href": "https://pageflows.com/ios/flows/upgrading-account/"
+        },
+        {
+          "text": "Deactivating & Deleting Account",
+          "href": "https://pageflows.com/ios/flows/deactivating-deleting/"
+        },
+        {
+          "text": "Logging In",
+          "href": "https://pageflows.com/ios/flows/logging-in/"
+        },
+        {
+          "text": "Logging Out",
+          "href": "https://pageflows.com/ios/flows/logging-out/"
+        },
+        {
+          "text": "Editing Profile",
+          "href": "https://pageflows.com/ios/flows/editing-profile/"
+        },
+        {
+          "text": "Reactivating & Restoring Account",
+          "href": "https://pageflows.com/ios/flows/reactivating-restoring-account/"
+        },
+        {
+          "text": "Resetting Password",
+          "href": "https://pageflows.com/ios/flows/resetting-password/"
+        },
+        {
+          "text": "Switching Account",
+          "href": "https://pageflows.com/ios/flows/switching-account/"
+        },
+        {
+          "text": "Verifying",
+          "href": "https://pageflows.com/ios/flows/verifying/"
+        },
+        {
+          "text": "Creating & Adding",
+          "href": "https://pageflows.com/ios/flows/creating-adding/"
+        },
+        {
+          "text": "Searching & Finding",
+          "href": "https://pageflows.com/ios/flows/searching-finding/"
+        },
+        {
+          "text": "Analyzing Stats",
+          "href": "https://pageflows.com/ios/flows/analytics-stats/"
+        },
+        {
+          "text": "Importing & Exporting",
+          "href": "https://pageflows.com/ios/flows/importing-exporting/"
+        },
+        {
+          "text": "Deleting & Removing",
+          "href": "https://pageflows.com/ios/flows/deleting-removing/"
+        },
+        {
+          "text": "Filtering & Sorting",
+          "href": "https://pageflows.com/ios/flows/filtering-sorting/"
+        },
+        {
+          "text": "Saving To Collection & Favoriting",
+          "href": "https://pageflows.com/ios/flows/saving-collection-favoriting/"
+        },
+        {
+          "text": "Scanning",
+          "href": "https://pageflows.com/ios/flows/scanning/"
+        },
+        {
+          "text": "Submitting & Applying",
+          "href": "https://pageflows.com/ios/flows/submitting-applying/"
+        },
+        {
+          "text": "Listening",
+          "href": "https://pageflows.com/ios/flows/listening/"
+        },
+        {
+          "text": "Managing",
+          "href": "https://pageflows.com/ios/flows/managing/"
+        },
+        {
+          "text": "Moving",
+          "href": "https://pageflows.com/ios/flows/moving/"
+        },
+        {
+          "text": "Requesting",
+          "href": "https://pageflows.com/ios/flows/requesting/"
+        },
+        {
+          "text": "Starting & Completing",
+          "href": "https://pageflows.com/ios/flows/starting-completing/"
+        },
+        {
+          "text": "Logging & Tracking",
+          "href": "https://pageflows.com/ios/flows/logging-tracking/"
+        },
+        {
+          "text": "Settings & Customizing",
+          "href": "https://pageflows.com/ios/flows/settings-customizing/"
+        },
+        {
+          "text": "Archiving",
+          "href": "https://pageflows.com/ios/flows/archiving/"
+        },
+        {
+          "text": "Watching Video",
+          "href": "https://pageflows.com/ios/flows/watching-video/"
+        },
+        {
+          "text": "Selecting & Choosing",
+          "href": "https://pageflows.com/ios/flows/selecting-choosing/"
+        },
+        {
+          "text": "Editing & Updating",
+          "href": "https://pageflows.com/ios/flows/editing-updating/"
+        },
+        {
+          "text": "Uploading & Downloading",
+          "href": "https://pageflows.com/ios/flows/uploading-downloading/"
+        },
+        {
+          "text": "Copying & Duplicating",
+          "href": "https://pageflows.com/ios/flows/copying-duplicating/"
+        },
+        {
+          "text": "Recording",
+          "href": "https://pageflows.com/ios/flows/recording/"
+        },
+        {
+          "text": "Pinning",
+          "href": "https://pageflows.com/ios/flows/pinning/"
+        },
+        {
+          "text": "Creating & Adding",
+          "href": "https://pageflows.com/ios/flows/creating-adding/"
+        },
+        {
+          "text": "Searching & Finding",
+          "href": "https://pageflows.com/ios/flows/searching-finding/"
+        },
+        {
+          "text": "Analyzing Stats",
+          "href": "https://pageflows.com/ios/flows/analytics-stats/"
+        },
+        {
+          "text": "Importing & Exporting",
+          "href": "https://pageflows.com/ios/flows/importing-exporting/"
+        },
+        {
+          "text": "Deleting & Removing",
+          "href": "https://pageflows.com/ios/flows/deleting-removing/"
+        },
+        {
+          "text": "Filtering & Sorting",
+          "href": "https://pageflows.com/ios/flows/filtering-sorting/"
+        },
+        {
+          "text": "Saving To Collection & Favoriting",
+          "href": "https://pageflows.com/ios/flows/saving-collection-favoriting/"
+        },
+        {
+          "text": "Scanning",
+          "href": "https://pageflows.com/ios/flows/scanning/"
+        },
+        {
+          "text": "Submitting & Applying",
+          "href": "https://pageflows.com/ios/flows/submitting-applying/"
+        },
+        {
+          "text": "Listening",
+          "href": "https://pageflows.com/ios/flows/listening/"
+        },
+        {
+          "text": "Managing",
+          "href": "https://pageflows.com/ios/flows/managing/"
+        },
+        {
+          "text": "Moving",
+          "href": "https://pageflows.com/ios/flows/moving/"
+        },
+        {
+          "text": "Requesting",
+          "href": "https://pageflows.com/ios/flows/requesting/"
+        },
+        {
+          "text": "Starting & Completing",
+          "href": "https://pageflows.com/ios/flows/starting-completing/"
+        },
+        {
+          "text": "Logging & Tracking",
+          "href": "https://pageflows.com/ios/flows/logging-tracking/"
+        },
+        {
+          "text": "Settings & Customizing",
+          "href": "https://pageflows.com/ios/flows/settings-customizing/"
+        },
+        {
+          "text": "Archiving",
+          "href": "https://pageflows.com/ios/flows/archiving/"
+        },
+        {
+          "text": "Watching Video",
+          "href": "https://pageflows.com/ios/flows/watching-video/"
+        },
+        {
+          "text": "Selecting & Choosing",
+          "href": "https://pageflows.com/ios/flows/selecting-choosing/"
+        },
+        {
+          "text": "Editing & Updating",
+          "href": "https://pageflows.com/ios/flows/editing-updating/"
+        },
+        {
+          "text": "Uploading & Downloading",
+          "href": "https://pageflows.com/ios/flows/uploading-downloading/"
+        },
+        {
+          "text": "Copying & Duplicating",
+          "href": "https://pageflows.com/ios/flows/copying-duplicating/"
+        },
+        {
+          "text": "Recording",
+          "href": "https://pageflows.com/ios/flows/recording/"
+        },
+        {
+          "text": "Pinning",
+          "href": "https://pageflows.com/ios/flows/pinning/"
+        },
+        {
+          "text": "Creating & Adding",
+          "href": "https://pageflows.com/ios/flows/creating-adding/"
+        },
+        {
+          "text": "Searching & Finding",
+          "href": "https://pageflows.com/ios/flows/searching-finding/"
+        },
+        {
+          "text": "Analyzing Stats",
+          "href": "https://pageflows.com/ios/flows/analytics-stats/"
+        },
+        {
+          "text": "Importing & Exporting",
+          "href": "https://pageflows.com/ios/flows/importing-exporting/"
+        },
+        {
+          "text": "Deleting & Removing",
+          "href": "https://pageflows.com/ios/flows/deleting-removing/"
+        },
+        {
+          "text": "Filtering & Sorting",
+          "href": "https://pageflows.com/ios/flows/filtering-sorting/"
+        },
+        {
+          "text": "Saving To Collection & Favoriting",
+          "href": "https://pageflows.com/ios/flows/saving-collection-favoriting/"
+        },
+        {
+          "text": "Scanning",
+          "href": "https://pageflows.com/ios/flows/scanning/"
+        },
+        {
+          "text": "Submitting & Applying",
+          "href": "https://pageflows.com/ios/flows/submitting-applying/"
+        },
+        {
+          "text": "Listening",
+          "href": "https://pageflows.com/ios/flows/listening/"
+        },
+        {
+          "text": "Managing",
+          "href": "https://pageflows.com/ios/flows/managing/"
+        },
+        {
+          "text": "Moving",
+          "href": "https://pageflows.com/ios/flows/moving/"
+        },
+        {
+          "text": "Requesting",
+          "href": "https://pageflows.com/ios/flows/requesting/"
+        },
+        {
+          "text": "Starting & Completing",
+          "href": "https://pageflows.com/ios/flows/starting-completing/"
+        },
+        {
+          "text": "Logging & Tracking",
+          "href": "https://pageflows.com/ios/flows/logging-tracking/"
+        },
+        {
+          "text": "Settings & Customizing",
+          "href": "https://pageflows.com/ios/flows/settings-customizing/"
+        },
+        {
+          "text": "Archiving",
+          "href": "https://pageflows.com/ios/flows/archiving/"
+        },
+        {
+          "text": "Watching Video",
+          "href": "https://pageflows.com/ios/flows/watching-video/"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--tw-ring-offset-shadow": "0 0 #0000",
+        "--tw-contrast": "",
+        "--tw-backdrop-sepia": "",
+        "--tw-ring-shadow": "0 0 #0000",
+        "--tw-sepia": "",
+        "--tw-skew-x": "0",
+        "--tw-ordinal": "",
+        "--tw-backdrop-saturate": "",
+        "--tw-backdrop-blur": "",
+        "--tw-shadow": "0 0 #0000",
+        "--tw-translate-x": "0",
+        "--tw-ring-inset": "",
+        "--tw-ring-offset-width": "0px",
+        "--tw-backdrop-invert": "",
+        "--tw-saturate": "",
+        "--tw-scroll-snap-strictness": "proximity",
+        "--tw-numeric-spacing": "",
+        "--tw-grayscale": "",
+        "--tw-scale-x": "1",
+        "--tw-border-spacing-x": "0",
+        "--tw-backdrop-hue-rotate": "",
+        "--tw-shadow-colored": "0 0 #0000",
+        "--tw-border-spacing-y": "0",
+        "--tw-brightness": "",
+        "--tw-numeric-fraction": "",
+        "--tw-backdrop-grayscale": "",
+        "--tw-hue-rotate": "",
+        "--tw-scale-y": "1",
+        "--tw-pan-y": "",
+        "--tw-backdrop-contrast": "",
+        "--tw-drop-shadow": "",
+        "--tw-skew-y": "0",
+        "--tw-ring-color": "rgb(68 142 227 / 0.5)",
+        "--tw-backdrop-brightness": "",
+        "--tw-slashed-zero": "",
+        "--tw-blur": "",
+        "--tw-invert": "",
+        "--tw-pan-x": "",
+        "--tw-translate-y": "0",
+        "--tw-backdrop-opacity": "",
+        "--tw-numeric-figure": "",
+        "--tw-rotate": "0",
+        "--tw-pinch-zoom": "",
+        "--tw-ring-offset-color": "#fff"
+      }
+    }
+  },
+  "scope": "public source reference; not a locally reconstructed component",
+  "http_status": 200,
+  "page_errors": [
+    "Identifier 'searchBar' has already been declared",
+    "Unexpected end of input",
+    "Cannot read properties of null (reading 'querySelector')",
+    "Unexpected token '%'",
+    "Unexpected token '%'",
+    "Unexpected token '{'",
+    "Unexpected token '%'",
+    "Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://d2yyd1h5u9mauk.cloudfront.net https://www.g",
+    "Cannot read properties of null (reading 'addEventListener')",
+    "Cannot read properties of null (reading 'addEventListener')",
+    "Cannot read properties of null (reading 'addEventListener')",
+    "Cannot read properties of null (reading 'addEventListener')",
+    "Cannot read properties of undefined (reading 'style')",
+    "Cannot read properties of null (reading 'style')",
+    "Cannot read properties of null (reading 'classList')",
+    "Cannot read properties of null (reading 'addEventListener')",
+    "Cannot read properties of null (reading 'addEventListener')",
+    "Cannot read properties of null (reading 'addEventListener')",
+    "$(...).masonry is not a function",
+    "Cannot read properties of null (reading 'addEventListener')"
+  ]
+}

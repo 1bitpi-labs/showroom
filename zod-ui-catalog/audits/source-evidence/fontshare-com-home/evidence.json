@@ -1,0 +1,256 @@
+{
+  "site": "fontshare.com",
+  "url": "https://fontshare.com",
+  "captured_at": "2026-11-12T21:10:26.046051+00:00",
+  "views": {
+    "desktop": {
+      "url": "https://fontshare.com/",
+      "title": "Fontshare: Quality Fonts. Free.",
+      "text": "Fonts\n100\nPairs\n59\nLicenses\nNo styles selected\nCategories\nSans\nSerif\nSlab\nDisplay\nHandwritten\nScript\nProperties\nNo. of Styles\n1\n20+\nWeight\n50\n1000\nWidth\nContrast\nEdges\nx-Height\nPersonality\nInformal\nModern\nCorporate\nClassic\nElegant\nDramatic\nClean\nFuturistic\nSerious\nDirty\nLuxurious\nFriendly\nAbstract\n120px\n8px\n12px\n14px\n20px\n24px\n32px\n40px\n50px\n64px\n96px\n120px\n184px\n280px\nCities\nExcerpts\nNames\nReset All\n100\nList view\nGrid view\nTop 20\nHot 20\nVariable\nSort by\nNew\nPopular\nHot\nAlphabetical\nFontshare Originals\nShortlisted\nSatoshi\nVariable\nStatic\nLight\nLight Italic\nRegular\nItalic\nMedium\nMedium Italic\nBold\nBold Italic\nBlack\nBlack Italic\nVariable\nVariable\nVariable Italic\nWeight\nSize\n10 stylesVariable\nClosed Source\nDesigned by Indian Type Foundry\nClick on text to edit\nView Family\nSatoshi\nClash Display\nVariable\nStatic\nExtralight\nLight\nRegular\nMedium\nSemibold\nBold\nVariable\nVariable\nWeight\nSize\n6 stylesVariable\nClosed Source\nDesigned by Indian Type Foundry\nClick on text to edit\nView Family\nClash Display\nGeneral Sans\nVariable\nStatic\nExtralight\nExtralight Italic\nLight\nLight Italic\nRegular\nItalic\nMedium\nMedium Italic\nSemibold\nSemibold Italic\nBold\nBold Italic\nVariable\nVariable\nVariable Italic\nWeight\nSize\n12 stylesVariable\nClosed Source\nDesigned by Indian Type Foundry\nClick on text to edit\nView Family\nGeneral Sans\nCopyright © 2021 — 2026 Indian Type Foundry. All rights reserved.",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "horizontal_overflow": false,
+      "headings": [],
+      "components": [
+        {
+          "tag": "HEADER",
+          "role": null,
+          "text": "Fonts\n100\nPairs\n59\nLicenses\nNo styles selected",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 160
+          },
+          "styles": {
+            "display": "grid",
+            "position": "relative",
+            "fontFamily": "Passenger-Sans, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "19px",
+            "color": "rgb(16, 16, 14)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px 40px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "170px 170px 170px 170px 170px 170px 170px 170px"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "Fonts\n100",
+          "href": "https://fontshare.com/"
+        },
+        {
+          "text": "Pairs\n59",
+          "href": "https://fontshare.com/pairs"
+        },
+        {
+          "text": "Licenses",
+          "href": "https://fontshare.com/licenses/itf-ffl"
+        },
+        {
+          "text": "",
+          "href": "https://fontshare.com/fonts/satoshi"
+        },
+        {
+          "text": "",
+          "href": "https://fontshare.com/fonts/clash-display"
+        },
+        {
+          "text": "",
+          "href": "https://fontshare.com/fonts/general-sans"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--tw-ring-offset-color": "#fff",
+        "--tw-ring-offset-shadow": "0 0 #0000",
+        "--gray-d2-color": "#30302b",
+        "--scrollbar-primary": "#c0c0ab",
+        "--theme-b-color": "#FFFFE3",
+        "--vh": "9px",
+        "--tw-ring-shadow": "0 0 #0000",
+        "--vh100": "900",
+        "--gray-d3-color": "#191815",
+        "--white-b-color": "#FFFFE3",
+        "--vw100": "1440",
+        "--black-b-color": "#10100e",
+        "--padding": "4rem",
+        "--scrollbar-bg": "#FFFFE3",
+        "--tw-ring-color": "rgba(59, 130, 246, 0.5)",
+        "--inverted-color": "#FFFFE3",
+        "--gray-l1-color": "#e8e8cf",
+        "--gray-b-color": "#c0c0ab",
+        "--current-color": "#10100e",
+        "--tw-shadow": "0 0 #0000",
+        "--tw-ring-inset": "",
+        "--tw-ring-offset-width": "0px",
+        "--gray-l2-color": "#f8f8dd",
+        "--scrollbar-primary-hover": "#10100e",
+        "--gray-d1-color": "#606055",
+        "--scrollbar-width": "0px",
+        "--one-column": "calc((calc(14.4px * 100) - 4rem * 2) / 8)",
+        "--vw": "14.4px"
+      }
+    },
+    "mobile": {
+      "url": "https://fontshare.com/",
+      "title": "Fontshare: Quality Fonts. Free.",
+      "text": "0\n100\nNew\nPopular\nHot\nAlphabetical\nSatoshi\n12 styles Variable\nBy Indian Type Foundry\nSatoshi\nView Family\nClash Display\n7 styles Variable\nBy Indian Type Foundry\nClash Display\nView Family\nGeneral Sans\n14 styles Variable\nBy Indian Type Foundry\nGeneral Sans\nView Family\nCabinet Grotesk\n9 styles Variable\nBy Indian Type Foundry\nCabinet\nView Family\nRanade\n12 styles Variable\nBy Indian Type Foundry\nRanade\nView Family\nChillax\n7 styles Variable\nBy Indian Type Foundry\nChillax\nView Family\nClash Grotesk\n7 styles Variable\nBy Indian Type Foundry\nClash Grotesk\nView Family\nSwitzer\n20 styles Variable\nBy Indian Type Foundry\nSwitzer\nView Family\nPanchang\n8 styles Variable\nBy Indian Type Foundry\nPanchang\nView Family\nStardom\n1 style\nBy Indian Type Foundry\nStardom\nView Family\nZodiak\n14 styles Variable\nBy Indian Type Foundry\nZodiak\nView Family\nSentient\n12 styles Variable\nBy Indian Type Foundry\nSentient\nView Family\nSupreme\n16 styles Variable\nBy Indian Type Foundry\nSupreme\nView Family\nCopyright © 2021 — 2026 Indian Type Foundry. All rights reserved.",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "horizontal_overflow": false,
+      "headings": [],
+      "components": [
+        {
+          "tag": "HEADER",
+          "role": null,
+          "text": "0",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 60
+          },
+          "styles": {
+            "display": "grid",
+            "position": "sticky",
+            "fontFamily": "Passenger-Sans, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "19px",
+            "color": "rgb(16, 16, 14)",
+            "backgroundColor": "rgb(255, 255, 227)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "210px 60px 60px 60px 0px 0px 0px 0px 0px 0px 0px"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "Fonts \n    100\n  ",
+          "href": "https://fontshare.com/"
+        },
+        {
+          "text": "Pairs \n    59\n  ",
+          "href": "https://fontshare.com/pairs"
+        },
+        {
+          "text": "Licenses ",
+          "href": "https://fontshare.com/licenses/itf-ffl"
+        },
+        {
+          "text": "FAQs ",
+          "href": "https://fontshare.com/faq"
+        },
+        {
+          "text": "About ",
+          "href": "https://fontshare.com/about"
+        },
+        {
+          "text": "Fontshare",
+          "href": "https://www.fontshare.com/"
+        },
+        {
+          "text": "ITF Foundry",
+          "href": "https://www.indiantypefoundry.com/"
+        },
+        {
+          "text": "",
+          "href": "https://fontshare.com/fonts/satoshi"
+        },
+        {
+          "text": "",
+          "href": "https://fontshare.com/fonts/clash-display"
+        },
+        {
+          "text": "",
+          "href": "https://fontshare.com/fonts/general-sans"
+        },
+        {
+          "text": "",
+          "href": "https://fontshare.com/fonts/cabinet-grotesk"
+        },
+        {
+          "text": "",
+          "href": "https://fontshare.com/fonts/ranade"
+        },
+        {
+          "text": "",
+          "href": "https://fontshare.com/fonts/chillax"
+        },
+        {
+          "text": "",
+          "href": "https://fontshare.com/fonts/clash-grotesk"
+        },
+        {
+          "text": "",
+          "href": "https://fontshare.com/fonts/switzer"
+        },
+        {
+          "text": "",
+          "href": "https://fontshare.com/fonts/panchang"
+        },
+        {
+          "text": "",
+          "href": "https://fontshare.com/fonts/stardom"
+        },
+        {
+          "text": "",
+          "href": "https://fontshare.com/fonts/zodiak"
+        },
+        {
+          "text": "",
+          "href": "https://fontshare.com/fonts/sentient"
+        },
+        {
+          "text": "",
+          "href": "https://fontshare.com/fonts/supreme"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--tw-ring-offset-color": "#fff",
+        "--tw-ring-offset-shadow": "0 0 #0000",
+        "--gray-d2-color": "#30302b",
+        "--scrollbar-primary": "#c0c0ab",
+        "--theme-b-color": "#FFFFE3",
+        "--vh": "8.44px",
+        "--tw-ring-shadow": "0 0 #0000",
+        "--vh100": "844",
+        "--gray-d3-color": "#191815",
+        "--white-b-color": "#FFFFE3",
+        "--vw100": "390",
+        "--black-b-color": "#10100e",
+        "--padding": "2rem",
+        "--scrollbar-bg": "#FFFFE3",
+        "--tw-ring-color": "rgba(59, 130, 246, 0.5)",
+        "--inverted-color": "#FFFFE3",
+        "--gray-l1-color": "#e8e8cf",
+        "--gray-b-color": "#c0c0ab",
+        "--current-color": "#10100e",
+        "--tw-shadow": "0 0 #0000",
+        "--tw-ring-inset": "",
+        "--tw-ring-offset-width": "0px",
+        "--gray-l2-color": "#f8f8dd",
+        "--scrollbar-primary-hover": "#10100e",
+        "--gray-d1-color": "#606055",
+        "--scrollbar-width": "0px",
+        "--one-column": "calc((calc(3.9px * 100) - 2rem * 2) / 8)",
+        "--vw": "3.9px"
+      }
+    }
+  },
+  "scope": "public source reference; not a locally reconstructed component",
+  "http_status": 200,
+  "page_errors": []
+}

@@ -1,0 +1,2500 @@
+{
+  "site": "designdetails.io",
+  "url": "https://designdetails.io",
+  "captured_at": "2026-11-12T21:10:38.524139+00:00",
+  "views": {
+    "desktop": {
+      "url": "https://designdetails.io/",
+      "title": "Website Design Inspiration from Real Sites · Design Details",
+      "text": "Skip to content\nNew\n\nNAVIGATE\n\nInfo\nSponsorship\nPress kit\nSubmit a website\nPrivacy\nTerms\n\nSETTINGS\n\nFeedback\n© 2026 Design Details\nhello@designdetails.io\nEmail address\nWEEKLY PICKS\nSubscribe\n\nNo daily noise. Unsubscribe at any time. See the privacy policy.\n\nSubmit\nSearch\n\nCURATED WEBSITE DESIGN REFERENCES\n\nDesign Details: search, study and browse real website designs.\nDesign Details ​\nsearch\nstudy\nbrowse\n\nA curated library of websites and the details behind them: full-page captures, motion, sections, typography, and color.\n\nPartners:\nBROWSE\nAll\nAI\nCommunication\nCreative\nCRM\nDeveloper Tools\nEducation\nEnergy\nEntertainment\nFinance\nHardware\nHealth\nMarketing\nOther\nProductivity\nReal Estate\nRetail\nTravel\nSkip past the designs\nCA\nCampus\nVC\nVCASS\nSH\nShillington\nSU\nSuperHi\nFE\nFern\nPartner\nJustin Jefferson\nIru\nSymmetry AI\nAI Agent Cloud\nTraversal\n▷ Doko Studio\nPliant\nAudienceful\nPete Sena\nHyrup\nExtrafazant\nTribe AI\nOura Ring 5\nHumble\nArtie\nPartner\nVoy Design\nMoonvalley: Funding, Investors & Jobs\ncapricorn 01 Zagato\nGrida\nShow more\nWebsite design inspiration from real, live sites\n\nDesign Details is a hand-picked library of website design inspiration: real websites with full-page captures, cropped sections, and motion recordings, organised by industry and by section type.\n\nEvery site is captured from the live web at desktop and mobile sizes, broken into sections, and described with its typography, colours, platform, and components. Use it to compare how real teams solve the same design problem, then download a DESIGN.md brief to hand a reference to your team or an AI tool.\n\nWHAT THE BEST ONES GET RIGHT\nA first screen that says plainly what the product does\nReal product imagery instead of abstract illustration\nProof such as logos, results, or quotes placed before the ask\nMotion that explains the product rather than decorating the page\nBROWSE BY INDUSTRY\nAI\nCreative\nFinance\nHealth\nHardware\nOther\nRetail\nProductivity\nDeveloper Tools\nMarketing\nEducation\nCRM\nEntertainment\nTravel\nCommunication\nEnergy\nReal Estate\nPOPULAR SECTION TYPES\nFeatures sections\nHero sections\nFooter sections\nNavbar sections\nCTA sections\nTestimonials sections\nQUESTIONS DESIGNERS ASK\nWhere can I find website design inspiration?\n\nHere, from real, live websites. Browse by industry or by section type, watch scroll recordings, and open any section on its own page with the fonts and colours read from the site's code. Weekly Picks sends the best of each week by email.\n\nWhat is Design Details?\n\nA curated library of hand-picked real website designs. Every site has full-page desktop and mobile captures, cropped sections, and the facts behind the design: industry, platform, typography, colours, and components.\n\nHow often are new websites added?\n\nNew hand-picked sites are added daily. The Weekly Picks email collects the best of each week.\n\nWhat is a DESIGN.md file?\n\nA short Markdown brief for one website or section, listing its typography, colours, components, and layout notes. Designers can share it with a team, and AI coding tools can read it as a design reference.\n\nHow are websites chosen?\n\nEvery site is curated and hand-picked by an editor, and designers can suggest sites directly. Each one is reviewed before it is captured and published.",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Design Details: search, study and browse real website designs.\nDesign Details ​\nsearch\nstudy\nbrowse",
+          "bounds": {
+            "x": 112,
+            "y": 161,
+            "width": 760,
+            "height": 77.765625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "51.84px",
+            "fontWeight": "500",
+            "lineHeight": "50.8032px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Website design inspiration from real, live sites",
+          "bounds": {
+            "x": 112,
+            "y": 3710.59375,
+            "width": 1040,
+            "height": 44
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "40px",
+            "fontWeight": "500",
+            "lineHeight": "44px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "WHAT THE BEST ONES GET RIGHT",
+          "bounds": {
+            "x": 112,
+            "y": 3968.15625,
+            "width": 325.328125,
+            "height": 19.5
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "600",
+            "lineHeight": "19.5px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "BROWSE BY INDUSTRY",
+          "bounds": {
+            "x": 469.328125,
+            "y": 3968.15625,
+            "width": 325.328125,
+            "height": 19.5
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "600",
+            "lineHeight": "19.5px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "POPULAR SECTION TYPES",
+          "bounds": {
+            "x": 826.65625,
+            "y": 3968.15625,
+            "width": 325.34375,
+            "height": 19.5
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "600",
+            "lineHeight": "19.5px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "QUESTIONS DESIGNERS ASK",
+          "bounds": {
+            "x": 112,
+            "y": 4571.15625,
+            "width": 1040,
+            "height": 19.5
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "600",
+            "lineHeight": "19.5px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "New",
+          "bounds": {
+            "x": 13,
+            "y": 77,
+            "width": 54,
+            "height": 348
+          },
+          "styles": {
+            "display": "grid",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(25, 25, 23)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "4px",
+            "padding": "8px 6px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "42px"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 27,
+            "y": 771,
+            "width": 26,
+            "height": 26
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(25, 25, 23)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "999px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 27,
+            "y": 799,
+            "width": 26,
+            "height": 26
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(104, 104, 98)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "999px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 19,
+            "y": 835,
+            "width": 42,
+            "height": 44
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "18px",
+            "color": "rgb(104, 104, 98)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "10px",
+            "padding": "0px",
+            "borderRadius": "4px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": "dialog",
+          "text": "NAVIGATE\n\nInfo\nSponsorship\nPress kit\nSubmit a website\nPrivacy\nTerms\n\nSETTINGS\n\nFeedback\n© 2026 Design Details\nhello@designdetails.io",
+          "bounds": {
+            "x": 12,
+            "y": 356.44000244140625,
+            "width": 320.1000061035156,
+            "height": 531.5599975585938
+          },
+          "styles": {
+            "display": "flex",
+            "position": "fixed",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(25, 25, 23)",
+            "backgroundColor": "rgb(251, 251, 248)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "10px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "role": null,
+          "text": "Email address\nWEEKLY PICKS\nSubscribe\n\nNo daily noise. Unsubscribe at any time. See the privacy policy.\n\nSubmit\nSearch\n\nCURATED WEBSITE DESIG",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 5197.78125
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(25, 25, 23)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px 0px 0px 72px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Email address\nWEEKLY PICKS\nSubscribe\n\nNo daily noise. Unsubscribe at any time. See the privacy policy.",
+          "bounds": {
+            "x": 476,
+            "y": 13,
+            "width": 560,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "48px",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "minmax(0px, 1fr) minmax(320px, 0.8fr)"
+          }
+        },
+        {
+          "tag": "FORM",
+          "role": null,
+          "text": "Email address\nWEEKLY PICKS\nSubscribe\n\nNo daily noise. Unsubscribe at any time. See the privacy policy.",
+          "bounds": {
+            "x": 476,
+            "y": 13,
+            "width": 560,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Subscribe",
+          "bounds": {
+            "x": 946.59375,
+            "y": 17,
+            "width": 86.40625,
+            "height": 32
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "600",
+            "lineHeight": "18px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(37, 40, 34)",
+            "gap": "normal",
+            "padding": "0px 14px",
+            "borderRadius": "6px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Search",
+          "bounds": {
+            "x": 1299.421875,
+            "y": 13,
+            "width": 100.578125,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "600",
+            "lineHeight": "19.5px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "7px",
+            "padding": "0px 16px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "CURATED WEBSITE DESIGN REFERENCES\n\nDesign Details: search, study and browse real website designs.\nDesign Details ​\nsearch\nstudy\nbrowse\n\nA cu",
+          "bounds": {
+            "x": 112,
+            "y": 81,
+            "width": 1288,
+            "height": 271.640625
+          },
+          "styles": {
+            "display": "grid",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "57.6px",
+            "padding": "56px 0px 50px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "890.406px 340px"
+          }
+        },
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "All\nAI\nCommunication\nCreative\nCRM\nDeveloper Tools\nEducation\nEnergy\nEntertainment\nFinance\nHardware\nHealth\nMarketing\nOther\nProductivity\nReal E",
+          "bounds": {
+            "x": 173.75,
+            "y": 369.640625,
+            "width": 1142.25,
+            "height": 42
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "8px",
+            "padding": "0px 0px 6px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 1328,
+            "y": 371.640625,
+            "width": 34,
+            "height": 34
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "3px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 1364,
+            "y": 371.640625,
+            "width": 34,
+            "height": 34
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "3px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 154,
+            "y": 469.640625,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 591.328125,
+            "y": 469.640625,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 1028.65625,
+            "y": 469.640625,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 154,
+            "y": 815.96875,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 591.328125,
+            "y": 815.96875,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 154,
+            "y": 1162.296875,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 591.328125,
+            "y": 1162.296875,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 1028.65625,
+            "y": 1162.296875,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 154,
+            "y": 1508.625,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 591.328125,
+            "y": 1508.625,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "https://designdetails.io/#main-content"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/websites"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/sections"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/categories"
+        },
+        {
+          "text": "New",
+          "href": "https://designdetails.io/typography"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/collections"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/saved"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/newsletter"
+        },
+        {
+          "text": "Info",
+          "href": "https://designdetails.io/info"
+        },
+        {
+          "text": "Sponsorship",
+          "href": "https://designdetails.io/sponsorship"
+        },
+        {
+          "text": "Press kit",
+          "href": "https://designdetails.io/presskit"
+        },
+        {
+          "text": "Submit a website",
+          "href": "https://designdetails.io/submit"
+        },
+        {
+          "text": "Privacy",
+          "href": "https://designdetails.io/privacy"
+        },
+        {
+          "text": "Terms",
+          "href": "https://designdetails.io/terms"
+        },
+        {
+          "text": "Feedback",
+          "href": "https://designdetails.io/feedback"
+        },
+        {
+          "text": "",
+          "href": "https://www.pinterest.com/DesignDetailsIO/"
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/designdetailsio/"
+        },
+        {
+          "text": "",
+          "href": "https://www.threads.net/@designdetailsio"
+        },
+        {
+          "text": "",
+          "href": "https://x.com/DesignDetailsIO"
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/profile.php?id=61595255246370"
+        },
+        {
+          "text": "privacy policy",
+          "href": "https://designdetails.io/privacy"
+        },
+        {
+          "text": "Submit",
+          "href": "https://designdetails.io/submit"
+        },
+        {
+          "text": "",
+          "href": "https://framer.link/get-design?ref=designdetails.io"
+        },
+        {
+          "text": "",
+          "href": "https://www.practical-ui.com/?ref=designdetails.io"
+        },
+        {
+          "text": "",
+          "href": "https://craftwork.design/?ref=hello"
+        },
+        {
+          "text": "",
+          "href": "https://mobbin.com/?via=getdesign"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/sponsorship"
+        },
+        {
+          "text": "All",
+          "href": "https://designdetails.io/"
+        },
+        {
+          "text": "AI",
+          "href": "https://designdetails.io/categories/ai"
+        },
+        {
+          "text": "Communication",
+          "href": "https://designdetails.io/categories/communication"
+        },
+        {
+          "text": "Creative",
+          "href": "https://designdetails.io/categories/creative"
+        },
+        {
+          "text": "CRM",
+          "href": "https://designdetails.io/categories/crm"
+        },
+        {
+          "text": "Developer Tools",
+          "href": "https://designdetails.io/categories/developer-tools"
+        },
+        {
+          "text": "Education",
+          "href": "https://designdetails.io/categories/education"
+        },
+        {
+          "text": "Energy",
+          "href": "https://designdetails.io/categories/energy"
+        },
+        {
+          "text": "Entertainment",
+          "href": "https://designdetails.io/categories/entertainment"
+        },
+        {
+          "text": "Finance",
+          "href": "https://designdetails.io/categories/finance"
+        },
+        {
+          "text": "Hardware",
+          "href": "https://designdetails.io/categories/hardware"
+        },
+        {
+          "text": "Health",
+          "href": "https://designdetails.io/categories/health"
+        },
+        {
+          "text": "Marketing",
+          "href": "https://designdetails.io/categories/marketing"
+        },
+        {
+          "text": "Other",
+          "href": "https://designdetails.io/categories/other"
+        },
+        {
+          "text": "Productivity",
+          "href": "https://designdetails.io/categories/productivity"
+        },
+        {
+          "text": "Real Estate",
+          "href": "https://designdetails.io/categories/real-estate"
+        },
+        {
+          "text": "Retail",
+          "href": "https://designdetails.io/categories/retail"
+        },
+        {
+          "text": "Travel",
+          "href": "https://designdetails.io/categories/travel"
+        },
+        {
+          "text": "Skip past the designs",
+          "href": "https://designdetails.io/#after-designs"
+        },
+        {
+          "text": "CA\nCampus",
+          "href": "https://designdetails.io/websites/campus-edu"
+        },
+        {
+          "text": "VC\nVCASS",
+          "href": "https://designdetails.io/websites/vcass-vic-edu-au"
+        },
+        {
+          "text": "SH\nShillington",
+          "href": "https://designdetails.io/websites/shillingtoneducation-com"
+        },
+        {
+          "text": "SU\nSuperHi",
+          "href": "https://designdetails.io/websites/superhi-com"
+        },
+        {
+          "text": "FE\nFern",
+          "href": "https://designdetails.io/websites/buildwithfern-com"
+        },
+        {
+          "text": "",
+          "href": "https://www.practical-ui.com/?ref=designdetails.io"
+        },
+        {
+          "text": "Justin Jefferson",
+          "href": "https://designdetails.io/websites/jjettas-com"
+        },
+        {
+          "text": "Iru",
+          "href": "https://designdetails.io/websites/iru-com"
+        },
+        {
+          "text": "Symmetry AI",
+          "href": "https://designdetails.io/websites/getsymmetry-com"
+        },
+        {
+          "text": "AI Agent Cloud",
+          "href": "https://designdetails.io/websites/e2b-dev"
+        },
+        {
+          "text": "Traversal",
+          "href": "https://designdetails.io/websites/traversal-com"
+        },
+        {
+          "text": "▷ Doko Studio",
+          "href": "https://designdetails.io/websites/doko-studio"
+        },
+        {
+          "text": "Pliant",
+          "href": "https://designdetails.io/websites/getpliant-com"
+        },
+        {
+          "text": "Audienceful",
+          "href": "https://designdetails.io/websites/audienceful-com"
+        },
+        {
+          "text": "Pete Sena",
+          "href": "https://designdetails.io/websites/petesena-com"
+        },
+        {
+          "text": "Hyrup",
+          "href": "https://designdetails.io/websites/hyrup-de"
+        },
+        {
+          "text": "",
+          "href": "https://framer.link/get-design?ref=designdetails.io"
+        },
+        {
+          "text": "Extrafazant",
+          "href": "https://designdetails.io/websites/extrafazant-nl"
+        },
+        {
+          "text": "Tribe AI",
+          "href": "https://designdetails.io/websites/tribe-ai"
+        },
+        {
+          "text": "Oura Ring 5",
+          "href": "https://designdetails.io/websites/ouraring-com"
+        },
+        {
+          "text": "Humble",
+          "href": "https://designdetails.io/websites/humblerobotics-ai"
+        },
+        {
+          "text": "Artie",
+          "href": "https://designdetails.io/websites/artie-com"
+        },
+        {
+          "text": "",
+          "href": "https://mobbin.com/?via=getdesign"
+        },
+        {
+          "text": "Voy Design",
+          "href": "https://designdetails.io/websites/design-joinvoy-com"
+        },
+        {
+          "text": "Moonvalley: Funding, Investors & Jobs",
+          "href": "https://designdetails.io/websites/moonvalley-com"
+        },
+        {
+          "text": "",
+          "href": "https://framer.link/get-design?ref=designdetails.io"
+        },
+        {
+          "text": "capricorn 01 Zagato",
+          "href": "https://designdetails.io/websites/car-capricorngroup-net"
+        },
+        {
+          "text": "Grida",
+          "href": "https://designdetails.io/websites/grida-co"
+        },
+        {
+          "text": "AI",
+          "href": "https://designdetails.io/categories/ai"
+        },
+        {
+          "text": "Creative",
+          "href": "https://designdetails.io/categories/creative"
+        },
+        {
+          "text": "Finance",
+          "href": "https://designdetails.io/categories/finance"
+        },
+        {
+          "text": "Health",
+          "href": "https://designdetails.io/categories/health"
+        },
+        {
+          "text": "Hardware",
+          "href": "https://designdetails.io/categories/hardware"
+        },
+        {
+          "text": "Other",
+          "href": "https://designdetails.io/categories/other"
+        },
+        {
+          "text": "Retail",
+          "href": "https://designdetails.io/categories/retail"
+        },
+        {
+          "text": "Productivity",
+          "href": "https://designdetails.io/categories/productivity"
+        },
+        {
+          "text": "Developer Tools",
+          "href": "https://designdetails.io/categories/developer-tools"
+        },
+        {
+          "text": "Marketing",
+          "href": "https://designdetails.io/categories/marketing"
+        },
+        {
+          "text": "Education",
+          "href": "https://designdetails.io/categories/education"
+        },
+        {
+          "text": "CRM",
+          "href": "https://designdetails.io/categories/crm"
+        },
+        {
+          "text": "Entertainment",
+          "href": "https://designdetails.io/categories/entertainment"
+        },
+        {
+          "text": "Travel",
+          "href": "https://designdetails.io/categories/travel"
+        },
+        {
+          "text": "Communication",
+          "href": "https://designdetails.io/categories/communication"
+        },
+        {
+          "text": "Energy",
+          "href": "https://designdetails.io/categories/energy"
+        },
+        {
+          "text": "Real Estate",
+          "href": "https://designdetails.io/categories/real-estate"
+        },
+        {
+          "text": "Features sections",
+          "href": "https://designdetails.io/section-types/features"
+        },
+        {
+          "text": "Hero sections",
+          "href": "https://designdetails.io/section-types/hero"
+        },
+        {
+          "text": "Footer sections",
+          "href": "https://designdetails.io/section-types/footer"
+        },
+        {
+          "text": "Navbar sections",
+          "href": "https://designdetails.io/section-types/navbar"
+        },
+        {
+          "text": "CTA sections",
+          "href": "https://designdetails.io/section-types/cta"
+        },
+        {
+          "text": "Testimonials sections",
+          "href": "https://designdetails.io/section-types/testimonials"
+        },
+        {
+          "text": "privacy policy",
+          "href": "https://designdetails.io/privacy"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--ease-in-out": "cubic-bezier(.4, 0, .2, 1)",
+        "--border": "#deded7",
+        "--tw-ring-offset-shadow": "0 0 #0000",
+        "--font-editorial": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "--tw-inset-shadow-alpha": "100%",
+        "--page-slide-distance": "8px",
+        "--tw-ring-shadow": "0 0 #0000",
+        "--page-muted": "#666b60",
+        "--dropdown-open-dur": ".25s",
+        "--page-fade-ease": "cubic-bezier(.22, 1, .36, 1)",
+        "--page-hero-padding-bottom": "50px",
+        "--aspect-video": "16 / 9",
+        "--field-surface": "#fff",
+        "--button-surface": "#252822",
+        "--leading-relaxed": "1.625",
+        "--field-placeholder": "#6b7066",
+        "--popover-shadow": "0 18px 48px #191e142e",
+        "--control-muted": "#f7f8f3",
+        "--accent": "#e4ec96",
+        "--tw-drop-shadow-alpha": "100%",
+        "--page-secondary": "#5f665c",
+        "--surface-muted": "#eaeae7",
+        "--default-transition-timing-function": "cubic-bezier(.4, 0, .2, 1)",
+        "--page-canvas": "#edf0ec",
+        "--resize-dur": ".3s",
+        "--tw-outline-style": "solid",
+        "--resize-ease": "cubic-bezier(.22, 1, .36, 1)",
+        "--control-surface": "#fff",
+        "--page-hero-padding-top": "100px",
+        "--tw-inset-ring-shadow": "0 0 #0000",
+        "--spacing": ".25rem",
+        "--background": "#fff",
+        "--lightningcss-dark": "",
+        "--tw-translate-z": "0",
+        "--button-foreground": "#fff",
+        "--page-slide-ease": "cubic-bezier(.22, 1, .36, 1)",
+        "--muted": "#686862",
+        "--tw-scale-y": "1",
+        "--sidebar-active-ink": "#20231e",
+        "--font-mono": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+        "--text-xl--line-height": "calc(1.75 / 1.25)",
+        "--font-weight-semibold": "600",
+        "--field-foreground": "#20231e",
+        "--text-sm": ".875rem",
+        "--tw-translate-y": "0",
+        "--page-blur": "3px",
+        "--ring": "#444d3d",
+        "--tw-inset-shadow": "0 0 #0000",
+        "--tw-ring-offset-color": "#fff",
+        "--sidebar-canvas": "#fff",
+        "--color-white": "#fff",
+        "--dropdown-pre-scale": ".97",
+        "--page-exit-enabled": "1",
+        "--tw-shadow-alpha": "100%",
+        "--thumbnail-mat": "clamp(16px, 1.5vw, 24px)",
+        "--sidebar-active": "#e8eae7",
+        "--page-foreground": "#20231e",
+        "--leading-tight": "1.25",
+        "--dropdown-closing-scale": ".99",
+        "--lightningcss-light": "",
+        "--sidebar-hover": "#f1f2f0",
+        "--font-sans": "\"DM Sans\", \"DM Sans Fallback\"",
+        "--tw-divide-y-reverse": "0",
+        "--tw-border-style": "solid",
+        "--tw-scale-z": "1",
+        "--radius": "2px",
+        "--dropdown-close-dur": ".15s",
+        "--blur-2xl": "40px",
+        "--color-background": "#fff",
+        "--page-fade-dur": ".2s",
+        "--container-2xl": "42rem",
+        "--tw-shadow": "0 0 #0000",
+        "--text-sm--line-height": "calc(1.25 / .875)",
+        "--tw-translate-x": "0",
+        "--tw-ring-offset-width": "0px",
+        "--container-sm": "24rem",
+        "--text-xs": ".75rem",
+        "--color-black": "#000",
+        "--default-font-family": "\"DM Sans\", \"DM Sans Fallback\"",
+        "--page-slide-dur": ".2s"
+      }
+    },
+    "mobile": {
+      "url": "https://designdetails.io/",
+      "title": "Website Design Inspiration from Real Sites · Design Details",
+      "text": "Skip to content\nNew\n\nNAVIGATE\n\nInfo\nSponsorship\nPress kit\nSubmit a website\nPrivacy\nTerms\n\nSETTINGS\n\nFeedback\nTheme\n© 2026 Design Details\nhello@designdetails.io\nEmail address\nSubscribe\n\nNo daily noise. Unsubscribe at any time. See the privacy policy.\n\nSubmit\n\nCURATED WEBSITE DESIGN REFERENCES\n\nDesign Details: search, study and browse real website designs.\nDesign Details ​\nsearch\nstudy\nbrowse\n\nA curated library of websites and the details behind them: full-page captures, motion, sections, typography, and color.\n\nPartners:\nBrowse filters\nSkip past the designs\nCA\nCampus\nVC\nVCASS\nSH\nShillington\nSU\nSuperHi\nFE\nFern\nPartner\nJustin Jefferson\nIru\nSymmetry AI\nAI Agent Cloud\nTraversal\n▷ Doko Studio\nPliant\nAudienceful\nPete Sena\nHyrup\nExtrafazant\nTribe AI\nOura Ring 5\nHumble\nArtie\nPartner\nVoy Design\nMoonvalley: Funding, Investors & Jobs\ncapricorn 01 Zagato\nGrida\nShow more\nWebsite design inspiration from real, live sites\n\nDesign Details is a hand-picked library of website design inspiration: real websites with full-page captures, cropped sections, and motion recordings, organised by industry and by section type.\n\nEvery site is captured from the live web at desktop and mobile sizes, broken into sections, and described with its typography, colours, platform, and components. Use it to compare how real teams solve the same design problem, then download a DESIGN.md brief to hand a reference to your team or an AI tool.\n\nWHAT THE BEST ONES GET RIGHT\nA first screen that says plainly what the product does\nReal product imagery instead of abstract illustration\nProof such as logos, results, or quotes placed before the ask\nMotion that explains the product rather than decorating the page\nBROWSE BY INDUSTRY\nAI\nCreative\nFinance\nHealth\nHardware\nOther\nRetail\nProductivity\nDeveloper Tools\nMarketing\nEducation\nCRM\nEntertainment\nTravel\nCommunication\nEnergy\nReal Estate\nPOPULAR SECTION TYPES\nFeatures sections\nHero sections\nFooter sections\nNavbar sections\nCTA sections\nTestimonials sections\nQUESTIONS DESIGNERS ASK\nWhere can I find website design inspiration?\n\nHere, from real, live websites. Browse by industry or by section type, watch scroll recordings, and open any section on its own page with the fonts and colours read from the site's code. Weekly Picks sends the best of each week by email.\n\nWhat is Design Details?\n\nA curated library of hand-picked real website designs. Every site has full-page desktop and mobile captures, cropped sections, and the facts behind the design: industry, platform, typography, colours, and components.\n\nHow often are new websites added?\n\nNew hand-picked sites are added daily. The Weekly Picks email collects the best of each week.\n\nWhat is a DESIGN.md file?\n\nA short Markdown brief for one website or section, listing its typography, colours, components, and layout notes. Designers can share it with a team, and AI coding tools can read it as a design reference.\n\nHow are websites chosen?\n\nEvery site is curated and hand-picked by an editor, and designers can suggest sites directly. Each one is reviewed before it is captured and published.",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Design Details: search, study and browse real website designs.\nDesign Details ​\nsearch\nstudy\nbrowse",
+          "bounds": {
+            "x": 16,
+            "y": 185.796875,
+            "width": 358,
+            "height": 45.65625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "500",
+            "lineHeight": "32.64px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Website design inspiration from real, live sites",
+          "bounds": {
+            "x": 16,
+            "y": 7573.140625,
+            "width": 358,
+            "height": 61.59375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "500",
+            "lineHeight": "30.8px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "WHAT THE BEST ONES GET RIGHT",
+          "bounds": {
+            "x": 16,
+            "y": 8001.859375,
+            "width": 358,
+            "height": 19.5
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "600",
+            "lineHeight": "19.5px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "BROWSE BY INDUSTRY",
+          "bounds": {
+            "x": 16,
+            "y": 8261.359375,
+            "width": 358,
+            "height": 19.5
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "600",
+            "lineHeight": "19.5px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "POPULAR SECTION TYPES",
+          "bounds": {
+            "x": 16,
+            "y": 8827.359375,
+            "width": 358,
+            "height": 19.5
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "600",
+            "lineHeight": "19.5px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "QUESTIONS DESIGNERS ASK",
+          "bounds": {
+            "x": 16,
+            "y": 9094.859375,
+            "width": 358,
+            "height": 19.5
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "600",
+            "lineHeight": "19.5px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "New",
+          "bounds": {
+            "x": 63,
+            "y": 9,
+            "width": 263,
+            "height": 44
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(25, 25, 23)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "2px",
+            "padding": "0px 4px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 331,
+            "y": 9,
+            "width": 44,
+            "height": 44
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "18px",
+            "color": "rgb(104, 104, 98)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "10px",
+            "padding": "0px",
+            "borderRadius": "4px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": "dialog",
+          "text": "NAVIGATE\n\nInfo\nSponsorship\nPress kit\nSubmit a website\nPrivacy\nTerms\n\nSETTINGS\n\nFeedback\nTheme\n© 2026 Design Details\nhello@designdetails.io",
+          "bounds": {
+            "x": 12,
+            "y": 255.82000732421875,
+            "width": 320.1000061035156,
+            "height": 576.1799926757812
+          },
+          "styles": {
+            "display": "flex",
+            "position": "fixed",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(25, 25, 23)",
+            "backgroundColor": "rgb(251, 251, 248)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "10px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 257.4100036621094,
+            "y": 652.550048828125,
+            "width": 25.220001220703125,
+            "height": 25.219970703125
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(25, 25, 23)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "999px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 284.57000732421875,
+            "y": 652.550048828125,
+            "width": 25.220001220703125,
+            "height": 25.219970703125
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(104, 104, 98)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "999px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "role": null,
+          "text": "Email address\nSubscribe\n\nNo daily noise. Unsubscribe at any time. See the privacy policy.\n\nSubmit\n\nCURATED WEBSITE DESIGN REFERENCES\n\nDesign",
+          "bounds": {
+            "x": 0,
+            "y": 62,
+            "width": 390,
+            "height": 9941.015625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(25, 25, 23)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Email address\nSubscribe\n\nNo daily noise. Unsubscribe at any time. See the privacy policy.",
+          "bounds": {
+            "x": 16,
+            "y": 62,
+            "width": 232.5,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "26px",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "1fr"
+          }
+        },
+        {
+          "tag": "FORM",
+          "role": null,
+          "text": "Email address\nSubscribe\n\nNo daily noise. Unsubscribe at any time. See the privacy policy.",
+          "bounds": {
+            "x": 16,
+            "y": 62,
+            "width": 232.5,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Subscribe",
+          "bounds": {
+            "x": 183,
+            "y": 66,
+            "width": 62.5,
+            "height": 32
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "600",
+            "lineHeight": "18px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(37, 40, 34)",
+            "gap": "normal",
+            "padding": "0px 10px",
+            "borderRadius": "6px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 332,
+            "y": 62,
+            "width": 42,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "600",
+            "lineHeight": "18px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "7px",
+            "padding": "0px 12px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "CURATED WEBSITE DESIGN REFERENCES\n\nDesign Details: search, study and browse real website designs.\nDesign Details ​\nsearch\nstudy\nbrowse\n\nA cu",
+          "bounds": {
+            "x": 16,
+            "y": 122,
+            "width": 358,
+            "height": 295.640625
+          },
+          "styles": {
+            "display": "grid",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "22px",
+            "padding": "32px 0px 28px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "358px"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "Browse filters",
+          "bounds": {
+            "x": 16,
+            "y": 350.640625,
+            "width": 112.546875,
+            "height": 38
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "11px",
+            "fontWeight": "400",
+            "lineHeight": "16.5px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgb(245, 246, 241)",
+            "gap": "6px",
+            "padding": "0px 10px",
+            "borderRadius": "5px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 42,
+            "y": 441.640625,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 42,
+            "y": 711.390625,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 42,
+            "y": 981.140625,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 42,
+            "y": 1250.890625,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 42,
+            "y": 1520.640625,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 42,
+            "y": 2060.140625,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 42,
+            "y": 2329.890625,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 42,
+            "y": 2599.640625,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 42,
+            "y": 2869.390625,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 42,
+            "y": 3139.140625,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 42,
+            "y": 3408.890625,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 42,
+            "y": 3678.640625,
+            "width": 30,
+            "height": 30
+          },
+          "styles": {
+            "display": "flex",
+            "position": "absolute",
+            "fontFamily": "\"DM Sans\", \"DM Sans Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(32, 35, 30)",
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "gap": "6px",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "https://designdetails.io/#main-content"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/websites"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/sections"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/categories"
+        },
+        {
+          "text": "New",
+          "href": "https://designdetails.io/typography"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/collections"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/saved"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/newsletter"
+        },
+        {
+          "text": "Info",
+          "href": "https://designdetails.io/info"
+        },
+        {
+          "text": "Sponsorship",
+          "href": "https://designdetails.io/sponsorship"
+        },
+        {
+          "text": "Press kit",
+          "href": "https://designdetails.io/presskit"
+        },
+        {
+          "text": "Submit a website",
+          "href": "https://designdetails.io/submit"
+        },
+        {
+          "text": "Privacy",
+          "href": "https://designdetails.io/privacy"
+        },
+        {
+          "text": "Terms",
+          "href": "https://designdetails.io/terms"
+        },
+        {
+          "text": "Feedback",
+          "href": "https://designdetails.io/feedback"
+        },
+        {
+          "text": "",
+          "href": "https://www.pinterest.com/DesignDetailsIO/"
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/designdetailsio/"
+        },
+        {
+          "text": "",
+          "href": "https://www.threads.net/@designdetailsio"
+        },
+        {
+          "text": "",
+          "href": "https://x.com/DesignDetailsIO"
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/profile.php?id=61595255246370"
+        },
+        {
+          "text": "privacy policy",
+          "href": "https://designdetails.io/privacy"
+        },
+        {
+          "text": "Submit",
+          "href": "https://designdetails.io/submit"
+        },
+        {
+          "text": "",
+          "href": "https://framer.link/get-design?ref=designdetails.io"
+        },
+        {
+          "text": "",
+          "href": "https://www.practical-ui.com/?ref=designdetails.io"
+        },
+        {
+          "text": "",
+          "href": "https://craftwork.design/?ref=hello"
+        },
+        {
+          "text": "",
+          "href": "https://mobbin.com/?via=getdesign"
+        },
+        {
+          "text": "",
+          "href": "https://designdetails.io/sponsorship"
+        },
+        {
+          "text": "All",
+          "href": "https://designdetails.io/"
+        },
+        {
+          "text": "AI",
+          "href": "https://designdetails.io/categories/ai"
+        },
+        {
+          "text": "Communication",
+          "href": "https://designdetails.io/categories/communication"
+        },
+        {
+          "text": "Creative",
+          "href": "https://designdetails.io/categories/creative"
+        },
+        {
+          "text": "CRM",
+          "href": "https://designdetails.io/categories/crm"
+        },
+        {
+          "text": "Developer Tools",
+          "href": "https://designdetails.io/categories/developer-tools"
+        },
+        {
+          "text": "Education",
+          "href": "https://designdetails.io/categories/education"
+        },
+        {
+          "text": "Energy",
+          "href": "https://designdetails.io/categories/energy"
+        },
+        {
+          "text": "Entertainment",
+          "href": "https://designdetails.io/categories/entertainment"
+        },
+        {
+          "text": "Finance",
+          "href": "https://designdetails.io/categories/finance"
+        },
+        {
+          "text": "Hardware",
+          "href": "https://designdetails.io/categories/hardware"
+        },
+        {
+          "text": "Health",
+          "href": "https://designdetails.io/categories/health"
+        },
+        {
+          "text": "Marketing",
+          "href": "https://designdetails.io/categories/marketing"
+        },
+        {
+          "text": "Other",
+          "href": "https://designdetails.io/categories/other"
+        },
+        {
+          "text": "Productivity",
+          "href": "https://designdetails.io/categories/productivity"
+        },
+        {
+          "text": "Real Estate",
+          "href": "https://designdetails.io/categories/real-estate"
+        },
+        {
+          "text": "Retail",
+          "href": "https://designdetails.io/categories/retail"
+        },
+        {
+          "text": "Travel",
+          "href": "https://designdetails.io/categories/travel"
+        },
+        {
+          "text": "Skip past the designs",
+          "href": "https://designdetails.io/#after-designs"
+        },
+        {
+          "text": "CA\nCampus",
+          "href": "https://designdetails.io/websites/campus-edu"
+        },
+        {
+          "text": "VC\nVCASS",
+          "href": "https://designdetails.io/websites/vcass-vic-edu-au"
+        },
+        {
+          "text": "SH\nShillington",
+          "href": "https://designdetails.io/websites/shillingtoneducation-com"
+        },
+        {
+          "text": "SU\nSuperHi",
+          "href": "https://designdetails.io/websites/superhi-com"
+        },
+        {
+          "text": "FE\nFern",
+          "href": "https://designdetails.io/websites/buildwithfern-com"
+        },
+        {
+          "text": "",
+          "href": "https://www.practical-ui.com/?ref=designdetails.io"
+        },
+        {
+          "text": "Justin Jefferson",
+          "href": "https://designdetails.io/websites/jjettas-com"
+        },
+        {
+          "text": "Iru",
+          "href": "https://designdetails.io/websites/iru-com"
+        },
+        {
+          "text": "Symmetry AI",
+          "href": "https://designdetails.io/websites/getsymmetry-com"
+        },
+        {
+          "text": "AI Agent Cloud",
+          "href": "https://designdetails.io/websites/e2b-dev"
+        },
+        {
+          "text": "Traversal",
+          "href": "https://designdetails.io/websites/traversal-com"
+        },
+        {
+          "text": "▷ Doko Studio",
+          "href": "https://designdetails.io/websites/doko-studio"
+        },
+        {
+          "text": "Pliant",
+          "href": "https://designdetails.io/websites/getpliant-com"
+        },
+        {
+          "text": "Audienceful",
+          "href": "https://designdetails.io/websites/audienceful-com"
+        },
+        {
+          "text": "Pete Sena",
+          "href": "https://designdetails.io/websites/petesena-com"
+        },
+        {
+          "text": "Hyrup",
+          "href": "https://designdetails.io/websites/hyrup-de"
+        },
+        {
+          "text": "",
+          "href": "https://framer.link/get-design?ref=designdetails.io"
+        },
+        {
+          "text": "Extrafazant",
+          "href": "https://designdetails.io/websites/extrafazant-nl"
+        },
+        {
+          "text": "Tribe AI",
+          "href": "https://designdetails.io/websites/tribe-ai"
+        },
+        {
+          "text": "Oura Ring 5",
+          "href": "https://designdetails.io/websites/ouraring-com"
+        },
+        {
+          "text": "Humble",
+          "href": "https://designdetails.io/websites/humblerobotics-ai"
+        },
+        {
+          "text": "Artie",
+          "href": "https://designdetails.io/websites/artie-com"
+        },
+        {
+          "text": "",
+          "href": "https://mobbin.com/?via=getdesign"
+        },
+        {
+          "text": "Voy Design",
+          "href": "https://designdetails.io/websites/design-joinvoy-com"
+        },
+        {
+          "text": "Moonvalley: Funding, Investors & Jobs",
+          "href": "https://designdetails.io/websites/moonvalley-com"
+        },
+        {
+          "text": "",
+          "href": "https://framer.link/get-design?ref=designdetails.io"
+        },
+        {
+          "text": "capricorn 01 Zagato",
+          "href": "https://designdetails.io/websites/car-capricorngroup-net"
+        },
+        {
+          "text": "Grida",
+          "href": "https://designdetails.io/websites/grida-co"
+        },
+        {
+          "text": "AI",
+          "href": "https://designdetails.io/categories/ai"
+        },
+        {
+          "text": "Creative",
+          "href": "https://designdetails.io/categories/creative"
+        },
+        {
+          "text": "Finance",
+          "href": "https://designdetails.io/categories/finance"
+        },
+        {
+          "text": "Health",
+          "href": "https://designdetails.io/categories/health"
+        },
+        {
+          "text": "Hardware",
+          "href": "https://designdetails.io/categories/hardware"
+        },
+        {
+          "text": "Other",
+          "href": "https://designdetails.io/categories/other"
+        },
+        {
+          "text": "Retail",
+          "href": "https://designdetails.io/categories/retail"
+        },
+        {
+          "text": "Productivity",
+          "href": "https://designdetails.io/categories/productivity"
+        },
+        {
+          "text": "Developer Tools",
+          "href": "https://designdetails.io/categories/developer-tools"
+        },
+        {
+          "text": "Marketing",
+          "href": "https://designdetails.io/categories/marketing"
+        },
+        {
+          "text": "Education",
+          "href": "https://designdetails.io/categories/education"
+        },
+        {
+          "text": "CRM",
+          "href": "https://designdetails.io/categories/crm"
+        },
+        {
+          "text": "Entertainment",
+          "href": "https://designdetails.io/categories/entertainment"
+        },
+        {
+          "text": "Travel",
+          "href": "https://designdetails.io/categories/travel"
+        },
+        {
+          "text": "Communication",
+          "href": "https://designdetails.io/categories/communication"
+        },
+        {
+          "text": "Energy",
+          "href": "https://designdetails.io/categories/energy"
+        },
+        {
+          "text": "Real Estate",
+          "href": "https://designdetails.io/categories/real-estate"
+        },
+        {
+          "text": "Features sections",
+          "href": "https://designdetails.io/section-types/features"
+        },
+        {
+          "text": "Hero sections",
+          "href": "https://designdetails.io/section-types/hero"
+        },
+        {
+          "text": "Footer sections",
+          "href": "https://designdetails.io/section-types/footer"
+        },
+        {
+          "text": "Navbar sections",
+          "href": "https://designdetails.io/section-types/navbar"
+        },
+        {
+          "text": "CTA sections",
+          "href": "https://designdetails.io/section-types/cta"
+        },
+        {
+          "text": "Testimonials sections",
+          "href": "https://designdetails.io/section-types/testimonials"
+        },
+        {
+          "text": "privacy policy",
+          "href": "https://designdetails.io/privacy"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--ease-in-out": "cubic-bezier(.4, 0, .2, 1)",
+        "--border": "#deded7",
+        "--tw-ring-offset-shadow": "0 0 #0000",
+        "--font-editorial": "\"DM Sans\", \"DM Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "--tw-inset-shadow-alpha": "100%",
+        "--page-slide-distance": "8px",
+        "--tw-ring-shadow": "0 0 #0000",
+        "--page-muted": "#666b60",
+        "--dropdown-open-dur": ".25s",
+        "--page-fade-ease": "cubic-bezier(.22, 1, .36, 1)",
+        "--page-hero-padding-bottom": "50px",
+        "--aspect-video": "16 / 9",
+        "--field-surface": "#fff",
+        "--button-surface": "#252822",
+        "--leading-relaxed": "1.625",
+        "--field-placeholder": "#6b7066",
+        "--popover-shadow": "0 18px 48px #191e142e",
+        "--control-muted": "#f7f8f3",
+        "--accent": "#e4ec96",
+        "--tw-drop-shadow-alpha": "100%",
+        "--page-secondary": "#5f665c",
+        "--surface-muted": "#eaeae7",
+        "--default-transition-timing-function": "cubic-bezier(.4, 0, .2, 1)",
+        "--page-canvas": "#edf0ec",
+        "--resize-dur": ".3s",
+        "--tw-outline-style": "solid",
+        "--resize-ease": "cubic-bezier(.22, 1, .36, 1)",
+        "--control-surface": "#fff",
+        "--page-hero-padding-top": "100px",
+        "--tw-inset-ring-shadow": "0 0 #0000",
+        "--spacing": ".25rem",
+        "--background": "#fff",
+        "--lightningcss-dark": "",
+        "--tw-translate-z": "0",
+        "--button-foreground": "#fff",
+        "--page-slide-ease": "cubic-bezier(.22, 1, .36, 1)",
+        "--muted": "#686862",
+        "--tw-scale-y": "1",
+        "--sidebar-active-ink": "#20231e",
+        "--font-mono": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+        "--text-xl--line-height": "calc(1.75 / 1.25)",
+        "--font-weight-semibold": "600",
+        "--field-foreground": "#20231e",
+        "--text-sm": ".875rem",
+        "--tw-translate-y": "0",
+        "--page-blur": "3px",
+        "--ring": "#444d3d",
+        "--tw-inset-shadow": "0 0 #0000",
+        "--tw-ring-offset-color": "#fff",
+        "--sidebar-canvas": "#fff",
+        "--color-white": "#fff",
+        "--dropdown-pre-scale": ".97",
+        "--page-exit-enabled": "1",
+        "--tw-shadow-alpha": "100%",
+        "--thumbnail-mat": "10px",
+        "--sidebar-active": "#e8eae7",
+        "--page-foreground": "#20231e",
+        "--leading-tight": "1.25",
+        "--dropdown-closing-scale": ".99",
+        "--lightningcss-light": "",
+        "--sidebar-hover": "#f1f2f0",
+        "--font-sans": "\"DM Sans\", \"DM Sans Fallback\"",
+        "--tw-divide-y-reverse": "0",
+        "--tw-border-style": "solid",
+        "--tw-scale-z": "1",
+        "--radius": "2px",
+        "--dropdown-close-dur": ".15s",
+        "--blur-2xl": "40px",
+        "--color-background": "#fff",
+        "--page-fade-dur": ".2s",
+        "--container-2xl": "42rem",
+        "--tw-shadow": "0 0 #0000",
+        "--text-sm--line-height": "calc(1.25 / .875)",
+        "--tw-translate-x": "0",
+        "--tw-ring-offset-width": "0px",
+        "--container-sm": "24rem",
+        "--text-xs": ".75rem",
+        "--color-black": "#000",
+        "--default-font-family": "\"DM Sans\", \"DM Sans Fallback\"",
+        "--page-slide-dur": ".2s"
+      }
+    }
+  },
+  "scope": "public source reference; not a locally reconstructed component",
+  "http_status": 200,
+  "page_errors": []
+}

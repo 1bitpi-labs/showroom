@@ -1,0 +1,1813 @@
+{
+  "schema_version": 1,
+  "quadrant": "Q3-visual-atmosphere",
+  "count": 29,
+  "sections": {
+    "shaders-webgl": {
+      "ordered-dithering": [
+        {
+          "id": "dithercn-waves",
+          "location": {
+            "quadrant": "Q3-visual-atmosphere",
+            "category": "shaders-webgl",
+            "section": "ordered-dithering",
+            "file_path": "Q3-visual-atmosphere/shaders-webgl/ordered-dithering/dithercn-waves.json"
+          },
+          "tier": "S",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "native_registry_code_with_static_surface_comparison",
+            "responsive_score": null,
+            "audit_notes": [
+              "Native MIT registry code preserved unchanged.",
+              "Manual comparison confirms static shader geometry, palette and dither pattern; desktop/mobile local render passes without JS errors or horizontal overflow.",
+              "Tier S requires host token and utility-CSS integration. No S+: full accessibility and animated-state audit not completed.",
+              "Pixel metrics describe the shader surface only and are supporting evidence, not an automatic tier formula."
+            ],
+            "comparison": {
+              "reference": {
+                "width": 224,
+                "height": 174,
+                "rect": {
+                  "w": 672,
+                  "h": 522
+                },
+                "state": "static"
+              },
+              "local": {
+                "width": 224,
+                "height": 174,
+                "rect": {
+                  "w": 672,
+                  "h": 522
+                },
+                "state": "static"
+              },
+              "comparison": "Common integer raster area; no rescaling",
+              "limitations": [
+                "Pixel metric is not a quality tier.",
+                "Only desktop same-size shader surface compared; no WCAG certification.",
+                "Reduced motion static state; animated timing not compared."
+              ],
+              "original_image_sizes": [
+                [
+                  672,
+                  522
+                ],
+                [
+                  672,
+                  523
+                ]
+              ],
+              "pixel_similarity": 0.9877267749373057
+            },
+            "mobile_comparison": {
+              "reference": {
+                "width": 114,
+                "height": 140,
+                "rect": {
+                  "w": 342,
+                  "h": 420
+                },
+                "state": "static"
+              },
+              "local": {
+                "width": 114,
+                "height": 140,
+                "rect": {
+                  "w": 342,
+                  "h": 420
+                },
+                "state": "static"
+              },
+              "pixel_similarity": 0.9486661050496236,
+              "limitations": [
+                "Pixel metric is not a quality tier.",
+                "Only mobile same-size shader surface compared; no WCAG certification.",
+                "Reduced motion static state; animated timing not compared."
+              ]
+            },
+            "evidence": [
+              "previews/dithercn-waves-local/audit.json",
+              "previews/dithercn-waves-local/comparison.json",
+              "previews/dithercn-waves-local/comparison-mobile.json",
+              "assets/dithercn/waves.json",
+              "assets/dithercn/LICENSE"
+            ]
+          },
+          "source_site": "dithercn.dev",
+          "source_url": "https://dithercn.dev/docs/backgrounds/waves",
+          "license": {
+            "spdx": "MIT",
+            "url": "https://github.com/opencoredev/dithercn/blob/main/LICENSE",
+            "local": "assets/dithercn/LICENSE"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS",
+            "WebGL"
+          ],
+          "style_tags": [
+            "dither",
+            "decorative",
+            "reduced-motion",
+            "ordered-dithering"
+          ]
+        },
+        {
+          "id": "dithercn-dither-glow",
+          "location": {
+            "quadrant": "Q3-visual-atmosphere",
+            "category": "shaders-webgl",
+            "section": "ordered-dithering",
+            "file_path": "Q3-visual-atmosphere/shaders-webgl/ordered-dithering/dithercn-dither-glow.json"
+          },
+          "tier": "S",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+            "responsive_score": null,
+            "audit_notes": [
+              "Padrão, enquadramento e hierarquia tonal visualmente coerentes com a referência nas duas larguras.",
+              "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime.",
+              "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+              "No full WCAG certification; no claim of whole-page percentage fidelity."
+            ],
+            "evidence": [
+              "previews/dithercn-dither-glow/audit.json",
+              "audits/batch-2/manual-review.json",
+              "previews/dithercn-dither-glow/desktop.png",
+              "previews/dithercn-dither-glow/mobile.png",
+              "assets/dithercn/LICENSE"
+            ],
+            "viewports": [
+              "1440x900",
+              "390x844"
+            ],
+            "state_checks": {
+              "desktop": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ],
+              "mobile": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ]
+            }
+          },
+          "source_site": "dithercn.dev",
+          "source_url": "https://dithercn.dev/docs/backgrounds/dither-glow",
+          "license": {
+            "spdx": "MIT",
+            "local": "assets/dithercn/LICENSE",
+            "url": "https://github.com/opencoredev/dithercn/blob/main/LICENSE"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS v4",
+            "WebGL"
+          ],
+          "style_tags": [
+            "ordered-dithering",
+            "dithercn",
+            "native-source"
+          ]
+        },
+        {
+          "id": "dithercn-noise-field",
+          "location": {
+            "quadrant": "Q3-visual-atmosphere",
+            "category": "shaders-webgl",
+            "section": "ordered-dithering",
+            "file_path": "Q3-visual-atmosphere/shaders-webgl/ordered-dithering/dithercn-noise-field.json"
+          },
+          "tier": "S",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+            "responsive_score": null,
+            "audit_notes": [
+              "Padrão, enquadramento e hierarquia tonal visualmente coerentes com a referência nas duas larguras.",
+              "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime.",
+              "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+              "No full WCAG certification; no claim of whole-page percentage fidelity."
+            ],
+            "evidence": [
+              "previews/dithercn-noise-field/audit.json",
+              "audits/batch-2/manual-review.json",
+              "previews/dithercn-noise-field/desktop.png",
+              "previews/dithercn-noise-field/mobile.png",
+              "assets/dithercn/LICENSE"
+            ],
+            "viewports": [
+              "1440x900",
+              "390x844"
+            ],
+            "state_checks": {
+              "desktop": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ],
+              "mobile": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ]
+            }
+          },
+          "source_site": "dithercn.dev",
+          "source_url": "https://dithercn.dev/docs/backgrounds/noise-field",
+          "license": {
+            "spdx": "MIT",
+            "local": "assets/dithercn/LICENSE",
+            "url": "https://github.com/opencoredev/dithercn/blob/main/LICENSE"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS v4",
+            "WebGL"
+          ],
+          "style_tags": [
+            "ordered-dithering",
+            "dithercn",
+            "native-source"
+          ]
+        },
+        {
+          "id": "dithercn-halftone",
+          "location": {
+            "quadrant": "Q3-visual-atmosphere",
+            "category": "shaders-webgl",
+            "section": "ordered-dithering",
+            "file_path": "Q3-visual-atmosphere/shaders-webgl/ordered-dithering/dithercn-halftone.json"
+          },
+          "tier": "A",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+            "responsive_score": null,
+            "audit_notes": [
+              "Estrutura de manchas preservada; demo ciano versus paleta local azul. Ajustar palette e tonalidade.",
+              "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime.",
+              "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+              "No full WCAG certification; no claim of whole-page percentage fidelity."
+            ],
+            "evidence": [
+              "previews/dithercn-halftone/audit.json",
+              "audits/batch-2/manual-review.json",
+              "previews/dithercn-halftone/desktop.png",
+              "previews/dithercn-halftone/mobile.png",
+              "assets/dithercn/LICENSE"
+            ],
+            "viewports": [
+              "1440x900",
+              "390x844"
+            ],
+            "state_checks": {
+              "desktop": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ],
+              "mobile": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ]
+            }
+          },
+          "source_site": "dithercn.dev",
+          "source_url": "https://dithercn.dev/docs/backgrounds/halftone",
+          "license": {
+            "spdx": "MIT",
+            "local": "assets/dithercn/LICENSE",
+            "url": "https://github.com/opencoredev/dithercn/blob/main/LICENSE"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS v4",
+            "WebGL"
+          ],
+          "style_tags": [
+            "ordered-dithering",
+            "dithercn",
+            "native-source"
+          ]
+        },
+        {
+          "id": "dithercn-horizon",
+          "location": {
+            "quadrant": "Q3-visual-atmosphere",
+            "category": "shaders-webgl",
+            "section": "ordered-dithering",
+            "file_path": "Q3-visual-atmosphere/shaders-webgl/ordered-dithering/dithercn-horizon.json"
+          },
+          "tier": "S",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+            "responsive_score": null,
+            "audit_notes": [
+              "Padrão, enquadramento e hierarquia tonal visualmente coerentes com a referência nas duas larguras.",
+              "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime.",
+              "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+              "No full WCAG certification; no claim of whole-page percentage fidelity."
+            ],
+            "evidence": [
+              "previews/dithercn-horizon/audit.json",
+              "audits/batch-2/manual-review.json",
+              "previews/dithercn-horizon/desktop.png",
+              "previews/dithercn-horizon/mobile.png",
+              "assets/dithercn/LICENSE"
+            ],
+            "viewports": [
+              "1440x900",
+              "390x844"
+            ],
+            "state_checks": {
+              "desktop": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ],
+              "mobile": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ]
+            }
+          },
+          "source_site": "dithercn.dev",
+          "source_url": "https://dithercn.dev/docs/backgrounds/horizon",
+          "license": {
+            "spdx": "MIT",
+            "local": "assets/dithercn/LICENSE",
+            "url": "https://github.com/opencoredev/dithercn/blob/main/LICENSE"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS v4",
+            "WebGL"
+          ],
+          "style_tags": [
+            "ordered-dithering",
+            "dithercn",
+            "native-source"
+          ]
+        },
+        {
+          "id": "dithercn-eclipse",
+          "location": {
+            "quadrant": "Q3-visual-atmosphere",
+            "category": "shaders-webgl",
+            "section": "ordered-dithering",
+            "file_path": "Q3-visual-atmosphere/shaders-webgl/ordered-dithering/dithercn-eclipse.json"
+          },
+          "tier": "S",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+            "responsive_score": null,
+            "audit_notes": [
+              "Padrão, enquadramento e hierarquia tonal visualmente coerentes com a referência nas duas larguras.",
+              "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime.",
+              "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+              "No full WCAG certification; no claim of whole-page percentage fidelity."
+            ],
+            "evidence": [
+              "previews/dithercn-eclipse/audit.json",
+              "audits/batch-2/manual-review.json",
+              "previews/dithercn-eclipse/desktop.png",
+              "previews/dithercn-eclipse/mobile.png",
+              "assets/dithercn/LICENSE"
+            ],
+            "viewports": [
+              "1440x900",
+              "390x844"
+            ],
+            "state_checks": {
+              "desktop": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ],
+              "mobile": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ]
+            }
+          },
+          "source_site": "dithercn.dev",
+          "source_url": "https://dithercn.dev/docs/backgrounds/eclipse",
+          "license": {
+            "spdx": "MIT",
+            "local": "assets/dithercn/LICENSE",
+            "url": "https://github.com/opencoredev/dithercn/blob/main/LICENSE"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS v4",
+            "WebGL"
+          ],
+          "style_tags": [
+            "ordered-dithering",
+            "dithercn",
+            "native-source"
+          ]
+        },
+        {
+          "id": "dithercn-contours",
+          "location": {
+            "quadrant": "Q3-visual-atmosphere",
+            "category": "shaders-webgl",
+            "section": "ordered-dithering",
+            "file_path": "Q3-visual-atmosphere/shaders-webgl/ordered-dithering/dithercn-contours.json"
+          },
+          "tier": "S",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+            "responsive_score": null,
+            "audit_notes": [
+              "Padrão, enquadramento e hierarquia tonal visualmente coerentes com a referência nas duas larguras.",
+              "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime.",
+              "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+              "No full WCAG certification; no claim of whole-page percentage fidelity."
+            ],
+            "evidence": [
+              "previews/dithercn-contours/audit.json",
+              "audits/batch-2/manual-review.json",
+              "previews/dithercn-contours/desktop.png",
+              "previews/dithercn-contours/mobile.png",
+              "assets/dithercn/LICENSE"
+            ],
+            "viewports": [
+              "1440x900",
+              "390x844"
+            ],
+            "state_checks": {
+              "desktop": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ],
+              "mobile": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ]
+            }
+          },
+          "source_site": "dithercn.dev",
+          "source_url": "https://dithercn.dev/docs/backgrounds/contours",
+          "license": {
+            "spdx": "MIT",
+            "local": "assets/dithercn/LICENSE",
+            "url": "https://github.com/opencoredev/dithercn/blob/main/LICENSE"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS v4",
+            "WebGL"
+          ],
+          "style_tags": [
+            "ordered-dithering",
+            "dithercn",
+            "native-source"
+          ]
+        },
+        {
+          "id": "dithercn-ripples",
+          "location": {
+            "quadrant": "Q3-visual-atmosphere",
+            "category": "shaders-webgl",
+            "section": "ordered-dithering",
+            "file_path": "Q3-visual-atmosphere/shaders-webgl/ordered-dithering/dithercn-ripples.json"
+          },
+          "tier": "S",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+            "responsive_score": null,
+            "audit_notes": [
+              "Padrão, enquadramento e hierarquia tonal visualmente coerentes com a referência nas duas larguras.",
+              "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime.",
+              "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+              "No full WCAG certification; no claim of whole-page percentage fidelity."
+            ],
+            "evidence": [
+              "previews/dithercn-ripples/audit.json",
+              "audits/batch-2/manual-review.json",
+              "previews/dithercn-ripples/desktop.png",
+              "previews/dithercn-ripples/mobile.png",
+              "assets/dithercn/LICENSE"
+            ],
+            "viewports": [
+              "1440x900",
+              "390x844"
+            ],
+            "state_checks": {
+              "desktop": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ],
+              "mobile": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ]
+            }
+          },
+          "source_site": "dithercn.dev",
+          "source_url": "https://dithercn.dev/docs/backgrounds/ripples",
+          "license": {
+            "spdx": "MIT",
+            "local": "assets/dithercn/LICENSE",
+            "url": "https://github.com/opencoredev/dithercn/blob/main/LICENSE"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS v4",
+            "WebGL"
+          ],
+          "style_tags": [
+            "ordered-dithering",
+            "dithercn",
+            "native-source"
+          ]
+        },
+        {
+          "id": "dithercn-retro-grid",
+          "location": {
+            "quadrant": "Q3-visual-atmosphere",
+            "category": "shaders-webgl",
+            "section": "ordered-dithering",
+            "file_path": "Q3-visual-atmosphere/shaders-webgl/ordered-dithering/dithercn-retro-grid.json"
+          },
+          "tier": "S",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+            "responsive_score": null,
+            "audit_notes": [
+              "Padrão, enquadramento e hierarquia tonal visualmente coerentes com a referência nas duas larguras.",
+              "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime.",
+              "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+              "No full WCAG certification; no claim of whole-page percentage fidelity."
+            ],
+            "evidence": [
+              "previews/dithercn-retro-grid/audit.json",
+              "audits/batch-2/manual-review.json",
+              "previews/dithercn-retro-grid/desktop.png",
+              "previews/dithercn-retro-grid/mobile.png",
+              "assets/dithercn/LICENSE"
+            ],
+            "viewports": [
+              "1440x900",
+              "390x844"
+            ],
+            "state_checks": {
+              "desktop": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ],
+              "mobile": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ]
+            }
+          },
+          "source_site": "dithercn.dev",
+          "source_url": "https://dithercn.dev/docs/backgrounds/retro-grid",
+          "license": {
+            "spdx": "MIT",
+            "local": "assets/dithercn/LICENSE",
+            "url": "https://github.com/opencoredev/dithercn/blob/main/LICENSE"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS v4",
+            "WebGL"
+          ],
+          "style_tags": [
+            "ordered-dithering",
+            "dithercn",
+            "native-source"
+          ]
+        },
+        {
+          "id": "dithercn-tunnel",
+          "location": {
+            "quadrant": "Q3-visual-atmosphere",
+            "category": "shaders-webgl",
+            "section": "ordered-dithering",
+            "file_path": "Q3-visual-atmosphere/shaders-webgl/ordered-dithering/dithercn-tunnel.json"
+          },
+          "tier": "S",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+            "responsive_score": null,
+            "audit_notes": [
+              "Padrão, enquadramento e hierarquia tonal visualmente coerentes com a referência nas duas larguras.",
+              "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime.",
+              "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+              "No full WCAG certification; no claim of whole-page percentage fidelity."
+            ],
+            "evidence": [
+              "previews/dithercn-tunnel/audit.json",
+              "audits/batch-2/manual-review.json",
+              "previews/dithercn-tunnel/desktop.png",
+              "previews/dithercn-tunnel/mobile.png",
+              "assets/dithercn/LICENSE"
+            ],
+            "viewports": [
+              "1440x900",
+              "390x844"
+            ],
+            "state_checks": {
+              "desktop": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ],
+              "mobile": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ]
+            }
+          },
+          "source_site": "dithercn.dev",
+          "source_url": "https://dithercn.dev/docs/backgrounds/tunnel",
+          "license": {
+            "spdx": "MIT",
+            "local": "assets/dithercn/LICENSE",
+            "url": "https://github.com/opencoredev/dithercn/blob/main/LICENSE"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS v4",
+            "WebGL"
+          ],
+          "style_tags": [
+            "ordered-dithering",
+            "dithercn",
+            "native-source"
+          ]
+        },
+        {
+          "id": "dithercn-ridgelines",
+          "location": {
+            "quadrant": "Q3-visual-atmosphere",
+            "category": "shaders-webgl",
+            "section": "ordered-dithering",
+            "file_path": "Q3-visual-atmosphere/shaders-webgl/ordered-dithering/dithercn-ridgelines.json"
+          },
+          "tier": "S",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+            "responsive_score": null,
+            "audit_notes": [
+              "Padrão, enquadramento e hierarquia tonal visualmente coerentes com a referência nas duas larguras.",
+              "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime.",
+              "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+              "No full WCAG certification; no claim of whole-page percentage fidelity."
+            ],
+            "evidence": [
+              "previews/dithercn-ridgelines/audit.json",
+              "audits/batch-2/manual-review.json",
+              "previews/dithercn-ridgelines/desktop.png",
+              "previews/dithercn-ridgelines/mobile.png",
+              "assets/dithercn/LICENSE"
+            ],
+            "viewports": [
+              "1440x900",
+              "390x844"
+            ],
+            "state_checks": {
+              "desktop": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ],
+              "mobile": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ]
+            }
+          },
+          "source_site": "dithercn.dev",
+          "source_url": "https://dithercn.dev/docs/backgrounds/ridgelines",
+          "license": {
+            "spdx": "MIT",
+            "local": "assets/dithercn/LICENSE",
+            "url": "https://github.com/opencoredev/dithercn/blob/main/LICENSE"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS v4",
+            "WebGL"
+          ],
+          "style_tags": [
+            "ordered-dithering",
+            "dithercn",
+            "native-source"
+          ]
+        }
+      ],
+      "aurora-mesh-gradients": [
+        {
+          "id": "dithercn-aurora",
+          "location": {
+            "quadrant": "Q3-visual-atmosphere",
+            "category": "shaders-webgl",
+            "section": "aurora-mesh-gradients",
+            "file_path": "Q3-visual-atmosphere/shaders-webgl/aurora-mesh-gradients/dithercn-aurora.json"
+          },
+          "tier": "S",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "native_registry_code_with_static_surface_comparison",
+            "responsive_score": null,
+            "audit_notes": [
+              "Native MIT registry code preserved unchanged.",
+              "Manual comparison confirms static shader geometry, palette and dither pattern; desktop/mobile local render passes without JS errors or horizontal overflow.",
+              "Tier S requires host token and utility-CSS integration. No S+: full accessibility and animated-state audit not completed.",
+              "Pixel metrics describe the shader surface only and are supporting evidence, not an automatic tier formula."
+            ],
+            "comparison": {
+              "reference": {
+                "width": 224,
+                "height": 174,
+                "rect": {
+                  "w": 672,
+                  "h": 522
+                },
+                "state": "static"
+              },
+              "local": {
+                "width": 224,
+                "height": 174,
+                "rect": {
+                  "w": 672,
+                  "h": 522
+                },
+                "state": "static"
+              },
+              "comparison": "Common integer raster area; no rescaling",
+              "limitations": [
+                "Pixel metric is not a quality tier.",
+                "Only desktop same-size shader surface compared; no WCAG certification.",
+                "Reduced motion static state; animated timing not compared."
+              ],
+              "original_image_sizes": [
+                [
+                  672,
+                  522
+                ],
+                [
+                  672,
+                  523
+                ]
+              ],
+              "pixel_similarity": 0.9880718059893179
+            },
+            "mobile_comparison": {
+              "reference": {
+                "width": 114,
+                "height": 140,
+                "rect": {
+                  "w": 342,
+                  "h": 420
+                },
+                "state": "static"
+              },
+              "local": {
+                "width": 114,
+                "height": 140,
+                "rect": {
+                  "w": 342,
+                  "h": 420
+                },
+                "state": "static"
+              },
+              "pixel_similarity": 0.9681268618998581,
+              "limitations": [
+                "Pixel metric is not a quality tier.",
+                "Only mobile same-size shader surface compared; no WCAG certification.",
+                "Reduced motion static state; animated timing not compared."
+              ]
+            },
+            "evidence": [
+              "previews/dithercn-aurora-local/audit.json",
+              "previews/dithercn-aurora-local/comparison.json",
+              "previews/dithercn-aurora-local/comparison-mobile.json",
+              "assets/dithercn/aurora.json",
+              "assets/dithercn/LICENSE"
+            ]
+          },
+          "source_site": "dithercn.dev",
+          "source_url": "https://dithercn.dev/docs/backgrounds/aurora",
+          "license": {
+            "spdx": "MIT",
+            "url": "https://github.com/opencoredev/dithercn/blob/main/LICENSE",
+            "local": "assets/dithercn/LICENSE"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS",
+            "WebGL"
+          ],
+          "style_tags": [
+            "dither",
+            "decorative",
+            "reduced-motion",
+            "aurora-mesh-gradients"
+          ]
+        },
+        {
+          "id": "dithercn-mesh-gradient",
+          "location": {
+            "quadrant": "Q3-visual-atmosphere",
+            "category": "shaders-webgl",
+            "section": "aurora-mesh-gradients",
+            "file_path": "Q3-visual-atmosphere/shaders-webgl/aurora-mesh-gradients/dithercn-mesh-gradient.json"
+          },
+          "tier": "A",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+            "responsive_score": null,
+            "audit_notes": [
+              "Mesma composição de blobs; matriz de ruído e gradação diferem do demo. Calibrar paleta e matriz antes de uso fiel.",
+              "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime.",
+              "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+              "No full WCAG certification; no claim of whole-page percentage fidelity."
+            ],
+            "evidence": [
+              "previews/dithercn-mesh-gradient/audit.json",
+              "audits/batch-2/manual-review.json",
+              "previews/dithercn-mesh-gradient/desktop.png",
+              "previews/dithercn-mesh-gradient/mobile.png",
+              "assets/dithercn/LICENSE"
+            ],
+            "viewports": [
+              "1440x900",
+              "390x844"
+            ],
+            "state_checks": {
+              "desktop": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ],
+              "mobile": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ]
+            }
+          },
+          "source_site": "dithercn.dev",
+          "source_url": "https://dithercn.dev/docs/backgrounds/mesh-gradient",
+          "license": {
+            "spdx": "MIT",
+            "local": "assets/dithercn/LICENSE",
+            "url": "https://github.com/opencoredev/dithercn/blob/main/LICENSE"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS v4",
+            "WebGL"
+          ],
+          "style_tags": [
+            "aurora-mesh-gradients",
+            "dithercn",
+            "native-source"
+          ]
+        },
+        {
+          "id": "dithercn-plasma",
+          "location": {
+            "quadrant": "Q3-visual-atmosphere",
+            "category": "shaders-webgl",
+            "section": "aurora-mesh-gradients",
+            "file_path": "Q3-visual-atmosphere/shaders-webgl/aurora-mesh-gradients/dithercn-plasma.json"
+          },
+          "tier": "A",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+            "responsive_score": null,
+            "audit_notes": [
+              "Campo e contornos preservados; a paleta padrão local introduz branco ausente no demo. Mapear palette explicitamente.",
+              "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime.",
+              "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+              "No full WCAG certification; no claim of whole-page percentage fidelity."
+            ],
+            "evidence": [
+              "previews/dithercn-plasma/audit.json",
+              "audits/batch-2/manual-review.json",
+              "previews/dithercn-plasma/desktop.png",
+              "previews/dithercn-plasma/mobile.png",
+              "assets/dithercn/LICENSE"
+            ],
+            "viewports": [
+              "1440x900",
+              "390x844"
+            ],
+            "state_checks": {
+              "desktop": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ],
+              "mobile": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ]
+            }
+          },
+          "source_site": "dithercn.dev",
+          "source_url": "https://dithercn.dev/docs/backgrounds/plasma",
+          "license": {
+            "spdx": "MIT",
+            "local": "assets/dithercn/LICENSE",
+            "url": "https://github.com/opencoredev/dithercn/blob/main/LICENSE"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS v4",
+            "WebGL"
+          ],
+          "style_tags": [
+            "aurora-mesh-gradients",
+            "dithercn",
+            "native-source"
+          ]
+        },
+        {
+          "id": "dithercn-beams",
+          "location": {
+            "quadrant": "Q3-visual-atmosphere",
+            "category": "shaders-webgl",
+            "section": "aurora-mesh-gradients",
+            "file_path": "Q3-visual-atmosphere/shaders-webgl/aurora-mesh-gradients/dithercn-beams.json"
+          },
+          "tier": "S",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+            "responsive_score": null,
+            "audit_notes": [
+              "Padrão, enquadramento e hierarquia tonal visualmente coerentes com a referência nas duas larguras.",
+              "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime.",
+              "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+              "No full WCAG certification; no claim of whole-page percentage fidelity."
+            ],
+            "evidence": [
+              "previews/dithercn-beams/audit.json",
+              "audits/batch-2/manual-review.json",
+              "previews/dithercn-beams/desktop.png",
+              "previews/dithercn-beams/mobile.png",
+              "assets/dithercn/LICENSE"
+            ],
+            "viewports": [
+              "1440x900",
+              "390x844"
+            ],
+            "state_checks": {
+              "desktop": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ],
+              "mobile": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ]
+            }
+          },
+          "source_site": "dithercn.dev",
+          "source_url": "https://dithercn.dev/docs/backgrounds/beams",
+          "license": {
+            "spdx": "MIT",
+            "local": "assets/dithercn/LICENSE",
+            "url": "https://github.com/opencoredev/dithercn/blob/main/LICENSE"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS v4",
+            "WebGL"
+          ],
+          "style_tags": [
+            "aurora-mesh-gradients",
+            "dithercn",
+            "native-source"
+          ]
+        },
+        {
+          "id": "dithercn-silk",
+          "location": {
+            "quadrant": "Q3-visual-atmosphere",
+            "category": "shaders-webgl",
+            "section": "aurora-mesh-gradients",
+            "file_path": "Q3-visual-atmosphere/shaders-webgl/aurora-mesh-gradients/dithercn-silk.json"
+          },
+          "tier": "S",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+            "responsive_score": null,
+            "audit_notes": [
+              "Padrão, enquadramento e hierarquia tonal visualmente coerentes com a referência nas duas larguras.",
+              "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime.",
+              "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+              "No full WCAG certification; no claim of whole-page percentage fidelity."
+            ],
+            "evidence": [
+              "previews/dithercn-silk/audit.json",
+              "audits/batch-2/manual-review.json",
+              "previews/dithercn-silk/desktop.png",
+              "previews/dithercn-silk/mobile.png",
+              "assets/dithercn/LICENSE"
+            ],
+            "viewports": [
+              "1440x900",
+              "390x844"
+            ],
+            "state_checks": {
+              "desktop": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ],
+              "mobile": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ]
+            }
+          },
+          "source_site": "dithercn.dev",
+          "source_url": "https://dithercn.dev/docs/backgrounds/silk",
+          "license": {
+            "spdx": "MIT",
+            "local": "assets/dithercn/LICENSE",
+            "url": "https://github.com/opencoredev/dithercn/blob/main/LICENSE"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS v4",
+            "WebGL"
+          ],
+          "style_tags": [
+            "aurora-mesh-gradients",
+            "dithercn",
+            "native-source"
+          ]
+        },
+        {
+          "id": "dithercn-smoke",
+          "location": {
+            "quadrant": "Q3-visual-atmosphere",
+            "category": "shaders-webgl",
+            "section": "aurora-mesh-gradients",
+            "file_path": "Q3-visual-atmosphere/shaders-webgl/aurora-mesh-gradients/dithercn-smoke.json"
+          },
+          "tier": "A",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+            "responsive_score": null,
+            "audit_notes": [
+              "Campo de fumaça preservado, mas densidade e distribuição tonal diferem do demo. Ajustar uniforms e palette.",
+              "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime.",
+              "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+              "No full WCAG certification; no claim of whole-page percentage fidelity."
+            ],
+            "evidence": [
+              "previews/dithercn-smoke/audit.json",
+              "audits/batch-2/manual-review.json",
+              "previews/dithercn-smoke/desktop.png",
+              "previews/dithercn-smoke/mobile.png",
+              "assets/dithercn/LICENSE"
+            ],
+            "viewports": [
+              "1440x900",
+              "390x844"
+            ],
+            "state_checks": {
+              "desktop": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ],
+              "mobile": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ]
+            }
+          },
+          "source_site": "dithercn.dev",
+          "source_url": "https://dithercn.dev/docs/backgrounds/smoke",
+          "license": {
+            "spdx": "MIT",
+            "local": "assets/dithercn/LICENSE",
+            "url": "https://github.com/opencoredev/dithercn/blob/main/LICENSE"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS v4",
+            "WebGL"
+          ],
+          "style_tags": [
+            "aurora-mesh-gradients",
+            "dithercn",
+            "native-source"
+          ]
+        },
+        {
+          "id": "dithercn-metaballs",
+          "location": {
+            "quadrant": "Q3-visual-atmosphere",
+            "category": "shaders-webgl",
+            "section": "aurora-mesh-gradients",
+            "file_path": "Q3-visual-atmosphere/shaders-webgl/aurora-mesh-gradients/dithercn-metaballs.json"
+          },
+          "tier": "A",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+            "responsive_score": null,
+            "audit_notes": [
+              "Geometria de bolhas preservada; limiares e gradação tonal diferem do demo. Ajustar palette/thresholds.",
+              "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime.",
+              "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+              "No full WCAG certification; no claim of whole-page percentage fidelity."
+            ],
+            "evidence": [
+              "previews/dithercn-metaballs/audit.json",
+              "audits/batch-2/manual-review.json",
+              "previews/dithercn-metaballs/desktop.png",
+              "previews/dithercn-metaballs/mobile.png",
+              "assets/dithercn/LICENSE"
+            ],
+            "viewports": [
+              "1440x900",
+              "390x844"
+            ],
+            "state_checks": {
+              "desktop": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ],
+              "mobile": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ]
+            }
+          },
+          "source_site": "dithercn.dev",
+          "source_url": "https://dithercn.dev/docs/backgrounds/metaballs",
+          "license": {
+            "spdx": "MIT",
+            "local": "assets/dithercn/LICENSE",
+            "url": "https://github.com/opencoredev/dithercn/blob/main/LICENSE"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS v4",
+            "WebGL"
+          ],
+          "style_tags": [
+            "aurora-mesh-gradients",
+            "dithercn",
+            "native-source"
+          ]
+        }
+      ],
+      "particle-chrome-effects": [
+        {
+          "id": "dithercn-starfield",
+          "location": {
+            "quadrant": "Q3-visual-atmosphere",
+            "category": "shaders-webgl",
+            "section": "particle-chrome-effects",
+            "file_path": "Q3-visual-atmosphere/shaders-webgl/particle-chrome-effects/dithercn-starfield.json"
+          },
+          "tier": "A",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+            "responsive_score": null,
+            "audit_notes": [
+              "Distribuição de estrelas preservada; padrão local usa estrelas brancas onde o demo usa azul. Mapear a paleta.",
+              "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime.",
+              "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+              "No full WCAG certification; no claim of whole-page percentage fidelity."
+            ],
+            "evidence": [
+              "previews/dithercn-starfield/audit.json",
+              "audits/batch-2/manual-review.json",
+              "previews/dithercn-starfield/desktop.png",
+              "previews/dithercn-starfield/mobile.png",
+              "assets/dithercn/LICENSE"
+            ],
+            "viewports": [
+              "1440x900",
+              "390x844"
+            ],
+            "state_checks": {
+              "desktop": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ],
+              "mobile": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ]
+            }
+          },
+          "source_site": "dithercn.dev",
+          "source_url": "https://dithercn.dev/docs/backgrounds/starfield",
+          "license": {
+            "spdx": "MIT",
+            "local": "assets/dithercn/LICENSE",
+            "url": "https://github.com/opencoredev/dithercn/blob/main/LICENSE"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS v4",
+            "WebGL"
+          ],
+          "style_tags": [
+            "particle-chrome-effects",
+            "dithercn",
+            "native-source"
+          ]
+        },
+        {
+          "id": "dithercn-dither-orb",
+          "location": {
+            "quadrant": "Q3-visual-atmosphere",
+            "category": "shaders-webgl",
+            "section": "particle-chrome-effects",
+            "file_path": "Q3-visual-atmosphere/shaders-webgl/particle-chrome-effects/dithercn-dither-orb.json"
+          },
+          "tier": "A",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+            "responsive_score": null,
+            "audit_notes": [
+              "Esfera e limites preservados; intensidade e região de luz diferem. Conferir uniforms de iluminação e paleta.",
+              "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime.",
+              "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+              "No full WCAG certification; no claim of whole-page percentage fidelity."
+            ],
+            "evidence": [
+              "previews/dithercn-dither-orb/audit.json",
+              "audits/batch-2/manual-review.json",
+              "previews/dithercn-dither-orb/desktop.png",
+              "previews/dithercn-dither-orb/mobile.png",
+              "assets/dithercn/LICENSE"
+            ],
+            "viewports": [
+              "1440x900",
+              "390x844"
+            ],
+            "state_checks": {
+              "desktop": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ],
+              "mobile": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ]
+            }
+          },
+          "source_site": "dithercn.dev",
+          "source_url": "https://dithercn.dev/docs/backgrounds/dither-orb",
+          "license": {
+            "spdx": "MIT",
+            "local": "assets/dithercn/LICENSE",
+            "url": "https://github.com/opencoredev/dithercn/blob/main/LICENSE"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS v4",
+            "WebGL"
+          ],
+          "style_tags": [
+            "particle-chrome-effects",
+            "dithercn",
+            "native-source"
+          ]
+        },
+        {
+          "id": "dithercn-flow-field",
+          "location": {
+            "quadrant": "Q3-visual-atmosphere",
+            "category": "shaders-webgl",
+            "section": "particle-chrome-effects",
+            "file_path": "Q3-visual-atmosphere/shaders-webgl/particle-chrome-effects/dithercn-flow-field.json"
+          },
+          "tier": "S",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+            "responsive_score": null,
+            "audit_notes": [
+              "Padrão, enquadramento e hierarquia tonal visualmente coerentes com a referência nas duas larguras.",
+              "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime.",
+              "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+              "No full WCAG certification; no claim of whole-page percentage fidelity."
+            ],
+            "evidence": [
+              "previews/dithercn-flow-field/audit.json",
+              "audits/batch-2/manual-review.json",
+              "previews/dithercn-flow-field/desktop.png",
+              "previews/dithercn-flow-field/mobile.png",
+              "assets/dithercn/LICENSE"
+            ],
+            "viewports": [
+              "1440x900",
+              "390x844"
+            ],
+            "state_checks": {
+              "desktop": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ],
+              "mobile": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ]
+            }
+          },
+          "source_site": "dithercn.dev",
+          "source_url": "https://dithercn.dev/docs/backgrounds/flow-field",
+          "license": {
+            "spdx": "MIT",
+            "local": "assets/dithercn/LICENSE",
+            "url": "https://github.com/opencoredev/dithercn/blob/main/LICENSE"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS v4",
+            "WebGL"
+          ],
+          "style_tags": [
+            "particle-chrome-effects",
+            "dithercn",
+            "native-source"
+          ]
+        },
+        {
+          "id": "dithercn-voronoi",
+          "location": {
+            "quadrant": "Q3-visual-atmosphere",
+            "category": "shaders-webgl",
+            "section": "particle-chrome-effects",
+            "file_path": "Q3-visual-atmosphere/shaders-webgl/particle-chrome-effects/dithercn-voronoi.json"
+          },
+          "tier": "A",
+          "tier_audit": {
+            "visual_verified": true,
+            "fidelity_type": "original_MIT_registry_code_with_source_and_local_surface_review",
+            "responsive_score": null,
+            "audit_notes": [
+              "Malha celular preservada; o preenchimento local tem mais pontos nas células. Ajustar contraste e paleta.",
+              "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime.",
+              "Grade is curator assessment of code, comparison and required adaptation; pixel similarity alone does not assign tier.",
+              "No full WCAG certification; no claim of whole-page percentage fidelity."
+            ],
+            "evidence": [
+              "previews/dithercn-voronoi/audit.json",
+              "audits/batch-2/manual-review.json",
+              "previews/dithercn-voronoi/desktop.png",
+              "previews/dithercn-voronoi/mobile.png",
+              "assets/dithercn/LICENSE"
+            ],
+            "viewports": [
+              "1440x900",
+              "390x844"
+            ],
+            "state_checks": {
+              "desktop": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ],
+              "mobile": [
+                "Reduced-motion static shader rendered; aria-hidden inspected. Animated timing and GPU fallback not certified."
+              ]
+            }
+          },
+          "source_site": "dithercn.dev",
+          "source_url": "https://dithercn.dev/docs/backgrounds/voronoi",
+          "license": {
+            "spdx": "MIT",
+            "local": "assets/dithercn/LICENSE",
+            "url": "https://github.com/opencoredev/dithercn/blob/main/LICENSE"
+          },
+          "stack_compatibility": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS v4",
+            "WebGL"
+          ],
+          "style_tags": [
+            "particle-chrome-effects",
+            "dithercn",
+            "native-source"
+          ]
+        }
+      ]
+    },
+    "svg-textures": {
+      "noise-grain-overlays": [
+        {
+          "id": "texture-nnnoise-recipe",
+          "location": {
+            "quadrant": "Q3-visual-atmosphere",
+            "category": "svg-textures",
+            "section": "noise-grain-overlays",
+            "file_path": "Q3-visual-atmosphere/svg-textures/noise-grain-overlays/texture-nnnoise-recipe.json"
+          },
+          "tier": "C",
+          "tier_audit": {
+            "visual_verified": true,
+            "verification_scope": "source screenshots only; not local implementation fidelity",
+            "fidelity_type": "visual_spec",
+            "responsive_score": null,
+            "audit_notes": [
+              "Tier C: reference/spec, not ready-to-use code.",
+              "Source DOM measurements may describe gallery chrome, not the referenced product.",
+              "Keyboard, contrast and animation timing not certified."
+            ],
+            "evidence": [
+              "audits/source-evidence/fffuel-co-nnnoise/evidence.json",
+              "previews/texture-nnnoise-recipe/desktop.png",
+              "previews/texture-nnnoise-recipe/mobile.png"
+            ],
+            "source_observations": {
+              "desktop": {
+                "viewport": {
+                  "width": 1440,
+                  "height": 900
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              },
+              "mobile": {
+                "viewport": {
+                  "width": 390,
+                  "height": 844
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              }
+            }
+          },
+          "source_site": "fffuel.co",
+          "source_url": "https://www.fffuel.co/nnnoise/",
+          "license": {
+            "status": "reference_only_not_code_license",
+            "redistribution": "No source code or original downloadable assets included; screenshots are research evidence.",
+            "url": "https://www.fffuel.co/license/",
+            "restriction": "Generated images may be used in projects but redistribution is restricted; retain only specification and source link."
+          },
+          "stack_compatibility": [
+            "framework-agnostic-spec"
+          ],
+          "style_tags": [
+            "noise-grain-overlays"
+          ]
+        }
+      ],
+      "geometric-grids-blobs": [
+        {
+          "id": "shape-ssshape-recipe",
+          "location": {
+            "quadrant": "Q3-visual-atmosphere",
+            "category": "svg-textures",
+            "section": "geometric-grids-blobs",
+            "file_path": "Q3-visual-atmosphere/svg-textures/geometric-grids-blobs/shape-ssshape-recipe.json"
+          },
+          "tier": "C",
+          "tier_audit": {
+            "visual_verified": true,
+            "verification_scope": "source screenshots only; not local implementation fidelity",
+            "fidelity_type": "visual_spec",
+            "responsive_score": null,
+            "audit_notes": [
+              "Tier C: reference/spec, not ready-to-use code.",
+              "Source DOM measurements may describe gallery chrome, not the referenced product.",
+              "Keyboard, contrast and animation timing not certified."
+            ],
+            "evidence": [
+              "audits/source-evidence/fffuel-co-ssshape/evidence.json",
+              "previews/shape-ssshape-recipe/desktop.png",
+              "previews/shape-ssshape-recipe/mobile.png"
+            ],
+            "source_observations": {
+              "desktop": {
+                "viewport": {
+                  "width": 1440,
+                  "height": 900
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              },
+              "mobile": {
+                "viewport": {
+                  "width": 390,
+                  "height": 844
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              }
+            }
+          },
+          "source_site": "fffuel.co",
+          "source_url": "https://www.fffuel.co/ssshape/",
+          "license": {
+            "status": "reference_only_not_code_license",
+            "redistribution": "No source code or original downloadable assets included; screenshots are research evidence.",
+            "url": "https://www.fffuel.co/license/",
+            "restriction": "Generated images may be used in projects but redistribution is restricted; retain only specification and source link."
+          },
+          "stack_compatibility": [
+            "framework-agnostic-spec"
+          ],
+          "style_tags": [
+            "geometric-grids-blobs"
+          ]
+        }
+      ],
+      "custom-gradients": []
+    },
+    "typography-identity": {
+      "display-sans-pairings": [
+        {
+          "id": "type-satoshi-reference",
+          "location": {
+            "quadrant": "Q3-visual-atmosphere",
+            "category": "typography-identity",
+            "section": "display-sans-pairings",
+            "file_path": "Q3-visual-atmosphere/typography-identity/display-sans-pairings/type-satoshi-reference.json"
+          },
+          "tier": "C",
+          "tier_audit": {
+            "visual_verified": true,
+            "verification_scope": "source screenshots only; not local implementation fidelity",
+            "fidelity_type": "visual_spec",
+            "responsive_score": null,
+            "audit_notes": [
+              "Tier C: reference/spec, not ready-to-use code.",
+              "Source DOM measurements may describe gallery chrome, not the referenced product.",
+              "Keyboard, contrast and animation timing not certified."
+            ],
+            "evidence": [
+              "audits/source-evidence/fontshare-com-satoshi/evidence.json",
+              "previews/type-satoshi-reference/desktop.png",
+              "previews/type-satoshi-reference/mobile.png"
+            ],
+            "source_observations": {
+              "desktop": {
+                "viewport": {
+                  "width": 1440,
+                  "height": 900
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              },
+              "mobile": {
+                "viewport": {
+                  "width": 390,
+                  "height": 844
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              }
+            }
+          },
+          "source_site": "fontshare.com",
+          "source_url": "https://fontshare.com/fonts/satoshi",
+          "license": {
+            "status": "reference_only_not_code_license",
+            "redistribution": "No source code or original downloadable assets included; screenshots are research evidence."
+          },
+          "stack_compatibility": [
+            "framework-agnostic-spec"
+          ],
+          "style_tags": [
+            "display-sans-pairings"
+          ]
+        },
+        {
+          "id": "type-fontshare-pairs-reference",
+          "location": {
+            "quadrant": "Q3-visual-atmosphere",
+            "category": "typography-identity",
+            "section": "display-sans-pairings",
+            "file_path": "Q3-visual-atmosphere/typography-identity/display-sans-pairings/type-fontshare-pairs-reference.json"
+          },
+          "tier": "C",
+          "tier_audit": {
+            "visual_verified": true,
+            "verification_scope": "source screenshots only; not local implementation fidelity",
+            "fidelity_type": "visual_spec",
+            "responsive_score": null,
+            "audit_notes": [
+              "Tier C: reference/spec, not ready-to-use code.",
+              "Source DOM measurements may describe gallery chrome, not the referenced product.",
+              "Keyboard, contrast and animation timing not certified."
+            ],
+            "evidence": [
+              "audits/source-evidence/fontshare-com-pairs/evidence.json",
+              "previews/type-fontshare-pairs-reference/desktop.png",
+              "previews/type-fontshare-pairs-reference/mobile.png"
+            ],
+            "source_observations": {
+              "desktop": {
+                "viewport": {
+                  "width": 1440,
+                  "height": 900
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              },
+              "mobile": {
+                "viewport": {
+                  "width": 390,
+                  "height": 844
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              }
+            }
+          },
+          "source_site": "fontshare.com",
+          "source_url": "https://fontshare.com/pairs",
+          "license": {
+            "status": "reference_only_not_code_license",
+            "redistribution": "No source code or original downloadable assets included; screenshots are research evidence."
+          },
+          "stack_compatibility": [
+            "framework-agnostic-spec"
+          ],
+          "style_tags": [
+            "display-sans-pairings"
+          ]
+        }
+      ],
+      "tech-mono-pairings": [],
+      "brand-logotype-refs": [
+        {
+          "id": "brand-thunderbolts-type-reference",
+          "location": {
+            "quadrant": "Q3-visual-atmosphere",
+            "category": "typography-identity",
+            "section": "brand-logotype-refs",
+            "file_path": "Q3-visual-atmosphere/typography-identity/brand-logotype-refs/brand-thunderbolts-type-reference.json"
+          },
+          "tier": "C",
+          "tier_audit": {
+            "visual_verified": true,
+            "verification_scope": "source screenshots only; not local implementation fidelity",
+            "fidelity_type": "visual_spec",
+            "responsive_score": null,
+            "audit_notes": [
+              "Tier C: reference/spec, not ready-to-use code.",
+              "Source DOM measurements may describe gallery chrome, not the referenced product.",
+              "Keyboard, contrast and animation timing not certified."
+            ],
+            "evidence": [
+              "audits/source-evidence/fontinlogo-com-thunderbolts/evidence.json",
+              "previews/brand-thunderbolts-type-reference/desktop.png",
+              "previews/brand-thunderbolts-type-reference/mobile.png"
+            ],
+            "source_observations": {
+              "desktop": {
+                "viewport": {
+                  "width": 1440,
+                  "height": 900
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              },
+              "mobile": {
+                "viewport": {
+                  "width": 390,
+                  "height": 844
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              }
+            }
+          },
+          "source_site": "fontinlogo.com",
+          "source_url": "https://www.fontinlogo.com/famous-fonts/thunderbolts-font",
+          "license": {
+            "status": "reference_only_not_code_license",
+            "redistribution": "No source code or original downloadable assets included; screenshots are research evidence."
+          },
+          "stack_compatibility": [
+            "framework-agnostic-spec"
+          ],
+          "style_tags": [
+            "brand-logotype-refs"
+          ]
+        }
+      ]
+    },
+    "3d-scenes-materials": {
+      "low-poly-glb-models": [
+        {
+          "id": "3d-kenney-city-kit-reference",
+          "location": {
+            "quadrant": "Q3-visual-atmosphere",
+            "category": "3d-scenes-materials",
+            "section": "low-poly-glb-models",
+            "file_path": "Q3-visual-atmosphere/3d-scenes-materials/low-poly-glb-models/3d-kenney-city-kit-reference.json"
+          },
+          "tier": "C",
+          "tier_audit": {
+            "visual_verified": true,
+            "verification_scope": "source screenshots only; not local implementation fidelity",
+            "fidelity_type": "visual_spec",
+            "responsive_score": null,
+            "audit_notes": [
+              "Tier C: reference/spec, not ready-to-use code.",
+              "Source DOM measurements may describe gallery chrome, not the referenced product.",
+              "Keyboard, contrast and animation timing not certified."
+            ],
+            "evidence": [
+              "audits/source-evidence/poly-pizza-city-kit/evidence.json",
+              "previews/3d-kenney-city-kit-reference/desktop.png",
+              "previews/3d-kenney-city-kit-reference/mobile.png"
+            ],
+            "source_observations": {
+              "desktop": {
+                "viewport": {
+                  "width": 1440,
+                  "height": 900
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              },
+              "mobile": {
+                "viewport": {
+                  "width": 390,
+                  "height": 844
+                },
+                "page_horizontal_overflow": true,
+                "broken_images": []
+              }
+            }
+          },
+          "source_site": "poly.pizza",
+          "source_url": "https://poly.pizza/bundle/City-Kit-0CkvGrBJ0u",
+          "license": {
+            "status": "reference_only_not_code_license",
+            "redistribution": "No source code or original downloadable assets included; screenshots are research evidence.",
+            "asset_license": "CC0",
+            "evidence": "Public Domain (CC0) shown on source detail page; no meshes included."
+          },
+          "stack_compatibility": [
+            "framework-agnostic-spec"
+          ],
+          "style_tags": [
+            "low-poly-glb-models"
+          ]
+        }
+      ],
+      "pbr-textures-hdri": [
+        {
+          "id": "pbr-concrete049-reference",
+          "location": {
+            "quadrant": "Q3-visual-atmosphere",
+            "category": "3d-scenes-materials",
+            "section": "pbr-textures-hdri",
+            "file_path": "Q3-visual-atmosphere/3d-scenes-materials/pbr-textures-hdri/pbr-concrete049-reference.json"
+          },
+          "tier": "C",
+          "tier_audit": {
+            "visual_verified": true,
+            "verification_scope": "source screenshots only; not local implementation fidelity",
+            "fidelity_type": "visual_spec",
+            "responsive_score": null,
+            "audit_notes": [
+              "Tier C: reference/spec, not ready-to-use code.",
+              "Source DOM measurements may describe gallery chrome, not the referenced product.",
+              "Keyboard, contrast and animation timing not certified."
+            ],
+            "evidence": [
+              "audits/source-evidence/ambientcg-com-concrete049/evidence.json",
+              "previews/pbr-concrete049-reference/desktop.png",
+              "previews/pbr-concrete049-reference/mobile.png"
+            ],
+            "source_observations": {
+              "desktop": {
+                "viewport": {
+                  "width": 1440,
+                  "height": 900
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              },
+              "mobile": {
+                "viewport": {
+                  "width": 390,
+                  "height": 844
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              }
+            }
+          },
+          "source_site": "ambientcg.com",
+          "source_url": "https://ambientcg.com/view?id=Concrete049",
+          "license": {
+            "status": "reference_only_not_code_license",
+            "redistribution": "No source code or original downloadable assets included; screenshots are research evidence."
+          },
+          "stack_compatibility": [
+            "framework-agnostic-spec"
+          ],
+          "style_tags": [
+            "pbr-textures-hdri"
+          ]
+        }
+      ]
+    }
+  }
+}

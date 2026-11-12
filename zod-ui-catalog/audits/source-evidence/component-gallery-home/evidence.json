@@ -1,0 +1,1400 @@
+{
+  "site": "component.gallery",
+  "url": "https://component.gallery",
+  "captured_at": "2026-11-12T21:10:42.943847+00:00",
+  "views": {
+    "desktop": {
+      "url": "https://component.gallery/",
+      "title": "The Component Gallery",
+      "text": "The Component Gallery\nSEARCH\n^\nK\nCOMPONENTS\nDESIGN SYSTEMS\nABOUT\n60 components,\n95 design systems,\n2,671 examples.\n\nThe Component Gallery is an up-to-date repository of interface components based on examples from the world of design systems, designed to be a reference for anyone building user interfaces.\n\nCOMPONENTS\nView all\nCarousel\n\nContent slider\n\nA means of displaying multiple slides of content, one or more at a time. Navigation between slides can be controlled via swiping, scrolling, or buttons.\n\nTree view\n\nA component for displaying nested hierarchical information, such as a table of contents or directory structure.\n\nPopover\n\nAn element that pops up from another element over other content; it differs from a tooltip in that it is usually triggered via click instead of hover and can contain interactive elements.\n\nRating\n\nRatings let users see and/or set a star rating for a product or other item.\n\nAccordion\n\nArrow toggle, Collapse, Collapsible sections, Collapsible, Details, Disclosure, Expandable, Expander, ShowyHideyThing\n\nAn accordion is a vertical stack of interactive headings used to toggle the display of further information; each item can be 'collapsed' with just a short label visible or 'expanded' to show the full content.\n\nQuote\n\nPull quote, Block quote\n\nQuotes are used to display a quotation: either from a person or another outside source or to highlight a passage of the current document (a pull quote).\n\nPagination\n\nPagination is the process of splitting information over multiple pages instead of showing it all on a single page; also the name for the interface component used for navigating between these pages.\n\nTabs\n\nTabbed interface\n\nTabbed interfaces are a way of navigating between multiple panels, reducing clutter and fitting more into a smaller space.\n\nDESIGN SYSTEMS\nView all\nPolaris\nPolaris on Figma\n\nShopify\n\nTECH\nWeb Components\nFEATURES\nCode examples\nUsage guidelines\nAccessibility\nTone of voice\nElastic UI framework\nElastic UI framework on GitHub\nElastic UI framework on Figma\n\nElastic\n\nTECH\nReact\nCSS-in-JS\nFEATURES\nCode examples\nOpen source\nSainsbury's Design System\nSainsbury's Design System on Storybook\n\nTECH\nReact\nSass\nFEATURES\nUsage guidelines\nCode examples\nTone of voice\nAriakit\nAriakit on GitHub\n\nTECH\nReact\nFEATURES\nCode examples\nOpen source\nAccessibility\nSubZero\nSubZero on Storybook\nSubZero on Figma\n\nAxis Bank\n\nFEATURES\nAccessibility issues\nWeb Awesome\nWeb Awesome on GitHub\n\nTECH\nWeb Components\nFEATURES\nOpen source\nCode examples\nRed Hat design system\nRed Hat design system on GitHub\n\nTECH\nWeb Components\nFEATURES\nCode examples\nUsage guidelines\nHeroUI\nHeroUI on GitHub\n\nTECH\nReact\nTailwind CSS\nFEATURES\nCode examples\nOpen source\nThe Component Gallery\n\nThe Component Gallery is a project by Iain Bean, built with Astro, using data from Airtable, and hosted on Cloudflare Pages. Search functionality is powered by Pagefind. Screenshots were generated using this puppeteer script. The site’s CSS is generated with Tailwind. The fonts used are: Instrument Serif, Instrument Sans, and JetBrains Mono.\n\nAbout\nContribute\nChangelog",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "The Component Gallery",
+          "bounds": {
+            "x": 73,
+            "y": 0,
+            "width": 430.65625,
+            "height": 72
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgb(247, 245, 242)",
+            "gap": "normal",
+            "padding": "16px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "60 components,\n95 design systems,\n2,671 examples.",
+          "bounds": {
+            "x": 387.484375,
+            "y": 126.953125,
+            "width": 665.03125,
+            "height": 323.765625
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "107.917px",
+            "fontWeight": "400",
+            "lineHeight": "107.917px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "COMPONENTS",
+          "bounds": {
+            "x": 89,
+            "y": 707.703125,
+            "width": 141.921875,
+            "height": 32.578125
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "24.5008px",
+            "fontWeight": "400",
+            "lineHeight": "32.5861px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Carousel",
+          "bounds": {
+            "x": 89,
+            "y": 1003.84375,
+            "width": 108.125,
+            "height": 41.359375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "36.7648px",
+            "fontWeight": "400",
+            "lineHeight": "41.3604px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Tree view",
+          "bounds": {
+            "x": 412.75,
+            "y": 1003.84375,
+            "width": 116.828125,
+            "height": 41.359375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "36.7648px",
+            "fontWeight": "400",
+            "lineHeight": "41.3604px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Popover",
+          "bounds": {
+            "x": 736.5,
+            "y": 1003.828125,
+            "width": 101.296875,
+            "height": 41.359375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "36.7648px",
+            "fontWeight": "400",
+            "lineHeight": "41.3604px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Rating",
+          "bounds": {
+            "x": 1060.234375,
+            "y": 1003.84375,
+            "width": 82.46875,
+            "height": 41.359375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "36.7648px",
+            "fontWeight": "400",
+            "lineHeight": "41.3604px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Accordion",
+          "bounds": {
+            "x": 89,
+            "y": 1447.1875,
+            "width": 125.21875,
+            "height": 41.359375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "36.7648px",
+            "fontWeight": "400",
+            "lineHeight": "41.3604px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Quote",
+          "bounds": {
+            "x": 412.75,
+            "y": 1447.1875,
+            "width": 73.796875,
+            "height": 41.359375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "36.7648px",
+            "fontWeight": "400",
+            "lineHeight": "41.3604px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Pagination",
+          "bounds": {
+            "x": 736.5,
+            "y": 1447.171875,
+            "width": 135.578125,
+            "height": 41.359375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "36.7648px",
+            "fontWeight": "400",
+            "lineHeight": "41.3604px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Tabs",
+          "bounds": {
+            "x": 1060.234375,
+            "y": 1447.1875,
+            "width": 56.859375,
+            "height": 41.359375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "36.7648px",
+            "fontWeight": "400",
+            "lineHeight": "41.3604px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "DESIGN SYSTEMS",
+          "bounds": {
+            "x": 89,
+            "y": 1757.90625,
+            "width": 171.375,
+            "height": 32.578125
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "24.5008px",
+            "fontWeight": "400",
+            "lineHeight": "32.5861px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "HEADER",
+          "role": null,
+          "text": "The Component Gallery\nSEARCH\n^\nK\nCOMPONENTS\nDESIGN SYSTEMS\nABOUT",
+          "bounds": {
+            "x": 73,
+            "y": 0,
+            "width": 1294,
+            "height": 72
+          },
+          "styles": {
+            "display": "grid",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "1px",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "subgrid [] [] [] [] [] [] [] [] [] [] [] [] []"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "SEARCH\n^\nK",
+          "bounds": {
+            "x": 512.65625,
+            "y": 24,
+            "width": 146.84375,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "20px",
+            "fontWeight": "400",
+            "lineHeight": "30px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "8px",
+            "padding": "8px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 887.328125,
+            "y": 24,
+            "width": 40,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "8px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "COMPONENTS\nDESIGN SYSTEMS\nABOUT",
+          "bounds": {
+            "x": 936.328125,
+            "y": 0,
+            "width": 430.671875,
+            "height": 72
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgb(247, 245, 242)",
+            "gap": "normal",
+            "padding": "24px 16px 16px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "role": null,
+          "text": "60 components,\n95 design systems,\n2,671 examples.\n\nThe Component Gallery is an up-to-date repository of interface components based on exampl",
+          "bounds": {
+            "x": 73,
+            "y": 73,
+            "width": 1294,
+            "height": 2696.75
+          },
+          "styles": {
+            "display": "grid",
+            "position": "relative",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgb(247, 245, 242)",
+            "gap": "1px normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "subgrid [] [] [] [] [] [] [] [] [] [] [] [] []"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "The Component Gallery",
+          "href": "https://component.gallery/"
+        },
+        {
+          "text": "COMPONENTS",
+          "href": "https://component.gallery/components"
+        },
+        {
+          "text": "DESIGN SYSTEMS",
+          "href": "https://component.gallery/design-systems"
+        },
+        {
+          "text": "ABOUT",
+          "href": "https://component.gallery/about"
+        },
+        {
+          "text": "design systems",
+          "href": "https://component.gallery/design-systems"
+        },
+        {
+          "text": "View all",
+          "href": "https://component.gallery/components"
+        },
+        {
+          "text": "Carousel",
+          "href": "https://component.gallery/components/carousel"
+        },
+        {
+          "text": "Tree view",
+          "href": "https://component.gallery/components/tree-view"
+        },
+        {
+          "text": "Popover",
+          "href": "https://component.gallery/components/popover"
+        },
+        {
+          "text": "Rating",
+          "href": "https://component.gallery/components/rating"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://component.gallery/components/accordion"
+        },
+        {
+          "text": "Quote",
+          "href": "https://component.gallery/components/quote"
+        },
+        {
+          "text": "Pagination",
+          "href": "https://component.gallery/components/pagination"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://component.gallery/components/tabs"
+        },
+        {
+          "text": "View all",
+          "href": "https://component.gallery/design-systems"
+        },
+        {
+          "text": "Polaris",
+          "href": "https://shopify.dev/docs/api/app-home/web-components"
+        },
+        {
+          "text": "Polaris on Figma",
+          "href": "http://figma.com/@shopify"
+        },
+        {
+          "text": "Elastic UI framework",
+          "href": "https://eui.elastic.co/"
+        },
+        {
+          "text": "Elastic UI framework on GitHub",
+          "href": "https://github.com/elastic/eui"
+        },
+        {
+          "text": "Elastic UI framework on Figma",
+          "href": "https://www.figma.com/@elastic"
+        },
+        {
+          "text": "Sainsbury's Design System",
+          "href": "https://design-systems.sainsburys.co.uk/"
+        },
+        {
+          "text": "Sainsbury's Design System on Storybook",
+          "href": "https://sainsburys-tech.github.io/design-systems"
+        },
+        {
+          "text": "Ariakit",
+          "href": "https://ariakit.org/"
+        },
+        {
+          "text": "Ariakit on GitHub",
+          "href": "https://github.com/ariakit/ariakit"
+        },
+        {
+          "text": "SubZero",
+          "href": "https://www.subzero.axis.bank.in/"
+        },
+        {
+          "text": "SubZero on Storybook",
+          "href": "https://storybook.axis.bank.in/v2/"
+        },
+        {
+          "text": "SubZero on Figma",
+          "href": "https://www.figma.com/community/file/1192421151297647833/subzero-v-2-0-design-system"
+        },
+        {
+          "text": "Web Awesome",
+          "href": "https://webawesome.com/"
+        },
+        {
+          "text": "Web Awesome on GitHub",
+          "href": "https://github.com/shoelace-style/webawesome"
+        },
+        {
+          "text": "Red Hat design system",
+          "href": "https://ux.redhat.com/"
+        },
+        {
+          "text": "Red Hat design system on GitHub",
+          "href": "https://github.com/RedHat-UX/red-hat-design-system/"
+        },
+        {
+          "text": "HeroUI",
+          "href": "https://www.heroui.com/"
+        },
+        {
+          "text": "HeroUI on GitHub",
+          "href": "https://github.com/heroui-inc/heroui"
+        },
+        {
+          "text": "Iain Bean",
+          "href": "https://iainbean.com/"
+        },
+        {
+          "text": "Astro",
+          "href": "https://astro.build/"
+        },
+        {
+          "text": "Airtable",
+          "href": "https://airtable.com/"
+        },
+        {
+          "text": "Cloudflare Pages",
+          "href": "https://pages.cloudflare.com/"
+        },
+        {
+          "text": "Pagefind",
+          "href": "https://pagefind.app/"
+        },
+        {
+          "text": "this puppeteer script",
+          "href": "https://github.com/inbn/screenshot-urls"
+        },
+        {
+          "text": "Tailwind",
+          "href": "https://tailwindcss.com/"
+        },
+        {
+          "text": "Instrument Serif",
+          "href": "https://fonts.google.com/specimen/Instrument+Serif"
+        },
+        {
+          "text": "Instrument Sans",
+          "href": "https://fonts.google.com/specimen/Instrument+Sans"
+        },
+        {
+          "text": "JetBrains Mono",
+          "href": "https://www.jetbrains.com/lp/mono/"
+        },
+        {
+          "text": "About",
+          "href": "https://component.gallery/about"
+        },
+        {
+          "text": "Contribute",
+          "href": "https://component.gallery/contribute"
+        },
+        {
+          "text": "Changelog",
+          "href": "https://component.gallery/changelog"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--tw-ring-offset-shadow": "0 0 #0000",
+        "--tw-backdrop-sepia": "",
+        "--tw-ring-shadow": "0 0 #0000",
+        "--tw-sepia": "",
+        "--tw-ordinal": "",
+        "--tw-backdrop-saturate": "",
+        "--tw-contain-style": "",
+        "--tw-ring-inset": "",
+        "--tw-backdrop-invert": "",
+        "--color-bg-primary": "#f7f5f2",
+        "--tw-numeric-spacing": "",
+        "--tw-border-spacing-x": "0",
+        "--color-text-highlight": "#1f1d1d",
+        "--color-text-secondary": "#726f6d",
+        "--tw-brightness": "",
+        "--tw-backdrop-grayscale": "",
+        "--tw-hue-rotate": "",
+        "--tw-scale-y": "1",
+        "--tw-pan-y": "",
+        "--tw-backdrop-contrast": "",
+        "--tw-drop-shadow": "",
+        "--color-border-primary": "#ccc9c5",
+        "--tw-ring-color": "rgb(59 130 246 / .5)",
+        "--tw-backdrop-brightness": "",
+        "--fade-size": "72px",
+        "--tw-pan-x": "",
+        "--tw-translate-y": "0",
+        "--tw-rotate": "0",
+        "--tw-ring-offset-color": "#fff",
+        "--tw-contain-size": "",
+        "--tw-contrast": "",
+        "--color-bg-highlight-invert": "#1f1d1d",
+        "--color-border-highlight": "#1f1d1d",
+        "--tw-skew-x": "0",
+        "--tw-backdrop-blur": "",
+        "--tw-shadow": "0 0 #0000",
+        "--tw-translate-x": "0",
+        "--tw-ring-offset-width": "0px",
+        "--tw-gradient-via-position": "",
+        "--color-text-decoration": "#5f5d5b",
+        "--tw-saturate": "",
+        "--color-text-highlight-invert": "#f7f5f2",
+        "--tw-scroll-snap-strictness": "proximity",
+        "--tw-grayscale": "",
+        "--tw-scale-x": "1",
+        "--color-bg-highlight": "#fff",
+        "--tw-backdrop-hue-rotate": "",
+        "--grid-display-size": "calc((100vw - 9rem - 1px) / 36)",
+        "--tw-shadow-colored": "0 0 #0000",
+        "--color-gradient-highlight-2": "#343232",
+        "--tw-gradient-to-position": "",
+        "--tw-border-spacing-y": "0",
+        "--tw-numeric-fraction": "",
+        "--color-gradient-background": "#eceae6",
+        "--color-gradient-highlight-1": "#8b8885",
+        "--tw-skew-y": "0",
+        "--tw-slashed-zero": "",
+        "--tw-blur": "",
+        "--tw-invert": "",
+        "--color-text-primary": "#4a4846",
+        "--tw-backdrop-opacity": "",
+        "--tw-gradient-from-position": "",
+        "--tw-numeric-figure": "",
+        "--color-bg-secondary": "#e2dfdb",
+        "--tw-pinch-zoom": "",
+        "--tw-contain-paint": "",
+        "--tw-contain-layout": ""
+      }
+    },
+    "mobile": {
+      "url": "https://component.gallery/",
+      "title": "The Component Gallery",
+      "text": "The Component Gallery\nSEARCH\nCOMPONENTS\nDESIGN SYSTEMS\nABOUT\n60 components,\n95 design systems,\n2,671 examples.\n\nThe Component Gallery is an up-to-date repository of interface components based on examples from the world of design systems, designed to be a reference for anyone building user interfaces.\n\nCOMPONENTS\nView all\nCarousel\n\nContent slider\n\nA means of displaying multiple slides of content, one or more at a time. Navigation between slides can be controlled via swiping, scrolling, or buttons.\n\nTree view\n\nA component for displaying nested hierarchical information, such as a table of contents or directory structure.\n\nPopover\n\nAn element that pops up from another element over other content; it differs from a tooltip in that it is usually triggered via click instead of hover and can contain interactive elements.\n\nRating\n\nRatings let users see and/or set a star rating for a product or other item.\n\nAccordion\n\nArrow toggle, Collapse, Collapsible sections, Collapsible, Details, Disclosure, Expandable, Expander, ShowyHideyThing\n\nAn accordion is a vertical stack of interactive headings used to toggle the display of further information; each item can be 'collapsed' with just a short label visible or 'expanded' to show the full content.\n\nQuote\n\nPull quote, Block quote\n\nQuotes are used to display a quotation: either from a person or another outside source or to highlight a passage of the current document (a pull quote).\n\nPagination\n\nPagination is the process of splitting information over multiple pages instead of showing it all on a single page; also the name for the interface component used for navigating between these pages.\n\nTabs\n\nTabbed interface\n\nTabbed interfaces are a way of navigating between multiple panels, reducing clutter and fitting more into a smaller space.\n\nDESIGN SYSTEMS\nView all\nPolaris\nPolaris on Figma\n\nShopify\n\nTECH\nWeb Components\nFEATURES\nCode examples\nUsage guidelines\nAccessibility\nTone of voice\nElastic UI framework\nElastic UI framework on GitHub\nElastic UI framework on Figma\n\nElastic\n\nTECH\nReact\nCSS-in-JS\nFEATURES\nCode examples\nOpen source\nSainsbury's Design System\nSainsbury's Design System on Storybook\n\nTECH\nReact\nSass\nFEATURES\nUsage guidelines\nCode examples\nTone of voice\nAriakit\nAriakit on GitHub\n\nTECH\nReact\nFEATURES\nCode examples\nOpen source\nAccessibility\nSubZero\nSubZero on Storybook\nSubZero on Figma\n\nAxis Bank\n\nFEATURES\nAccessibility issues\nWeb Awesome\nWeb Awesome on GitHub\n\nTECH\nWeb Components\nFEATURES\nOpen source\nCode examples\nRed Hat design system\nRed Hat design system on GitHub\n\nTECH\nWeb Components\nFEATURES\nCode examples\nUsage guidelines\nHeroUI\nHeroUI on GitHub\n\nTECH\nReact\nTailwind CSS\nFEATURES\nCode examples\nOpen source\nThe Component Gallery\n\nThe Component Gallery is a project by Iain Bean, built with Astro, using data from Airtable, and hosted on Cloudflare Pages. Search functionality is powered by Pagefind. Screenshots were generated using this puppeteer script. The site’s CSS is generated with Tailwind. The fonts used are: Instrument Serif, Instrument Sans, and JetBrains Mono.\n\nAbout\nContribute\nChangelog",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "The Component Gallery",
+          "bounds": {
+            "x": 25,
+            "y": 0,
+            "width": 240,
+            "height": 56
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgb(247, 245, 242)",
+            "gap": "normal",
+            "padding": "16px 0px 16px 16px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "60 components,\n95 design systems,\n2,671 examples.",
+          "bounds": {
+            "x": 63.6875,
+            "y": 135.3125,
+            "width": 262.609375,
+            "height": 127.875
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "42.625px",
+            "fontWeight": "400",
+            "lineHeight": "42.625px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "COMPONENTS",
+          "bounds": {
+            "x": 41,
+            "y": 463.078125,
+            "width": 106.984375,
+            "height": 26.4375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "18.4743px",
+            "fontWeight": "400",
+            "lineHeight": "24.5708px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Carousel",
+          "bounds": {
+            "x": 41,
+            "y": 766.015625,
+            "width": 70.015625,
+            "height": 26.765625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "23.8011px",
+            "fontWeight": "400",
+            "lineHeight": "26.7763px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Tree view",
+          "bounds": {
+            "x": 41,
+            "y": 1171.53125,
+            "width": 75.65625,
+            "height": 26.765625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "23.8011px",
+            "fontWeight": "400",
+            "lineHeight": "26.7763px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Popover",
+          "bounds": {
+            "x": 41,
+            "y": 1543.484375,
+            "width": 65.59375,
+            "height": 26.765625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "23.8011px",
+            "fontWeight": "400",
+            "lineHeight": "26.7763px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Rating",
+          "bounds": {
+            "x": 41,
+            "y": 1937,
+            "width": 53.40625,
+            "height": 26.765625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "23.8011px",
+            "fontWeight": "400",
+            "lineHeight": "26.7763px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Accordion",
+          "bounds": {
+            "x": 41,
+            "y": 2287.390625,
+            "width": 81.078125,
+            "height": 26.765625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "23.8011px",
+            "fontWeight": "400",
+            "lineHeight": "26.7763px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Quote",
+          "bounds": {
+            "x": 41,
+            "y": 2779.15625,
+            "width": 47.796875,
+            "height": 26.765625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "23.8011px",
+            "fontWeight": "400",
+            "lineHeight": "26.7763px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Pagination",
+          "bounds": {
+            "x": 41,
+            "y": 3184.671875,
+            "width": 87.796875,
+            "height": 26.765625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "23.8011px",
+            "fontWeight": "400",
+            "lineHeight": "26.7763px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "Tabs",
+          "bounds": {
+            "x": 41,
+            "y": 3599.75,
+            "width": 36.828125,
+            "height": 26.765625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Serif\", \"Adjusted Georgia Fallback\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "fontSize": "23.8011px",
+            "fontWeight": "400",
+            "lineHeight": "26.7763px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "DESIGN SYSTEMS",
+          "bounds": {
+            "x": 41,
+            "y": 3761.765625,
+            "width": 129.1875,
+            "height": 26.4375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "18.4743px",
+            "fontWeight": "400",
+            "lineHeight": "24.5708px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "HEADER",
+          "role": null,
+          "text": "The Component Gallery\nSEARCH\nCOMPONENTS\nDESIGN SYSTEMS\nABOUT",
+          "bounds": {
+            "x": 25,
+            "y": 0,
+            "width": 340,
+            "height": 113
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "1px normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "subgrid"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "SEARCH",
+          "bounds": {
+            "x": 273,
+            "y": 8,
+            "width": 40,
+            "height": 40
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16.2923px",
+            "fontWeight": "400",
+            "lineHeight": "24.4385px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "8px",
+            "padding": "12px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 317,
+            "y": 8,
+            "width": 40,
+            "height": 40
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "8px",
+            "borderRadius": "8px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "NAV",
+          "role": null,
+          "text": "COMPONENTS\nDESIGN SYSTEMS\nABOUT",
+          "bounds": {
+            "x": 25,
+            "y": 57,
+            "width": 340,
+            "height": 56
+          },
+          "styles": {
+            "display": "flex",
+            "position": "relative",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgb(247, 245, 242)",
+            "gap": "normal",
+            "padding": "16px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "role": null,
+          "text": "60 components,\n95 design systems,\n2,671 examples.\n\nThe Component Gallery is an up-to-date repository of interface components based on exampl",
+          "bounds": {
+            "x": 25,
+            "y": 114,
+            "width": 340,
+            "height": 7071.734375
+          },
+          "styles": {
+            "display": "grid",
+            "position": "relative",
+            "fontFamily": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "color": "rgb(74, 72, 70)",
+            "backgroundColor": "rgb(247, 245, 242)",
+            "gap": "1px normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "subgrid [] [] [] [] [] [] [] [] [] [] [] [] []"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "The Component Gallery",
+          "href": "https://component.gallery/"
+        },
+        {
+          "text": "COMPONENTS",
+          "href": "https://component.gallery/components"
+        },
+        {
+          "text": "DESIGN SYSTEMS",
+          "href": "https://component.gallery/design-systems"
+        },
+        {
+          "text": "ABOUT",
+          "href": "https://component.gallery/about"
+        },
+        {
+          "text": "design systems",
+          "href": "https://component.gallery/design-systems"
+        },
+        {
+          "text": "View all",
+          "href": "https://component.gallery/components"
+        },
+        {
+          "text": "Carousel",
+          "href": "https://component.gallery/components/carousel"
+        },
+        {
+          "text": "Tree view",
+          "href": "https://component.gallery/components/tree-view"
+        },
+        {
+          "text": "Popover",
+          "href": "https://component.gallery/components/popover"
+        },
+        {
+          "text": "Rating",
+          "href": "https://component.gallery/components/rating"
+        },
+        {
+          "text": "Accordion",
+          "href": "https://component.gallery/components/accordion"
+        },
+        {
+          "text": "Quote",
+          "href": "https://component.gallery/components/quote"
+        },
+        {
+          "text": "Pagination",
+          "href": "https://component.gallery/components/pagination"
+        },
+        {
+          "text": "Tabs",
+          "href": "https://component.gallery/components/tabs"
+        },
+        {
+          "text": "View all",
+          "href": "https://component.gallery/design-systems"
+        },
+        {
+          "text": "Polaris",
+          "href": "https://shopify.dev/docs/api/app-home/web-components"
+        },
+        {
+          "text": "Polaris on Figma",
+          "href": "http://figma.com/@shopify"
+        },
+        {
+          "text": "Elastic UI framework",
+          "href": "https://eui.elastic.co/"
+        },
+        {
+          "text": "Elastic UI framework on GitHub",
+          "href": "https://github.com/elastic/eui"
+        },
+        {
+          "text": "Elastic UI framework on Figma",
+          "href": "https://www.figma.com/@elastic"
+        },
+        {
+          "text": "Sainsbury's Design System",
+          "href": "https://design-systems.sainsburys.co.uk/"
+        },
+        {
+          "text": "Sainsbury's Design System on Storybook",
+          "href": "https://sainsburys-tech.github.io/design-systems"
+        },
+        {
+          "text": "Ariakit",
+          "href": "https://ariakit.org/"
+        },
+        {
+          "text": "Ariakit on GitHub",
+          "href": "https://github.com/ariakit/ariakit"
+        },
+        {
+          "text": "SubZero",
+          "href": "https://www.subzero.axis.bank.in/"
+        },
+        {
+          "text": "SubZero on Storybook",
+          "href": "https://storybook.axis.bank.in/v2/"
+        },
+        {
+          "text": "SubZero on Figma",
+          "href": "https://www.figma.com/community/file/1192421151297647833/subzero-v-2-0-design-system"
+        },
+        {
+          "text": "Web Awesome",
+          "href": "https://webawesome.com/"
+        },
+        {
+          "text": "Web Awesome on GitHub",
+          "href": "https://github.com/shoelace-style/webawesome"
+        },
+        {
+          "text": "Red Hat design system",
+          "href": "https://ux.redhat.com/"
+        },
+        {
+          "text": "Red Hat design system on GitHub",
+          "href": "https://github.com/RedHat-UX/red-hat-design-system/"
+        },
+        {
+          "text": "HeroUI",
+          "href": "https://www.heroui.com/"
+        },
+        {
+          "text": "HeroUI on GitHub",
+          "href": "https://github.com/heroui-inc/heroui"
+        },
+        {
+          "text": "Iain Bean",
+          "href": "https://iainbean.com/"
+        },
+        {
+          "text": "Astro",
+          "href": "https://astro.build/"
+        },
+        {
+          "text": "Airtable",
+          "href": "https://airtable.com/"
+        },
+        {
+          "text": "Cloudflare Pages",
+          "href": "https://pages.cloudflare.com/"
+        },
+        {
+          "text": "Pagefind",
+          "href": "https://pagefind.app/"
+        },
+        {
+          "text": "this puppeteer script",
+          "href": "https://github.com/inbn/screenshot-urls"
+        },
+        {
+          "text": "Tailwind",
+          "href": "https://tailwindcss.com/"
+        },
+        {
+          "text": "Instrument Serif",
+          "href": "https://fonts.google.com/specimen/Instrument+Serif"
+        },
+        {
+          "text": "Instrument Sans",
+          "href": "https://fonts.google.com/specimen/Instrument+Sans"
+        },
+        {
+          "text": "JetBrains Mono",
+          "href": "https://www.jetbrains.com/lp/mono/"
+        },
+        {
+          "text": "About",
+          "href": "https://component.gallery/about"
+        },
+        {
+          "text": "Contribute",
+          "href": "https://component.gallery/contribute"
+        },
+        {
+          "text": "Changelog",
+          "href": "https://component.gallery/changelog"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--tw-ring-offset-shadow": "0 0 #0000",
+        "--tw-backdrop-sepia": "",
+        "--tw-ring-shadow": "0 0 #0000",
+        "--tw-sepia": "",
+        "--tw-ordinal": "",
+        "--tw-backdrop-saturate": "",
+        "--tw-contain-style": "",
+        "--tw-ring-inset": "",
+        "--tw-backdrop-invert": "",
+        "--color-bg-primary": "#f7f5f2",
+        "--tw-numeric-spacing": "",
+        "--tw-border-spacing-x": "0",
+        "--color-text-highlight": "#1f1d1d",
+        "--color-text-secondary": "#726f6d",
+        "--tw-brightness": "",
+        "--tw-backdrop-grayscale": "",
+        "--tw-hue-rotate": "",
+        "--tw-scale-y": "1",
+        "--tw-pan-y": "",
+        "--tw-backdrop-contrast": "",
+        "--tw-drop-shadow": "",
+        "--color-border-primary": "#ccc9c5",
+        "--tw-ring-color": "rgb(59 130 246 / .5)",
+        "--tw-backdrop-brightness": "",
+        "--fade-size": "24px",
+        "--tw-pan-x": "",
+        "--tw-translate-y": "0",
+        "--tw-rotate": "0",
+        "--tw-ring-offset-color": "#fff",
+        "--tw-contain-size": "",
+        "--tw-contrast": "",
+        "--color-bg-highlight-invert": "#1f1d1d",
+        "--color-border-highlight": "#1f1d1d",
+        "--tw-skew-x": "0",
+        "--tw-backdrop-blur": "",
+        "--tw-shadow": "0 0 #0000",
+        "--tw-translate-x": "0",
+        "--tw-ring-offset-width": "0px",
+        "--tw-gradient-via-position": "",
+        "--color-text-decoration": "#5f5d5b",
+        "--tw-saturate": "",
+        "--color-text-highlight-invert": "#f7f5f2",
+        "--tw-scroll-snap-strictness": "proximity",
+        "--tw-grayscale": "",
+        "--tw-scale-x": "1",
+        "--color-bg-highlight": "#fff",
+        "--tw-backdrop-hue-rotate": "",
+        "--grid-display-size": "calc((100vw - 3rem - 1px) / 24)",
+        "--tw-shadow-colored": "0 0 #0000",
+        "--color-gradient-highlight-2": "#343232",
+        "--tw-gradient-to-position": "",
+        "--tw-border-spacing-y": "0",
+        "--tw-numeric-fraction": "",
+        "--color-gradient-background": "#eceae6",
+        "--color-gradient-highlight-1": "#8b8885",
+        "--tw-skew-y": "0",
+        "--tw-slashed-zero": "",
+        "--tw-blur": "",
+        "--tw-invert": "",
+        "--color-text-primary": "#4a4846",
+        "--tw-backdrop-opacity": "",
+        "--tw-gradient-from-position": "",
+        "--tw-numeric-figure": "",
+        "--color-bg-secondary": "#e2dfdb",
+        "--tw-pinch-zoom": "",
+        "--tw-contain-paint": "",
+        "--tw-contain-layout": ""
+      }
+    }
+  },
+  "scope": "public source reference; not a locally reconstructed component",
+  "http_status": 200,
+  "page_errors": []
+}

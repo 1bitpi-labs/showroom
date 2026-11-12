@@ -1,0 +1,72 @@
+{
+  "id": "pbr-concrete049-reference",
+  "location": {
+    "quadrant": "Q3-visual-atmosphere",
+    "category": "3d-scenes-materials",
+    "section": "pbr-textures-hdri",
+    "file_path": "Q3-visual-atmosphere/3d-scenes-materials/pbr-textures-hdri/pbr-concrete049-reference.json"
+  },
+  "tier": "C",
+  "tier_audit": {
+    "visual_verified": true,
+    "verification_scope": "source screenshots only; not local implementation fidelity",
+    "fidelity_type": "visual_spec",
+    "responsive_score": null,
+    "audit_notes": [
+      "Tier C: reference/spec, not ready-to-use code.",
+      "Source DOM measurements may describe gallery chrome, not the referenced product.",
+      "Keyboard, contrast and animation timing not certified."
+    ],
+    "evidence": [
+      "audits/source-evidence/ambientcg-com-concrete049/evidence.json",
+      "previews/pbr-concrete049-reference/desktop.png",
+      "previews/pbr-concrete049-reference/mobile.png"
+    ],
+    "source_observations": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "page_horizontal_overflow": false,
+        "broken_images": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "page_horizontal_overflow": false,
+        "broken_images": []
+      }
+    }
+  },
+  "source_site": "ambientcg.com",
+  "source_url": "https://ambientcg.com/view?id=Concrete049",
+  "license": {
+    "status": "reference_only_not_code_license",
+    "redistribution": "No source code or original downloadable assets included; screenshots are research evidence."
+  },
+  "stack_compatibility": [
+    "framework-agnostic-spec"
+  ],
+  "style_tags": [
+    "pbr-textures-hdri"
+  ],
+  "artifact": {
+    "type": "visual_spec",
+    "spec": "Referência do material Concrete049. Selecionar resolução e conferir mapas albedo/normal/roughness antes de integração; este item é ficha visual e não contém texturas nem um material PBR renderizado localmente.",
+    "observed_headings": [
+      "Concrete 049\n "
+    ],
+    "source_dom_evidence": "audits/source-evidence/ambientcg-com-concrete049/evidence.json",
+    "states": {
+      "desktop": "captured",
+      "mobile": "captured",
+      "hover": "not audited",
+      "focus": "not audited",
+      "active": "not audited",
+      "disabled": "not audited"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "3d-kenney-city-kit-reference",
+  "location": {
+    "quadrant": "Q3-visual-atmosphere",
+    "category": "3d-scenes-materials",
+    "section": "low-poly-glb-models",
+    "file_path": "Q3-visual-atmosphere/3d-scenes-materials/low-poly-glb-models/3d-kenney-city-kit-reference.json"
+  },
+  "tier": "C",
+  "tier_audit": {
+    "visual_verified": true,
+    "verification_scope": "source screenshots only; not local implementation fidelity",
+    "fidelity_type": "visual_spec",
+    "responsive_score": null,
+    "audit_notes": [
+      "Tier C: reference/spec, not ready-to-use code.",
+      "Source DOM measurements may describe gallery chrome, not the referenced product.",
+      "Keyboard, contrast and animation timing not certified."
+    ],
+    "evidence": [
+      "audits/source-evidence/poly-pizza-city-kit/evidence.json",
+      "previews/3d-kenney-city-kit-reference/desktop.png",
+      "previews/3d-kenney-city-kit-reference/mobile.png"
+    ],
+    "source_observations": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "page_horizontal_overflow": false,
+        "broken_images": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "page_horizontal_overflow": true,
+        "broken_images": []
+      }
+    }
+  },
+  "source_site": "poly.pizza",
+  "source_url": "https://poly.pizza/bundle/City-Kit-0CkvGrBJ0u",
+  "license": {
+    "status": "reference_only_not_code_license",
+    "redistribution": "No source code or original downloadable assets included; screenshots are research evidence.",
+    "asset_license": "CC0",
+    "evidence": "Public Domain (CC0) shown on source detail page; no meshes included."
+  },
+  "stack_compatibility": [
+    "framework-agnostic-spec"
+  ],
+  "style_tags": [
+    "low-poly-glb-models"
+  ],
+  "artifact": {
+    "type": "visual_spec",
+    "spec": "City Kit de Kenney: conjunto de edifícios low-poly com 31 modelos, disponibilizado como CC0 na ficha. Downloads GLTF/FBX anunciados; meshes e integração WebGL não foram baixados ou auditados. Overflow da página da galeria não demonstra defeito do modelo.",
+    "observed_headings": [
+      "City Kit",
+      "Kenney"
+    ],
+    "source_dom_evidence": "audits/source-evidence/poly-pizza-city-kit/evidence.json",
+    "states": {
+      "desktop": "captured",
+      "mobile": "captured",
+      "hover": "not audited",
+      "focus": "not audited",
+      "active": "not audited",
+      "disabled": "not audited"
+    }
+  }
+}

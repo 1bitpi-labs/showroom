@@ -288,3 +288,7 @@ Sistema Operacional para marinas, oficinas náuticas e serviços técnicos de al
 - Esteira de 4 visões: WhatsApp (390px), Portal do Cliente com Gêmeo Digital SVG interativo e laudo pericial (390px), Tablet do Mecânico no Píer (768px) e Balcão/Command Center com telemetria de maré/canal e presença ativa (1440px).
 - Aprovação em 1 clique com trava imutável \`v1-approved\` e liquidação de sinal Pix de 30% (EMVCo BR Code).
 - Arquitetura autônoma (HTML5/CSS3/JavaScript vanilla puro), 110 design tokens W3C DTCG sem hex soltos, WCAG 2.2 AA (touch target de 44px) e 19 testes automatizados determinísticos (100% green).
+
+## Zod UI — catálogo e skills de interface
+
+O [catálogo Zod UI](zod-ui-catalog/README.md) reúne código licenciado e referências visuais com evidências. O [guia operacional](zod-ui-catalog/docs/OPERATING-GUIDE.md) explica a extração/auditoria com [zod-ui-cataloger](.claude/skills/zod-ui-cataloger/SKILL.md), a busca/curadoria com [zod-ui-architect](.claude/skills/zod-ui-architect/SKILL.md), a taxonomia, os artefatos e a reutilização em outros projetos.

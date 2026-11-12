@@ -1,0 +1,76 @@
+{
+  "id": "blueprint-bem-automation",
+  "location": {
+    "quadrant": "Q1-structure-nav",
+    "category": "page-blueprints",
+    "section": "ai-product-launch",
+    "file_path": "Q1-structure-nav/page-blueprints/ai-product-launch/blueprint-bem-automation.json"
+  },
+  "tier": "C",
+  "tier_audit": {
+    "visual_verified": true,
+    "verification_scope": "source screenshots only; not local implementation fidelity",
+    "fidelity_type": "visual_spec",
+    "responsive_score": null,
+    "audit_notes": [
+      "Tier C: reference/spec, not ready-to-use code.",
+      "Source DOM measurements may describe gallery chrome, not the referenced product.",
+      "Keyboard, contrast and animation timing not certified."
+    ],
+    "evidence": [
+      "audits/source-evidence/landdding-com-bem/evidence.json",
+      "previews/blueprint-bem-automation/desktop.png",
+      "previews/blueprint-bem-automation/mobile.png"
+    ],
+    "source_observations": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "page_horizontal_overflow": false,
+        "broken_images": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "page_horizontal_overflow": false,
+        "broken_images": []
+      }
+    }
+  },
+  "source_site": "landdding.com",
+  "source_url": "https://landdding.com/l/bem-ai-71b59971",
+  "license": {
+    "status": "reference_only_not_code_license",
+    "redistribution": "No source code or original downloadable assets included; screenshots are research evidence."
+  },
+  "stack_compatibility": [
+    "framework-agnostic-spec"
+  ],
+  "style_tags": [
+    "ai-product-launch"
+  ],
+  "artifact": {
+    "type": "visual_spec",
+    "spec": "Referência de apresentação de produto de automação de trabalho. Usar hierarquia visual das imagens da ficha; métricas DOM pertencem à galeria, não ao site bem.ai. Não há código de origem do produto.",
+    "observed_headings": [
+      "bem | Structured work automation for critical industries",
+      "Feedback",
+      "About this design",
+      "You might also like",
+      "Built something beautiful? Let designers find it."
+    ],
+    "source_dom_evidence": "audits/source-evidence/landdding-com-bem/evidence.json",
+    "states": {
+      "desktop": "captured",
+      "mobile": "captured",
+      "hover": "not audited",
+      "focus": "not audited",
+      "active": "not audited",
+      "disabled": "not audited"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "quadrant": "Q2-conversion-content",
+    "category": "pricing-proof",
+    "section": "status-badges"
+  },
+  {
+    "quadrant": "Q2-conversion-content",
+    "category": "forms-overlays",
+    "section": "authentication-cards"
+  },
+  {
+    "quadrant": "Q2-conversion-content",
+    "category": "forms-overlays",
+    "section": "text-inputs"
+  },
+  {
+    "quadrant": "Q4-ux-motion",
+    "category": "micro-interactions",
+    "section": "toggle-controls"
+  },
+  {
+    "quadrant": "Q4-ux-motion",
+    "category": "micro-interactions",
+    "section": "progress-feedback"
+  },
+  {
+    "quadrant": "Q4-ux-motion",
+    "category": "micro-interactions",
+    "section": "range-controls"
+  }
+]

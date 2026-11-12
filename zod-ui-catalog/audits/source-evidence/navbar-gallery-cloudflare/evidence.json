@@ -1,0 +1,388 @@
+{
+  "site": "navbar.gallery",
+  "url": "https://www.navbar.gallery/navbar/cloudflare",
+  "captured_at": "2026-11-12T21:11:32.567779+00:00",
+  "views": {
+    "desktop": {
+      "url": "https://www.navbar.gallery/navbar/cloudflare",
+      "title": "Cloudflare Mega Menu Navigation Design – Navbar Gallery",
+      "text": "Navbar Gallery\n\nAll Types\n\nStatic\n\nDropdown\n\nMega Menu\n\nSide Bar\n\nSearch Bar\n\nAnnouncement\n\nFull Screen\n\nBreadcrumbs\n\nCloudflare\n\nOne platform for your apps, agents, and workforce. Build, secure, and scale without managing infrastructure.\n\nVisit Website\n\nDesigned by\n\nCloudflare\n\nSubmitted by\n\nChristina Liubynska\n\nNavbar Type\n\nMega Menu\n\nWebsite Type\n\nSaaS\nMobile view",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Cloudflare",
+          "bounds": {
+            "x": 342.546875,
+            "y": 663.796875,
+            "width": 177.6875,
+            "height": 46
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Neuemontreal, Arial, sans-serif",
+            "fontSize": "40px",
+            "fontWeight": "400",
+            "lineHeight": "46px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Navbar Gallery\n\nAll Types\n\nStatic\n\nDropdown\n\nMega Menu\n\nSide Bar\n\nSearch Bar\n\nAnnouncement\n\nFull Screen\n\nBreadcrumbs\n\nCloudflare\n\nOne platfo",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 1319.65625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Neuemontreal, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.6px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "Navbar Gallery",
+          "href": "https://www.navbar.gallery/"
+        },
+        {
+          "text": "All Types",
+          "href": "https://www.navbar.gallery/browse"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/type/static"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/type/dropdowns"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/type/mega-menu"
+        },
+        {
+          "text": "Find out more\n\n",
+          "href": "https://www.navbar.gallery/blog/what-is-a-mega-menu"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/type/side-bar"
+        },
+        {
+          "text": "Find out more\n\n",
+          "href": "https://www.navbar.gallery/blog/sidebar-navigation"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/type/search-bar"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/type/announcement"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/type/full-screen"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/type/breadcrumbs"
+        },
+        {
+          "text": "",
+          "href": "https://dub.sh/navbar-mobbin?ref=navbar.gallery"
+        },
+        {
+          "text": "Subscribe",
+          "href": "https://suupercharged.substack.com/subscribe?ref=navbar.gallery"
+        },
+        {
+          "text": "Twitter",
+          "href": "https://twitter.com/navbargallery?ref=navbar.gallery"
+        },
+        {
+          "text": "Blog",
+          "href": "https://www.navbar.gallery/blog"
+        },
+        {
+          "text": "",
+          "href": "https://dub.sh/navbar-mobbin?ref=navbar.gallery"
+        },
+        {
+          "text": "\n  \n",
+          "href": "https://twitter.com/navbargallery?ref=navbar.gallery"
+        },
+        {
+          "text": "\n  \n  \n  \n",
+          "href": "https://twitter.com/navbargallery?ref=navbar.gallery"
+        },
+        {
+          "text": "Visit Website",
+          "href": "https://www.cloudflare.com/?ref=navbar.gallery"
+        },
+        {
+          "text": "Cloudflare",
+          "href": "https://www.cloudflare.com/?ref=navbar.gallery"
+        },
+        {
+          "text": "Christina Liubynska",
+          "href": "https://www.supercharged.design/?ref=navbar.gallery"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/navbar/cloudflare#"
+        },
+        {
+          "text": "Mega Menu",
+          "href": "https://www.navbar.gallery/navbar/cloudflare#"
+        },
+        {
+          "text": "SaaS",
+          "href": "https://www.navbar.gallery/style/saas"
+        },
+        {
+          "text": "\n  \n  \nBuilt with Webflow",
+          "href": "https://webflow.com/?ref=navbar.gallery"
+        },
+        {
+          "text": "\n\nBuilt with Framer\n  \n  \n",
+          "href": "https://framer.link/supercharged?ref=navbar.gallery"
+        },
+        {
+          "text": "",
+          "href": "https://dub.sh/navbar-mobbin?ref=navbar.gallery"
+        },
+        {
+          "text": "Sponsored by Mobbin",
+          "href": "https://dub.sh/navbar-mobbin?ref=navbar.gallery"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--grey": "#292929",
+        "--text-white": "#f5f5f5",
+        "--white": "white",
+        "--black": "#111"
+      }
+    },
+    "mobile": {
+      "url": "https://www.navbar.gallery/navbar/cloudflare",
+      "title": "Cloudflare Mega Menu Navigation Design – Navbar Gallery",
+      "text": "Navbar Gallery\nDesktop view\nMobile view\nCloudflare\n\nOne platform for your apps, agents, and workforce. Build, secure, and scale without managing infrastructure.\n\nVisit Website\n\nDesigned by\n\nCloudflare\n\nSubmitted by\n\nChristina Liubynska\n\nNavbar Type\n\nMega Menu\n\nWebsite Type\n\nSaaS",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Cloudflare",
+          "bounds": {
+            "x": 83.1875,
+            "y": 120.765625,
+            "width": 142.15625,
+            "height": 36.796875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Neuemontreal, Arial, sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "400",
+            "lineHeight": "36.8px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Navbar Gallery\nDesktop view\nMobile view\nCloudflare\n\nOne platform for your apps, agents, and workforce. Build, secure, and scale without mana",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 1958.921875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Neuemontreal, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.6px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "Navbar Gallery",
+          "href": "https://www.navbar.gallery/"
+        },
+        {
+          "text": "\n  \n    \n    \n    \n    \n    \n    \n    \n    \n  \n  \n    \n      \n      \n ",
+          "href": "https://www.navbar.gallery/browse"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/type/static"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/type/dropdowns"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/type/mega-menu"
+        },
+        {
+          "text": "Find out more\n\n",
+          "href": "https://www.navbar.gallery/blog/what-is-a-mega-menu"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/type/side-bar"
+        },
+        {
+          "text": "Find out more\n\n",
+          "href": "https://www.navbar.gallery/blog/sidebar-navigation"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/type/search-bar"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/type/announcement"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/type/full-screen"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/type/breadcrumbs"
+        },
+        {
+          "text": "",
+          "href": "https://dub.sh/navbar-mobbin?ref=navbar.gallery"
+        },
+        {
+          "text": "Subscribe",
+          "href": "https://suupercharged.substack.com/subscribe?ref=navbar.gallery"
+        },
+        {
+          "text": "Twitter",
+          "href": "https://twitter.com/navbargallery?ref=navbar.gallery"
+        },
+        {
+          "text": "Blog",
+          "href": "https://www.navbar.gallery/blog"
+        },
+        {
+          "text": "Sponsored by Mobbin",
+          "href": "https://dub.sh/navbar-mobbin?ref=navbar.gallery"
+        },
+        {
+          "text": "\n  \n",
+          "href": "https://twitter.com/navbargallery?ref=navbar.gallery"
+        },
+        {
+          "text": "\n  \n  \n  \n",
+          "href": "https://twitter.com/navbargallery?ref=navbar.gallery"
+        },
+        {
+          "text": "Visit Website",
+          "href": "https://www.cloudflare.com/?ref=navbar.gallery"
+        },
+        {
+          "text": "Cloudflare",
+          "href": "https://www.cloudflare.com/?ref=navbar.gallery"
+        },
+        {
+          "text": "Christina Liubynska",
+          "href": "https://www.supercharged.design/?ref=navbar.gallery"
+        },
+        {
+          "text": "",
+          "href": "https://www.navbar.gallery/navbar/cloudflare#"
+        },
+        {
+          "text": "Mega Menu",
+          "href": "https://www.navbar.gallery/navbar/cloudflare#"
+        },
+        {
+          "text": "SaaS",
+          "href": "https://www.navbar.gallery/style/saas"
+        },
+        {
+          "text": "\n  \n  \nBuilt with Webflow",
+          "href": "https://webflow.com/?ref=navbar.gallery"
+        },
+        {
+          "text": "\n\nBuilt with Framer\n  \n  \n",
+          "href": "https://framer.link/supercharged?ref=navbar.gallery"
+        },
+        {
+          "text": "",
+          "href": "https://dub.sh/navbar-mobbin?ref=navbar.gallery"
+        },
+        {
+          "text": "",
+          "href": "https://dub.sh/navbar-mobbin?ref=navbar.gallery"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--grey": "#292929",
+        "--text-white": "#f5f5f5",
+        "--white": "white",
+        "--black": "#111"
+      }
+    }
+  },
+  "scope": "public source reference; not a locally reconstructed component",
+  "http_status": 200,
+  "page_errors": []
+}

@@ -1,0 +1,72 @@
+{
+  "id": "navbar-cloudflare-mega-menu",
+  "location": {
+    "quadrant": "Q1-structure-nav",
+    "category": "navbars",
+    "section": "mega-menu-enterprise",
+    "file_path": "Q1-structure-nav/navbars/mega-menu-enterprise/navbar-cloudflare-mega-menu.json"
+  },
+  "tier": "C",
+  "tier_audit": {
+    "visual_verified": true,
+    "verification_scope": "source screenshots only; not local implementation fidelity",
+    "fidelity_type": "visual_spec",
+    "responsive_score": null,
+    "audit_notes": [
+      "Tier C: reference/spec, not ready-to-use code.",
+      "Source DOM measurements may describe gallery chrome, not the referenced product.",
+      "Keyboard, contrast and animation timing not certified."
+    ],
+    "evidence": [
+      "audits/source-evidence/navbar-gallery-cloudflare/evidence.json",
+      "previews/navbar-cloudflare-mega-menu/desktop.png",
+      "previews/navbar-cloudflare-mega-menu/mobile.png"
+    ],
+    "source_observations": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "page_horizontal_overflow": false,
+        "broken_images": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "page_horizontal_overflow": false,
+        "broken_images": []
+      }
+    }
+  },
+  "source_site": "navbar.gallery",
+  "source_url": "https://www.navbar.gallery/navbar/cloudflare",
+  "license": {
+    "status": "reference_only_not_code_license",
+    "redistribution": "No source code or original downloadable assets included; screenshots are research evidence."
+  },
+  "stack_compatibility": [
+    "framework-agnostic-spec"
+  ],
+  "style_tags": [
+    "mega-menu-enterprise"
+  ],
+  "artifact": {
+    "type": "visual_spec",
+    "spec": "Menu amplo de produtos organizado em seis colunas, rodapé de atalhos e navegação mobile em lista. As capturas são referências estáticas: abertura, fechamento, foco e teclado precisam de implementação própria.",
+    "observed_headings": [
+      "Cloudflare"
+    ],
+    "source_dom_evidence": "audits/source-evidence/navbar-gallery-cloudflare/evidence.json",
+    "states": {
+      "desktop": "captured",
+      "mobile": "captured",
+      "hover": "not audited",
+      "focus": "not audited",
+      "active": "not audited",
+      "disabled": "not audited"
+    }
+  }
+}

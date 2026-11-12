@@ -1,0 +1,72 @@
+{
+  "id": "navbar-supaste-static",
+  "location": {
+    "quadrant": "Q1-structure-nav",
+    "category": "navbars",
+    "section": "minimal-sticky",
+    "file_path": "Q1-structure-nav/navbars/minimal-sticky/navbar-supaste-static.json"
+  },
+  "tier": "C",
+  "tier_audit": {
+    "visual_verified": true,
+    "verification_scope": "source screenshots only; not local implementation fidelity",
+    "fidelity_type": "visual_spec",
+    "responsive_score": null,
+    "audit_notes": [
+      "Tier C: reference/spec, not ready-to-use code.",
+      "Source DOM measurements may describe gallery chrome, not the referenced product.",
+      "Keyboard, contrast and animation timing not certified."
+    ],
+    "evidence": [
+      "audits/source-evidence/navbar-gallery-supaste/evidence.json",
+      "previews/navbar-supaste-static/desktop.png",
+      "previews/navbar-supaste-static/mobile.png"
+    ],
+    "source_observations": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "page_horizontal_overflow": false,
+        "broken_images": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "page_horizontal_overflow": false,
+        "broken_images": []
+      }
+    }
+  },
+  "source_site": "navbar.gallery",
+  "source_url": "https://www.navbar.gallery/navbar/supaste",
+  "license": {
+    "status": "reference_only_not_code_license",
+    "redistribution": "No source code or original downloadable assets included; screenshots are research evidence."
+  },
+  "stack_compatibility": [
+    "framework-agnostic-spec"
+  ],
+  "style_tags": [
+    "minimal-sticky"
+  ],
+  "artifact": {
+    "type": "visual_spec",
+    "spec": "Barra horizontal de marca e links em desktop, com referência mobile separada. O tipo Static vem da galeria; sticky não foi comprovado e deve ser decisão da implementação.",
+    "observed_headings": [
+      "Supaste"
+    ],
+    "source_dom_evidence": "audits/source-evidence/navbar-gallery-supaste/evidence.json",
+    "states": {
+      "desktop": "captured",
+      "mobile": "captured",
+      "hover": "not audited",
+      "focus": "not audited",
+      "active": "not audited",
+      "disabled": "not audited"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "desktop": {
+    "http_status": 200,
+    "horizontal_overflow": false,
+    "errors": []
+  },
+  "mobile": {
+    "http_status": 200,
+    "horizontal_overflow": false,
+    "errors": []
+  }
+}

@@ -1,0 +1,1582 @@
+{
+  "site": "fffuel.co",
+  "url": "https://fffuel.co",
+  "captured_at": "2026-11-12T21:10:26.045911+00:00",
+  "views": {
+    "desktop": {
+      "url": "https://www.fffuel.co/",
+      "title": "Free SVG generators, color tools & web design tools",
+      "text": "🔥 Syntax - Web Development Podcast\ncccolor\ncolor picker\npppalette\ncolor palette generator\nhhhue\ncurated color palettes\nssshape\nSVG blobs\nllline\nSVG lines\ndddepth\nAI-generated 3D shapes\nsssvg\nSVG reference\nCSS Selectors\nA Visual Guide\nSVG Spinners\nHow to make them\naaabstract\nabstract backgrounds\nrrrepeat\nrepeating SVG shapes\nwwwatercolor\nwatercolor backgrounds\nhhholographic\nholographic backgrounds\nnnnoise\nnoise texture generator\nffflux\nfluid SVG gradients\ntttexture\ngrunge textures\nmmmotif\nIsometric SVG patterns\ngggrain\ngrainy gradient generator\nnnneon\nglowing SVG shapes\nccclaymoji\nemoji maker\niiisometric\nisometric design builder\nsssurf\nSVG wave generator\nqqquad\ngenerative patterns\ndddraw\nfreehand SVG drawing tool\npppointed\nSVG arrow maker\nuuunion\nmesh-like gradients\nbbblurry\nblurry background shapes\nuuundulate\nmake some SVG ripples\nccchaos\nwild wavy SVG shapes\noooscillate\ncurvy line patterns\nffflurry\nmake it rain, SVG-style\ncccoil\nSVG spiral waves\nssspiral\nSVG spiral patterns\ncccircular\nSVG gradient circle patterns\nrrreplicate\nSVG line pattern generator\ntttwinkle\nbursting line patterns\nssscales\ngradient SVG patterns\nrrrainbow\ncolorful background patterns\nttten\n10 Print-inspired pattern generator\nssscribble\nmake SVG scribbles\npppixelate\npixel art patterns\nsssquiggly\nwavy line patterns\nooorganize\nSVG grid patterns\nvvvortex\nspinning circle patterns\ngggyrate\nspinning geometric patterns\ncccloud\ncloud SVGs\nssstar\nstar SVGs\nlllove\nheart SVGs\nllleaves\norganic SVG backgrounds\nggglitch\nglitchy shapes\nppperspective\nshapes that vanish\nsssurface\nSVG circles that feel 3D\nhhhorizon\nCyberpunk-style backgrounds\nsssplatter\nmake funky SVG shapes\nssspill\ngenerate melting SVGs\nssspot\norganic speck patterns\nwwwhirl\ntwisting line patterns\nrrreflection\nSVG circle patterns\nbbburst\nconfetti generator\ndddynamite\ndecorative SVG shapes\ndddivided\nsplit SVG shapes\nlllook\nfun line icons\ndddoodle\nhand-drawn doodles\npppsychedelic\npsychedelic backgrounds\nrrrasterize\nconvert SVG to PNG\neeencode\nencode SVG to Base64\nrrready?\nsupport chart for web features\nfffuel is a collection of color tools and free SVG generators for gradients, patterns, textures, shapes & backgrounds\n\n🚀 On fffuel you'll find a collection of free SVG makers to create cool backgrounds, seamless patterns, gradients, textures, shapes and blobs. Use the generated vector patterns directly on the web or in your favorite design app.\n\n🤹‍♂️ The SVG and graphic creation tools on fffuel allow you to easily customize the final result so that the generated graphics are unique and fit with the rest of your design seamlessly.\n\n✨ SVG stands for Scalable Vector Graphics and using SVGs on the web offers many benefits. For example, SVGs can be scaled to any size without ever losing visual quality, they can be edited later-on by tweaking the underlining markup and they can often be more lightweight than images that have been saved to a raster format like PNG or JPEG.\n\n🔧 If you need to convert the generated SVGs over to PNG, you can use the SVG to PNG conversion tool.\n\n🖼️ If you want to use the SVGs as background patterns, you can use the base64 encoder so that you can add the background images inline in your CSS.\n\n🎨 Plus, I've also created some tools to help with converting color codes or picking great colors for your designs. For example, try out the color picker or the color palette generator.\n\n©2024 Sentry.io / Syntax.fm\n⟡ \nprivacy ⟡ terms ⟡ license",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "cccolor\ncolor picker",
+          "bounds": {
+            "x": 52.96875,
+            "y": 164.96875,
+            "width": 131.375,
+            "height": 43.390625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "36px",
+            "fontWeight": "500",
+            "lineHeight": "21.6px",
+            "color": "rgb(0, 33, 72)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "pppalette\ncolor palette generator",
+          "bounds": {
+            "x": 241.328125,
+            "y": 154.0625,
+            "width": 189.328125,
+            "height": 65.1875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "36px",
+            "fontWeight": "500",
+            "lineHeight": "21.6px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "hhhue\ncurated color palettes",
+          "bounds": {
+            "x": 458.65625,
+            "y": 154.0625,
+            "width": 189.328125,
+            "height": 65.1875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "36px",
+            "fontWeight": "500",
+            "lineHeight": "21.6px",
+            "color": "rgb(0, 71, 188)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "ssshape\nSVG blobs",
+          "bounds": {
+            "x": 46.796875,
+            "y": 390.296875,
+            "width": 143.71875,
+            "height": 43.390625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "36px",
+            "fontWeight": "500",
+            "lineHeight": "21.6px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "llline\nSVG lines",
+          "bounds": {
+            "x": 295.96875,
+            "y": 390.296875,
+            "width": 80.03125,
+            "height": 43.390625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "36px",
+            "fontWeight": "500",
+            "lineHeight": "21.6px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "dddepth\nAI-generated 3D shapes",
+          "bounds": {
+            "x": 458.65625,
+            "y": 379.390625,
+            "width": 189.328125,
+            "height": 65.1875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "36px",
+            "fontWeight": "500",
+            "lineHeight": "21.6px",
+            "color": "rgb(77, 54, 76)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "sssvg\nSVG reference",
+          "bounds": {
+            "x": 57.453125,
+            "y": 615.625,
+            "width": 122.40625,
+            "height": 43.390625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "36px",
+            "fontWeight": "500",
+            "lineHeight": "21.6px",
+            "color": "rgb(95, 61, 143)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "CSS Selectors\nA Visual Guide",
+          "bounds": {
+            "x": 241.328125,
+            "y": 604.828125,
+            "width": 189.328125,
+            "height": 64.984375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "36px",
+            "fontWeight": "500",
+            "lineHeight": "21.6px",
+            "color": "rgb(95, 61, 143)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "SVG Spinners\nHow to make them",
+          "bounds": {
+            "x": 458.65625,
+            "y": 604.828125,
+            "width": 189.328125,
+            "height": 64.984375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "36px",
+            "fontWeight": "500",
+            "lineHeight": "21.6px",
+            "color": "rgb(95, 61, 143)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "aaabstract\nabstract backgrounds",
+          "bounds": {
+            "x": 23,
+            "y": 830.046875,
+            "width": 191.328125,
+            "height": 65.1875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "36px",
+            "fontWeight": "500",
+            "lineHeight": "21.6px",
+            "color": "rgb(100, 73, 113)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "rrrepeat\nrepeating SVG shapes",
+          "bounds": {
+            "x": 241.328125,
+            "y": 830.046875,
+            "width": 189.328125,
+            "height": 65.1875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "36px",
+            "fontWeight": "500",
+            "lineHeight": "21.6px",
+            "color": "rgb(100, 73, 113)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "wwwatercolor\nwatercolor backgrounds",
+          "bounds": {
+            "x": 451.734375,
+            "y": 834.84375,
+            "width": 203.1875,
+            "height": 55.59375
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "30px",
+            "fontWeight": "500",
+            "lineHeight": "18px",
+            "color": "rgb(216, 94, 142)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "HEADER",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 0,
+            "y": 60,
+            "width": 1440,
+            "height": 8
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "lineHeight": "33px",
+            "color": "rgb(79, 50, 118)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px 8px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "cccolor\ncolor picker\npppalette\ncolor palette generator\nhhhue\ncurated color palettes\nssshape\nSVG blobs\nllline\nSVG lines\ndddepth\nAI-generated ",
+          "bounds": {
+            "x": 0,
+            "y": 68,
+            "width": 672,
+            "height": 5194.546875
+          },
+          "styles": {
+            "display": "grid",
+            "position": "relative",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "22px",
+            "fontWeight": "500",
+            "lineHeight": "33px",
+            "color": "rgb(79, 50, 118)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "20px 12px",
+            "padding": "16px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "205.328px 205.328px 205.328px"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "fffuel is a collection of color tools and free SVG generators for gradients, patterns, textures, shapes & backgrounds",
+          "bounds": {
+            "x": 784,
+            "y": 164,
+            "width": 576,
+            "height": 160
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "lineHeight": "33px",
+            "color": "rgb(119, 77, 179)",
+            "backgroundColor": "rgb(247, 244, 250)",
+            "gap": "normal",
+            "padding": "32px 24px",
+            "borderRadius": "24px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "Syntax - Web Development Podcast",
+          "href": "https://syntax.fm/"
+        },
+        {
+          "text": "cccolor\ncolor picker",
+          "href": "https://www.fffuel.co/cccolor/"
+        },
+        {
+          "text": "pppalette\ncolor palette generator",
+          "href": "https://www.fffuel.co/pppalette/"
+        },
+        {
+          "text": "hhhue\ncurated color palettes",
+          "href": "https://www.fffuel.co/hhhue/"
+        },
+        {
+          "text": "ssshape\nSVG blobs",
+          "href": "https://www.fffuel.co/ssshape/"
+        },
+        {
+          "text": "llline\nSVG lines",
+          "href": "https://www.fffuel.co/llline/"
+        },
+        {
+          "text": "dddepth\nAI-generated 3D shapes",
+          "href": "https://www.fffuel.co/dddepth/"
+        },
+        {
+          "text": "sssvg\nSVG reference",
+          "href": "https://www.fffuel.co/sssvg/"
+        },
+        {
+          "text": "CSS Selectors\nA Visual Guide",
+          "href": "https://www.fffuel.co/css-selectors/"
+        },
+        {
+          "text": "SVG Spinners\nHow to make them",
+          "href": "https://www.fffuel.co/svg-spinner/"
+        },
+        {
+          "text": "aaabstract\nabstract backgrounds",
+          "href": "https://www.fffuel.co/aaabstract/"
+        },
+        {
+          "text": "rrrepeat\nrepeating SVG shapes",
+          "href": "https://www.fffuel.co/rrrepeat/"
+        },
+        {
+          "text": "wwwatercolor\nwatercolor backgrounds",
+          "href": "https://www.fffuel.co/wwwatercolor/"
+        },
+        {
+          "text": "hhholographic\nholographic backgrounds",
+          "href": "https://www.fffuel.co/hhholographic/"
+        },
+        {
+          "text": "nnnoise\nnoise texture generator",
+          "href": "https://www.fffuel.co/nnnoise/"
+        },
+        {
+          "text": "ffflux\nfluid SVG gradients",
+          "href": "https://www.fffuel.co/ffflux/"
+        },
+        {
+          "text": "tttexture\ngrunge textures",
+          "href": "https://www.fffuel.co/tttexture/"
+        },
+        {
+          "text": "mmmotif\nIsometric SVG patterns",
+          "href": "https://www.fffuel.co/mmmotif/"
+        },
+        {
+          "text": "gggrain\ngrainy gradient generator",
+          "href": "https://www.fffuel.co/gggrain/"
+        },
+        {
+          "text": "nnneon\nglowing SVG shapes",
+          "href": "https://www.fffuel.co/nnneon/"
+        },
+        {
+          "text": "ccclaymoji\nemoji maker",
+          "href": "https://www.fffuel.co/ccclaymoji/"
+        },
+        {
+          "text": "iiisometric\nisometric design builder",
+          "href": "https://www.fffuel.co/iiisometric/"
+        },
+        {
+          "text": "sssurf\nSVG wave generator",
+          "href": "https://www.fffuel.co/sssurf/"
+        },
+        {
+          "text": "qqquad\ngenerative patterns",
+          "href": "https://www.fffuel.co/qqquad/"
+        },
+        {
+          "text": "dddraw\nfreehand SVG drawing tool",
+          "href": "https://www.fffuel.co/dddraw/"
+        },
+        {
+          "text": "pppointed\nSVG arrow maker",
+          "href": "https://www.fffuel.co/pppointed/"
+        },
+        {
+          "text": "uuunion\nmesh-like gradients",
+          "href": "https://www.fffuel.co/uuunion/"
+        },
+        {
+          "text": "bbblurry\nblurry background shapes",
+          "href": "https://www.fffuel.co/bbblurry/"
+        },
+        {
+          "text": "uuundulate\nmake some SVG ripples",
+          "href": "https://www.fffuel.co/uuundulate/"
+        },
+        {
+          "text": "ccchaos\nwild wavy SVG shapes",
+          "href": "https://www.fffuel.co/ccchaos/"
+        },
+        {
+          "text": "oooscillate\ncurvy line patterns",
+          "href": "https://www.fffuel.co/oooscillate/"
+        },
+        {
+          "text": "ffflurry\nmake it rain, SVG-style",
+          "href": "https://www.fffuel.co/ffflurry/"
+        },
+        {
+          "text": "cccoil\nSVG spiral waves",
+          "href": "https://www.fffuel.co/cccoil/"
+        },
+        {
+          "text": "ssspiral\nSVG spiral patterns",
+          "href": "https://www.fffuel.co/ssspiral/"
+        },
+        {
+          "text": "cccircular\nSVG gradient circle patterns",
+          "href": "https://www.fffuel.co/cccircular/"
+        },
+        {
+          "text": "rrreplicate\nSVG line pattern generator",
+          "href": "https://www.fffuel.co/rrreplicate/"
+        },
+        {
+          "text": "tttwinkle\nbursting line patterns",
+          "href": "https://www.fffuel.co/tttwinkle/"
+        },
+        {
+          "text": "ssscales\ngradient SVG patterns",
+          "href": "https://www.fffuel.co/ssscales/"
+        },
+        {
+          "text": "rrrainbow\ncolorful background patterns",
+          "href": "https://www.fffuel.co/rrrainbow/"
+        },
+        {
+          "text": "ttten\n10 Print-inspired pattern generator",
+          "href": "https://www.fffuel.co/ttten/"
+        },
+        {
+          "text": "ssscribble\nmake SVG scribbles",
+          "href": "https://www.fffuel.co/ssscribble/"
+        },
+        {
+          "text": "pppixelate\npixel art patterns",
+          "href": "https://www.fffuel.co/pppixelate/"
+        },
+        {
+          "text": "sssquiggly\nwavy line patterns",
+          "href": "https://www.fffuel.co/sssquiggly/"
+        },
+        {
+          "text": "ooorganize\nSVG grid patterns",
+          "href": "https://www.fffuel.co/ooorganize/"
+        },
+        {
+          "text": "vvvortex\nspinning circle patterns",
+          "href": "https://www.fffuel.co/vvvortex/"
+        },
+        {
+          "text": "gggyrate\nspinning geometric patterns",
+          "href": "https://www.fffuel.co/gggyrate/"
+        },
+        {
+          "text": "cccloud\ncloud SVGs",
+          "href": "https://www.fffuel.co/cccloud/"
+        },
+        {
+          "text": "ssstar\nstar SVGs",
+          "href": "https://www.fffuel.co/ssstar/"
+        },
+        {
+          "text": "lllove\nheart SVGs",
+          "href": "https://www.fffuel.co/lllove/"
+        },
+        {
+          "text": "llleaves\norganic SVG backgrounds",
+          "href": "https://www.fffuel.co/llleaves/"
+        },
+        {
+          "text": "ggglitch\nglitchy shapes",
+          "href": "https://www.fffuel.co/ggglitch/"
+        },
+        {
+          "text": "ppperspective\nshapes that vanish",
+          "href": "https://www.fffuel.co/ppperspective/"
+        },
+        {
+          "text": "sssurface\nSVG circles that feel 3D",
+          "href": "https://www.fffuel.co/sssurface/"
+        },
+        {
+          "text": "hhhorizon\nCyberpunk-style backgrounds",
+          "href": "https://www.fffuel.co/hhhorizon/"
+        },
+        {
+          "text": "sssplatter\nmake funky SVG shapes",
+          "href": "https://www.fffuel.co/sssplatter/"
+        },
+        {
+          "text": "ssspill\ngenerate melting SVGs",
+          "href": "https://www.fffuel.co/ssspill/"
+        },
+        {
+          "text": "ssspot\norganic speck patterns",
+          "href": "https://www.fffuel.co/ssspot/"
+        },
+        {
+          "text": "wwwhirl\ntwisting line patterns",
+          "href": "https://www.fffuel.co/wwwhirl/"
+        },
+        {
+          "text": "rrreflection\nSVG circle patterns",
+          "href": "https://www.fffuel.co/rrreflection/"
+        },
+        {
+          "text": "bbburst\nconfetti generator",
+          "href": "https://www.fffuel.co/bbburst/"
+        },
+        {
+          "text": "dddynamite\ndecorative SVG shapes",
+          "href": "https://www.fffuel.co/dddynamite/"
+        },
+        {
+          "text": "dddivided\nsplit SVG shapes",
+          "href": "https://www.fffuel.co/dddivided/"
+        },
+        {
+          "text": "lllook\nfun line icons",
+          "href": "https://www.fffuel.co/lllook/"
+        },
+        {
+          "text": "dddoodle\nhand-drawn doodles",
+          "href": "https://www.fffuel.co/dddoodle/"
+        },
+        {
+          "text": "pppsychedelic\npsychedelic backgrounds",
+          "href": "https://www.fffuel.co/pppsychedelic/"
+        },
+        {
+          "text": "rrrasterize\nconvert SVG to PNG",
+          "href": "https://www.fffuel.co/rrrasterize/"
+        },
+        {
+          "text": "eeencode\nencode SVG to Base64",
+          "href": "https://www.fffuel.co/eeencode/"
+        },
+        {
+          "text": "rrready?\nsupport chart for web features",
+          "href": "https://www.fffuel.co/rrready/"
+        },
+        {
+          "text": "Scalable Vector Graphics",
+          "href": "https://developer.mozilla.org/en-US/docs/Web/SVG"
+        },
+        {
+          "text": "SVG to PNG conversion tool",
+          "href": "https://www.fffuel.co/rrrasterize/"
+        },
+        {
+          "text": "base64 encoder",
+          "href": "https://www.fffuel.co/eeencode/"
+        },
+        {
+          "text": "color picker",
+          "href": "https://www.fffuel.co/cccolor/"
+        },
+        {
+          "text": "color palette generator",
+          "href": "https://www.fffuel.co/pppalette/"
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/syntax_fm/"
+        },
+        {
+          "text": "",
+          "href": "https://twitter.com/syntaxfm"
+        },
+        {
+          "text": "privacy",
+          "href": "https://syntax.fm/pages/privacy"
+        },
+        {
+          "text": "terms",
+          "href": "https://syntax.fm/pages/terms-of-service"
+        },
+        {
+          "text": "license",
+          "href": "https://www.fffuel.co/license/"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--clr-97": "hsl(265,40%,97%)",
+        "--tw-ring-offset-shadow": "0 0 #0000",
+        "--shadow-small": "0px 0.65px 1.35px hsl(265 40% 20%/0.047),0px 1.5px 3.45px hsl(265 40% 20%/0.067),0px 3.3px 7.1px hsl(265 40% 20%/0.083),0px 6.75px 14.6px hsl(265 40% 20%/0.103),0px 18.5px 40px hsl(265 40% 20%/0.15)",
+        "--tw-backdrop-sepia": "",
+        "--tw-ring-shadow": "0 0 #0000",
+        "--primary-10": "hsla(265,40%,50%,10%)",
+        "--tw-sepia": "",
+        "--accent": "hsl(calc(265 - 90),40%,50%)",
+        "--clr-50": "hsl(265,40%,50%)",
+        "--tw-backdrop-saturate": "",
+        "--shadow-clr-3": "hsl(265 40% 20%/0.083)",
+        "--accent-lightness": "50%",
+        "--shadow-micro": "0px 9.25px 20px hsl(265 40% 20%/0.15)",
+        "--shadow-base-clr": "265 40% 20%",
+        "--shadow-medium": "0px 1.3px 2.7px hsl(265 40% 20%/0.047),0px 3.2px 6.9px hsl(265 40% 20%/0.067),0px 6.6px 14.2px hsl(265 40% 20%/0.083),0px 13.5px 29.2px hsl(265 40% 20%/0.103),0px 37px 80px hsl(265 40% 20%/0.15)",
+        "--tw-ring-inset": "",
+        "--clr-11": "hsl(265,40%,11%)",
+        "--tw-transform": "translateX(0) translateY(0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1)",
+        "--shadow-clr-1": "hsl(265 40% 20%/0.047)",
+        "--tw-backdrop-invert": "",
+        "--clr-95": "hsl(265,40%,95%)",
+        "--accent-75": "hsla(calc(265 - 90),40%,50%,75%)",
+        "--bg": "#f4f1f9",
+        "--clr-85": "hsl(265,40%,85%)",
+        "--base-sat": "40%",
+        "--semi-transparent": "hsla(265,40%,99%,65%)",
+        "--clr-40": "hsl(265,40%,40%)",
+        "--tw-brightness": "",
+        "--shadow-tiny": "0px 0.325px 0.675px hsl(265 40% 20%/0.047),0px 0.75px 1.725px hsl(265 40% 20%/0.067),0px 1.65px 3.55px hsl(265 40% 20%/0.083),0px 3.375px 7.3px hsl(265 40% 20%/0.103),0px 9.25px 20px hsl(265 40% 20%/0.15)",
+        "--tw-hue-rotate": "",
+        "--clr-99": "hsl(265,40%,99%)",
+        "--tw-backdrop-grayscale": "",
+        "--tw-scale-y": "1",
+        "--accent-bright": "hsl(calc(265 - 90),65%,50%)",
+        "--clr-33": "hsl(265,40%,33%)",
+        "--tw-backdrop-contrast": "",
+        "--clr-15": "hsl(265,40%,15%)",
+        "--tw-drop-shadow": "",
+        "--tw-ring-color": "rgba(59,130,246,0.5)",
+        "--tw-backdrop-brightness": "",
+        "--primary-75": "hsla(265,40%,50%,75%)",
+        "--accent-15": "hsla(calc(265 - 90),40%,50%,15%)",
+        "--clr-12": "hsl(265,40%,12%)",
+        "--tw-translate-y": "0",
+        "--tw-filter": "        ",
+        "--tw-rotate": "0",
+        "--primary-0": "hsla(265,40%,50%,0%)",
+        "--tw-ring-offset-color": "#fff",
+        "--accent-10": "hsla(calc(265 - 90),40%,50%,10%)",
+        "--tw-contrast": "",
+        "--shadow-clr-4": "hsl(265 40% 20%/0.103)",
+        "--primary-33": "hsla(265,40%,50%,33%)",
+        "--primary-5": "hsla(265,40%,50%,5%)",
+        "--dark-preview": "#06083d",
+        "--accent-bright3": "hsl(calc(265 - 90),85%,85%)",
+        "--clr-25": "hsl(265,40%,25%)",
+        "--clr-20": "hsl(265,40%,20%)",
+        "--tw-skew-x": "0",
+        "--clr-30": "hsl(265,40%,30%)",
+        "--tw-backdrop-blur": "",
+        "--clr-90": "hsl(265,40%,90%)",
+        "--accent-bright2": "hsl(calc(265 - 90),85%,50%)",
+        "--tw-shadow": "0 0 #0000",
+        "--tw-translate-x": "0",
+        "--tw-ring-offset-width": "0px",
+        "--primary-25": "hsla(265,40%,50%,25%)",
+        "--clr-10": "hsl(265,40%,10%)",
+        "--primary-15": "hsla(265,40%,50%,15%)",
+        "--primary-lightness": "50%",
+        "--tw-saturate": "",
+        "--font-custom": "\"Space Grotesk\",\"Gill Sans\",\"Gill Sans MT\",Calibri,\"Trebuchet MS\",sans-serif",
+        "--tw-grayscale": "",
+        "--tw-backdrop-filter": "        ",
+        "--tw-scale-x": "1",
+        "--tw-backdrop-hue-rotate": "",
+        "--shadow-clr-5": "hsl(265 40% 20%/0.15)",
+        "--base-hue": "265",
+        "--shadow-clr-2": "hsl(265 40% 20%/0.067)",
+        "--clr-70": "hsl(265,40%,70%)",
+        "--accent-hue": "calc(265 - 90)"
+      }
+    },
+    "mobile": {
+      "url": "https://www.fffuel.co/",
+      "title": "Free SVG generators, color tools & web design tools",
+      "text": "Syntax - Web Development Podcast\nSVG GENERATORS, TOOLS & DESIGN RESOURCES\n↓\ncccolor\ncolor picker\npppalette\ncolor palette generator\nhhhue\ncurated color palettes\nssshape\nSVG blobs\nllline\nSVG lines\ndddepth\nAI-generated 3D shapes\nsssvg\nSVG reference\nCSS Selectors\nA Visual Guide\nSVG Spinners\nHow to make them\naaabstract\nabstract backgrounds\nrrrepeat\nrepeating SVG shapes\nwwwatercolor\nwatercolor backgrounds\nhhholographic\nholographic backgrounds\nnnnoise\nnoise texture generator\nffflux\nfluid SVG gradients\ntttexture\ngrunge textures\nmmmotif\nIsometric SVG patterns\ngggrain\ngrainy gradient generator\nnnneon\nglowing SVG shapes\nccclaymoji\nemoji maker\niiisometric\nisometric design builder\nsssurf\nSVG wave generator\nqqquad\ngenerative patterns\ndddraw\nfreehand SVG drawing tool\npppointed\nSVG arrow maker\nuuunion\nmesh-like gradients\nbbblurry\nblurry background shapes\nuuundulate\nmake some SVG ripples\nccchaos\nwild wavy SVG shapes\noooscillate\ncurvy line patterns\nffflurry\nmake it rain, SVG-style\ncccoil\nSVG spiral waves\nssspiral\nSVG spiral patterns\ncccircular\nSVG gradient circle patterns\nrrreplicate\nSVG line pattern generator\ntttwinkle\nbursting line patterns\nssscales\ngradient SVG patterns\nrrrainbow\ncolorful background patterns\nttten\n10 Print-inspired pattern generator\nssscribble\nmake SVG scribbles\npppixelate\npixel art patterns\nsssquiggly\nwavy line patterns\nooorganize\nSVG grid patterns\nvvvortex\nspinning circle patterns\ngggyrate\nspinning geometric patterns\ncccloud\ncloud SVGs\nssstar\nstar SVGs\nlllove\nheart SVGs\nllleaves\norganic SVG backgrounds\nggglitch\nglitchy shapes\nppperspective\nshapes that vanish\nsssurface\nSVG circles that feel 3D\nhhhorizon\nCyberpunk-style backgrounds\nsssplatter\nmake funky SVG shapes\nssspill\ngenerate melting SVGs\nssspot\norganic speck patterns\nwwwhirl\ntwisting line patterns\nrrreflection\nSVG circle patterns\nbbburst\nconfetti generator\ndddynamite\ndecorative SVG shapes\ndddivided\nsplit SVG shapes\nlllook\nfun line icons\ndddoodle\nhand-drawn doodles\npppsychedelic\npsychedelic backgrounds\nrrrasterize\nconvert SVG to PNG\neeencode\nencode SVG to Base64\nrrready?\nsupport chart for web features\nfffuel is a collection of color tools and free SVG generators for gradients, patterns, textures, shapes & backgrounds\n\n🚀 On fffuel you'll find a collection of free SVG makers to create cool backgrounds, seamless patterns, gradients, textures, shapes and blobs. Use the generated vector patterns directly on the web or in your favorite design app.\n\n🤹‍♂️ The SVG and graphic creation tools on fffuel allow you to easily customize the final result so that the generated graphics are unique and fit with the rest of your design seamlessly.\n\n✨ SVG stands for Scalable Vector Graphics and using SVGs on the web offers many benefits. For example, SVGs can be scaled to any size without ever losing visual quality, they can be edited later-on by tweaking the underlining markup and they can often be more lightweight than images that have been saved to a raster format like PNG or JPEG.\n\n🔧 If you need to convert the generated SVGs over to PNG, you can use the SVG to PNG conversion tool.\n\n🖼️ If you want to use the SVGs as background patterns, you can use the base64 encoder so that you can add the background images inline in your CSS.\n\n🎨 Plus, I've also created some tools to help with converting color codes or picking great colors for your designs. For example, try out the color picker or the color palette generator.\n\n©2024 Sentry.io / Syntax.fm\n⟡ \nprivacy ⟡ terms ⟡ license",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H2",
+          "role": null,
+          "text": "SVG GENERATORS, TOOLS & DESIGN RESOURCES\n↓",
+          "bounds": {
+            "x": 24,
+            "y": 436,
+            "width": 342,
+            "height": 99
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "22px",
+            "fontWeight": "500",
+            "lineHeight": "33px",
+            "color": "rgb(79, 50, 118)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "cccolor\ncolor picker",
+          "bounds": {
+            "x": 68.578125,
+            "y": 627.296875,
+            "width": 79.84375,
+            "height": 24.390625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "500",
+            "lineHeight": "12px",
+            "color": "rgb(0, 33, 72)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "pppalette\ncolor palette generator",
+          "bounds": {
+            "x": 205,
+            "y": 621.109375,
+            "width": 153,
+            "height": 36.78125
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "500",
+            "lineHeight": "12px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "hhhue\ncurated color palettes",
+          "bounds": {
+            "x": 33.515625,
+            "y": 816.296875,
+            "width": 149.953125,
+            "height": 24.390625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "500",
+            "lineHeight": "12px",
+            "color": "rgb(0, 71, 188)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "ssshape\nSVG blobs",
+          "bounds": {
+            "x": 241.578125,
+            "y": 816.296875,
+            "width": 79.84375,
+            "height": 24.390625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "500",
+            "lineHeight": "12px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "llline\nSVG lines",
+          "bounds": {
+            "x": 78.015625,
+            "y": 1005.296875,
+            "width": 60.96875,
+            "height": 24.390625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "500",
+            "lineHeight": "12px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "dddepth\nAI-generated 3D shapes",
+          "bounds": {
+            "x": 205,
+            "y": 999.109375,
+            "width": 153,
+            "height": 36.78125
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "500",
+            "lineHeight": "12px",
+            "color": "rgb(77, 54, 76)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "sssvg\nSVG reference",
+          "bounds": {
+            "x": 60.890625,
+            "y": 1194.296875,
+            "width": 95.21875,
+            "height": 24.390625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "500",
+            "lineHeight": "12px",
+            "color": "rgb(95, 61, 143)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "CSS Selectors\nA Visual Guide",
+          "bounds": {
+            "x": 214.703125,
+            "y": 1194.296875,
+            "width": 133.59375,
+            "height": 24.390625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "500",
+            "lineHeight": "12px",
+            "color": "rgb(95, 61, 143)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "SVG Spinners\nHow to make them",
+          "bounds": {
+            "x": 45.109375,
+            "y": 1383.296875,
+            "width": 126.78125,
+            "height": 24.390625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "500",
+            "lineHeight": "12px",
+            "color": "rgb(95, 61, 143)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "aaabstract\nabstract backgrounds",
+          "bounds": {
+            "x": 206.203125,
+            "y": 1383.296875,
+            "width": 150.578125,
+            "height": 24.390625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "500",
+            "lineHeight": "12px",
+            "color": "rgb(100, 73, 113)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H3",
+          "role": null,
+          "text": "rrrepeat\nrepeating SVG shapes",
+          "bounds": {
+            "x": 34.78125,
+            "y": 1572.296875,
+            "width": 147.421875,
+            "height": 24.390625
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "500",
+            "lineHeight": "12px",
+            "color": "rgb(100, 73, 113)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "HEADER",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 0,
+            "y": 48,
+            "width": 390,
+            "height": 8
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "lineHeight": "33px",
+            "color": "rgb(79, 50, 118)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px 8px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "SVG GENERATORS, TOOLS & DESIGN RESOURCES\n↓\ncccolor\ncolor picker\npppalette\ncolor palette generator\nhhhue\ncurated color palettes\nssshape\nSVG b",
+          "bounds": {
+            "x": 0,
+            "y": 436,
+            "width": 390,
+            "height": 6525
+          },
+          "styles": {
+            "display": "grid",
+            "position": "relative",
+            "fontFamily": "\"Space Grotesk\", \"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif",
+            "fontSize": "22px",
+            "fontWeight": "500",
+            "lineHeight": "33px",
+            "color": "rgb(79, 50, 118)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "20px 4px",
+            "padding": "0px 24px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "169px 169px"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "fffuel is a collection of color tools and free SVG generators for gradients, patterns, textures, shapes & backgrounds",
+          "bounds": {
+            "x": 24,
+            "y": 152,
+            "width": 342,
+            "height": 204
+          },
+          "styles": {
+            "display": "block",
+            "position": "relative",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "lineHeight": "33px",
+            "color": "rgb(119, 77, 179)",
+            "backgroundColor": "rgb(247, 244, 250)",
+            "gap": "normal",
+            "padding": "32px 24px",
+            "borderRadius": "24px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "Syntax - Web Development Podcast",
+          "href": "https://syntax.fm/"
+        },
+        {
+          "text": "cccolor\ncolor picker",
+          "href": "https://www.fffuel.co/cccolor/"
+        },
+        {
+          "text": "pppalette\ncolor palette generator",
+          "href": "https://www.fffuel.co/pppalette/"
+        },
+        {
+          "text": "hhhue\ncurated color palettes",
+          "href": "https://www.fffuel.co/hhhue/"
+        },
+        {
+          "text": "ssshape\nSVG blobs",
+          "href": "https://www.fffuel.co/ssshape/"
+        },
+        {
+          "text": "llline\nSVG lines",
+          "href": "https://www.fffuel.co/llline/"
+        },
+        {
+          "text": "dddepth\nAI-generated 3D shapes",
+          "href": "https://www.fffuel.co/dddepth/"
+        },
+        {
+          "text": "sssvg\nSVG reference",
+          "href": "https://www.fffuel.co/sssvg/"
+        },
+        {
+          "text": "CSS Selectors\nA Visual Guide",
+          "href": "https://www.fffuel.co/css-selectors/"
+        },
+        {
+          "text": "SVG Spinners\nHow to make them",
+          "href": "https://www.fffuel.co/svg-spinner/"
+        },
+        {
+          "text": "aaabstract\nabstract backgrounds",
+          "href": "https://www.fffuel.co/aaabstract/"
+        },
+        {
+          "text": "rrrepeat\nrepeating SVG shapes",
+          "href": "https://www.fffuel.co/rrrepeat/"
+        },
+        {
+          "text": "wwwatercolor\nwatercolor backgrounds",
+          "href": "https://www.fffuel.co/wwwatercolor/"
+        },
+        {
+          "text": "hhholographic\nholographic backgrounds",
+          "href": "https://www.fffuel.co/hhholographic/"
+        },
+        {
+          "text": "nnnoise\nnoise texture generator",
+          "href": "https://www.fffuel.co/nnnoise/"
+        },
+        {
+          "text": "ffflux\nfluid SVG gradients",
+          "href": "https://www.fffuel.co/ffflux/"
+        },
+        {
+          "text": "tttexture\ngrunge textures",
+          "href": "https://www.fffuel.co/tttexture/"
+        },
+        {
+          "text": "mmmotif\nIsometric SVG patterns",
+          "href": "https://www.fffuel.co/mmmotif/"
+        },
+        {
+          "text": "gggrain\ngrainy gradient generator",
+          "href": "https://www.fffuel.co/gggrain/"
+        },
+        {
+          "text": "nnneon\nglowing SVG shapes",
+          "href": "https://www.fffuel.co/nnneon/"
+        },
+        {
+          "text": "ccclaymoji\nemoji maker",
+          "href": "https://www.fffuel.co/ccclaymoji/"
+        },
+        {
+          "text": "iiisometric\nisometric design builder",
+          "href": "https://www.fffuel.co/iiisometric/"
+        },
+        {
+          "text": "sssurf\nSVG wave generator",
+          "href": "https://www.fffuel.co/sssurf/"
+        },
+        {
+          "text": "qqquad\ngenerative patterns",
+          "href": "https://www.fffuel.co/qqquad/"
+        },
+        {
+          "text": "dddraw\nfreehand SVG drawing tool",
+          "href": "https://www.fffuel.co/dddraw/"
+        },
+        {
+          "text": "pppointed\nSVG arrow maker",
+          "href": "https://www.fffuel.co/pppointed/"
+        },
+        {
+          "text": "uuunion\nmesh-like gradients",
+          "href": "https://www.fffuel.co/uuunion/"
+        },
+        {
+          "text": "bbblurry\nblurry background shapes",
+          "href": "https://www.fffuel.co/bbblurry/"
+        },
+        {
+          "text": "uuundulate\nmake some SVG ripples",
+          "href": "https://www.fffuel.co/uuundulate/"
+        },
+        {
+          "text": "ccchaos\nwild wavy SVG shapes",
+          "href": "https://www.fffuel.co/ccchaos/"
+        },
+        {
+          "text": "oooscillate\ncurvy line patterns",
+          "href": "https://www.fffuel.co/oooscillate/"
+        },
+        {
+          "text": "ffflurry\nmake it rain, SVG-style",
+          "href": "https://www.fffuel.co/ffflurry/"
+        },
+        {
+          "text": "cccoil\nSVG spiral waves",
+          "href": "https://www.fffuel.co/cccoil/"
+        },
+        {
+          "text": "ssspiral\nSVG spiral patterns",
+          "href": "https://www.fffuel.co/ssspiral/"
+        },
+        {
+          "text": "cccircular\nSVG gradient circle patterns",
+          "href": "https://www.fffuel.co/cccircular/"
+        },
+        {
+          "text": "rrreplicate\nSVG line pattern generator",
+          "href": "https://www.fffuel.co/rrreplicate/"
+        },
+        {
+          "text": "tttwinkle\nbursting line patterns",
+          "href": "https://www.fffuel.co/tttwinkle/"
+        },
+        {
+          "text": "ssscales\ngradient SVG patterns",
+          "href": "https://www.fffuel.co/ssscales/"
+        },
+        {
+          "text": "rrrainbow\ncolorful background patterns",
+          "href": "https://www.fffuel.co/rrrainbow/"
+        },
+        {
+          "text": "ttten\n10 Print-inspired pattern generator",
+          "href": "https://www.fffuel.co/ttten/"
+        },
+        {
+          "text": "ssscribble\nmake SVG scribbles",
+          "href": "https://www.fffuel.co/ssscribble/"
+        },
+        {
+          "text": "pppixelate\npixel art patterns",
+          "href": "https://www.fffuel.co/pppixelate/"
+        },
+        {
+          "text": "sssquiggly\nwavy line patterns",
+          "href": "https://www.fffuel.co/sssquiggly/"
+        },
+        {
+          "text": "ooorganize\nSVG grid patterns",
+          "href": "https://www.fffuel.co/ooorganize/"
+        },
+        {
+          "text": "vvvortex\nspinning circle patterns",
+          "href": "https://www.fffuel.co/vvvortex/"
+        },
+        {
+          "text": "gggyrate\nspinning geometric patterns",
+          "href": "https://www.fffuel.co/gggyrate/"
+        },
+        {
+          "text": "cccloud\ncloud SVGs",
+          "href": "https://www.fffuel.co/cccloud/"
+        },
+        {
+          "text": "ssstar\nstar SVGs",
+          "href": "https://www.fffuel.co/ssstar/"
+        },
+        {
+          "text": "lllove\nheart SVGs",
+          "href": "https://www.fffuel.co/lllove/"
+        },
+        {
+          "text": "llleaves\norganic SVG backgrounds",
+          "href": "https://www.fffuel.co/llleaves/"
+        },
+        {
+          "text": "ggglitch\nglitchy shapes",
+          "href": "https://www.fffuel.co/ggglitch/"
+        },
+        {
+          "text": "ppperspective\nshapes that vanish",
+          "href": "https://www.fffuel.co/ppperspective/"
+        },
+        {
+          "text": "sssurface\nSVG circles that feel 3D",
+          "href": "https://www.fffuel.co/sssurface/"
+        },
+        {
+          "text": "hhhorizon\nCyberpunk-style backgrounds",
+          "href": "https://www.fffuel.co/hhhorizon/"
+        },
+        {
+          "text": "sssplatter\nmake funky SVG shapes",
+          "href": "https://www.fffuel.co/sssplatter/"
+        },
+        {
+          "text": "ssspill\ngenerate melting SVGs",
+          "href": "https://www.fffuel.co/ssspill/"
+        },
+        {
+          "text": "ssspot\norganic speck patterns",
+          "href": "https://www.fffuel.co/ssspot/"
+        },
+        {
+          "text": "wwwhirl\ntwisting line patterns",
+          "href": "https://www.fffuel.co/wwwhirl/"
+        },
+        {
+          "text": "rrreflection\nSVG circle patterns",
+          "href": "https://www.fffuel.co/rrreflection/"
+        },
+        {
+          "text": "bbburst\nconfetti generator",
+          "href": "https://www.fffuel.co/bbburst/"
+        },
+        {
+          "text": "dddynamite\ndecorative SVG shapes",
+          "href": "https://www.fffuel.co/dddynamite/"
+        },
+        {
+          "text": "dddivided\nsplit SVG shapes",
+          "href": "https://www.fffuel.co/dddivided/"
+        },
+        {
+          "text": "lllook\nfun line icons",
+          "href": "https://www.fffuel.co/lllook/"
+        },
+        {
+          "text": "dddoodle\nhand-drawn doodles",
+          "href": "https://www.fffuel.co/dddoodle/"
+        },
+        {
+          "text": "pppsychedelic\npsychedelic backgrounds",
+          "href": "https://www.fffuel.co/pppsychedelic/"
+        },
+        {
+          "text": "rrrasterize\nconvert SVG to PNG",
+          "href": "https://www.fffuel.co/rrrasterize/"
+        },
+        {
+          "text": "eeencode\nencode SVG to Base64",
+          "href": "https://www.fffuel.co/eeencode/"
+        },
+        {
+          "text": "rrready?\nsupport chart for web features",
+          "href": "https://www.fffuel.co/rrready/"
+        },
+        {
+          "text": "Scalable Vector Graphics",
+          "href": "https://developer.mozilla.org/en-US/docs/Web/SVG"
+        },
+        {
+          "text": "SVG to PNG conversion tool",
+          "href": "https://www.fffuel.co/rrrasterize/"
+        },
+        {
+          "text": "base64 encoder",
+          "href": "https://www.fffuel.co/eeencode/"
+        },
+        {
+          "text": "color picker",
+          "href": "https://www.fffuel.co/cccolor/"
+        },
+        {
+          "text": "color palette generator",
+          "href": "https://www.fffuel.co/pppalette/"
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/syntax_fm/"
+        },
+        {
+          "text": "",
+          "href": "https://twitter.com/syntaxfm"
+        },
+        {
+          "text": "privacy",
+          "href": "https://syntax.fm/pages/privacy"
+        },
+        {
+          "text": "terms",
+          "href": "https://syntax.fm/pages/terms-of-service"
+        },
+        {
+          "text": "license",
+          "href": "https://www.fffuel.co/license/"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--clr-97": "hsl(265,40%,97%)",
+        "--tw-ring-offset-shadow": "0 0 #0000",
+        "--shadow-small": "0px 0.65px 1.35px hsl(265 40% 20%/0.047),0px 1.5px 3.45px hsl(265 40% 20%/0.067),0px 3.3px 7.1px hsl(265 40% 20%/0.083),0px 6.75px 14.6px hsl(265 40% 20%/0.103),0px 18.5px 40px hsl(265 40% 20%/0.15)",
+        "--tw-backdrop-sepia": "",
+        "--tw-ring-shadow": "0 0 #0000",
+        "--primary-10": "hsla(265,40%,50%,10%)",
+        "--tw-sepia": "",
+        "--accent": "hsl(calc(265 - 90),40%,50%)",
+        "--clr-50": "hsl(265,40%,50%)",
+        "--tw-backdrop-saturate": "",
+        "--shadow-clr-3": "hsl(265 40% 20%/0.083)",
+        "--accent-lightness": "50%",
+        "--shadow-micro": "0px 9.25px 20px hsl(265 40% 20%/0.15)",
+        "--shadow-base-clr": "265 40% 20%",
+        "--shadow-medium": "0px 1.3px 2.7px hsl(265 40% 20%/0.047),0px 3.2px 6.9px hsl(265 40% 20%/0.067),0px 6.6px 14.2px hsl(265 40% 20%/0.083),0px 13.5px 29.2px hsl(265 40% 20%/0.103),0px 37px 80px hsl(265 40% 20%/0.15)",
+        "--tw-ring-inset": "",
+        "--clr-11": "hsl(265,40%,11%)",
+        "--tw-transform": "translateX(0) translateY(0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1)",
+        "--shadow-clr-1": "hsl(265 40% 20%/0.047)",
+        "--tw-backdrop-invert": "",
+        "--clr-95": "hsl(265,40%,95%)",
+        "--accent-75": "hsla(calc(265 - 90),40%,50%,75%)",
+        "--bg": "#f4f1f9",
+        "--clr-85": "hsl(265,40%,85%)",
+        "--base-sat": "40%",
+        "--semi-transparent": "hsla(265,40%,99%,65%)",
+        "--clr-40": "hsl(265,40%,40%)",
+        "--tw-brightness": "",
+        "--shadow-tiny": "0px 0.325px 0.675px hsl(265 40% 20%/0.047),0px 0.75px 1.725px hsl(265 40% 20%/0.067),0px 1.65px 3.55px hsl(265 40% 20%/0.083),0px 3.375px 7.3px hsl(265 40% 20%/0.103),0px 9.25px 20px hsl(265 40% 20%/0.15)",
+        "--tw-hue-rotate": "",
+        "--clr-99": "hsl(265,40%,99%)",
+        "--tw-backdrop-grayscale": "",
+        "--tw-scale-y": "1",
+        "--accent-bright": "hsl(calc(265 - 90),65%,50%)",
+        "--clr-33": "hsl(265,40%,33%)",
+        "--tw-backdrop-contrast": "",
+        "--clr-15": "hsl(265,40%,15%)",
+        "--tw-drop-shadow": "",
+        "--tw-ring-color": "rgba(59,130,246,0.5)",
+        "--tw-backdrop-brightness": "",
+        "--primary-75": "hsla(265,40%,50%,75%)",
+        "--accent-15": "hsla(calc(265 - 90),40%,50%,15%)",
+        "--clr-12": "hsl(265,40%,12%)",
+        "--tw-translate-y": "0",
+        "--tw-filter": "        ",
+        "--tw-rotate": "0",
+        "--primary-0": "hsla(265,40%,50%,0%)",
+        "--tw-ring-offset-color": "#fff",
+        "--accent-10": "hsla(calc(265 - 90),40%,50%,10%)",
+        "--tw-contrast": "",
+        "--shadow-clr-4": "hsl(265 40% 20%/0.103)",
+        "--primary-33": "hsla(265,40%,50%,33%)",
+        "--primary-5": "hsla(265,40%,50%,5%)",
+        "--dark-preview": "#06083d",
+        "--accent-bright3": "hsl(calc(265 - 90),85%,85%)",
+        "--clr-25": "hsl(265,40%,25%)",
+        "--clr-20": "hsl(265,40%,20%)",
+        "--tw-skew-x": "0",
+        "--clr-30": "hsl(265,40%,30%)",
+        "--tw-backdrop-blur": "",
+        "--clr-90": "hsl(265,40%,90%)",
+        "--accent-bright2": "hsl(calc(265 - 90),85%,50%)",
+        "--tw-shadow": "0 0 #0000",
+        "--tw-translate-x": "0",
+        "--tw-ring-offset-width": "0px",
+        "--primary-25": "hsla(265,40%,50%,25%)",
+        "--clr-10": "hsl(265,40%,10%)",
+        "--primary-15": "hsla(265,40%,50%,15%)",
+        "--primary-lightness": "50%",
+        "--tw-saturate": "",
+        "--font-custom": "\"Space Grotesk\",\"Gill Sans\",\"Gill Sans MT\",Calibri,\"Trebuchet MS\",sans-serif",
+        "--tw-grayscale": "",
+        "--tw-backdrop-filter": "        ",
+        "--tw-scale-x": "1",
+        "--tw-backdrop-hue-rotate": "",
+        "--shadow-clr-5": "hsl(265 40% 20%/0.15)",
+        "--base-hue": "265",
+        "--shadow-clr-2": "hsl(265 40% 20%/0.067)",
+        "--clr-70": "hsl(265,40%,70%)",
+        "--accent-hue": "calc(265 - 90)"
+      }
+    }
+  },
+  "scope": "public source reference; not a locally reconstructed component",
+  "http_status": 200,
+  "page_errors": []
+}

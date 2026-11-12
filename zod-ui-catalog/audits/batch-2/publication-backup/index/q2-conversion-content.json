@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "quadrant": "Q2-conversion-content",
+  "count": 3,
+  "sections": {
+    "heroes": {
+      "centered-shader-hero": [],
+      "split-product-preview": [
+        {
+          "id": "hero-mahero-craft",
+          "location": {
+            "quadrant": "Q2-conversion-content",
+            "category": "heroes",
+            "section": "split-product-preview",
+            "file_path": "Q2-conversion-content/heroes/split-product-preview/hero-mahero-craft.json"
+          },
+          "tier": "C",
+          "tier_audit": {
+            "visual_verified": true,
+            "verification_scope": "source screenshots only; not local implementation fidelity",
+            "fidelity_type": "visual_spec",
+            "responsive_score": null,
+            "audit_notes": [
+              "Tier C: reference/spec, not ready-to-use code.",
+              "Source DOM measurements may describe gallery chrome, not the referenced product.",
+              "Keyboard, contrast and animation timing not certified."
+            ],
+            "evidence": [
+              "audits/source-evidence/mahero-supply-home/evidence.json",
+              "previews/hero-mahero-craft/desktop.png",
+              "previews/hero-mahero-craft/mobile.png"
+            ],
+            "source_observations": {
+              "desktop": {
+                "viewport": {
+                  "width": 1440,
+                  "height": 900
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": [
+                  "https://gk4zttl3xunfz8cp.public.blob.vercel-storage.com/products/1779379135236-vy79jvwt4fc.webp",
+                  "https://gk4zttl3xunfz8cp.public.blob.vercel-storage.com/products/1779116848358.gif",
+                  "https://gk4zttl3xunfz8cp.public.blob.vercel-storage.com/products/1779424448824-ahmq4qinb1b.gif",
+                  "https://gk4zttl3xunfz8cp.public.blob.vercel-storage.com/products/1779123275950.webp",
+                  "https://gk4zttl3xunfz8cp.public.blob.vercel-storage.com/products/1779292188626-r1h33auwxnh.png",
+                  "https://gk4zttl3xunfz8cp.public.blob.vercel-storage.com/products/1779292432589-l873r6fol2p.png",
+                  "https://gk4zttl3xunfz8cp.public.blob.vercel-storage.com/products/1779292564799-qk6uer49zsa.png"
+                ]
+              },
+              "mobile": {
+                "viewport": {
+                  "width": 390,
+                  "height": 844
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              }
+            }
+          },
+          "source_site": "mahero.supply",
+          "source_url": "https://mahero.supply",
+          "license": {
+            "status": "reference_only_not_code_license",
+            "redistribution": "No source code or original downloadable assets included; screenshots are research evidence."
+          },
+          "stack_compatibility": [
+            "framework-agnostic-spec"
+          ],
+          "style_tags": [
+            "split-product-preview"
+          ]
+        },
+        {
+          "id": "hero-mobbin-design-library",
+          "location": {
+            "quadrant": "Q2-conversion-content",
+            "category": "heroes",
+            "section": "split-product-preview",
+            "file_path": "Q2-conversion-content/heroes/split-product-preview/hero-mobbin-design-library.json"
+          },
+          "tier": "C",
+          "tier_audit": {
+            "visual_verified": true,
+            "verification_scope": "source screenshots only; not local implementation fidelity",
+            "fidelity_type": "visual_spec",
+            "responsive_score": null,
+            "audit_notes": [
+              "Tier C: reference/spec, not ready-to-use code.",
+              "Source DOM measurements may describe gallery chrome, not the referenced product.",
+              "Keyboard, contrast and animation timing not certified."
+            ],
+            "evidence": [
+              "audits/source-evidence/mobbin-com-home/evidence.json",
+              "previews/hero-mobbin-design-library/desktop.png",
+              "previews/hero-mobbin-design-library/mobile.png"
+            ],
+            "source_observations": {
+              "desktop": {
+                "viewport": {
+                  "width": 1440,
+                  "height": 900
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              },
+              "mobile": {
+                "viewport": {
+                  "width": 390,
+                  "height": 844
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              }
+            }
+          },
+          "source_site": "mobbin.com",
+          "source_url": "https://mobbin.com",
+          "license": {
+            "status": "reference_only_not_code_license",
+            "redistribution": "No source code or original downloadable assets included; screenshots are research evidence."
+          },
+          "stack_compatibility": [
+            "framework-agnostic-spec"
+          ],
+          "style_tags": [
+            "split-product-preview"
+          ]
+        }
+      ],
+      "interactive-3d-hero": [
+        {
+          "id": "hero-anatomy-atelier-reference",
+          "location": {
+            "quadrant": "Q2-conversion-content",
+            "category": "heroes",
+            "section": "interactive-3d-hero",
+            "file_path": "Q2-conversion-content/heroes/interactive-3d-hero/hero-anatomy-atelier-reference.json"
+          },
+          "tier": "C",
+          "tier_audit": {
+            "visual_verified": true,
+            "verification_scope": "source screenshots only; not local implementation fidelity",
+            "fidelity_type": "visual_spec",
+            "responsive_score": null,
+            "audit_notes": [
+              "Tier C: reference/spec, not ready-to-use code.",
+              "Source DOM measurements may describe gallery chrome, not the referenced product.",
+              "Keyboard, contrast and animation timing not certified."
+            ],
+            "evidence": [
+              "audits/source-evidence/prettysites-io-anatomy-atelier/evidence.json",
+              "previews/hero-anatomy-atelier-reference/desktop.png",
+              "previews/hero-anatomy-atelier-reference/mobile.png"
+            ],
+            "source_observations": {
+              "desktop": {
+                "viewport": {
+                  "width": 1440,
+                  "height": 900
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              },
+              "mobile": {
+                "viewport": {
+                  "width": 390,
+                  "height": 844
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              }
+            }
+          },
+          "source_site": "prettysites.io",
+          "source_url": "https://prettysites.io/?prompt=anatomy-atelier",
+          "license": {
+            "status": "reference_only_not_code_license",
+            "redistribution": "No source code or original downloadable assets included; screenshots are research evidence."
+          },
+          "stack_compatibility": [
+            "framework-agnostic-spec"
+          ],
+          "style_tags": [
+            "interactive-3d-hero"
+          ]
+        }
+      ]
+    },
+    "feature-grids": {
+      "bento-asymmetric": [],
+      "interactive-tabs-showcase": [],
+      "step-by-step-workflows": []
+    },
+    "pricing-proof": {
+      "tiered-cards-toggle": [],
+      "enterprise-comparison": [],
+      "social-proof-walls": []
+    },
+    "forms-overlays": {
+      "waitlist-capture": [],
+      "command-palettes-modals": []
+    }
+  }
+}

@@ -1,0 +1,2157 @@
+{
+  "site": "ambientcg.com",
+  "url": "https://ambientcg.com",
+  "captured_at": "2026-11-12T21:10:31.529170+00:00",
+  "views": {
+    "desktop": {
+      "url": "https://ambientcg.com/",
+      "title": "ambientCG - Free Textures, HDRIs and Models",
+      "text": "All Assets\nSurfaces\nEnvironments\nSubstances\n3D\nSupporter Login\nLicense\nDocs\nGallery\n3D\nassets\n.\none\n\nFree 3D Assets for Everyone and Everything.\n\nPBR Surfaces\nHDRIs\nSubstances\n3D Assets\nOnyx\nMetal\nFabric and Leather\nBorkum Collection\n\nScans & HDRIs from the island of Borkum\n\nPaving Stones\nGround & Sand\nRocks\nIce & Snow\nTiles\nBlender Conference 2025\nHelp & Documentation\nGallery\nSupport ambientCG on Patreon\nWhat is this website about?\n\nambientCG is one of the largest sources for free PBR materials, HDRIs, and models for 3D art, architectural visualization, game development, VFX and more.\n\nToday, ambientCG serves over 1,000,000 monthly downloads to hundreds of thousands of artists, students, and educators all over the world.\n\nWhy does ambientCG exist?\n\nI started this website in 2018 to provide freely shareable 3D textures because I had become frustrated with the licensing policies of many other texturing platforms, which limit or forbid texture redistribution.\n\nAre the assets really free for any purpose?\n\nYes. All assets are released under the Creative Commons CC0 license, making them free to use without attribution - even in commercial circumstances.\n\nSee the License page.\n\nHow can I support ambientCG?\n\nIf you'd like to support the project, you can become a patron on Patreon or buy me a coffee on Ko-fi.\n\nBecoming a patron also includes perks such as ad-free browsing or early access.\n\nCan I request a texture?\n\nNot with a guarantee. If you are a patron, you can make texture suggestions, but I can't give any concrete promises and I don't do contract work at this point in time.\n\nCan I get in touch?\n\nYou can find contact details and other legally required documentation here:\n\nImprint & Privacy Policy\n(Impressum & Datenschutz).",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "PBR Surfaces",
+          "bounds": {
+            "x": 883,
+            "y": 180,
+            "width": 143.0625,
+            "height": 29
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "HDRIs",
+          "bounds": {
+            "x": 1169,
+            "y": 180,
+            "width": 69.84375,
+            "height": 29
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Substances",
+          "bounds": {
+            "x": 1169,
+            "y": 370,
+            "width": 120.953125,
+            "height": 29
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "3D Assets",
+          "bounds": {
+            "x": 883,
+            "y": 370,
+            "width": 107.125,
+            "height": 29
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Onyx",
+          "bounds": {
+            "x": 25,
+            "y": 940,
+            "width": 58.171875,
+            "height": 29
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Metal",
+          "bounds": {
+            "x": 311,
+            "y": 940,
+            "width": 63.515625,
+            "height": 29
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Fabric and Leather",
+          "bounds": {
+            "x": 883,
+            "y": 940,
+            "width": 199.546875,
+            "height": 29
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Borkum Collection",
+          "bounds": {
+            "x": 1169,
+            "y": 1080,
+            "width": 200.90625,
+            "height": 29
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Paving Stones",
+          "bounds": {
+            "x": 25,
+            "y": 1320,
+            "width": 149.3125,
+            "height": 29
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Ground & Sand",
+          "bounds": {
+            "x": 597,
+            "y": 1130,
+            "width": 160.9375,
+            "height": 29
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Rocks",
+          "bounds": {
+            "x": 597,
+            "y": 1510,
+            "width": 64.546875,
+            "height": 29
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Ice & Snow",
+          "bounds": {
+            "x": 883,
+            "y": 1320,
+            "width": 117.375,
+            "height": 29
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "HEADER",
+          "role": null,
+          "text": "All Assets\nSurfaces\nEnvironments\nSubstances\n3D\nSupporter Login\nLicense\nDocs\nGallery\n3D\nassets\n.\none",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 42
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "role": null,
+          "text": "Free 3D Assets for Everyone and Everything.\n\nPBR Surfaces\nHDRIs\nSubstances\n3D Assets\nOnyx\nMetal\nFabric and Leather\nBorkum Collection\n\nScans ",
+          "bounds": {
+            "x": 10,
+            "y": 52,
+            "width": 1420,
+            "height": 1510
+          },
+          "styles": {
+            "display": "grid",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "10px",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "276px 276px 276px 276px 276px"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Free 3D Assets for Everyone and Everything.",
+          "bounds": {
+            "x": 10,
+            "y": 52,
+            "width": 848,
+            "height": 560
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(128, 128, 128)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "FORM",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 209,
+            "y": 384.6875,
+            "width": 450,
+            "height": 51.875
+          },
+          "styles": {
+            "display": "grid",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "398px 52px"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 607,
+            "y": 384.6875,
+            "width": 52,
+            "height": 50.875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "40px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "1px 6px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "PBR Surfaces",
+          "bounds": {
+            "x": 868,
+            "y": 52,
+            "width": 276,
+            "height": 180
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "HDRIs",
+          "bounds": {
+            "x": 1154,
+            "y": 52,
+            "width": 276,
+            "height": 180
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Substances",
+          "bounds": {
+            "x": 1154,
+            "y": 242,
+            "width": 276,
+            "height": 180
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "3D Assets",
+          "bounds": {
+            "x": 868,
+            "y": 242,
+            "width": 276,
+            "height": 180
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 868,
+            "y": 432,
+            "width": 562,
+            "height": 370
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Onyx",
+          "bounds": {
+            "x": 10,
+            "y": 622,
+            "width": 276,
+            "height": 370
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Metal",
+          "bounds": {
+            "x": 296,
+            "y": 622,
+            "width": 562,
+            "height": 370
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Fabric and Leather",
+          "bounds": {
+            "x": 868,
+            "y": 812,
+            "width": 276,
+            "height": 180
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Borkum Collection\n\nScans & HDRIs from the island of Borkum",
+          "bounds": {
+            "x": 1154,
+            "y": 812,
+            "width": 276,
+            "height": 370
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Paving Stones",
+          "bounds": {
+            "x": 10,
+            "y": 1002,
+            "width": 562,
+            "height": 370
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Ground & Sand",
+          "bounds": {
+            "x": 582,
+            "y": 1002,
+            "width": 562,
+            "height": 180
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Rocks",
+          "bounds": {
+            "x": 582,
+            "y": 1192,
+            "width": 276,
+            "height": 370
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Ice & Snow",
+          "bounds": {
+            "x": 868,
+            "y": 1192,
+            "width": 276,
+            "height": 180
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Tiles",
+          "bounds": {
+            "x": 1154,
+            "y": 1192,
+            "width": 276,
+            "height": 180
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Blender Conference 2025",
+          "bounds": {
+            "x": 10,
+            "y": 1382,
+            "width": 276,
+            "height": 180
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Help & Documentation",
+          "bounds": {
+            "x": 296,
+            "y": 1382,
+            "width": 276,
+            "height": 180
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Gallery",
+          "bounds": {
+            "x": 868,
+            "y": 1382,
+            "width": 276,
+            "height": 180
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Support ambientCG on Patreon",
+          "bounds": {
+            "x": 1154,
+            "y": 1382,
+            "width": 276,
+            "height": 180
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://ambientcg.com/"
+        },
+        {
+          "text": "All Assets",
+          "href": "https://ambientcg.com/list"
+        },
+        {
+          "text": "Surfaces",
+          "href": "https://ambientcg.com/list?type=material,atlas,decal"
+        },
+        {
+          "text": "Environments",
+          "href": "https://ambientcg.com/list?type=hdri,hdri-element"
+        },
+        {
+          "text": "Substances",
+          "href": "https://ambientcg.com/list?type=substance"
+        },
+        {
+          "text": "3D",
+          "href": "https://ambientcg.com/list?type=3d-model,terrain"
+        },
+        {
+          "text": "Supporter Login",
+          "href": "https://ambientcg.com/activate"
+        },
+        {
+          "text": "License",
+          "href": "https://docs.ambientcg.com/license"
+        },
+        {
+          "text": "Docs",
+          "href": "https://docs.ambientcg.com/"
+        },
+        {
+          "text": "Gallery",
+          "href": "https://ambientcg.com/gallery"
+        },
+        {
+          "text": "3D\nassets\n.\none",
+          "href": "https://3dassets.one/"
+        },
+        {
+          "text": "",
+          "href": "https://ko-fi.com/ambientCG"
+        },
+        {
+          "text": "",
+          "href": "https://patreon.com/ambientcg"
+        },
+        {
+          "text": "",
+          "href": "https://mastodon.social/@ambientcg"
+        },
+        {
+          "text": "",
+          "href": "https://bsky.app/profile/ambientcg.com"
+        },
+        {
+          "text": "",
+          "href": "https://artstation.com/ambientcg"
+        },
+        {
+          "text": "",
+          "href": "https://instagram.com/ambientCG"
+        },
+        {
+          "text": "PBR Surfaces",
+          "href": "https://ambientcg.com/list?type=atlas,material,decal"
+        },
+        {
+          "text": "HDRIs",
+          "href": "https://ambientcg.com/list?type=hdri,hdri-element"
+        },
+        {
+          "text": "Substances",
+          "href": "https://ambientcg.com/list?type=substance"
+        },
+        {
+          "text": "3D Assets",
+          "href": "https://ambientcg.com/list?type=3d-model,terrain"
+        },
+        {
+          "text": "Onyx",
+          "href": "https://ambientcg.com/list?category=Onyx,OnyxSubstance"
+        },
+        {
+          "text": "Metal",
+          "href": "https://ambientcg.com/list?category=Metal"
+        },
+        {
+          "text": "Fabric and Leather",
+          "href": "https://ambientcg.com/list?category=Fabric,Leather"
+        },
+        {
+          "text": "Borkum Collection\n\nScans & HDRIs from the island of Borkum",
+          "href": "https://ambientcg.com/list?collection=borkum"
+        },
+        {
+          "text": "Paving Stones",
+          "href": "https://ambientcg.com/list?category=PavingStones"
+        },
+        {
+          "text": "Ground & Sand",
+          "href": "https://ambientcg.com/list?category=Ground"
+        },
+        {
+          "text": "Rocks",
+          "href": "https://ambientcg.com/list?category=Rocks"
+        },
+        {
+          "text": "Ice & Snow",
+          "href": "https://ambientcg.com/list?category=Ice,Snow"
+        },
+        {
+          "text": "Tiles",
+          "href": "https://ambientcg.com/list?category=Tiles"
+        },
+        {
+          "text": "Blender Conference 2025",
+          "href": "https://ambientcg.com/list?collection=bcon25"
+        },
+        {
+          "text": "Help & Documentation",
+          "href": "https://docs.ambientcg.com/"
+        },
+        {
+          "text": "Gallery",
+          "href": "https://ambientcg.com/gallery"
+        },
+        {
+          "text": "Support ambientCG on Patreon",
+          "href": "https://patreon.com/ambientCG"
+        },
+        {
+          "text": "License",
+          "href": "https://docs.ambientcg.com/license/"
+        },
+        {
+          "text": "Patreon",
+          "href": "https://patreon.com/ambientCG"
+        },
+        {
+          "text": "Ko-fi",
+          "href": "https://ko-fi.com/ambientCG"
+        },
+        {
+          "text": "Imprint & Privacy Policy\n(Impressum & Datenschutz).",
+          "href": "https://docs.ambientcg.com/legal"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--reduced-width": "max(calc(100% - 300px), 1100px)",
+        "--accent-3": "#92CEEE",
+        "--accent-2": "#116DD5",
+        "--header-height": "30px",
+        "--accent-1": "#0F2C59",
+        "--accent-4": "#d3d6e9",
+        "--text": "#2a2a2a",
+        "--accent-5": "#edf0f8",
+        "--global-width": "100%",
+        "--text-active": "#ffffff",
+        "--text-subtle": "#666666",
+        "--bg": "#ffffff",
+        "--label-early": "red",
+        "--label-new": "#116DD5",
+        "--text-subtle-active": "#999999"
+      }
+    },
+    "mobile": {
+      "url": "https://ambientcg.com/",
+      "title": "ambientCG - Free Textures, HDRIs and Models",
+      "text": "Free 3D Assets for Everyone and Everything.\n\nPBR Surfaces\nHDRIs\nSubstances\n3D Assets\nOnyx\nMetal\nFabric and Leather\nBorkum Collection\n\nScans & HDRIs from the island of Borkum\n\nPaving Stones\nGround & Sand\nRocks\nIce & Snow\nTiles\nBlender Conference 2025\nHelp & Documentation\nGallery\nSupport ambientCG on Patreon\nWhat is this website about?\n\nambientCG is one of the largest sources for free PBR materials, HDRIs, and models for 3D art, architectural visualization, game development, VFX and more.\n\nToday, ambientCG serves over 1,000,000 monthly downloads to hundreds of thousands of artists, students, and educators all over the world.\n\nWhy does ambientCG exist?\n\nI started this website in 2018 to provide freely shareable 3D textures because I had become frustrated with the licensing policies of many other texturing platforms, which limit or forbid texture redistribution.\n\nAre the assets really free for any purpose?\n\nYes. All assets are released under the Creative Commons CC0 license, making them free to use without attribution - even in commercial circumstances.\n\nSee the License page.\n\nHow can I support ambientCG?\n\nIf you'd like to support the project, you can become a patron on Patreon or buy me a coffee on Ko-fi.\n\nBecoming a patron also includes perks such as ad-free browsing or early access.\n\nCan I request a texture?\n\nNot with a guarantee. If you are a patron, you can make texture suggestions, but I can't give any concrete promises and I don't do contract work at this point in time.\n\nCan I get in touch?\n\nYou can find contact details and other legally required documentation here:\n\nImprint & Privacy Policy\n(Impressum & Datenschutz).",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "horizontal_overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "PBR Surfaces",
+          "bounds": {
+            "x": 25,
+            "y": 780.875,
+            "width": 143.0625,
+            "height": 29
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "HDRIs",
+          "bounds": {
+            "x": 215,
+            "y": 780.875,
+            "width": 69.84375,
+            "height": 29
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Substances",
+          "bounds": {
+            "x": 215,
+            "y": 1040.875,
+            "width": 120.953125,
+            "height": 29
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "3D Assets",
+          "bounds": {
+            "x": 25,
+            "y": 1040.875,
+            "width": 107.125,
+            "height": 29
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Onyx",
+          "bounds": {
+            "x": 25,
+            "y": 1820.875,
+            "width": 58.171875,
+            "height": 29
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Metal",
+          "bounds": {
+            "x": 215,
+            "y": 1820.875,
+            "width": 63.515625,
+            "height": 29
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Fabric and Leather",
+          "bounds": {
+            "x": 25,
+            "y": 2080.875,
+            "width": 199.546875,
+            "height": 29
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Borkum Collection",
+          "bounds": {
+            "x": 25,
+            "y": 2521.875,
+            "width": 150,
+            "height": 58
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Paving Stones",
+          "bounds": {
+            "x": 215,
+            "y": 2600.875,
+            "width": 149.3125,
+            "height": 29
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Ground & Sand",
+          "bounds": {
+            "x": 25,
+            "y": 2860.875,
+            "width": 160.9375,
+            "height": 29
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Rocks",
+          "bounds": {
+            "x": 25,
+            "y": 3120.875,
+            "width": 64.546875,
+            "height": 29
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "H1",
+          "role": null,
+          "text": "Ice & Snow",
+          "bounds": {
+            "x": 215,
+            "y": 3120.875,
+            "width": 117.375,
+            "height": 29
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "components": [
+        {
+          "tag": "HEADER",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 52.875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 52,
+            "height": 50.875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "40px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "1px 6px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "role": null,
+          "text": "Free 3D Assets for Everyone and Everything.\n\nPBR Surfaces\nHDRIs\nSubstances\n3D Assets\nOnyx\nMetal\nFabric and Leather\nBorkum Collection\n\nScans ",
+          "bounds": {
+            "x": 10,
+            "y": 62.875,
+            "width": 370,
+            "height": 4150
+          },
+          "styles": {
+            "display": "grid",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(42, 42, 42)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "10px",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "180px 180px"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Free 3D Assets for Everyone and Everything.",
+          "bounds": {
+            "x": 10,
+            "y": 62.875,
+            "width": 370,
+            "height": 510
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(128, 128, 128)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "FORM",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 84,
+            "y": 362.421875,
+            "width": 222,
+            "height": 51.875
+          },
+          "styles": {
+            "display": "grid",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "170px 52px"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 254,
+            "y": 362.421875,
+            "width": 52,
+            "height": 50.875
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "40px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "1px 6px",
+            "borderRadius": "0px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "PBR Surfaces",
+          "bounds": {
+            "x": 10,
+            "y": 582.875,
+            "width": 180,
+            "height": 250
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "HDRIs",
+          "bounds": {
+            "x": 200,
+            "y": 582.875,
+            "width": 180,
+            "height": 250
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Substances",
+          "bounds": {
+            "x": 200,
+            "y": 842.875,
+            "width": 180,
+            "height": 250
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "3D Assets",
+          "bounds": {
+            "x": 10,
+            "y": 842.875,
+            "width": 180,
+            "height": 250
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "",
+          "bounds": {
+            "x": 10,
+            "y": 1102.875,
+            "width": 370,
+            "height": 510
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Onyx",
+          "bounds": {
+            "x": 10,
+            "y": 1622.875,
+            "width": 180,
+            "height": 250
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Metal",
+          "bounds": {
+            "x": 200,
+            "y": 1622.875,
+            "width": 180,
+            "height": 250
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Fabric and Leather",
+          "bounds": {
+            "x": 10,
+            "y": 1882.875,
+            "width": 370,
+            "height": 250
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Borkum Collection\n\nScans & HDRIs from the island of Borkum",
+          "bounds": {
+            "x": 10,
+            "y": 2142.875,
+            "width": 180,
+            "height": 510
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Paving Stones",
+          "bounds": {
+            "x": 200,
+            "y": 2142.875,
+            "width": 180,
+            "height": 510
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Ground & Sand",
+          "bounds": {
+            "x": 10,
+            "y": 2662.875,
+            "width": 370,
+            "height": 250
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Rocks",
+          "bounds": {
+            "x": 10,
+            "y": 2922.875,
+            "width": 180,
+            "height": 250
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Ice & Snow",
+          "bounds": {
+            "x": 200,
+            "y": 2922.875,
+            "width": 180,
+            "height": 250
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Tiles",
+          "bounds": {
+            "x": 10,
+            "y": 3182.875,
+            "width": 180,
+            "height": 250
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Blender Conference 2025",
+          "bounds": {
+            "x": 200,
+            "y": 3182.875,
+            "width": 180,
+            "height": 250
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Help & Documentation",
+          "bounds": {
+            "x": 10,
+            "y": 3442.875,
+            "width": 370,
+            "height": 250
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Gallery",
+          "bounds": {
+            "x": 10,
+            "y": 3702.875,
+            "width": 370,
+            "height": 250
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "role": null,
+          "text": "Support ambientCG on Patreon",
+          "bounds": {
+            "x": 10,
+            "y": 3962.875,
+            "width": 370,
+            "height": 250
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "\"default\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "gap": "normal",
+            "padding": "0px",
+            "borderRadius": "1px",
+            "gridTemplateColumns": "none"
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "\n\t\t\t\t\t\t\n\t\t\t\t\t",
+          "href": "https://ambientcg.com/"
+        },
+        {
+          "text": "All Assets",
+          "href": "https://ambientcg.com/list"
+        },
+        {
+          "text": "Surfaces",
+          "href": "https://ambientcg.com/list?type=material,atlas,decal"
+        },
+        {
+          "text": "Environments",
+          "href": "https://ambientcg.com/list?type=hdri,hdri-element"
+        },
+        {
+          "text": "Substances",
+          "href": "https://ambientcg.com/list?type=substance"
+        },
+        {
+          "text": "3D",
+          "href": "https://ambientcg.com/list?type=3d-model,terrain"
+        },
+        {
+          "text": "Supporter Login",
+          "href": "https://ambientcg.com/activate"
+        },
+        {
+          "text": "License",
+          "href": "https://docs.ambientcg.com/license"
+        },
+        {
+          "text": "Docs",
+          "href": "https://docs.ambientcg.com/"
+        },
+        {
+          "text": "Gallery",
+          "href": "https://ambientcg.com/gallery"
+        },
+        {
+          "text": "\n\t\t\t\t\t\t3Dassets.one\n\t\t\t\t\t",
+          "href": "https://3dassets.one/"
+        },
+        {
+          "text": "\n                \n            ",
+          "href": "https://ko-fi.com/ambientCG"
+        },
+        {
+          "text": "\n\t\t\t\t\n            ",
+          "href": "https://patreon.com/ambientcg"
+        },
+        {
+          "text": "\n                \n            ",
+          "href": "https://mastodon.social/@ambientcg"
+        },
+        {
+          "text": "\n \t\t\n\t\t",
+          "href": "https://bsky.app/profile/ambientcg.com"
+        },
+        {
+          "text": "\n                \n            ",
+          "href": "https://artstation.com/ambientcg"
+        },
+        {
+          "text": "\n                \n            ",
+          "href": "https://instagram.com/ambientCG"
+        },
+        {
+          "text": "PBR Surfaces",
+          "href": "https://ambientcg.com/list?type=atlas,material,decal"
+        },
+        {
+          "text": "HDRIs",
+          "href": "https://ambientcg.com/list?type=hdri,hdri-element"
+        },
+        {
+          "text": "Substances",
+          "href": "https://ambientcg.com/list?type=substance"
+        },
+        {
+          "text": "3D Assets",
+          "href": "https://ambientcg.com/list?type=3d-model,terrain"
+        },
+        {
+          "text": "Onyx",
+          "href": "https://ambientcg.com/list?category=Onyx,OnyxSubstance"
+        },
+        {
+          "text": "Metal",
+          "href": "https://ambientcg.com/list?category=Metal"
+        },
+        {
+          "text": "Fabric and Leather",
+          "href": "https://ambientcg.com/list?category=Fabric,Leather"
+        },
+        {
+          "text": "Borkum Collection\n\nScans & HDRIs from the island of Borkum",
+          "href": "https://ambientcg.com/list?collection=borkum"
+        },
+        {
+          "text": "Paving Stones",
+          "href": "https://ambientcg.com/list?category=PavingStones"
+        },
+        {
+          "text": "Ground & Sand",
+          "href": "https://ambientcg.com/list?category=Ground"
+        },
+        {
+          "text": "Rocks",
+          "href": "https://ambientcg.com/list?category=Rocks"
+        },
+        {
+          "text": "Ice & Snow",
+          "href": "https://ambientcg.com/list?category=Ice,Snow"
+        },
+        {
+          "text": "Tiles",
+          "href": "https://ambientcg.com/list?category=Tiles"
+        },
+        {
+          "text": "Blender Conference 2025",
+          "href": "https://ambientcg.com/list?collection=bcon25"
+        },
+        {
+          "text": "Help & Documentation",
+          "href": "https://docs.ambientcg.com/"
+        },
+        {
+          "text": "Gallery",
+          "href": "https://ambientcg.com/gallery"
+        },
+        {
+          "text": "Support ambientCG on Patreon",
+          "href": "https://patreon.com/ambientCG"
+        },
+        {
+          "text": "License",
+          "href": "https://docs.ambientcg.com/license/"
+        },
+        {
+          "text": "Patreon",
+          "href": "https://patreon.com/ambientCG"
+        },
+        {
+          "text": "Ko-fi",
+          "href": "https://ko-fi.com/ambientCG"
+        },
+        {
+          "text": "Imprint & Privacy Policy\n(Impressum & Datenschutz).",
+          "href": "https://docs.ambientcg.com/legal"
+        }
+      ],
+      "broken_images": [],
+      "tokens": {
+        "--reduced-width": "max(calc(100% - 300px), 1100px)",
+        "--accent-3": "#92CEEE",
+        "--accent-2": "#116DD5",
+        "--header-height": "30px",
+        "--accent-1": "#0F2C59",
+        "--accent-4": "#d3d6e9",
+        "--text": "#2a2a2a",
+        "--accent-5": "#edf0f8",
+        "--global-width": "100%",
+        "--text-active": "#ffffff",
+        "--text-subtle": "#666666",
+        "--bg": "#ffffff",
+        "--label-early": "red",
+        "--label-new": "#116DD5",
+        "--text-subtle-active": "#999999"
+      }
+    }
+  },
+  "scope": "public source reference; not a locally reconstructed component",
+  "http_status": 200,
+  "page_errors": []
+}

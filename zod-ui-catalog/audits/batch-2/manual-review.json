@@ -1,0 +1,509 @@
+{
+  "review_method": "Manual inspection of paired desktop/mobile surfaces and functional evidence. No automatic tier from pixel similarity. S means ready with host token mapping; A retains explicit theme/parameter/portability work. No S+ or complete WCAG claim.",
+  "items": {
+    "dithercn-dither-glow": {
+      "tier": "S",
+      "manually_inspected": [
+        "desktop",
+        "mobile"
+      ],
+      "section": "ordered-dithering",
+      "notes": [
+        "Padrão, enquadramento e hierarquia tonal visualmente coerentes com a referência nas duas larguras.",
+        "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime."
+      ],
+      "adaptation_required": [
+        "Mapear tokens --dither-* e dimensionar o container no projeto host."
+      ]
+    },
+    "dithercn-mesh-gradient": {
+      "tier": "A",
+      "manually_inspected": [
+        "desktop",
+        "mobile"
+      ],
+      "section": "aurora-mesh-gradients",
+      "notes": [
+        "Mesma composição de blobs; matriz de ruído e gradação diferem do demo. Calibrar paleta e matriz antes de uso fiel.",
+        "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime."
+      ],
+      "adaptation_required": [
+        "Mesma composição de blobs; matriz de ruído e gradação diferem do demo. Calibrar paleta e matriz antes de uso fiel."
+      ]
+    },
+    "dithercn-noise-field": {
+      "tier": "S",
+      "manually_inspected": [
+        "desktop",
+        "mobile"
+      ],
+      "section": "ordered-dithering",
+      "notes": [
+        "Padrão, enquadramento e hierarquia tonal visualmente coerentes com a referência nas duas larguras.",
+        "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime."
+      ],
+      "adaptation_required": [
+        "Mapear tokens --dither-* e dimensionar o container no projeto host."
+      ]
+    },
+    "dithercn-plasma": {
+      "tier": "A",
+      "manually_inspected": [
+        "desktop",
+        "mobile"
+      ],
+      "section": "aurora-mesh-gradients",
+      "notes": [
+        "Campo e contornos preservados; a paleta padrão local introduz branco ausente no demo. Mapear palette explicitamente.",
+        "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime."
+      ],
+      "adaptation_required": [
+        "Campo e contornos preservados; a paleta padrão local introduz branco ausente no demo. Mapear palette explicitamente."
+      ]
+    },
+    "dithercn-starfield": {
+      "tier": "A",
+      "manually_inspected": [
+        "desktop",
+        "mobile"
+      ],
+      "section": "particle-chrome-effects",
+      "notes": [
+        "Distribuição de estrelas preservada; padrão local usa estrelas brancas onde o demo usa azul. Mapear a paleta.",
+        "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime."
+      ],
+      "adaptation_required": [
+        "Distribuição de estrelas preservada; padrão local usa estrelas brancas onde o demo usa azul. Mapear a paleta."
+      ]
+    },
+    "dithercn-halftone": {
+      "tier": "A",
+      "manually_inspected": [
+        "desktop",
+        "mobile"
+      ],
+      "section": "ordered-dithering",
+      "notes": [
+        "Estrutura de manchas preservada; demo ciano versus paleta local azul. Ajustar palette e tonalidade.",
+        "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime."
+      ],
+      "adaptation_required": [
+        "Estrutura de manchas preservada; demo ciano versus paleta local azul. Ajustar palette e tonalidade."
+      ]
+    },
+    "dithercn-horizon": {
+      "tier": "S",
+      "manually_inspected": [
+        "desktop",
+        "mobile"
+      ],
+      "section": "ordered-dithering",
+      "notes": [
+        "Padrão, enquadramento e hierarquia tonal visualmente coerentes com a referência nas duas larguras.",
+        "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime."
+      ],
+      "adaptation_required": [
+        "Mapear tokens --dither-* e dimensionar o container no projeto host."
+      ]
+    },
+    "dithercn-beams": {
+      "tier": "S",
+      "manually_inspected": [
+        "desktop",
+        "mobile"
+      ],
+      "section": "aurora-mesh-gradients",
+      "notes": [
+        "Padrão, enquadramento e hierarquia tonal visualmente coerentes com a referência nas duas larguras.",
+        "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime."
+      ],
+      "adaptation_required": [
+        "Mapear tokens --dither-* e dimensionar o container no projeto host."
+      ]
+    },
+    "dithercn-eclipse": {
+      "tier": "S",
+      "manually_inspected": [
+        "desktop",
+        "mobile"
+      ],
+      "section": "ordered-dithering",
+      "notes": [
+        "Padrão, enquadramento e hierarquia tonal visualmente coerentes com a referência nas duas larguras.",
+        "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime."
+      ],
+      "adaptation_required": [
+        "Mapear tokens --dither-* e dimensionar o container no projeto host."
+      ]
+    },
+    "dithercn-dither-orb": {
+      "tier": "A",
+      "manually_inspected": [
+        "desktop",
+        "mobile"
+      ],
+      "section": "particle-chrome-effects",
+      "notes": [
+        "Esfera e limites preservados; intensidade e região de luz diferem. Conferir uniforms de iluminação e paleta.",
+        "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime."
+      ],
+      "adaptation_required": [
+        "Esfera e limites preservados; intensidade e região de luz diferem. Conferir uniforms de iluminação e paleta."
+      ]
+    },
+    "dithercn-contours": {
+      "tier": "S",
+      "manually_inspected": [
+        "desktop",
+        "mobile"
+      ],
+      "section": "ordered-dithering",
+      "notes": [
+        "Padrão, enquadramento e hierarquia tonal visualmente coerentes com a referência nas duas larguras.",
+        "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime."
+      ],
+      "adaptation_required": [
+        "Mapear tokens --dither-* e dimensionar o container no projeto host."
+      ]
+    },
+    "dithercn-ripples": {
+      "tier": "S",
+      "manually_inspected": [
+        "desktop",
+        "mobile"
+      ],
+      "section": "ordered-dithering",
+      "notes": [
+        "Padrão, enquadramento e hierarquia tonal visualmente coerentes com a referência nas duas larguras.",
+        "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime."
+      ],
+      "adaptation_required": [
+        "Mapear tokens --dither-* e dimensionar o container no projeto host."
+      ]
+    },
+    "dithercn-retro-grid": {
+      "tier": "S",
+      "manually_inspected": [
+        "desktop",
+        "mobile"
+      ],
+      "section": "ordered-dithering",
+      "notes": [
+        "Padrão, enquadramento e hierarquia tonal visualmente coerentes com a referência nas duas larguras.",
+        "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime."
+      ],
+      "adaptation_required": [
+        "Mapear tokens --dither-* e dimensionar o container no projeto host."
+      ]
+    },
+    "dithercn-silk": {
+      "tier": "S",
+      "manually_inspected": [
+        "desktop",
+        "mobile"
+      ],
+      "section": "aurora-mesh-gradients",
+      "notes": [
+        "Padrão, enquadramento e hierarquia tonal visualmente coerentes com a referência nas duas larguras.",
+        "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime."
+      ],
+      "adaptation_required": [
+        "Mapear tokens --dither-* e dimensionar o container no projeto host."
+      ]
+    },
+    "dithercn-tunnel": {
+      "tier": "S",
+      "manually_inspected": [
+        "desktop",
+        "mobile"
+      ],
+      "section": "ordered-dithering",
+      "notes": [
+        "Padrão, enquadramento e hierarquia tonal visualmente coerentes com a referência nas duas larguras.",
+        "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime."
+      ],
+      "adaptation_required": [
+        "Mapear tokens --dither-* e dimensionar o container no projeto host."
+      ]
+    },
+    "dithercn-smoke": {
+      "tier": "A",
+      "manually_inspected": [
+        "desktop",
+        "mobile"
+      ],
+      "section": "aurora-mesh-gradients",
+      "notes": [
+        "Campo de fumaça preservado, mas densidade e distribuição tonal diferem do demo. Ajustar uniforms e palette.",
+        "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime."
+      ],
+      "adaptation_required": [
+        "Campo de fumaça preservado, mas densidade e distribuição tonal diferem do demo. Ajustar uniforms e palette."
+      ]
+    },
+    "dithercn-metaballs": {
+      "tier": "A",
+      "manually_inspected": [
+        "desktop",
+        "mobile"
+      ],
+      "section": "aurora-mesh-gradients",
+      "notes": [
+        "Geometria de bolhas preservada; limiares e gradação tonal diferem do demo. Ajustar palette/thresholds.",
+        "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime."
+      ],
+      "adaptation_required": [
+        "Geometria de bolhas preservada; limiares e gradação tonal diferem do demo. Ajustar palette/thresholds."
+      ]
+    },
+    "dithercn-ridgelines": {
+      "tier": "S",
+      "manually_inspected": [
+        "desktop",
+        "mobile"
+      ],
+      "section": "ordered-dithering",
+      "notes": [
+        "Padrão, enquadramento e hierarquia tonal visualmente coerentes com a referência nas duas larguras.",
+        "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime."
+      ],
+      "adaptation_required": [
+        "Mapear tokens --dither-* e dimensionar o container no projeto host."
+      ]
+    },
+    "dithercn-flow-field": {
+      "tier": "S",
+      "manually_inspected": [
+        "desktop",
+        "mobile"
+      ],
+      "section": "particle-chrome-effects",
+      "notes": [
+        "Padrão, enquadramento e hierarquia tonal visualmente coerentes com a referência nas duas larguras.",
+        "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime."
+      ],
+      "adaptation_required": [
+        "Mapear tokens --dither-* e dimensionar o container no projeto host."
+      ]
+    },
+    "dithercn-voronoi": {
+      "tier": "A",
+      "manually_inspected": [
+        "desktop",
+        "mobile"
+      ],
+      "section": "particle-chrome-effects",
+      "notes": [
+        "Malha celular preservada; o preenchimento local tem mais pontos nas células. Ajustar contraste e paleta.",
+        "Código MIT do registry preservado; render WebGL estático verificado com reduced-motion. Nenhum overflow ou erro de runtime."
+      ],
+      "adaptation_required": [
+        "Malha celular preservada; o preenchimento local tem mais pontos nas células. Ajustar contraste e paleta."
+      ]
+    },
+    "shadcn-button": {
+      "tier": "A",
+      "manually_inspected": [
+        "desktop",
+        "mobile"
+      ],
+      "notes": [
+        "Estrutura e estados do demo preservados; integração local usa Arial, enquanto a fonte oficial usa Geist.",
+        "Normalizar tema, fonte, aliases e largura do host antes de tratar como plug-and-play. Comparações normalizadas mantêm a captura original separada.",
+        "Checks de interação registrados em audit.json; sem certificação completa de contraste, leitor de tela ou fluxo de negócio."
+      ],
+      "adaptation_required": [
+        "Importar tokens de tema e CSS Tailwind v4.",
+        "Mapear o import cn para utilitário compatível clsx + tailwind-merge.",
+        "Normalizar fonte Geist e dimensões do container."
+      ]
+    },
+    "shadcn-badge": {
+      "tier": "A",
+      "manually_inspected": [
+        "desktop",
+        "mobile"
+      ],
+      "notes": [
+        "Estrutura e estados do demo preservados; integração local usa Arial, enquanto a fonte oficial usa Geist.",
+        "Normalizar tema, fonte, aliases e largura do host antes de tratar como plug-and-play. Comparações normalizadas mantêm a captura original separada.",
+        "Checks de interação registrados em audit.json; sem certificação completa de contraste, leitor de tela ou fluxo de negócio."
+      ],
+      "adaptation_required": [
+        "Importar tokens de tema e CSS Tailwind v4.",
+        "Mapear o import cn para utilitário compatível clsx + tailwind-merge.",
+        "Normalizar fonte Geist e dimensões do container."
+      ]
+    },
+    "shadcn-card": {
+      "tier": "A",
+      "manually_inspected": [
+        "desktop",
+        "mobile"
+      ],
+      "notes": [
+        "Estrutura e estados do demo preservados; integração local usa Arial, enquanto a fonte oficial usa Geist.",
+        "Normalizar tema, fonte, aliases e largura do host antes de tratar como plug-and-play. Comparações normalizadas mantêm a captura original separada.",
+        "Checks de interação registrados em audit.json; sem certificação completa de contraste, leitor de tela ou fluxo de negócio."
+      ],
+      "adaptation_required": [
+        "Importar tokens de tema e CSS Tailwind v4.",
+        "Mapear o import cn para utilitário compatível clsx + tailwind-merge.",
+        "Normalizar fonte Geist e dimensões do container."
+      ]
+    },
+    "shadcn-input": {
+      "tier": "A",
+      "manually_inspected": [
+        "desktop",
+        "mobile"
+      ],
+      "notes": [
+        "Estrutura e estados do demo preservados; integração local usa Arial, enquanto a fonte oficial usa Geist.",
+        "Normalizar tema, fonte, aliases e largura do host antes de tratar como plug-and-play. Comparações normalizadas mantêm a captura original separada.",
+        "Checks de interação registrados em audit.json; sem certificação completa de contraste, leitor de tela ou fluxo de negócio."
+      ],
+      "adaptation_required": [
+        "Importar tokens de tema e CSS Tailwind v4.",
+        "Mapear o import cn para utilitário compatível clsx + tailwind-merge.",
+        "Normalizar fonte Geist e dimensões do container."
+      ]
+    },
+    "shadcn-textarea": {
+      "tier": "A",
+      "manually_inspected": [
+        "desktop",
+        "mobile"
+      ],
+      "notes": [
+        "Estrutura e estados do demo preservados; integração local usa Arial, enquanto a fonte oficial usa Geist.",
+        "Normalizar tema, fonte, aliases e largura do host antes de tratar como plug-and-play. Comparações normalizadas mantêm a captura original separada.",
+        "Checks de interação registrados em audit.json; sem certificação completa de contraste, leitor de tela ou fluxo de negócio."
+      ],
+      "adaptation_required": [
+        "Importar tokens de tema e CSS Tailwind v4.",
+        "Mapear o import cn para utilitário compatível clsx + tailwind-merge.",
+        "Normalizar fonte Geist e dimensões do container."
+      ]
+    },
+    "shadcn-checkbox": {
+      "tier": "A",
+      "manually_inspected": [
+        "desktop",
+        "mobile"
+      ],
+      "notes": [
+        "Estrutura e estados do demo preservados; integração local usa Arial, enquanto a fonte oficial usa Geist.",
+        "Normalizar tema, fonte, aliases e largura do host antes de tratar como plug-and-play. Comparações normalizadas mantêm a captura original separada.",
+        "Checks de interação registrados em audit.json; sem certificação completa de contraste, leitor de tela ou fluxo de negócio."
+      ],
+      "adaptation_required": [
+        "Importar tokens de tema e CSS Tailwind v4.",
+        "Mapear o import cn para utilitário compatível clsx + tailwind-merge.",
+        "Normalizar fonte Geist e dimensões do container."
+      ]
+    },
+    "shadcn-switch": {
+      "tier": "A",
+      "manually_inspected": [
+        "desktop",
+        "mobile"
+      ],
+      "notes": [
+        "Estrutura e estados do demo preservados; integração local usa Arial, enquanto a fonte oficial usa Geist.",
+        "Normalizar tema, fonte, aliases e largura do host antes de tratar como plug-and-play. Comparações normalizadas mantêm a captura original separada.",
+        "Checks de interação registrados em audit.json; sem certificação completa de contraste, leitor de tela ou fluxo de negócio."
+      ],
+      "adaptation_required": [
+        "Importar tokens de tema e CSS Tailwind v4.",
+        "Mapear o import cn para utilitário compatível clsx + tailwind-merge.",
+        "Normalizar fonte Geist e dimensões do container."
+      ]
+    },
+    "shadcn-tabs": {
+      "tier": "A",
+      "manually_inspected": [
+        "desktop",
+        "mobile"
+      ],
+      "notes": [
+        "Estrutura e estados do demo preservados; integração local usa Arial, enquanto a fonte oficial usa Geist.",
+        "Normalizar tema, fonte, aliases e largura do host antes de tratar como plug-and-play. Comparações normalizadas mantêm a captura original separada.",
+        "Checks de interação registrados em audit.json; sem certificação completa de contraste, leitor de tela ou fluxo de negócio."
+      ],
+      "adaptation_required": [
+        "Importar tokens de tema e CSS Tailwind v4.",
+        "Mapear o import cn para utilitário compatível clsx + tailwind-merge.",
+        "Normalizar fonte Geist e dimensões do container."
+      ]
+    },
+    "shadcn-accordion": {
+      "tier": "A",
+      "manually_inspected": [
+        "desktop",
+        "mobile"
+      ],
+      "notes": [
+        "Estrutura e estados do demo preservados; integração local usa Arial, enquanto a fonte oficial usa Geist.",
+        "Normalizar tema, fonte, aliases e largura do host antes de tratar como plug-and-play. Comparações normalizadas mantêm a captura original separada.",
+        "Checks de interação registrados em audit.json; sem certificação completa de contraste, leitor de tela ou fluxo de negócio."
+      ],
+      "adaptation_required": [
+        "Importar tokens de tema e CSS Tailwind v4.",
+        "Mapear o import cn para utilitário compatível clsx + tailwind-merge.",
+        "Normalizar fonte Geist e dimensões do container."
+      ]
+    },
+    "shadcn-dialog": {
+      "tier": "A",
+      "manually_inspected": [
+        "desktop",
+        "mobile"
+      ],
+      "notes": [
+        "Estrutura e estados do demo preservados; integração local usa Arial, enquanto a fonte oficial usa Geist.",
+        "Normalizar tema, fonte, aliases e largura do host antes de tratar como plug-and-play. Comparações normalizadas mantêm a captura original separada.",
+        "Checks de interação registrados em audit.json; sem certificação completa de contraste, leitor de tela ou fluxo de negócio."
+      ],
+      "adaptation_required": [
+        "Importar tokens de tema e CSS Tailwind v4.",
+        "Mapear o import cn para utilitário compatível clsx + tailwind-merge.",
+        "Normalizar fonte Geist e dimensões do container."
+      ]
+    },
+    "shadcn-progress": {
+      "tier": "A",
+      "manually_inspected": [
+        "desktop",
+        "mobile"
+      ],
+      "notes": [
+        "Estrutura e estados do demo preservados; integração local usa Arial, enquanto a fonte oficial usa Geist.",
+        "Normalizar tema, fonte, aliases e largura do host antes de tratar como plug-and-play. Comparações normalizadas mantêm a captura original separada.",
+        "Checks de interação registrados em audit.json; sem certificação completa de contraste, leitor de tela ou fluxo de negócio."
+      ],
+      "adaptation_required": [
+        "Importar tokens de tema e CSS Tailwind v4.",
+        "Mapear o import cn para utilitário compatível clsx + tailwind-merge.",
+        "Normalizar fonte Geist e dimensões do container."
+      ]
+    },
+    "shadcn-slider": {
+      "tier": "A",
+      "manually_inspected": [
+        "desktop",
+        "mobile"
+      ],
+      "notes": [
+        "Estrutura e estados do demo preservados; integração local usa Arial, enquanto a fonte oficial usa Geist.",
+        "Normalizar tema, fonte, aliases e largura do host antes de tratar como plug-and-play. Comparações normalizadas mantêm a captura original separada.",
+        "Checks de interação registrados em audit.json; sem certificação completa de contraste, leitor de tela ou fluxo de negócio."
+      ],
+      "adaptation_required": [
+        "Importar tokens de tema e CSS Tailwind v4.",
+        "Mapear o import cn para utilitário compatível clsx + tailwind-merge.",
+        "Normalizar fonte Geist e dimensões do container."
+      ]
+    }
+  }
+}

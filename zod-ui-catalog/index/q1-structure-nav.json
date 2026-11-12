@@ -1,0 +1,251 @@
+{
+  "schema_version": 1,
+  "quadrant": "Q1-structure-nav",
+  "count": 4,
+  "sections": {
+    "navbars": {
+      "floating-glass": [],
+      "minimal-sticky": [
+        {
+          "id": "navbar-supaste-static",
+          "location": {
+            "quadrant": "Q1-structure-nav",
+            "category": "navbars",
+            "section": "minimal-sticky",
+            "file_path": "Q1-structure-nav/navbars/minimal-sticky/navbar-supaste-static.json"
+          },
+          "tier": "C",
+          "tier_audit": {
+            "visual_verified": true,
+            "verification_scope": "source screenshots only; not local implementation fidelity",
+            "fidelity_type": "visual_spec",
+            "responsive_score": null,
+            "audit_notes": [
+              "Tier C: reference/spec, not ready-to-use code.",
+              "Source DOM measurements may describe gallery chrome, not the referenced product.",
+              "Keyboard, contrast and animation timing not certified."
+            ],
+            "evidence": [
+              "audits/source-evidence/navbar-gallery-supaste/evidence.json",
+              "previews/navbar-supaste-static/desktop.png",
+              "previews/navbar-supaste-static/mobile.png"
+            ],
+            "source_observations": {
+              "desktop": {
+                "viewport": {
+                  "width": 1440,
+                  "height": 900
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              },
+              "mobile": {
+                "viewport": {
+                  "width": 390,
+                  "height": 844
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              }
+            }
+          },
+          "source_site": "navbar.gallery",
+          "source_url": "https://www.navbar.gallery/navbar/supaste",
+          "license": {
+            "status": "reference_only_not_code_license",
+            "redistribution": "No source code or original downloadable assets included; screenshots are research evidence."
+          },
+          "stack_compatibility": [
+            "framework-agnostic-spec"
+          ],
+          "style_tags": [
+            "minimal-sticky"
+          ]
+        }
+      ],
+      "mega-menu-enterprise": [
+        {
+          "id": "navbar-cloudflare-mega-menu",
+          "location": {
+            "quadrant": "Q1-structure-nav",
+            "category": "navbars",
+            "section": "mega-menu-enterprise",
+            "file_path": "Q1-structure-nav/navbars/mega-menu-enterprise/navbar-cloudflare-mega-menu.json"
+          },
+          "tier": "C",
+          "tier_audit": {
+            "visual_verified": true,
+            "verification_scope": "source screenshots only; not local implementation fidelity",
+            "fidelity_type": "visual_spec",
+            "responsive_score": null,
+            "audit_notes": [
+              "Tier C: reference/spec, not ready-to-use code.",
+              "Source DOM measurements may describe gallery chrome, not the referenced product.",
+              "Keyboard, contrast and animation timing not certified."
+            ],
+            "evidence": [
+              "audits/source-evidence/navbar-gallery-cloudflare/evidence.json",
+              "previews/navbar-cloudflare-mega-menu/desktop.png",
+              "previews/navbar-cloudflare-mega-menu/mobile.png"
+            ],
+            "source_observations": {
+              "desktop": {
+                "viewport": {
+                  "width": 1440,
+                  "height": 900
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              },
+              "mobile": {
+                "viewport": {
+                  "width": 390,
+                  "height": 844
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              }
+            }
+          },
+          "source_site": "navbar.gallery",
+          "source_url": "https://www.navbar.gallery/navbar/cloudflare",
+          "license": {
+            "status": "reference_only_not_code_license",
+            "redistribution": "No source code or original downloadable assets included; screenshots are research evidence."
+          },
+          "stack_compatibility": [
+            "framework-agnostic-spec"
+          ],
+          "style_tags": [
+            "mega-menu-enterprise"
+          ]
+        }
+      ],
+      "mobile-drawers": []
+    },
+    "page-blueprints": {
+      "saas-dark-tech": [
+        {
+          "id": "blueprint-fern-developer-tools",
+          "location": {
+            "quadrant": "Q1-structure-nav",
+            "category": "page-blueprints",
+            "section": "saas-dark-tech",
+            "file_path": "Q1-structure-nav/page-blueprints/saas-dark-tech/blueprint-fern-developer-tools.json"
+          },
+          "tier": "C",
+          "tier_audit": {
+            "visual_verified": true,
+            "verification_scope": "source screenshots only; not local implementation fidelity",
+            "fidelity_type": "visual_spec",
+            "responsive_score": null,
+            "audit_notes": [
+              "Tier C: reference/spec, not ready-to-use code.",
+              "Source DOM measurements may describe gallery chrome, not the referenced product.",
+              "Keyboard, contrast and animation timing not certified."
+            ],
+            "evidence": [
+              "audits/source-evidence/designdetails-io-fern/evidence.json",
+              "previews/blueprint-fern-developer-tools/desktop.png",
+              "previews/blueprint-fern-developer-tools/mobile.png"
+            ],
+            "source_observations": {
+              "desktop": {
+                "viewport": {
+                  "width": 1440,
+                  "height": 900
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              },
+              "mobile": {
+                "viewport": {
+                  "width": 390,
+                  "height": 844
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              }
+            }
+          },
+          "source_site": "designdetails.io",
+          "source_url": "https://designdetails.io/websites/buildwithfern-com",
+          "license": {
+            "status": "reference_only_not_code_license",
+            "redistribution": "No source code or original downloadable assets included; screenshots are research evidence."
+          },
+          "stack_compatibility": [
+            "framework-agnostic-spec"
+          ],
+          "style_tags": [
+            "saas-dark-tech"
+          ]
+        }
+      ],
+      "editorial-minimal": [],
+      "ai-product-launch": [
+        {
+          "id": "blueprint-bem-automation",
+          "location": {
+            "quadrant": "Q1-structure-nav",
+            "category": "page-blueprints",
+            "section": "ai-product-launch",
+            "file_path": "Q1-structure-nav/page-blueprints/ai-product-launch/blueprint-bem-automation.json"
+          },
+          "tier": "C",
+          "tier_audit": {
+            "visual_verified": true,
+            "verification_scope": "source screenshots only; not local implementation fidelity",
+            "fidelity_type": "visual_spec",
+            "responsive_score": null,
+            "audit_notes": [
+              "Tier C: reference/spec, not ready-to-use code.",
+              "Source DOM measurements may describe gallery chrome, not the referenced product.",
+              "Keyboard, contrast and animation timing not certified."
+            ],
+            "evidence": [
+              "audits/source-evidence/landdding-com-bem/evidence.json",
+              "previews/blueprint-bem-automation/desktop.png",
+              "previews/blueprint-bem-automation/mobile.png"
+            ],
+            "source_observations": {
+              "desktop": {
+                "viewport": {
+                  "width": 1440,
+                  "height": 900
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              },
+              "mobile": {
+                "viewport": {
+                  "width": 390,
+                  "height": 844
+                },
+                "page_horizontal_overflow": false,
+                "broken_images": []
+              }
+            }
+          },
+          "source_site": "landdding.com",
+          "source_url": "https://landdding.com/l/bem-ai-71b59971",
+          "license": {
+            "status": "reference_only_not_code_license",
+            "redistribution": "No source code or original downloadable assets included; screenshots are research evidence."
+          },
+          "stack_compatibility": [
+            "framework-agnostic-spec"
+          ],
+          "style_tags": [
+            "ai-product-launch"
+          ]
+        }
+      ],
+      "interactive-showcase": []
+    },
+    "shells-footers": {
+      "dashboard-sidebars": [],
+      "multi-column-footers": []
+    }
+  }
+}
