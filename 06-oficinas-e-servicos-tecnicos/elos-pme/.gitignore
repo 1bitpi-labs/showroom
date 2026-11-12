@@ -1,0 +1,9 @@
+node_modules/
+.next/
+.env*
+!.env.example
+.tsf/state/
+__pycache__/
+*.tsbuildinfo
+backups/
+test-results/

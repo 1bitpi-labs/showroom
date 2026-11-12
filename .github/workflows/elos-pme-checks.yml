@@ -1,0 +1,48 @@
+name: ElosPME checks
+on:
+  pull_request:
+    paths:
+      - '06-oficinas-e-servicos-tecnicos/elos-pme/**'
+      - '.github/workflows/elos-pme-checks.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: 06-oficinas-e-servicos-tecnicos/elos-pme
+    services:
+      postgres:
+        image: postgres:17-alpine
+        env:
+          POSTGRES_USER: elos
+          POSTGRES_PASSWORD: ci_synthetic_only
+          POSTGRES_DB: elos_ci
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U elos -d elos_ci"
+          --health-interval 5s --health-timeout 5s --health-retries 12
+    env:
+      DATABASE_URL: postgres://elos:ci_synthetic_only@127.0.0.1:5432/elos_ci
+      BETTER_AUTH_URL: http://localhost:3000
+      BETTER_AUTH_SECRET: ci-synthetic-only-not-a-production-secret-0123456789
+      DEMO_MODE: 'true'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: 06-oficinas-e-servicos-tecnicos/elos-pme/package-lock.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: npm ci
+      - run: pip install -r requirements-tsf.txt
+      - run: node --import tsx scripts/migrate.ts
+      - run: npm run typecheck
+      - run: node --import tsx --test tests/*.test.ts
+      - run: python3 -m unittest discover -s .tsf/tests -v
+      - run: node --import tsx scripts/verified-build.ts

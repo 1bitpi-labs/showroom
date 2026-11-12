@@ -1,0 +1,17 @@
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: elos
+      POSTGRES_PASSWORD: elos_local_only
+      POSTGRES_DB: elos
+    ports:
+      - "127.0.0.1:55439:5432"
+    volumes:
+      - elos_pg:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U elos"]
+      interval: 2s
+      retries: 15
+volumes:
+  elos_pg:

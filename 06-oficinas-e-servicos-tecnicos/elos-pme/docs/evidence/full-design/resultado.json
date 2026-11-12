@@ -1,0 +1,164 @@
+[
+  {
+    "width": 360,
+    "pages": [
+      {
+        "name": "Orçamentos",
+        "width": 360,
+        "scrollWidth": 360
+      },
+      {
+        "name": "Ordens de serviço",
+        "width": 360,
+        "scrollWidth": 360
+      },
+      {
+        "name": "Clientes",
+        "width": 360,
+        "scrollWidth": 360
+      },
+      {
+        "name": "Equipamentos",
+        "width": 360,
+        "scrollWidth": 360
+      },
+      {
+        "name": "Agenda",
+        "width": 360,
+        "scrollWidth": 360
+      },
+      {
+        "name": "Caixa de entrada",
+        "width": 360,
+        "scrollWidth": 360
+      },
+      {
+        "name": "Configurações",
+        "width": 360,
+        "scrollWidth": 360
+      },
+      {
+        "name": "Guia de uso",
+        "width": 360,
+        "scrollWidth": 360
+      }
+    ],
+    "checks": [
+      "filtros reais",
+      "historico/PDF",
+      "oito abas sem overflow",
+      "OS quadro e transicoes persistidas",
+      "busca global",
+      "previa e persistencia marca",
+      "sem pageerror"
+    ]
+  },
+  {
+    "width": 768,
+    "pages": [
+      {
+        "name": "Orçamentos",
+        "width": 768,
+        "scrollWidth": 768
+      },
+      {
+        "name": "Ordens de serviço",
+        "width": 768,
+        "scrollWidth": 768
+      },
+      {
+        "name": "Clientes",
+        "width": 768,
+        "scrollWidth": 768
+      },
+      {
+        "name": "Equipamentos",
+        "width": 768,
+        "scrollWidth": 768
+      },
+      {
+        "name": "Agenda",
+        "width": 768,
+        "scrollWidth": 768
+      },
+      {
+        "name": "Caixa de entrada",
+        "width": 768,
+        "scrollWidth": 768
+      },
+      {
+        "name": "Configurações",
+        "width": 768,
+        "scrollWidth": 768
+      },
+      {
+        "name": "Guia de uso",
+        "width": 768,
+        "scrollWidth": 768
+      }
+    ],
+    "checks": [
+      "filtros reais",
+      "historico/PDF",
+      "oito abas sem overflow",
+      "OS quadro e transicoes persistidas",
+      "busca global",
+      "previa e persistencia marca",
+      "sem pageerror"
+    ]
+  },
+  {
+    "width": 1280,
+    "pages": [
+      {
+        "name": "Orçamentos",
+        "width": 1280,
+        "scrollWidth": 1280
+      },
+      {
+        "name": "Ordens de serviço",
+        "width": 1280,
+        "scrollWidth": 1280
+      },
+      {
+        "name": "Clientes",
+        "width": 1280,
+        "scrollWidth": 1280
+      },
+      {
+        "name": "Equipamentos",
+        "width": 1280,
+        "scrollWidth": 1280
+      },
+      {
+        "name": "Agenda",
+        "width": 1280,
+        "scrollWidth": 1280
+      },
+      {
+        "name": "Caixa de entrada",
+        "width": 1280,
+        "scrollWidth": 1280
+      },
+      {
+        "name": "Configurações",
+        "width": 1280,
+        "scrollWidth": 1280
+      },
+      {
+        "name": "Guia de uso",
+        "width": 1280,
+        "scrollWidth": 1280
+      }
+    ],
+    "checks": [
+      "filtros reais",
+      "historico/PDF",
+      "oito abas sem overflow",
+      "OS quadro e transicoes persistidas",
+      "busca global",
+      "previa e persistencia marca",
+      "sem pageerror"
+    ]
+  }
+]

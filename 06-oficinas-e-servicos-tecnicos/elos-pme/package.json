@@ -1,0 +1,40 @@
+{
+  "name": "elos-pme-portal",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "build": "next build",
+    "start": "next start --hostname 127.0.0.1",
+    "typecheck": "tsc --noEmit --incremental false",
+    "test": "sh scripts/test-local.sh",
+    "db:migrate": "node --env-file=.env.local --import tsx scripts/migrate.ts",
+    "demo:seed": "node --env-file=.env.local --import tsx scripts/seed.ts",
+    "test:tsf": "python3 -m unittest discover -s .tsf/tests -v",
+    "demo:reset": "node --env-file=.env.local --import tsx scripts/reset-demo.ts --confirm-local-demo",
+    "backup": "sh scripts/backup.sh"
+  },
+  "dependencies": {
+    "better-auth": "1.7.21",
+    "next": "16.4.6",
+    "pdf-lib": "^1.17.1",
+    "pg": "^8.16.3",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "zod": "^4.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.0",
+    "@types/node": "^22.0.0",
+    "@types/pg": "^8.15.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "node": "^22.23.5",
+    "prettier": "^3.10.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

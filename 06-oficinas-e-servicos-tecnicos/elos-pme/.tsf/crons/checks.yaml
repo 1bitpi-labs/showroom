@@ -1,0 +1,1 @@
+{"name":"approved-task","schedule":"0 8 * * 1-5","timezone":"America/Sao_Paulo","enabled":false,"autonomous":false,"requires":"approved task, lease, budget, validated provider"}

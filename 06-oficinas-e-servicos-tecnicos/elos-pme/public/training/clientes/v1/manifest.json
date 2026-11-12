@@ -1,0 +1,52 @@
+{
+  "id": "clientes-tatudobem-v1",
+  "productBase": "dd7a3c57eca49c04d02bf53ec22c61862fdb286a",
+  "editorialRevision": 1,
+  "progressVersion": 1,
+  "fixture": "TatuDoBem — TREINO VIDEO, dados fictícios",
+  "capture": "UI real, preview T3, banco local separado 55440; sem áudio",
+  "durationSeconds": 98.266667,
+  "media": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 900,
+        "r_frame_rate": "30/1"
+      }
+    ],
+    "format": {
+      "duration": "98.266667"
+    }
+  },
+  "chapters": [
+    {
+      "title": "Cadastrar",
+      "seconds": 0
+    },
+    {
+      "title": "Salvar",
+      "seconds": 38.66
+    },
+    {
+      "title": "Buscar",
+      "seconds": 50.5
+    },
+    {
+      "title": "Editar",
+      "seconds": 60.61
+    }
+  ],
+  "sha256": {
+    "clientes.mp4": "cf7edc0556f7b6b61520c940578860c5d2e129d95bf2a11ff25eab9edf60f1f3",
+    "poster.jpg": "26e3d700ff407274a3113f535e8f9787914c1aeec84a1b73a1a0627d0f50ea7b",
+    "legendas.vtt": "71efd8181998dc9c8945f042ea509807f173820e4c0cef9338ff64dc7d50aedc",
+    "transcricao.txt": "f19e5107216eaec5ece490ea98c34258ace7491941db19fa49b5fc310ca732ee"
+  },
+  "maintenanceOwner": "Mantenedor do produto; confirmação nominal pelo operador pendente",
+  "compatibility": "Formulário Clientes da base dd7a3c5 e jornada do piloto; revisar se rótulos/campos/resultados mudarem",
+  "review": "Conferência automatizada de mídia e inspeção de quadros pelo executor; revisão integral e aceite humano pendentes",
+  "status": "READY FOR REVIEW"
+}
