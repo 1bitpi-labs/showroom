@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cais OS — Portal de Orçamento e OS Náutica (Marina Imperial)</title>
+  
+  <!-- Fontes Oficiais Inter & IBM Plex Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Tokens Oficiais do Design Board (check_tokens: 0 divergências) -->
+  <link rel="stylesheet" href="tokens.css">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+  <!-- Barra de Controle do Protótipo (Show, Don't Tell) -->
+  <header class="proto-toolbar" role="region" aria-label="Controles do Protótipo">
+    <div class="proto-brand">
+      <span>⚓ CAIS OS</span>
+      <span class="proto-badge-sample">Protótipo Conceitual — Marina Imperial [EXEMPLO]</span>
+    </div>
+
+    <!-- Seletor de Telas do PB-06: 4 Visões por Perfil e Dispositivo -->
+    <div class="proto-segmented-btn" role="tablist">
+      <button class="proto-tab-btn active" data-screen="whatsapp" onclick="setScreen('whatsapp')">
+        📱 Cliente: No WhatsApp
+      </button>
+      <button class="proto-tab-btn" data-screen="client" onclick="setScreen('client')">
+        📱 Cliente: Web App / Portal
+      </button>
+      <button class="proto-tab-btn" data-screen="mechanic" onclick="setScreen('mechanic')">
+        📟 Mecânico: Tablet no Pier (768px)
+      </button>
+      <button class="proto-tab-btn" data-screen="admin" onclick="setScreen('admin')">
+        🖥️ Balcão: Gerência Desktop (1440px)
+      </button>
+    </div>
+
+    <!-- Controles de Viewport & Tema -->
+    <div class="proto-controls">
+      <div class="proto-segmented-btn">
+        <button class="proto-tab-btn btn-vp active" data-vp="mobile" onclick="setViewport('mobile')">390px</button>
+        <button class="proto-tab-btn btn-vp" data-vp="tablet" onclick="setViewport('tablet')">768px</button>
+        <button class="proto-tab-btn btn-vp" data-vp="desktop" onclick="setViewport('desktop')">1440px</button>
+      </div>
+
+      <button id="themeToggleBtn" class="proto-btn-action" onclick="toggleTheme()">
+        🌙 Modo Escuro
+      </button>
+
+      <button class="proto-btn-action" onclick="togglePureMode()" title="Ocultar barra de protótipo para capturas limpas">
+        👁️ Modo Limpo
+      </button>
+
+      <button class="proto-btn-action" onclick="resetState()">
+        ↺ Reiniciar
+      </button>
+    </div>
+  </header>
+
+  <!-- Palco Central de Simulação -->
+  <main class="stage-container">
+    <div id="deviceWrapper" class="device-wrapper mode-mobile">
+      <div id="viewRoot">
+        <!-- Renderizado dinamicamente via app.js -->
+      </div>
+    </div>
+  </main>
+
+  <!-- Modal 1: Pagamento Pix com Simulação de Webhook -->
+  <div id="pixModal" class="cais-modal-overlay" style="display: none;" role="dialog" aria-modal="true" aria-labelledby="pixModalTitle">
+    <div class="cais-modal-card">
+      <button class="modal-close-btn" onclick="closeModal()" aria-label="Fechar modal">✕</button>
+
+      <div style="text-align: center;">
+        <span style="font-size: var(--cais-fs-2xl);">🔑</span>
+        <h2 id="pixModalTitle" style="font-size: var(--cais-fs-lg); margin-top: var(--cais-space-1);">Pagamento do Sinal via Pix</h2>
+        <p style="font-size: var(--cais-fs-sm); color: var(--cais-text-secondary);">
+          Sinal de 30% para reserva e faturamento de peças genuínas Quicksilver:
+        </p>
+        <div style="font-family: var(--cais-font-mono); font-size: var(--cais-fs-2xl); font-weight: 700; color: var(--cais-accent); margin: var(--cais-space-2) 0;">
+          R$ 1.245,00
+        </div>
+      </div>
+
+      <div class="pix-qr-box">
+        <div class="pix-qr-sim">
+          <!-- Simulação SVG nítida de QR Code EMV -->
+          <svg width="150" height="150" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="100" height="100" fill="white"/>
+            <rect x="10" y="10" width="25" height="25" fill="#10202B"/>
+            <rect x="15" y="15" width="15" height="15" fill="white"/>
+            <rect x="18" y="18" width="9" height="9" fill="#10202B"/>
+            
+            <rect x="65" y="10" width="25" height="25" fill="#10202B"/>
+            <rect x="70" y="15" width="15" height="15" fill="white"/>
+            <rect x="73" y="18" width="9" height="9" fill="#10202B"/>
+            
+            <rect x="10" y="65" width="25" height="25" fill="#10202B"/>
+            <rect x="15" y="70" width="15" height="15" fill="white"/>
+            <rect x="18" y="73" width="9" height="9" fill="#10202B"/>
+
+            <rect x="42" y="15" width="6" height="6" fill="#10202B"/>
+            <rect x="52" y="22" width="6" height="6" fill="#10202B"/>
+            <rect x="42" y="38" width="16" height="16" fill="#10202B"/>
+            <rect x="46" y="42" width="8" height="8" fill="white"/>
+            <rect x="65" y="45" width="8" height="8" fill="#10202B"/>
+            <rect x="20" y="45" width="12" height="6" fill="#10202B"/>
+            <rect x="75" y="65" width="15" height="10" fill="#10202B"/>
+            <rect x="45" y="72" width="12" height="12" fill="#10202B"/>
+            <rect x="62" y="80" width="8" height="8" fill="#10202B"/>
+          </svg>
+        </div>
+        <span style="font-size: var(--cais-fs-xs); color: var(--cais-text-secondary);">
+          Aponte a câmera do aplicativo do seu banco para ler o QR Code
+        </span>
+
+        <div class="pix-copy-input-group">
+          <input type="text" readonly class="pix-code-field" value="00020126580014br.gov.bcb.pix0136marina-imperial-pix-key-sample-uuid52040000530398654061245.005802BR5915MARINA IMPERIAL6014CARAGUATATUBA62070503***6304E8A2" />
+          <button id="btnCopyPix" class="btn-copy-pix" onclick="copyPixCode()">
+            Copiar Pix
+          </button>
+        </div>
+      </div>
+
+      <div style="border-top: 1px dashed var(--cais-border); padding-top: var(--cais-space-3); display: flex; flex-direction: column; gap: var(--cais-space-2);">
+        <span style="font-size: var(--cais-fs-xs); color: var(--cais-text-secondary); text-align: center;">
+          ⚡ Ação de Demonstração (Simula Webhook do Banco Central):
+        </span>
+        <button class="btn-primary-cais" style="background-color: var(--cais-positive); width: 100%;" onclick="simulatePixPayment()">
+          ✓ Simular Recebimento Instantâneo do Pix
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2: Zoom e Comparador de Evidências Fotográficas -->
+  <div id="evidenceModal" class="cais-modal-overlay" style="display: none;" role="dialog" aria-modal="true" aria-labelledby="evidenceModalTitle">
+    <div class="cais-modal-card" style="max-width: 520px;">
+      <button class="modal-close-btn" onclick="closeModal()" aria-label="Fechar laudo">✕</button>
+      <div id="evidenceModalBody">
+        <!-- Renderizado dinamicamente via openEvidenceModal -->
+      </div>
+      <button class="proto-btn-action" style="width: 100%; justify-content: center;" onclick="closeModal()">
+        Fechar Detalhes
+      </button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

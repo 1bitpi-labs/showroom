@@ -1,0 +1,127 @@
+/* Cais — tokens.css  (origem: PROPOSTO ate o Gate 1)  Espelho: tokens.json
+   Regra: UI consome so as semanticas --cais-*; nunca hex solto. */
+:root {
+  /* primitivas */
+  --cais-p-sand-50: #F7F4EE;
+  --cais-p-sand-100: #ECE5D8;
+  --cais-p-white: #FFFFFF;
+  --cais-p-ink-900: #10202B;
+  --cais-p-ink-700: #34495A;
+  --cais-p-ink-600: #4B5E6D;
+  --cais-p-ink-500: #5F7382;
+  --cais-p-ink-300: #B9C4CD;
+  --cais-p-hull-700: #0B4F6C;
+  --cais-p-hull-600: #0F6A8B;
+  --cais-p-hull-100: #DCEEF5;
+  --cais-p-green-700: #14693F;
+  --cais-p-green-100: #DDF1E6;
+  --cais-p-red-700: #A42318;
+  --cais-p-red-100: #FBE4E1;
+  --cais-p-amber-800: #7A4B00;
+  --cais-p-amber-100: #FFF1CC;
+  --cais-p-focus-600: #0A5BD6;
+  --cais-p-night-900: #0C1720;
+  --cais-p-night-800: #13222E;
+  --cais-p-night-700: #1C3040;
+  --cais-p-night-500: #5E7A8D;
+  --cais-p-foam-50: #EAF0F4;
+  --cais-p-foam-300: #A9B8C4;
+  --cais-p-tide-300: #6CC4E6;
+  --cais-p-tide-950: #06222E;
+  --cais-p-mint-300: #5FD08F;
+  --cais-p-coral-300: #FF8A80;
+  --cais-p-gold-300: #F2C14E;
+  --cais-p-sky-300: #8AB4FF;
+  /* semanticas — tema claro (padrao) */
+  --cais-bg: var(--cais-p-sand-50);
+  --cais-surface: var(--cais-p-white);
+  --cais-surface-sunken: var(--cais-p-sand-100);
+  --cais-text: var(--cais-p-ink-900);
+  --cais-text-secondary: var(--cais-p-ink-600);
+  --cais-border: var(--cais-p-ink-300);
+  --cais-border-strong: var(--cais-p-ink-500);
+  --cais-accent: var(--cais-p-hull-700);
+  --cais-accent-hover: var(--cais-p-hull-600);
+  --cais-on-accent: var(--cais-p-white);
+  --cais-accent-subtle: var(--cais-p-hull-100);
+  --cais-positive: var(--cais-p-green-700);
+  --cais-positive-bg: var(--cais-p-green-100);
+  --cais-negative: var(--cais-p-red-700);
+  --cais-negative-bg: var(--cais-p-red-100);
+  --cais-warning: var(--cais-p-amber-800);
+  --cais-warning-bg: var(--cais-p-amber-100);
+  --cais-focus: var(--cais-p-focus-600);
+  /* tipografia */
+  --cais-font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --cais-font-mono: 'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+  --cais-fs-xs: 0.75rem;
+  --cais-fs-sm: 0.875rem;
+  --cais-fs-md: 1.0rem;
+  --cais-fs-lg: 1.125rem;
+  --cais-fs-xl: 1.375rem;
+  --cais-fs-2xl: 1.75rem;
+  --cais-fs-3xl: 2.25rem;
+  --cais-lh-tight: 1.2;
+  --cais-lh-body: 1.5;
+  /* espaco */
+  --cais-space-1: 0.25rem;
+  --cais-space-2: 0.5rem;
+  --cais-space-3: 0.75rem;
+  --cais-space-4: 1.0rem;
+  --cais-space-5: 1.5rem;
+  --cais-space-6: 2.0rem;
+  --cais-space-7: 3.0rem;
+  --cais-space-8: 4.0rem;
+  /* forma */
+  --cais-radius-sm: 6px;
+  --cais-radius-md: 12px;
+  --cais-radius-lg: 20px;
+  --cais-radius-pill: 999px;
+  --cais-shadow-1: 0 1px 2px rgba(16,32,43,.08), 0 1px 1px rgba(16,32,43,.06);
+  --cais-shadow-2: 0 8px 24px rgba(16,32,43,.12);
+  --cais-hit: 2.75rem; /* alvo de toque minimo 44px */
+  /* movimento */
+  --cais-motion-fast: 120ms;
+  --cais-motion-base: 200ms;
+  --cais-motion-slow: 320ms;
+  --cais-ease: cubic-bezier(.2,.7,.2,1);
+  /* estados de OS (componente) */
+  --cais-os-pending-fg: var(--cais-warning);
+  --cais-os-pending-bg: var(--cais-warning-bg);
+  --cais-os-progress-fg: var(--cais-accent);
+  --cais-os-progress-bg: var(--cais-accent-subtle);
+  --cais-os-done-fg: var(--cais-positive);
+  --cais-os-done-bg: var(--cais-positive-bg);
+  --cais-os-cancelled-fg: var(--cais-negative);
+  --cais-os-cancelled-bg: var(--cais-negative-bg);
+  /* overlays, scrim e elevacao naval */
+  --cais-scrim: rgba(16, 32, 43, 0.7);
+  --cais-overlay-glass: rgba(255, 255, 255, 0.15);
+  --cais-overlay-subtle: rgba(255, 255, 255, 0.1);
+  --cais-border-hairline: rgba(255, 255, 255, 0.2);
+}
+[data-theme="dark"] {
+  --cais-bg: var(--cais-p-night-900);
+  --cais-surface: var(--cais-p-night-800);
+  --cais-surface-sunken: var(--cais-p-night-700);
+  --cais-text: var(--cais-p-foam-50);
+  --cais-text-secondary: var(--cais-p-foam-300);
+  --cais-border: var(--cais-p-night-700);
+  --cais-border-strong: var(--cais-p-night-500);
+  --cais-accent: var(--cais-p-tide-300);
+  --cais-accent-hover: var(--cais-p-foam-50);
+  --cais-on-accent: var(--cais-p-tide-950);
+  --cais-accent-subtle: var(--cais-p-night-700);
+  --cais-positive: var(--cais-p-mint-300);
+  --cais-positive-bg: var(--cais-p-night-700);
+  --cais-negative: var(--cais-p-coral-300);
+  --cais-negative-bg: var(--cais-p-night-700);
+  --cais-warning: var(--cais-p-gold-300);
+  --cais-warning-bg: var(--cais-p-night-700);
+  --cais-focus: var(--cais-p-sky-300);
+  --cais-shadow-1: 0 1px 2px rgba(0,0,0,.4);
+  --cais-shadow-2: 0 8px 24px rgba(0,0,0,.5);
+}
+@media (prefers-reduced-motion: reduce) {
+  :root { --cais-motion-fast: 0ms; --cais-motion-base: 0ms; --cais-motion-slow: 0ms; }
+}

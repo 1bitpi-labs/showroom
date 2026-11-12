@@ -279,3 +279,12 @@ Se você visitou este Showroom e deseja implantar um desses sistemas na sua empr
 [ElosPME](06-oficinas-e-servicos-tecnicos/elos-pme/README.md) acrescenta uma demo local de climatização à categoria de serviços técnicos: orçamentos/aceite/OS, clientes, equipamentos, agenda e ajuda por conta. Desenvolvido com TSF local supervisionado, usando Next.js/React/PostgreSQL. [Documentação completa](06-oficinas-e-servicos-tecnicos/elos-pme/docs/INDEX.md) · [Comparação técnica](06-oficinas-e-servicos-tecnicos/elos-pme/docs/COMPARISON-RESULTS.md).
 
 Este projeto contém backend e exige instalação própria; não é executado pelo GitHub Pages. Dados sintéticos, sem homologação comercial, autonomia paga, WhatsApp automático, PMOC ou promessa de faturamento. As demonstrações existentes permanecem separadas.
+
+## Cais OS — Portal de Ordem de Serviço Náutica & Liquidação Pix (PB-06 Lean Delivery)
+
+[Cais OS](06-oficinas-e-servicos-tecnicos/cais-portal-os/README.md) · [Aplicação Interativa](06-oficinas-e-servicos-tecnicos/cais-portal-os/index.html) · [PRD](06-oficinas-e-servicos-tecnicos/cais-portal-os/PRD.md) · [Design System](06-oficinas-e-servicos-tecnicos/cais-portal-os/DESIGN-SYSTEM.md) · [Arquitetura](06-oficinas-e-servicos-tecnicos/cais-portal-os/ARCHITECTURE.md) · [Database](06-oficinas-e-servicos-tecnicos/cais-portal-os/DATABASE.md) · [Segurança & Pix](06-oficinas-e-servicos-tecnicos/cais-portal-os/SECURITY.md) · [Estilo de Código](06-oficinas-e-servicos-tecnicos/cais-portal-os/CODE-STYLE.md) · [Testes](06-oficinas-e-servicos-tecnicos/cais-portal-os/TESTING.md) · [Agent IA](06-oficinas-e-servicos-tecnicos/cais-portal-os/AGENT.md).
+
+Sistema Operacional para marinas, oficinas náuticas e serviços técnicos de alto ticket baseado no case [Marina Imperial](https://marinaimperial.com.br/) (Caraguatatuba - SP). Desenvolvido sob o protocolo oficial **PB-06 Lean 4-Stage Delivery (PIAOS)**:
+- Esteira de 4 visões: WhatsApp (390px), Portal do Cliente com Gêmeo Digital SVG interativo e laudo pericial (390px), Tablet do Mecânico no Píer (768px) e Balcão/Command Center com telemetria de maré/canal e presença ativa (1440px).
+- Aprovação em 1 clique com trava imutável \`v1-approved\` e liquidação de sinal Pix de 30% (EMVCo BR Code).
+- Arquitetura autônoma (HTML5/CSS3/JavaScript vanilla puro), 110 design tokens W3C DTCG sem hex soltos, WCAG 2.2 AA (touch target de 44px) e 19 testes automatizados determinísticos (100% green).
