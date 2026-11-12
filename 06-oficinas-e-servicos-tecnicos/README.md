@@ -90,3 +90,9 @@ Este site faz parte do **Portfólio Oficial 1Bitpi Labs**. Você pode adquirir o
    - Geração automatizada de múltiplas unidades com painel central de governança P6 e integração com ERP/CRM próprio.
 
 👉 **[Clique aqui para testar o site ao vivo no navegador](https://1bitpi-labs.github.io/showroom/06-oficinas-e-servicos-tecnicos/06-oficina-servicos-tecnicos.html)** ou volte para o **[Catálogo Principal do Showroom](../README.md)**.
+
+## Projeto adicional: ElosPME / Brisa Oficina
+
+[Código completo e instalação](elos-pme/README.md) · [Índice técnico](elos-pme/docs/INDEX.md) · [PRD](elos-pme/docs/PRD.md) · [Método TSF](elos-pme/docs/TSF-WORKFLOW.md).
+
+Demo fictícia de climatização com aplicação Next/PostgreSQL, incluindo orçamento → aceite → OS, clientes, equipamentos, agenda manual e ajuda por conta. Apresentação e código são distintos da demo TorqueLab acima; as promessas comerciais e integrações descritas nela não se aplicam automaticamente ao ElosPME. O backend não roda no GitHub Pages e não foi implantado nesta inclusão.

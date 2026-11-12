@@ -1,0 +1,42 @@
+[
+  {
+    "width": 360,
+    "geometry": {
+      "width": 360,
+      "scrollWidth": 360,
+      "columns": "minmax(0px, 1fr)"
+    },
+    "checks": [
+      "cadastro persistido",
+      "busca",
+      "edicao com foco",
+      "persistencia apos reload",
+      "ajuda preserva campos",
+      "Tab contido no modal",
+      "Escape fecha ajuda",
+      "busca vazia",
+      "sem overflow",
+      "sem pageerror"
+    ]
+  },
+  {
+    "width": 1280,
+    "geometry": {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "columns": "minmax(320px, 0.9fr) minmax(360px, 1.1fr)"
+    },
+    "checks": [
+      "cadastro persistido",
+      "busca",
+      "edicao com foco",
+      "persistencia apos reload",
+      "ajuda preserva campos",
+      "Tab contido no modal",
+      "Escape fecha ajuda",
+      "busca vazia",
+      "sem overflow",
+      "sem pageerror"
+    ]
+  }
+]

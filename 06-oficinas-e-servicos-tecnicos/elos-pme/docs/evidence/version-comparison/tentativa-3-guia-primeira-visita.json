@@ -1,0 +1,35 @@
+{
+  "kind": "automated-comparison-not-human-study",
+  "results": [
+    {
+      "version": "A",
+      "commit": "225cdcc",
+      "width": 360,
+      "tasks": [
+        {
+          "name": "Clientes",
+          "status": "pass",
+          "automation_ms": 1657
+        },
+        {
+          "name": "Orçamento e aceite",
+          "status": "pass",
+          "automation_ms": 702
+        },
+        {
+          "name": "OS",
+          "status": "fail",
+          "error": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('article').filter({ hasText: 'COMPARACAO 360 A 1794507598074' }).getByRole('button', { name: 'Iniciar serviço' })\u001b[22m\n\u001b[2m    - locator resolved to <button class=\"small\">Iniciar serviço</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <p class=\"muted\">Você está conhecendo a aba. Nenhum dado de operaç…</p> from <dialog open=\"\" class=\"training-dialog \" aria-labelledby=\"tour-title\" aria-describedby=\"tour-description\">…</dialog> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <dialog open=\"\" class=\"training-dialog \" aria-labelledby=\"tour-title\" aria-describedby=\"tour-description\">…</dialog> intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <span class=\"badge\">Ordens de serviço</span> from <dialog open=\"\" class=\"training-dialog \" aria-labelledby=\"tour-title\" aria-describedby=\"tour-description\">…</dialog> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    7 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <span class=\"badge\">Ordens de serviço</span> from <dialog open=\"\" class=\"training-dialog \" aria-labelledby=\"tour-title\" aria-describedby=\"tour-description\">…</dialog> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <dialog open=\"\" class=\"training-dialog \" aria-labelledby=\"tour-title\" aria-describedby=\"tour-description\">…</dialog> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <span class=\"badge\">Ordens de serviço</span> from <dialog open=\"\" class=\"training-dialog \" aria-labelledby=\"tour-title\" aria-describedby=\"tour-description\">…</dialog> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <span class=\"badge\">Ordens de serviço</span> from <dialog open=\"\" class=\"training-dialog \" aria-labelledby=\"tour-title\" aria-describedby=\"tour-description\">…</dialog> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <span class=\"badge\">Ordens de serviço</span> from <dialog open=\"\" class=\"training-dialog \" aria-labelledby=\"tour-title\" aria-describedby=\"tour-description\">…</dialog> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n",
+          "automation_ms": 15037
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "width": 360,
+        "scrollWidth": 360,
+        "searchDocumentY": 1308,
+        "addClientButton": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "status": {
+      "enum": ["success", "fail"],
+      "title": "Status",
+      "type": "string"
+    },
+    "summary": {
+      "title": "Summary",
+      "type": "string"
+    },
+    "artifacts": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Artifacts",
+      "type": "array"
+    },
+    "notes_for_next_agent": {
+      "default": "",
+      "title": "Notes For Next Agent",
+      "type": "string"
+    },
+    "changed_files": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Changed Files",
+      "type": "array"
+    },
+    "commit_message": {
+      "default": "",
+      "title": "Commit Message",
+      "type": "string"
+    }
+  },
+  "required": ["status", "summary"],
+  "title": "BuildOutput",
+  "type": "object"
+}

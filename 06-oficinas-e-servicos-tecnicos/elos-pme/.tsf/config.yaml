@@ -1,0 +1,41 @@
+{
+  "mission": "Manter or\u00e7amento \u2192 decis\u00e3o \u2192 OS conforme spec, uma tarefa aprovada por run",
+  "enabled": false,
+  "autonomous": false,
+  "max_workers": 1,
+  "worker_cap_usd": "0.25",
+  "daily_cap_usd": "1.00",
+  "timeout_seconds": 180,
+  "max_fix_loops": 3,
+  "context": {
+    "target_input_tokens": 12000,
+    "summary_threshold": 200000,
+    "force_threshold": 500000
+  },
+  "model_stack": {
+    "scout": null,
+    "build": null,
+    "plan": null
+  },
+  "prompts": {
+    "governance": ".tsf/prompts/governance.md",
+    "task": "docs/spec.md"
+  },
+  "tools": [
+    "read",
+    "patch",
+    "deterministic_checks"
+  ],
+  "protected": [
+    ".tsf/",
+    "tests/",
+    "package.json",
+    "package-lock.json",
+    "compose.yaml",
+    "scripts/",
+    ".env",
+    "next.config.ts",
+    "tsconfig.json",
+    "docs/"
+  ]
+}

@@ -1,0 +1,23 @@
+Vamos cadastrar, salvar, buscar e editar TatuDoBem, cliente fictício da Brisa Oficina.
+
+Informe o nome TatuDoBem — TREINO VIDEO e o contato fictício tatudobem@example.invalid.
+
+Preencha o endereço e as observações disponíveis. Estes dados são sintéticos.
+
+Confira os dados. Cadastrar um cliente não envia mensagens.
+
+Clique em Salvar cliente e aguarde a confirmação.
+
+Confira TatuDoBem na carteira de clientes.
+
+Em Buscar clientes, digite TatuDoBem e reconheça o registro encontrado.
+
+Clique em Editar cliente. O formulário carrega o mesmo cadastro.
+
+Altere a observação para: Cadastro fictício — preferir atendimento à tarde. Salve.
+
+Confira o resultado salvo na carteira. A busca não criou outro cliente.
+
+Reabra Editar cliente e confira a observação persistida.
+
+Agora você pode usar Clientes e consultar esta ajuda quando precisar.

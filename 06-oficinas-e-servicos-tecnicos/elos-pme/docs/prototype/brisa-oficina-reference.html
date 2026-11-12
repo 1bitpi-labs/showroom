@@ -1,0 +1,1965 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="antialiased">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brisa Oficina — Climatização & Gestão Operacional</title>
+
+  <!-- Google Fonts: Plus Jakarta Sans, Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            display: ['Plus Jakarta Sans', 'Inter', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace'],
+          },
+          colors: {
+            brand: {
+              50: 'var(--brand-50)',
+              100: 'var(--brand-100)',
+              200: 'var(--brand-200)',
+              500: 'var(--brand-500)',
+              600: 'var(--brand-600)',
+              700: 'var(--brand-700)',
+              900: 'var(--brand-900)',
+            }
+          },
+          boxShadow: {
+            'card': '0 1px 3px 0 rgba(15, 23, 42, 0.04), 0 1px 2px -1px rgba(15, 23, 42, 0.04)',
+            'card-hover': '0 10px 25px -5px rgba(15, 23, 42, 0.06), 0 8px 10px -6px rgba(15, 23, 42, 0.03)',
+            'floating': '0 20px 40px -12px rgba(15, 23, 42, 0.18), 0 0 0 1px rgba(15, 23, 42, 0.06)',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    :root {
+      /* Default Accent: Turquesa / Teal Premium */
+      --brand-50: #f0fdfa;
+      --brand-100: #ccfbf1;
+      --brand-200: #99f6e4;
+      --brand-500: #14b8a6;
+      --brand-600: #0d9488;
+      --brand-700: #0f766e;
+      --brand-900: #134e4a;
+    }
+
+    body {
+      background-color: #F8FAFC;
+      color: #0F172A;
+      font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    }
+
+    .tabular-nums {
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #CBD5E1;
+      border-radius: 9999px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #94A3B8;
+    }
+
+    /* Subtle animations */
+    @keyframes fadeSlideUp {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .animate-view {
+      animation: fadeSlideUp 0.24s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+
+    @keyframes pulseDot {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.4); opacity: 0.6; }
+    }
+    .animate-pulse-dot {
+      animation: pulseDot 2s infinite;
+    }
+
+    /* Glassmorphism overlays */
+    .glass-panel {
+      background: rgba(255, 255, 255, 0.88);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+  </style>
+</head>
+<body class="h-screen overflow-hidden flex selection:bg-brand-100 selection:text-brand-900">
+
+  <!-- MOBILE SIDEBAR BACKDROP -->
+  <div id="mobile-sidebar-backdrop" onclick="toggleMobileSidebar()" class="fixed inset-0 bg-slate-950/50 backdrop-blur-xs z-40 hidden lg:hidden transition-opacity"></div>
+
+  <!-- SIDEBAR (Sleek Dark Slate-950 Aesthetic) -->
+  <aside id="sidebar" class="fixed lg:static inset-y-0 left-0 z-50 w-[264px] bg-slate-950 text-slate-300 flex flex-col border-r border-slate-800/80 transition-transform duration-300 -translate-x-full lg:translate-x-0 shrink-0">
+    <!-- Brand Header -->
+    <div class="p-5 border-b border-slate-800/80">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-brand-500 to-brand-700 flex items-center justify-center text-white shadow-lg shadow-brand-500/20 ring-1 ring-white/15">
+            <i data-lucide="wind" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <div class="flex items-center gap-1.5">
+              <span id="sidebar-brand-title" class="font-display font-bold text-white text-[15px] tracking-tight">brisa oficina</span>
+            </div>
+            <div class="flex items-center gap-1.5 mt-0.5">
+              <span class="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-medium bg-slate-800/90 text-brand-200 border border-slate-700/80">
+                Climatização Demo
+              </span>
+            </div>
+          </div>
+        </div>
+        <button onclick="toggleMobileSidebar()" class="lg:hidden p-1.5 text-slate-400 hover:text-white rounded-lg">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Navigation Links -->
+    <div class="flex-1 overflow-y-auto px-3 py-4 space-y-6">
+      <!-- Operação & Comercial -->
+      <div>
+        <div class="px-3 mb-2 text-[10px] font-semibold uppercase tracking-wider text-slate-500">
+          Operação & Comercial
+        </div>
+        <nav class="space-y-1" id="nav-group-main">
+          <button onclick="navigateTo('orcamentos')" data-nav="orcamentos" class="nav-item w-full flex items-center justify-between px-3 py-2.5 rounded-xl text-[13.5px] font-medium transition-all duration-150 group">
+            <span class="flex items-center gap-2.5">
+              <i data-lucide="file-text" class="w-4 h-4 transition-colors"></i>
+              <span>Orçamentos</span>
+            </span>
+            <span id="badge-orcamentos" class="text-[11px] font-mono px-1.5 py-0.5 rounded-md bg-slate-800/80 text-slate-400">27</span>
+          </button>
+
+          <button onclick="navigateTo('os')" data-nav="os" class="nav-item w-full flex items-center justify-between px-3 py-2.5 rounded-xl text-[13.5px] font-medium transition-all duration-150 group">
+            <span class="flex items-center gap-2.5">
+              <i data-lucide="wrench" class="w-4 h-4 transition-colors"></i>
+              <span>Ordens de serviço</span>
+            </span>
+            <span id="badge-os" class="text-[11px] font-mono px-1.5 py-0.5 rounded-md bg-brand-500/15 text-brand-200 border border-brand-500/20">11</span>
+          </button>
+
+          <button onclick="navigateTo('clientes')" data-nav="clientes" class="nav-item w-full flex items-center justify-between px-3 py-2.5 rounded-xl text-[13.5px] font-medium transition-all duration-150 group">
+            <span class="flex items-center gap-2.5">
+              <i data-lucide="users" class="w-4 h-4 transition-colors"></i>
+              <span>Clientes</span>
+            </span>
+            <span class="text-[11px] font-mono px-1.5 py-0.5 rounded-md bg-slate-800/80 text-slate-400">18</span>
+          </button>
+
+          <button onclick="navigateTo('equipamentos')" data-nav="equipamentos" class="nav-item w-full flex items-center justify-between px-3 py-2.5 rounded-xl text-[13.5px] font-medium transition-all duration-150 group">
+            <span class="flex items-center gap-2.5">
+              <i data-lucide="snowflake" class="w-4 h-4 transition-colors"></i>
+              <span>Equipamentos</span>
+            </span>
+            <span class="text-[11px] font-mono px-1.5 py-0.5 rounded-md bg-slate-800/80 text-slate-400">34</span>
+          </button>
+
+          <button onclick="navigateTo('agenda')" data-nav="agenda" class="nav-item w-full flex items-center justify-between px-3 py-2.5 rounded-xl text-[13.5px] font-medium transition-all duration-150 group">
+            <span class="flex items-center gap-2.5">
+              <i data-lucide="calendar" class="w-4 h-4 transition-colors"></i>
+              <span>Agenda</span>
+            </span>
+            <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+          </button>
+        </nav>
+      </div>
+
+      <!-- Sistema & Suporte -->
+      <div>
+        <div class="px-3 mb-2 text-[10px] font-semibold uppercase tracking-wider text-slate-500">
+          Sistema & Suporte
+        </div>
+        <nav class="space-y-1">
+          <button onclick="navigateTo('inbox')" data-nav="inbox" class="nav-item w-full flex items-center justify-between px-3 py-2.5 rounded-xl text-[13.5px] font-medium transition-all duration-150 group">
+            <span class="flex items-center gap-2.5">
+              <i data-lucide="inbox" class="w-4 h-4 transition-colors"></i>
+              <span>Caixa de entrada</span>
+            </span>
+            <span id="badge-inbox" class="text-[11px] font-mono font-semibold px-1.5 py-0.5 rounded-md bg-amber-500/20 text-amber-300 border border-amber-500/30">2</span>
+          </button>
+
+          <button onclick="navigateTo('configuracoes')" data-nav="configuracoes" class="nav-item w-full flex items-center justify-between px-3 py-2.5 rounded-xl text-[13.5px] font-medium transition-all duration-150 group">
+            <span class="flex items-center gap-2.5">
+              <i data-lucide="sliders" class="w-4 h-4 transition-colors"></i>
+              <span>Configurações</span>
+            </span>
+          </button>
+
+          <button onclick="navigateTo('guia')" data-nav="guia" class="nav-item w-full flex items-center justify-between px-3 py-2.5 rounded-xl text-[13.5px] font-medium transition-all duration-150 group">
+            <span class="flex items-center gap-2.5">
+              <i data-lucide="book-open" class="w-4 h-4 transition-colors"></i>
+              <span>Guia de uso</span>
+            </span>
+          </button>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Bottom Operator / Environment Card -->
+    <div class="p-3.5 border-t border-slate-800/80 bg-slate-900/40">
+      <div class="p-3 rounded-xl bg-slate-900/90 border border-slate-800 flex items-center justify-between">
+        <div class="flex items-center gap-2.5 min-w-0">
+          <div class="w-8 h-8 rounded-lg bg-gradient-to-tr from-slate-700 to-slate-600 flex items-center justify-center text-xs font-bold text-white shrink-0 border border-white/10">
+            BO
+          </div>
+          <div class="min-w-0">
+            <p class="text-xs font-semibold text-white truncate">Equipe Técnica</p>
+            <div class="flex items-center gap-1.5 mt-0.5">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse-dot"></span>
+              <span class="text-[11px] text-slate-400 truncate">Ambiente Demo Ativo</span>
+            </div>
+          </div>
+        </div>
+        <button onclick="showToast('Sessão demonstrativa reiniciada com sucesso.')" title="Reiniciar estado demo" class="p-1.5 text-slate-400 hover:text-white hover:bg-slate-800 rounded-lg transition-colors">
+          <i data-lucide="refresh-cw" class="w-3.5 h-3.5"></i>
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- MAIN WORKSPACE -->
+  <div class="flex-1 flex flex-col min-w-0 h-screen overflow-hidden">
+
+    <!-- TOPBAR -->
+    <header class="h-16 bg-white/80 backdrop-blur-md border-b border-slate-200/80 px-4 lg:px-8 flex items-center justify-between gap-4 shrink-0 z-30">
+      <!-- Left: Mobile Menu + Breadcrumbs -->
+      <div class="flex items-center gap-3 min-w-0">
+        <button onclick="toggleMobileSidebar()" class="lg:hidden p-2 -ml-2 text-slate-600 hover:bg-slate-100 rounded-xl">
+          <i data-lucide="menu" class="w-5 h-5"></i>
+        </button>
+
+        <nav class="flex items-center gap-2 text-xs font-medium text-slate-500 truncate">
+          <span id="topbar-workspace-name" class="hidden sm:inline text-slate-400">Brisa Oficina</span>
+          <i data-lucide="chevron-right" class="w-3.5 h-3.5 text-slate-300 hidden sm:inline"></i>
+          <span id="topbar-section-tag" class="uppercase tracking-wider text-[11px] font-semibold text-brand-600 bg-brand-50 px-2 py-0.5 rounded-md border border-brand-200/60">
+            Operação / Comercial
+          </span>
+        </nav>
+      </div>
+
+      <!-- Center: Global Command Search -->
+      <div class="hidden md:flex flex-1 max-w-md">
+        <button onclick="openCommandPalette()" class="w-full flex items-center justify-between px-3.5 py-2 text-xs text-slate-400 bg-slate-50 hover:bg-slate-100/80 border border-slate-200/90 rounded-xl transition-all group">
+          <span class="flex items-center gap-2">
+            <i data-lucide="search" class="w-3.5 h-3.5 text-slate-400 group-hover:text-slate-600"></i>
+            <span>Buscar orçamento, cliente ou equipamento...</span>
+          </span>
+          <kbd class="font-mono text-[10px] font-medium px-1.5 py-0.5 bg-white text-slate-500 border border-slate-200 rounded shadow-2xs">⌘K</kbd>
+        </button>
+      </div>
+
+      <!-- Right: Sync Indicator, Tour, Notifications, Primary CTA -->
+      <div class="flex items-center gap-2 sm:gap-2.5">
+        <!-- Elegant Sync Pill (Replaces ugly "Failed to fetch" banners) -->
+        <button onclick="triggerSyncSimulation()" id="sync-status-btn" class="hidden xl:flex items-center gap-2 px-2.5 py-1.5 rounded-lg text-[11px] font-medium text-slate-600 bg-slate-50 hover:bg-slate-100 border border-slate-200/80 transition-all" title="Clique para sincronizar dados">
+          <span id="sync-dot" class="w-2 h-2 rounded-full bg-emerald-500"></span>
+          <span id="sync-label">Sincronizado</span>
+        </button>
+
+        <!-- Refazer Treinamento -->
+        <button onclick="openTour()" class="hidden sm:inline-flex items-center gap-1.5 px-3 py-2 text-xs font-medium text-slate-700 bg-white hover:bg-slate-50 border border-slate-200 rounded-xl shadow-2xs transition-all">
+          <i data-lucide="sparkles" class="w-3.5 h-3.5 text-brand-600"></i>
+          <span>Refazer treinamento</span>
+        </button>
+
+        <!-- Notifications Popover Trigger -->
+        <div class="relative">
+          <button onclick="toggleNotificationsPopover()" class="relative p-2 text-slate-600 hover:text-slate-900 hover:bg-slate-100 border border-slate-200/80 bg-white rounded-xl transition-all">
+            <i data-lucide="bell" class="w-4 h-4"></i>
+            <span id="notif-dot" class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-brand-600 ring-2 ring-white"></span>
+          </button>
+
+          <!-- Popover -->
+          <div id="notif-popover" class="hidden absolute right-0 mt-2 w-80 sm:w-96 bg-white rounded-2xl shadow-floating border border-slate-200/90 z-50 overflow-hidden animate-view">
+            <div class="px-4 py-3 border-b border-slate-100 flex items-center justify-between bg-slate-50/70">
+              <span class="text-xs font-semibold text-slate-900">Notificações Operacionais</span>
+              <span class="text-[11px] font-medium text-brand-600 bg-brand-50 px-2 py-0.5 rounded-full">2 novas</span>
+            </div>
+            <div class="divide-y divide-slate-100 max-h-72 overflow-y-auto">
+              <div class="p-3.5 hover:bg-slate-50 transition-colors cursor-pointer" onclick="navigateTo('os'); toggleNotificationsPopover()">
+                <div class="flex items-start gap-3">
+                  <div class="w-8 h-8 rounded-lg bg-emerald-50 text-emerald-600 flex items-center justify-center shrink-0 mt-0.5">
+                    <i data-lucide="check-circle-2" class="w-4 h-4"></i>
+                  </div>
+                  <div>
+                    <p class="text-xs font-semibold text-slate-900">Orçamento #36 aprovado pelo cliente</p>
+                    <p class="text-[11px] text-slate-500 mt-0.5">TREINO Cliente 86843694 aprovou o serviço de R$ 120,00. OS pronta para iniciar.</p>
+                    <span class="text-[10px] text-slate-400 mt-1 block">Há 14 minutos</span>
+                  </div>
+                </div>
+              </div>
+              <div class="p-3.5 hover:bg-slate-50 transition-colors cursor-pointer" onclick="navigateTo('inbox'); toggleNotificationsPopover()">
+                <div class="flex items-start gap-3">
+                  <div class="w-8 h-8 rounded-lg bg-brand-50 text-brand-600 flex items-center justify-center shrink-0 mt-0.5">
+                    <i data-lucide="award" class="w-4 h-4"></i>
+                  </div>
+                  <div>
+                    <p class="text-xs font-semibold text-slate-900">Guia concluído: Ordens de serviço</p>
+                    <p class="text-[11px] text-slate-500 mt-0.5">Certificação técnica registrada na sua caixa de entrada.</p>
+                    <span class="text-[10px] text-slate-400 mt-1 block">Hoje às 10:28</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-2.5 bg-slate-50 border-t border-slate-100 text-center">
+              <button onclick="navigateTo('inbox'); toggleNotificationsPopover()" class="text-xs font-semibold text-brand-600 hover:text-brand-700">
+                Ver central completa →
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Primary Action: + Novo Orçamento -->
+        <button onclick="openNewQuoteModal()" class="inline-flex items-center gap-1.5 px-3.5 py-2 text-xs font-semibold text-white bg-brand-600 hover:bg-brand-700 active:scale-[0.99] rounded-xl shadow-sm shadow-brand-600/20 transition-all">
+          <i data-lucide="plus" class="w-4 h-4"></i>
+          <span>Novo orçamento</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- MAIN CONTENT SCROLL CONTAINER -->
+    <main id="main-content" class="flex-1 overflow-y-auto px-4 sm:px-6 lg:px-8 py-6 lg:py-8">
+      <div class="max-w-7xl mx-auto space-y-6 pb-20" id="view-container">
+        <!-- Dynamic view rendered via JS -->
+      </div>
+    </main>
+  </div>
+
+  <!-- =====================================================================
+       FLOATING GUIDED TOUR WIDGET (Modernized from Video's Bottom-Right Card)
+       ===================================================================== -->
+  <div id="guided-tour-widget" class="fixed bottom-5 right-5 z-40 w-[340px] sm:w-[370px] bg-white rounded-2xl shadow-floating border border-slate-200/90 overflow-hidden transition-all duration-300">
+    <!-- Top Accent Bar -->
+    <div class="h-1 w-full bg-slate-100">
+      <div id="tour-progress-bar" class="h-full bg-brand-600 transition-all duration-300" style="width: 33%"></div>
+    </div>
+
+    <div class="p-4 sm:p-5">
+      <div class="flex items-center justify-between gap-2 mb-2.5">
+        <span id="tour-step-indicator" class="text-[10px] font-mono font-semibold uppercase tracking-wider text-brand-700 bg-brand-50 px-2 py-0.5 rounded-md border border-brand-200/70">
+          Treinamento Guiado • 1 de 3
+        </span>
+        <span id="tour-module-tag" class="text-[11px] font-medium text-slate-400">equipamentos</span>
+      </div>
+
+      <h4 id="tour-title" class="font-display font-bold text-slate-900 text-base tracking-tight">
+        Identifique cada aparelho
+      </h4>
+      <p id="tour-desc" class="text-xs text-slate-600 leading-relaxed mt-1.5">
+        Escolha o cliente e informe identificação, modelo, BTUs e local de instalação de cada equipamento para histórico técnico preciso.
+      </p>
+
+      <div class="mt-3 px-3 py-2 rounded-xl bg-slate-50 border border-slate-200/70 flex items-center gap-2 text-[11px] text-slate-500">
+        <i data-lucide="shield-check" class="w-4 h-4 text-emerald-600 shrink-0"></i>
+        <span>Modo guiado seguro: nenhum dado real é alterado.</span>
+      </div>
+
+      <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between gap-2">
+        <button onclick="closeTour()" class="text-xs font-medium text-slate-400 hover:text-slate-700 transition-colors">
+          Fechar tour
+        </button>
+        <div class="flex items-center gap-2">
+          <button onclick="prevTourStep()" id="tour-prev-btn" class="px-3 py-1.5 text-xs font-medium text-slate-600 bg-slate-100 hover:bg-slate-200/70 rounded-lg transition-colors">
+            Anterior
+          </button>
+          <button onclick="nextTourStep()" id="tour-next-btn" class="px-3.5 py-1.5 text-xs font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg shadow-2xs transition-colors">
+            Próximo
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       MODAL: NOVO ORÇAMENTO (Interactive Quote Builder)
+       ===================================================================== -->
+  <div id="new-quote-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-slate-950/50 backdrop-blur-xs">
+    <div class="bg-white w-full max-w-lg rounded-2xl shadow-floating border border-slate-200 overflow-hidden animate-view">
+      <div class="px-6 py-4 border-b border-slate-100 flex items-center justify-between bg-slate-50/60">
+        <div>
+          <span class="text-[10px] font-mono uppercase tracking-wider font-semibold text-brand-600">Comercial</span>
+          <h3 class="font-display font-bold text-slate-900 text-lg tracking-tight">Novo Orçamento Técnico</h3>
+        </div>
+        <button onclick="closeNewQuoteModal()" class="p-1.5 text-slate-400 hover:text-slate-700 hover:bg-slate-100 rounded-xl">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <form onsubmit="handleCreateQuote(event)" class="p-6 space-y-4">
+        <div>
+          <label class="block text-xs font-semibold text-slate-700 mb-1.5">Cliente</label>
+          <input type="text" id="nq-client" required placeholder="Ex: Condomínio Vista Mar ou João Silva" class="w-full px-3.5 py-2.5 text-sm bg-white border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-500/20 focus:border-brand-500 transition-all" />
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs font-semibold text-slate-700 mb-1.5">Tipo de Serviço</label>
+            <select id="nq-service" class="w-full px-3.5 py-2.5 text-sm bg-white border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-500/20 focus:border-brand-500">
+              <option value="Higienização & Preventiva">Higienização & Preventiva</option>
+              <option value="Instalação Split Inverter">Instalação Split Inverter</option>
+              <option value="Carga de Gás R-410A / R-32">Carga de Gás R-410A / R-32</option>
+              <option value="Manutenção Corretiva / Placa">Manutenção Corretiva / Placa</option>
+              <option value="Contrato PMOC Mensal">Contrato PMOC Mensal</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs font-semibold text-slate-700 mb-1.5">Valor Total (R$)</label>
+            <input type="number" id="nq-value" step="0.01" min="10" required value="280.00" class="w-full px-3.5 py-2.5 text-sm font-mono bg-white border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-500/20 focus:border-brand-500" />
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-xs font-semibold text-slate-700 mb-1.5">Equipamento / Local</label>
+          <input type="text" id="nq-equipment" placeholder="Ex: Split Daikin 18.000 BTUs — Sala Principal" value="Split LG Dual Inverter 12.000 BTUs" class="w-full px-3.5 py-2.5 text-sm bg-white border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-500/20 focus:border-brand-500" />
+        </div>
+
+        <div>
+          <label class="block text-xs font-semibold text-slate-700 mb-1.5">Status Inicial</label>
+          <div class="grid grid-cols-2 gap-2.5">
+            <label class="flex items-center gap-2 p-2.5 rounded-xl border border-slate-200 cursor-pointer hover:bg-slate-50">
+              <input type="radio" name="nq-status" value="Em aberto" checked class="accent-brand-600">
+              <span class="text-xs font-medium text-slate-700">Em aberto (Aguardando)</span>
+            </label>
+            <label class="flex items-center gap-2 p-2.5 rounded-xl border border-slate-200 cursor-pointer hover:bg-slate-50">
+              <input type="radio" name="nq-status" value="Aprovado" class="accent-brand-600">
+              <span class="text-xs font-medium text-slate-700">Já aprovado (Gera OS)</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="pt-3 border-t border-slate-100 flex items-center justify-end gap-2.5">
+          <button type="button" onclick="closeNewQuoteModal()" class="px-4 py-2 text-xs font-semibold text-slate-600 hover:bg-slate-100 rounded-xl transition-colors">
+            Cancelar
+          </button>
+          <button type="submit" class="px-4 py-2 text-xs font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-xl shadow-sm transition-colors">
+            Criar orçamento
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       DRAWER / MODAL: DETALHES DO ORÇAMENTO & PREVIEW DE PDF
+       ===================================================================== -->
+  <div id="detail-drawer" class="fixed inset-0 z-50 hidden justify-end bg-slate-950/40 backdrop-blur-xs">
+    <div class="w-full max-w-xl bg-white h-full shadow-2xl border-l border-slate-200 flex flex-col animate-view">
+      <div class="px-6 py-4 border-b border-slate-200 flex items-center justify-between bg-slate-50/70">
+        <div class="flex items-center gap-2">
+          <span id="drawer-tag" class="text-[11px] font-mono font-semibold px-2 py-0.5 rounded bg-brand-50 text-brand-700 border border-brand-200">PDF / HISTÓRICO</span>
+          <h3 id="drawer-title" class="font-display font-bold text-slate-900 text-base">Orçamento #36</h3>
+        </div>
+        <button onclick="closeDetailDrawer()" class="p-1.5 text-slate-400 hover:text-slate-700 hover:bg-slate-200/60 rounded-xl">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+      <div id="drawer-body" class="flex-1 overflow-y-auto p-6 space-y-6">
+        <!-- Populated dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       MODAL: COMMAND PALETTE (⌘K)
+       ===================================================================== -->
+  <div id="command-modal" class="fixed inset-0 z-50 hidden items-start justify-center pt-20 p-4 bg-slate-950/50 backdrop-blur-xs">
+    <div class="bg-white w-full max-w-xl rounded-2xl shadow-floating border border-slate-200 overflow-hidden animate-view">
+      <div class="px-4 py-3 border-b border-slate-200 flex items-center gap-3">
+        <i data-lucide="search" class="w-4 h-4 text-slate-400"></i>
+        <input type="text" id="command-input" oninput="filterCommandPalette(this.value)" placeholder="Digite para buscar orçamentos, OS, clientes ou navegar..." class="flex-1 text-sm bg-transparent focus:outline-none text-slate-900 placeholder:text-slate-400" />
+        <button onclick="closeCommandPalette()" class="text-[11px] font-mono px-1.5 py-0.5 bg-slate-100 text-slate-500 rounded">ESC</button>
+      </div>
+      <div id="command-results" class="max-h-80 overflow-y-auto p-2 space-y-1">
+        <!-- Populated dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       TOAST NOTIFICATION CONTAINER
+       ===================================================================== -->
+  <div id="toast-container" class="fixed bottom-5 left-1/2 -translate-x-1/2 z-50 flex flex-col gap-2 pointer-events-none"></div>
+
+  <!-- =====================================================================
+       APPLICATION STATE & LOGIC
+       ===================================================================== -->
+  <script>
+    // --- STATE & MOCK DATA (Rich, Realistic Brazilian HVAC / Climatização Data) ---
+    const appState = {
+      currentView: 'orcamentos',
+      brandName: 'Brisa Oficina — Climatização Demo',
+      accentTheme: 'teal',
+      quoteFilter: 'Todos',
+      quoteSearch: '',
+      osViewMode: 'list', // 'list' | 'kanban'
+      tourStep: 0,
+      tourOpen: true,
+      quotes: [
+        {
+          id: 36,
+          client: 'TREINO Cliente 86843694',
+          service: 'Higienização Completa & Check-up',
+          equipment: 'Split Inverter 12.000 BTUs • Sala',
+          value: 120.00,
+          status: 'Aprovado',
+          date: '12 Nov 2026',
+          note: 'Aprovado pelo cliente. Acompanhe a OS em Ordens de serviço. Aprovação não confirma pagamento.'
+        },
+        {
+          id: 35,
+          client: 'TREINO Cliente 99940953',
+          service: 'Manutenção Preventiva & Dreno',
+          equipment: 'Split Hi-Wall 18.000 BTUs • Suíte',
+          value: 120.00,
+          status: 'Aprovado',
+          date: '12 Nov 2026',
+          note: 'Aprovado pelo cliente. Acompanhe a OS em Ordens de serviço. Aprovação não confirma pagamento.'
+        },
+        {
+          id: 34,
+          client: 'TREINO Cliente 86638360',
+          service: 'Carga de Gás R-410A + Teste Estanqueidade',
+          equipment: 'Split Daikin 24.000 BTUs • Escritório',
+          value: 350.00,
+          status: 'Em aberto',
+          date: '11 Nov 2026',
+          note: 'Link enviado via WhatsApp. Aguardando aceite digital do cliente.'
+        },
+        {
+          id: 33,
+          client: 'Condomínio Costa Bela',
+          service: 'Manutenção Mensal PMOC (4 Unidades)',
+          equipment: 'Cassete Carrier 36.000 BTUs • Hall & Salão',
+          value: 1450.00,
+          status: 'Em serviço',
+          date: '10 Nov 2026',
+          note: 'Técnico em atendimento no local. Checklist PMOC 75% concluído.'
+        },
+        {
+          id: 32,
+          client: 'Clínica Odontológica Sorriso Mar',
+          service: 'Instalação Split Dual Inverter + Suporte Inox',
+          equipment: 'LG Dual Inverter 18.000 BTUs • Consultório 02',
+          value: 890.00,
+          status: 'Aprovado',
+          date: '09 Nov 2026',
+          note: 'Aprovado com sinal pago. Infraestrutura de cobre 3m inclusa.'
+        },
+        {
+          id: 31,
+          client: 'Pousada Vento Leste',
+          service: 'Substituição de Capacitor & Limpeza Química',
+          equipment: 'Samsung WindFree 12.000 BTUs • Chalé 04',
+          value: 420.00,
+          status: 'Em serviço',
+          date: '08 Nov 2026',
+          note: 'Peça substituída. Realizando testes de rendimento térmico.'
+        }
+      ],
+      serviceOrders: [
+        {
+          id: 36,
+          quoteId: 36,
+          client: 'TREINO Cliente 86843694',
+          equipment: 'Split Inverter 12.000 BTUs',
+          tech: 'Carlos Mendes',
+          sla: 'Hoje • 14:00',
+          status: 'Pendente',
+          nextStep: 'Combine a execução com o cliente e inicie o serviço quando o trabalho começar.'
+        },
+        {
+          id: 35,
+          quoteId: 35,
+          client: 'TREINO Cliente 99940953',
+          equipment: 'Split Hi-Wall 18.000 BTUs',
+          tech: 'Rafael Costa',
+          sla: 'Hoje • 16:30',
+          status: 'Pendente',
+          nextStep: 'Combine a execução com o cliente e inicie o serviço quando o trabalho começar.'
+        },
+        {
+          id: 34,
+          quoteId: 34,
+          client: 'TREINO Cliente 86638360',
+          equipment: 'Split Daikin 24.000 BTUs',
+          tech: 'Carlos Mendes',
+          sla: 'Amanhã • 09:00',
+          status: 'Em execução',
+          nextStep: 'Pressurização com nitrogênio em andamento. Registrar fotos pós-serviço.'
+        },
+        {
+          id: 33,
+          quoteId: 33,
+          client: 'Condomínio Costa Bela',
+          equipment: 'Cassete Carrier 36.000 BTUs',
+          tech: 'Equipe Alpha',
+          sla: 'Em atendimento',
+          status: 'Em execução',
+          nextStep: 'Higienização de bandeja e medição de corrente do compressor.'
+        },
+        {
+          id: 32,
+          quoteId: 32,
+          client: 'Clínica Odontológica Sorriso Mar',
+          equipment: 'LG Dual Inverter 18.000 BTUs',
+          tech: 'Rafael Costa',
+          sla: 'Concluída ontem',
+          status: 'Concluída',
+          nextStep: 'Vácuo atingido (350 microns), superaquecimento validado e termo assinado.'
+        }
+      ],
+      clients: [
+        { id: 1, name: 'Condomínio Costa Bela', type: 'Comercial / PMOC', phone: '(12) 99741-2210', address: 'Av. Beira Mar, 1420 • Ilhabela', devices: 6, totalSpent: 6420.00, lastVisit: '10 Nov 2026' },
+        { id: 2, name: 'Clínica Odontológica Sorriso Mar', type: 'Comercial', phone: '(12) 98112-8840', address: 'Rua Doutor Carvalho, 310 • Centro', devices: 4, totalSpent: 3890.00, lastVisit: '09 Nov 2026' },
+        { id: 3, name: 'Pousada Vento Leste', type: 'Hotelaria', phone: '(12) 99605-3319', address: 'Estrada do Sul, 2890 • Praia Grande', devices: 12, totalSpent: 11250.00, lastVisit: '08 Nov 2026' },
+        { id: 4, name: 'TREINO Cliente 86843694', type: 'Residencial', phone: '(12) 99100-3694', address: 'Rua das Palmeiras, 88 • Perequê', devices: 2, totalSpent: 640.00, lastVisit: '12 Nov 2026' },
+        { id: 5, name: 'TREINO Cliente 99940953', type: 'Residencial', phone: '(12) 99100-0953', address: 'Alameda dos Coqueiros, 45 • Itaquanduba', devices: 1, totalSpent: 480.00, lastVisit: '12 Nov 2026' },
+        { id: 6, name: 'Restaurante Maré Alta', type: 'Gastronomia', phone: '(12) 99788-1102', address: 'Av. Princesa Isabel, 512 • Vila', devices: 5, totalSpent: 4980.00, lastVisit: '03 Nov 2026' }
+      ],
+      equipments: [
+        { id: 'EQ-101', tag: 'AR-SALA-01', model: 'Daikin EcoSwing Smart R-32', btus: '18.000 BTUs', gas: 'R-32', client: 'Condomínio Costa Bela', location: 'Recepção Principal', status: 'Em dia', nextMaintenance: '10 Fev 2027' },
+        { id: 'EQ-102', tag: 'AR-CONS-02', model: 'LG Dual Inverter Voice', btus: '12.000 BTUs', gas: 'R-410A', client: 'Clínica Odontológica Sorriso Mar', location: 'Consultório 02', status: 'Em dia', nextMaintenance: '09 Fev 2027' },
+        { id: 'EQ-103', tag: 'AR-CHALE-04', model: 'Samsung WindFree Connect', btus: '12.000 BTUs', gas: 'R-410A', client: 'Pousada Vento Leste', location: 'Chalé 04 Vista Mar', status: 'Em manutenção', nextMaintenance: 'Hoje' },
+        { id: 'EQ-104', tag: 'AR-SALAO-01', model: 'Carrier Piso Teto Inverter', btus: '36.000 BTUs', gas: 'R-410A', client: 'Restaurante Maré Alta', location: 'Salão Interno', status: 'Preventiva próxima', nextMaintenance: '20 Nov 2026' },
+        { id: 'EQ-105', tag: 'AR-SUITE-01', model: 'Fujitsu Airstage Inverter', btus: '9.000 BTUs', gas: 'R-32', client: 'TREINO Cliente 86843694', location: 'Suíte Master', status: 'Em dia', nextMaintenance: '12 Fev 2027' },
+        { id: 'EQ-106', tag: 'AR-ESC-01', model: 'Gree G-Top Inverter', btus: '24.000 BTUs', gas: 'R-410A', client: 'TREINO Cliente 86638360', location: 'Escritório Home Office', status: 'Atenção gás', nextMaintenance: '15 Nov 2026' }
+      ],
+      schedule: [
+        { time: '08:30', duration: '1h30', title: 'Higienização Split 12k BTUs', client: 'TREINO Cliente 86843694', tech: 'Carlos Mendes', type: 'Preventiva', status: 'Confirmado' },
+        { time: '10:30', duration: '2h00', title: 'Vistoria Técnica PMOC (4 Máquinas)', client: 'Condomínio Costa Bela', tech: 'Equipe Alpha', type: 'Contrato PMOC', status: 'Em andamento' },
+        { time: '14:00', duration: '2h30', title: 'Instalação LG Dual Inverter 18k', client: 'Clínica Odontológica Sorriso Mar', tech: 'Rafael Costa', type: 'Instalação', status: 'Agendado' },
+        { time: '16:45', duration: '1h00', title: 'Recarga Gás R-410A & Teste', client: 'TREINO Cliente 86638360', tech: 'Carlos Mendes', type: 'Corretiva', status: 'Aguardando aceite' }
+      ],
+      tourSteps: [
+        {
+          step: '1 de 3',
+          module: 'equipamentos',
+          title: 'Identifique cada aparelho',
+          desc: 'Escolha o cliente e informe identificação, modelo, BTUs e local de instalação de cada equipamento para histórico técnico preciso.',
+          targetView: 'equipamentos'
+        },
+        {
+          step: '2 de 3',
+          module: 'orçamentos',
+          title: 'Orçamentos sem desencontro',
+          desc: 'Crie propostas em segundos, compartilhe o link com o cliente e acompanhe aprovações sem perder nenhum detalhe comercial.',
+          targetView: 'orcamentos'
+        },
+        {
+          step: '3 de 3',
+          module: 'ordens de serviço',
+          title: 'Do aceite à entrega técnica',
+          desc: 'Toda aprovação gera uma OS rastreável. Inicie o atendimento em campo e finalize com checklist técnico completo.',
+          targetView: 'os'
+        }
+      ],
+      faqs: [
+        { q: 'Como organizo clientes, aparelhos e visitas?', a: 'Cadastre cada cliente na aba Clientes e vincule seus respectivos equipamentos (marca, BTUs, fluido refrigerante e ambiente). Todas as visitas e OS ficam automaticamente associadas ao histórico do aparelho.' },
+        { q: 'Visita concluída também conclui a OS?', a: 'Você pode concluir a OS diretamente na tela Ordens de Serviço ao finalizar o atendimento técnico, garantindo que o histórico do cliente e os indicadores de entrega sejam atualizados na hora.' },
+        { q: 'Onde vejo meus treinamentos e certificações?', a: 'Acesse Caixa de Entrada no menu lateral para acompanhar o progresso de cada trilha de onboarding e refazer qualquer etapa quando desejar.' },
+        { q: 'Rascunho, publicação e revisão: qual a diferença?', a: 'Rascunhos ficam visíveis apenas para sua equipe. Ao compartilhar o link, o orçamento entra em aberto; caso o cliente peça ajuste, uma nova revisão mantém o histórico íntegro.' },
+        { q: 'Onde encontro PDF, exportação e backup?', a: 'Em cada orçamento você pode clicar em "Histórico / PDF" para visualizar e imprimir o comprovante formatado, além de usar "Exportar CSV" no topo da listagem.' }
+      ]
+    };
+
+    // --- ACCENT THEME PALETTES ---
+    const themes = {
+      teal: {
+        name: 'Turquesa (Padrão)',
+        50: '#f0fdfa', 100: '#ccfbf1', 200: '#99f6e4', 500: '#14b8a6', 600: '#0d9488', 700: '#0f766e', 900: '#134e4a'
+      },
+      blue: {
+        name: 'Azul Safira',
+        50: '#eff6ff', 100: '#dbeafe', 200: '#bfdbfe', 500: '#3b82f6', 600: '#2563eb', 700: '#1d4ed8', 900: '#1e3a8a'
+      },
+      indigo: {
+        name: 'Índigo Linear',
+        50: '#eef2ff', 100: '#e0e7ff', 200: '#c7d2fe', 500: '#6366f1', 600: '#4f46e5', 700: '#4338ca', 900: '#312e81'
+      },
+      emerald: {
+        name: 'Esmeralda',
+        50: '#ecfdf5', 100: '#d1fae5', 200: '#a7f3d0', 500: '#10b981', 600: '#059669', 700: '#047857', 900: '#064e3b'
+      }
+    };
+
+    function applyTheme(key) {
+      const t = themes[key] || themes.teal;
+      appState.accentTheme = key;
+      const root = document.documentElement;
+      Object.keys(t).forEach(shade => {
+        if (shade !== 'name') {
+          root.style.setProperty(`--brand-${shade}`, t[shade]);
+        }
+      });
+    }
+
+    // --- FORMATTERS ---
+    function formatBRL(val) {
+      return Number(val).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+    }
+
+    function getInitials(name) {
+      return name.replace('TREINO ', '').split(' ').slice(0, 2).map(n => n[0]).join('').toUpperCase();
+    }
+
+    // --- NAVIGATION & SIDEBAR ---
+    function navigateTo(view) {
+      appState.currentView = view;
+
+      // Update active nav item styling
+      document.querySelectorAll('.nav-item').forEach(btn => {
+        const isActive = btn.dataset.nav === view;
+        if (isActive) {
+          btn.classList.add('bg-white/10', 'text-white', 'shadow-xs', 'ring-1', 'ring-white/10');
+          btn.classList.remove('text-slate-400', 'hover:text-white', 'hover:bg-white/5');
+          const icon = btn.querySelector('svg');
+          if (icon) icon.classList.add('text-brand-500');
+        } else {
+          btn.classList.remove('bg-white/10', 'text-white', 'shadow-xs', 'ring-1', 'ring-white/10');
+          btn.classList.add('text-slate-400', 'hover:text-white', 'hover:bg-white/5');
+          const icon = btn.querySelector('svg');
+          if (icon) icon.classList.remove('text-brand-500');
+        }
+      });
+
+      // Update Topbar Tag
+      const sectionTags = {
+        orcamentos: 'Operação / Comercial',
+        os: 'Operação / Serviços',
+        clientes: 'Operação / Relacionamento',
+        equipamentos: 'Operação / Ativos',
+        agenda: 'Operação / Campo',
+        inbox: 'Operação / Alertas',
+        configuracoes: 'Sistema / Identidade',
+        guia: 'Seu Guia de Operação'
+      };
+      document.getElementById('topbar-section-tag').textContent = sectionTags[view] || 'Operação';
+
+      // Close mobile sidebar if open
+      const sidebar = document.getElementById('sidebar');
+      const backdrop = document.getElementById('mobile-sidebar-backdrop');
+      if (!sidebar.classList.contains('-translate-x-full') && window.innerWidth < 1024) {
+        sidebar.classList.add('-translate-x-full');
+        backdrop.classList.add('hidden');
+      }
+
+      renderCurrentView();
+    }
+
+    function toggleMobileSidebar() {
+      const sidebar = document.getElementById('sidebar');
+      const backdrop = document.getElementById('mobile-sidebar-backdrop');
+      sidebar.classList.toggle('-translate-x-full');
+      backdrop.classList.toggle('hidden');
+    }
+
+    // --- VIEW RENDERERS ---
+    function renderCurrentView() {
+      const container = document.getElementById('view-container');
+      container.classList.remove('animate-view');
+      void container.offsetWidth; // trigger reflow
+      container.classList.add('animate-view');
+
+      switch (appState.currentView) {
+        case 'orcamentos':
+          container.innerHTML = renderOrcamentosView();
+          break;
+        case 'os':
+          container.innerHTML = renderOSView();
+          break;
+        case 'clientes':
+          container.innerHTML = renderClientesView();
+          break;
+        case 'equipamentos':
+          container.innerHTML = renderEquipamentosView();
+          break;
+        case 'agenda':
+          container.innerHTML = renderAgendaView();
+          break;
+        case 'inbox':
+          container.innerHTML = renderInboxView();
+          break;
+        case 'configuracoes':
+          container.innerHTML = renderConfiguracoesView();
+          break;
+        case 'guia':
+          container.innerHTML = renderGuiaView();
+          break;
+      }
+
+      lucide.createIcons();
+    }
+
+    // 1. VIEW: ORÇAMENTOS
+    function renderOrcamentosView() {
+      const openCount = appState.quotes.filter(q => q.status === 'Em aberto').length;
+      const approvedCount = 15 + (appState.quotes.filter(q => q.status === 'Aprovado').length - 3);
+      const serviceCount = 11 + (appState.quotes.filter(q => q.status === 'Em serviço').length - 2);
+
+      const filteredQuotes = appState.quotes.filter(q => {
+        const matchesTab = appState.quoteFilter === 'Todos' || q.status === appState.quoteFilter;
+        const term = appState.quoteSearch.toLowerCase();
+        const matchesSearch = !term ||
+          q.client.toLowerCase().includes(term) ||
+          String(q.id).includes(term) ||
+          q.service.toLowerCase().includes(term);
+        return matchesTab && matchesSearch;
+      });
+
+      const statusBadge = (status) => {
+        if (status === 'Aprovado') {
+          return `<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200/80"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>Aprovado</span>`;
+        }
+        if (status === 'Em serviço') {
+          return `<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold bg-brand-50 text-brand-700 border border-brand-200/80"><span class="w-1.5 h-1.5 rounded-full bg-brand-500"></span>Em serviço</span>`;
+        }
+        return `<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold bg-amber-50 text-amber-700 border border-amber-200/80"><span class="w-1.5 h-1.5 rounded-full bg-amber-500"></span>Em aberto</span>`;
+      };
+
+      return `
+        <!-- Header Section -->
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+          <div>
+            <h1 class="font-display font-extrabold text-2xl sm:text-3xl text-slate-900 tracking-tight">
+              Orçamentos sem desencontro.
+            </h1>
+            <p class="text-sm text-slate-500 mt-1">${appState.brandName}</p>
+          </div>
+          <div class="flex items-center gap-2">
+            <button onclick="exportQuotesCSV()" class="inline-flex items-center gap-2 px-3.5 py-2 text-xs font-semibold text-slate-700 bg-white hover:bg-slate-50 border border-slate-200 rounded-xl shadow-2xs transition-all">
+              <i data-lucide="download" class="w-3.5 h-3.5 text-slate-500"></i>
+              <span>Exportar CSV</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- 4 KPI Cards (Stripe/Linear Elevated Style) -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <!-- KPI 1: Em aberto -->
+          <div class="bg-white rounded-2xl p-5 border border-slate-200/90 shadow-card hover:shadow-card-hover transition-all">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-medium text-slate-500">Em aberto</span>
+              <div class="w-8 h-8 rounded-lg bg-amber-50 text-amber-600 flex items-center justify-center">
+                <i data-lucide="clock" class="w-4 h-4"></i>
+              </div>
+            </div>
+            <div class="mt-3 flex items-baseline justify-between">
+              <span class="font-display font-bold text-3xl text-slate-900 tabular-nums">${openCount}</span>
+              <span class="text-xs font-mono font-medium text-slate-500 tabular-nums">R$ 350,00</span>
+            </div>
+            <div class="mt-3 pt-2.5 border-t border-slate-100 flex items-center justify-between text-[11px]">
+              <span class="text-amber-600 font-medium">Aguardando aceite</span>
+              <span class="text-slate-400">Tempo médio: 4h</span>
+            </div>
+          </div>
+
+          <!-- KPI 2: Aprovados -->
+          <div class="bg-white rounded-2xl p-5 border border-slate-200/90 shadow-card hover:shadow-card-hover transition-all">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-medium text-slate-500">Aprovados</span>
+              <div class="w-8 h-8 rounded-lg bg-emerald-50 text-emerald-600 flex items-center justify-center">
+                <i data-lucide="check-circle-2" class="w-4 h-4"></i>
+              </div>
+            </div>
+            <div class="mt-3 flex items-baseline justify-between">
+              <span class="font-display font-bold text-3xl text-slate-900 tabular-nums">${approvedCount}</span>
+              <span class="text-xs font-mono font-semibold text-emerald-600 tabular-nums">R$ 18.420,00</span>
+            </div>
+            <div class="mt-3 pt-2.5 border-t border-slate-100 flex items-center justify-between text-[11px]">
+              <span class="inline-flex items-center gap-1 text-emerald-600 font-semibold">
+                <i data-lucide="trending-up" class="w-3 h-3"></i> +18,4% este mês
+              </span>
+              <span class="text-slate-400">Prontos p/ OS</span>
+            </div>
+          </div>
+
+          <!-- KPI 3: Em serviço -->
+          <div class="bg-white rounded-2xl p-5 border border-slate-200/90 shadow-card hover:shadow-card-hover transition-all">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-medium text-slate-500">Em serviço</span>
+              <div class="w-8 h-8 rounded-lg bg-brand-50 text-brand-600 flex items-center justify-center">
+                <i data-lucide="wrench" class="w-4 h-4"></i>
+              </div>
+            </div>
+            <div class="mt-3 flex items-baseline justify-between">
+              <span class="font-display font-bold text-3xl text-slate-900 tabular-nums">${serviceCount}</span>
+              <span class="text-xs font-mono font-medium text-slate-600 tabular-nums">R$ 12.890,00</span>
+            </div>
+            <div class="mt-3 pt-2.5 border-t border-slate-100 flex items-center justify-between text-[11px]">
+              <span class="text-brand-600 font-medium">Equipes em campo</span>
+              <span class="text-slate-400">SLA 98% no prazo</span>
+            </div>
+          </div>
+
+          <!-- KPI 4: Taxa de Conversão -->
+          <div class="bg-white rounded-2xl p-5 border border-slate-200/90 shadow-card hover:shadow-card-hover transition-all">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-medium text-slate-500">Taxa de conversão</span>
+              <div class="w-8 h-8 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center">
+                <i data-lucide="bar-chart-3" class="w-4 h-4"></i>
+              </div>
+            </div>
+            <div class="mt-3 flex items-baseline justify-between">
+              <span class="font-display font-bold text-3xl text-slate-900 tabular-nums">84,2%</span>
+              <!-- Mini SVG Sparkline -->
+              <svg class="w-16 h-6 text-emerald-500" viewBox="0 0 64 24" fill="none">
+                <path d="M2 20L14 15L26 17L38 9L50 11L62 3" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="mt-3 pt-2.5 border-t border-slate-100 flex items-center justify-between text-[11px]">
+              <span class="text-emerald-600 font-semibold">+12% vs. mês anterior</span>
+              <span class="text-slate-400">Ticket: R$ 685</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quotes List Container -->
+        <div class="bg-white rounded-2xl border border-slate-200/90 shadow-card overflow-hidden">
+          <!-- Toolbar: Title, Filter Pills & Search -->
+          <div class="p-5 border-b border-slate-100 flex flex-col lg:flex-row lg:items-center justify-between gap-4">
+            <div class="flex flex-wrap items-center gap-2">
+              <h2 class="font-display font-bold text-base text-slate-900 mr-2">Seus orçamentos</h2>
+              ${['Todos', 'Em aberto', 'Aprovado', 'Em serviço'].map(tab => {
+                const active = appState.quoteFilter === tab;
+                return `<button onclick="setQuoteFilter('${tab}')" class="px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${active ? 'bg-slate-900 text-white shadow-2xs' : 'bg-slate-100/80 text-slate-600 hover:bg-slate-200/70'}">${tab}</button>`;
+              }).join('')}
+            </div>
+
+            <div class="relative w-full lg:w-80">
+              <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2"></i>
+              <input type="text" value="${appState.quoteSearch}" oninput="setQuoteSearch(this.value)" placeholder="Buscar por cliente, serviço ou nº..." class="w-full pl-9 pr-4 py-2 text-xs bg-slate-50 border border-slate-200 rounded-xl focus:bg-white focus:outline-none focus:ring-2 focus:ring-brand-500/20 focus:border-brand-500 transition-all" />
+            </div>
+          </div>
+
+          <!-- Quotes Items -->
+          <div class="divide-y divide-slate-100">
+            ${filteredQuotes.length === 0 ? `
+              <div class="p-12 text-center">
+                <div class="w-12 h-12 rounded-2xl bg-slate-100 text-slate-400 flex items-center justify-center mx-auto mb-3">
+                  <i data-lucide="file-search" class="w-6 h-6"></i>
+                </div>
+                <p class="text-sm font-semibold text-slate-900">Nenhum orçamento encontrado</p>
+                <p class="text-xs text-slate-500 mt-1">Tente limpar os filtros ou crie um novo orçamento agora.</p>
+              </div>
+            ` : filteredQuotes.map(q => `
+              <div class="p-5 hover:bg-slate-50/80 transition-all flex flex-col lg:flex-row lg:items-center justify-between gap-4 group">
+                <!-- Left Info -->
+                <div class="flex items-start gap-4 min-w-0">
+                  <div class="w-10 h-10 rounded-xl bg-slate-100 border border-slate-200/80 flex items-center justify-center font-display font-bold text-xs text-slate-700 shrink-0 group-hover:bg-brand-50 group-hover:text-brand-700 group-hover:border-brand-200 transition-colors">
+                    ${getInitials(q.client)}
+                  </div>
+                  <div class="min-w-0 space-y-1">
+                    <div class="flex flex-wrap items-center gap-2">
+                      <span class="font-mono text-[11px] font-semibold uppercase tracking-wider text-slate-400">
+                        ORÇAMENTO #${q.id} • V1
+                      </span>
+                      <span class="text-slate-300">•</span>
+                      <span class="text-xs text-slate-500">${q.date}</span>
+                    </div>
+                    <div class="flex flex-wrap items-center gap-2.5">
+                      <h3 class="font-display font-bold text-base text-slate-900 truncate">${q.client}</h3>
+                      ${statusBadge(q.status)}
+                    </div>
+                    <div class="flex flex-wrap items-center gap-2 text-xs text-slate-600">
+                      <span class="inline-flex items-center gap-1 font-medium text-slate-700">
+                        <i data-lucide="snowflake" class="w-3.5 h-3.5 text-brand-600"></i>
+                        ${q.service}
+                      </span>
+                      <span class="text-slate-300 hidden sm:inline">•</span>
+                      <span class="text-slate-500">${q.equipment}</span>
+                    </div>
+                    <p class="text-xs text-slate-500 pt-0.5">
+                      <span class="font-semibold text-slate-700">Próximo passo:</span> ${q.note}
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Right Value & Actions -->
+                <div class="flex flex-wrap sm:flex-nowrap items-center justify-between lg:justify-end gap-4 pt-3 lg:pt-0 border-t lg:border-t-0 border-slate-100 shrink-0">
+                  <div class="text-left lg:text-right mr-2">
+                    <span class="block text-[11px] text-slate-400 font-medium">Valor estimado</span>
+                    <span class="font-display font-bold text-lg text-slate-900 tabular-nums">${formatBRL(q.value)}</span>
+                  </div>
+
+                  <div class="flex items-center gap-2">
+                    <button onclick="openQuotePDFDrawer(${q.id})" class="inline-flex items-center gap-1.5 px-3 py-2 text-xs font-semibold text-slate-700 bg-white hover:bg-slate-50 border border-slate-200 rounded-xl shadow-2xs transition-all">
+                      <i data-lucide="file-check" class="w-3.5 h-3.5 text-slate-500"></i>
+                      <span>Histórico / PDF</span>
+                    </button>
+                    <button onclick="copyShareLink(${q.id})" class="inline-flex items-center gap-1.5 px-3 py-2 text-xs font-semibold text-brand-700 bg-brand-50 hover:bg-brand-100/80 border border-brand-200/80 rounded-xl transition-all">
+                      <i data-lucide="link" class="w-3.5 h-3.5"></i>
+                      <span>Arranjar link</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `;
+    }
+
+    // 2. VIEW: ORDENS DE SERVIÇO ("Do aceite à entrega.")
+    function renderOSView() {
+      const pendingCount = appState.serviceOrders.filter(o => o.status === 'Pendente').length;
+      const activeCount = appState.serviceOrders.filter(o => o.status === 'Em execução').length;
+      const doneCount = appState.serviceOrders.filter(o => o.status === 'Concluída').length;
+
+      const statusPill = (status) => {
+        if (status === 'Concluída') return `<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200"><i data-lucide="check" class="w-3 h-3"></i>Concluída</span>`;
+        if (status === 'Em execução') return `<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold bg-brand-50 text-brand-700 border border-brand-200"><span class="w-2 h-2 rounded-full bg-brand-600 animate-pulse-dot"></span>Em execução</span>`;
+        return `<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold bg-amber-50 text-amber-700 border border-amber-200"><span class="w-1.5 h-1.5 rounded-full bg-amber-500"></span>Pendente</span>`;
+      };
+
+      return `
+        <!-- Header -->
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+          <div>
+            <h1 class="font-display font-extrabold text-2xl sm:text-3xl text-slate-900 tracking-tight">
+              Do aceite à entrega.
+            </h1>
+            <p class="text-sm text-slate-500 mt-1">${appState.brandName} • Cada OS nasce da versão exata do orçamento aprovado.</p>
+          </div>
+
+          <!-- View Switcher: Lista vs Kanban -->
+          <div class="inline-flex p-1 bg-slate-200/70 rounded-xl self-start sm:self-auto">
+            <button onclick="setOSViewMode('list')" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${appState.osViewMode === 'list' ? 'bg-white text-slate-900 shadow-2xs' : 'text-slate-600 hover:text-slate-900'}">
+              <i data-lucide="list" class="w-3.5 h-3.5"></i>
+              <span>Lista Operacional</span>
+            </button>
+            <button onclick="setOSViewMode('kanban')" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${appState.osViewMode === 'kanban' ? 'bg-white text-slate-900 shadow-2xs' : 'text-slate-600 hover:text-slate-900'}">
+              <i data-lucide="kanban" class="w-3.5 h-3.5"></i>
+              <span>Quadro Kanban</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Mini Summary Strip -->
+        <div class="grid grid-cols-3 gap-3 sm:gap-4">
+          <div class="bg-white p-4 rounded-2xl border border-slate-200/90 shadow-card flex items-center justify-between">
+            <div>
+              <span class="text-xs text-slate-500 font-medium">Pendentes</span>
+              <p class="font-display font-bold text-2xl text-slate-900 tabular-nums mt-0.5">${pendingCount}</p>
+            </div>
+            <span class="w-9 h-9 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center">
+              <i data-lucide="hourglass" class="w-4 h-4"></i>
+            </span>
+          </div>
+          <div class="bg-white p-4 rounded-2xl border border-slate-200/90 shadow-card flex items-center justify-between">
+            <div>
+              <span class="text-xs text-slate-500 font-medium">Em execução</span>
+              <p class="font-display font-bold text-2xl text-brand-600 tabular-nums mt-0.5">${activeCount}</p>
+            </div>
+            <span class="w-9 h-9 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center">
+              <i data-lucide="activity" class="w-4 h-4"></i>
+            </span>
+          </div>
+          <div class="bg-white p-4 rounded-2xl border border-slate-200/90 shadow-card flex items-center justify-between">
+            <div>
+              <span class="text-xs text-slate-500 font-medium">Concluídas</span>
+              <p class="font-display font-bold text-2xl text-emerald-600 tabular-nums mt-0.5">${doneCount}</p>
+            </div>
+            <span class="w-9 h-9 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center">
+              <i data-lucide="check-circle" class="w-4 h-4"></i>
+            </span>
+          </div>
+        </div>
+
+        ${appState.osViewMode === 'list' ? `
+          <!-- LIST VIEW -->
+          <div class="bg-white rounded-2xl border border-slate-200/90 shadow-card overflow-hidden">
+            <div class="px-6 py-4 border-b border-slate-100 flex items-center justify-between">
+              <div>
+                <h2 class="font-display font-bold text-base text-slate-900">Ordens de serviço</h2>
+                <p class="text-xs text-slate-500">Controle o início da execução técnica e a baixa de entrega.</p>
+              </div>
+              <span class="text-xs font-mono text-slate-400">${appState.serviceOrders.length} registros</span>
+            </div>
+
+            <div class="divide-y divide-slate-100">
+              ${appState.serviceOrders.map(os => `
+                <div class="p-5 sm:p-6 hover:bg-slate-50/70 transition-all flex flex-col lg:flex-row lg:items-center justify-between gap-4">
+                  <div class="space-y-1.5 min-w-0">
+                    <div class="flex flex-wrap items-center gap-2">
+                      <span class="font-mono text-[11px] font-semibold uppercase tracking-wider text-slate-500 bg-slate-100 px-2 py-0.5 rounded">
+                        OS #${os.id} / ORÇAMENTO #${os.quoteId}
+                      </span>
+                      <span class="text-xs text-slate-500 flex items-center gap-1">
+                        <i data-lucide="user-check" class="w-3.5 h-3.5 text-slate-400"></i> ${os.tech}
+                      </span>
+                      <span class="text-slate-300">•</span>
+                      <span class="text-xs font-medium text-slate-600">${os.sla}</span>
+                    </div>
+
+                    <div class="flex flex-wrap items-center gap-2.5">
+                      <h3 class="font-display font-bold text-base text-slate-900">${os.client}</h3>
+                      ${statusPill(os.status)}
+                    </div>
+
+                    <p class="text-xs font-medium text-slate-600 flex items-center gap-1.5">
+                      <i data-lucide="snowflake" class="w-3.5 h-3.5 text-brand-600"></i>
+                      <span>${os.equipment}</span>
+                    </p>
+
+                    <p class="text-xs text-slate-500">
+                      <span class="font-semibold text-slate-700">Próximo passo:</span> ${os.nextStep}
+                    </p>
+                  </div>
+
+                  <!-- Action Buttons (Matching & Elevating Video Actions) -->
+                  <div class="flex flex-wrap items-center gap-2 shrink-0 pt-2 lg:pt-0">
+                    ${os.status === 'Pendente' ? `
+                      <button onclick="updateOSStatus(${os.id}, 'Em execução')" class="inline-flex items-center gap-1.5 px-4 py-2 text-xs font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-xl shadow-xs transition-all">
+                        <i data-lucide="play" class="w-3.5 h-3.5"></i>
+                        <span>Iniciar serviço</span>
+                      </button>
+                      <button onclick="cancelOS(${os.id})" class="inline-flex items-center gap-1.5 px-3.5 py-2 text-xs font-semibold text-rose-600 bg-rose-50 hover:bg-rose-100 border border-rose-200/80 rounded-xl transition-all">
+                        <span>Cancelar OS</span>
+                      </button>
+                    ` : os.status === 'Em execução' ? `
+                      <button onclick="updateOSStatus(${os.id}, 'Concluída')" class="inline-flex items-center gap-1.5 px-4 py-2 text-xs font-semibold text-white bg-emerald-600 hover:bg-emerald-700 rounded-xl shadow-xs transition-all">
+                        <i data-lucide="check-circle-2" class="w-3.5 h-3.5"></i>
+                        <span>Concluir entrega</span>
+                      </button>
+                      <button onclick="updateOSStatus(${os.id}, 'Pendente')" class="px-3 py-2 text-xs font-medium text-slate-600 bg-slate-100 hover:bg-slate-200 rounded-xl transition-all">
+                        Pausar
+                      </button>
+                    ` : `
+                      <span class="inline-flex items-center gap-1.5 px-3 py-2 text-xs font-medium text-emerald-700 bg-emerald-50/70 rounded-xl border border-emerald-200/60">
+                        <i data-lucide="shield-check" class="w-3.5 h-3.5"></i>
+                        <span>Entregue & Faturável</span>
+                      </span>
+                    `}
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        ` : `
+          <!-- KANBAN VIEW -->
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
+            ${['Pendente', 'Em execução', 'Concluída'].map(col => {
+              const items = appState.serviceOrders.filter(o => o.status === col);
+              const colDot = col === 'Pendente' ? 'bg-amber-500' : col === 'Em execução' ? 'bg-brand-600' : 'bg-emerald-500';
+              return `
+                <div class="bg-slate-100/70 rounded-2xl p-4 border border-slate-200/80 flex flex-col gap-3">
+                  <div class="flex items-center justify-between px-1">
+                    <div class="flex items-center gap-2">
+                      <span class="w-2 h-2 rounded-full ${colDot}"></span>
+                      <h3 class="font-display font-bold text-sm text-slate-800">${col}</h3>
+                    </div>
+                    <span class="text-xs font-mono font-semibold px-2 py-0.5 rounded-md bg-white text-slate-600 border border-slate-200">${items.length}</span>
+                  </div>
+
+                  <div class="space-y-3">
+                    ${items.map(os => `
+                      <div class="bg-white p-4 rounded-xl border border-slate-200/90 shadow-card hover:shadow-card-hover transition-all space-y-2.5">
+                        <div class="flex items-center justify-between">
+                          <span class="font-mono text-[11px] font-semibold text-slate-400">OS #${os.id}</span>
+                          <span class="text-[11px] font-medium text-slate-500">${os.sla}</span>
+                        </div>
+                        <h4 class="font-display font-bold text-sm text-slate-900">${os.client}</h4>
+                        <p class="text-xs text-slate-600">${os.equipment}</p>
+                        <div class="pt-2 border-t border-slate-100 flex items-center justify-between">
+                          <span class="text-[11px] text-slate-500">${os.tech}</span>
+                          ${col === 'Pendente' ? `
+                            <button onclick="updateOSStatus(${os.id}, 'Em execução')" class="text-xs font-semibold text-brand-600 hover:text-brand-700">Iniciar →</button>
+                          ` : col === 'Em execução' ? `
+                            <button onclick="updateOSStatus(${os.id}, 'Concluída')" class="text-xs font-semibold text-emerald-600 hover:text-emerald-700">Concluir ✓</button>
+                          ` : `
+                            <span class="text-[11px] font-semibold text-emerald-600">Finalizada</span>
+                          `}
+                        </div>
+                      </div>
+                    `).join('')}
+                  </div>
+                </div>
+              `;
+            }).join('')}
+          </div>
+        `}
+      `;
+    }
+
+    // 3. VIEW: CLIENTES ("Relacionamento organizado.")
+    function renderClientesView() {
+      return `
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+          <div>
+            <h1 class="font-display font-extrabold text-2xl sm:text-3xl text-slate-900 tracking-tight">
+              Relacionamento organizado.
+            </h1>
+            <p class="text-sm text-slate-500 mt-1">${appState.brandName} • Base sincronizada de clientes residenciais, comerciais e PMOC.</p>
+          </div>
+          <button onclick="showToast('Novo cadastro de cliente aberto no modo demonstração.')" class="inline-flex items-center gap-2 px-3.5 py-2 text-xs font-semibold text-white bg-slate-900 hover:bg-slate-800 rounded-xl shadow-2xs transition-all">
+            <i data-lucide="user-plus" class="w-3.5 h-3.5"></i>
+            <span>Adicionar cliente</span>
+          </button>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          ${appState.clients.map(c => `
+            <div class="bg-white rounded-2xl p-5 border border-slate-200/90 shadow-card hover:shadow-card-hover transition-all flex flex-col justify-between gap-4">
+              <div>
+                <div class="flex items-start justify-between gap-3">
+                  <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-700 border border-brand-200/70 flex items-center justify-center font-display font-bold text-xs">
+                      ${getInitials(c.name)}
+                    </div>
+                    <div>
+                      <h3 class="font-display font-bold text-sm text-slate-900">${c.name}</h3>
+                      <span class="inline-block text-[11px] font-medium text-slate-500 bg-slate-100 px-2 py-0.5 rounded mt-0.5">${c.type}</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mt-4 space-y-2 text-xs text-slate-600">
+                  <div class="flex items-center gap-2">
+                    <i data-lucide="phone" class="w-3.5 h-3.5 text-slate-400"></i>
+                    <span>${c.phone}</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <i data-lucide="map-pin" class="w-3.5 h-3.5 text-slate-400"></i>
+                    <span class="truncate">${c.address}</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="pt-3.5 border-t border-slate-100 flex items-center justify-between text-xs">
+                <div>
+                  <span class="text-slate-400 block text-[11px]">Aparelhos</span>
+                  <span class="font-semibold text-slate-800">${c.devices} unidades</span>
+                </div>
+                <div class="text-right">
+                  <span class="text-slate-400 block text-[11px]">Total faturado</span>
+                  <span class="font-mono font-bold text-slate-900 tabular-nums">${formatBRL(c.totalSpent)}</span>
+                </div>
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      `;
+    }
+
+    // 4. VIEW: EQUIPAMENTOS ("Cada aparelho, seu histórico.")
+    function renderEquipamentosView() {
+      return `
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+          <div>
+            <h1 class="font-display font-extrabold text-2xl sm:text-3xl text-slate-900 tracking-tight">
+              Cada aparelho, seu histórico.
+            </h1>
+            <p class="text-sm text-slate-500 mt-1">${appState.brandName} • Rastreabilidade completa por BTUs, fluido refrigerante e ambiente.</p>
+          </div>
+          <button onclick="openTour()" class="inline-flex items-center gap-2 px-3.5 py-2 text-xs font-semibold text-brand-700 bg-brand-50 hover:bg-brand-100 border border-brand-200 rounded-xl transition-all">
+            <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
+            <span>Ver tour de cadastro</span>
+          </button>
+        </div>
+
+        <div class="bg-white rounded-2xl border border-slate-200/90 shadow-card overflow-hidden">
+          <div class="overflow-x-auto">
+            <table class="w-full text-left border-collapse">
+              <thead>
+                <tr class="border-b border-slate-200/80 bg-slate-50/70 text-[11px] font-semibold uppercase tracking-wider text-slate-500">
+                  <th class="py-3.5 px-5">Tag / Modelo</th>
+                  <th class="py-3.5 px-5">Capacidade & Gás</th>
+                  <th class="py-3.5 px-5">Cliente & Ambiente</th>
+                  <th class="py-3.5 px-5">Próxima Preventiva</th>
+                  <th class="py-3.5 px-5">Status</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-100 text-xs">
+                ${appState.equipments.map(eq => {
+                  const statusBadge = eq.status === 'Em dia'
+                    ? `<span class="px-2.5 py-1 rounded-full font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200">Em dia</span>`
+                    : eq.status === 'Em manutenção'
+                    ? `<span class="px-2.5 py-1 rounded-full font-semibold bg-brand-50 text-brand-700 border border-brand-200">Em manutenção</span>`
+                    : `<span class="px-2.5 py-1 rounded-full font-semibold bg-amber-50 text-amber-700 border border-amber-200">${eq.status}</span>`;
+                  return `
+                    <tr class="hover:bg-slate-50/80 transition-colors">
+                      <td class="py-4 px-5">
+                        <span class="font-mono text-[11px] font-semibold text-brand-600 block">${eq.tag}</span>
+                        <span class="font-display font-bold text-sm text-slate-900">${eq.model}</span>
+                      </td>
+                      <td class="py-4 px-5">
+                        <span class="font-semibold text-slate-800 block">${eq.btus}</span>
+                        <span class="font-mono text-[11px] text-slate-500">Fluido ${eq.gas}</span>
+                      </td>
+                      <td class="py-4 px-5">
+                        <span class="font-semibold text-slate-800 block">${eq.client}</span>
+                        <span class="text-slate-500">${eq.location}</span>
+                      </td>
+                      <td class="py-4 px-5 font-mono text-slate-600">${eq.nextMaintenance}</td>
+                      <td class="py-4 px-5">${statusBadge}</td>
+                    </tr>
+                  `;
+                }).join('')}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      `;
+    }
+
+    // 5. VIEW: AGENDA ("Operação no ritmo certo.")
+    function renderAgendaView() {
+      return `
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+          <div>
+            <h1 class="font-display font-extrabold text-2xl sm:text-3xl text-slate-900 tracking-tight">
+              Operação no ritmo certo.
+            </h1>
+            <p class="text-sm text-slate-500 mt-1">Quinta-feira, 12 de Novembro de 2026 • Roteiro de campo sincronizado.</p>
+          </div>
+          <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-white border border-slate-200 text-xs font-semibold text-slate-700 shadow-2xs">
+            <i data-lucide="calendar-check" class="w-4 h-4 text-brand-600"></i>
+            <span>4 visitas programadas hoje</span>
+          </span>
+        </div>
+
+        <div class="bg-white rounded-2xl border border-slate-200/90 shadow-card divide-y divide-slate-100">
+          ${appState.schedule.map(item => `
+            <div class="p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-4 hover:bg-slate-50/70 transition-colors">
+              <div class="flex items-start gap-4">
+                <div class="px-3 py-2 rounded-xl bg-slate-900 text-white text-center shrink-0 min-w-[76px]">
+                  <span class="font-mono font-bold text-sm block">${item.time}</span>
+                  <span class="text-[10px] text-slate-400">${item.duration}</span>
+                </div>
+                <div>
+                  <div class="flex flex-wrap items-center gap-2">
+                    <span class="text-[11px] font-semibold uppercase tracking-wider text-brand-700 bg-brand-50 px-2 py-0.5 rounded">${item.type}</span>
+                    <span class="text-xs text-slate-500">Técnico: <strong class="text-slate-700">${item.tech}</strong></span>
+                  </div>
+                  <h3 class="font-display font-bold text-base text-slate-900 mt-1">${item.title}</h3>
+                  <p class="text-xs text-slate-500 mt-0.5">${item.client}</p>
+                </div>
+              </div>
+              <div class="flex items-center gap-2 self-end sm:self-center">
+                <span class="px-3 py-1 rounded-full text-xs font-semibold bg-slate-100 text-slate-700">${item.status}</span>
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      `;
+    }
+
+    // 6. VIEW: CAIXA DE ENTRADA ("Seus avisos e treinamentos.")
+    function renderInboxView() {
+      const modules = [
+        { name: 'Orçamentos', status: 'Concluído', done: true },
+        { name: 'Ordens de serviço', status: 'Concluído', done: true },
+        { name: 'Clientes', status: 'Em curso', done: false },
+        { name: 'Equipamentos', status: 'Em curso', done: false },
+        { name: 'Agenda de visitas', status: 'Não iniciado', done: false },
+        { name: 'Configurações', status: 'Em curso', done: false },
+        { name: 'Guia de uso', status: 'Em curso', done: false }
+      ];
+
+      return `
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+          <div>
+            <h1 class="font-display font-extrabold text-2xl sm:text-3xl text-slate-900 tracking-tight">
+              Seus avisos e treinamentos.
+            </h1>
+            <p class="text-sm text-slate-500 mt-1">${appState.brandName}</p>
+          </div>
+          <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-amber-50 text-amber-700 border border-amber-200">
+            2 não lidas
+          </span>
+        </div>
+
+        <!-- Onboarding Progress Card -->
+        <div class="bg-white rounded-2xl border border-slate-200/90 shadow-card overflow-hidden">
+          <div class="p-5 sm:p-6 border-b border-slate-100 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div>
+              <h2 class="font-display font-bold text-base text-slate-900">Caixa de entrada e treinamentos</h2>
+              <p class="text-xs text-slate-500 mt-0.5">Antes do seu turno, conclua um guia rápido para certificar a execução prática.</p>
+            </div>
+            <div class="flex items-center gap-3">
+              <div class="w-32 h-2 bg-slate-100 rounded-full overflow-hidden">
+                <div class="h-full bg-brand-600 rounded-full" style="width: 45%"></div>
+              </div>
+              <span class="text-xs font-mono font-semibold text-slate-600">45%</span>
+            </div>
+          </div>
+
+          <div class="divide-y divide-slate-100">
+            ${modules.map(m => `
+              <div class="px-6 py-3.5 flex items-center justify-between hover:bg-slate-50/70 transition-colors">
+                <div class="flex items-center gap-3">
+                  <span class="font-semibold text-sm text-slate-800">${m.name}</span>
+                  <span class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold ${m.done ? 'bg-emerald-50 text-emerald-700 border border-emerald-200' : 'bg-slate-100 text-slate-600'}">
+                    ${m.status}
+                  </span>
+                </div>
+                <button onclick="openTour()" class="px-3 py-1.5 text-xs font-semibold text-slate-700 bg-white hover:bg-slate-50 border border-slate-200 rounded-xl shadow-2xs transition-all">
+                  Refazer guia: ${m.name}
+                </button>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+
+        <!-- Notificações -->
+        <div class="bg-white rounded-2xl border border-slate-200/90 shadow-card p-5 sm:p-6 space-y-3">
+          <h3 class="font-display font-bold text-base text-slate-900">Notificações recentes</h3>
+          <div class="p-4 rounded-xl bg-brand-50/50 border border-brand-200/70 flex items-center justify-between gap-4">
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="font-semibold text-sm text-slate-900">Guia concluído: Ordens de serviço</span>
+                <span class="px-2 py-0.5 rounded text-[10px] font-semibold bg-brand-600 text-white">Não lida</span>
+              </div>
+              <p class="text-xs text-slate-600 mt-1">Você concluiu a leitura do guia de ordens de serviço. Esse registro é uma certificação técnica.</p>
+            </div>
+            <button onclick="showToast('Notificação marcada como lida.')" class="px-3 py-1.5 text-xs font-semibold text-brand-700 bg-white border border-brand-200 rounded-xl shrink-0">
+              Marcar como lida
+            </button>
+          </div>
+        </div>
+      `;
+    }
+
+    // 7. VIEW: CONFIGURAÇÕES ("A identidade da sua operação.")
+    function renderConfiguracoesView() {
+      return `
+        <div>
+          <h1 class="font-display font-extrabold text-2xl sm:text-3xl text-slate-900 tracking-tight">
+            A identidade da sua operação.
+          </h1>
+          <p class="text-sm text-slate-500 mt-1">Personalize o nome exibido nos documentos e a cor de destaque do ambiente.</p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <div class="lg:col-span-2 bg-white rounded-2xl border border-slate-200/90 shadow-card p-6 space-y-5">
+            <div>
+              <h2 class="font-display font-bold text-base text-slate-900">Marca e operação</h2>
+              <p class="text-xs text-slate-500 mt-0.5">Alterações aplicadas em tempo real na interface e nos PDFs.</p>
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold text-slate-700 mb-1.5">Nome exibido nos próximos orçamentos</label>
+              <input type="text" id="cfg-brand-input" value="${appState.brandName}" class="w-full px-3.5 py-2.5 text-sm bg-white border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-500/20 focus:border-brand-500" />
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold text-slate-700 mb-2">Cor de destaque</label>
+              <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                ${Object.entries(themes).map(([key, t]) => {
+                  const selected = appState.accentTheme === key;
+                  return `
+                    <button type="button" onclick="selectAccentColor('${key}')" class="p-3 rounded-xl border text-left transition-all flex items-center gap-2.5 ${selected ? 'border-slate-900 bg-slate-50 ring-1 ring-slate-900' : 'border-slate-200 hover:bg-slate-50'}">
+                      <span class="w-5 h-5 rounded-full shrink-0" style="background-color: ${t[600]}"></span>
+                      <span class="text-xs font-semibold text-slate-800 truncate">${t.name.split(' ')[0]}</span>
+                    </button>
+                  `;
+                }).join('')}
+              </div>
+            </div>
+
+            <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200/80 text-xs text-slate-600 flex items-center gap-2.5">
+              <i data-lucide="shield-check" class="w-4 h-4 text-emerald-600 shrink-0"></i>
+              <span>Documentos publicados preservam a identidade original. O selo de demonstração permanece ativo nesta instalação.</span>
+            </div>
+
+            <div class="pt-2 flex items-center gap-3">
+              <button onclick="saveSettings()" class="px-4 py-2.5 text-xs font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-xl shadow-xs transition-all">
+                Salvar configurações
+              </button>
+            </div>
+          </div>
+
+          <!-- Live Document Header Preview -->
+          <div class="bg-white rounded-2xl border border-slate-200/90 shadow-card p-6 space-y-4">
+            <span class="text-[10px] font-mono font-semibold uppercase tracking-wider text-slate-400">Prévia do Cabeçalho PDF</span>
+            <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/60 space-y-3">
+              <div class="flex items-center gap-2.5">
+                <div class="w-8 h-8 rounded-lg bg-brand-600 text-white flex items-center justify-center">
+                  <i data-lucide="wind" class="w-4 h-4"></i>
+                </div>
+                <div>
+                  <p class="font-display font-bold text-xs text-slate-900">${appState.brandName}</p>
+                  <p class="text-[10px] text-slate-500">Climatização & Engenharia Térmica</p>
+                </div>
+              </div>
+              <div class="h-1.5 w-full rounded-full bg-brand-600"></div>
+              <p class="text-[11px] text-slate-500">Proposta Técnica #36 • Validade 7 dias</p>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    // 8. VIEW: GUIA DE USO ("Ajuda em cada etapa.")
+    function renderGuiaView() {
+      const steps = [
+        { num: 1, title: 'Monte o orçamento', desc: 'Informe o cliente, os serviços e as condições. Salve um rascunho para continuar depois ou publique quando estiver pronto.' },
+        { num: 2, title: 'Compartilhe o link', desc: 'Após publicar, copie o link exibido e envie manualmente pelo WhatsApp ou outro canal. O link não é recuperável depois de sair desta emissão.' },
+        { num: 3, title: 'Acompanhe a decisão', desc: 'O cliente aprova a revisão exata ou pede uma alteração. Uma nova versão mantém o histórico íntegro.' },
+        { num: 4, title: 'Execute o serviço', desc: 'A aprovação deixa a OS pendente. Em Ordens de serviço, inicie e depois conclua o trabalho técnico.' },
+        { num: 5, title: 'Consulte e organize', desc: 'Use Histórico / PDF, consulte versões e decisões. Exporte a lista em CSV sempre que precisar.' }
+      ];
+
+      return `
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+          <div>
+            <h1 class="font-display font-extrabold text-2xl sm:text-3xl text-slate-900 tracking-tight">
+              Ajuda em cada etapa.
+            </h1>
+            <p class="text-sm text-slate-500 mt-1">Do orçamento ao serviço, com uma decisão registrada em cada etapa.</p>
+          </div>
+          <button onclick="openNewQuoteModal()" class="inline-flex items-center gap-2 px-4 py-2 text-xs font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-xl shadow-xs transition-all">
+            <span>Criar meu orçamento</span>
+          </button>
+        </div>
+
+        <!-- 5 Steps Flow -->
+        <div class="bg-white rounded-2xl border border-slate-200/90 shadow-card p-6 space-y-4">
+          <h2 class="font-display font-bold text-base text-slate-900">Guia de uso</h2>
+          <div class="space-y-3">
+            ${steps.map(s => `
+              <div class="p-4 rounded-xl bg-slate-50/70 border border-slate-200/70 flex items-start gap-3.5">
+                <span class="w-7 h-7 rounded-lg bg-brand-600 text-white font-display font-bold text-xs flex items-center justify-center shrink-0 mt-0.5">
+                  ${s.num}
+                </span>
+                <div>
+                  <h3 class="font-display font-bold text-sm text-slate-900">${s.title}</h3>
+                  <p class="text-xs text-slate-600 mt-1 leading-relaxed">${s.desc}</p>
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+
+        <!-- FAQ Accordion -->
+        <div class="bg-white rounded-2xl border border-slate-200/90 shadow-card p-6 space-y-3">
+          <h2 class="font-display font-bold text-base text-slate-900 mb-2">Dúvidas frequentes</h2>
+          ${appState.faqs.map((f, idx) => `
+            <details class="group rounded-xl border border-slate-200/80 bg-slate-50/40 open:bg-white transition-all">
+              <summary class="px-4 py-3.5 text-xs sm:text-sm font-semibold text-slate-800 cursor-pointer flex items-center justify-between list-none">
+                <span>${f.q}</span>
+                <i data-lucide="chevron-down" class="w-4 h-4 text-slate-400 group-open:rotate-180 transition-transform"></i>
+              </summary>
+              <div class="px-4 pb-4 text-xs text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+                ${f.a}
+              </div>
+            </details>
+          `).join('')}
+        </div>
+      `;
+    }
+
+    // --- INTERACTIVE ACTIONS ---
+    function setQuoteFilter(filter) {
+      appState.quoteFilter = filter;
+      renderCurrentView();
+    }
+
+    function setQuoteSearch(val) {
+      appState.quoteSearch = val;
+      renderCurrentView();
+    }
+
+    function setOSViewMode(mode) {
+      appState.osViewMode = mode;
+      renderCurrentView();
+    }
+
+    function updateOSStatus(id, newStatus) {
+      const os = appState.serviceOrders.find(o => o.id === id);
+      if (os) {
+        os.status = newStatus;
+        if (newStatus === 'Em execução') {
+          os.nextStep = 'Atendimento em curso. Preencha o checklist técnico e finalize ao concluir.';
+          showToast(`OS #${id} iniciada! Status atualizado para Em execução.`);
+        } else if (newStatus === 'Concluída') {
+          os.nextStep = 'Serviço concluído e certificado técnico registrado.';
+          showToast(`OS #${id} concluída com sucesso!`);
+        } else {
+          os.nextStep = 'Combine a execução com o cliente e inicie o serviço quando o trabalho começar.';
+          showToast(`OS #${id} retornada para Pendente.`);
+        }
+        renderCurrentView();
+      }
+    }
+
+    function cancelOS(id) {
+      appState.serviceOrders = appState.serviceOrders.filter(o => o.id !== id);
+      showToast(`OS #${id} cancelada.`);
+      renderCurrentView();
+    }
+
+    // New Quote Modal
+    function openNewQuoteModal() {
+      const m = document.getElementById('new-quote-modal');
+      m.classList.remove('hidden');
+      m.classList.add('flex');
+    }
+
+    function closeNewQuoteModal() {
+      const m = document.getElementById('new-quote-modal');
+      m.classList.add('hidden');
+      m.classList.remove('flex');
+    }
+
+    function handleCreateQuote(e) {
+      e.preventDefault();
+      const client = document.getElementById('nq-client').value.trim();
+      const service = document.getElementById('nq-service').value;
+      const value = parseFloat(document.getElementById('nq-value').value) || 0;
+      const equipment = document.getElementById('nq-equipment').value.trim();
+      const status = document.querySelector('input[name="nq-status"]:checked').value;
+
+      const nextId = Math.max(...appState.quotes.map(q => q.id)) + 1;
+      const newQuote = {
+        id: nextId,
+        client,
+        service,
+        equipment,
+        value,
+        status,
+        date: '12 Nov 2026',
+        note: status === 'Aprovado'
+          ? 'Aprovado pelo cliente. OS gerada automaticamente em Ordens de serviço.'
+          : 'Orçamento criado. Compartilhe o link para aprovação digital do cliente.'
+      };
+
+      appState.quotes.unshift(newQuote);
+
+      if (status === 'Aprovado') {
+        appState.serviceOrders.unshift({
+          id: nextId,
+          quoteId: nextId,
+          client,
+          equipment,
+          tech: 'Carlos Mendes',
+          sla: 'Hoje • A agendar',
+          status: 'Pendente',
+          nextStep: 'Combine a execução com o cliente e inicie o serviço quando o trabalho começar.'
+        });
+      }
+
+      document.getElementById('badge-orcamentos').textContent = 21 + appState.quotes.length;
+      closeNewQuoteModal();
+      navigateTo('orcamentos');
+      showToast(`Orçamento #${nextId} criado com sucesso!`);
+    }
+
+    // PDF / History Drawer
+    function openQuotePDFDrawer(id) {
+      const q = appState.quotes.find(item => item.id === id);
+      if (!q) return;
+
+      document.getElementById('drawer-title').textContent = `Orçamento #${q.id} • Versão 1`;
+      document.getElementById('drawer-body').innerHTML = `
+        <div class="p-5 rounded-2xl border border-slate-200 bg-slate-50/70 space-y-4">
+          <div class="flex items-center justify-between border-b border-slate-200/80 pb-4">
+            <div class="flex items-center gap-2.5">
+              <div class="w-9 h-9 rounded-xl bg-brand-600 text-white flex items-center justify-center">
+                <i data-lucide="wind" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <p class="font-display font-bold text-sm text-slate-900">${appState.brandName}</p>
+                <p class="text-[11px] text-slate-500">Documento Técnico Oficial • Emissão ${q.date}</p>
+              </div>
+            </div>
+            <span class="font-mono text-xs font-bold px-2.5 py-1 rounded-lg bg-white border border-slate-200">#${q.id}</span>
+          </div>
+
+          <div class="grid grid-cols-2 gap-4 text-xs">
+            <div>
+              <span class="text-slate-400 block">Cliente</span>
+              <span class="font-bold text-slate-900">${q.client}</span>
+            </div>
+            <div>
+              <span class="text-slate-400 block">Status</span>
+              <span class="font-bold text-emerald-600">${q.status}</span>
+            </div>
+            <div class="col-span-2">
+              <span class="text-slate-400 block">Serviço & Equipamento</span>
+              <span class="font-semibold text-slate-800">${q.service} — ${q.equipment}</span>
+            </div>
+          </div>
+
+          <div class="pt-3 border-t border-slate-200/80 flex items-center justify-between">
+            <span class="text-xs font-medium text-slate-500">Investimento Total</span>
+            <span class="font-display font-extrabold text-xl text-slate-900 tabular-nums">${formatBRL(q.value)}</span>
+          </div>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="font-display font-bold text-xs uppercase tracking-wider text-slate-400">Linha do Tempo de Auditoria</h4>
+          <div class="border-l-2 border-brand-200 ml-2 pl-4 space-y-4 text-xs">
+            <div>
+              <p class="font-semibold text-slate-900">Versão 1 publicada</p>
+              <p class="text-slate-500">${q.date} • Gerado por Equipe Técnica</p>
+            </div>
+            <div>
+              <p class="font-semibold text-slate-900">Status atual: ${q.status}</p>
+              <p class="text-slate-500">${q.note}</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="pt-4 flex items-center gap-3">
+          <button onclick="window.print()" class="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2.5 text-xs font-semibold text-white bg-slate-900 hover:bg-slate-800 rounded-xl transition-all">
+            <i data-lucide="printer" class="w-4 h-4"></i>
+            <span>Imprimir / Salvar PDF</span>
+          </button>
+          <button onclick="copyShareLink(${q.id})" class="inline-flex items-center justify-center gap-2 px-4 py-2.5 text-xs font-semibold text-brand-700 bg-brand-50 hover:bg-brand-100 border border-brand-200 rounded-xl transition-all">
+            <i data-lucide="copy" class="w-4 h-4"></i>
+            <span>Copiar link</span>
+          </button>
+        </div>
+      `;
+
+      const drawer = document.getElementById('detail-drawer');
+      drawer.classList.remove('hidden');
+      drawer.classList.add('flex');
+      lucide.createIcons();
+    }
+
+    function closeDetailDrawer() {
+      const drawer = document.getElementById('detail-drawer');
+      drawer.classList.add('hidden');
+      drawer.classList.remove('flex');
+    }
+
+    // Copy Link using fallback execCommand
+    function copyShareLink(id) {
+      const url = `https://app.brisaoficina.com.br/p/orcamento-${id}-v1`;
+      const temp = document.createElement('input');
+      temp.value = url;
+      document.body.appendChild(temp);
+      temp.select();
+      document.execCommand('copy');
+      document.body.removeChild(temp);
+      showToast(`Link público do Orçamento #${id} copiado!`);
+    }
+
+    // Export Real CSV
+    function exportQuotesCSV() {
+      const headers = ['ID', 'Cliente', 'Servico', 'Equipamento', 'Valor', 'Status', 'Data'];
+      const rows = appState.quotes.map(q => [
+        q.id,
+        `"${q.client}"`,
+        `"${q.service}"`,
+        `"${q.equipment}"`,
+        q.value.toFixed(2),
+        q.status,
+        q.date
+      ]);
+      const csvContent = 'data:text/csv;charset=utf-8,' + [headers.join(','), ...rows.map(e => e.join(','))].join('\n');
+      const encodedUri = encodeURI(csvContent);
+      const link = document.createElement('a');
+      link.setAttribute('href', encodedUri);
+      link.setAttribute('download', 'brisa_oficina_orcamentos.csv');
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      showToast('Arquivo CSV exportado com sucesso!');
+    }
+
+    // Settings Actions
+    function selectAccentColor(key) {
+      applyTheme(key);
+      renderCurrentView();
+    }
+
+    function saveSettings() {
+      const input = document.getElementById('cfg-brand-input');
+      if (input && input.value.trim()) {
+        appState.brandName = input.value.trim();
+        document.getElementById('topbar-workspace-name').textContent = appState.brandName.split('—')[0].trim();
+      }
+      renderCurrentView();
+      showToast('Identidade da operação salva com sucesso!');
+    }
+
+    // Notifications Popover
+    function toggleNotificationsPopover() {
+      const pop = document.getElementById('notif-popover');
+      pop.classList.toggle('hidden');
+    }
+
+    // Sync Simulation
+    function triggerSyncSimulation() {
+      const dot = document.getElementById('sync-dot');
+      const label = document.getElementById('sync-label');
+      dot.classList.remove('bg-emerald-500');
+      dot.classList.add('bg-amber-500', 'animate-ping');
+      label.textContent = 'Sincronizando...';
+
+      setTimeout(() => {
+        dot.classList.remove('bg-amber-500', 'animate-ping');
+        dot.classList.add('bg-emerald-500');
+        label.textContent = 'Sincronizado';
+        showToast('Todos os dados operacionais estão sincronizados.');
+      }, 650);
+    }
+
+    // Guided Tour Widget
+    function updateTourUI() {
+      const step = appState.tourSteps[appState.tourStep];
+      document.getElementById('tour-step-indicator').textContent = `Treinamento Guiado • ${step.step}`;
+      document.getElementById('tour-module-tag').textContent = step.module;
+      document.getElementById('tour-title').textContent = step.title;
+      document.getElementById('tour-desc').textContent = step.desc;
+      document.getElementById('tour-progress-bar').style.width = `${((appState.tourStep + 1) / appState.tourSteps.length) * 100}%`;
+      document.getElementById('tour-prev-btn').disabled = appState.tourStep === 0;
+      document.getElementById('tour-prev-btn').classList.toggle('opacity-40', appState.tourStep === 0);
+      document.getElementById('tour-next-btn').textContent = appState.tourStep === appState.tourSteps.length - 1 ? 'Concluir' : 'Próximo';
+    }
+
+    function nextTourStep() {
+      if (appState.tourStep < appState.tourSteps.length - 1) {
+        appState.tourStep++;
+        updateTourUI();
+        navigateTo(appState.tourSteps[appState.tourStep].targetView);
+      } else {
+        closeTour();
+        showToast('Treinamento guiado concluído! Certificação registrada.');
+      }
+    }
+
+    function prevTourStep() {
+      if (appState.tourStep > 0) {
+        appState.tourStep--;
+        updateTourUI();
+        navigateTo(appState.tourSteps[appState.tourStep].targetView);
+      }
+    }
+
+    function closeTour() {
+      document.getElementById('guided-tour-widget').classList.add('hidden');
+    }
+
+    function openTour() {
+      appState.tourStep = 0;
+      updateTourUI();
+      document.getElementById('guided-tour-widget').classList.remove('hidden');
+      navigateTo(appState.tourSteps[0].targetView);
+    }
+
+    // Command Palette (⌘K)
+    function openCommandPalette() {
+      const modal = document.getElementById('command-modal');
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+      const input = document.getElementById('command-input');
+      input.value = '';
+      filterCommandPalette('');
+      setTimeout(() => input.focus(), 50);
+    }
+
+    function closeCommandPalette() {
+      const modal = document.getElementById('command-modal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    }
+
+    function filterCommandPalette(query) {
+      const q = query.toLowerCase();
+      const navItems = [
+        { label: 'Ir para Orçamentos', sub: 'Comercial & Propostas', action: () => navigateTo('orcamentos') },
+        { label: 'Ir para Ordens de Serviço', sub: 'Execução & Kanban', action: () => navigateTo('os') },
+        { label: 'Ir para Clientes', sub: 'Base de Relacionamento', action: () => navigateTo('clientes') },
+        { label: 'Ir para Equipamentos', sub: 'Inventário de Climatização', action: () => navigateTo('equipamentos') },
+        { label: 'Criar Novo Orçamento', sub: 'Ação rápida', action: () => openNewQuoteModal() }
+      ];
+
+      const quoteMatches = appState.quotes
+        .filter(item => !q || item.client.toLowerCase().includes(q) || String(item.id).includes(q))
+        .slice(0, 3)
+        .map(item => ({
+          label: `Orçamento #${item.id} — ${item.client}`,
+          sub: `${item.service} • ${formatBRL(item.value)}`,
+          action: () => openQuotePDFDrawer(item.id)
+        }));
+
+      const all = [...navItems.filter(n => !q || n.label.toLowerCase().includes(q)), ...quoteMatches];
+      const resultsEl = document.getElementById('command-results');
+      resultsEl.innerHTML = all.map((item, i) => `
+        <button onclick="executeCommand(${i})" class="w-full text-left px-3.5 py-2.5 rounded-xl hover:bg-slate-100 flex items-center justify-between transition-colors">
+          <div>
+            <p class="text-xs font-semibold text-slate-900">${item.label}</p>
+            <p class="text-[11px] text-slate-500">${item.sub}</p>
+          </div>
+          <i data-lucide="corner-down-left" class="w-3.5 h-3.5 text-slate-400"></i>
+        </button>
+      `).join('');
+
+      window._currentCommands = all;
+      lucide.createIcons();
+    }
+
+    function executeCommand(index) {
+      const cmd = window._currentCommands[index];
+      closeCommandPalette();
+      if (cmd && cmd.action) cmd.action();
+    }
+
+    // Toast Helper
+    function showToast(message) {
+      const container = document.getElementById('toast-container');
+      const toast = document.createElement('div');
+      toast.className = 'pointer-events-auto flex items-center gap-2.5 px-4 py-2.5 rounded-xl bg-slate-900 text-white text-xs font-medium shadow-floating border border-slate-700/80 animate-view';
+      toast.innerHTML = `<span class="w-2 h-2 rounded-full bg-brand-500"></span><span>${message}</span>`;
+      container.appendChild(toast);
+      setTimeout(() => {
+        toast.style.opacity = '0';
+        toast.style.transform = 'translateY(6px)';
+        toast.style.transition = 'all 0.2s ease';
+        setTimeout(() => toast.remove(), 220);
+      }, 3000);
+    }
+
+    // Keyboard Shortcuts
+    document.addEventListener('keydown', (e) => {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+        e.preventDefault();
+        openCommandPalette();
+      }
+      if (e.key === 'Escape') {
+        closeCommandPalette();
+        closeNewQuoteModal();
+        closeDetailDrawer();
+        document.getElementById('notif-popover').classList.add('hidden');
+      }
+    });
+
+    // Initialize Application
+    window.addEventListener('DOMContentLoaded', () => {
+      applyTheme('teal');
+      updateTourUI();
+      navigateTo('orcamentos');
+    });
+  </script>
+</body>
+</html>

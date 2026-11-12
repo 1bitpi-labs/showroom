@@ -273,3 +273,9 @@ Se você visitou este Showroom e deseja implantar um desses sistemas na sua empr
 1. Escolha a **Categoria (`00` a `06`)** que mais se aproxima do seu modelo de negócio na tabela acima.
 2. Abra a pasta da categoria e leia os **Casos de Uso** para identificar quais fluxos deseja ativar primeiro.
 3. Entre em contato com a **1Bitpi Labs** informando o código da categoria (ex: `Showroom 01 - Hospitalidade` ou `Showroom 04 - Jurídico/B2B`) para receber uma proposta personalizada.
+
+## ElosPME — Brisa Oficina · código completo
+
+[ElosPME](06-oficinas-e-servicos-tecnicos/elos-pme/README.md) acrescenta uma demo local de climatização à categoria de serviços técnicos: orçamentos/aceite/OS, clientes, equipamentos, agenda e ajuda por conta. Desenvolvido com TSF local supervisionado, usando Next.js/React/PostgreSQL. [Documentação completa](06-oficinas-e-servicos-tecnicos/elos-pme/docs/INDEX.md) · [Comparação técnica](06-oficinas-e-servicos-tecnicos/elos-pme/docs/COMPARISON-RESULTS.md).
+
+Este projeto contém backend e exige instalação própria; não é executado pelo GitHub Pages. Dados sintéticos, sem homologação comercial, autonomia paga, WhatsApp automático, PMOC ou promessa de faturamento. As demonstrações existentes permanecem separadas.
