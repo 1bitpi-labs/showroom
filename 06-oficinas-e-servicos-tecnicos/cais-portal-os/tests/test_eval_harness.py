@@ -6,8 +6,12 @@ import sys
 from pathlib import Path
 import pytest
 
-REPO_ROOT = Path(__file__).resolve().parents[3]
-EVAL_DIR = REPO_ROOT / "evals" / "cais-portal-os"
+LOCAL_EVAL_DIR = Path(__file__).resolve().parent.parent / "evals"
+if LOCAL_EVAL_DIR.exists():
+    EVAL_DIR = LOCAL_EVAL_DIR
+else:
+    REPO_ROOT = Path(__file__).resolve().parents[3]
+    EVAL_DIR = REPO_ROOT / "evals" / "cais-portal-os"
 sys.path.insert(0, str(EVAL_DIR))
 
 from eval_visao2 import run_evaluation

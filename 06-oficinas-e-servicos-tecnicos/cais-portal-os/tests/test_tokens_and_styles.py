@@ -9,12 +9,23 @@ from pathlib import Path
 import pytest
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
-PORTAL_DIR = REPO_ROOT / "prototipos" / "cais-portal-os"
-SDD_DIR = REPO_ROOT / "sdd" / "changes" / "portal-os-mobile-v1" / "ux"
+
+if (Path(__file__).resolve().parent.parent / "index.html").exists():
+    PORTAL_DIR = Path(__file__).resolve().parent.parent
+else:
+    PORTAL_DIR = REPO_ROOT / "prototipos" / "cais-portal-os"
+
+if (PORTAL_DIR / "tokens.json").exists():
+    SDD_DIR = PORTAL_DIR
+else:
+    SDD_DIR = REPO_ROOT / "sdd" / "changes" / "portal-os-mobile-v1" / "ux"
 
 def test_token_mirror_integrity():
     """Valida se tokens.css e tokens.json estão 100% espelhados via script determinístico."""
-    script_path = REPO_ROOT / "tools" / "design" / "check_tokens.py"
+    script_path = PORTAL_DIR / "tools" / "check_tokens.py"
+    if not script_path.exists():
+        script_path = REPO_ROOT / "tools" / "design" / "check_tokens.py"
+
     css_path = SDD_DIR / "tokens.css"
     json_path = SDD_DIR / "tokens.json"
 

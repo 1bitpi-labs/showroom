@@ -8,7 +8,11 @@ import re
 import pytest
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
-PORTAL_DIR = REPO_ROOT / "prototipos" / "cais-portal-os"
+LOCAL_PORTAL_DIR = Path(__file__).resolve().parent.parent
+if (LOCAL_PORTAL_DIR / "app.js").exists():
+    PORTAL_DIR = LOCAL_PORTAL_DIR
+else:
+    PORTAL_DIR = REPO_ROOT / "prototipos" / "cais-portal-os"
 
 @pytest.fixture
 def app_js():

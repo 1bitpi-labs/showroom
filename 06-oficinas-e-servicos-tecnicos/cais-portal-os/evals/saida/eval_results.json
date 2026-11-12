@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-12 15:29:03",
+  "timestamp": "2026-11-12 16:13:50",
   "target": "Cais OS — Visão 2 (Portal/App Mobile do Cliente)",
   "version": "v2.1-high-end",
   "pillars": {
@@ -42,7 +42,7 @@
         "token_mirror_integrity": {
           "score": 35,
           "max": 35,
-          "details": "106 propriedades espelhadas com 0 divergências entre tokens.css e tokens.json"
+          "details": "110 propriedades espelhadas com 0 divergências entre tokens.css e tokens.json"
         },
         "zero_raw_hex": {
           "score": 35,
@@ -143,7 +143,7 @@
         "test_suite_speed": {
           "score": 25,
           "max": 25,
-          "details": "5 arquivos de testes determinísticos compilados em 1.4ms (< 500ms)"
+          "details": "5 arquivos de testes determinísticos compilados em 1.7ms (< 500ms)"
         },
         "zero_roundtrip_visuals": {
           "score": 25,

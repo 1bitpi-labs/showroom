@@ -1,6 +1,6 @@
 # Relatório de Avaliação Quantitativa (Eval): Visão 2 Mobile — Cais OS
 
-> **Data da Avaliação:** 2026-11-12 15:29:03  
+> **Data da Avaliação:** 2026-11-12 16:13:50  
 > **Objeto Avaliado:** Visão 2 (Portal/App Mobile do Cliente no Safari/Chrome/WebView a 390px)  
 > **Score Global:** **100.0 / 100** (A+ (Enterprise Benchmark))  
 > **Evolução Relativa vs Baseline v2.0:** **+17.75 pontos**
@@ -52,7 +52,7 @@
 ### Pilar 5: Performance & Eficiência (100/100)
 - **Peso Total:** 126.9 KB para todo o pacote de arquivos estáticos.
 - **Dependências:** 0 dependências runtime externas (HTML5/CSS3/JavaScript vanilla puro).
-- **Velocidade de Testes:** 18 testes determinísticos executados em 1.4ms.
+- **Velocidade de Testes:** 18 testes determinísticos executados em 1.7ms.
 - **Zero Roundtrips:** Ilustrações periciais inlined no código.
 
 ### Pilar 6: Lógica & Segurança Jurídica (100/100)

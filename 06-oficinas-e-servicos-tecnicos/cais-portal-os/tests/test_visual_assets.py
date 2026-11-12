@@ -6,8 +6,12 @@ from pathlib import Path
 from PIL import Image
 import pytest
 
-REPO_ROOT = Path(__file__).resolve().parents[3]
-MEDIA_DIR = REPO_ROOT / "prototipos" / "cais-portal-os" / "media"
+LOCAL_MEDIA_DIR = Path(__file__).resolve().parent.parent / "media"
+if LOCAL_MEDIA_DIR.exists():
+    MEDIA_DIR = LOCAL_MEDIA_DIR
+else:
+    REPO_ROOT = Path(__file__).resolve().parents[3]
+    MEDIA_DIR = REPO_ROOT / "prototipos" / "cais-portal-os" / "media"
 
 def test_triad_viewports_exist():
     """Garante a existência das capturas de evidência nos 3 viewports obrigatórios da norma."""

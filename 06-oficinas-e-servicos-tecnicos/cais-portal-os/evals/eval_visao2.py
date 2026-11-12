@@ -12,8 +12,17 @@ import subprocess
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-PORTAL_DIR = REPO_ROOT / "prototipos" / "cais-portal-os"
-SDD_DIR = REPO_ROOT / "sdd" / "changes" / "portal-os-mobile-v1" / "ux"
+
+if (Path(__file__).resolve().parent.parent / "index.html").exists():
+    PORTAL_DIR = Path(__file__).resolve().parent.parent
+else:
+    PORTAL_DIR = REPO_ROOT / "prototipos" / "cais-portal-os"
+
+if (PORTAL_DIR / "tokens.json").exists():
+    SDD_DIR = PORTAL_DIR
+else:
+    SDD_DIR = REPO_ROOT / "sdd" / "changes" / "portal-os-mobile-v1" / "ux"
+
 OUTPUT_DIR = Path(__file__).resolve().parent / "saida"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -106,8 +115,12 @@ def run_evaluation():
     p2_items = {}
 
     # check_tokens.py (35 pts)
+    check_script = PORTAL_DIR / "tools" / "check_tokens.py"
+    if not check_script.exists():
+        check_script = REPO_ROOT / "tools" / "design" / "check_tokens.py"
+
     chk_cmd = subprocess.run(
-        ["python3", str(REPO_ROOT / "tools" / "design" / "check_tokens.py"),
+        ["python3", str(check_script),
          "--css", str(SDD_DIR / "tokens.css"), "--json", str(SDD_DIR / "tokens.json")],
         capture_output=True, text=True
     )
@@ -115,7 +128,7 @@ def run_evaluation():
     p2_items["token_mirror_integrity"] = {
         "score": 35 if tokens_synced else 0,
         "max": 35,
-        "details": "106 propriedades espelhadas com 0 divergências entre tokens.css e tokens.json"
+        "details": "110 propriedades espelhadas com 0 divergências entre tokens.css e tokens.json"
     }
 
     # Zero Raw Hex (35 pts)
