@@ -3,9 +3,20 @@
 Protótipo funcional, navegável e 100% autônomo desenvolvido para a **Marina Porto Ilhabela** (`marinaportoilhabela.com.br`), aplicando a direção de arte minimalista, o respiro editorial e a geometria chanfrada do benchmark **Wally Yachts** sobre ativos reais extraídos do cliente (vídeo MP4 1080p, fotografias da estrutura, história da família Möller e dados operacionais da Sala Rádio VHF Delta 38).
 
 - **Aplicação principal:** [`index.html`](./index.html)
-- **Documentação completa do projeto:** [`docs/PROJETO.md`](./docs/PROJETO.md)
+- **Documentação completa (processo, entregas e avaliação):** [`docs/PROJETO.md`](./docs/PROJETO.md)
 - **Avaliação comparativa do cliente:** [`../CLIENT_EVALUATION.md`](../CLIENT_EVALUATION.md)
 - **Diário visual do Cook Loop (R01 a R04):** [`cook/ROUNDS.md`](./cook/ROUNDS.md)
+
+---
+
+## Resumo do Processo, Entregas e Avaliação
+
+1. **Processo adotado:** auditoria de 7 benchmarks náuticos Awwwards/FWA ([`BENCHMARKS_NAUTICOS_AWWWARDS.md`](../benchmarks-nauticos/BENCHMARKS_NAUTICOS_AWWWARDS.md)) -> seleção da **Wally Yachts** -> avaliação comparativa de 3 marinas brasileiras reais ([`CLIENT_EVALUATION.md`](../CLIENT_EVALUATION.md)) -> extração offline dos ativos da **Marina Porto Ilhabela** -> 4 rodadas visuais no `$cook` (`R01` a `R04`) com telemetria HSV e crítica cega zero-context. Todo o método foi formalizado em [`../.claude/skills/client-cook-pipeline/SKILL.md`](../.claude/skills/client-cook-pipeline/SKILL.md).
+2. **O que obtivemos:** protótipo estático autônomo em português do Brasil sem dependências externas em runtime, com vídeo real 1080p (`hero-sea.mp4`), 22 ativos visuais locais, formas geométricas chanfradas via SVG `<clipPath>`, menu fullscreen, switcher `Marina / Canal ao vivo`, explorador de 5 modalidades de serviços, FAQ e modal Concierge WhatsApp com dados verificados (`VHF Delta 38`, `23º 47,9' S / 45º 21,9' W`).
+3. **Avaliação obtida:**
+   - **Seleção do cliente:** `9.5 / 10` em aderência ao estilo Wally e riqueza de ativos reais.
+   - **Qualidade visual (Crítico Zero-Context em R04, após calibração `-18` sobre R03):** `S01` **86.0** (`+12.4`), `S02` **78.8** (`+4.6`), `S03` **83.0** (`+6.6`) e `9/10` em Motion/Interaction.
+   - **Saúde técnica:** `Interactive check: {"errs":[],"tabCount":5}`, `0` imagens quebradas, `EmDash: false`, HTTP `200` em todos os recursos locais. Detalhes de gaps remanescentes em [`docs/PROJETO.md`](./docs/PROJETO.md#34-limites-conhecidos-e-pr%C3%B3ximos-passos-gate).
 
 ---
 
