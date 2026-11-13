@@ -5,7 +5,7 @@ Time: floor none | cap 1.5h
 Bar: composition 95 | light 95 | color 95 | materials 95 | detail 95 | motion 9/10
 Calibration offset: 0 (Round 5 avaliado diretamente por mediana de 3 críticos zero-context: S01 65.4 / S02 63.6 / S03 70.0)
 Usage: interactive session, paced cleanly
-Gate: stills approved [pending user gate] | final render [not started]
+Gate: stills approved [approved for closure/presentation by user on 2026-11-13] | final render [not required (static interactive delivery)]
 Best so far: round 5, `cook/stills/r05/`, `cook/compare/r05/all.jpg`
 
 ## Decisions
@@ -14,11 +14,12 @@ Made without asking, one line each.
 - 10:43 Marina Porto Ilhabela selecionada como cliente vencedor frente a Ilha Jet Club e Marina Igararecê (ver `CLIENT_EVALUATION.md`), por reunir vídeo 1080p nativo, 15+ fotos reais de alta resolução, narrativa de engenharia autêntica (Gunnar Möller / rebocadores Seahorse e Rino) e dor visual severa no Wix 2021.
 - 10:44 Todos os ativos reais (23 arquivos entre fotos, logos e MP4 1080p) foram baixados localmente em `assets/` para execução 100% offline/autônoma sem links externos quebrados.
 - 10:45 As imagens `vagas-cobertas.png` (16.8 MB) e `estrutura-3.png` (13.2 MB) foram convertidas para JPEG de alta qualidade (`2400px`, q92) mantendo os originais, garantindo renderização instantânea no Puppeteer e browser.
+- 14:01 Gate aprovado pelo usuário para fechamento e apresentação (`R05`), disparando consolidação de retrospectiva, suíte determinística de evals e criação da skill `delivery-eval-docs`.
 
 ## User feedback inbox
 
 Exact words. Close an item only when a still or clip proves it.
-- (none yet)
+- 2026-11-13 13:58 -03: "aprovar o estado atual para fechamento/apresentação. Avaliação de desenolvimento, evals e atualização de documentação < acredito ser a segunda vez que peço isso, entao ja crie uma skills" [CLOSED: gate marcado como aprovado; avaliação, evals, documentação e skill `delivery-eval-docs` executados]
 
 ---
 
@@ -234,4 +235,4 @@ Top gaps from 3x zero-context critics:
 3. Contraste de luz e temperatura entre fotos diurnas e noturnas/crepusculares: a unificação cromática via CSS não substitui uma sessão fotográfica dedicada em *golden hour* (prevista no roadmap pós-aprovação comercial).
 
 Progress note sent: 2026-11-13 13:37 -03
-Stop check: bar [mediana 65.4 / 63.6 / 70.0 sob painel rigoroso de 3 críticos cegos; 100% funcional, vídeo 1080p, 5 abas, modais e mobile 390x844 validados] | stills approved [pending user gate] -> pronto para revisão final e gate do usuário
+Stop check: bar [mediana 65.4 / 63.6 / 70.0 sob painel rigoroso de 3 críticos cegos; 100% funcional, vídeo 1080p, 5 abas, modais e mobile 390x844 validados] | stills approved [approved for closure/presentation on 2026-11-13] -> entrega encerrada com evals e retrospectiva em `docs/EVALUATION-AND-RETROSPECTIVE.md` e `evals/saida/EVAL-REPORT.md`

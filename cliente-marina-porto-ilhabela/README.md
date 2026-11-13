@@ -3,7 +3,9 @@
 Protótipo funcional, navegável e 100% autônomo desenvolvido para a **Marina Porto Ilhabela** (`marinaportoilhabela.com.br`), aplicando a direção de arte minimalista, o respiro editorial e a geometria chanfrada do benchmark **Wally Yachts** sobre ativos reais extraídos do cliente (vídeo MP4 1080p, fotografias da estrutura, história da família Möller e dados operacionais da Sala Rádio VHF Delta 38).
 
 - **Aplicação principal:** [`index.html`](./index.html)
-- **Documentação completa (processo, entregas e avaliação):** [`docs/PROJETO.md`](./docs/PROJETO.md)
+- **Documentação técnica (processo, entregas e avaliação):** [`docs/PROJETO.md`](./docs/PROJETO.md)
+- **Avaliação de entrega e retrospectiva:** [`docs/EVALUATION-AND-RETROSPECTIVE.md`](./docs/EVALUATION-AND-RETROSPECTIVE.md)
+- **Relatório quantitativo (Eval):** [`evals/saida/EVAL-REPORT.md`](./evals/saida/EVAL-REPORT.md)
 - **Avaliação comparativa do cliente:** [`../CLIENT_EVALUATION.md`](../CLIENT_EVALUATION.md)
 - **Diário visual do Cook Loop (R01 a R05):** [`cook/ROUNDS.md`](./cook/ROUNDS.md)
 
@@ -11,13 +13,14 @@ Protótipo funcional, navegável e 100% autônomo desenvolvido para a **Marina P
 
 ## Resumo do Processo, Entregas e Avaliação
 
-1. **Processo adotado:** auditoria de 7 benchmarks náuticos Awwwards/FWA ([`BENCHMARKS_NAUTICOS_AWWWARDS.md`](../benchmarks-nauticos/BENCHMARKS_NAUTICOS_AWWWARDS.md)) -> seleção da **Wally Yachts** -> avaliação comparativa de 3 marinas brasileiras reais ([`CLIENT_EVALUATION.md`](../CLIENT_EVALUATION.md)) -> extração offline dos ativos da **Marina Porto Ilhabela** -> 5 rodadas visuais no `$cook` (`R01` a `R05`) com telemetria HSV e crítica cega zero-context. Todo o método foi formalizado em [`../.claude/skills/client-cook-pipeline/SKILL.md`](../.claude/skills/client-cook-pipeline/SKILL.md).
+1. **Processo adotado:** auditoria de 7 benchmarks náuticos Awwwards/FWA ([`BENCHMARKS_NAUTICOS_AWWWARDS.md`](../benchmarks-nauticos/BENCHMARKS_NAUTICOS_AWWWARDS.md)) -> seleção da **Wally Yachts** -> avaliação comparativa de 3 marinas brasileiras reais ([`CLIENT_EVALUATION.md`](../CLIENT_EVALUATION.md)) -> extração offline dos ativos da **Marina Porto Ilhabela** -> 5 rodadas visuais no `$cook` (`R01` a `R05`) com telemetria HSV e crítica cega zero-context -> avaliação pós-aprovação e evals. Método formalizado nas skills [`client-cook-pipeline`](../.claude/skills/client-cook-pipeline/SKILL.md) e [`delivery-eval-docs`](../.claude/skills/delivery-eval-docs/SKILL.md).
 2. **O que obtivemos:** protótipo estático autônomo em português do Brasil sem dependências externas em runtime, com vídeo real 1080p (`hero-sea.mp4`), 22 ativos visuais locais, formas geométricas chanfradas via SVG `<clipPath>`, menu fullscreen, switcher `Marina / Canal ao vivo`, explorador de 5 modalidades de serviços, FAQ, modal Concierge WhatsApp com dados verificados (`VHF Delta 38`, `23º 47,9' S / 45º 21,9' W`) e responsividade mobile (`390x844` sem overflow horizontal e touch targets `>= 44px`).
 3. **Avaliação obtida (`R05`):**
    - **Seleção do cliente:** `9.5 / 10` em aderência ao estilo Wally e riqueza de ativos reais.
    - **Qualidade visual (mediana de 3 críticos zero-context em `R05`):** `S01` **65.4** (`72/65/58/68/64`), `S02` **63.6** (`76/56/64/62/60`), `S03` **70.0** (`78/66/68/70/68`) e `9/10` em Motion/Interaction. Os 3 críticos convergiram que o layout estrutural está alinhado e o principal teto frente às fotos de estúdio Wally vem do uso estrito de fotografias operacionais reais extraídas do site do cliente.
    - **Saúde técnica, vídeo e mobile:** `Interactive check: {"errs":[],"tabCount":5}`, `12` imagens (`0` quebradas), vídeo 1080p ativo (`isVideoMode: true, readyState: 4, paused: false`), `mobile390x844: {"scrollWidth":390,"innerWidth":390,"overflowX":false,"smallTouchTargets":[]}`, `EmDash: false`, `PageErrs: 0`.
-4. **Gate e evolução opcional:** protótipo pronto para aprovação do usuário na branch `feat/marina-porto-r05`; detalhes completos e roadmap fotográfico opcional em [`docs/PROJETO.md`](./docs/PROJETO.md#4-status-dos-pr%C3%B3ximos-passos-planejados).
+   - **Eval quantitativo (`evals/eval_marina_porto.py`):** **93.31 / 100** em 5 pilares (`Ativos 100`, `Acessibilidade/Mobile 80` com `-20` pela ausência documentada de `prefers-reduced-motion`, `Slop Ban/Privacidade 100`, `$cook Visual 86.53`, `Docs/Links 100`).
+4. **Status do Gate:** **aprovado pelo usuário para fechamento e apresentação** (`2026-11-13`); detalhes e backlog em [`docs/EVALUATION-AND-RETROSPECTIVE.md`](./docs/EVALUATION-AND-RETROSPECTIVE.md).
 
 ---
 
@@ -86,6 +89,18 @@ python3 cook/color_check.py cook/refs/R01.png cook/stills/r05/S01.png
 
 ---
 
+## Como rodar os evals quantitativos e testes determinísticos
+
+```bash
+cd cliente-marina-porto-ilhabela
+python3 evals/eval_marina_porto.py
+python3 -m pytest tests/test_eval_marina_porto.py
+```
+
+O script `evals/eval_marina_porto.py` gera `evals/saida/eval_results.json` e `evals/saida/EVAL-REPORT.md` auditando ativos offline, contrastes WCAG AA sobre `styles.css`, contratos mobile `390x844`, Slop Ban/privacidade, telemetria `$cook` + medianas cegas de `R05` e consistência de links.
+
+---
+
 ## Estrutura de pastas
 
 ```text
@@ -95,7 +110,13 @@ cliente-marina-porto-ilhabela/
 ├── app.js                # Menu fullscreen, switcher Marina/Canal ao vivo, 5 abas, FAQ e modal WhatsApp
 ├── README.md             # Guia rápido de execução e verificação
 ├── docs/
-│   └── PROJETO.md        # Documentação técnica, descoberta, sistema visual e evolução R01-R05
+│   ├── PROJETO.md                     # Documentação técnica, descoberta, sistema visual e evolução R01-R05
+│   └── EVALUATION-AND-RETROSPECTIVE.md # Avaliação pós-aprovação, falhas de processo e backlog
+├── evals/
+│   ├── eval_marina_porto.py           # Eval quantitativo em 5 pilares (JSON + EVAL-REPORT.md)
+│   └── saida/                         # Relatório e resultado estruturado da última execução
+├── tests/
+│   └── test_eval_marina_porto.py      # Suíte pytest dos contratos da entrega
 ├── assets/
 │   ├── img/              # 21 fotos reais e logos oficiais da Marina Porto Ilhabela
 │   └── video/
@@ -103,7 +124,7 @@ cliente-marina-porto-ilhabela/
 └── cook/
     ├── BRIEF.md          # Briefing técnico, métricas alvo e lista de proibições
     ├── SHOTS.md          # Definição dos 3 enquadramentos fixos (S01, S02, S03)
-    ├── ROUNDS.md         # Registro de rodadas R01-R05, notas de críticos cegos e deltas HSV
+    ├── ROUNDS.md         # Registro de rodadas R01-R05, gate aprovado, notas de críticos cegos e deltas HSV
     ├── harness.mjs       # Script Puppeteer portável + cobertura completa + side-by-side + color_check
     ├── color_check.py    # Telemetria HSV em grade 4x4
     ├── refs/             # Referências Wally Yachts (R01.png a R03.png)

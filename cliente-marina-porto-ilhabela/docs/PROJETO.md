@@ -31,8 +31,9 @@ O projeto seguiu uma esteira estruturada em cinco etapas, posteriormente consoli
 - **Rodada 04 (`R04`) Guiada pelo Crítico Cego:** Correção cirúrgica dos problemas reais apontados pelo crítico: header ampliado para `76px` com links `13.5px` (`letter-spacing: 0.30em`), remoção da seta `▾` em `VHF 38`, respiro branco ampliado em `S02` (`margin-bottom: 108px`, `padding-top: 46px`), dupla vinheta especular no hero (`S01`) e spotlight radial no card escuro (`S03`). Novo crítico zero-context (`79f4a7b66dc6de36f6771cd03d0ade62`) auditou `compare/r04/all.jpg`.
 - **Rodada 05 (`R05`) + Cobertura Completa e Painel de 3 Críticos Cegos:** Lockup central ampliado e alinhado na baseline da navegação (`MARINA PORTO` `17px` + emblema `46x29px` em `#site-header` `86px`), barra sticky calibrada (`rgba(176, 180, 182, 0.88)`), contraste crepuscular e reenquadramento de `jetski-3.jpg` e `estrutura-1.jpg` com ritmo editorial `R02` em `S02`, silhueta vetorial top-down de embarcação e esteira em `.event-card` (`S03`), responsividade mobile `390x844` sem overflow e portabilidade completa de `cook/harness.mjs` com capturas em `cook/stills/r05/extra/`. Painel independente de **3 críticos zero-context** (`76cdf724`, `8259c1e2`, `b9d35222`) auditou `compare/r05/all.jpg`.
 
-### Etapa 5: Consolidação Metodológica, Documentação e Versionamento
-- Registro completo do fluxo na skill [`client-cook-pipeline`](../../.claude/skills/client-cook-pipeline/SKILL.md), varredura de privacidade/links (`ship.md`), atualização da documentação e commit local na branch `feat/marina-porto-r05`.
+### Etapa 5: Consolidação Metodológica, Evals, Retrospectiva e Versionamento
+- Registro do fluxo de discovery + `$cook` em [`client-cook-pipeline`](../../.claude/skills/client-cook-pipeline/SKILL.md) e criação da skill [`delivery-eval-docs`](../../.claude/skills/delivery-eval-docs/SKILL.md) para padronizar avaliação pós-aprovação, evals quantitativos e sincronização documental.
+- Execução da retrospectiva honesta em [`EVALUATION-AND-RETROSPECTIVE.md`](EVALUATION-AND-RETROSPECTIVE.md), suíte [`evals/eval_marina_porto.py`](../evals/eval_marina_porto.py), testes [`tests/test_eval_marina_porto.py`](../tests/test_eval_marina_porto.py) e varredura de privacidade/links (`audit_docs_and_links.py`).
 
 ---
 
@@ -49,10 +50,11 @@ O projeto seguiu uma esteira estruturada em cinco etapas, posteriormente consoli
   5. **Seção Histórica e Ecossistema:** narrativa verificada de Gunnar, Virginia, Marcos e Andrea Möller desde 1985 + 4 unidades (*Blue Charter*, *Marina Porto Yachts*, *Marina Porto Eventos*, *Paddle Club Ilhabela*).
   6. **FAQ Operacional (`#faq`) e Modal Concierge (`#concierge-modal`):** monta mensagem estruturada com nome/embarcação, serviço e porte para envio direto via WhatsApp (`+55 12 99634-2782`).
 
-### 2.2 Acervo Real e Artefatos de Engenharia
+### 2.2 Acervo Real, Evals e Artefatos de Engenharia
 - **Mídia offline do cliente (`assets/`):** 1 vídeo MP4 1080p (`hero-sea.mp4`), 17 fotografias reais da estrutura/operações e 5 logos oficiais.
 - **Referências e trilho visual:** 21 telas de benchmarks em [`../../benchmarks-nauticos/screens/`](../../benchmarks-nauticos/screens/), 5 rodadas de stills (`cook/stills/r01..r05/`, incluindo 15 capturas em `cook/stills/r05/extra/`), 5 painéis comparativos (`cook/compare/r01..r05/all.jpg`) e ledger [`cook/ROUNDS.md`](../cook/ROUNDS.md).
-- **Ferramental e Skills versionadas:** [`cinematic-site-hunter`](../../.claude/skills/cinematic-site-hunter/SKILL.md), [`cook`](../../.claude/skills/cook/SKILL.md) e [`client-cook-pipeline`](../../.claude/skills/client-cook-pipeline/SKILL.md).
+- **Evals e Retrospectiva:** [`evals/eval_marina_porto.py`](../evals/eval_marina_porto.py), relatório [`evals/saida/EVAL-REPORT.md`](../evals/saida/EVAL-REPORT.md), suíte [`tests/test_eval_marina_porto.py`](../tests/test_eval_marina_porto.py) e [`docs/EVALUATION-AND-RETROSPECTIVE.md`](EVALUATION-AND-RETROSPECTIVE.md).
+- **Ferramental e Skills versionadas:** [`cinematic-site-hunter`](../../.claude/skills/cinematic-site-hunter/SKILL.md), [`cook`](../../.claude/skills/cook/SKILL.md), [`client-cook-pipeline`](../../.claude/skills/client-cook-pipeline/SKILL.md) e [`delivery-eval-docs`](../../.claude/skills/delivery-eval-docs/SKILL.md).
 
 ---
 
@@ -76,7 +78,7 @@ As notas abaixo refletem exclusivamente avaliações de subagentes Art Director 
 | **S02 (Editorial + Chanfros)** | 74.2 | 78.8 | **63.6** | `76 / 56 / 64 / 62 / 60 / 9/10` |
 | **S03 (Card Marinho + Foco)** | 76.4 | 83.0 | **70.0** | `78 / 66 / 68 / 70 / 68 / 9/10` |
 
-### 3.3 Telemetria Objetiva (HSV, Vídeo, Seções e Mobile em R05)
+### 3.3 Telemetria Objetiva (HSV, Vídeo, Seções, Mobile e Evals em R05)
 - **Color Check (`cook/color_check.py`, grade 4x4 contra `R01`–`R03`):**
   - `R01 vs S01`: saturation mean `+0.090` (worst cell `+0.213`) | brightness mean `-0.017` (worst cell `-0.096`)
   - `R02 vs S02`: saturation mean `+0.023` (worst cell `-0.193`) | brightness mean `+0.004` (worst cell `+0.275`)
@@ -87,26 +89,25 @@ As notas abaixo refletem exclusivamente avaliações de subagentes Art Director 
   - Todas as 5 abas de `#servicos` validadas (`active: true, imgLoaded: true`), `#menu-overlay`, `#concierge-modal`, `#historia`, `#ecossistema`, `#faq` e `footer` capturados em `cook/stills/r05/extra/`.
   - Viewport mobile `390x844`: `scrollWidth: 390`, `innerWidth: 390`, `overflowX: false`, `smallTouchTargets: []` (todos os controles `>= 44px`).
   - `EmDash: false`, `PageErrs: 0`, HTTP `200` / `206` (streaming `Range`) em todos os recursos locais.
+- **Eval Quantitativo + Retrospectiva (`evals/eval_marina_porto.py`):**
+  - Avaliação ponderada em 5 pilares (`Ativos 100`, `Acessibilidade/Mobile 80` com desconto transparente de `-20` por ausência de `prefers-reduced-motion`, `Slop Ban/Privacidade 100`, `$cook Visual 86.53` refletindo as medianas cegas reais, `Docs/Links 100`) consolidada em [`evals/saida/EVAL-REPORT.md`](../evals/saida/EVAL-REPORT.md) e [`docs/EVALUATION-AND-RETROSPECTIVE.md`](EVALUATION-AND-RETROSPECTIVE.md).
 
 ### 3.4 Limites Conhecidos e Status Atual do Gate
-- **Por que o painel rigoroso de 3 críticos cegos manteve R05 abaixo da barra `95+` do `BRIEF.md`:** ao comparar pixel a pixel contra os renders de estúdio/drone da Wally, os 3 críticos convergiram no mesmo teto fotográfico natural das **fotos reais extraídas do cliente** (barco atracado em píer com defensas e texto de casco em S01, pôr do sol pastel e travelift no pátio com placa `YESPAY` em S02, múltiplas lanchas na poita ao meio-dia em S03). Do ponto de vista de engenharia, layout, interatividade, vídeo e responsividade mobile, o protótipo atingiu completude técnica.
-- **Status atual do Gate (`cook/ROUNDS.md`):** `stills approved [pending user gate]`. Pronto para revisão e aprovação do usuário na branch `feat/marina-porto-r05`.
+- **Limites documentados sem inflação:** (1) ao comparar pixel a pixel contra renders de estúdio/drone da Wally, os 3 críticos zero-context convergiram no teto fotográfico das fotos operacionais reais da marina; (2) `styles.css` ainda não declara `@media (prefers-reduced-motion: reduce)` e testes em Safari iOS físico/leitor de tela estão pendentes. Ver [`docs/EVALUATION-AND-RETROSPECTIVE.md`](EVALUATION-AND-RETROSPECTIVE.md).
+- **Status atual do Gate (`cook/ROUNDS.md`):** `stills approved [approved for closure/presentation by user on 2026-11-13]`.
 
 ---
 
 ## 4. Status dos Próximos Passos Planejados
 
 1. **Rodada 05 (`R05`) de Refinamento Visual (`cook/ROUNDS.md`) [concluída]:**
-   - **S01 (Header Lockup):** concluído (`86px` header, `MARINA PORTO` `17px`, emblema `46x29px`, alinhamento na baseline).
-   - **S02 (Contraste e Luz Editorial):** concluído (recorte elevado em `jetski-3.jpg`, vinheta crepuscular, reenquadramento de `estrutura-1.jpg` e delta médio de brilho reduzido para `+0.004`).
-   - **S03 (Card `TEMPORADA ILHABELA 2026`):** concluído (silhueta vetorial top-down `svg.event-card-vessel` com esteira e legibilidade preservada de `23º 47,9' S / 45º 21,9' W`).
-   - **Reavaliação Cega:** concluída com 3 críticos zero-context sobre `cook/compare/r05/all.jpg` e medianas registradas em [`cook/ROUNDS.md`](../cook/ROUNDS.md).
+   - `S01` (header lockup), `S02` (contraste e reenquadramento), `S03` (silhueta vetorial com esteira) e reavaliação cega por 3 críticos concluídos.
 2. **Cobertura Completa de Seções, Vídeo e Responsividade (`cook/harness.mjs`) [concluída]:**
-   - Portabilidade via `import.meta.url` e cobertura completa (`Canal ao vivo`, `#menu-overlay`, `#concierge-modal`, 5 abas de `#servicos`, `#historia`, `#ecossistema`, `#faq`, `footer` e mobile `390x844` sem overflow e com touch targets `>= 44px`) validadas em `cook/stills/r05/extra/`.
-3. **Auditoria Pré-Publicação (`ship.md`) e Gate Final [concluída, aguardando aprovação do usuário]:**
-   - Varredura `git grep` executada sem chaves, tokens ou caminhos pessoais nos documentos públicos; `ROUNDS.md`, `docs/PROJETO.md` e `README.md` atualizados; branch local `feat/marina-porto-r05` pronta para gate.
-4. **Produção Fotográfica Opcional (Pós-Aprovação Comercial):**
-   - Caso o cliente contrate a versão final de produção, agendar sessão de drone/fotos em *golden hour* no Canal de São Sebastião para superar o teto fotográfico natural das imagens atuais e buscar a barra `95+`.
+   - Portabilidade via `import.meta.url` e 15 capturas extras (`Canal ao vivo`, overlays, 5 abas, seções e mobile `390x844`) validadas.
+3. **Aprovação Final, Evals, Retrospectiva e Skill `delivery-eval-docs` [concluída]:**
+   - Gate aprovado pelo usuário em `2026-11-13`, criada a retrospectiva [`EVALUATION-AND-RETROSPECTIVE.md`](EVALUATION-AND-RETROSPECTIVE.md), executados [`evals/eval_marina_porto.py`](../evals/eval_marina_porto.py) e [`tests/test_eval_marina_porto.py`](../tests/test_eval_marina_porto.py), e formalizada a skill [`delivery-eval-docs`](../../.claude/skills/delivery-eval-docs/SKILL.md).
+4. **Evoluções Opcionais Pós-Apresentação (Backlog Comercial):**
+   - Adicionar `@media (prefers-reduced-motion: reduce)` + auditoria com leitor de tela e Safari iOS físico; se aprovado em contrato, realizar sessão de drone/fotos em *golden hour* no Canal de São Sebastião.
 
 ---
 
@@ -117,6 +118,8 @@ As notas abaixo refletem exclusivamente avaliações de subagentes Art Director 
 | [`index.html`](../index.html) | Estrutura semântica e `<clipPath>` SVG (`#wally-slant-*`) | `#site-header`, `#menu-overlay`, `#hero`, `#shot-s02`, `#shot-s03`, `#servicos`, `#historia`, `#ecossistema`, `#faq`, `#concierge-modal` |
 | [`styles.css`](../styles.css) | Tokens (`#ffffff`, `#232628`, `#333738`), layout assimétrico e mídia | `.site-header`, `.hero-grade`, `.wally-grid-two`, `.chamfer-card`, `.event-card`, `.service-stage`, `.modal-backdrop` |
 | [`app.js`](../app.js) | Dados das 5 modalidades e interatividade | `SERVICES`, `syncHeader`, `setMenuOpen`, `renderService`, `openConcierge`, `closeConcierge` |
+| [`evals/eval_marina_porto.py`](../evals/eval_marina_porto.py) | Eval quantitativo em 5 pilares (`EVAL-REPORT.md` + JSON) | `run_evaluation`, `contrast_ratio`, `run_color_check` |
+| [`tests/test_eval_marina_porto.py`](../tests/test_eval_marina_porto.py) | Suíte pytest/unittest determinística dos contratos da entrega | `test_assets_and_offline_autonomy`, `test_wcag_contrast_and_mobile_contracts`, `test_documentation_consistency_and_links` |
 
 ### Dados Operacionais Verificados do Cliente
 - **Endereço:** Av. Alm. Tamandaré, 304, Itaquanduba, Ilhabela, SP, `11630-000`
