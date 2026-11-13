@@ -24,14 +24,15 @@ O projeto seguiu uma esteira estruturada em cinco etapas, posteriormente consoli
   - [`cook/SHOTS.md`](../cook/SHOTS.md): definição dos 3 enquadramentos fixos (`S01`, `S02`, `S03` em `1600x1000`) comparados a [`cook/refs/R01.png`](../cook/refs/R01.png)..`R03.png`.
   - [`cook/harness.mjs`](../cook/harness.mjs) e [`cook/color_check.py`](../cook/color_check.py): servidor HTTP local efêmero, captura automatizada, testes interativos de DOM/JS, composição lado a lado (`compare/rNN/all.jpg`) e telemetria objetiva HSV em grade 4x4.
 
-### Etapa 4: Loop de Iteração Visual (`$cook` R01 a R04) e Calibração Cega
+### Etapa 4: Loop de Iteração Visual (`$cook` R01 a R05) e Calibração Cega
 - **Rodada 01 (`R01`):** Arquitetura base completa (`index.html`, `styles.css`, `app.js`), três `<clipPath>` SVG chanfrados com cantos arredondados, 5 abas de serviços, menu fullscreen e modal concierge.
 - **Rodada 02 (`R02`):** Substituição do hero para foto aérea do canal (`marina-vista-aerea.jpg`), troca da foto desbotada em `S02`, ampliação dos cards chanfrados para sangria limpa na borda inferior e purificação do tom azul-marinho no card `TEMPORADA ILHABELA 2026`.
 - **Rodada 03 (`R03`) + Auditoria Cega:** Calibração sage-teal do hero (`S01`), remoção de guarda-sóis intrusivos nas bordas de `S01` e `S03` e suavização da curva Bézier em `wally-slant-sub-right`. Ao submeter `compare/r03/all.jpg` a um crítico Art Director sem contexto (`0ce01541b3bc9437e4f3ae2c4ae1e4be`), identificou-se um **desvio de calibração de `-18` pontos** entre autoavaliação (`92.8`–`93.0`) e nota cega real (`73.6`–`76.4`).
 - **Rodada 04 (`R04`) Guiada pelo Crítico Cego:** Correção cirúrgica dos problemas reais apontados pelo crítico: header ampliado para `76px` com links `13.5px` (`letter-spacing: 0.30em`), remoção da seta `▾` em `VHF 38`, respiro branco ampliado em `S02` (`margin-bottom: 108px`, `padding-top: 46px`), dupla vinheta especular no hero (`S01`) e spotlight radial no card escuro (`S03`). Novo crítico zero-context (`79f4a7b66dc6de36f6771cd03d0ade62`) auditou `compare/r04/all.jpg`.
+- **Rodada 05 (`R05`) + Cobertura Completa e Painel de 3 Críticos Cegos:** Lockup central ampliado e alinhado na baseline da navegação (`MARINA PORTO` `17px` + emblema `46x29px` em `#site-header` `86px`), barra sticky calibrada (`rgba(176, 180, 182, 0.88)`), contraste crepuscular e reenquadramento de `jetski-3.jpg` e `estrutura-1.jpg` com ritmo editorial `R02` em `S02`, silhueta vetorial top-down de embarcação e esteira em `.event-card` (`S03`), responsividade mobile `390x844` sem overflow e portabilidade completa de `cook/harness.mjs` com capturas em `cook/stills/r05/extra/`. Painel independente de **3 críticos zero-context** (`76cdf724`, `8259c1e2`, `b9d35222`) auditou `compare/r05/all.jpg`.
 
 ### Etapa 5: Consolidação Metodológica, Documentação e Versionamento
-- Registro completo do fluxo na skill [`client-cook-pipeline`](../../.claude/skills/client-cook-pipeline/SKILL.md), higienização de artefatos temporários e criação da documentação executável e commit local no repositório `showroom`.
+- Registro completo do fluxo na skill [`client-cook-pipeline`](../../.claude/skills/client-cook-pipeline/SKILL.md), varredura de privacidade/links (`ship.md`), atualização da documentação e commit local na branch `feat/marina-porto-r05`.
 
 ---
 
@@ -50,7 +51,7 @@ O projeto seguiu uma esteira estruturada em cinco etapas, posteriormente consoli
 
 ### 2.2 Acervo Real e Artefatos de Engenharia
 - **Mídia offline do cliente (`assets/`):** 1 vídeo MP4 1080p (`hero-sea.mp4`), 17 fotografias reais da estrutura/operações e 5 logos oficiais.
-- **Referências e trilho visual:** 21 telas de benchmarks em [`../../benchmarks-nauticos/screens/`](../../benchmarks-nauticos/screens/), 4 rodadas de stills (`cook/stills/r01..r04/`), 4 painéis comparativos (`cook/compare/r01..r04/all.jpg`) e ledger [`cook/ROUNDS.md`](../cook/ROUNDS.md).
+- **Referências e trilho visual:** 21 telas de benchmarks em [`../../benchmarks-nauticos/screens/`](../../benchmarks-nauticos/screens/), 5 rodadas de stills (`cook/stills/r01..r05/`, incluindo 15 capturas em `cook/stills/r05/extra/`), 5 painéis comparativos (`cook/compare/r01..r05/all.jpg`) e ledger [`cook/ROUNDS.md`](../cook/ROUNDS.md).
 - **Ferramental e Skills versionadas:** [`cinematic-site-hunter`](../../.claude/skills/cinematic-site-hunter/SKILL.md), [`cook`](../../.claude/skills/cook/SKILL.md) e [`client-cook-pipeline`](../../.claude/skills/client-cook-pipeline/SKILL.md).
 
 ---
@@ -65,46 +66,45 @@ O projeto seguiu uma esteira estruturada em cinco etapas, posteriormente consoli
 | **Ilha Jet Club** | 5.5 / 10 | Sem vídeo; fotos mistas e `.heic`; banners com texto na imagem | Alto, porém nicho exclusivo de Jet Ski | Descartada |
 | **Marina Igararecê** | 7.0 potencial / 4.0 ativos | Sem vídeo; imagens stock genéricas; sem telefone/WhatsApp/endereço no DOM | Crítico, mas inviabiliza protótipo honesto sem inventar dados | Descartada |
 
-### 3.2 Avaliação Visual Calibrada (Crítico Zero-Context: R03 vs R04)
+### 3.2 Avaliação Visual Calibrada (Crítico Zero-Context: R03 vs R04 vs R05)
 
-As notas abaixo refletem exclusivamente avaliações de subagentes Art Director sem contexto prévio sobre `cook/compare/rNN/all.jpg` (após eliminação do viés de autoavaliação):
+As notas abaixo refletem exclusivamente avaliações de subagentes Art Director sem contexto prévio sobre `cook/compare/rNN/all.jpg`. Em `R05`, após diferença superior a 10 pontos entre os 2 primeiros críticos, adicionou-se um 3º crítico e calculou-se a **mediana por dimensão**:
 
-| Enquadramento | R03 Cego (Baseline) | R04 Cego (Final) | Evolução | Notas por Critério em R04 (`Comp / Light / Color / Mat / Detail / Motion`) |
+| Enquadramento | R03 Cego (1x) | R04 Cego (1x) | R05 Mediana (3x Cegos) | Mediana por Critério em R05 (`Comp / Light / Color / Mat / Detail / Motion`) |
 |---|---:|---:|---:|---|
-| **S01 (Hero Marítimo)** | 73.6 | **86.0** | **+12.4** | `82 / 86 / 90 / 88 / 84 / 9/10` |
-| **S02 (Editorial + Chanfros)** | 74.2 | **78.8** | **+4.6** | `80 / 74 / 78 / 86 / 76 / 9/10` |
-| **S03 (Card Marinho + Foco)** | 76.4 | **83.0** | **+6.6** | `84 / 82 / 85 / 85 / 79 / 9/10` |
+| **S01 (Hero Marítimo)** | 73.6 | 86.0 | **65.4** | `72 / 65 / 58 / 68 / 64 / 9/10` |
+| **S02 (Editorial + Chanfros)** | 74.2 | 78.8 | **63.6** | `76 / 56 / 64 / 62 / 60 / 9/10` |
+| **S03 (Card Marinho + Foco)** | 76.4 | 83.0 | **70.0** | `78 / 66 / 68 / 70 / 68 / 9/10` |
 
-### 3.3 Telemetria Objetiva (HSV e Integridade Técnica em R04)
+### 3.3 Telemetria Objetiva (HSV, Vídeo, Seções e Mobile em R05)
 - **Color Check (`cook/color_check.py`, grade 4x4 contra `R01`–`R03`):**
-  - `R01 vs S01`: saturation mean `+0.099` (worst cell `+0.235`) | brightness mean `-0.027` (worst cell `-0.118`)
-  - `R02 vs S02`: saturation mean `+0.007` (worst cell `-0.230`) | brightness mean `+0.020` (worst cell `+0.303`)
-  - `R03 vs S03`: saturation mean `+0.060` (worst cell `+0.340`) | brightness mean `-0.007` (worst cell `+0.097`)
-- **Integridade de DOM, Mídia e HTTP:**
+  - `R01 vs S01`: saturation mean `+0.090` (worst cell `+0.213`) | brightness mean `-0.017` (worst cell `-0.096`)
+  - `R02 vs S02`: saturation mean `+0.023` (worst cell `-0.193`) | brightness mean `+0.004` (worst cell `+0.275`)
+  - `R03 vs S03`: saturation mean `+0.065` (worst cell `+0.328`) | brightness mean `+0.007` (worst cell `+0.114`)
+- **Integridade de DOM, Vídeo, Seções e Mobile (`cook/harness.mjs r05`):**
   - `Interactive check: {"errs":[],"tabCount":5}` em `1600x1000`.
-  - `12 imgs (0 broken)`, `2 videos (1920px readyState 4)`, `EmDash: false`, `PageErrs: 0`.
-  - Servidor HTTP local validado com status `200` em `/index.html`, `/styles.css`, `/app.js`, `/assets/video/hero-sea.mp4` e `/assets/img/marina-vista-aerea.jpg`.
+  - `12 imgs (0 broken)`, `2 videos (1920px readyState 4)`, `videoCheck: {"isVideoMode":true,"readyState":4,"videoWidth":1920,"paused":false}`.
+  - Todas as 5 abas de `#servicos` validadas (`active: true, imgLoaded: true`), `#menu-overlay`, `#concierge-modal`, `#historia`, `#ecossistema`, `#faq` e `footer` capturados em `cook/stills/r05/extra/`.
+  - Viewport mobile `390x844`: `scrollWidth: 390`, `innerWidth: 390`, `overflowX: false`, `smallTouchTargets: []` (todos os controles `>= 44px`).
+  - `EmDash: false`, `PageErrs: 0`, HTTP `200` / `206` (streaming `Range`) em todos os recursos locais.
 
 ### 3.4 Limites Conhecidos e Status Atual do Gate
-- **Por que R04 ainda ficou abaixo da barra `95+` do `BRIEF.md`:** o projeto assumiu a restrição rígida de usar **exclusivamente fotografias reais extraídas do site do cliente** (píer com defensas, galpão fotografado ao meio-dia e várias lanchas na poita), em vez de renders/fotos de drone em *golden hour* com superiates isolados como no catálogo da Wally.
-- **Status atual do Gate (`cook/ROUNDS.md`):** `stills approved [pending user gate]`. O protótipo está validado como prova de valor (*Show, Don't Tell*), porém ainda há refinamentos planejados para fechar o ciclo completo do `$cook`.
+- **Por que o painel rigoroso de 3 críticos cegos manteve R05 abaixo da barra `95+` do `BRIEF.md`:** ao comparar pixel a pixel contra os renders de estúdio/drone da Wally, os 3 críticos convergiram no mesmo teto fotográfico natural das **fotos reais extraídas do cliente** (barco atracado em píer com defensas e texto de casco em S01, pôr do sol pastel e travelift no pátio com placa `YESPAY` em S02, múltiplas lanchas na poita ao meio-dia em S03). Do ponto de vista de engenharia, layout, interatividade, vídeo e responsividade mobile, o protótipo atingiu completude técnica.
+- **Status atual do Gate (`cook/ROUNDS.md`):** `stills approved [pending user gate]`. Pronto para revisão e aprovação do usuário na branch `feat/marina-porto-r05`.
 
 ---
 
-## 4. Próximos Passos Planejados
+## 4. Status dos Próximos Passos Planejados
 
-Os itens abaixo compõem o backlog planejado a partir de [`cook/BRIEF.md`](../cook/BRIEF.md), [`cook/ROUNDS.md`](../cook/ROUNDS.md) e [`../../.claude/skills/cook/references/ship.md`](../../.claude/skills/cook/references/ship.md):
-
-1. **Rodada 05 (`R05`) de Refinamento Visual (`cook/ROUNDS.md` -> meta `90+` calibrada):**
-   - **S01 (Header Lockup):** aumentar escala e centralização vertical do lockup central (`MARINA PORTO` + emblema de 3 velas) sobre o hero.
-   - **S02 (Contraste e Luz Editorial, hoje `78.8` com `Light 74 / Detail 76`):** elevar contraste tonal e destaque dos dois cards chanfrados (`jetski-3.jpg` e `estrutura-1.jpg`) e do bloco editorial `Engenharia e Mar` até `90+`.
-   - **S03 (Card `TEMPORADA ILHABELA 2026`):** inserir elemento gráfico / silhueta vetorial de embarcação mais destacado no centro do card escuro mantendo legibilidade das coordenadas `23º 47,9' S / 45º 21,9' W`.
-   - **Reavaliação Cega:** rodar 2 críticos zero-context sobre `cook/compare/r05/all.jpg` e atualizar o ledger `cook/ROUNDS.md`.
-2. **Cobertura Completa de Seções, Vídeo e Responsividade (`cook/harness.mjs`):**
-   - Estender o harness para capturar e validar visualmente o modo `Canal ao vivo` (`hero-sea.mp4`), o `#menu-overlay`, o `#concierge-modal`, todas as seções abaixo da dobra (`#servicos` nas 5 abas, `#historia`, `#ecossistema`, `#faq`, `footer`) e o viewport mobile (`390x844`, sem overflow horizontal e com touch target `>= 44px`).
-   - Tornar caminhos do `harness.mjs` portáveis (resolvendo diretório via `import.meta.url` em vez de caminho fixo).
-3. **Auditoria Pré-Publicação (`ship.md`) e Gate Final:**
-   - Executar varredura de privacidade/links (`git grep` para caminhos pessoais ou tokens), atualizar `docs/PROJETO.md` e `README.md` com os resultados finais de `R05` e aguardar aprovação do usuário no Gate para eventual PR/publicação.
+1. **Rodada 05 (`R05`) de Refinamento Visual (`cook/ROUNDS.md`) [concluída]:**
+   - **S01 (Header Lockup):** concluído (`86px` header, `MARINA PORTO` `17px`, emblema `46x29px`, alinhamento na baseline).
+   - **S02 (Contraste e Luz Editorial):** concluído (recorte elevado em `jetski-3.jpg`, vinheta crepuscular, reenquadramento de `estrutura-1.jpg` e delta médio de brilho reduzido para `+0.004`).
+   - **S03 (Card `TEMPORADA ILHABELA 2026`):** concluído (silhueta vetorial top-down `svg.event-card-vessel` com esteira e legibilidade preservada de `23º 47,9' S / 45º 21,9' W`).
+   - **Reavaliação Cega:** concluída com 3 críticos zero-context sobre `cook/compare/r05/all.jpg` e medianas registradas em [`cook/ROUNDS.md`](../cook/ROUNDS.md).
+2. **Cobertura Completa de Seções, Vídeo e Responsividade (`cook/harness.mjs`) [concluída]:**
+   - Portabilidade via `import.meta.url` e cobertura completa (`Canal ao vivo`, `#menu-overlay`, `#concierge-modal`, 5 abas de `#servicos`, `#historia`, `#ecossistema`, `#faq`, `footer` e mobile `390x844` sem overflow e com touch targets `>= 44px`) validadas em `cook/stills/r05/extra/`.
+3. **Auditoria Pré-Publicação (`ship.md`) e Gate Final [concluída, aguardando aprovação do usuário]:**
+   - Varredura `git grep` executada sem chaves, tokens ou caminhos pessoais nos documentos públicos; `ROUNDS.md`, `docs/PROJETO.md` e `README.md` atualizados; branch local `feat/marina-porto-r05` pronta para gate.
 4. **Produção Fotográfica Opcional (Pós-Aprovação Comercial):**
    - Caso o cliente contrate a versão final de produção, agendar sessão de drone/fotos em *golden hour* no Canal de São Sebastião para superar o teto fotográfico natural das imagens atuais e buscar a barra `95+`.
 

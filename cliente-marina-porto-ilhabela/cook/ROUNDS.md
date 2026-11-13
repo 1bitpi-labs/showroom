@@ -3,10 +3,10 @@
 Started: 2026-11-13 10:43 -03
 Time: floor none | cap 1.5h
 Bar: composition 95 | light 95 | color 95 | materials 95 | detail 95 | motion 9/10
-Calibration offset: -18 (self-scored R03 avg 93 vs zero-context Art Director critic avg 74.7; Round 4 usa nota direta do crítico zero-context)
+Calibration offset: 0 (Round 5 avaliado diretamente por mediana de 3 críticos zero-context: S01 65.4 / S02 63.6 / S03 70.0)
 Usage: interactive session, paced cleanly
-Gate: stills approved [no] | final render [not started]
-Best so far: round 4, `cook/stills/r04/`, `cook/compare/r04/all.jpg`
+Gate: stills approved [pending user gate] | final render [not started]
+Best so far: round 5, `cook/stills/r05/`, `cook/compare/r05/all.jpg`
 
 ## Decisions
 
@@ -187,3 +187,51 @@ Top gaps from zero-context critic (para eventual R05 se aprovado pelo usuário):
 
 Progress note sent: 2026-11-13 11:37 -03
 Stop check: bar [86.0 / 78.8 / 83.0 zero-context] | cap [1.5h interactive reached cleanly] | stills approved [pending user gate] -> present to user with honest calibrated scores
+
+---
+
+## Round 05
+
+Time: 12:54 to 13:37 -03 | session duration 0.72h
+Usage: interactive session (worktree `feat/marina-porto-r05`)
+Focus: Refinamento de S01 (escala e alinhamento vertical do lockup `MARINA PORTO` + emblema de 3 velas), S02 (contraste crepuscular, enquadramento de `jetski-3.jpg` e `estrutura-1.jpg`, respiro e ritmo editorial de `Engenharia e Mar`, barra sticky cinza-neutro), S03 (silhueta vetorial náutica com esteira no centro de `.event-card` mantendo legibilidade das coordenadas `23º 47,9' S / 45º 21,9' W` e peso tipográfico editorial), cobertura completa de vídeo/overlays/seções/mobile (`390x844`) e portabilidade de `cook/harness.mjs`.
+
+Changes:
+- `index.html`: Inserida silhueta vetorial top-down de embarcação e esteira (`svg.event-card-vessel`) no centro do card `TEMPORADA ILHABELA 2026` entre `.event-card-tint` e `.event-card-inner`, em paleta azul-marinho/teca com contorno iluminado para manter contraste máximo do título e coordenadas.
+- `styles.css`: Header ampliado para `86px` com `MARINA PORTO` em `17px` (`0.36em`) e emblema `46x29px` alinhado na baseline da navegação (`margin-top: 8px`); barra `.is-scrolled` calibrada para `rgba(176, 180, 182, 0.88)`; S02 com respiro superior `28px` / `margin-bottom: 116px`, `chamfer-tall-left` com recorte elevado (`height: 112%; margin-top: -6%`) e vinheta crepuscular (`::after`) + `chamfer-sub-right` reenquadrado (`object-position: 26% 42%`) mostrando a proa do iate e o rebocador Seahorse; S03 com vinheta oceânica azul-marinho contínua e título `32px` peso `400`; regras responsivas `@media (max-width: 720px)` e `scroll-margin-top` para mobile `390x844` sem overflow horizontal e touch targets `>= 44px`.
+- `cook/harness.mjs`: Caminhos tornados portáveis via `import.meta.url` (resolução dinâmica de `puppeteer`, `side-by-side.mjs` e Chrome com fallback `/usr/bin/google-chrome`), suporte HTTP `Range` para streaming de vídeo e extensão das capturas em `cook/stills/r05/extra/` (modo `Canal ao vivo`, `#menu-overlay`, `#concierge-modal`, 5 abas de `#servicos`, `#historia`, `#ecossistema`, `#faq`, `footer` e viewport mobile `390x844`).
+
+Stills: `cook/stills/r05/` (+ 15 capturas em `cook/stills/r05/extra/`) | Side by side: `cook/compare/r05/all.jpg`
+
+Scores, eyeballed: **3x Zero-Context Art Director Critics** (2 iniciais + 1 tie-breaker por diferença > 10 pontos em Color/Light/Materials/Detail conforme `loop-and-critics.md`):
+- Crítico 1 (`76cdf724698255a1d493d605ad0d8975`): S01 `75/72/76/78/70` (média `74.2`), S02 `76/70/72/74/73` (média `73.0`), S03 `82/78/79/80/77` (média `79.2`)
+- Crítico 2 (`8259c1e2d40e9b8e6397de54cd9f9b6f`): S01 `72/65/58/68/64` (média `65.4`), S02 `74/56/60/62/60` (média `62.4`), S03 `78/66/64/70/68` (média `69.2`)
+- Crítico 3 (`b9d35222382b8afa3e7378952f0f4801`): S01 `72/58/52/65/54` (média `60.2`), S02 `76/55/64/62/58` (média `63.0`), S03 `74/66/68/69/67` (média `68.8`)
+
+Mediana por dimensão (3 críticos zero-context):
+
+| Shot | Comp | Light | Color | Materials | Detail | Motion | Média (Mediana) |
+|---|---|---|---|---|---|---|---|
+| S01 | 72 | 65 | 58 | 68 | 64 | 9/10 | 65.4 |
+| S02 | 76 | 56 | 64 | 62 | 60 | 9/10 | 63.6 |
+| S03 | 78 | 66 | 68 | 70 | 68 | 9/10 | 70.0 |
+
+Measured (command and result):
+- `TMPDIR=/tmp node cook/harness.mjs r05`:
+  - `Interactive check: {"errs":[],"tabCount":5}`
+  - `desktopMetrics`: `12` imgs (`0` broken), `2` videos (`1920px`, `readyState: 4`), `scrollWidth: 1600 === innerWidth: 1600`
+  - `videoCheck`: `{"isVideoMode":true,"readyState":4,"videoWidth":1920,"paused":false}`
+  - `serviceResults`: todas as 5 abas (`coberta`, `poitas`, `docagem`, `jetski`, `lazer`) com `active: true, imgLoaded: true`
+  - `mobile390x844`: `{"scrollWidth":390,"innerWidth":390,"overflowX":false,"smallTouchTargets":[]}`
+  - `emDash: false`, `pageErrs: 0`
+- `cook/color_check.py` R01 vs S01: saturation mean delta `+0.090` (worst cell `+0.213`), brightness mean delta `-0.017` (worst cell `-0.096`)
+- `cook/color_check.py` R02 vs S02: saturation mean delta `+0.023` (worst cell `-0.193`), brightness mean delta `+0.004` (worst cell `+0.275`)
+- `cook/color_check.py` R03 vs S03: saturation mean delta `+0.065` (worst cell `+0.328`), brightness mean delta `+0.007` (worst cell `+0.114`)
+
+Top gaps from 3x zero-context critics:
+1. Teto fotográfico dos ativos reais do cliente vs estúdio/drone Wally: os 3 críticos apontaram de forma convergente que a presença de píer com defensas e texto de casco (`ATIVAUGA`) em S01, pôr do sol pastel + pátio/travelift com palmeiras e placa `YESPAY` em S02 e múltiplas lanchas em poita ao meio-dia em S03 limita a proximidade visual direta com `R01..R03` (que exibem superiates isolados em mar aberto, convés iluminado à noite e foto aérea limpa).
+2. Curvatura/inclinação de `wally-slant-sub-right` em S02: dois críticos notaram inclinação de topo acentuada (`~5-6 deg`) em relação à inclinação sutil da referência (`~2 deg`).
+3. Contraste de luz e temperatura entre fotos diurnas e noturnas/crepusculares: a unificação cromática via CSS não substitui uma sessão fotográfica dedicada em *golden hour* (prevista no roadmap pós-aprovação comercial).
+
+Progress note sent: 2026-11-13 13:37 -03
+Stop check: bar [mediana 65.4 / 63.6 / 70.0 sob painel rigoroso de 3 críticos cegos; 100% funcional, vídeo 1080p, 5 abas, modais e mobile 390x844 validados] | stills approved [pending user gate] -> pronto para revisão final e gate do usuário
