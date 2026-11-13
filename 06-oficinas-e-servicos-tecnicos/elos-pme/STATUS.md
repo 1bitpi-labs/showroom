@@ -1,5 +1,14 @@
 # Estado da entrega
 
+## Estado corrente — consolidação Brisa
+
+Composição visual e P1 implementados no pacote do showroom; branch local codex/brisa-zod-p1. Operador aprovou visualmente a entrega (“ótimo”) e pediu preservar/evoluir processo, ferramentas e documentação. Salvamento realizado em commits locais nesta consolidação; consultar `git log` para os identificadores. Sem push/deploy.
+
+[Entrada atual](README.md) · [Avaliação e retrospectiva](docs/EVALUATION-AND-RETROSPECTIVE.md) · [Processo](docs/DESIGN-DEVELOPMENT-PROCESS.md) · [Revisão](docs/REVIEW-HANDOFF.md). Inventário e links passam a ter verificação reproduzível. Acessibilidade integral, consolidação de CSS, temas e testes humanos continuam pendentes.
+
+As seções abaixo preservam o histórico; branches, portas e próximos passos de rodadas antigas não substituem o runbook da entrega corrente.
+
+
 2026-11-12 — Branch `codex/quote-portal`, worktree exclusiva `elos-pme-portal-codex`.
 
 G0 aprovado pelo operador nesta conversa: implementação do escopo proposto. Entregue MVP local com autenticação Better Auth, PostgreSQL, rascunhos/publicação, revisões imutáveis, portal público, decisões concorrentes/idempotentes, OS, PDF, CSV e marca configurável com selo demo. Dados sintéticos, sem cliente real ou integração externa.
@@ -51,3 +60,15 @@ Comparação automatizada: seis cenários × duas versões × dois viewports (36
 Posição absoluta da busca Clientes: 1308→660px no celular (−49,5%); 827→507px no desktop (−38,7%). É ganho de composição, não tempo humano ou ROI. Detalhes e limites: docs/COMPARISON-RESULTS.md. TSF foi adaptação supervisionada, não fábrica autônoma; sem promoção, cron, modelo pago, push/deploy ou G1 inferido.
 
 Documentação consolidada em docs/INDEX.md: PRD, Design System, Architecture, Database, Security, Code Style, Testing, TSF Workflow, arquivos do app/protótipo, manifesto e instruções AGENTS.md. HTML original arquivado localmente como referência estática; não comprova integrações ou funcionalidades simuladas. Próximo passo único: revisão humana das tarefas equivalentes usando protocolo e CSV, ainda sem resultados humanos.
+
+## Zod UI P1 — proteção de edição e consulta diária
+
+2026-11-12. Continuação autorizada após diagnóstico/curadoria. Branch local codex/brisa-zod-p1 no showroom. Orçamento alterado pede continuar/descartar/salvar rascunho quando permitido; beforeunload sem autosave. Agenda lista primeiro com cadastro modal; modal de cliente nomeado, foco/saída explícitos e ciclo de teclado. Lista de orçamentos antes de contagens e assistência recolhida. Implementação original React/CSS, sem dependências, migrações de produto ou alterações no catálogo.
+
+TypeScript, build Webpack com preflight e banco próprio ativo, 22 testes em base própria, fluxos afetados no preview desktop/mobile e smoke de saída da conta na build de produção passaram. docs/changes/zod-ui-p1.md registra comandos, evidências e limites. Banco 55448 e app 3028 próprios, parados ao finalizar; dados sintéticos preservados. Sem commit/push/deploy ou G1 inferido. READY FOR REVIEW local; backlog P2/P3 permanece.
+
+## Composição visual Brisa — implementação integrada
+
+2026-11-12. Operador solicitou composição/desenho refinados para desktop e mobile. Entregues marca/ícones SVG, contrato visual brisa.css, sidebar, navegação inferior, propostas e ações contextuais, editor com resumo, equipamentos com cadastro recolhido, agenda e carteira, login e portal. Proteções P1 preservadas, sem dependências/schema novos. Aplicação funcional e apresentação BRISA_VISUAL_COMPOSITION.html com cenas estáticas da build real.
+
+TypeScript, 22 testes em base própria, build Webpack/preflight e inspeções reais em 360/390/768/1440 passaram nos estados descritos em docs/changes/brisa-visual-design.md. Documentação de direção e capturas de produção preservadas. READY FOR REVIEW local; sem commit/push/deploy, G1 ou certificação WCAG inferidos.

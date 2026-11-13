@@ -1270,3 +1270,75 @@ kbd {
 .brisa-app .compact-guide .guide-steps {
   margin-bottom: 0;
 }
+
+/* Incremento Zod UI P1: consulta antes do cadastro e saída explícita. */
+.brisa-app .leave-editor-dialog {
+  width: min(560px, calc(100% - 32px));
+  padding: 24px;
+}
+.brisa-app .visit-editor-dialog {
+  width: min(800px, calc(100% - 32px));
+  max-width: 800px;
+  padding: 0;
+}
+.brisa-app .visit-editor-dialog .card {
+  border: 0;
+  margin: 0;
+  box-shadow: none;
+}
+.brisa-app .client-editor-dialog .client-section-heading > .row,
+.brisa-app .editor-heading {
+  position: sticky;
+  top: -24px;
+  z-index: 1;
+  background: white;
+  padding-block: 12px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.brisa-app .client-editor-dialog :is(h2, input),
+.brisa-app .visit-editor-dialog h2 {
+  scroll-margin-top: 100px;
+}
+.brisa-app .agenda-heading {
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.brisa-app .agenda-heading h2 {
+  margin-block: 8px;
+}
+.brisa-app .compact-help > summary {
+  cursor: pointer;
+  font-weight: 600;
+  padding-block: 4px;
+}
+.brisa-app .compact-help .full-guide {
+  padding: 16px 0 0;
+  border: 0;
+  box-shadow: none;
+  margin: 0;
+}
+.brisa-app .workspace-bar {
+  margin-bottom: 20px;
+}
+.brisa-app header {
+  margin-bottom: 20px;
+}
+.brisa-app .client-section-heading {
+  margin-bottom: 16px;
+}
+.brisa-app .client-section-heading h2 {
+  margin-top: 0;
+}
+@media (max-width: 760px) {
+  .brisa-app .leave-editor-dialog .actions > button {
+    width: 100%;
+  }
+  .brisa-app .client-editor-dialog .client-section-heading > .row,
+  .brisa-app .editor-heading {
+    top: -20px;
+  }
+}
+.brisa-app .visit-editor-dialog .notice {
+  scroll-margin-top: 100px;
+}

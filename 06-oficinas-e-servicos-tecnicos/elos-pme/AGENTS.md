@@ -20,3 +20,9 @@ Fluxo: descoberta → spec/aceites → autorização aplicável → worktree exc
 Build validado com PostgreSQL pronto/ativo; use scripts/verified-build.ts sem desligar DB até término. Não rodar dev/build simultâneos na mesma .next. Scripts de QA têm alvos sintéticos específicos: leia docs/TESTING.md antes de executar. Não usar bancos/processos alheios ou registrar cookies/tokens, inclusive em traces sintéticos.
 
 Comparação A=225cdcc e B=21a3a3d preserva snapshots. Resultados técnicos e método: docs/COMPARISON-RESULTS.md. Tempos robóticos não são produtividade humana; nenhum G1 ou ROI é inferido. Melhorias TSF propostas em docs/TSF-WORKFLOW.md não concedem autonomia.
+
+## Continuidade da composição Brisa
+
+Estado corrente em STATUS/README e docs/RUNBOOK.md; instruções de portas/worktrees em seções históricas não substituem a instalação atual. Para redesign ou avaliação, consultar docs/DESIGN-DEVELOPMENT-PROCESS.md e a retrospectiva. Não confundir correções funcionais com composição visual, nem feedback visual com homologação funcional/comercial.
+
+Depois de mudanças em docs/source, `python3 scripts/project-docs.py --write` atualiza o inventário público e `python3 scripts/project-docs.py` o confere. A apresentação HTML é estática e sem API; o aplicativo executável continua a autoridade para interações. Salvar em Git quando solicitado não autoriza envio remoto ou deploy.

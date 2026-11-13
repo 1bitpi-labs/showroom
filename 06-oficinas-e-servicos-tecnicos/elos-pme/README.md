@@ -13,12 +13,13 @@ A demonstração usa **Brisa Oficina — Climatização Demo**, identidade fict�
 
 ## Entrega atual e revisão
 
-A evolução Brisa inclui navegação mobile, busca global, filtros de orçamentos, Clientes em cards/modal, OS em lista/quadro e documentação consolidada. O app foi construído por adaptação **local e supervisionada do Tiny Software Factory (TSF/TFS) v2.0.0**; não é uma fábrica autônoma. [Fluxo e melhorias TSF](docs/TSF-WORKFLOW.md).
+Composição visual Brisa implementada: sidebar em turquesa profundo, navegação inferior mobile, propostas com ações contextuais, editor com resumo, Agenda lista primeiro e login/portal com a mesma identidade. A proteção de edição permite continuar, descartar ou salvar rascunho antes de sair.
 
-Comece pelo [índice de documentação](docs/INDEX.md), [PRD](docs/PRD.md) e [estado da entrega](STATUS.md). A [comparação executada](docs/COMPARISON-RESULTS.md) preserva A `225cdcc` e B `21a3a3d`: 24 execuções técnicas aprovadas, sem inferir produtividade humana ou aceite G1. [Protocolo humano](docs/comparison/protocolo.md).
+[Explorar a composição](BRISA_VISUAL_COMPOSITION.html) · [Avaliação da entrega e retrospectiva](docs/EVALUATION-AND-RETROSPECTIVE.md) · [Direção visual](docs/design/BRISA-VISUAL-DIRECTION.md) · [Processo de desenvolvimento/design](docs/DESIGN-DEVELOPMENT-PROCESS.md).
 
-Build reproduzível exige PostgreSQL pronto e ativo até o término: `node --env-file=.env.local --import tsx scripts/verified-build.ts`. Consulte [Testing](docs/TESTING.md) antes de executar scripts com portas/bancos específicos. As instâncias comparativas são temporárias; processo encerrado deve ser reiniciado conforme sua worktree, sem usar banco alheio. Publicação/merge/deploy não estão incluídos na entrega local.
+O operador aprovou o resultado visual na conversa. Validações técnicas e inspeções dirigidas constam em [entrega visual](docs/changes/brisa-visual-design.md); isso não substitui homologação funcional, leitor de tela ou revisão de release. A comparação A `225cdcc` / B `21a3a3d` é histórica e não avalia o desenho atual.
 
+O método combina desenvolvimento direto supervisionado e os contratos históricos do TSF, sem agente autônomo, modelo pago ou cron. Estado e limites em [STATUS.md](STATUS.md). Código, documentação e evidências são salvos localmente; envio remoto/deploy são decisões separadas.
 
 ## O que o aplicativo faz
 
@@ -37,49 +38,41 @@ Na primeira visita a cada aba, um treinamento apresenta as etapas. **Ver depois*
 
 ## Imagens do aplicativo
 
-Capturas reais dos testes locais em desktop e celular. Todos os nomes, serviços e valores exibidos são de demonstração. As imagens registram a versão validada; os dados da instalação podem mudar durante testes.
+Capturas da build com dados fictícios. A [apresentação HTML](BRISA_VISUAL_COMPOSITION.html) mantém a nitidez de textos e permite alternar entre composições desktop/mobile; seus controles internos são estáticos, sem sessões/APIs.
 
-### Treinamento ao entrar em uma aba
-
-![Treinamento guiado com indicação da área explicada no desktop](docs/evidence/training-popup-1280.png)
-
-### Caixa de entrada e conclusão dos guias
-
-![Caixa de entrada com progresso e notificações dos treinamentos](docs/evidence/training-inbox-1280.png)
-
-### Agenda e operação de visitas
-
-![Agenda com cadastro e acompanhamento de visitas](docs/evidence/operations-agenda-1280.png)
+![Composição atual de Orçamentos no desktop](docs/evidence/brisa-visual/quotes-desktop.png)
 
 <details>
-<summary>Ver treinamento e ajuda contextual no celular</summary>
+<summary>Mobile, editor e entrada</summary>
 
-<img src="docs/evidence/training-popup-360.png" alt="Treinamento guiado em uma tela de 360 pixels" width="320" />
-<img src="docs/evidence/usability-form-360.png" alt="Ajuda contextual de validade junto ao campo do orçamento no celular" width="320" />
+<img src="docs/evidence/brisa-visual/quotes-mobile.png" alt="Orçamentos no celular" width="320" />
+<img src="docs/evidence/brisa-visual/editor-mobile.png" alt="Editor mobile com ações fixas" width="320" />
+
+![Editor e resumo no desktop](docs/evidence/brisa-visual/editor-desktop.png)
+![Entrada do Brisa](docs/evidence/brisa-visual/login-desktop.png)
 
 </details>
 
+Capturas anteriores em docs/evidence são históricas. O [manifesto visual](docs/evidence/brisa-visual/manifest.json) identifica a rodada atual; [inventário](docs/app-files.json) verifica os arquivos públicos.
+
 ## Como executar
 
-### Copiar e colar no terminal desta máquina
+### Instalação de revisão já preparada nesta máquina
 
-Para o terminal mostrado na captura, a pasta é `/home/caueantonacci/1bitpi-labs/elos-pme-portal-codex`. Dependências, `.env.local` e build já estão preparados nesta instalação. Copie o bloco inteiro:
+Esta entrega está em `/home/caueantonacci/showroom/06-oficinas-e-servicos-tecnicos/elos-pme`, na branch local `codex/brisa-zod-p1`. Dependências, build, dados sintéticos e configuração privada foram preparados nesta instalação. O banco pertence somente a esta revisão (container `brisa-zod-audit-db`, porta 55448); o app usa 3028. Os processos foram parados ao encerrar.
 
 ```bash
-cd /home/caueantonacci/1bitpi-labs/elos-pme-portal-codex
-export PATH="$PWD/node_modules/node/bin:$PATH"
-docker compose -p elos-demo up -d --wait db
-
-if curl --fail --silent --output /dev/null http://localhost:3017/login; then
-  printf 'O aplicativo já está rodando. Abra http://localhost:3017\n'
-else
-  npm run start -- --port 3017
-fi
+cd /home/caueantonacci/showroom/06-oficinas-e-servicos-tecnicos/elos-pme
+docker start brisa-zod-audit-db
+docker exec brisa-zod-audit-db pg_isready -U brisa_audit
+PATH="$PWD/node_modules/node/bin:$PATH" npm run start -- --port 3028
 ```
 
-Abra **http://localhost:3017** no navegador. O bloco usa o Node 22 local, inicia/confere o banco e evita tentar iniciar uma segunda cópia do site. Se ele iniciar o servidor, mantenha esse terminal aberto; `Ctrl+C` encerra essa instância. Se informar que já está rodando, o servidor está ativo em outro terminal/processo.
+Após readiness do banco, abra **http://localhost:3028**. A senha permanece no arquivo privado da instalação. Não precisa seed/reset/build para consultar. Se a porta estiver ocupada, identifique seu processo; não encerre processos alheios. Para desenvolvimento ou build novo, consulte o [runbook](docs/RUNBOOK.md). GitHub Pages não executa este backend.
 
-Não é necessário reinstalar dependências, executar seed ou resetar dados para abrir a versão atual. Para primeira instalação ou alterações de código, siga as etapas completas abaixo. Se aparecer `EADDRINUSE`, não force o encerramento de processos: confira a instância já aberta na porta 3017.
+### Instalação nova
+
+As etapas seguintes usam o exemplo versionado: app 3017 e PostgreSQL 55439. Não misture esses alvos com a revisão local 3028/55448. Em máquina compartilhada, confira ownership/portas e configure uma instalação própria antes de subir Compose ou executar migrações.
 
 ### 1. Pré-requisitos e diretório correto
 
@@ -91,10 +84,10 @@ Não é necessário reinstalar dependências, executar seed ou resetar dados par
 Execute os comandos na pasta que contém este README e o `package.json`. Nesta máquina, o código implementado está na worktree:
 
 ```bash
-cd /home/caueantonacci/1bitpi-labs/elos-pme-portal-codex
+cd /home/caueantonacci/showroom/06-oficinas-e-servicos-tecnicos/elos-pme
 ```
 
-Branch de desenvolvimento: `codex/quote-portal`. A pasta `agent-os` guarda a coordenação do projeto, e a pasta-base `elos-pme-portal` mantém o checkout `main`; os comandos do aplicativo devem rodar no checkout que contém o código implementado.
+O showroom contém este pacote completo; o Agent OS e as worktrees históricas do produto não são diretórios de execução desta entrega. Use a pasta que contém este package.json. A branch de revisão atual é codex/brisa-zod-p1.
 
 ### 2. Instalar dependências
 
@@ -205,7 +198,7 @@ O servidor fica em primeiro plano no terminal. Fechar ou cancelar o processo int
 
 - **Publicar fixa uma versão.** Uma revisão invalida o link anterior. Propostas aceitas preservam seus dados; outra proposta exige novo orçamento.
 - **Guarde o link ao publicar.** O banco guarda seu hash, não o token recuperável. Se perder o link de uma proposta ainda revisável, publique uma nova revisão e envie o novo endereço.
-- **Revogar bloqueia o acesso público**, preservando decisões e histórico. Cancelamento da proposta e cancelamento da OS são operações distintas.
+- **Revogar, em Mais ações, bloqueia o acesso público**, preservando decisões e histórico. Cancelamento da proposta e cancelamento da OS são operações distintas.
 - **Agenda é manual.** A entrada usa o fuso do dispositivo; a lista exibe São Paulo. O nome normalizado do técnico identifica conflitos: pessoas diferentes com nomes iguais precisam de identificações distintas.
 - **Treinamento registra leitura**, não certificação técnica. Conclusão fica na conta; apenas a preferência de ocultar o resumo inicial fica no navegador.
 - **PDF não é backup.** CSV exporta a lista de orçamentos; backup completo inclui as demais tabelas e autenticação.
@@ -398,3 +391,11 @@ Rastreabilidade: [AGENTS.md](AGENTS.md), [inventário/hashes](docs/APP-FILES.md)
 | [Treinamento e operações](docs/changes/guided-training-operations.md) | Incremento O01–O07, pesquisa e verificações.                         |
 
 **Licença:** termos de uso, redistribuição e comercialização ainda não definidos. Este repositório não concede licença aberta ou redistribuição por ausência de um arquivo de licença. Brisa Oficina é uma identidade fictícia, sem disponibilidade comercial de marca/domínio verificada.
+
+### Incremento de usabilidade Zod UI P1
+
+Orçamentos avisa antes de abandonar alterações, permite salvar rascunho antes de navegar e prioriza a lista. A Agenda abre na consulta e usa Agendar visita para o cadastro. O modal de cliente tem título acessível e saída no cabeçalho. [Escopo e validações](docs/changes/zod-ui-p1.md).
+
+### Composição visual Brisa
+
+Identidade própria e linguagem comum entre operação, mobile e portal de aceite. Sidebar, navegação inferior, propostas com ações contextuais, editor com resumo e entrada editorial. [Explorar a composição](BRISA_VISUAL_COMPOSITION.html) · [Direção e tokens](docs/design/BRISA-VISUAL-DIRECTION.md) · [Verificações](docs/changes/brisa-visual-design.md).

@@ -8,6 +8,10 @@ O produto começou como recorte do plano ElosPME: um portal de aprovação de or
 
 A [ADR-0001](ADR-0001.md) registra stack e isolamento. O [spec.md](spec.md) reúne requisitos e referências dos incrementos. O [STATUS.md](../STATUS.md) é a referência de estado; documentos iniciais de proposta/plano preservam o contexto histórico e não substituem esse status.
 
+## Processo corrente
+
+O fluxo integrado de desenvolvimento e design está em [DESIGN-DEVELOPMENT-PROCESS.md](DESIGN-DEVELOPMENT-PROCESS.md). A avaliação da rodada Brisa e melhorias aplicadas estão em [EVALUATION-AND-RETROSPECTIVE.md](EVALUATION-AND-RETROSPECTIVE.md). O detalhamento TSF abaixo descreve contratos e execução histórica; não prova runs do runner para cada alteração visual atual.
+
 ## Organização do código
 
 | Área                                  | Responsabilidade                                                     |

@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-12",
+  "source": "Production build of local Brisa; Next dev stopped before build",
+  "app_port": 3028,
+  "db_container": "brisa-zod-audit-db",
+  "db_port": 55448,
+  "screenshots": [
+    "quotes-desktop.png",
+    "editor-desktop.png",
+    "agenda-desktop.png",
+    "quotes-mobile.png",
+    "editor-mobile.png",
+    "clients-desktop.png",
+    "login-desktop.png",
+    "login-mobile.png",
+    "portal-mobile.png",
+    "portal-desktop.png"
+  ],
+  "composition": "../../../BRISA_VISUAL_COMPOSITION.html",
+  "scenes": 10,
+  "no_session_artifacts": true
+}

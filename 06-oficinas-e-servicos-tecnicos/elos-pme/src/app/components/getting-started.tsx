@@ -9,6 +9,18 @@ export function GettingStarted({
   onHide?: () => void;
   onStart: () => void;
 }) {
+  if (!full)
+    return (
+      <details className="card compact-help">
+        <summary>Primeiros passos: do orçamento ao serviço</summary>
+        <GettingStarted full onStart={onStart} />
+        {onHide && (
+          <button type="button" className="secondary small" onClick={onHide}>
+            Ocultar primeiros passos
+          </button>
+        )}
+      </details>
+    );
   return (
     <section
       className={`card getting-started ${full ? "full-guide" : "compact-guide"}`}
@@ -61,9 +73,10 @@ export function GettingStarted({
             <summary>Como organizo clientes, aparelhos e visitas?</summary>
             <p>
               Cadastre o cliente em Clientes e vincule seus aparelhos em
-              Equipamentos. Na Agenda, selecione cliente, aparelho e, se houver,
-              uma OS do mesmo cliente. Informe técnico, horário e duração. A
-              lista mostra São Paulo; a entrada usa o fuso do dispositivo.
+              Equipamentos. Na Agenda, use Agendar visita e selecione cliente,
+              aparelho e, se houver, uma OS do mesmo cliente. Informe técnico,
+              horário e duração. A lista mostra São Paulo; a entrada usa o fuso
+              do dispositivo.
             </p>
           </details>
           <details>

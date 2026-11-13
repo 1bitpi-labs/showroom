@@ -8,7 +8,7 @@ Organizar clientes, aparelhos e visitas e conduzir uma proposta até aceite e ex
 
 Cliente → orçamento com itens e condições → rascunho ou publicação → link compartilhado manualmente → decisão explícita → uma OS. Cliente → equipamento → visita manual com técnico, duração e vínculos coerentes. Ajuda por campo/aba e catálogo/progresso de leitura por conta apoiam operação.
 
-Oito áreas: Orçamentos, OS, Clientes, Equipamentos, Agenda, Caixa de entrada, Configurações e Guia. Incremento visual: menu móvel, busca de abas/orçamentos, filtros reais, carteira/modal, quadro OS, drawer histórico/PDF, prévia de marca e progresso de leitura calculado. O vídeo de Clientes mostra interface anterior, identificado como tal; texto foi adaptado.
+Oito áreas: Orçamentos, OS, Clientes, Equipamentos, Agenda, Caixa de entrada, Configurações e Guia. Incremento visual: menu móvel, busca de abas/orçamentos, filtros reais, carteira/modal, quadro OS, drawer histórico/PDF, prévia de marca e progresso de leitura calculado. A composição atual acrescenta navegação inferior mobile, editor com resumo, ações contextuais de proposta, Agenda lista primeiro e cadastro de equipamento recolhido. A saída de orçamento alterado é protegida por continuar/descartar/salvar rascunho quando permitido. O vídeo de Clientes mostra interface anterior, identificado como tal; texto foi adaptado.
 
 ## Aceites essenciais
 
@@ -19,6 +19,8 @@ Oito áreas: Orçamentos, OS, Clientes, Equipamentos, Agenda, Caixa de entrada, 
 - Concluir visita não conclui OS. Atualizar marca não reescreve documentos antigos.
 - Busca não cadastra; editar preserva ID. Ajuda não submete e preserva campos na mesma aba.
 - 360px e desktop, foco/labels e recuperação de erro; sem depender só de cor.
+- Proposta alterada não é abandonada por navegação interna sem escolha explícita; revisão publicada não vira rascunho via guard.
+- O portal exibe total/revisão/condições e pede confirmação; a composição estática não efetua decisões.
 
 Detalhes normativos: [spec.md](spec.md), [operações/treinamento](changes/guided-training-operations.md) e [design](changes/full-app-design.md).
 

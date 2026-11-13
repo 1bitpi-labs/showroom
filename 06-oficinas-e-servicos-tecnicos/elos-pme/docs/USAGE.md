@@ -10,11 +10,13 @@ Entre com o operador preparado para a instalação. Na demo, o e-mail é `operad
 
 Cada aba apresenta um guia no primeiro acesso da conta. Use Próximo e Voltar para percorrer os passos; Ver depois ou Escape adiam a leitura. Concluir treinamento registra a conclusão e cria uma notificação. Refazer treinamento está no cabeçalho, e os guias também podem ser retomados na Caixa de entrada. Repetir não duplica avisos; adiar uma repetição não apaga uma conclusão anterior.
 
-O registro corresponde à leitura declarada do guia, sem certificar competência técnica. O resumo de primeiros passos pode ser ocultado neste navegador; os treinamentos completos continuam disponíveis.
+O registro corresponde à leitura declarada do guia, sem certificar competência técnica. O resumo de primeiros passos fica recolhido abaixo da lista e das contagens de orçamentos. Abra-o quando precisar ou oculte-o neste navegador; o Guia de uso e os treinamentos completos continuam disponíveis.
 
 Os botões “?” explicam campos e consequências. Clique/toque ou use Enter/Space; Escape fecha e devolve o foco. Abrir uma ajuda não envia o formulário nem altera seu conteúdo.
 
 ## Clientes
+
+Use Adicionar cliente para abrir o cadastro. O título identifica o diálogo; Fechar e Escape voltam à carteira, com foco no acionador.
 
 1. Informe nome e, se necessário, contato, endereço e observações.
 2. Salve e use a busca para localizar o cadastro.
@@ -25,7 +27,7 @@ Não registre senhas ou dados bancários nas observações. Atualizar um cliente
 
 ## Equipamentos
 
-Escolha um cliente e dê uma identificação reconhecível ao aparelho, como “Split da recepção”. Marca/modelo, BTU, série, local e próxima manutenção são informações opcionais. Informe apenas dados conhecidos e datas definidas pelo responsável técnico.
+Consulte os registros e abra Cadastrar equipamento para incluir um aparelho. Editar equipamento abre o formulário preenchido. Escolha um cliente e dê uma identificação reconhecível ao aparelho, como “Split da recepção”. Marca/modelo, BTU, série, local e próxima manutenção são informações opcionais. Informe apenas dados conhecidos e datas definidas pelo responsável técnico.
 
 O cliente de um equipamento cadastrado não pode ser trocado pela edição, preservando o vínculo do histórico. Visitas vinculadas ao aparelho aparecem em Histórico de visitas. Informar próxima manutenção não cria agendamento, lembrete, periodicidade ou plano PMOC.
 
@@ -36,6 +38,12 @@ O cliente de um equipamento cadastrado não pode ser trocado pela edição, pres
 Escolha um cliente existente ou informe um novo. Para um cadastro selecionado, os dados atuais são consultados no servidor ao publicar; corrija nome/contato pela aba Clientes. Informe descrição, quantidade inteira, preço unitário em reais, condições e validade de 1 a 90 dias.
 
 O total é calculado no servidor em centavos. Salvar rascunho mantém a proposta interna, sem link público. Editar rascunho permite retomar e publicar depois.
+
+### Sair de uma edição
+
+Ao alterar um orçamento e tentar trocar de aba, usar uma busca, Voltar ou sair da conta, escolha Continuar editando ou Descartar alterações. Para proposta nova ou rascunho, Salvar rascunho e sair grava antes de seguir, se os campos forem válidos. Uma revisão de orçamento publicado não pode ser convertida em rascunho por esse diálogo. Erros mantêm o conteúdo no editor.
+
+Recarregar/fechar a página pode exibir o aviso nativo do navegador enquanto houver alterações. Não há salvamento automático nem recuperação após fechar a página; para consultar outras abas sem perder a proposta, salve um rascunho.
 
 ### Publicar e compartilhar
 
@@ -72,6 +80,8 @@ A Agenda trata de visitas; o status da OS deve ser atualizado nesta aba. Cancela
 
 ## Agenda
 
+A lista aparece primeiro: visitas agendadas em ordem de horário, seguidas do histórico. Use Agendar visita para abrir o formulário. Fechar/Escape retorna à agenda e mantém o preenchimento enquanto você permanecer nesta aba; salvar com sucesso fecha e limpa o formulário. Um conflito mostra a mensagem no próprio diálogo e preserva os campos. Trocar de aba ou recarregar descarta um agendamento ainda não salvo.
+
 Escolha cliente, técnico, início e duração de 15 a 480 minutos. Equipamento e OS são opcionais, mas devem pertencer ao mesmo cliente; a OS precisa estar disponível para agendamento.
 
 O formulário usa o fuso do dispositivo. A lista apresenta horário de São Paulo. Confira o fuso antes de salvar se estiver operando de outra região.
@@ -103,3 +113,7 @@ Backup, restore e recuperação de acesso são tarefas administrativas descritas
 - Se uma gravação de treinamento falhar, o app não deve informar conclusão; tente novamente ou feche sem registrar.
 
 Nenhum botão de operação autoriza publicação do sistema, alterações de política ou execução autônoma de agentes.
+
+## Navegação no celular
+
+Use Propostas, Serviços, Agenda e Clientes na barra inferior. Mais abre as demais áreas. Ao editar um orçamento, a barra inferior dá lugar às ações de voltar, salvar e publicar; Menu no topo continua disponível e protege alterações não salvas. O menu de Mais ações de cada proposta agrupa revogação/cancelamento quando disponíveis. O selo de demonstração e o conteúdo dos documentos não são ocultados.

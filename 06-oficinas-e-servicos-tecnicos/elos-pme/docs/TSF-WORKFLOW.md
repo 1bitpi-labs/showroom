@@ -30,3 +30,7 @@ Escopo cresceu por incrementos preservando núcleo; domínio passou historicamen
 | Vídeo defasado após design | Regravar somente após UI estabilizada | Rótulos/fluxos atuais; sem reset de progresso por inferência |
 
 Prioridade imediata: comparação funcional reproduzível, documentação e revisão humana; depois medir trabalho humano/recorrência antes de propor automação. Dez ciclos humanos e cinco sucessos consecutivos requeridos pelo plano para proposta de promoção não foram demonstrados. Nenhuma promoção automática, novo gasto, cron ou alteração de política é autorizada por este texto.
+
+## Evolução após a composição Brisa
+
+O processo corrente de produto/design está em [DESIGN-DEVELOPMENT-PROCESS.md](DESIGN-DEVELOPMENT-PROCESS.md), com avaliação em [EVALUATION-AND-RETROSPECTIVE.md](EVALUATION-AND-RETROSPECTIVE.md). Nesta rodada, direção visual e fatia desktop/mobile passam a ser explícitas para pedidos de redesign; preparo de ambiente não termina na primeira conexão recusada; evidências visuais/funcionais/humanas são separadas. Skill e helpers documentais foram melhorados e testados. Isso não equivale a execução do runner TSF, novos gates ou promoção de autonomia.

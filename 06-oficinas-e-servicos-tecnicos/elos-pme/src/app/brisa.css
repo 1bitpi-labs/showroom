@@ -1,0 +1,2074 @@
+/* Brisa / composição original. Estrutura legada em globals.css; contrato visual aqui. */
+:root {
+  --bg: #f5f6f3;
+  --fg: #172e2b;
+  --primary: var(--teal);
+  --surface: #fff;
+  --muted: #566b65;
+  --border: #dce3df;
+  --input-border: #81968e;
+  --ink: var(--fg);
+  --paper: var(--bg);
+  --line: var(--border);
+  --deep: #113e3b;
+  --radius-control: 10px;
+  --radius-panel: 18px;
+  --font-ui: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+body {
+  font-family: var(--font-ui);
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  line-height: 1.5;
+}
+button,
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  border-radius: var(--radius-control);
+  font-size: 13px;
+  font-weight: 600;
+  transition:
+    background-color 0.16s,
+    box-shadow 0.16s;
+}
+button:not(:disabled):hover,
+.button:hover {
+  box-shadow: 0 2px 7px #113e3b12;
+}
+button:focus-visible,
+a:focus-visible,
+summary:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid var(--teal);
+  outline-offset: 3px;
+}
+input,
+select,
+textarea {
+  border-color: var(--input-border);
+  border-radius: 10px;
+  min-height: 44px;
+  font-size: 14px;
+  transition:
+    border-color 0.16s,
+    box-shadow 0.16s;
+}
+input:not([type="checkbox"]):focus,
+select:focus,
+textarea:focus {
+  border-color: var(--teal);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--teal) 12%, transparent);
+}
+::selection {
+  background: #c6e9df;
+  color: #113e3b;
+}
+.demo {
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: 0.025em;
+  padding: 5px 16px;
+  color: #5f5a47;
+  background: #ebe9dd;
+  border-bottom: 1px solid #deddd1;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+.brisa-icon {
+  flex: none;
+  vertical-align: middle;
+}
+.brisa-mark {
+  width: 40px;
+  height: 40px;
+  flex: none;
+}
+.brisa-brand {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.brand-symbol {
+  display: grid;
+  place-items: center;
+  width: 43px;
+  height: 43px;
+  border: 1px solid #91c6b94a;
+  border-radius: 13px;
+  color: #b9e0cc;
+}
+.brand-symbol .brisa-mark {
+  width: 31px;
+  height: 31px;
+}
+.brand-wordmark {
+  font-size: 32px;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: -1.6px;
+}
+.brand-caption {
+  display: block;
+  margin-top: 8px;
+  font-size: 9px;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+.brisa-app {
+  --ink: var(--fg);
+  --paper: var(--bg);
+  --line: var(--border);
+  --muted: #566b65;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-ui);
+  grid-template-columns: 238px minmax(0, 1fr);
+  min-height: calc(100dvh - 25px);
+}
+.brisa-app .desktop-sidebar {
+  position: sticky;
+  top: 0;
+  align-self: start;
+  height: 100dvh;
+  padding: 30px 18px 18px;
+  gap: 0;
+  background: var(--deep);
+  color: #edf5ef;
+  border-right: 0;
+  overflow-y: auto;
+}
+.sidebar-workspace {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 34px 0 30px;
+  padding: 12px 8px;
+  border-block: 1px solid #d2e4d41c;
+}
+.workspace-monogram {
+  width: 31px;
+  height: 31px;
+  display: grid;
+  place-items: center;
+  background: #e3efda;
+  color: #214b40;
+  border-radius: 8px;
+  font-size: 10px;
+  font-weight: 700;
+}
+.sidebar-workspace strong {
+  font-size: 12px;
+  font-weight: 500;
+}
+.sidebar-workspace small {
+  display: block;
+  margin-top: 3px;
+  color: #b1c9bf;
+  font-size: 9px;
+}
+.nav-section-label {
+  color: #a6c1b6;
+  padding: 0 12px 12px;
+  font-size: 9px;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+}
+.brisa-app .desktop-sidebar nav {
+  gap: 5px;
+}
+.brisa-app .desktop-sidebar nav button {
+  color: #c2d6ce;
+  background: transparent;
+  font-weight: 450;
+  font-size: 12px;
+  padding: 10px 13px;
+  border-radius: 9px;
+  min-height: 44px;
+  gap: 13px;
+  text-align: left;
+  box-shadow: none;
+}
+.brisa-app .desktop-sidebar nav button:hover {
+  background: #d2e4d410;
+  color: white;
+}
+.brisa-app .desktop-sidebar nav button.active {
+  background: #e3efda;
+  color: #153b32;
+  font-weight: 600;
+  box-shadow: 0 3px 10px #001c1912;
+}
+.brisa-app .desktop-sidebar nav button.active::after {
+  content: "";
+  margin-left: auto;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: currentColor;
+}
+.brisa-app .nav-icon {
+  width: 18px;
+  height: 18px;
+}
+.brisa-app .nav-count {
+  background: #d2e4d41a;
+  color: #d7e8dd;
+  font-size: 10px;
+  margin-left: auto;
+}
+.brisa-app .active .nav-count {
+  background: #123e3210;
+  color: #234938;
+}
+.sidebar-note {
+  display: flex;
+  gap: 12px;
+  color: #b7cfc3;
+  padding: 22px 12px;
+  margin-top: auto;
+  line-height: 1.7;
+  font-size: 11px;
+}
+.sidebar-note strong {
+  font-weight: 400;
+  color: #e0eee4;
+}
+.brisa-app .aside-footer {
+  border-color: #d2e4d424;
+  padding: 18px 8px 0;
+  color: #d4e4da;
+}
+.operator-profile {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+  margin-bottom: 14px;
+}
+.operator-avatar {
+  display: grid;
+  place-items: center;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  background: #dee8ce;
+  color: #304b38;
+  font-size: 10px;
+  font-weight: 650;
+}
+.operator-profile strong {
+  font-size: 12px;
+  font-weight: 500;
+}
+.operator-profile small {
+  display: block;
+  color: #b1c9bf;
+  font-size: 10px;
+}
+.brisa-app .aside-footer button {
+  min-height: 36px;
+  padding: 4px 0;
+  font-size: 10px;
+  border: 0;
+  color: #c2d6ce;
+  background: transparent;
+  box-shadow: none;
+}
+.brisa-app main {
+  padding: 0 38px 42px;
+  max-width: 1560px;
+}
+.brisa-app .workspace-bar {
+  min-height: 76px;
+  margin-bottom: 34px;
+  border-bottom: 1px solid var(--border);
+  gap: 20px;
+}
+.workspace-name {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 11px;
+  color: #526961;
+  font-weight: 450;
+}
+.workspace-name > .brisa-icon {
+  color: #597a6d;
+}
+.workspace-divider {
+  color: #c3cec7;
+  margin-inline: 6px;
+}
+.workspace-section {
+  color: #334e43;
+}
+.brisa-app .command-trigger {
+  background: transparent;
+  font-size: 11px;
+  padding: 8px 10px;
+  min-height: 38px;
+  gap: 10px;
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  color: #64776e;
+}
+.brisa-app .command-trigger kbd {
+  font-size: 10px;
+  border: 0;
+  background: #e9eee8;
+  margin-left: 14px;
+  padding: 2px 5px;
+  color: #4f695b;
+}
+.brisa-app .page-heading {
+  margin-bottom: 26px;
+  align-items: center;
+  gap: 20px;
+}
+.brisa-app .page-heading .eyebrow {
+  font-size: 9px;
+  letter-spacing: 1.6px;
+  font-weight: 600;
+  color: #697d70;
+}
+.brisa-app .page-heading h1 {
+  font-size: clamp(28px, 3vw, 38px);
+  font-weight: 500;
+  letter-spacing: -1.3px;
+  margin: 7px 0 8px;
+  color: #163b31;
+  line-height: 1.2;
+}
+.page-description {
+  font-size: 12px;
+  color: var(--muted);
+  margin: 0;
+  line-height: 1.65;
+}
+.brisa-app .page-heading > .actions {
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 8px;
+}
+.brisa-app .page-heading > .actions > .secondary {
+  padding-inline: 11px;
+  background: transparent;
+  border-color: var(--border);
+}
+.brisa-app .page-heading > .actions > .secondary[aria-label^="Notificações"] {
+  position: relative;
+  width: 42px;
+  padding: 10px;
+}
+.notification-count {
+  position: absolute;
+  top: -4px;
+  right: -2px;
+  background: #d9e8c4;
+  color: #204637;
+  font-size: 8px;
+  padding: 0 4px;
+  border-radius: 10px;
+  min-width: 14px;
+  line-height: 14px;
+  border: 2px solid var(--bg);
+}
+.brisa-app .page-heading button[data-tour="quote-new"] {
+  background: var(--deep);
+  padding: 11px 18px;
+  box-shadow: 0 3px 9px #133f3a0d;
+}
+.brisa-app .card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-panel);
+  padding: 25px;
+  box-shadow: 0 2px 2px #19392a02;
+  background: var(--surface);
+}
+.brisa-app h2 {
+  font-size: 17px;
+  font-weight: 550;
+  letter-spacing: -0.35px;
+  line-height: 1.4;
+}
+.brisa-app h3 {
+  font-size: 14px;
+  font-weight: 550;
+  letter-spacing: -0.15px;
+}
+.brisa-app .eyebrow {
+  color: #527365;
+  font-size: 9px;
+  font-weight: 550;
+  letter-spacing: 1.4px;
+}
+.brisa-app .secondary {
+  background: #fff;
+  color: #385346;
+  border-color: var(--border);
+  font-weight: 500;
+}
+.brisa-app .secondary:hover {
+  background: #f0f5ed;
+}
+.brisa-app button,
+.brisa-app .button {
+  min-height: 44px;
+  border-radius: 10px;
+}
+.brisa-app .small {
+  font-size: 11px;
+  padding: 8px 12px;
+}
+.brisa-app :is(input, select, textarea) {
+  border-color: var(--input-border);
+  border-radius: 10px;
+  background: #fff;
+  font-size: 14px;
+  min-height: 44px;
+}
+.brisa-app label,
+.brisa-app .field-heading label {
+  color: #415b4c;
+  font-size: 12px;
+  font-weight: 500;
+}
+.brisa-app .help-trigger {
+  background: transparent;
+  border: 0;
+  color: #687e71;
+  font-size: 12px;
+  width: 30px;
+  min-width: 30px;
+  min-height: 44px;
+  box-shadow: none;
+}
+.brisa-app .help-trigger:hover {
+  color: var(--teal);
+  background: #eef5ef;
+}
+.brisa-app .help-note {
+  background: #f0f6ee;
+  border-color: #bccfc1;
+  color: #365541;
+}
+.brisa-app .help-note::before {
+  background: #f0f6ee;
+  border-color: #bccfc1;
+}
+.operation-overview {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr 1fr;
+  margin-bottom: 26px;
+  border: 1px solid var(--border);
+  background: #eef2eb;
+  border-radius: 16px;
+  padding: 20px 0;
+}
+.operation-overview > div {
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+  padding: 0 24px;
+  border-right: 1px solid #d4dfd3;
+  min-width: 0;
+}
+.operation-overview > div:last-child {
+  border: 0;
+}
+.overview-icon {
+  color: #54745c;
+  display: grid;
+  place-items: center;
+  width: 31px;
+  height: 31px;
+  border: 1px solid #cad9c9;
+  background: #f5f8f0;
+  border-radius: 10px;
+}
+.operation-overview > div > div {
+  min-width: 0;
+}
+.operation-overview span:not(.overview-icon) {
+  font-size: 10px;
+  color: #49644e;
+}
+.operation-overview strong {
+  display: block;
+  color: #193c2c;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: -0.8px;
+  line-height: 1.45;
+  font-variant-numeric: tabular-nums;
+}
+.operation-overview strong small {
+  margin-left: 5px;
+  font-size: 9px;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+.operation-overview small {
+  font-size: 9px;
+  color: #5b705e;
+}
+.section-caption {
+  margin: 5px 0 0;
+  font-size: 11px;
+  color: var(--muted);
+}
+.quote-directory > .row {
+  margin-bottom: 22px;
+}
+.quote-directory h2 {
+  margin: 0;
+}
+.export-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 11px;
+  color: #4a6658;
+  text-decoration: none;
+  padding-block: 10px;
+  min-height: 44px;
+}
+.export-link:hover {
+  text-decoration: underline;
+}
+.brisa-app .quote-directory > label {
+  position: relative;
+  max-width: 380px;
+  font-size: 11px;
+}
+.brisa-app .quote-directory > label input {
+  background: #f8faf7;
+  border-color: #a9b9ad;
+  min-height: 44px;
+  font-size: 12px;
+}
+.brisa-app .filter-chips {
+  gap: 4px;
+  margin: 20px -25px 0;
+  padding: 0 25px;
+  border-bottom: 1px solid var(--border);
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  scrollbar-width: thin;
+}
+.brisa-app .filter-chips button {
+  border: 0;
+  background: transparent;
+  color: #607267;
+  border-radius: 0;
+  padding: 12px 10px;
+  white-space: nowrap;
+  min-height: 44px;
+  font-size: 10px;
+  box-shadow: none;
+  border-bottom: 2px solid transparent;
+}
+.brisa-app .filter-chips button[aria-pressed="true"] {
+  color: var(--deep);
+  font-weight: 650;
+  border-bottom-color: var(--deep);
+}
+.brisa-app .quote-directory .quote {
+  padding: 22px 0;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  gap: 24px;
+  border-top: 1px solid var(--border);
+}
+.brisa-app .quote-directory .quote:first-of-type {
+  border-top: 0;
+}
+.brisa-app .quote-directory .quote p {
+  margin: 6px 0 8px;
+  font-size: 13px;
+}
+.brisa-app .quote-directory .quote p strong {
+  font-weight: 550;
+}
+.brisa-app .quote-directory .quote .eyebrow {
+  font:
+    9px ui-monospace,
+    monospace;
+  letter-spacing: 0.6px;
+  color: #607064;
+}
+.quote-value {
+  color: #243d2c;
+  font-weight: 550;
+  white-space: nowrap;
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+.quote-value > span {
+  display: block;
+  font-size: 9px;
+  color: #607064;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+.brisa-app .quote-directory .quote > .actions {
+  align-items: center;
+  gap: 6px;
+  justify-content: flex-end;
+}
+.brisa-app .quote-directory .quote > .actions button {
+  font-size: 10px;
+  padding: 8px 10px;
+  min-height: 36px;
+}
+.brisa-app .badge {
+  border: 1px solid #dce5dc;
+  background: #edf2ec;
+  color: #506550;
+  padding: 3px 8px;
+  font-size: 9px;
+  font-weight: 500;
+  border-radius: 6px;
+  line-height: 1.5;
+}
+.brisa-app .badge::before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: currentColor;
+  margin-right: 5px;
+  vertical-align: 1px;
+}
+.brisa-app .badge.sent {
+  color: #315e86;
+  background: #eef4f9;
+  border-color: #d6e3ed;
+}
+.brisa-app .badge.accepted,
+.brisa-app .badge.completed {
+  color: #28704b;
+  background: #edf6e9;
+  border-color: #d4e7cb;
+}
+.brisa-app .badge.in_progress,
+.brisa-app .badge.planned {
+  color: #776126;
+  background: #f7f4e8;
+  border-color: #e9dfbc;
+}
+.brisa-app .badge.cancelled,
+.brisa-app .badge.expired {
+  color: #9c4646;
+  background: #fbefed;
+  border-color: #efd7d3;
+}
+.brisa-app .badge.change_requested {
+  color: #805d24;
+  background: #faf1e5;
+  border-color: #eadcc4;
+}
+.quote-context {
+  margin-top: 8px;
+}
+.quote-context summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 9px;
+  cursor: pointer;
+  color: #65796a;
+  padding-block: 5px;
+}
+.quote-context summary::marker {
+  display: none;
+}
+.quote-context .next-step {
+  max-width: 320px;
+  font-size: 11px !important;
+  background: #f6f8f3;
+  border-radius: 8px;
+  padding: 10px;
+}
+.record-more {
+  position: relative;
+}
+.record-more > summary {
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  list-style: none;
+  width: 36px;
+  min-height: 44px;
+  color: #5d7464;
+  border-radius: 8px;
+}
+.record-more > summary::-webkit-details-marker {
+  display: none;
+}
+.record-more[open] > summary {
+  background: #edf3e9;
+}
+.record-menu {
+  position: absolute;
+  z-index: 8;
+  right: 0;
+  top: 100%;
+  padding: 6px;
+  min-width: 175px;
+  display: grid;
+  gap: 4px;
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: 0 12px 32px #173e2b1a;
+}
+.brisa-app .record-menu button {
+  justify-content: flex-start;
+  border: 0;
+  padding: 10px !important;
+  font-size: 11px !important;
+}
+.brisa-app .record-menu button:last-child {
+  color: #8d4141;
+}
+.brisa-app .record-menu button:hover {
+  background: #f7f8f4;
+}
+.editor-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 260px;
+  gap: 32px;
+  align-items: start;
+}
+.editor-content {
+  min-width: 0;
+}
+.editor-content > h2 {
+  font-size: 23px;
+  margin-top: 0;
+}
+.editor-content > .muted {
+  font-size: 11px;
+  margin-bottom: 28px;
+}
+.brisa-app .editor-section {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  border-top: 1px solid var(--border);
+  padding-top: 22px;
+  margin-top: 26px;
+  margin-bottom: 18px;
+  font-size: 13px;
+}
+.editor-section > span {
+  color: #647d64;
+  font:
+    10px ui-monospace,
+    monospace;
+  background: #edf3e9;
+  padding: 4px 6px;
+  border-radius: 5px;
+}
+.quote-summary {
+  position: sticky;
+  top: 24px;
+  background: #edf2e9;
+  border: 1px solid #d2dfce;
+  border-radius: 14px;
+  padding: 22px;
+}
+.quote-summary h3 {
+  margin: 20px 0 8px;
+  font-size: 17px;
+  overflow-wrap: anywhere;
+}
+.quote-summary p {
+  font-size: 11px;
+  color: #5f745f;
+  line-height: 1.7;
+}
+.quote-summary dl {
+  margin: 25px 0;
+}
+.quote-summary dl > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 11px;
+  margin-block: 12px;
+}
+.quote-summary dt {
+  color: #60735d;
+}
+.quote-summary dd {
+  margin: 0;
+  font-variant-numeric: tabular-nums;
+}
+.summary-total {
+  border-top: 1px solid #c9d7c3;
+  padding-top: 20px;
+}
+.summary-total > span {
+  font-size: 10px;
+  color: #52694e;
+}
+.summary-total strong {
+  display: block;
+  font-size: 31px;
+  font-weight: 500;
+  letter-spacing: -1px;
+  color: #22442a;
+  font-variant-numeric: tabular-nums;
+}
+.summary-assurance {
+  display: flex;
+  gap: 8px;
+  border-top: 1px solid #d4dfce;
+  padding-top: 16px;
+  margin-top: 22px;
+}
+.brisa-app .form-actions {
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+}
+.brisa-app .item {
+  gap: 10px;
+}
+.brisa-app .item .help-trigger {
+  min-width: 24px;
+  width: 24px;
+}
+.brisa-app .item .field-heading {
+  gap: 2px;
+}
+.brisa-app .item .field-heading label {
+  font-size: 10px;
+}
+.brisa-app .item > button {
+  font-size: 9px;
+  padding-inline: 7px;
+}
+.brisa-app .client-directory {
+  gap: 18px;
+}
+.brisa-app .client-directory .client-record {
+  padding: 22px;
+  border-radius: 13px;
+  background: #fafbf8;
+  border-color: #dee6db;
+}
+.brisa-app .client-directory .client-record:hover {
+  background: #f5f8f1;
+  border-color: #bdcfb8;
+}
+.brisa-app .client-identity {
+  margin-bottom: 16px;
+}
+.brisa-app .client-identity h3 {
+  font-size: 14px;
+}
+.brisa-app .client-avatar {
+  border-radius: 50%;
+  background: #e5eedd;
+  border-color: #d3dfca;
+  color: #46623e;
+  font-size: 11px;
+}
+.brisa-app .client-record p {
+  font-size: 11px;
+}
+.brisa-app .client-edit-action {
+  border-color: #c8d6c1;
+  min-height: 36px;
+  font-size: 10px;
+  padding: 7px 12px;
+  background: white;
+}
+.brisa-app .client-toolbar {
+  margin-bottom: 16px;
+}
+.brisa-app .client-toolbar p {
+  font-size: 11px;
+}
+.brisa-app .client-section-heading .eyebrow {
+  color: #798b77;
+}
+.brisa-app .client-section-heading h2 {
+  font-size: 17px;
+}
+.brisa-app .client-section-heading p {
+  font-size: 11px;
+}
+.count-label {
+  font-size: 10px;
+  color: #647760;
+  border: 1px solid var(--border);
+  background: #f5f8f0;
+  padding: 5px 9px;
+  border-radius: 7px;
+}
+.brisa-app .equipment-directory .operation-row {
+  border: 0;
+  border-top: 1px solid var(--border);
+  padding: 22px 0;
+  border-radius: 0;
+  background: transparent;
+}
+.equipment-editor > summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  list-style: none;
+  color: var(--deep);
+  font-weight: 550;
+  min-height: 44px;
+}
+.equipment-editor > summary > span {
+  margin-left: auto;
+  font-size: 10px;
+  color: var(--muted);
+  font-weight: 400;
+}
+.equipment-editor > form.card {
+  border: 0;
+  padding: 22px 0 0;
+  box-shadow: none;
+  margin: 0;
+}
+.brisa-app .agenda-heading {
+  margin-bottom: 16px;
+}
+.brisa-app .agenda-heading button {
+  background: var(--deep);
+}
+.brisa-app .agenda-directory > .muted {
+  font-size: 11px;
+  max-width: 540px;
+}
+.brisa-app .agenda-directory .visit-record {
+  display: grid;
+  grid-template-columns: 52px minmax(0, 1fr) auto;
+  border: 0;
+  border-top: 1px solid var(--border);
+  gap: 20px;
+  padding: 25px 0;
+  margin: 0;
+}
+.visit-calendar {
+  width: 50px;
+  border: 1px solid #d3dfcd;
+  border-radius: 10px;
+  padding: 8px 0;
+  text-align: center;
+  background: #f3f7ee;
+  line-height: 1.2;
+}
+.visit-calendar strong {
+  display: block;
+  font-size: 21px;
+  font-weight: 500;
+  color: #345831;
+}
+.visit-calendar > span {
+  display: block;
+  text-transform: uppercase;
+  font-size: 9px;
+  color: #6c8062;
+  margin-top: 5px;
+  letter-spacing: 0.8px;
+}
+.brisa-app .agenda-directory h3 {
+  color: #23472f;
+  font-size: 13px;
+}
+.brisa-app .visit-record p {
+  font-size: 11px;
+  margin: 6px 0;
+}
+.brisa-app .visit-record > .actions {
+  gap: 6px;
+}
+.brisa-app .operation-row .small {
+  font-size: 10px;
+}
+.brisa-app .order-column {
+  background: #f0f3ec;
+  border: 1px solid #dfe6da;
+  padding: 13px;
+  border-radius: 13px;
+}
+.brisa-app .order-column > h3 {
+  font-size: 11px;
+  font-weight: 500;
+  color: #50694d;
+  margin: 3px 0 18px;
+}
+.brisa-app .order-board .quote {
+  padding: 15px;
+  border-radius: 10px;
+  border-color: #dbe4d4;
+  box-shadow: 0 2px 3px #19392a04;
+}
+.brisa-app .order-board .quote .eyebrow {
+  font-size: 9px;
+}
+.brisa-app .order-board .quote p {
+  font-size: 12px;
+}
+.brisa-app .order-board .quote p.next-step {
+  font-size: 10px;
+}
+.brisa-app .segmented {
+  padding: 3px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: #f3f6ef;
+}
+.brisa-app .segmented button {
+  border: 0;
+  border-radius: 7px;
+  min-height: 36px;
+  padding: 6px 14px;
+  font-size: 11px;
+  background: transparent;
+  color: #536b4d;
+}
+.brisa-app .segmented button[aria-pressed="true"] {
+  background: white;
+  color: var(--deep);
+  box-shadow: 0 1px 4px #1d3e2a17;
+}
+.brisa-app .training-row {
+  background: #fafbf8;
+  border-color: var(--border);
+}
+.brisa-app .training-summary {
+  background: #f1f5ec;
+  border-color: #d3e0cb;
+}
+.brisa-app .brand-preview {
+  border-radius: 14px;
+  background: #fafbf7;
+  box-shadow: 0 8px 24px #1a3b2710;
+}
+.brisa-app .guide-steps li {
+  background: #f8faf5;
+  border-color: var(--border);
+  border-radius: 12px;
+}
+.brisa-app .compact-help {
+  background: transparent;
+  border-style: dashed;
+  box-shadow: none;
+  font-size: 11px;
+}
+.brisa-app .compact-help > summary {
+  color: #62765c;
+  font-size: 11px;
+}
+.brisa-app .notice {
+  background: #eaf3e4;
+  border: 1px solid #c9ddbf;
+  color: #365930;
+  border-radius: 12px;
+  font-size: 12px;
+  line-height: 1.7;
+}
+.brisa-app .notice.error {
+  background: #fbefec;
+  border-color: #eccdc5;
+  color: #904135;
+}
+.empty-state {
+  text-align: center;
+  padding: 36px 20px;
+  color: var(--muted);
+}
+.brisa-app dialog {
+  border-color: #d5dfd0;
+  border-radius: 20px;
+  box-shadow: 0 30px 100px #112d242e;
+}
+.brisa-app dialog::backdrop {
+  background: #112f2866;
+  backdrop-filter: blur(4px);
+}
+.brisa-app .client-editor-dialog .client-section-heading > .row,
+.brisa-app .editor-heading {
+  background: white;
+}
+.brisa-app .history-drawer {
+  border-radius: 20px 0 0 20px;
+}
+.mobile-taskbar {
+  display: none;
+}
+.login-layout {
+  min-height: calc(100dvh - 25px);
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+}
+.login-story {
+  background: #113e3b;
+  color: #edf4e8;
+  padding: 45px 11%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+.login-story::after {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border: 1px solid #cce3cc18;
+  border-radius: 50%;
+  right: -300px;
+  top: 160px;
+  box-shadow:
+    0 0 0 50px #cce3cc06,
+    0 0 0 100px #cce3cc04;
+  pointer-events: none;
+}
+.login-editorial {
+  margin-block: auto;
+  padding-block: 70px;
+  position: relative;
+  z-index: 1;
+}
+.login-editorial .eyebrow {
+  color: #b5d8a3;
+  font-size: 10px;
+  font-weight: 450;
+  letter-spacing: 2px;
+}
+.login-editorial h2 {
+  font-size: clamp(32px, 3.7vw, 54px);
+  font-weight: 400;
+  line-height: 1.18;
+  letter-spacing: -1.8px;
+  margin: 24px 0;
+}
+.login-editorial h2 em {
+  color: #c1dab0;
+  font-style: normal;
+}
+.login-editorial > p {
+  max-width: 340px;
+  color: #bcd0c3;
+  font-size: 13px;
+  line-height: 1.9;
+}
+.wind-signature {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-top: 50px;
+  color: #b2caa9;
+  font-size: 10px;
+  line-height: 1.8;
+}
+.wind-signature .brisa-mark {
+  width: 55px;
+  height: 55px;
+  opacity: 0.7;
+}
+.login-story-footer {
+  font-size: 9px;
+  letter-spacing: 1.5px;
+  color: #abc5b6;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+.login-story-footer span {
+  letter-spacing: 0;
+  text-transform: none;
+}
+.login {
+  width: min(440px, 100%);
+  max-width: 440px;
+  align-self: center;
+  margin: 0 auto;
+  padding: 60px 30px;
+}
+.login > .eyebrow {
+  font-size: 9px;
+  color: #64765d;
+}
+.login h1 {
+  font-size: 34px;
+  font-weight: 500;
+  color: #193c2a;
+  margin: 16px 0 12px;
+  letter-spacing: -1.1px;
+}
+.login > .muted {
+  font-size: 12px;
+}
+.login .card {
+  background: transparent;
+  padding: 22px 0 0;
+  border: 0;
+  border-radius: 0;
+}
+.login input {
+  background: white;
+  min-height: 48px;
+}
+.login label {
+  font-size: 11px;
+  color: #486047;
+  margin-bottom: 22px;
+}
+.login form button {
+  width: 100%;
+  background: var(--deep);
+  min-height: 48px;
+  margin-top: 5px;
+  justify-content: space-between;
+  padding-inline: 18px;
+}
+.login > p:last-child {
+  font-size: 10px;
+  color: #72816b;
+  border-top: 1px solid var(--border);
+  padding-top: 22px;
+  line-height: 1.8;
+}
+.public {
+  max-width: 940px;
+  padding: 50px 36px;
+}
+.public header {
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 30px;
+  padding-bottom: 26px;
+}
+.public header > .brisa-mark {
+  background: var(--teal);
+  color: white;
+  width: 48px;
+  height: 48px;
+  padding: 7px;
+  border-radius: 13px;
+}
+.public header > div {
+  flex: 1;
+}
+.public header h1 {
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: -0.4px;
+  margin-block: 5px;
+}
+.public header .eyebrow {
+  font-size: 8px;
+  font-weight: 500;
+  color: var(--muted);
+}
+.public header .badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #eaf1e4;
+  color: #4a6441;
+  font-weight: 450;
+  font-size: 9px;
+  border-radius: 8px;
+  padding: 8px;
+}
+.public .card {
+  border-radius: 20px;
+  padding: 34px;
+  box-shadow: 0 8px 35px #1a3b2705;
+  border-color: var(--border);
+}
+.public .proposal-document h2 {
+  font-size: 27px;
+  letter-spacing: -0.8px;
+  font-weight: 500;
+  max-width: 560px;
+  line-height: 1.4;
+  margin: 15px 0;
+}
+.public .proposal-document .eyebrow {
+  font:
+    10px ui-monospace,
+    monospace;
+  letter-spacing: 1px;
+}
+.public .proposal-document > .muted {
+  font-size: 12px;
+  line-height: 1.8;
+}
+.public .table {
+  margin: 32px 0;
+  font-size: 12px;
+}
+.public .table th {
+  background: #f4f7f0;
+  color: #596b52;
+  font-size: 10px;
+  font-weight: 500;
+  padding: 14px 12px;
+}
+.public .table td {
+  padding: 22px 12px;
+}
+.public .table td small {
+  color: #6b7e61;
+  display: inline-block;
+  padding-top: 5px;
+  font-size: 10px;
+}
+.public .proposal-total {
+  padding: 22px;
+  background: #edf3e7;
+  border: 1px solid #d9e5cf;
+  border-radius: 12px;
+  color: #294f2d;
+  gap: 12px;
+}
+.public .proposal-total > span {
+  font-size: 11px;
+}
+.public .proposal-total strong {
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: -1px;
+  font-variant-numeric: tabular-nums;
+}
+.public .proposal-document > h3 {
+  font-size: 13px;
+  margin-top: 28px;
+  font-weight: 550;
+}
+.public .proposal-document > .detail {
+  font-size: 12px;
+}
+.public .proposal-document > .proposal-total + .muted {
+  font-size: 10px;
+  margin-top: 12px;
+}
+.public .proposal-decision h2 {
+  font-size: 21px;
+  font-weight: 500;
+}
+.public .proposal-decision input,
+.public .proposal-decision select,
+.public .proposal-decision button[type="submit"] {
+  min-height: 44px;
+}
+.public .proposal-decision > label:has(input[type="checkbox"]) {
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #c4d4bb;
+  background: #f5f8f0;
+  line-height: 1.8;
+  min-height: 44px;
+}
+.public .proposal-decision > label input[type="checkbox"] {
+  min-height: 0;
+  width: 18px;
+  height: 18px;
+  accent-color: var(--teal);
+  vertical-align: middle;
+}
+.public .proposal-decision > .muted {
+  font-size: 10px;
+}
+.public .proposal-decision > button {
+  min-height: 48px;
+  padding-inline: 24px;
+}
+.public > footer,
+.public > .muted {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 24px;
+}
+.link-recovery {
+  display: block;
+  margin-top: 8px;
+  font-weight: 400;
+}
+@media (min-width: 1500px) {
+  .brisa-app .client-directory {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media (max-width: 1200px) {
+  .brisa-app main {
+    padding-inline: 26px;
+  }
+  .brisa-app .page-heading h1 {
+    font-size: 32px;
+  }
+  .brisa-app .quote-directory .quote {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 14px;
+  }
+  .brisa-app .quote-directory .quote > .actions {
+    grid-column: 1/-1;
+  }
+  .operation-overview > div {
+    padding-inline: 16px;
+  }
+  .overview-icon {
+    display: none;
+  }
+  .editor-layout {
+    grid-template-columns: minmax(0, 1fr) 220px;
+    gap: 20px;
+  }
+  .quote-summary {
+    padding: 18px;
+  }
+  .brisa-app .visit-record > .actions {
+    grid-column: 2/-1;
+  }
+}
+@media (max-width: 1020px) {
+  .brisa-app {
+    grid-template-columns: 206px minmax(0, 1fr);
+  }
+  .brisa-app .desktop-sidebar {
+    padding-inline: 12px;
+  }
+  .sidebar-workspace {
+    padding-inline: 4px;
+  }
+  .brisa-app .desktop-sidebar nav button {
+    padding-inline: 10px;
+    font-size: 11px;
+  }
+  .workspace-section,
+  .workspace-divider {
+    display: none;
+  }
+  .operation-overview strong {
+    font-size: 22px;
+  }
+  .operation-overview strong small {
+    display: none;
+  }
+  .editor-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .quote-summary {
+    position: static;
+  }
+  .brisa-app .client-directory {
+    grid-template-columns: 1fr;
+  }
+  .brisa-app .page-heading > .actions {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 760px) {
+  .demo {
+    padding: 5px 12px;
+    font-size: 9px;
+  }
+  .brisa-app {
+    display: block;
+  }
+  .brisa-app main {
+    padding: 0 18px calc(95px + env(safe-area-inset-bottom));
+  }
+  .brisa-app .workspace-bar {
+    min-height: 65px;
+    margin-bottom: 25px;
+    gap: 10px;
+    padding-block: 10px;
+    flex-wrap: nowrap;
+  }
+  .workspace-name {
+    flex: 1;
+    font-size: 10px;
+    gap: 0;
+    line-height: 1.5;
+  }
+  .workspace-name > .brisa-icon {
+    display: none;
+  }
+  .workspace-name > span:first-of-type {
+    max-width: 170px;
+  }
+  .brisa-app .mobile-menu {
+    min-width: 44px;
+    width: 44px;
+    padding: 10px;
+    border: 0;
+    background: transparent;
+  }
+  .brisa-app .command-trigger {
+    border: 0;
+    padding: 10px;
+    width: 44px;
+    min-height: 44px;
+    background: transparent;
+  }
+  .command-trigger > span,
+  .command-trigger kbd {
+    display: none;
+  }
+  .brisa-app .page-heading {
+    margin-bottom: 22px;
+    gap: 17px;
+    align-items: flex-start;
+  }
+  .brisa-app .page-heading > div:first-child {
+    width: 100%;
+  }
+  .brisa-app .page-heading h1 {
+    font-size: 33px;
+    letter-spacing: -1.3px;
+    margin-top: 8px;
+  }
+  .page-description {
+    font-size: 11px;
+    max-width: 280px;
+  }
+  .brisa-app .page-heading > .actions {
+    width: 100%;
+    gap: 8px;
+    flex-wrap: nowrap;
+  }
+  .brisa-app .page-heading > .actions > .secondary {
+    order: 2;
+    padding-inline: 12px;
+  }
+  .brisa-app .page-heading > .actions > .secondary[aria-label^="Notificações"] {
+    margin-left: auto;
+  }
+  .brisa-app .page-heading button[data-tour="quote-new"] {
+    order: 1;
+    flex: 1;
+    justify-content: center;
+    padding-inline: 12px;
+  }
+  .brisa-app .page-heading > .actions > .secondary:first-child span {
+    display: none;
+  }
+  .brisa-app .card {
+    padding: 20px;
+    border-radius: 17px;
+  }
+  .operation-overview {
+    grid-template-columns: 1fr 1fr;
+    padding: 18px 0;
+    gap: 16px 0;
+    margin-bottom: 20px;
+  }
+  .operation-overview > div {
+    padding-inline: 17px;
+  }
+  .operation-overview > div:first-child {
+    grid-column: 1/-1;
+    border: 0;
+    border-bottom: 1px solid #d4dfd3;
+    padding-bottom: 15px;
+    margin-inline: 17px;
+    padding-inline: 0;
+  }
+  .operation-overview > div:nth-child(2) {
+    border-right: 1px solid #d4dfd3;
+  }
+  .operation-overview > div:first-child strong {
+    font-size: 29px;
+    margin-top: 4px;
+  }
+  .operation-overview > div:first-child small {
+    display: inline;
+  }
+  .operation-overview strong {
+    font-size: 24px;
+  }
+  .operation-overview > div > div > span {
+    font-size: 9px;
+  }
+  .operation-overview > div > div > small {
+    font-size: 9px;
+  }
+  .brisa-app .quote-directory > .row {
+    gap: 7px;
+    margin-bottom: 16px;
+  }
+  .quote-directory > .row > div {
+    flex: 1;
+    min-width: 0;
+  }
+  .quote-directory .section-caption {
+    font-size: 10px;
+  }
+  .quote-directory .export-link {
+    font-size: 0;
+    width: 36px;
+    justify-content: center;
+  }
+  .quote-directory .export-link svg {
+    width: 18px;
+    height: 18px;
+  }
+  .brisa-app .quote-directory > label {
+    max-width: none;
+  }
+  .brisa-app .quote-directory > label input {
+    font-size: 16px;
+  }
+  .brisa-app .filter-chips {
+    margin-inline: -20px;
+    padding-inline: 16px;
+  }
+  .brisa-app .filter-chips button {
+    font-size: 10px;
+    padding-inline: 8px;
+  }
+  .brisa-app .quote-directory .quote {
+    grid-template-columns: minmax(0, 1fr) auto;
+    padding: 22px 0;
+    gap: 14px 10px;
+  }
+  .brisa-app .quote-directory .quote > .actions {
+    grid-column: 1/-1;
+    justify-content: flex-start;
+  }
+  .brisa-app .quote-directory .quote > .actions > button {
+    min-height: 44px;
+    font-size: 11px;
+    flex: 1;
+  }
+  .quote-value {
+    font-size: 13px;
+  }
+  .quote-value > span {
+    font-size: 8px;
+  }
+  .quote-context summary {
+    font-size: 10px;
+    min-height: 30px;
+  }
+  .brisa-app .quote-directory .quote p strong {
+    font-size: 12px;
+  }
+  .brisa-app .quote-directory .quote .eyebrow {
+    font-size: 8px;
+  }
+  .brisa-app .quote-directory .quote .badge {
+    font-size: 9px;
+  }
+  .mobile-taskbar {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    position: fixed;
+    z-index: 15;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-top: 1px solid #d6dfd0;
+    padding: 7px 8px calc(8px + env(safe-area-inset-bottom));
+    background: #fafcf7f5;
+    backdrop-filter: blur(14px);
+  }
+  .brisa-app .mobile-taskbar button {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    min-height: 48px;
+    padding: 5px 2px;
+    color: #677b62;
+    background: transparent;
+    border-radius: 10px;
+    font-size: 9px;
+    font-weight: 450;
+    box-shadow: none;
+  }
+  .brisa-app .mobile-taskbar button[aria-current="page"] {
+    color: #214f32;
+    background: #e5efd9;
+    font-weight: 650;
+  }
+  .brisa-app .mobile-taskbar .brisa-icon {
+    width: 19px;
+    height: 19px;
+  }
+  .brisa-app .mobile-nav-dialog {
+    margin-bottom: 85px;
+    max-height: calc(100dvh - 130px);
+  }
+  .brisa-app .mobile-nav-dialog nav {
+    gap: 4px;
+  }
+  .brisa-app .mobile-nav-dialog nav button {
+    min-height: 44px;
+    color: #52694b;
+    border-radius: 10px;
+  }
+  .brisa-app .mobile-nav-dialog nav button.active {
+    background: #e8f0df;
+    color: #24462b;
+  }
+  .brisa-app :is(input, select, textarea),
+  .public :is(input, select, textarea),
+  .login :is(input, select, textarea) {
+    font-size: 16px;
+  }
+  .brisa-app .editor-section {
+    padding-top: 18px;
+    margin-top: 22px;
+  }
+  .editor-layout {
+    gap: 24px;
+  }
+  .editor-content > h2 {
+    font-size: 21px;
+  }
+  .brisa-app .item {
+    grid-template-columns: 1fr 1fr;
+    padding-block: 18px;
+    border-bottom: 1px solid var(--border);
+  }
+  .brisa-app .item > .help-field:first-child {
+    grid-column: 1/-1;
+  }
+  .brisa-app .item > button {
+    grid-column: 1/-1;
+    justify-self: end;
+    min-width: 80px;
+  }
+  .brisa-app .client-directory .client-record {
+    padding: 18px;
+  }
+  .brisa-app .client-edit-action {
+    min-height: 44px;
+    width: 100%;
+  }
+  .brisa-app .client-toolbar {
+    gap: 8px;
+  }
+  .brisa-app .client-toolbar p {
+    font-size: 10px;
+  }
+  .brisa-app .client-toolbar button {
+    font-size: 11px;
+  }
+  .brisa-app .agenda-directory .visit-record {
+    grid-template-columns: 43px minmax(0, 1fr);
+    gap: 12px;
+    padding-block: 22px;
+  }
+  .visit-calendar {
+    width: 42px;
+  }
+  .visit-calendar strong {
+    font-size: 20px;
+  }
+  .brisa-app .visit-record > .actions {
+    grid-column: 1/-1;
+    margin-top: 0;
+  }
+  .brisa-app .visit-record > .actions button {
+    flex: 1;
+    min-height: 44px;
+  }
+  .brisa-app .agenda-directory h3 {
+    font-size: 12px;
+  }
+  .brisa-app .agenda-heading button {
+    width: 100%;
+  }
+  .equipment-editor > summary {
+    flex-wrap: wrap;
+    font-size: 12px;
+  }
+  .equipment-editor > summary > span {
+    width: 100%;
+    margin-left: 28px;
+  }
+  .brisa-app .equipment-directory .operation-row {
+    gap: 14px;
+  }
+  .brisa-app .order-board {
+    grid-template-columns: 1fr;
+  }
+  .brisa-app .leave-editor-dialog {
+    max-height: calc(100dvh - 115px);
+    margin-bottom: 80px;
+  }
+  .brisa-app .client-editor-dialog,
+  .brisa-app .visit-editor-dialog {
+    max-height: calc(100dvh - 115px);
+    margin-bottom: 80px;
+  }
+  .brisa-app .client-editor-dialog .client-section-heading > .row,
+  .brisa-app .editor-heading {
+    top: -20px;
+  }
+  .login-layout {
+    grid-template-columns: 1fr;
+  }
+  .login-story {
+    padding: 26px;
+    min-height: 270px;
+  }
+  .login-story .brisa-brand {
+    transform: scale(0.85);
+    transform-origin: left top;
+  }
+  .login-editorial {
+    padding-block: 26px 0;
+  }
+  .login-editorial h2 {
+    font-size: 31px;
+    margin: 13px 0;
+    letter-spacing: -1px;
+  }
+  .login-editorial > p {
+    font-size: 11px;
+    margin-bottom: 0;
+  }
+  .wind-signature,
+  .login-story-footer {
+    display: none;
+  }
+  .login {
+    padding: 35px 25px;
+  }
+  .login h1 {
+    font-size: 29px;
+  }
+  .public {
+    padding: 25px 16px;
+  }
+  .public header {
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .public header h1 {
+    font-size: 16px;
+  }
+  .public header > .brisa-mark {
+    width: 40px;
+    height: 40px;
+  }
+  .public header .badge {
+    display: none;
+  }
+  .public .card {
+    padding: 22px 18px;
+    border-radius: 17px;
+  }
+  .public .proposal-document h2 {
+    font-size: 23px;
+  }
+  .public .proposal-document .row > div {
+    width: 100%;
+  }
+  .public .table th {
+    padding: 12px 7px;
+  }
+  .public .table td {
+    padding: 18px 7px;
+    font-size: 11px;
+    overflow-wrap: anywhere;
+  }
+  .public .table td:first-child {
+    max-width: 160px;
+  }
+  .public .proposal-total {
+    padding: 17px;
+  }
+  .public .proposal-total strong {
+    font-size: 29px;
+  }
+  .public .proposal-decision > button {
+    width: 100%;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0s !important;
+    animation-duration: 0s !important;
+    scroll-behavior: auto !important;
+  }
+}
+/* Ajustes de leitura e encaixe após inspeção dos primeiros renders. */
+.brisa-app .desktop-sidebar {
+  height: calc(100dvh - 24px);
+  scrollbar-width: thin;
+  scrollbar-color: #4b7060 transparent;
+}
+.brisa-app .desktop-sidebar nav button {
+  justify-content: flex-start;
+  font-size: 13px;
+}
+.sidebar-workspace {
+  margin-block: 24px 20px;
+  padding-block: 10px;
+}
+.brisa-app .aside-footer {
+  margin-top: auto;
+}
+.operation-overview strong {
+  overflow-wrap: anywhere;
+}
+.operation-overview span:not(.overview-icon) {
+  font-size: 11px;
+}
+.operation-overview small {
+  font-size: 10px;
+}
+.brisa-app .filter-chips button {
+  font-size: 11px;
+}
+.brisa-app .badge {
+  font-size: 10px;
+}
+.brisa-app .quote-directory .quote p strong {
+  font-size: 14px;
+}
+.brisa-app .quote-directory .quote > .actions button {
+  font-size: 11px;
+}
+.quote-context summary {
+  font-size: 10px;
+}
+@media (max-height: 900px) and (min-width: 761px) {
+  .sidebar-note {
+    display: none;
+  }
+}
+@media (max-width: 760px) {
+  .operation-overview {
+    grid-template-columns: 1.2fr 1fr 1fr;
+    padding-block: 16px;
+    gap: 0;
+  }
+  .operation-overview > div,
+  .operation-overview > div:first-child {
+    grid-column: auto;
+    padding: 0 11px;
+    margin: 0;
+    border: 0;
+    border-right: 1px solid #d4dfd3;
+  }
+  .operation-overview > div:last-child {
+    border-right: 0;
+  }
+  .operation-overview > div > div > span {
+    display: block;
+    min-height: 28px;
+    font-size: 9px;
+    line-height: 1.5;
+  }
+  .operation-overview > div strong,
+  .operation-overview > div:first-child strong {
+    font-size: 20px;
+    margin: 4px 0;
+    letter-spacing: -0.6px;
+    line-height: 1.4;
+  }
+  .operation-overview > div > div > small {
+    display: block;
+    font-size: 8px;
+  }
+  .operation-overview strong small {
+    display: none;
+  }
+  .brisa-app .quote-directory .quote p strong {
+    font-size: 13px;
+  }
+}
+
+.record-more > summary {
+  width: 44px;
+}
+@media (max-width: 760px) {
+  .quote-context summary {
+    min-height: 44px;
+  }
+}
+@media (max-width: 760px) {
+  .brisa-app:has(.quote-editor) .mobile-taskbar {
+    display: none;
+  }
+  .brisa-app:has(.quote-editor) main {
+    padding-bottom: 155px;
+  }
+  .brisa-app .quote-editor .form-actions {
+    position: fixed;
+    z-index: 16;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 12px 18px calc(12px + env(safe-area-inset-bottom));
+    display: grid;
+    grid-template-columns: 1fr 1.8fr;
+    gap: 8px;
+    background: #fafcf7f5;
+    backdrop-filter: blur(14px);
+    border-top: 1px solid var(--border);
+  }
+  .brisa-app .quote-editor .form-actions > button {
+    font-size: 12px;
+    min-height: 44px;
+  }
+  .brisa-app .quote-editor .form-actions > button[type="submit"],
+  .brisa-app .quote-editor .form-actions > button:last-child {
+    grid-column: 1/-1;
+  }
+  .brisa-app:has(.quote-editor) .leave-editor-dialog {
+    margin-block: auto;
+  }
+}
+@media (max-width: 760px) {
+  .operation-overview > div:first-child strong {
+    font-size: 16px;
+    font-weight: 550;
+    line-height: 1.75;
+  }
+}
+.brisa-app .help-trigger,
+.brisa-app .item .help-trigger {
+  min-width: 44px;
+  width: 44px;
+}
+.brisa-app .full-guide > details:not(:first-of-type) > summary {
+  display: list-item;
+}
+@media (min-width: 761px) and (max-width: 1200px) {
+  .brisa-app .quote-editor .item {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+  .brisa-app .quote-editor .item > .help-field:first-child {
+    grid-column: 1/-1;
+  }
+}

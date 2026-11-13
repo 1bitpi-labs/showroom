@@ -1,35 +1,37 @@
-# Documentação do projeto ElosPME
+# Documentação do Brisa / ElosPME
 
-Atualizada em 2026-11-12. Produto local sintético Brisa Oficina; uma empresa por instalação. Construído por adaptação local e supervisionada do **Tiny Software Factory (TSF/TFS) v2.0.0**, combinada com especificação, incrementos e revisão humana. Não é fábrica autônoma nem release homologada.
+Pacote executável no showroom. Uma empresa por instalação; dados de demonstração. [README](../README.md) e [STATUS](../STATUS.md) são as entradas correntes. Histórico permanece identificado abaixo, sem transformar snapshots em estado atual.
 
-- [PRD](PRD.md): objetivos, usuários, escopo e aceites.
-- [Design System](DESIGN-SYSTEM.md): componentes, tokens e comportamento responsivo.
-- [Architecture](ARCHITECTURE.md): camadas e fluxo real.
-- [Database](DATABASE.md): entidades, relações e invariantes.
-- [Security](SECURITY.md): controles e lacunas de release.
-- [Code Style](CODE-STYLE.md): convenções e manutenção.
-- [Testing](TESTING.md): comandos, ambientes e limites da evidência.
-- [Método TSF e melhorias](TSF-WORKFLOW.md): playbook, fluxo efetivo e proposta de evolução.
-- [Arquivos do app e protótipo](APP-FILES.md): mapa e manifesto de hashes.
-- [Histórico técnico](DEVELOPMENT.md), [especificação funcional](spec.md), [manual de operação](USAGE.md).
-- [Regras dos agentes](../AGENTS.md), [estado da entrega](../STATUS.md), [execução/instalação](../README.md).
+## Começar e revisar
 
-O HTML em [prototype/brisa-oficina-reference.html](prototype/brisa-oficina-reference.html) é a referência estática original, não uma versão funcional integrada. As promessas simuladas nele não ampliam o escopo implementado. Documentos novos consolidam fontes existentes, sem apagar requisitos ou decisões históricas.
+- [Runbook](RUNBOOK.md): instalação de revisão 3028/55448, readiness, dev/build e encerramento seguro.
+- [Manual de uso](USAGE.md): clientes, equipamentos, propostas, aceite, OS, agenda, ajuda e navegação mobile.
+- [Handoff](REVIEW-HANDOFF.md): escopo atual e o que conferir.
+- [Avaliação e retrospectiva](EVALUATION-AND-RETROSPECTIVE.md): qualidade, evidências, falhas do processo e backlog.
+- [Composição navegável](../BRISA_VISUAL_COMPOSITION.html): cenas estáticas da build, sem sessão/API.
 
-Autoridade: código/testes para comportamento; spec/changes e autorizações para escopo; STATUS e evidências para estado. Planos não concedem gates. Guias não certificam competência prática. Dados de demonstração não comprovam resultados comerciais.
+## Produto e implementação
 
-Comparação e continuidade: [resultados técnicos e avaliação TSF](COMPARISON-RESULTS.md), [protocolo humano](comparison/protocolo.md), [CSV humano ainda vazio](comparison/resultados-humanos.csv). Evidências brutas de automação em evidence/version-comparison/; não preencher CSV humano com robô.
+- [PRD](PRD.md), [especificação](spec.md) e [regras do agente](../AGENTS.md).
+- [Arquitetura](ARCHITECTURE.md), [banco](DATABASE.md), [segurança](SECURITY.md), [estilo de código](CODE-STYLE.md).
+- [Design System](DESIGN-SYSTEM.md), [direção visual](design/BRISA-VISUAL-DIRECTION.md) e [blueprint](../ZOD_UI_BLUEPRINT.md).
+- [Inventário](APP-FILES.md) e [hashes verificáveis](app-files.json).
 
-## Revisão da entrega
+## Desenvolvimento e validação
 
-- [Guia de revisão e validações](REVIEW-HANDOFF.md): escopo final, limites, snapshots e comandos seguros.
-- [Comparação executada](COMPARISON-RESULTS.md): resultados reais e tentativas inválidas separadas.
-- [Readiness do build](changes/build-readiness-comparison.md): investigação resolvida no ambiente ensaiado.
+- [Processo de desenvolvimento e design](DESIGN-DEVELOPMENT-PROCESS.md).
+- [Testing](TESTING.md): produto, browser, apresentação e manutenção documental.
+- [Método TSF](TSF-WORKFLOW.md): execução supervisionada e limites de autonomia.
+- [Histórico de construção](DEVELOPMENT.md) e [decisão de stack](ADR-0001.md).
+- [Proteção de edição P1](changes/zod-ui-p1.md) e [entrega visual](changes/brisa-visual-design.md).
+- [Capturas da build](evidence/brisa-visual/manifest.json), [capturas P1](evidence/zod-ui-p1/manifest.json) e [inspeção anterior ao redesign](evidence/zod-ui-audit/manifest.json).
 
-Servidores locais de comparação são temporários; conclusão de um processo não apaga commits/evidências. Consultar configuração privada da worktree antes de reiniciar. PR é revisão de código/documentação, sem homologação humana ou autorização de deploy implícitas.
+## Fontes e histórico
 
-## Pacote no showroom
+- [Diagnóstico anterior à composição](ZOD_UI_DESIGN_DIAGNOSIS.md): evidências e hipóteses daquela inspeção, não o desenho atual.
+- [HTML original](prototype/brisa-oficina-reference.html): referência estática com dependências externas e funções simuladas, não o app integrado.
+- [Comparação A/B](COMPARISON-RESULTS.md), [protocolo humano](comparison/protocolo.md) e [CSV humano](comparison/resultados-humanos.csv): snapshots 225cdcc/21a3a3d; não medem a composição atual.
+- [Evidência inicial](IMPLEMENTATION-EVIDENCE.md), [piloto de vídeo](CLIENTES-VIDEO-EVIDENCE.md), [evolução anterior](changes/full-app-design.md) e [build readiness](changes/build-readiness-comparison.md).
+- [Inclusão pública do pacote](SHOWROOM-PUBLICATION.md): importação 2833a4f e exclusões; não é autorização de deploy/envio de mudanças novas.
 
-Código completo em `06-oficinas-e-servicos-tecnicos/elos-pme/`, importado do snapshot local 2833a4f. Configuração privada, bancos, dependências e estado TSF não fazem parte do pacote. Os scripts de QA exigem DEMO_PASSWORD no ambiente; não há senha local incorporada nesta distribuição. O backend exige execução Node/PostgreSQL própria; inclusão no GitHub não executa o app.
-
-[Inclusão pública no showroom](SHOWROOM-PUBLICATION.md): autorização, snapshot, exclusões e verificações de distribuição. A importação não executa backend nem publica a aplicação.
+Código/testes sustentam comportamento; spec/changes e autorização sustentam escopo; STATUS e evidências sustentam estado. Documentação não concede gates. Leitura de guias não certifica competência. Feedback visual não é resultado comercial ou auditoria WCAG integral.

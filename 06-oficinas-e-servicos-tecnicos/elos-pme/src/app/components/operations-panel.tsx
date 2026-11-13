@@ -1,5 +1,7 @@
 "use client";
 import { useEffect, useState, useRef } from "react";
+import { BrisaIcon } from "./brisa-identity";
+import { cycleDialogFocus } from "./dialog-focus";
 import { HelpField } from "./help-field";
 type Client = {
   id: string;
@@ -83,11 +85,32 @@ export function OperationsPanel({
   const [clientId, setClientId] = useState<string>();
   const [, setClientEditorOpen] = useState(false);
   const clientEditor = useRef<HTMLDialogElement>(null);
+  const clientTitle = useRef<HTMLHeadingElement>(null);
+  const equipmentEditor = useRef<HTMLDetailsElement>(null);
+  const visitEditor = useRef<HTMLDialogElement>(null);
+  const visitTitle = useRef<HTMLHeadingElement>(null);
+  const visitButton = useRef<HTMLButtonElement>(null);
+  const [visitEditorOpen, setVisitEditorOpen] = useState(false);
+  useEffect(() => {
+    if (error && visitEditorOpen) {
+      visitEditor.current
+        ?.querySelector<HTMLElement>('[role="alert"]')
+        ?.focus();
+    }
+  }, [error, visitEditorOpen]);
+  function openVisitEditor() {
+    setVisitEditorOpen(true);
+    visitEditor.current?.showModal();
+    visitTitle.current?.focus();
+    if (visitEditor.current) visitEditor.current.scrollTop = 0;
+  }
   const addClientButton = useRef<HTMLButtonElement>(null);
   const editTrigger = useRef<HTMLElement | null>(null);
   function openClientEditor() {
     setClientEditorOpen(true);
     clientEditor.current?.showModal();
+    clientTitle.current?.focus();
+    if (clientEditor.current) clientEditor.current.scrollTop = 0;
   }
   function closeClientEditor() {
     clientEditor.current?.close();
@@ -129,7 +152,7 @@ export function OperationsPanel({
   }
   return (
     <>
-      {error && (
+      {error && !(tab === "agenda" && visitEditorOpen) && (
         <p role="alert" className="notice error">
           {error}{" "}
           <button
@@ -173,7 +196,10 @@ export function OperationsPanel({
               </div>
               <dialog
                 ref={clientEditor}
+                onKeyDown={cycleDialogFocus}
                 className="client-editor-dialog"
+                aria-labelledby="client-editor-title"
+                aria-describedby="client-editor-description"
                 onClose={() => {
                   setClientEditorOpen(false);
                   (editTrigger.current ?? addClientButton.current)?.focus();
@@ -201,13 +227,29 @@ export function OperationsPanel({
                       <button
                         type="button"
                         className="secondary small"
-                        onClick={onHelp}
+                        onClick={closeClientEditor}
+                        aria-label="Fechar cadastro"
+                        disabled={busy}
                       >
-                        Ajuda nesta aba
+                        Fechar
+                      </button>
+                      <button
+                        type="button"
+                        className="secondary small"
+                        onClick={onHelp}
+                        aria-label="Ajuda nesta aba"
+                      >
+                        Ajuda
                       </button>
                     </div>
-                    <h2>{clientId ? "Editar cliente" : "Cadastrar cliente"}</h2>
-                    <p className="muted">
+                    <h2
+                      ref={clientTitle}
+                      id="client-editor-title"
+                      tabIndex={-1}
+                    >
+                      {clientId ? "Editar cliente" : "Cadastrar cliente"}
+                    </h2>
+                    <p className="muted" id="client-editor-description">
                       Identifique o cliente para organizar orçamentos,
                       equipamentos e visitas.
                     </p>
@@ -379,156 +421,38 @@ export function OperationsPanel({
                       .toLowerCase()
                       .includes(search.toLowerCase()),
                   ) && (
-                    <p className="muted">Nenhum cliente corresponde à busca.</p>
+                    <div className="empty-state">
+                      <p className="muted">
+                        Nenhum cliente corresponde à busca.
+                      </p>
+                      <button
+                        className="secondary small"
+                        onClick={() => setSearch("")}
+                      >
+                        Limpar busca
+                      </button>
+                    </div>
                   )}
               </section>
             </div>
           )}
           {tab === "equipment" && (
             <>
-              <form
-                className="card"
-                data-tour="equipment-form"
-                onSubmit={(e) => {
-                  e.preventDefault();
-                  save(
-                    {
-                      action: "equipment",
-                      id: assetId,
-                      input: {
-                        ...asset,
-                        capacity_btu: asset.capacity_btu
-                          ? Number(asset.capacity_btu)
-                          : null,
-                        next_service: asset.next_service || null,
-                      },
-                    },
-                    "Equipamento salvo.",
-                    () => {
-                      setAsset(emptyEquipment);
-                      setAssetId(undefined);
-                    },
-                  );
-                }}
+              <section
+                className="card equipment-directory"
+                data-tour="equipment-list"
               >
-                <h2>
-                  {assetId ? "Editar equipamento" : "Cadastrar equipamento"}
-                </h2>
-                <div className="fields">
-                  <HelpField
-                    label="Cliente do equipamento"
-                    help="Cada aparelho pertence a um cliente. O vínculo não pode ser trocado depois do cadastro para preservar o histórico."
-                  >
-                    <select
-                      required
-                      disabled={!!assetId}
-                      value={asset.client_id}
-                      onChange={(e) =>
-                        setAsset({ ...asset, client_id: e.target.value })
-                      }
-                    >
-                      <option value="">Selecione o cliente</option>
-                      {data.clients.map((c) => (
-                        <option key={c.id} value={c.id}>
-                          {c.name}
-                        </option>
-                      ))}
-                    </select>
-                  </HelpField>
-                  <HelpField
-                    label="Identificação do aparelho"
-                    help="Exemplo: Split da recepção. Use uma identificação que sua equipe reconheça no local."
-                  >
-                    <input
-                      required
-                      minLength={2}
-                      maxLength={120}
-                      value={asset.label}
-                      onChange={(e) =>
-                        setAsset({ ...asset, label: e.target.value })
-                      }
-                    />
-                  </HelpField>
-                  <label>
-                    Marca e modelo
-                    <input
-                      maxLength={160}
-                      value={asset.brand_model}
-                      onChange={(e) =>
-                        setAsset({ ...asset, brand_model: e.target.value })
-                      }
-                    />
-                  </label>
-                  <label>
-                    Capacidade (BTU, opcional)
-                    <input
-                      type="number"
-                      min={1}
-                      max={1000000}
-                      value={asset.capacity_btu}
-                      onChange={(e) =>
-                        setAsset({ ...asset, capacity_btu: e.target.value })
-                      }
-                    />
-                  </label>
-                  <label>
-                    Número de série
-                    <input
-                      maxLength={120}
-                      value={asset.serial}
-                      onChange={(e) =>
-                        setAsset({ ...asset, serial: e.target.value })
-                      }
-                    />
-                  </label>
-                  <label>
-                    Local do aparelho
-                    <input
-                      maxLength={300}
-                      value={asset.location}
-                      onChange={(e) =>
-                        setAsset({ ...asset, location: e.target.value })
-                      }
-                    />
-                  </label>
+                <div className="row">
+                  <div>
+                    <h2>Equipamentos e histórico</h2>
+                    <p className="section-caption">
+                      Identificação, manutenção e atendimentos em um só lugar.
+                    </p>
+                  </div>
+                  <span className="count-label">
+                    {data.equipment.length} equipamento(s)
+                  </span>
                 </div>
-                <HelpField
-                  label="Próxima manutenção (opcional)"
-                  help="Informe somente uma data definida pelo responsável técnico. Não é gerado um plano PMOC, agendamento ou lembrete automático."
-                >
-                  <input
-                    type="date"
-                    value={asset.next_service}
-                    onChange={(e) =>
-                      setAsset({ ...asset, next_service: e.target.value })
-                    }
-                  />
-                </HelpField>
-                <div className="actions">
-                  <button disabled={busy || !data.clients.length}>
-                    Salvar equipamento
-                  </button>
-                  {assetId && (
-                    <button
-                      type="button"
-                      className="secondary"
-                      onClick={() => {
-                        setAssetId(undefined);
-                        setAsset(emptyEquipment);
-                      }}
-                    >
-                      Cancelar edição
-                    </button>
-                  )}
-                </div>
-                {!data.clients.length && (
-                  <p className="muted">
-                    Cadastre um cliente na aba Clientes primeiro.
-                  </p>
-                )}
-              </form>
-              <section className="card" data-tour="equipment-list">
-                <h2>Equipamentos e histórico</h2>
                 {data.equipment.map((e) => (
                   <article className="operation-row" key={e.id}>
                     <div>
@@ -568,6 +492,8 @@ export function OperationsPanel({
                     <button
                       className="secondary small"
                       onClick={() => {
+                        if (equipmentEditor.current)
+                          equipmentEditor.current.open = true;
                         setAssetId(e.id);
                         setAsset({
                           client_id: e.client_id,
@@ -591,227 +517,457 @@ export function OperationsPanel({
                   <p className="muted">Nenhum equipamento cadastrado.</p>
                 )}
               </section>
+              <details ref={equipmentEditor} className="equipment-editor card">
+                <summary>
+                  <BrisaIcon name="plus" size={18} />{" "}
+                  {assetId ? "Editar equipamento" : "Cadastrar equipamento"}
+                  <span>Identificação e dados técnicos</span>
+                </summary>{" "}
+                <form
+                  className="card"
+                  data-tour="equipment-form"
+                  onSubmit={(e) => {
+                    e.preventDefault();
+                    save(
+                      {
+                        action: "equipment",
+                        id: assetId,
+                        input: {
+                          ...asset,
+                          capacity_btu: asset.capacity_btu
+                            ? Number(asset.capacity_btu)
+                            : null,
+                          next_service: asset.next_service || null,
+                        },
+                      },
+                      "Equipamento salvo.",
+                      () => {
+                        setAsset(emptyEquipment);
+                        setAssetId(undefined);
+                      },
+                    );
+                  }}
+                >
+                  <h2>
+                    {assetId ? "Editar equipamento" : "Cadastrar equipamento"}
+                  </h2>
+                  <div className="fields">
+                    <HelpField
+                      label="Cliente do equipamento"
+                      help="Cada aparelho pertence a um cliente. O vínculo não pode ser trocado depois do cadastro para preservar o histórico."
+                    >
+                      <select
+                        required
+                        disabled={!!assetId}
+                        value={asset.client_id}
+                        onChange={(e) =>
+                          setAsset({ ...asset, client_id: e.target.value })
+                        }
+                      >
+                        <option value="">Selecione o cliente</option>
+                        {data.clients.map((c) => (
+                          <option key={c.id} value={c.id}>
+                            {c.name}
+                          </option>
+                        ))}
+                      </select>
+                    </HelpField>
+                    <HelpField
+                      label="Identificação do aparelho"
+                      help="Exemplo: Split da recepção. Use uma identificação que sua equipe reconheça no local."
+                    >
+                      <input
+                        required
+                        minLength={2}
+                        maxLength={120}
+                        value={asset.label}
+                        onChange={(e) =>
+                          setAsset({ ...asset, label: e.target.value })
+                        }
+                      />
+                    </HelpField>
+                    <label>
+                      Marca e modelo
+                      <input
+                        maxLength={160}
+                        value={asset.brand_model}
+                        onChange={(e) =>
+                          setAsset({ ...asset, brand_model: e.target.value })
+                        }
+                      />
+                    </label>
+                    <label>
+                      Capacidade (BTU, opcional)
+                      <input
+                        type="number"
+                        min={1}
+                        max={1000000}
+                        value={asset.capacity_btu}
+                        onChange={(e) =>
+                          setAsset({ ...asset, capacity_btu: e.target.value })
+                        }
+                      />
+                    </label>
+                    <label>
+                      Número de série
+                      <input
+                        maxLength={120}
+                        value={asset.serial}
+                        onChange={(e) =>
+                          setAsset({ ...asset, serial: e.target.value })
+                        }
+                      />
+                    </label>
+                    <label>
+                      Local do aparelho
+                      <input
+                        maxLength={300}
+                        value={asset.location}
+                        onChange={(e) =>
+                          setAsset({ ...asset, location: e.target.value })
+                        }
+                      />
+                    </label>
+                  </div>
+                  <HelpField
+                    label="Próxima manutenção (opcional)"
+                    help="Informe somente uma data definida pelo responsável técnico. Não é gerado um plano PMOC, agendamento ou lembrete automático."
+                  >
+                    <input
+                      type="date"
+                      value={asset.next_service}
+                      onChange={(e) =>
+                        setAsset({ ...asset, next_service: e.target.value })
+                      }
+                    />
+                  </HelpField>
+                  <div className="actions">
+                    <button disabled={busy || !data.clients.length}>
+                      Salvar equipamento
+                    </button>
+                    {assetId && (
+                      <button
+                        type="button"
+                        className="secondary"
+                        onClick={() => {
+                          setAssetId(undefined);
+                          setAsset(emptyEquipment);
+                        }}
+                      >
+                        Cancelar edição
+                      </button>
+                    )}
+                  </div>
+                  {!data.clients.length && (
+                    <p className="muted">
+                      Cadastre um cliente na aba Clientes primeiro.
+                    </p>
+                  )}
+                </form>
+              </details>
             </>
           )}
           {tab === "agenda" && (
             <>
-              <form
-                className="card"
-                data-tour="agenda-form"
-                onSubmit={(e) => {
-                  e.preventDefault();
-                  save(
-                    {
-                      action: "visit",
-                      input: {
-                        ...visit,
-                        equipment_id: visit.equipment_id || null,
-                        order_id: visit.order_id || null,
-                        starts_at: new Date(visit.starts_at).toISOString(),
-                      },
-                    },
-                    "Visita agendada. Combine o horário com o cliente; nenhuma mensagem foi enviada.",
-                    () => setVisit(emptyVisit),
-                  );
-                }}
-              >
-                <h2>Agendar visita</h2>
-                <p className="muted">
-                  Preencha no fuso deste dispositivo:{" "}
-                  {Intl.DateTimeFormat().resolvedOptions().timeZone}. A lista
-                  abaixo apresenta horário de São Paulo.
-                </p>
-                <div className="fields">
-                  <label>
-                    Cliente da visita
-                    <select
-                      aria-label="Cliente da visita"
-                      required
-                      value={visit.client_id}
-                      onChange={(e) =>
-                        setVisit({
-                          ...visit,
-                          client_id: e.target.value,
-                          equipment_id: "",
-                          order_id: "",
-                        })
-                      }
-                    >
-                      <option value="">Selecione o cliente</option>
-                      {data.clients.map((c) => (
-                        <option key={c.id} value={c.id}>
-                          {c.name}
-                        </option>
-                      ))}
-                    </select>
-                  </label>
-                  <label>
-                    Equipamento da visita (opcional)
-                    <select
-                      aria-label="Equipamento da visita (opcional)"
-                      value={visit.equipment_id}
-                      onChange={(e) =>
-                        setVisit({ ...visit, equipment_id: e.target.value })
-                      }
-                    >
-                      <option value="">Sem equipamento vinculado</option>
-                      {data.equipment
-                        .filter((e) => e.client_id === visit.client_id)
-                        .map((e) => (
-                          <option key={e.id} value={e.id}>
-                            {e.label}
-                          </option>
-                        ))}
-                    </select>
-                  </label>
-                  <label>
-                    OS vinculada (opcional)
-                    <select
-                      aria-label="OS vinculada (opcional)"
-                      value={visit.order_id}
-                      onChange={(e) =>
-                        setVisit({ ...visit, order_id: e.target.value })
-                      }
-                    >
-                      <option value="">Sem OS vinculada</option>
-                      {data.orders
-                        .filter((o) => o.client_id === visit.client_id)
-                        .map((o) => (
-                          <option key={o.id} value={o.id}>
-                            Orçamento {o.code}
-                          </option>
-                        ))}
-                    </select>
-                  </label>
-                  <HelpField
-                    label="Técnico responsável"
-                    help="Informe sempre o mesmo nome para a mesma pessoa. Visitas agendadas desse técnico não podem se sobrepor. Não há cadastro de equipe ou calendário externo."
-                  >
-                    <input
-                      required
-                      minLength={2}
-                      maxLength={120}
-                      value={visit.technician}
-                      onChange={(e) =>
-                        setVisit({ ...visit, technician: e.target.value })
-                      }
-                    />
-                  </HelpField>
-                  <label>
-                    Início da visita
-                    <input
-                      required
-                      type="datetime-local"
-                      value={visit.starts_at}
-                      onChange={(e) =>
-                        setVisit({ ...visit, starts_at: e.target.value })
-                      }
-                    />
-                  </label>
-                  <label>
-                    Duração (minutos)
-                    <input
-                      required
-                      type="number"
-                      min={15}
-                      max={480}
-                      value={visit.duration_minutes}
-                      onChange={(e) =>
-                        setVisit({
-                          ...visit,
-                          duration_minutes: Number(e.target.value),
-                        })
-                      }
-                    />
-                  </label>
-                </div>
-                <label>
-                  Observações da visita
-                  <textarea
-                    maxLength={2000}
-                    value={visit.notes}
-                    onChange={(e) =>
-                      setVisit({ ...visit, notes: e.target.value })
-                    }
-                  />
-                </label>
-                <button disabled={busy || !data.clients.length}>
-                  Salvar visita
-                </button>
-              </form>
               <section
                 className="card agenda-directory"
                 data-tour="agenda-list"
               >
-                <h2>Agenda de visitas</h2>
+                <div className="row agenda-heading">
+                  <h2>Seus atendimentos</h2>
+                  <button ref={visitButton} onClick={openVisitEditor}>
+                    + Agendar visita
+                  </button>
+                </div>
                 <p className="muted">
                   Horários de São Paulo. Atualizar uma visita não muda o status
                   da OS.
                 </p>
-                {data.appointments.map((a) => (
-                  <article className="operation-row" key={a.id}>
-                    <div>
-                      <h3>
-                        {formatDate(a.starts_at)} · {a.duration_minutes} min
-                      </h3>
-                      <p>
-                        {a.client_name} · Técnico: {a.technician}
-                      </p>
-                      <p>
-                        {a.equipment_label || "Sem equipamento vinculado"}
-                        {a.quote_code
-                          ? ` · OS do orçamento ${a.quote_code}`
-                          : ""}
-                      </p>
-                      <p className="detail muted">{a.notes}</p>
-                      <span className={`badge ${a.status}`}>
-                        {statusNames[a.status]}
+                {[...data.appointments]
+                  .sort((a, b) => {
+                    if (a.status === "planned" && b.status !== "planned")
+                      return -1;
+                    if (a.status !== "planned" && b.status === "planned")
+                      return 1;
+                    return a.status === "planned"
+                      ? Date.parse(a.starts_at) - Date.parse(b.starts_at)
+                      : Date.parse(b.starts_at) - Date.parse(a.starts_at);
+                  })
+                  .map((a) => (
+                    <article className="operation-row visit-record" key={a.id}>
+                      <span className="visit-calendar" aria-hidden="true">
+                        <strong>
+                          {new Date(a.starts_at).toLocaleDateString("pt-BR", {
+                            day: "2-digit",
+                            timeZone: "America/Sao_Paulo",
+                          })}
+                        </strong>
+                        <span>
+                          {new Date(a.starts_at)
+                            .toLocaleDateString("pt-BR", {
+                              month: "short",
+                              timeZone: "America/Sao_Paulo",
+                            })
+                            .replace(".", "")}
+                        </span>
                       </span>
-                    </div>
-                    {a.status === "planned" && (
-                      <div className="actions">
-                        <button
-                          className="secondary small"
-                          disabled={busy}
-                          onClick={() =>
-                            save(
-                              {
-                                action: "visit_status",
-                                id: a.id,
-                                status: "completed",
-                              },
-                              "Visita concluída. A OS permanece com seu status próprio.",
-                            )
-                          }
-                        >
-                          Concluir visita
-                        </button>
-                        <button
-                          className="secondary small"
-                          disabled={busy}
-                          onClick={() =>
-                            save(
-                              {
-                                action: "visit_status",
-                                id: a.id,
-                                status: "cancelled",
-                              },
-                              "Visita cancelada.",
-                            )
-                          }
-                        >
-                          Cancelar visita
-                        </button>
+                      <div>
+                        <h3>
+                          {formatDate(a.starts_at)} · {a.duration_minutes} min
+                        </h3>
+                        <p>
+                          {a.client_name} · Técnico: {a.technician}
+                        </p>
+                        <p>
+                          {a.equipment_label || "Sem equipamento vinculado"}
+                          {a.quote_code
+                            ? ` · OS do orçamento ${a.quote_code}`
+                            : ""}
+                        </p>
+                        <p className="detail muted">{a.notes}</p>
+                        <span className={`badge ${a.status}`}>
+                          {statusNames[a.status]}
+                        </span>
                       </div>
-                    )}
-                  </article>
-                ))}
+                      {a.status === "planned" && (
+                        <div className="actions">
+                          <button
+                            className="secondary small"
+                            disabled={busy}
+                            onClick={() =>
+                              save(
+                                {
+                                  action: "visit_status",
+                                  id: a.id,
+                                  status: "completed",
+                                },
+                                "Visita concluída. A OS permanece com seu status próprio.",
+                              )
+                            }
+                          >
+                            Concluir visita
+                          </button>
+                          <button
+                            className="secondary small"
+                            disabled={busy}
+                            onClick={() =>
+                              save(
+                                {
+                                  action: "visit_status",
+                                  id: a.id,
+                                  status: "cancelled",
+                                },
+                                "Visita cancelada.",
+                              )
+                            }
+                          >
+                            Cancelar visita
+                          </button>
+                        </div>
+                      )}
+                    </article>
+                  ))}
                 {!data.appointments.length && (
                   <p className="muted">
-                    Nenhuma visita agendada. Comece pelo formulário acima.
+                    Nenhuma visita agendada. Use Agendar visita para combinar o
+                    próximo atendimento.
                   </p>
                 )}
               </section>
+              <dialog
+                ref={visitEditor}
+                onKeyDown={cycleDialogFocus}
+                className="visit-editor-dialog"
+                aria-labelledby="visit-editor-title"
+                onCancel={(event) => {
+                  if (busy) event.preventDefault();
+                }}
+                onClose={() => {
+                  setVisitEditorOpen(false);
+                  visitButton.current?.focus();
+                }}
+              >
+                <form
+                  className="card"
+                  data-tour="agenda-form"
+                  onSubmit={(e) => {
+                    e.preventDefault();
+                    save(
+                      {
+                        action: "visit",
+                        input: {
+                          ...visit,
+                          equipment_id: visit.equipment_id || null,
+                          order_id: visit.order_id || null,
+                          starts_at: new Date(visit.starts_at).toISOString(),
+                        },
+                      },
+                      "Visita agendada. Combine o horário com o cliente; nenhuma mensagem foi enviada.",
+                      () => {
+                        setVisit(emptyVisit);
+                        visitEditor.current?.close();
+                      },
+                    );
+                  }}
+                >
+                  <div className="row editor-heading">
+                    <h2 ref={visitTitle} id="visit-editor-title" tabIndex={-1}>
+                      Agendar visita
+                    </h2>
+                    <button
+                      type="button"
+                      className="secondary small"
+                      disabled={busy}
+                      onClick={() => visitEditor.current?.close()}
+                      aria-label="Fechar agendamento"
+                    >
+                      Fechar
+                    </button>
+                  </div>
+                  {error && (
+                    <p role="alert" tabIndex={-1} className="notice error">
+                      {error}
+                    </p>
+                  )}
+                  <p className="muted">
+                    Preencha no fuso deste dispositivo:{" "}
+                    {Intl.DateTimeFormat().resolvedOptions().timeZone}. A agenda
+                    apresenta horário de São Paulo.
+                  </p>
+                  <div className="fields">
+                    <label>
+                      Cliente da visita
+                      <select
+                        aria-label="Cliente da visita"
+                        required
+                        value={visit.client_id}
+                        onChange={(e) =>
+                          setVisit({
+                            ...visit,
+                            client_id: e.target.value,
+                            equipment_id: "",
+                            order_id: "",
+                          })
+                        }
+                      >
+                        <option value="">Selecione o cliente</option>
+                        {data.clients.map((c) => (
+                          <option key={c.id} value={c.id}>
+                            {c.name}
+                          </option>
+                        ))}
+                      </select>
+                    </label>
+                    <label>
+                      Equipamento da visita (opcional)
+                      <select
+                        aria-label="Equipamento da visita (opcional)"
+                        value={visit.equipment_id}
+                        onChange={(e) =>
+                          setVisit({ ...visit, equipment_id: e.target.value })
+                        }
+                      >
+                        <option value="">Sem equipamento vinculado</option>
+                        {data.equipment
+                          .filter((e) => e.client_id === visit.client_id)
+                          .map((e) => (
+                            <option key={e.id} value={e.id}>
+                              {e.label}
+                            </option>
+                          ))}
+                      </select>
+                    </label>
+                    <label>
+                      OS vinculada (opcional)
+                      <select
+                        aria-label="OS vinculada (opcional)"
+                        value={visit.order_id}
+                        onChange={(e) =>
+                          setVisit({ ...visit, order_id: e.target.value })
+                        }
+                      >
+                        <option value="">Sem OS vinculada</option>
+                        {data.orders
+                          .filter((o) => o.client_id === visit.client_id)
+                          .map((o) => (
+                            <option key={o.id} value={o.id}>
+                              Orçamento {o.code}
+                            </option>
+                          ))}
+                      </select>
+                    </label>
+                    <HelpField
+                      label="Técnico responsável"
+                      help="Informe sempre o mesmo nome para a mesma pessoa. Visitas agendadas desse técnico não podem se sobrepor. Não há cadastro de equipe ou calendário externo."
+                    >
+                      <input
+                        required
+                        minLength={2}
+                        maxLength={120}
+                        value={visit.technician}
+                        onChange={(e) =>
+                          setVisit({ ...visit, technician: e.target.value })
+                        }
+                      />
+                    </HelpField>
+                    <label>
+                      Início da visita
+                      <input
+                        required
+                        type="datetime-local"
+                        value={visit.starts_at}
+                        onChange={(e) =>
+                          setVisit({ ...visit, starts_at: e.target.value })
+                        }
+                      />
+                    </label>
+                    <label>
+                      Duração (minutos)
+                      <input
+                        required
+                        type="number"
+                        min={15}
+                        max={480}
+                        value={visit.duration_minutes}
+                        onChange={(e) =>
+                          setVisit({
+                            ...visit,
+                            duration_minutes: Number(e.target.value),
+                          })
+                        }
+                      />
+                    </label>
+                  </div>
+                  <label>
+                    Observações da visita
+                    <textarea
+                      maxLength={2000}
+                      value={visit.notes}
+                      onChange={(e) =>
+                        setVisit({ ...visit, notes: e.target.value })
+                      }
+                    />
+                  </label>
+                  <div className="actions">
+                    <button disabled={busy || !data.clients.length}>
+                      {busy ? "Salvando…" : "Salvar visita"}
+                    </button>
+                    <button
+                      type="button"
+                      className="secondary"
+                      disabled={busy}
+                      onClick={() => visitEditor.current?.close()}
+                    >
+                      Voltar à agenda
+                    </button>
+                  </div>
+                  {!data.clients.length && (
+                    <p className="muted">
+                      Cadastre um cliente na aba Clientes primeiro.
+                    </p>
+                  )}
+                </form>
+              </dialog>
             </>
           )}
         </>

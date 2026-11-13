@@ -1,5 +1,6 @@
 "use client";
 import { use, useEffect, useRef, useState } from "react";
+import { BrisaMark, BrisaIcon } from "@/app/components/brisa-identity";
 import { HelpField } from "@/app/components/help-field";
 const brl = (v: number | string) =>
   new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" }).format(
@@ -37,21 +38,29 @@ export default function Portal({
         style={{ "--teal": quote?.snapshot.brand.color } as React.CSSProperties}
       >
         <header>
+          <BrisaMark />
           <div>
             <span className="eyebrow">Portal do cliente</span>
             <h1>{quote?.snapshot.brand.name ?? "Seu orçamento"}</h1>
           </div>
-          <span className="badge">Conexão direta com a empresa</span>
+          <span className="badge">
+            <BrisaIcon name="shield" size={15} /> Proposta de serviços
+          </span>
         </header>
         {error && (
           <p className="notice error" role="alert">
             {error}
+            {!quote && (
+              <span className="link-recovery">
+                Peça um novo link à empresa para consultar sua proposta.
+              </span>
+            )}
           </p>
         )}
         {!quote && !error && <p role="status">Carregando orçamento…</p>}
         {quote && (
           <>
-            <section className="card">
+            <section className="card proposal-document">
               <div className="row">
                 <div>
                   <span className="eyebrow">
@@ -60,7 +69,12 @@ export default function Portal({
                   </span>
                   <h2>Olá, {quote.snapshot.client_name}.</h2>
                 </div>
-                <a href={`/api/pdf/${quote.id}?token=${token}`}>Baixar PDF</a>
+                <a
+                  className="export-link"
+                  href={`/api/pdf/${quote.id}?token=${token}`}
+                >
+                  <BrisaIcon name="download" size={16} /> Baixar PDF
+                </a>
               </div>
               <p className="muted">
                 Confira os serviços e as condições antes de decidir. Aprovar não
@@ -88,7 +102,7 @@ export default function Portal({
                   ))}
                 </tbody>
               </table>
-              <div className="row">
+              <div className="row proposal-total">
                 <span>Total do orçamento</span>
                 <strong className="total">{brl(quote.total_cents)}</strong>
               </div>
@@ -115,7 +129,7 @@ export default function Portal({
               </section>
             ) : (
               <form
-                className="card"
+                className="card proposal-decision"
                 onSubmit={async (e) => {
                   e.preventDefault();
                   const f = new FormData(e.currentTarget);

@@ -18,3 +18,12 @@ A=225cdcc, B=21a3a3d; builds em dependências próprias via npm ci e bancos pró
 Smoke sem overflow cobre estados visitados, não todas as combinações. Equipamento/agenda exigem CRUD real para declarar jornada, não apenas screenshot vazia. Download PDF confirma endpoint/tipo; auditoria visual do conteúdo é outra evidência. Testes aprovados não concedem G1, release ou ganho de produtividade.
 
 Executar rodadas sequenciais; separar .next de dev/build e manter DB ativo. Logs devem remover cookies/tokens e detalhes privados. Uma falha do harness/sincronização invalida aquela medição; preservar resumo e corrigir sem mascarar falha real. Leitor de tela, contraste sistemático, perda de rede após commit e ambiente externo continuam limitados ao que foi explicitamente testado.
+
+## Manutenção documental e apresentações
+
+- `python3 scripts/project-docs.py`: compara caminhos/tamanhos/SHA-256 correntes com docs/app-files.json e verifica destinos relativos de links Markdown.
+- `python3 scripts/project-docs.py --write`: regenera o inventário após fechar a documentação.
+- `python3 -m unittest discover -s tests -p 'test_project_docs.py' -v`: quatro testes do inventário (exclusão privada, hashes, links e symlinks).
+- No showroom, `python3 ../../.claude/skills/zod-ui-architect/scripts/review_board.py check BRISA_VISUAL_COMPOSITION.html`: verifica o formato de cenas da apresentação e rejeita URLs ativas, scripts de cena e preenchimentos sensíveis. Não executa o aplicativo nem é sanitizador universal.
+
+Essas verificações não exigem banco ou servidor. As 22 verificações de domínio da entrega visual continuam evidência daquela rodada; não confundir testes documentais atuais com reexecução de domínio/build.

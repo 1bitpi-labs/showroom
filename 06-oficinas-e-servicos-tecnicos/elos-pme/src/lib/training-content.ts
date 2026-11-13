@@ -85,9 +85,9 @@ export const tours: Record<
     title: "Agenda de visitas",
     steps: [
       {
-        title: "Planeje uma visita",
-        text: "Selecione cliente, técnico, data, horário e duração. A entrada usa o fuso do seu dispositivo; a lista mostra São Paulo.",
-        target: "agenda-form",
+        title: "Consulte e agende uma visita",
+        text: "Consulte a lista e use Agendar visita para escolher cliente, técnico, data, horário e duração. A entrada usa o fuso do seu dispositivo; a lista mostra São Paulo.",
+        target: "agenda-list",
       },
       {
         title: "Vincule o atendimento",

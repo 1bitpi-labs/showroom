@@ -1,5 +1,7 @@
 "use client";
 import { useEffect, useState, useRef } from "react";
+import { BrisaBrand, BrisaIcon } from "./components/brisa-identity";
+import { cycleDialogFocus } from "./components/dialog-focus";
 import { HelpField } from "./components/help-field";
 import { GettingStarted } from "./components/getting-started";
 import { nextSteps, eventLabels } from "@/lib/usage-guide";
@@ -87,13 +89,15 @@ export default function Dashboard() {
     ["settings", "Configurações", "⚙"],
     ["guide", "Guia de uso", "?"],
   ];
-  function navigate(key: string) {
-    setTab(key);
-    setQuoteFocusId(undefined);
-    setForm(null);
-    setMenuOpen(false);
-    menuDialog.current?.close();
-    commandDialog.current?.close();
+  function navigate(key: string, after?: () => void) {
+    requestExit(() => {
+      setTab(key);
+      setQuoteFocusId(undefined);
+      setForm(null);
+      setNotice("");
+      setError("");
+      after?.();
+    });
   }
   useEffect(() => {
     const shortcut = (e: KeyboardEvent) => {
@@ -106,16 +110,14 @@ export default function Dashboard() {
     return () => window.removeEventListener("keydown", shortcut);
   }, []);
   const renderNavigation = () =>
-    navigation.map(([key, name, icon]) => (
+    navigation.map(([key, name]) => (
       <button
         key={key}
         aria-current={tab === key ? "page" : undefined}
         className={tab === key ? "active" : ""}
         onClick={() => navigate(key)}
       >
-        <span aria-hidden="true" className="nav-icon">
-          {icon}
-        </span>
+        <BrisaIcon name={key} className="nav-icon" />
         {name}
         {key === "inbox" && (
           <span className="nav-count">{training.unread}</span>
@@ -124,14 +126,24 @@ export default function Dashboard() {
     ));
 
   const titles: Record<string, string> = {
-    quotes: "Orçamentos sem desencontro.",
-    orders: "Do aceite à entrega.",
-    clients: "Relacionamento organizado.",
-    equipment: "Cada aparelho, seu histórico.",
-    agenda: "Visitas com hora marcada.",
-    inbox: "Seus avisos e treinamentos.",
-    settings: "A identidade da sua operação.",
-    guide: "Ajuda em cada etapa.",
+    quotes: "Orçamentos",
+    orders: "Ordens de serviço",
+    clients: "Clientes",
+    equipment: "Equipamentos",
+    agenda: "Agenda",
+    inbox: "Caixa de entrada",
+    settings: "Configurações",
+    guide: "Guia de uso",
+  };
+  const descriptions: Record<string, string> = {
+    quotes: "Propostas bem cuidadas. Próximos passos claros.",
+    orders: "Do aceite à entrega, cada detalhe acompanhado.",
+    clients: "O cuidado começa por conhecer cada cliente.",
+    equipment: "Cada aparelho tem uma história. Mantenha-a por perto.",
+    agenda: "Seu tempo organizado. Cada atendimento no lugar.",
+    inbox: "Sua operação em dia, sem perder o contexto.",
+    settings: "A identidade da sua empresa em cada experiência.",
+    guide: "Tudo o que você precisa para trabalhar com clareza.",
   };
   const [form, setForm] = useState<typeof initial | null>(null);
   const [edit, setEdit] = useState<string>();
@@ -153,12 +165,69 @@ export default function Dashboard() {
       localStorage.setItem("brisa-guide-hidden-v1", "true");
     } catch {}
   }
+  const quoteForm = useRef<HTMLFormElement>(null);
+  const formBaseline = useRef("");
+  const leaveDialog = useRef<HTMLDialogElement>(null);
+  const pendingExit = useRef<(() => void) | null>(null);
+  const exitTrigger = useRef<HTMLElement | null>(null);
+  const dirty = form !== null && JSON.stringify(form) !== formBaseline.current;
+  const canSaveDraft =
+    !edit ||
+    data?.quotes.find((q) => q.id === edit)?.display_status === "draft";
+  useEffect(() => {
+    if (!dirty) return;
+    const warn = (event: BeforeUnloadEvent) => {
+      event.preventDefault();
+      event.returnValue = "";
+    };
+    window.addEventListener("beforeunload", warn);
+    return () => window.removeEventListener("beforeunload", warn);
+  }, [dirty]);
+  function requestExit(next: () => void) {
+    if (busy) return;
+    exitTrigger.current =
+      document.activeElement instanceof HTMLElement
+        ? document.activeElement
+        : null;
+    setMenuOpen(false);
+    menuDialog.current?.close();
+    commandDialog.current?.close();
+    if (!dirty) {
+      next();
+      return;
+    }
+    pendingExit.current = next;
+    setError("");
+    leaveDialog.current?.showModal();
+  }
+  function finishExit() {
+    setForm(null);
+    setError("");
+    const next = pendingExit.current;
+    pendingExit.current = null;
+    leaveDialog.current?.close();
+    next?.();
+  }
+  async function saveDraft() {
+    await api(edit ? `/api/quotes/${edit}` : "/api/quotes", {
+      action: "draft",
+      input: form,
+    });
+    setForm(null);
+    setNotice(
+      "Rascunho salvo. Ele ainda não possui link público; publique quando estiver pronto.",
+    );
+  }
   function startQuote() {
-    setTab("quotes");
-    setEdit(undefined);
-    setForm(structuredClone(initial));
-    setLink("");
-    setNotice("");
+    requestExit(() => {
+      setTab("quotes");
+      setEdit(undefined);
+      const fresh = structuredClone(initial);
+      formBaseline.current = JSON.stringify(fresh);
+      setForm(fresh);
+      setLink("");
+      setNotice("");
+    });
   }
   const [filter, setFilter] = useState("");
   const [history, setHistory] = useState<any>();
@@ -220,14 +289,16 @@ export default function Dashboard() {
   }
   function revise(q: Quote) {
     setEdit(q.id);
-    setForm({
+    const fresh = {
       ...initial,
       client_id: q.client_id,
       client_name: q.snapshot.client_name,
       contact: q.contact,
       conditions: q.snapshot.conditions,
-      items: q.snapshot.items,
-    });
+      items: structuredClone(q.snapshot.items),
+    };
+    formBaseline.current = JSON.stringify(fresh);
+    setForm(fresh);
     setLink("");
   }
   return (
@@ -241,23 +312,42 @@ export default function Dashboard() {
         style={{ "--teal": data?.settings.color } as React.CSSProperties}
       >
         <aside className="desktop-sidebar">
-          <div className="brand">
-            brisa oficina<small>CLIMATIZAÇÃO DEMO</small>
+          <BrisaBrand />
+          <div className="sidebar-workspace">
+            <span className="workspace-monogram">BO</span>
+            <div>
+              <strong>Brisa Oficina</strong>
+              <small>Climatização · demonstração</small>
+            </div>
           </div>
-          <nav>{renderNavigation()}</nav>
+          <div className="nav-section-label">Seu espaço de trabalho</div>
+          <nav aria-label="Navegação principal">{renderNavigation()}</nav>
+          <div className="sidebar-note">
+            <BrisaIcon name="shield" size={18} />
+            <span>
+              Uma operação.
+              <br />
+              <strong>Todos os detalhes.</strong>
+            </span>
+          </div>
           <div className="aside-footer">
-            ElosPME / Portal de serviços
-            <br />
-            Uma instalação. Seu fluxo.
-            <br />
-            <br />
+            <div className="operator-profile">
+              <span className="operator-avatar">OP</span>
+              <span>
+                <strong>Operador</strong>
+                <small>Área de gestão</small>
+              </span>
+            </div>
             <button
               className="secondary small"
               onClick={() =>
-                action(async () => {
-                  await api("/api/auth/sign-out", {});
-                  location.href = "/login";
-                })
+                requestExit(
+                  () =>
+                    void action(async () => {
+                      await api("/api/auth/sign-out", {});
+                      location.href = "/login";
+                    }),
+                )
               }
             >
               Sair da conta
@@ -277,50 +367,61 @@ export default function Dashboard() {
                 menuDialog.current?.showModal();
               }}
             >
-              ☰ <span>Menu</span>
+              <BrisaIcon name="menu" />
+              <span className="sr-only">Menu</span>
             </button>
             <span className="workspace-name">
-              {data?.settings.name ?? "Brisa Oficina"}
+              <BrisaIcon name="equipment" size={18} />
+              <span>{data?.settings.name ?? "Brisa Oficina"}</span>
+              <span className="workspace-divider">/</span>
+              <span className="workspace-section">{titles[tab]}</span>
             </span>
             <button
               className="secondary command-trigger"
+              aria-label="Buscar no aplicativo"
               onClick={() => commandDialog.current?.showModal()}
             >
-              Buscar… <kbd>Ctrl K</kbd>
+              <BrisaIcon name="search" size={17} />
+              <span>Buscar no Brisa</span>
+              <kbd>Ctrl K</kbd>
             </button>
           </div>
-          <header>
+          <header className="page-heading">
             <div>
               <span className="eyebrow">
-                {navigation.find(([key]) => key === tab)?.[1]}
+                {tab === "quotes"
+                  ? "Relacionamento & negócios"
+                  : tab === "agenda" || tab === "orders" || tab === "equipment"
+                    ? "Gestão da operação"
+                    : "Seu espaço de trabalho"}
               </span>
               <h1>{titles[tab]}</h1>
-              <div className="muted">
-                {data?.settings.name ?? "Carregando sua operação…"}
-              </div>
+              <p className="page-description">{descriptions[tab]}</p>
             </div>
             <div className="actions">
               <button
                 type="button"
                 className="secondary small"
+                aria-label="Ajuda nesta aba"
                 onClick={() => training.start()}
               >
-                Ajuda nesta aba
+                <BrisaIcon name="guide" size={17} />
+                <span>Ajuda</span>
               </button>
               <button
                 type="button"
                 className="secondary small"
                 onClick={() => {
-                  setTab("inbox");
-                  setForm(null);
+                  navigate("inbox");
                 }}
                 aria-label={`Notificações: ${training.unread} não lidas`}
               >
-                Notificações ({training.unread})
+                <BrisaIcon name="bell" size={18} />
+                <span className="notification-count">{training.unread}</span>
               </button>
               {tab === "quotes" && !form && (
                 <button data-tour="quote-new" onClick={startQuote}>
-                  + Novo orçamento
+                  <BrisaIcon name="plus" size={18} /> Novo orçamento
                 </button>
               )}
             </div>
@@ -344,9 +445,7 @@ export default function Dashboard() {
             <TrainingInbox
               training={training}
               onReplay={(tour, mode) => {
-                setTab(tour);
-                setForm(null);
-                training.start(tour, mode);
+                navigate(tour, () => training.start(tour, mode));
               }}
             />
           )}
@@ -354,9 +453,6 @@ export default function Dashboard() {
             <p role="status" className="notice">
               {notice}
             </p>
-          )}
-          {tab === "quotes" && !form && showIntro && data && (
-            <GettingStarted onHide={hideIntro} onStart={startQuote} />
           )}
           {tab === "guide" && (
             <div data-tour="guide-panel">
@@ -408,7 +504,8 @@ export default function Dashboard() {
           )}
           {form && (
             <form
-              className="card"
+              ref={quoteForm}
+              className="card quote-editor"
               onSubmit={(e) => {
                 e.preventDefault();
                 action(async () => {
@@ -421,207 +518,259 @@ export default function Dashboard() {
                 });
               }}
             >
-              <h2>{edit ? "Publicar nova revisão" : "Novo orçamento"}</h2>
-              <p className="muted">
-                A publicação gera uma versão fixa e um link exclusivo. Uma
-                revisão invalida o link anterior.
-              </p>
-              <ExistingClientPicker
-                value={form.client_id}
-                onSelect={(c) =>
-                  setForm({
-                    ...form,
-                    client_id: c?.id,
-                    client_name: c?.name ?? "",
-                    contact: c?.contact ?? "",
-                  })
-                }
-              />
-              {form.client_id && (
-                <p className="muted">
-                  Dados do cadastro selecionado. Para corrigir nome ou contato,
-                  use a aba Clientes; os dados atuais serão consultados ao
-                  publicar.
-                </p>
-              )}
-              <div className="fields">
-                <HelpField
-                  label="Cliente"
-                  help="Use o nome de quem receberá a proposta. Exemplo: Cliente Demonstração A. Confira antes de publicar: a versão enviada preserva esse nome."
-                >
-                  <input
-                    required
-                    minLength={2}
-                    maxLength={120}
-                    readOnly={!!form.client_id}
-                    value={form.client_name}
-                    onChange={(e) =>
-                      setForm({ ...form, client_name: e.target.value })
+              <div className="editor-layout">
+                <div className="editor-content">
+                  <h2 tabIndex={-1}>
+                    {edit ? "Publicar nova revisão" : "Novo orçamento"}
+                  </h2>
+                  <p className="muted">
+                    A publicação gera uma versão fixa e um link exclusivo. Uma
+                    revisão invalida o link anterior.
+                  </p>
+                  <h3 className="editor-section">
+                    <span>01</span> Cliente
+                  </h3>
+                  <ExistingClientPicker
+                    value={form.client_id}
+                    onSelect={(c) =>
+                      setForm({
+                        ...form,
+                        client_id: c?.id,
+                        client_name: c?.name ?? "",
+                        contact: c?.contact ?? "",
+                      })
                     }
                   />
-                </HelpField>
-                <HelpField
-                  label="Contato (opcional)"
-                  help="Anote um telefone ou e-mail para sua organização. Este campo não dispara mensagens e não aparece no portal público."
-                >
-                  <input
-                    maxLength={160}
-                    readOnly={!!form.client_id}
-                    value={form.contact}
-                    onChange={(e) =>
-                      setForm({ ...form, contact: e.target.value })
-                    }
-                  />
-                </HelpField>
-              </div>
-              <h3>Serviços e materiais</h3>
-              {form.items.map((item, i) => (
-                <div className="item" key={i}>
-                  <HelpField
-                    label="Descrição"
-                    context={`item ${i + 1}`}
-                    help="Descreva o serviço e o que está incluído. Exemplo: higienização de uma unidade split. Evite termos que o cliente não conhece."
-                  >
-                    <input
-                      required
-                      maxLength={200}
-                      value={item.description}
-                      onChange={(e) =>
-                        setForm({
-                          ...form,
-                          items: form.items.map((x, j) =>
-                            j === i ? { ...x, description: e.target.value } : x,
-                          ),
-                        })
-                      }
-                    />
-                  </HelpField>
-                  <HelpField
-                    label="Quantidade"
-                    context={`item ${i + 1}`}
-                    help="Informe um número inteiro de unidades, entre 1 e 1.000. Exemplo: 2 aparelhos. O subtotal é quantidade × valor unitário."
-                  >
-                    <input
-                      type="number"
-                      min={1}
-                      max={1000}
-                      required
-                      value={item.quantity}
-                      onChange={(e) =>
-                        setForm({
-                          ...form,
-                          items: form.items.map((x, j) =>
-                            j === i
-                              ? { ...x, quantity: Number(e.target.value) }
-                              : x,
-                          ),
-                        })
-                      }
-                    />
-                  </HelpField>
-                  <HelpField
-                    label="Valor unitário (R$)"
-                    context={`item ${i + 1}`}
-                    help="Informe o preço de uma unidade em reais. Exemplo: 180,00 por aparelho. O total mostrado considera todos os itens; não há cobrança automática."
-                  >
-                    <input
-                      type="number"
-                      min={0}
-                      max={1000000}
-                      step="0.01"
-                      required
-                      value={item.unit_cents / 100}
-                      onChange={(e) =>
-                        setForm({
-                          ...form,
-                          items: form.items.map((x, j) =>
-                            j === i
-                              ? {
-                                  ...x,
-                                  unit_cents: Math.round(
-                                    Number(e.target.value) * 100,
-                                  ),
-                                }
-                              : x,
-                          ),
-                        })
-                      }
-                    />
-                  </HelpField>
+                  {form.client_id && (
+                    <p className="muted">
+                      Dados do cadastro selecionado. Para corrigir nome ou
+                      contato, use a aba Clientes; os dados atuais serão
+                      consultados ao publicar.
+                    </p>
+                  )}
+                  <div className="fields">
+                    <HelpField
+                      label="Cliente"
+                      help="Use o nome de quem receberá a proposta. Exemplo: Cliente Demonstração A. Confira antes de publicar: a versão enviada preserva esse nome."
+                    >
+                      <input
+                        required
+                        minLength={2}
+                        maxLength={120}
+                        readOnly={!!form.client_id}
+                        value={form.client_name}
+                        onChange={(e) =>
+                          setForm({ ...form, client_name: e.target.value })
+                        }
+                      />
+                    </HelpField>
+                    <HelpField
+                      label="Contato (opcional)"
+                      help="Anote um telefone ou e-mail para sua organização. Este campo não dispara mensagens e não aparece no portal público."
+                    >
+                      <input
+                        maxLength={160}
+                        readOnly={!!form.client_id}
+                        value={form.contact}
+                        onChange={(e) =>
+                          setForm({ ...form, contact: e.target.value })
+                        }
+                      />
+                    </HelpField>
+                  </div>
+                  <h3 className="editor-section">
+                    <span>02</span> Serviços e materiais
+                  </h3>
+                  {form.items.map((item, i) => (
+                    <div className="item" key={i}>
+                      <HelpField
+                        label="Descrição"
+                        context={`item ${i + 1}`}
+                        help="Descreva o serviço e o que está incluído. Exemplo: higienização de uma unidade split. Evite termos que o cliente não conhece."
+                      >
+                        <input
+                          required
+                          maxLength={200}
+                          value={item.description}
+                          onChange={(e) =>
+                            setForm({
+                              ...form,
+                              items: form.items.map((x, j) =>
+                                j === i
+                                  ? { ...x, description: e.target.value }
+                                  : x,
+                              ),
+                            })
+                          }
+                        />
+                      </HelpField>
+                      <HelpField
+                        label="Quantidade"
+                        context={`item ${i + 1}`}
+                        help="Informe um número inteiro de unidades, entre 1 e 1.000. Exemplo: 2 aparelhos. O subtotal é quantidade × valor unitário."
+                      >
+                        <input
+                          type="number"
+                          min={1}
+                          max={1000}
+                          required
+                          value={item.quantity}
+                          onChange={(e) =>
+                            setForm({
+                              ...form,
+                              items: form.items.map((x, j) =>
+                                j === i
+                                  ? { ...x, quantity: Number(e.target.value) }
+                                  : x,
+                              ),
+                            })
+                          }
+                        />
+                      </HelpField>
+                      <HelpField
+                        label="Valor unitário (R$)"
+                        context={`item ${i + 1}`}
+                        help="Informe o preço de uma unidade em reais. Exemplo: 180,00 por aparelho. O total mostrado considera todos os itens; não há cobrança automática."
+                      >
+                        <input
+                          type="number"
+                          min={0}
+                          max={1000000}
+                          step="0.01"
+                          required
+                          value={item.unit_cents / 100}
+                          onChange={(e) =>
+                            setForm({
+                              ...form,
+                              items: form.items.map((x, j) =>
+                                j === i
+                                  ? {
+                                      ...x,
+                                      unit_cents: Math.round(
+                                        Number(e.target.value) * 100,
+                                      ),
+                                    }
+                                  : x,
+                              ),
+                            })
+                          }
+                        />
+                      </HelpField>
+                      <button
+                        type="button"
+                        className="secondary small"
+                        disabled={form.items.length === 1}
+                        onClick={() =>
+                          setForm({
+                            ...form,
+                            items: form.items.filter((_, j) => i !== j),
+                          })
+                        }
+                        aria-label={`Remover item ${i + 1}`}
+                      >
+                        Remover
+                      </button>
+                    </div>
+                  ))}
                   <button
                     type="button"
                     className="secondary small"
-                    disabled={form.items.length === 1}
+                    disabled={form.items.length >= 40}
                     onClick={() =>
                       setForm({
                         ...form,
-                        items: form.items.filter((_, j) => i !== j),
+                        items: [
+                          ...form.items,
+                          { description: "", quantity: 1, unit_cents: 0 },
+                        ],
                       })
                     }
-                    aria-label={`Remover item ${i + 1}`}
                   >
-                    Remover
+                    + Adicionar item
                   </button>
+                  <h3 className="editor-section">
+                    <span>03</span> Condições da proposta
+                  </h3>
+                  <div className="row">
+                    <HelpField
+                      label="Validade (dias)"
+                      help="Prazo de 1 a 90 dias a partir da publicação. Depois do vencimento, o cliente não pode usar o link para aprovar. Publique nova revisão para renovar."
+                    >
+                      <input
+                        required
+                        type="number"
+                        min={1}
+                        max={90}
+                        value={form.valid_days}
+                        onChange={(e) =>
+                          setForm({
+                            ...form,
+                            valid_days: Number(e.target.value),
+                          })
+                        }
+                      />
+                    </HelpField>
+                    <strong className="total">
+                      {brl(
+                        form.items.reduce(
+                          (sum, x) => sum + x.quantity * x.unit_cents,
+                          0,
+                        ),
+                      )}
+                    </strong>
+                  </div>
+                  <HelpField
+                    label="Condições"
+                    help="Explique inclusões, exclusões e como combinar execução e pagamento. Exemplo: materiais adicionais sujeitos a novo orçamento. O cliente verá este texto."
+                  >
+                    <textarea
+                      maxLength={2000}
+                      value={form.conditions}
+                      onChange={(e) =>
+                        setForm({ ...form, conditions: e.target.value })
+                      }
+                    />
+                  </HelpField>
                 </div>
-              ))}
-              <button
-                type="button"
-                className="secondary small"
-                disabled={form.items.length >= 40}
-                onClick={() =>
-                  setForm({
-                    ...form,
-                    items: [
-                      ...form.items,
-                      { description: "", quantity: 1, unit_cents: 0 },
-                    ],
-                  })
-                }
-              >
-                + Adicionar item
-              </button>
-              <div className="row">
-                <HelpField
-                  label="Validade (dias)"
-                  help="Prazo de 1 a 90 dias a partir da publicação. Depois do vencimento, o cliente não pode usar o link para aprovar. Publique nova revisão para renovar."
+                <section
+                  className="quote-summary"
+                  aria-label="Resumo da proposta"
                 >
-                  <input
-                    required
-                    type="number"
-                    min={1}
-                    max={90}
-                    value={form.valid_days}
-                    onChange={(e) =>
-                      setForm({ ...form, valid_days: Number(e.target.value) })
-                    }
-                  />
-                </HelpField>
-                <strong className="total">
-                  {brl(
-                    form.items.reduce(
-                      (sum, x) => sum + x.quantity * x.unit_cents,
-                      0,
-                    ),
-                  )}
-                </strong>
+                  <span className="eyebrow">Resumo da proposta</span>
+                  <h3>{form.client_name || "Seu próximo atendimento"}</h3>
+                  <p>Confira os detalhes antes de publicar.</p>
+                  <dl>
+                    <div>
+                      <dt>Itens na proposta</dt>
+                      <dd>{form.items.length}</dd>
+                    </div>
+                    <div>
+                      <dt>Validade</dt>
+                      <dd>{form.valid_days} dias</dd>
+                    </div>
+                  </dl>
+                  <div className="summary-total">
+                    <span>Valor total</span>
+                    <strong>
+                      {brl(
+                        form.items.reduce(
+                          (sum, item) => sum + item.quantity * item.unit_cents,
+                          0,
+                        ),
+                      )}
+                    </strong>
+                  </div>
+                  <p className="summary-assurance">
+                    <BrisaIcon name="shield" size={18} /> Publicar preserva esta
+                    revisão. Nenhuma cobrança é realizada.
+                  </p>
+                </section>
               </div>
-              <HelpField
-                label="Condições"
-                help="Explique inclusões, exclusões e como combinar execução e pagamento. Exemplo: materiais adicionais sujeitos a novo orçamento. O cliente verá este texto."
-              >
-                <textarea
-                  maxLength={2000}
-                  value={form.conditions}
-                  onChange={(e) =>
-                    setForm({ ...form, conditions: e.target.value })
-                  }
-                />
-              </HelpField>
               <div className="form-actions">
                 <button
                   className="secondary"
                   type="button"
-                  onClick={() => setForm(null)}
+                  onClick={() => requestExit(() => setForm(null))}
                 >
                   Voltar
                 </button>
@@ -632,18 +781,10 @@ export default function Dashboard() {
                     type="button"
                     disabled={busy}
                     className="secondary"
-                    onClick={() =>
-                      action(async () => {
-                        await api(
-                          edit ? `/api/quotes/${edit}` : "/api/quotes",
-                          { action: "draft", input: form },
-                        );
-                        setForm(null);
-                        setNotice(
-                          "Rascunho salvo. Ele ainda não possui link público; publique quando estiver pronto.",
-                        );
-                      })
-                    }
+                    onClick={() => {
+                      if (quoteForm.current?.reportValidity())
+                        void action(saveDraft);
+                    }}
                   >
                     Salvar rascunho
                   </button>
@@ -656,35 +797,72 @@ export default function Dashboard() {
           )}
           {!form && tab === "quotes" && (
             <>
-              <div className="stats">
-                {[
-                  [
-                    "Em aberto",
-                    data?.quotes.filter((q) => q.display_status === "sent")
-                      .length ?? 0,
-                  ],
-                  [
-                    "Aprovados",
-                    data?.quotes.filter((q) => q.display_status === "accepted")
-                      .length ?? 0,
-                  ],
-                  [
-                    "Em serviço",
-                    data?.orders.filter(
-                      (o) => !["completed", "cancelled"].includes(o.status),
-                    ).length ?? 0,
-                  ],
-                ].map(([name, value]) => (
-                  <div className="card" key={name}>
-                    <span className="muted">{name}</span>
-                    <div className="stat">{value}</div>
+              <section
+                className="operation-overview"
+                aria-label="Resumo dos orçamentos e serviços"
+              >
+                <div>
+                  <span className="overview-icon">
+                    <BrisaIcon name="quotes" />
+                  </span>
+                  <div>
+                    <span>Propostas em aberto</span>
+                    <strong>
+                      {brl(
+                        data?.quotes
+                          .filter((q) => q.display_status === "sent")
+                          .reduce((sum, q) => sum + Number(q.total_cents), 0) ??
+                          0,
+                      )}
+                    </strong>
+                    <small>
+                      {data?.quotes.filter((q) => q.display_status === "sent")
+                        .length ?? 0}{" "}
+                      aguardando decisão
+                    </small>
                   </div>
-                ))}
-              </div>
-              <section className="card" data-tour="quotes-list">
+                </div>
+                <div>
+                  <span className="overview-icon">
+                    <BrisaIcon name="check" />
+                  </span>
+                  <div>
+                    <span>Orçamentos aprovados</span>
+                    <strong>
+                      {data?.quotes.filter(
+                        (q) => q.display_status === "accepted",
+                      ).length ?? 0}
+                      <small>propostas</small>
+                    </strong>
+                    <small>Decisões registradas</small>
+                  </div>
+                </div>
+                <div>
+                  <span className="overview-icon">
+                    <BrisaIcon name="orders" />
+                  </span>
+                  <div>
+                    <span>Serviços em andamento</span>
+                    <strong>
+                      {data?.orders.filter((o) => o.status === "in_progress")
+                        .length ?? 0}
+                      <small>ordens de serviço</small>
+                    </strong>
+                    <small>Execução iniciada</small>
+                  </div>
+                </div>
+              </section>
+              <section className="card quote-directory" data-tour="quotes-list">
                 <div className="row">
-                  <h2>Seus orçamentos</h2>
-                  <a href="/api/export">Exportar CSV</a>
+                  <div>
+                    <h2>Suas propostas</h2>
+                    <p className="section-caption">
+                      Uma visão clara de cada negociação.
+                    </p>
+                  </div>
+                  <a className="export-link" href="/api/export">
+                    <BrisaIcon name="download" size={16} /> Exportar CSV
+                  </a>
                 </div>
                 <label>
                   Buscar por cliente ou número
@@ -754,11 +932,19 @@ export default function Dashboard() {
                           <span className={`badge ${q.display_status}`}>
                             {labels[q.display_status]}
                           </span>
-                          <p className="next-step">
-                            {nextSteps[q.display_status]}
-                          </p>
+                          <details className="quote-context">
+                            <summary>
+                              Próximo passo <BrisaIcon name="arrow" size={12} />
+                            </summary>
+                            <p className="next-step">
+                              {nextSteps[q.display_status]}
+                            </p>
+                          </details>
                         </div>
-                        <strong>{brl(q.total_cents)}</strong>
+                        <strong className="quote-value">
+                          <span>Valor da proposta</span>
+                          {brl(q.total_cents)}
+                        </strong>
                         <div className="actions">
                           {q.current_revision > 0 && (
                             <button
@@ -789,47 +975,71 @@ export default function Dashboard() {
                                 : "Nova revisão"}
                             </button>
                           )}
-                          <button
-                            disabled={busy}
-                            className="secondary small"
-                            onClick={() => {
-                              if (
-                                confirm(
-                                  "Revogar todos os links deste orçamento?",
-                                )
-                              )
-                                action(async () => {
-                                  await api(`/api/quotes/${q.id}`, {
-                                    action: "revoke",
-                                  });
-                                  setNotice(
-                                    "Link revogado. O acesso público foi bloqueado; o histórico e as decisões foram preservados.",
-                                  );
-                                });
-                            }}
-                          >
-                            Revogar link
-                          </button>
-                          {["sent", "change_requested", "expired"].includes(
-                            q.display_status,
-                          ) && (
-                            <button
-                              disabled={busy}
-                              className="secondary small"
-                              onClick={() => {
-                                if (confirm("Cancelar este orçamento?"))
-                                  action(async () => {
-                                    await api(`/api/quotes/${q.id}`, {
-                                      action: "cancel",
-                                    });
-                                    setNotice(
-                                      "Orçamento cancelado. Seus links foram bloqueados.",
-                                    );
-                                  });
+                          {q.current_revision > 0 && (
+                            <details
+                              className="record-more"
+                              onKeyDown={(e) => {
+                                if (e.key === "Escape") {
+                                  e.currentTarget.open = false;
+                                  e.currentTarget
+                                    .querySelector("summary")
+                                    ?.focus();
+                                }
                               }}
                             >
-                              Cancelar
-                            </button>
+                              <summary
+                                aria-label={`Mais ações do orçamento ${q.code}`}
+                              >
+                                <BrisaIcon name="more" />
+                              </summary>
+                              <div className="record-menu">
+                                {" "}
+                                <button
+                                  disabled={busy}
+                                  className="secondary small"
+                                  onClick={() => {
+                                    if (
+                                      confirm(
+                                        "Revogar todos os links deste orçamento?",
+                                      )
+                                    )
+                                      action(async () => {
+                                        await api(`/api/quotes/${q.id}`, {
+                                          action: "revoke",
+                                        });
+                                        setNotice(
+                                          "Link revogado. O acesso público foi bloqueado; o histórico e as decisões foram preservados.",
+                                        );
+                                      });
+                                  }}
+                                >
+                                  Revogar link
+                                </button>
+                                {[
+                                  "sent",
+                                  "change_requested",
+                                  "expired",
+                                ].includes(q.display_status) && (
+                                  <button
+                                    disabled={busy}
+                                    className="secondary small"
+                                    onClick={() => {
+                                      if (confirm("Cancelar este orçamento?"))
+                                        action(async () => {
+                                          await api(`/api/quotes/${q.id}`, {
+                                            action: "cancel",
+                                          });
+                                          setNotice(
+                                            "Orçamento cancelado. Seus links foram bloqueados.",
+                                          );
+                                        });
+                                    }}
+                                  >
+                                    Cancelar
+                                  </button>
+                                )}
+                              </div>
+                            </details>
                           )}
                         </div>
                       </article>
@@ -866,6 +1076,9 @@ export default function Dashboard() {
                   </p>
                 )}
               </section>
+              {showIntro && data && (
+                <GettingStarted onHide={hideIntro} onStart={startQuote} />
+              )}
             </>
           )}
           {tab === "orders" && (
@@ -1068,6 +1281,94 @@ export default function Dashboard() {
               </p>
             </section>
           )}
+          <nav className="mobile-taskbar" aria-label="Navegação rápida">
+            {[
+              ["quotes", "Propostas"],
+              ["orders", "Serviços"],
+              ["agenda", "Agenda"],
+              ["clients", "Clientes"],
+            ].map(([key, label]) => (
+              <button
+                key={key}
+                aria-current={tab === key ? "page" : undefined}
+                onClick={() => navigate(key)}
+              >
+                <BrisaIcon name={key} />
+                <span>{label}</span>
+              </button>
+            ))}
+            <button
+              aria-label="Mais áreas"
+              aria-expanded={menuOpen}
+              onClick={() => {
+                setMenuOpen(true);
+                menuDialog.current?.showModal();
+              }}
+            >
+              <BrisaIcon name="menu" />
+              <span>Mais</span>
+            </button>
+          </nav>
+          <dialog
+            ref={leaveDialog}
+            onKeyDown={cycleDialogFocus}
+            className="leave-editor-dialog"
+            aria-labelledby="leave-editor-title"
+            aria-describedby="leave-editor-description"
+            onCancel={(event) => {
+              if (busy) event.preventDefault();
+            }}
+            onClose={() => {
+              pendingExit.current = null;
+              const trigger = exitTrigger.current;
+              if (trigger?.isConnected && trigger.getClientRects().length)
+                trigger.focus();
+              else quoteForm.current?.querySelector<HTMLElement>("h2")?.focus();
+            }}
+          >
+            <h2 id="leave-editor-title">Salvar antes de sair?</h2>
+            <p id="leave-editor-description">
+              Há alterações não salvas neste orçamento. Continue editando ou
+              descarte as alterações para sair.
+            </p>
+            {error && (
+              <p role="alert" className="notice error">
+                {error}
+              </p>
+            )}
+            <div className="actions">
+              <button
+                autoFocus
+                className="secondary"
+                disabled={busy}
+                onClick={() => leaveDialog.current?.close()}
+              >
+                Continuar editando
+              </button>
+              <button className="danger" disabled={busy} onClick={finishExit}>
+                Descartar alterações
+              </button>
+              {canSaveDraft && (
+                <button
+                  disabled={busy}
+                  onClick={() => {
+                    if (!quoteForm.current?.checkValidity()) {
+                      setError(
+                        "Confira os campos obrigatórios do orçamento antes de salvar. Continue editando para corrigi-los.",
+                      );
+                      return;
+                    }
+                    void action(async () => {
+                      await saveDraft();
+                      finishExit();
+                    });
+                  }}
+                >
+                  {busy ? "Salvando…" : "Salvar rascunho e sair"}
+                </button>
+              )}
+            </div>
+          </dialog>
           <dialog
             ref={menuDialog}
             className="mobile-nav-dialog"
@@ -1089,10 +1390,13 @@ export default function Dashboard() {
             <button
               className="secondary"
               onClick={() =>
-                action(async () => {
-                  await api("/api/auth/sign-out", {});
-                  location.href = "/login";
-                })
+                requestExit(
+                  () =>
+                    void action(async () => {
+                      await api("/api/auth/sign-out", {});
+                      location.href = "/login";
+                    }),
+                )
               }
             >
               Sair da conta
@@ -1146,10 +1450,11 @@ export default function Dashboard() {
                     className="secondary"
                     key={q.id}
                     onClick={() => {
-                      navigate("quotes");
-                      setFilter(q.code);
-                      setQuoteFocusId(q.id);
-                      setQuoteStatus("");
+                      navigate("quotes", () => {
+                        setFilter(q.code);
+                        setQuoteFocusId(q.id);
+                        setQuoteStatus("");
+                      });
                     }}
                   >
                     Orçamento {q.code} · {q.snapshot.client_name}
