@@ -85,17 +85,32 @@ As notas abaixo refletem exclusivamente avaliações de subagentes Art Director 
   - `12 imgs (0 broken)`, `2 videos (1920px readyState 4)`, `EmDash: false`, `PageErrs: 0`.
   - Servidor HTTP local validado com status `200` em `/index.html`, `/styles.css`, `/app.js`, `/assets/video/hero-sea.mp4` e `/assets/img/marina-vista-aerea.jpg`.
 
-### 3.4 Limites Conhecidos e Próximos Passos (`Gate`)
+### 3.4 Limites Conhecidos e Status Atual do Gate
 - **Por que R04 ainda ficou abaixo da barra `95+` do `BRIEF.md`:** o projeto assumiu a restrição rígida de usar **exclusivamente fotografias reais extraídas do site do cliente** (píer com defensas, galpão fotografado ao meio-dia e várias lanchas na poita), em vez de renders/fotos de drone em *golden hour* com superiates isolados como no catálogo da Wally.
-- **Pendências apontadas pelo crítico para eventual Rodada 05 (ou produção):**
-  1. Produção de fotos aéreas de drone e sessão em *golden hour* da Marina Porto Ilhabela para elevar `Light`/`Detail` em `S02` e `S03` ao teto `95+`.
-  2. Refino de escala e centralização vertical do lockup central (`MARINA PORTO` + 3 velas) em `S01`.
-  3. Elemento gráfico/silhueta de embarcação mais destacado no card escuro `TEMPORADA ILHABELA 2026` em `S03`.
-- **Status atual do Gate (`cook/ROUNDS.md`):** `stills approved [pending user gate]`. O protótipo está validado e pronto para apresentação comercial (*Show, Don't Tell*) e para aprovação visual do usuário antes de qualquer eventual R05 ou publicação.
+- **Status atual do Gate (`cook/ROUNDS.md`):** `stills approved [pending user gate]`. O protótipo está validado como prova de valor (*Show, Don't Tell*), porém ainda há refinamentos planejados para fechar o ciclo completo do `$cook`.
 
 ---
 
-## 4. Arquitetura de Arquivos e Símbolos
+## 4. Próximos Passos Planejados
+
+Os itens abaixo compõem o backlog planejado a partir de [`cook/BRIEF.md`](../cook/BRIEF.md), [`cook/ROUNDS.md`](../cook/ROUNDS.md) e [`../../.claude/skills/cook/references/ship.md`](../../.claude/skills/cook/references/ship.md):
+
+1. **Rodada 05 (`R05`) de Refinamento Visual (`cook/ROUNDS.md` -> meta `90+` calibrada):**
+   - **S01 (Header Lockup):** aumentar escala e centralização vertical do lockup central (`MARINA PORTO` + emblema de 3 velas) sobre o hero.
+   - **S02 (Contraste e Luz Editorial, hoje `78.8` com `Light 74 / Detail 76`):** elevar contraste tonal e destaque dos dois cards chanfrados (`jetski-3.jpg` e `estrutura-1.jpg`) e do bloco editorial `Engenharia e Mar` até `90+`.
+   - **S03 (Card `TEMPORADA ILHABELA 2026`):** inserir elemento gráfico / silhueta vetorial de embarcação mais destacado no centro do card escuro mantendo legibilidade das coordenadas `23º 47,9' S / 45º 21,9' W`.
+   - **Reavaliação Cega:** rodar 2 críticos zero-context sobre `cook/compare/r05/all.jpg` e atualizar o ledger `cook/ROUNDS.md`.
+2. **Cobertura Completa de Seções, Vídeo e Responsividade (`cook/harness.mjs`):**
+   - Estender o harness para capturar e validar visualmente o modo `Canal ao vivo` (`hero-sea.mp4`), o `#menu-overlay`, o `#concierge-modal`, todas as seções abaixo da dobra (`#servicos` nas 5 abas, `#historia`, `#ecossistema`, `#faq`, `footer`) e o viewport mobile (`390x844`, sem overflow horizontal e com touch target `>= 44px`).
+   - Tornar caminhos do `harness.mjs` portáveis (resolvendo diretório via `import.meta.url` em vez de caminho fixo).
+3. **Auditoria Pré-Publicação (`ship.md`) e Gate Final:**
+   - Executar varredura de privacidade/links (`git grep` para caminhos pessoais ou tokens), atualizar `docs/PROJETO.md` e `README.md` com os resultados finais de `R05` e aguardar aprovação do usuário no Gate para eventual PR/publicação.
+4. **Produção Fotográfica Opcional (Pós-Aprovação Comercial):**
+   - Caso o cliente contrate a versão final de produção, agendar sessão de drone/fotos em *golden hour* no Canal de São Sebastião para superar o teto fotográfico natural das imagens atuais e buscar a barra `95+`.
+
+---
+
+## 5. Arquitetura de Arquivos e Símbolos
 
 | Arquivo | Papel | Principais Símbolos / Seções |
 |---|---|---|

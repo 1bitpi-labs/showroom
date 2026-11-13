@@ -16,7 +16,8 @@ Protótipo funcional, navegável e 100% autônomo desenvolvido para a **Marina P
 3. **Avaliação obtida:**
    - **Seleção do cliente:** `9.5 / 10` em aderência ao estilo Wally e riqueza de ativos reais.
    - **Qualidade visual (Crítico Zero-Context em R04, após calibração `-18` sobre R03):** `S01` **86.0** (`+12.4`), `S02` **78.8** (`+4.6`), `S03` **83.0** (`+6.6`) e `9/10` em Motion/Interaction.
-   - **Saúde técnica:** `Interactive check: {"errs":[],"tabCount":5}`, `0` imagens quebradas, `EmDash: false`, HTTP `200` em todos os recursos locais. Detalhes de gaps remanescentes em [`docs/PROJETO.md`](./docs/PROJETO.md#34-limites-conhecidos-e-pr%C3%B3ximos-passos-gate).
+   - **Saúde técnica:** `Interactive check: {"errs":[],"tabCount":5}`, `0` imagens quebradas, `EmDash: false`, HTTP `200` em todos os recursos locais.
+4. **Próximos passos planejados:** execução da **Rodada 05 (`R05`)** (lockup `S01`, contraste/luz `S02` e silhueta no card `S03`), cobertura visual completa das seções abaixo da dobra/vídeo/mobile (`390x844`), portabilidade do `harness.mjs` e auditoria pré-publicação. Detalhes em [`docs/PROJETO.md`](./docs/PROJETO.md#4-pr%C3%B3ximos-passos-planejados).
 
 ---
 
