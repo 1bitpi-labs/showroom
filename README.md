@@ -292,3 +292,11 @@ Sistema Operacional para marinas, oficinas náuticas e serviços técnicos de al
 ## Zod UI — catálogo e skills de interface
 
 O [catálogo Zod UI](zod-ui-catalog/README.md) reúne código licenciado e referências visuais com evidências. O [guia operacional](zod-ui-catalog/docs/OPERATING-GUIDE.md) explica a extração/auditoria com [zod-ui-cataloger](.claude/skills/zod-ui-cataloger/SKILL.md), a busca/curadoria com [zod-ui-architect](.claude/skills/zod-ui-architect/SKILL.md), a taxonomia, os artefatos e a reutilização em outros projetos.
+
+## Marina Porto Ilhabela — protótipo editorial náutico (`$cook`)
+
+O protótipo [Marina Porto Ilhabela](cliente-marina-porto-ilhabela/README.md) ([site estático](cliente-marina-porto-ilhabela/index.html) · [documentação do projeto](cliente-marina-porto-ilhabela/docs/PROJETO.md) · [diário Cook R01–R04](cliente-marina-porto-ilhabela/cook/ROUNDS.md)) recria a estética geométrica chanfrada e o minimalismo marítimo da **Wally Yachts** utilizando ativos reais extraídos do cliente vencedor em [CLIENT_EVALUATION.md](CLIENT_EVALUATION.md) (vídeo 1080p do canal, fotos da estrutura, história da família Möller, rebocadores hidráulicos *Seahorse* e *Rino* e Sala Rádio VHF Delta 38).
+
+- **Como rodar localmente:** `python3 -m http.server 8080 --bind 127.0.0.1` dentro de `cliente-marina-porto-ilhabela/` (ou via `npx --yes serve -l 8080 .`) e abrir `http://127.0.0.1:8080/`.
+- **Benchmarks e metodologia:** [7 benchmarks náuticos Awwwards/FWA](benchmarks-nauticos/BENCHMARKS_NAUTICOS_AWWWARDS.md) (`benchmarks-nauticos/screens/`) e skills adicionadas em [`.claude/skills/`](.claude/skills/): [`cinematic-site-hunter`](.claude/skills/cinematic-site-hunter/SKILL.md), [`cook`](.claude/skills/cook/SKILL.md) e [`client-cook-pipeline`](.claude/skills/client-cook-pipeline/SKILL.md).
+
