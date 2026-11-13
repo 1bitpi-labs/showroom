@@ -1,27 +1,50 @@
-# 🏛️ 1Bitpi Labs — Showroom Comercial & Portfólio de Sistemas (Agent OS)
+# 🏛️ 1Bitpi Labs — Showroom de Produtos, Sites & Modelos Operacionais
 
 Bem-vindo ao **Showroom Oficial da 1Bitpi Labs**!  
-Esta pasta reúne **todos os sites e plataformas operacionais criadas com a arquitetura AetherForge + PIAOS**, devidamente **separados e categorizados por modelo de negócio**, com **vídeos demonstrativos, fotos em alta resolução, especificações técnicas de features e casos de uso reais** para empresas que desejam comprar, licenciar ou contratar uma solução sob medida.
+Este repositório é organizado exclusivamente para **desenvolvimento de produtos/sites sob medida** e **vitrine pública de demonstrações** (`https://1bitpi-labs.github.io/showroom/`), separando com clareza entregas reais para clientes, modelos setoriais reutilizáveis e material de referência técnica/visual.
 
 [![Abrir Vitrine Executiva Ao Vivo](https://img.shields.io/badge/%F0%9F%8F%86_ABRIR_VITRINE_EXECUTIVA_COMPLETA_AO_VIVO-0891a6?style=for-the-badge)](https://1bitpi-labs.github.io/showroom/index.html)
 [![Vídeo da Vitrine](https://img.shields.io/badge/%F0%9F%8E%AC_V%C3%8DDEO_DA_VITRINE_(MP4)-f26a4b?style=for-the-badge)](https://1bitpi-labs.github.io/showroom/player.html?id=vitrine)
 
 ---
 
-## 🧭 Mapa de Categorias do Showroom (Portfólio Pronto para Contratação)
+## 🗂️ Arquitetura do Repositório
+
+| Pasta | Papel no Showroom | Conteúdo |
+| :--- | :--- | :--- |
+| **[`projetos/`](./projetos/)** | **Produtos & Sites Reais** | Entregas dedicadas para clientes e sistemas completos com código, suíte de testes e documentação própria (`marina-porto-ilhabela`, `cais-os`, `elos-pme`). |
+| **[`verticais/`](./verticais/)** | **7 Modelos por Vertical (PIAOS)** | Edições estáticas demonstrativas por segmento (`00` a `06`), dados em `_data/` e mídias em `assets/` prontos para GitHub Pages e white-label. |
+| **[`referencias/`](./referencias/)** | **Referências, Discovery & UI** | Catálogo compartilhado [`zod-ui-catalog/`](./referencias/zod-ui-catalog/README.md), [`benchmarks-nauticos/`](./referencias/benchmarks-nauticos/BENCHMARKS_NAUTICOS_AWWWARDS.md) e avaliações de [`discovery/`](./referencias/discovery/marina-porto-ilhabela-evaluation.md). |
+| **[`.claude/skills/`](./.claude/skills/)** | **Skills de Engenharia & Design** | Playbooks reutilizáveis para criação (`cook`, `client-cook-pipeline`, `cinematic-site-hunter`, `zod-ui-architect`, `zod-ui-cataloger`, `delivery-eval-docs`). |
+
+---
+
+## ⚓ Projetos & Produtos Reais (`projetos/`)
+
+Consulte [`projetos/README.md`](./projetos/README.md) para detalhes técnicos completos de cada entrega:
+
+| Projeto | Proposta & Arquitetura | Demonstração & Verificação |
+| :--- | :--- | :--- |
+| **[Marina Porto Ilhabela](./projetos/marina-porto-ilhabela/README.md)** | Site editorial náutico (*Wally Yachts style*, `$cook` R05) com vídeo 1080p, 22 ativos reais offline, 5 áreas operacionais e concierge WhatsApp. | [🚀 **Abrir Ao Vivo**](https://1bitpi-labs.github.io/showroom/projetos/marina-porto-ilhabela/index.html) · [🎬 **Vídeo 1080p**](https://1bitpi-labs.github.io/showroom/player.html?id=marina) · [📄 **PROJETO.md**](./projetos/marina-porto-ilhabela/docs/PROJETO.md) · [📊 **Eval 93.31/100**](./projetos/marina-porto-ilhabela/evals/saida/EVAL-REPORT.md) |
+| **[Cais OS](./projetos/cais-os/README.md)** | Portal de OS Náutica em 4 visões (WhatsApp, Mobile 390px com Gêmeo Digital SVG, Tablet Mecânico e Balcão), trava imutável `v1-approved` e sinal Pix 30% (EMVCo). | [🚀 **Abrir 4 Visões**](https://1bitpi-labs.github.io/showroom/projetos/cais-os/index.html) · [📱 **Visão Mobile**](https://1bitpi-labs.github.io/showroom/projetos/cais-os/preview-visao2-mobile.html) · [📄 **PRD**](./projetos/cais-os/PRD.md) · **19/19 Pytests** |
+| **[ElosPME · Brisa Oficina](./projetos/elos-pme/README.md)** | SaaS full-stack para climatização (orçamentos, aceite público, OS, clientes, equipamentos e agenda) em Next.js 16 + React 19 + PostgreSQL 17. Requer execução local via Docker. | [🎨 **Composição Visual Estática**](https://1bitpi-labs.github.io/showroom/projetos/elos-pme/BRISA_VISUAL_COMPOSITION.html) · [🐳 **Guia Local**](./projetos/elos-pme/README.md) · [📚 **Índice Técnico**](./projetos/elos-pme/docs/INDEX.md) |
+
+---
+
+## 🧭 Mapa das 7 Verticais Demonstrativas (`verticais/`)
 
 Clique na pasta da categoria desejada para ver a **Ficha Comercial exclusiva** daquele segmento ou clique em **Abrir Ao Vivo** para interagir com o sistema real no seu navegador:
 
 | Cat. | Pasta da Categoria | Produto / Marca Modelo | Segmentos Empresariais Atendidos | Demonstração & Ficha Comercial |
 | :---: | :--- | :--- | :--- | :--- |
-| **🏆 Vitrine Geral** | [`showroom/index.html`](./index.html) | Hub Comparativo Multi-Empresas | Todas as 7 Verticais | [🚀 **Abrir Vitrine Ao Vivo**](https://1bitpi-labs.github.io/showroom/index.html) · [🎬 **Vídeo MP4**](https://1bitpi-labs.github.io/showroom/player.html?id=vitrine) |
-| **00** | [`00-core-enterprise-os/`](./00-core-enterprise-os/) | **1BitpiOS & PIAOS — Coastal Tech Edition** | Engenharia de Software, Operações de IA, Consultorias de Tecnologia & DevSecOps | [🚀 **Abrir Ao Vivo**](https://1bitpi-labs.github.io/showroom/00-core-enterprise-os/00-1bitpios-piaos.html) · [🎬 **Vídeo MP4**](https://1bitpi-labs.github.io/showroom/player.html?id=00) · [📄 **Ficha & Casos de Uso**](./00-core-enterprise-os/README.md) |
-| **01** | [`01-hospitalidade-e-turismo/`](./01-hospitalidade-e-turismo/) | **Maré Alta Resort — Hotel Boutique & Beach Resort** | Pousadas de Charme, Hotéis Boutique, Resorts Costeiros, Eco-Lodges & Aluguel de Temporada Premium | [🚀 **Abrir Ao Vivo**](https://1bitpi-labs.github.io/showroom/01-hospitalidade-e-turismo/01-pousada-boutique-litoral.html) · [🎬 **Vídeo MP4**](https://1bitpi-labs.github.io/showroom/player.html?id=01) · [📄 **Ficha & Casos de Uso**](./01-hospitalidade-e-turismo/README.md) |
-| **02** | [`02-gastronomia-e-beach-clubs/`](./02-gastronomia-e-beach-clubs/) | **Brasa & Maré Gastrobar — Culinary OS** | Restaurantes Autorais, Gastrobares, Beach Clubs, Parrillas, Adegas & Dark Kitchens Premium | [🚀 **Abrir Ao Vivo**](https://1bitpi-labs.github.io/showroom/02-gastronomia-e-beach-clubs/02-gastronomia-beach-club.html) · [🎬 **Vídeo MP4**](https://1bitpi-labs.github.io/showroom/player.html?id=02) · [📄 **Ficha & Casos de Uso**](./02-gastronomia-e-beach-clubs/README.md) |
-| **03** | [`03-saude-clinicas-e-wellness/`](./03-saude-clinicas-e-wellness/) | **AuraMed Clínica — Medicina Integrativa & Longevidade** | Clínicas Médicas, Consultórios Odontológicos, Dermatologia, Estética Avançada, Nutrologia & Spas Médicos | [🚀 **Abrir Ao Vivo**](https://1bitpi-labs.github.io/showroom/03-saude-clinicas-e-wellness/03-clinica-saude-wellness.html) · [🎬 **Vídeo MP4**](https://1bitpi-labs.github.io/showroom/player.html?id=03) · [📄 **Ficha & Casos de Uso**](./03-saude-clinicas-e-wellness/README.md) |
-| **04** | [`04-juridico-contabil-e-b2b/`](./04-juridico-contabil-e-b2b/) | **Vértice Advisory — Advocacia, Contabilidade & Consultoria Corporativa** | Escritórios de Advocacia, Bancas de Contabilidade Consultiva, Auditorias, Consultorias Financeiras & B2B | [🚀 **Abrir Ao Vivo**](https://1bitpi-labs.github.io/showroom/04-juridico-contabil-e-b2b/04-escritorio-servicos-b2b.html) · [🎬 **Vídeo MP4**](https://1bitpi-labs.github.io/showroom/player.html?id=04) · [📄 **Ficha & Casos de Uso**](./04-juridico-contabil-e-b2b/README.md) |
-| **05** | [`05-imobiliario-e-arquitetura/`](./05-imobiliario-e-arquitetura/) | **Horizonte Design — Imobiliária Boutique & Studio de Arquitetura** | Imobiliárias de Alto Padrão, Incorporadoras, Construtoras, Estúdios de Arquitetura & Interiores | [🚀 **Abrir Ao Vivo**](https://1bitpi-labs.github.io/showroom/05-imobiliario-e-arquitetura/05-imobiliaria-arquitetura.html) · [🎬 **Vídeo MP4**](https://1bitpi-labs.github.io/showroom/player.html?id=05) · [📄 **Ficha & Casos de Uso**](./05-imobiliario-e-arquitetura/README.md) |
-| **06** | [`06-oficinas-e-servicos-tecnicos/`](./06-oficinas-e-servicos-tecnicos/) | **TorqueLab Service — Centro Técnico Automotivo & Oficina Premium** | Oficinas Mecânicas Premium, Estética Automotiva (Detailing), Concessionárias, Náutica & Energia Solar | [🚀 **Abrir Ao Vivo**](https://1bitpi-labs.github.io/showroom/06-oficinas-e-servicos-tecnicos/06-oficina-servicos-tecnicos.html) · [🎬 **Vídeo MP4**](https://1bitpi-labs.github.io/showroom/player.html?id=06) · [📄 **Ficha & Casos de Uso**](./06-oficinas-e-servicos-tecnicos/README.md) |
+| **🏆 Vitrine Geral** | [`index.html`](./index.html) | Hub Comparativo Multi-Empresas | Projetos Reais + 7 Verticais | [🚀 **Abrir Vitrine Ao Vivo**](https://1bitpi-labs.github.io/showroom/index.html) · [🎬 **Vídeo MP4**](https://1bitpi-labs.github.io/showroom/player.html?id=vitrine) |
+| **00** | [`verticais/00-core-enterprise-os/`](./verticais/00-core-enterprise-os/) | **1BitpiOS & PIAOS — Coastal Tech Edition** | Engenharia de Software, Operações de IA, Consultorias de Tecnologia & DevSecOps | [🚀 **Abrir Ao Vivo**](https://1bitpi-labs.github.io/showroom/verticais/00-core-enterprise-os/00-1bitpios-piaos.html) · [🎬 **Vídeo MP4**](https://1bitpi-labs.github.io/showroom/player.html?id=00) · [📄 **Ficha & Casos de Uso**](./verticais/00-core-enterprise-os/README.md) |
+| **01** | [`verticais/01-hospitalidade-e-turismo/`](./verticais/01-hospitalidade-e-turismo/) | **Maré Alta Resort — Hotel Boutique & Beach Resort** | Pousadas de Charme, Hotéis Boutique, Resorts Costeiros, Eco-Lodges & Aluguel de Temporada Premium | [🚀 **Abrir Ao Vivo**](https://1bitpi-labs.github.io/showroom/verticais/01-hospitalidade-e-turismo/01-pousada-boutique-litoral.html) · [🎬 **Vídeo MP4**](https://1bitpi-labs.github.io/showroom/player.html?id=01) · [📄 **Ficha & Casos de Uso**](./verticais/01-hospitalidade-e-turismo/README.md) |
+| **02** | [`verticais/02-gastronomia-e-beach-clubs/`](./verticais/02-gastronomia-e-beach-clubs/) | **Brasa & Maré Gastrobar — Culinary OS** | Restaurantes Autorais, Gastrobares, Beach Clubs, Parrillas, Adegas & Dark Kitchens Premium | [🚀 **Abrir Ao Vivo**](https://1bitpi-labs.github.io/showroom/verticais/02-gastronomia-e-beach-clubs/02-gastronomia-beach-club.html) · [🎬 **Vídeo MP4**](https://1bitpi-labs.github.io/showroom/player.html?id=02) · [📄 **Ficha & Casos de Uso**](./verticais/02-gastronomia-e-beach-clubs/README.md) |
+| **03** | [`verticais/03-saude-clinicas-e-wellness/`](./verticais/03-saude-clinicas-e-wellness/) | **AuraMed Clínica — Medicina Integrativa & Longevidade** | Clínicas Médicas, Consultórios Odontológicos, Dermatologia, Estética Avançada, Nutrologia & Spas Médicos | [🚀 **Abrir Ao Vivo**](https://1bitpi-labs.github.io/showroom/verticais/03-saude-clinicas-e-wellness/03-clinica-saude-wellness.html) · [🎬 **Vídeo MP4**](https://1bitpi-labs.github.io/showroom/player.html?id=03) · [📄 **Ficha & Casos de Uso**](./verticais/03-saude-clinicas-e-wellness/README.md) |
+| **04** | [`verticais/04-juridico-contabil-e-b2b/`](./verticais/04-juridico-contabil-e-b2b/) | **Vértice Advisory — Advocacia, Contabilidade & Consultoria Corporativa** | Escritórios de Advocacia, Bancas de Contabilidade Consultiva, Auditorias, Consultorias Financeiras & B2B | [🚀 **Abrir Ao Vivo**](https://1bitpi-labs.github.io/showroom/verticais/04-juridico-contabil-e-b2b/04-escritorio-servicos-b2b.html) · [🎬 **Vídeo MP4**](https://1bitpi-labs.github.io/showroom/player.html?id=04) · [📄 **Ficha & Casos de Uso**](./verticais/04-juridico-contabil-e-b2b/README.md) |
+| **05** | [`verticais/05-imobiliario-e-arquitetura/`](./verticais/05-imobiliario-e-arquitetura/) | **Horizonte Design — Imobiliária Boutique & Studio de Arquitetura** | Imobiliárias de Alto Padrão, Incorporadoras, Construtoras, Estúdios de Arquitetura & Interiores | [🚀 **Abrir Ao Vivo**](https://1bitpi-labs.github.io/showroom/verticais/05-imobiliario-e-arquitetura/05-imobiliaria-arquitetura.html) · [🎬 **Vídeo MP4**](https://1bitpi-labs.github.io/showroom/player.html?id=05) · [📄 **Ficha & Casos de Uso**](./verticais/05-imobiliario-e-arquitetura/README.md) |
+| **06** | [`verticais/06-oficinas-e-servicos-tecnicos/`](./verticais/06-oficinas-e-servicos-tecnicos/) | **TorqueLab Service — Centro Técnico Automotivo & Oficina Premium** | Oficinas Mecânicas Premium, Estética Automotiva (Detailing), Concessionárias, Náutica & Energia Solar | [🚀 **Abrir Ao Vivo**](https://1bitpi-labs.github.io/showroom/verticais/06-oficinas-e-servicos-tecnicos/06-oficina-servicos-tecnicos.html) · [🎬 **Vídeo MP4**](https://1bitpi-labs.github.io/showroom/player.html?id=06) · [📄 **Ficha & Casos de Uso**](./verticais/06-oficinas-e-servicos-tecnicos/README.md) |
 
 ---
 
@@ -55,13 +78,13 @@ Diferente de templates comuns ou sites institucionais estáticos, cada sistema d
 
 ---
 
-## 📁 Categoria 00: [00 · Core Enterprise & Agent OS (1BitpiOS & PIAOS)](./00-core-enterprise-os/)
+## 📁 Categoria 00: [00 · Core Enterprise & Agent OS (1BitpiOS & PIAOS)](./verticais/00-core-enterprise-os/)
 
 > **Marca Modelo**: **1BitpiOS & PIAOS — Coastal Tech Edition**  
 > **Setor / Público**: Engenharia de Software, Operações de IA, Consultorias de Tecnologia & DevSecOps  
 > **Proposta**: *Hub Operacional de Agentes, Auditoria Anti-Prompt Injection e Catálogo Visual de Skills*
 
-[**🚀 ABRIR SITE AO VIVO**](https://1bitpi-labs.github.io/showroom/00-core-enterprise-os/00-1bitpios-piaos.html) · [**🎬 ASSISTIR VÍDEO HD (MP4)**](https://1bitpi-labs.github.io/showroom/player.html?id=00) · [**📂 Entrar na Pasta da Categoria (`00-core-enterprise-os/`)**](./00-core-enterprise-os/) · [**📋 Ficha Técnica Completa**](./00-core-enterprise-os/README.md)
+[**🚀 ABRIR SITE AO VIVO**](https://1bitpi-labs.github.io/showroom/verticais/00-core-enterprise-os/00-1bitpios-piaos.html) · [**🎬 ASSISTIR VÍDEO HD (MP4)**](https://1bitpi-labs.github.io/showroom/player.html?id=00) · [**📂 Entrar na Pasta da Categoria (`00-core-enterprise-os/`)**](./verticais/00-core-enterprise-os/) · [**📋 Ficha Técnica Completa**](./verticais/00-core-enterprise-os/README.md)
 
 Design oficial da **1Bitpi Labs** para o ecossistema **1BitpiOS / PIAOS**. Transforma coleções técnicas, repositórios GitHub e automações corporativas em uma central visual estilo Spotify + Apple Spatial UI, com inspeção de segurança contra Prompt Injection e orquestração via agente `pibit`.
 
@@ -76,21 +99,21 @@ Design oficial da **1Bitpi Labs** para o ecossistema **1BitpiOS / PIAOS**. Trans
   3. **Portal de Onboarding Técnico & Catálogo Interno de Automação**: O Hub funciona como um 'Spotify de Capacidades Internas' onde qualquer colaborador busca por tarefa (ex: 'Design', 'Scraping', 'Segurança') e copia o comando exato de execução. *(Ex: Um novo engenheiro precisa configurar o design system da empresa, pesquisa `UI` na barra superior, abre os 5 slides visuais do pacote e roda o comando gerado pelo `pibit`.)*
 - **Métricas de Retorno (ROI)**: Redução de **80% no tempo de triagem e homologação** de bibliotecas e agentes open-source. · **Zero incidentes de Prompt Injection** ou execução de código malicioso vindo de skills externas não auditadas. · Padronização de **100% do catálogo de ferramentas de IA** em uma interface única e auditável.
 
-![Vídeo Demonstrativo — 1BitpiOS & PIAOS — Coastal Tech Edition](./00-core-enterprise-os/media/preview.gif)
+![Vídeo Demonstrativo — 1BitpiOS & PIAOS — Coastal Tech Edition](./verticais/00-core-enterprise-os/media/preview.gif)
 
 | Foto 1: 3D Vinyl Sleeve & Catálogo Interativo | Foto 2: Grafo Orbital (`PIA-EXP-06`) & Palco `pibit` |
 | :---: | :---: |
-| ![Deck 3D](./00-core-enterprise-os/media/screenshot-deck.png) | ![Grafo Orbital](./00-core-enterprise-os/media/screenshot-orbital.png) |
+| ![Deck 3D](./verticais/00-core-enterprise-os/media/screenshot-deck.png) | ![Grafo Orbital](./verticais/00-core-enterprise-os/media/screenshot-orbital.png) |
 
 ---
 
-## 📁 Categoria 01: [01 · Hospitalidade, Pousadas Boutique & Turismo (Hospitality OS)](./01-hospitalidade-e-turismo/)
+## 📁 Categoria 01: [01 · Hospitalidade, Pousadas Boutique & Turismo (Hospitality OS)](./verticais/01-hospitalidade-e-turismo/)
 
 > **Marca Modelo**: **Maré Alta Resort — Hotel Boutique & Beach Resort**  
 > **Setor / Público**: Pousadas de Charme, Hotéis Boutique, Resorts Costeiros, Eco-Lodges & Aluguel de Temporada Premium  
 > **Proposta**: *Motor de Reservas Diretas 0% OTA, Concierge WhatsApp 24/7 e Governança de Suítes*
 
-[**🚀 ABRIR SITE AO VIVO**](https://1bitpi-labs.github.io/showroom/01-hospitalidade-e-turismo/01-pousada-boutique-litoral.html) · [**🎬 ASSISTIR VÍDEO HD (MP4)**](https://1bitpi-labs.github.io/showroom/player.html?id=01) · [**📂 Entrar na Pasta da Categoria (`01-hospitalidade-e-turismo/`)**](./01-hospitalidade-e-turismo/) · [**📋 Ficha Técnica Completa**](./01-hospitalidade-e-turismo/README.md)
+[**🚀 ABRIR SITE AO VIVO**](https://1bitpi-labs.github.io/showroom/verticais/01-hospitalidade-e-turismo/01-pousada-boutique-litoral.html) · [**🎬 ASSISTIR VÍDEO HD (MP4)**](https://1bitpi-labs.github.io/showroom/player.html?id=01) · [**📂 Entrar na Pasta da Categoria (`01-hospitalidade-e-turismo/`)**](./verticais/01-hospitalidade-e-turismo/) · [**📋 Ficha Técnica Completa**](./verticais/01-hospitalidade-e-turismo/README.md)
 
 Solução completa para **pousadas, hotéis boutique e resorts** que desejam eliminar a dependência de 15% a 20% de comissão das OTAs (Booking/Airbnb), oferecendo uma vitrine sensorial de suítes e experiências costeiras integrada a um Concierge de IA 24/7 no WhatsApp.
 
@@ -105,21 +128,21 @@ Solução completa para **pousadas, hotéis boutique e resorts** que desejam eli
   3. **Padronização de Limpeza e Inspeção Fotográfica de Suítes (Governança P6)**: A camareira envia 4 fotos padronizadas pelo celular e a governanta aprova no Gate Operacional P6 antes de o sistema notificar que a suíte está pronta para o hóspede. *(Ex: Hóspede solicita early check-in às 12h → Governanta valida o checklist fotográfico no painel → Sistema envia a chave digital e boas-vindas automaticamente.)*
 - **Métricas de Retorno (ROI)**: Economia imediata de **15% a 20% em comissões de OTAs** nas reservas migradas para o canal direto. · Aumento de **+32% na receita extra por hóspede (RevPAR/TRevPAR)** com venda automatizada de passeios e gastronomia. · Tempo médio de resposta no WhatsApp reduzido de **45 minutos para menos de 2 segundos** (24 horas por dia).
 
-![Vídeo Demonstrativo — Maré Alta Resort — Hotel Boutique & Beach Resort](./01-hospitalidade-e-turismo/media/preview.gif)
+![Vídeo Demonstrativo — Maré Alta Resort — Hotel Boutique & Beach Resort](./verticais/01-hospitalidade-e-turismo/media/preview.gif)
 
 | Foto 1: 3D Vinyl Sleeve & Catálogo Interativo | Foto 2: Grafo Orbital (`PIA-EXP-06`) & Palco `pibit` |
 | :---: | :---: |
-| ![Deck 3D](./01-hospitalidade-e-turismo/media/screenshot-deck.png) | ![Grafo Orbital](./01-hospitalidade-e-turismo/media/screenshot-orbital.png) |
+| ![Deck 3D](./verticais/01-hospitalidade-e-turismo/media/screenshot-deck.png) | ![Grafo Orbital](./verticais/01-hospitalidade-e-turismo/media/screenshot-orbital.png) |
 
 ---
 
-## 📁 Categoria 02: [02 · Gastronomia, Restaurantes & Beach Clubs (Culinary OS)](./02-gastronomia-e-beach-clubs/)
+## 📁 Categoria 02: [02 · Gastronomia, Restaurantes & Beach Clubs (Culinary OS)](./verticais/02-gastronomia-e-beach-clubs/)
 
 > **Marca Modelo**: **Brasa & Maré Gastrobar — Culinary OS**  
 > **Setor / Público**: Restaurantes Autorais, Gastrobares, Beach Clubs, Parrillas, Adegas & Dark Kitchens Premium  
 > **Proposta**: *Cardápio 3D Tátil, Sommelier Virtual no WhatsApp, Fila Inteligente e Controle de CMV*
 
-[**🚀 ABRIR SITE AO VIVO**](https://1bitpi-labs.github.io/showroom/02-gastronomia-e-beach-clubs/02-gastronomia-beach-club.html) · [**🎬 ASSISTIR VÍDEO HD (MP4)**](https://1bitpi-labs.github.io/showroom/player.html?id=02) · [**📂 Entrar na Pasta da Categoria (`02-gastronomia-e-beach-clubs/`)**](./02-gastronomia-e-beach-clubs/) · [**📋 Ficha Técnica Completa**](./02-gastronomia-e-beach-clubs/README.md)
+[**🚀 ABRIR SITE AO VIVO**](https://1bitpi-labs.github.io/showroom/verticais/02-gastronomia-e-beach-clubs/02-gastronomia-beach-club.html) · [**🎬 ASSISTIR VÍDEO HD (MP4)**](https://1bitpi-labs.github.io/showroom/player.html?id=02) · [**📂 Entrar na Pasta da Categoria (`02-gastronomia-e-beach-clubs/`)**](./verticais/02-gastronomia-e-beach-clubs/) · [**📋 Ficha Técnica Completa**](./verticais/02-gastronomia-e-beach-clubs/README.md)
 
 Plataforma gastronômica desenhada para **restaurantes, gastrobares e beach clubs** que querem substituir cardápios em PDF estáticos por uma experiência visual apetitosa em 3D, aumentar o ticket médio com harmonização por IA e acabar com a desistência de clientes na fila de espera.
 
@@ -134,21 +157,21 @@ Plataforma gastronômica desenhada para **restaurantes, gastrobares e beach club
   3. **Reserva Antecipada de Lounges e Day-Use com Sinal via Pix**: O sistema exige confirmação automática com pré-pagamento de consumação mínima via Pix direto pelo assistente no WhatsApp. *(Ex: Cliente solicita reserva de Lounge VIP para sábado → O agente envia o mapa dos lounges, cobra R$ 500 de consumação antecipada via Pix e emite o voucher QR Code automaticamente.)*
 - **Métricas de Retorno (ROI)**: Elevação de **+22% a +35% no ticket médio por pessoa** com sugestões ativas de harmonização e entradas. · **0% de clientes perdidos na fila de espera**, transformando o tempo de espera em consumo ativo de bebidas. · Redução do **CMV para a faixa meta de 26%–28%** com fichas técnicas auditadas no Gate do Chef.
 
-![Vídeo Demonstrativo — Brasa & Maré Gastrobar — Culinary OS](./02-gastronomia-e-beach-clubs/media/preview.gif)
+![Vídeo Demonstrativo — Brasa & Maré Gastrobar — Culinary OS](./verticais/02-gastronomia-e-beach-clubs/media/preview.gif)
 
 | Foto 1: 3D Vinyl Sleeve & Catálogo Interativo | Foto 2: Grafo Orbital (`PIA-EXP-06`) & Palco `pibit` |
 | :---: | :---: |
-| ![Deck 3D](./02-gastronomia-e-beach-clubs/media/screenshot-deck.png) | ![Grafo Orbital](./02-gastronomia-e-beach-clubs/media/screenshot-orbital.png) |
+| ![Deck 3D](./verticais/02-gastronomia-e-beach-clubs/media/screenshot-deck.png) | ![Grafo Orbital](./verticais/02-gastronomia-e-beach-clubs/media/screenshot-orbital.png) |
 
 ---
 
-## 📁 Categoria 03: [03 · Saúde, Clínicas Médicas, Odonto & Wellness (Health OS)](./03-saude-clinicas-e-wellness/)
+## 📁 Categoria 03: [03 · Saúde, Clínicas Médicas, Odonto & Wellness (Health OS)](./verticais/03-saude-clinicas-e-wellness/)
 
 > **Marca Modelo**: **AuraMed Clínica — Medicina Integrativa & Longevidade**  
 > **Setor / Público**: Clínicas Médicas, Consultórios Odontológicos, Dermatologia, Estética Avançada, Nutrologia & Spas Médicos  
 > **Proposta**: *Triagem Pré-Consulta com IA, Agenda Anti-Falta (No-Show Zero) e Prontuário LGPD*
 
-[**🚀 ABRIR SITE AO VIVO**](https://1bitpi-labs.github.io/showroom/03-saude-clinicas-e-wellness/03-clinica-saude-wellness.html) · [**🎬 ASSISTIR VÍDEO HD (MP4)**](https://1bitpi-labs.github.io/showroom/player.html?id=03) · [**📂 Entrar na Pasta da Categoria (`03-saude-clinicas-e-wellness/`)**](./03-saude-clinicas-e-wellness/) · [**📋 Ficha Técnica Completa**](./03-saude-clinicas-e-wellness/README.md)
+[**🚀 ABRIR SITE AO VIVO**](https://1bitpi-labs.github.io/showroom/verticais/03-saude-clinicas-e-wellness/03-clinica-saude-wellness.html) · [**🎬 ASSISTIR VÍDEO HD (MP4)**](https://1bitpi-labs.github.io/showroom/player.html?id=03) · [**📂 Entrar na Pasta da Categoria (`03-saude-clinicas-e-wellness/`)**](./verticais/03-saude-clinicas-e-wellness/) · [**📋 Ficha Técnica Completa**](./verticais/03-saude-clinicas-e-wellness/README.md)
 
 Plataforma digital para **clínicas médicas, odontológicas e centros de estética/longevidade** que desejam encantar pacientes de alto padrão, realizar a pré-anamnese automatizada pelo WhatsApp antes da consulta e reduzir drasticamente as faltas (no-show) na agenda dos especialistas.
 
@@ -163,21 +186,21 @@ Plataforma digital para **clínicas médicas, odontológicas e centros de estét
   3. **Acompanhamento Pós-Procedimento e Renovação de Protocolos Recorrentes**: Réguas de cuidado contínuo enviam orientações pós-consulta e avisam automaticamente quando chega o período de manutenção semestral/anual. *(Ex: 5 meses após aplicação dermatológica, a paciente recebe mensagem personalizada com o histórico do seu protocolo e agenda o retorno em 2 cliques.)*
 - **Métricas de Retorno (ROI)**: Queda da taxa de **No-Show (faltas) de ~18% para menos de 3.8%**. · Ganho de **12 a 15 minutos por atendimento**, permitindo atender mais pacientes com muito mais qualidade humana. · Aumento de **+40% na taxa de retorno e recorrência** de procedimentos preventivos e estéticos.
 
-![Vídeo Demonstrativo — AuraMed Clínica — Medicina Integrativa & Longevidade](./03-saude-clinicas-e-wellness/media/preview.gif)
+![Vídeo Demonstrativo — AuraMed Clínica — Medicina Integrativa & Longevidade](./verticais/03-saude-clinicas-e-wellness/media/preview.gif)
 
 | Foto 1: 3D Vinyl Sleeve & Catálogo Interativo | Foto 2: Grafo Orbital (`PIA-EXP-06`) & Palco `pibit` |
 | :---: | :---: |
-| ![Deck 3D](./03-saude-clinicas-e-wellness/media/screenshot-deck.png) | ![Grafo Orbital](./03-saude-clinicas-e-wellness/media/screenshot-orbital.png) |
+| ![Deck 3D](./verticais/03-saude-clinicas-e-wellness/media/screenshot-deck.png) | ![Grafo Orbital](./verticais/03-saude-clinicas-e-wellness/media/screenshot-orbital.png) |
 
 ---
 
-## 📁 Categoria 04: [04 · Advocacia, Contabilidade & Consultoria B2B (Legal & Advisory OS)](./04-juridico-contabil-e-b2b/)
+## 📁 Categoria 04: [04 · Advocacia, Contabilidade & Consultoria B2B (Legal & Advisory OS)](./verticais/04-juridico-contabil-e-b2b/)
 
 > **Marca Modelo**: **Vértice Advisory — Advocacia, Contabilidade & Consultoria Corporativa**  
 > **Setor / Público**: Escritórios de Advocacia, Bancas de Contabilidade Consultiva, Auditorias, Consultorias Financeiras & B2B  
 > **Proposta**: *Cofre de Contratos com Varredura de Riscos por IA, Controle de Prazos e Agente Paralegal*
 
-[**🚀 ABRIR SITE AO VIVO**](https://1bitpi-labs.github.io/showroom/04-juridico-contabil-e-b2b/04-escritorio-servicos-b2b.html) · [**🎬 ASSISTIR VÍDEO HD (MP4)**](https://1bitpi-labs.github.io/showroom/player.html?id=04) · [**📂 Entrar na Pasta da Categoria (`04-juridico-contabil-e-b2b/`)**](./04-juridico-contabil-e-b2b/) · [**📋 Ficha Técnica Completa**](./04-juridico-contabil-e-b2b/README.md)
+[**🚀 ABRIR SITE AO VIVO**](https://1bitpi-labs.github.io/showroom/verticais/04-juridico-contabil-e-b2b/04-escritorio-servicos-b2b.html) · [**🎬 ASSISTIR VÍDEO HD (MP4)**](https://1bitpi-labs.github.io/showroom/player.html?id=04) · [**📂 Entrar na Pasta da Categoria (`04-juridico-contabil-e-b2b/`)**](./verticais/04-juridico-contabil-e-b2b/) · [**📋 Ficha Técnica Completa**](./verticais/04-juridico-contabil-e-b2b/README.md)
 
 Ambiente executivo de alta credibilidade para **escritórios de advocacia, contabilidades consultivas e empresas de assessoria B2B**. Combina apresentação institucional de portfólio societário/tributário com automação de auditoria contratual (Due Diligence), pesquisa paralegal privada e portal transparente para clientes corporativos.
 
@@ -192,21 +215,21 @@ Ambiente executivo de alta credibilidade para **escritórios de advocacia, conta
   3. **Portal do Cliente sem 'Juridiquês' no WhatsApp (Redução de Ligações de Status)**: O assistente traduz movimentações processuais e contábeis para linguagem executiva simples e entrega documentos auditados sob demanda. *(Ex: O cliente pergunta pelo andamento da alteração contratual na Junta Comercial → O assistente informa a etapa atual e envia o protocolo em PDF instantaneamente.)*
 - **Métricas de Retorno (ROI)**: Redução de **85% no tempo operacional de triagem e revisão inicial de minutas**. · **Zero prazos judiciais ou fiscais perdidos** com monitoramento redundante automatizado. · Aumento na **conversão de propostas de honorários B2B** pela demonstração prática de governança e tecnologia.
 
-![Vídeo Demonstrativo — Vértice Advisory — Advocacia, Contabilidade & Consultoria Corporativa](./04-juridico-contabil-e-b2b/media/preview.gif)
+![Vídeo Demonstrativo — Vértice Advisory — Advocacia, Contabilidade & Consultoria Corporativa](./verticais/04-juridico-contabil-e-b2b/media/preview.gif)
 
 | Foto 1: 3D Vinyl Sleeve & Catálogo Interativo | Foto 2: Grafo Orbital (`PIA-EXP-06`) & Palco `pibit` |
 | :---: | :---: |
-| ![Deck 3D](./04-juridico-contabil-e-b2b/media/screenshot-deck.png) | ![Grafo Orbital](./04-juridico-contabil-e-b2b/media/screenshot-orbital.png) |
+| ![Deck 3D](./verticais/04-juridico-contabil-e-b2b/media/screenshot-deck.png) | ![Grafo Orbital](./verticais/04-juridico-contabil-e-b2b/media/screenshot-orbital.png) |
 
 ---
 
-## 📁 Categoria 05: [05 · Imobiliárias Boutique, Incorporadoras & Arquitetura (Spatial OS)](./05-imobiliario-e-arquitetura/)
+## 📁 Categoria 05: [05 · Imobiliárias Boutique, Incorporadoras & Arquitetura (Spatial OS)](./verticais/05-imobiliario-e-arquitetura/)
 
 > **Marca Modelo**: **Horizonte Design — Imobiliária Boutique & Studio de Arquitetura**  
 > **Setor / Público**: Imobiliárias de Alto Padrão, Incorporadoras, Construtoras, Estúdios de Arquitetura & Interiores  
 > **Proposta**: *Vitrine de Imóveis e Projetos Autorais, Plantas 3D, Qualificador VIP e Diário de Obra*
 
-[**🚀 ABRIR SITE AO VIVO**](https://1bitpi-labs.github.io/showroom/05-imobiliario-e-arquitetura/05-imobiliaria-arquitetura.html) · [**🎬 ASSISTIR VÍDEO HD (MP4)**](https://1bitpi-labs.github.io/showroom/player.html?id=05) · [**📂 Entrar na Pasta da Categoria (`05-imobiliario-e-arquitetura/`)**](./05-imobiliario-e-arquitetura/) · [**📋 Ficha Técnica Completa**](./05-imobiliario-e-arquitetura/README.md)
+[**🚀 ABRIR SITE AO VIVO**](https://1bitpi-labs.github.io/showroom/verticais/05-imobiliario-e-arquitetura/05-imobiliaria-arquitetura.html) · [**🎬 ASSISTIR VÍDEO HD (MP4)**](https://1bitpi-labs.github.io/showroom/player.html?id=05) · [**📂 Entrar na Pasta da Categoria (`05-imobiliario-e-arquitetura/`)**](./verticais/05-imobiliario-e-arquitetura/) · [**📋 Ficha Técnica Completa**](./verticais/05-imobiliario-e-arquitetura/README.md)
 
 Plataforma espacial e comercial para **imobiliárias boutique, corretores private, estúdios de arquitetura e construtoras**. Une a apresentação cinematográfica de residências e plantas baixas com qualificação automática de investidores e acompanhamento físico-financeiro de obras.
 
@@ -221,21 +244,21 @@ Plataforma espacial e comercial para **imobiliárias boutique, corretores privat
   3. **Transparência Total no Acompanhamento de Obra para Clientes à Distância**: Toda sexta-feira o engenheiro valida a medição fotográfica no Gate P6 e o proprietário visualiza o progresso exato pelo painel. *(Ex: Etapa de fundação e estrutura concluída → Engenheiro aprova o checklist fotográfico no Gate P6 → Cliente recebe o relatório visual no celular e autoriza a liberação da parcela.)*
 - **Métricas de Retorno (ROI)**: Aumento de **3.2x na conversão de leads qualificados** para visitas presenciais e propostas de compra. · Redução de **60% em visitas improdutivas**, focando a equipe comercial em clientes com real potencial de fechamento. · **100% de rastreabilidade nas medições de obra**, eliminando aditivos surpresa e retrabalho.
 
-![Vídeo Demonstrativo — Horizonte Design — Imobiliária Boutique & Studio de Arquitetura](./05-imobiliario-e-arquitetura/media/preview.gif)
+![Vídeo Demonstrativo — Horizonte Design — Imobiliária Boutique & Studio de Arquitetura](./verticais/05-imobiliario-e-arquitetura/media/preview.gif)
 
 | Foto 1: 3D Vinyl Sleeve & Catálogo Interativo | Foto 2: Grafo Orbital (`PIA-EXP-06`) & Palco `pibit` |
 | :---: | :---: |
-| ![Deck 3D](./05-imobiliario-e-arquitetura/media/screenshot-deck.png) | ![Grafo Orbital](./05-imobiliario-e-arquitetura/media/screenshot-orbital.png) |
+| ![Deck 3D](./verticais/05-imobiliario-e-arquitetura/media/screenshot-deck.png) | ![Grafo Orbital](./verticais/05-imobiliario-e-arquitetura/media/screenshot-orbital.png) |
 
 ---
 
-## 📁 Categoria 06: [06 · Centros Técnicos Automotivos, Oficinas Premium & Serviços (Service OS)](./06-oficinas-e-servicos-tecnicos/)
+## 📁 Categoria 06: [06 · Centros Técnicos Automotivos, Oficinas Premium & Serviços (Service OS)](./verticais/06-oficinas-e-servicos-tecnicos/)
 
 > **Marca Modelo**: **TorqueLab Service — Centro Técnico Automotivo & Oficina Premium**  
 > **Setor / Público**: Oficinas Mecânicas Premium, Estética Automotiva (Detailing), Concessionárias, Náutica & Energia Solar  
 > **Proposta**: *Checklist Fotográfico de Entrada, Pit-Stop Orbital dos Boxes ao Vivo e Orçamento em 1 Clique*
 
-[**🚀 ABRIR SITE AO VIVO**](https://1bitpi-labs.github.io/showroom/06-oficinas-e-servicos-tecnicos/06-oficina-servicos-tecnicos.html) · [**🎬 ASSISTIR VÍDEO HD (MP4)**](https://1bitpi-labs.github.io/showroom/player.html?id=06) · [**📂 Entrar na Pasta da Categoria (`06-oficinas-e-servicos-tecnicos/`)**](./06-oficinas-e-servicos-tecnicos/) · [**📋 Ficha Técnica Completa**](./06-oficinas-e-servicos-tecnicos/README.md)
+[**🚀 ABRIR SITE AO VIVO**](https://1bitpi-labs.github.io/showroom/verticais/06-oficinas-e-servicos-tecnicos/06-oficina-servicos-tecnicos.html) · [**🎬 ASSISTIR VÍDEO HD (MP4)**](https://1bitpi-labs.github.io/showroom/player.html?id=06) · [**📂 Entrar na Pasta da Categoria (`06-oficinas-e-servicos-tecnicos/`)**](./verticais/06-oficinas-e-servicos-tecnicos/) · [**📋 Ficha Técnica Completa**](./verticais/06-oficinas-e-servicos-tecnicos/README.md)
 
 Sistema de transparência radical e alta conversão para **oficinas mecânicas premium, centros de estética automotiva (detailing), manutenção náutica e integradores técnicos**. Elimina a desconfiança do cliente através de evidências fotográficas e acompanhamento ao vivo do veículo no box.
 
@@ -250,11 +273,11 @@ Sistema de transparência radical e alta conversão para **oficinas mecânicas p
   3. **CRM Preditivo de Manutenção Preventiva (Retorno Garantido da Frota)**: O sistema calcula a média mensal de km rodados daquele veículo e envia um lembrete automático 15 dias antes do vencimento da revisão preventiva. *(Ex: 6 meses após a revisão, o proprietário recebe mensagem do `TorqueLab` avisando que atingiu a janela estimada de 10.000 km e oferecendo agendamento prioritário para terça-feira.)*
 - **Métricas de Retorno (ROI)**: Taxa de **aprovação de orçamentos adicionais de 98.6%** graças à transparência fotográfica. · Giro **35% mais rápido dos elevadores/boxes** com aprovação de orçamento em menos de 15 minutos. · Aumento de **+45% na recorrência de clientes** através dos alertas automáticos de revisão preditiva.
 
-![Vídeo Demonstrativo — TorqueLab Service — Centro Técnico Automotivo & Oficina Premium](./06-oficinas-e-servicos-tecnicos/media/preview.gif)
+![Vídeo Demonstrativo — TorqueLab Service — Centro Técnico Automotivo & Oficina Premium](./verticais/06-oficinas-e-servicos-tecnicos/media/preview.gif)
 
 | Foto 1: 3D Vinyl Sleeve & Catálogo Interativo | Foto 2: Grafo Orbital (`PIA-EXP-06`) & Palco `pibit` |
 | :---: | :---: |
-| ![Deck 3D](./06-oficinas-e-servicos-tecnicos/media/screenshot-deck.png) | ![Grafo Orbital](./06-oficinas-e-servicos-tecnicos/media/screenshot-orbital.png) |
+| ![Deck 3D](./verticais/06-oficinas-e-servicos-tecnicos/media/screenshot-deck.png) | ![Grafo Orbital](./verticais/06-oficinas-e-servicos-tecnicos/media/screenshot-orbital.png) |
 
 
 ---
@@ -274,30 +297,38 @@ Se você visitou este Showroom e deseja implantar um desses sistemas na sua empr
 2. Abra a pasta da categoria e leia os **Casos de Uso** para identificar quais fluxos deseja ativar primeiro.
 3. Entre em contato com a **1Bitpi Labs** informando o código da categoria (ex: `Showroom 01 - Hospitalidade` ou `Showroom 04 - Jurídico/B2B`) para receber uma proposta personalizada.
 
-## ElosPME — Brisa Oficina · código completo
+---
 
-[ElosPME](06-oficinas-e-servicos-tecnicos/elos-pme/README.md) acrescenta uma demo local de climatização à categoria de serviços técnicos: orçamentos/aceite/OS, clientes, equipamentos, agenda e ajuda por conta. Desenvolvido com TSF local supervisionado, usando Next.js/React/PostgreSQL. [Documentação completa](06-oficinas-e-servicos-tecnicos/elos-pme/docs/INDEX.md) · [Comparação técnica](06-oficinas-e-servicos-tecnicos/elos-pme/docs/COMPARISON-RESULTS.md).
+## 📦 Detalhamento dos Projetos Reais (`projetos/`)
 
-Este projeto contém backend e exige instalação própria; não é executado pelo GitHub Pages. Dados sintéticos, sem homologação comercial, autonomia paga, WhatsApp automático, PMOC ou promessa de faturamento. As demonstrações existentes permanecem separadas.
+### Marina Porto Ilhabela — protótipo editorial náutico (`$cook`)
 
-## Cais OS — Portal de Ordem de Serviço Náutica & Liquidação Pix (PB-06 Lean Delivery)
+O protótipo [Marina Porto Ilhabela](projetos/marina-porto-ilhabela/README.md) ([site estático](projetos/marina-porto-ilhabela/index.html) · [documentação técnica](projetos/marina-porto-ilhabela/docs/PROJETO.md) · [avaliação e retrospectiva](projetos/marina-porto-ilhabela/docs/EVALUATION-AND-RETROSPECTIVE.md) · [eval quantitativo](projetos/marina-porto-ilhabela/evals/saida/EVAL-REPORT.md) · [diário Cook R01–R05](projetos/marina-porto-ilhabela/cook/ROUNDS.md)) recria a estética geométrica chanfrada e o minimalismo marítimo da **Wally Yachts** utilizando ativos reais extraídos do cliente vencedor em [marina-porto-ilhabela-evaluation.md](referencias/discovery/marina-porto-ilhabela-evaluation.md) (vídeo 1080p do canal, fotos da estrutura, história da família Möller, rebocadores hidráulicos *Seahorse* e *Rino* e Sala Rádio VHF Delta 38).
 
-[Cais OS](06-oficinas-e-servicos-tecnicos/cais-portal-os/README.md) · [Aplicação Interativa](06-oficinas-e-servicos-tecnicos/cais-portal-os/index.html) · [PRD](06-oficinas-e-servicos-tecnicos/cais-portal-os/PRD.md) · [Design System](06-oficinas-e-servicos-tecnicos/cais-portal-os/DESIGN-SYSTEM.md) · [Arquitetura](06-oficinas-e-servicos-tecnicos/cais-portal-os/ARCHITECTURE.md) · [Database](06-oficinas-e-servicos-tecnicos/cais-portal-os/DATABASE.md) · [Segurança & Pix](06-oficinas-e-servicos-tecnicos/cais-portal-os/SECURITY.md) · [Estilo de Código](06-oficinas-e-servicos-tecnicos/cais-portal-os/CODE-STYLE.md) · [Testes](06-oficinas-e-servicos-tecnicos/cais-portal-os/TESTING.md) · [Agent IA](06-oficinas-e-servicos-tecnicos/cais-portal-os/AGENT.md).
+- **Como rodar localmente:** `python3 -m http.server 8080 --bind 127.0.0.1` dentro de `projetos/marina-porto-ilhabela/` (ou via `npx --yes serve -l 8080 .`) e abrir `http://127.0.0.1:8080/`.
+- **Processo, entregas e avaliação (`R05` aprovado para fechamento/apresentação):** pipeline em 5 etapas (7 benchmarks -> avaliação de 3 clientes reais com nota `9.5/10` -> espelhamento offline de 22 ativos + MP4 1080p -> 5 rodadas `$cook` com telemetria HSV, vídeo ao vivo, 5 abas, modais e mobile `390x844` -> painel de 3 críticos zero-context + evals determinísticos). Medianas cegas `R05`: `S01 65.4`, `S02 63.6`, `S03 70.0` (teto fotográfico das fotos operacionais reais), `0` erros JS/DOM/overflow, `EmDash: false` e score global de eval **93.31 / 100**.
+
+### Cais OS — Portal de Ordem de Serviço Náutica & Liquidação Pix (PB-06 Lean Delivery)
+
+[Cais OS](projetos/cais-os/README.md) · [Aplicação Interativa](projetos/cais-os/index.html) · [Visão Mobile](projetos/cais-os/preview-visao2-mobile.html) · [PRD](projetos/cais-os/PRD.md) · [Design System](projetos/cais-os/DESIGN-SYSTEM.md) · [Arquitetura](projetos/cais-os/ARCHITECTURE.md) · [Database](projetos/cais-os/DATABASE.md) · [Segurança & Pix](projetos/cais-os/SECURITY.md) · [Estilo de Código](projetos/cais-os/CODE-STYLE.md) · [Testes](projetos/cais-os/TESTING.md) · [Agent IA](projetos/cais-os/AGENT.md).
 
 Sistema Operacional para marinas, oficinas náuticas e serviços técnicos de alto ticket baseado no case [Marina Imperial](https://marinaimperial.com.br/) (Caraguatatuba - SP). Desenvolvido sob o protocolo oficial **PB-06 Lean 4-Stage Delivery (PIAOS)**:
 - Esteira de 4 visões: WhatsApp (390px), Portal do Cliente com Gêmeo Digital SVG interativo e laudo pericial (390px), Tablet do Mecânico no Píer (768px) e Balcão/Command Center com telemetria de maré/canal e presença ativa (1440px).
-- Aprovação em 1 clique com trava imutável \`v1-approved\` e liquidação de sinal Pix de 30% (EMVCo BR Code).
+- Aprovação em 1 clique com trava imutável `v1-approved` e liquidação de sinal Pix de 30% (EMVCo BR Code).
 - Arquitetura autônoma (HTML5/CSS3/JavaScript vanilla puro), 110 design tokens W3C DTCG sem hex soltos, WCAG 2.2 AA (touch target de 44px) e 19 testes automatizados determinísticos (100% green).
 
-## Zod UI — catálogo e skills de interface
+### ElosPME — Brisa Oficina · código completo
 
-O [catálogo Zod UI](zod-ui-catalog/README.md) reúne código licenciado e referências visuais com evidências. O [guia operacional](zod-ui-catalog/docs/OPERATING-GUIDE.md) explica a extração/auditoria com [zod-ui-cataloger](.claude/skills/zod-ui-cataloger/SKILL.md), a busca/curadoria com [zod-ui-architect](.claude/skills/zod-ui-architect/SKILL.md), a taxonomia, os artefatos e a reutilização em outros projetos.
+[ElosPME](projetos/elos-pme/README.md) acrescenta uma aplicação completa de climatização à linha de serviços técnicos: orçamentos/aceite/OS, clientes, equipamentos, agenda e ajuda por conta. Desenvolvido com TSF local supervisionado, usando Next.js 16 / React 19 / PostgreSQL 17. [Composição Visual Estática](projetos/elos-pme/BRISA_VISUAL_COMPOSITION.html) · [Documentação completa](projetos/elos-pme/docs/INDEX.md) · [Comparação técnica](projetos/elos-pme/docs/COMPARISON-RESULTS.md).
 
-## Marina Porto Ilhabela — protótipo editorial náutico (`$cook`)
+Este projeto contém backend e exige instalação própria via Docker + Node 22; não é executado pelo GitHub Pages (apenas sua composição visual estática é servida diretamente). Dados sintéticos, sem homologação comercial, autonomia paga, WhatsApp automático, PMOC ou promessa de faturamento.
 
-O protótipo [Marina Porto Ilhabela](cliente-marina-porto-ilhabela/README.md) ([site estático](cliente-marina-porto-ilhabela/index.html) · [documentação técnica](cliente-marina-porto-ilhabela/docs/PROJETO.md) · [avaliação e retrospectiva](cliente-marina-porto-ilhabela/docs/EVALUATION-AND-RETROSPECTIVE.md) · [eval quantitativo](cliente-marina-porto-ilhabela/evals/saida/EVAL-REPORT.md) · [diário Cook R01–R05](cliente-marina-porto-ilhabela/cook/ROUNDS.md)) recria a estética geométrica chanfrada e o minimalismo marítimo da **Wally Yachts** utilizando ativos reais extraídos do cliente vencedor em [CLIENT_EVALUATION.md](CLIENT_EVALUATION.md) (vídeo 1080p do canal, fotos da estrutura, história da família Möller, rebocadores hidráulicos *Seahorse* e *Rino* e Sala Rádio VHF Delta 38).
+---
 
-- **Como rodar localmente:** `python3 -m http.server 8080 --bind 127.0.0.1` dentro de `cliente-marina-porto-ilhabela/` (ou via `npx --yes serve -l 8080 .`) e abrir `http://127.0.0.1:8080/`.
-- **Processo, entregas e avaliação (`R05` aprovado para fechamento/apresentação):** pipeline em 5 etapas (7 benchmarks -> avaliação de 3 clientes reais com nota `9.5/10` -> espelhamento offline de 22 ativos + MP4 1080p -> 5 rodadas `$cook` com telemetria HSV, vídeo ao vivo, 5 abas, modais e mobile `390x844` -> painel de 3 críticos zero-context + evals determinísticos). Medianas cegas `R05`: `S01 65.4`, `S02 63.6`, `S03 70.0` (teto fotográfico das fotos operacionais reais), `0` erros JS/DOM/overflow, `EmDash: false` e score global de eval **93.31 / 100**.
-- **Benchmarks e metodologia:** [7 benchmarks náuticos Awwwards/FWA](benchmarks-nauticos/BENCHMARKS_NAUTICOS_AWWWARDS.md) (`benchmarks-nauticos/screens/`) e skills adicionadas em [`.claude/skills/`](.claude/skills/): [`cinematic-site-hunter`](.claude/skills/cinematic-site-hunter/SKILL.md), [`cook`](.claude/skills/cook/SKILL.md), [`client-cook-pipeline`](.claude/skills/client-cook-pipeline/SKILL.md) e [`delivery-eval-docs`](.claude/skills/delivery-eval-docs/SKILL.md).
+## 🧩 Referências, Catálogo Zod UI & Skills (`referencias/` e `.claude/skills/`)
+
+- **Zod UI — catálogo e blueprints:** O [catálogo Zod UI](referencias/zod-ui-catalog/README.md) reúne código licenciado e referências visuais com evidências. O [guia operacional](referencias/zod-ui-catalog/docs/OPERATING-GUIDE.md) explica a extração/auditoria com [zod-ui-cataloger](.claude/skills/zod-ui-cataloger/SKILL.md), a busca/curadoria com [zod-ui-architect](.claude/skills/zod-ui-architect/SKILL.md), a taxonomia e a reutilização em outros projetos.
+- **Benchmarks & Discovery:** [7 benchmarks náuticos Awwwards/FWA](referencias/benchmarks-nauticos/BENCHMARKS_NAUTICOS_AWWWARDS.md) (`referencias/benchmarks-nauticos/screens/`) e avaliações em [`referencias/discovery/`](referencias/README.md).
+- **Skills de criação & avaliação:** [`.claude/skills/`](.claude/skills/) reúne [`cinematic-site-hunter`](.claude/skills/cinematic-site-hunter/SKILL.md), [`cook`](.claude/skills/cook/SKILL.md), [`client-cook-pipeline`](.claude/skills/client-cook-pipeline/SKILL.md), [`delivery-eval-docs`](.claude/skills/delivery-eval-docs/SKILL.md), [`zod-ui-architect`](.claude/skills/zod-ui-architect/SKILL.md) e [`zod-ui-cataloger`](.claude/skills/zod-ui-cataloger/SKILL.md).
+
 

@@ -5,7 +5,7 @@ description: Extrai e cataloga referências UI/UX no Zod UI, com auditoria deskt
 
 # Zod UI — extração e curadoria
 
-Localize `zod-ui-catalog/` na raiz do workspace. Se o projeto alvo estiver em outro diretório, use o caminho compartilhado informado pelo usuário; neste ambiente é `/home/caueantonacci/showroom/zod-ui-catalog`. Não inicialize um catálogo vazio para substituir o compartilhado. Leia `index/master-index.json` para a taxonomia completa; não invente categorias silenciosamente.
+Localize `referencias/zod-ui-catalog/` na raiz do workspace. Se o projeto alvo estiver em outro diretório, use o caminho compartilhado informado pelo usuário (ou `<repo_showroom>/referencias/zod-ui-catalog`). Não inicialize um catálogo vazio para substituir o compartilhado. Leia `index/master-index.json` para a taxonomia completa; não invente categorias silenciosamente.
 
 ## Roteamento
 
@@ -28,4 +28,4 @@ Esses nomes são rotas preferenciais, não prova de ferramentas instaladas. Ante
 
 ## Referência operacional
 
-Para exemplos de invocação, persistência, limites dos scripts e reprodução dos lotes, consulte `zod-ui-catalog/docs/OPERATING-GUIDE.md` na raiz compartilhada. Os scripts de lote têm manifestos fixos; não são ingestores genéricos de URLs. Dependências, demos e variantes não contam como novos componentes.
+Para exemplos de invocação, persistência, limites dos scripts e reprodução dos lotes, consulte `referencias/zod-ui-catalog/docs/OPERATING-GUIDE.md` na raiz compartilhada. Os scripts de lote têm manifestos fixos; não são ingestores genéricos de URLs. Dependências, demos e variantes não contam como novos componentes.

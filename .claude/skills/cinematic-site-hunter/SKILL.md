@@ -42,7 +42,7 @@ Para classificar um site como referência válida, ele deve atender a pelo menos
 
 ## 3. Script Automatizado de Captura (Puppeteer Headless)
 
-A skill inclui o utilitário [`scripts/capture_sites.js`](file:///home/caueantonacci/.t3/userdata/providers/antigravity/7be9b928ae8cba283f02640839db79b9ad29c4740201527659e873129d9e1991/config/skills/cinematic-site-hunter/scripts/capture_sites.js) para capturar no mínimo 3 ângulos por site (Hero, Navegação e Detalhe de Serviço/Produto), eliminando automaticamente banners de consentimento e modais intrusivos:
+A skill inclui o utilitário [`scripts/capture_sites.js`](scripts/capture_sites.js) (quando presente no diretório da skill) para capturar no mínimo 3 ângulos por site (Hero, Navegação e Detalhe de Serviço/Produto), eliminando automaticamente banners de consentimento e modais intrusivos:
 
 ```bash
 TMPDIR=/tmp node <caminho_da_skill>/scripts/capture_sites.js --urls "https://site1.com,https://site2.com" --outDir "./screens"

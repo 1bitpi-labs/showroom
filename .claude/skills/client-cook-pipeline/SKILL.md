@@ -30,7 +30,7 @@ Em ambientes Linux com limite de comprimento em `SingletonSocket` ou bloqueio HT
 - Extraia em JSON estruturado: `innerText`, `links` (WhatsApp `wa.me`, `tel:`, `mailto:`, Instagram, subpáginas), `imgs` (`naturalWidth`, `naturalHeight`, `src`), `bgImages`, `videos` (`.mp4` e `poster`) e `svgs`.
 - Capture screenshots `hero` (`scrollY = 0`) e `mid` (`scrollY = 1000`) de cada candidato.
 
-### 1.2 Matriz de Decisão (`CLIENT_EVALUATION.md`)
+### 1.2 Matriz de Decisão (`referencias/discovery/<cliente>-evaluation.md`)
 Pontue e documente os candidatos em 4 eixos objetivos:
 1. **Autenticidade e Narrativa (ICP):** O negócio possui história real, métricas concretas (ano de fundação, capacidade física, diferenciais técnicos) e dados completos de contato/localização sem depender de invenção?
 2. **Riqueza de Ativos Extraíveis:** Há vídeo MP4 nativo, fotos landscape de alta resolução (1000px+), logotipos nítidos e ausência de dependência de imagens stock genéricas ou `.heic`?
@@ -41,7 +41,7 @@ Pontue e documente os candidatos em 4 eixos objetivos:
 
 ## Fase 2: Setup do `$cook` e Download Local de Ativos
 
-1. **Espelhamento Offline Obrigatório:** Baixe todos os ativos reais do cliente vencedor (fotos, vídeos MP4, logos) para `assets/img/` e `assets/video/` dentro da pasta do projeto (`cliente-<nome>/`).
+1. **Espelhamento Offline Obrigatório:** Baixe todos os ativos reais do cliente vencedor (fotos, vídeos MP4, logos) para `assets/img/` e `assets/video/` dentro da pasta do projeto (`projetos/<cliente>/`).
    - Dica Wix/CDN: URLs com `/v1/fill/w_...` frequentemente entregam o arquivo original em resolução integral ao remover o sufixo de transformação.
    - Converta PNGs gigantes (>5 MB) em JPEGs `2400px` (`quality=92`) mantendo os originais para renderização instantânea no harness.
 2. **Estrutura `cook/`:**
