@@ -1,0 +1,19 @@
+{
+  "kind": "automated-comparison-not-human-study",
+  "results": [
+    {
+      "version": "A",
+      "commit": "225cdcc",
+      "width": 360,
+      "tasks": [
+        {
+          "name": "Clientes",
+          "status": "fail",
+          "error": "Error: page.evaluate: TypeError: Cannot read properties of undefined (reading 'getBoundingClientRect')\n    at eval (eval at evaluate (:370:30), <anonymous>:1:193)\n    at UtilityScript.evaluate (<anonymous>:372:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+          "automation_ms": 93
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

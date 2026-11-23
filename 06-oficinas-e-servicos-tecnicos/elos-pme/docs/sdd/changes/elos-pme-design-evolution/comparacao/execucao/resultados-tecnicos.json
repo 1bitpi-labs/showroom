@@ -1,0 +1,185 @@
+{
+  "kind": "automated-comparison-not-human-study",
+  "results": [
+    {
+      "version": "A",
+      "commit": "225cdcc",
+      "width": 360,
+      "tasks": [
+        {
+          "name": "Clientes",
+          "status": "pass",
+          "automation_ms": 6457
+        },
+        {
+          "name": "Orçamento e aceite",
+          "status": "pass",
+          "automation_ms": 3621
+        },
+        {
+          "name": "OS",
+          "status": "pass",
+          "automation_ms": 6305
+        },
+        {
+          "name": "Equipamento e agenda",
+          "status": "pass",
+          "automation_ms": 6374
+        },
+        {
+          "name": "Ajuda preserva campos",
+          "status": "pass",
+          "automation_ms": 3161
+        },
+        {
+          "name": "Localização e PDF",
+          "status": "pass",
+          "automation_ms": 3198
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "width": 360,
+        "scrollWidth": 360,
+        "searchDocumentY": 1308,
+        "addClientButton": false
+      },
+      "overflow": false
+    },
+    {
+      "version": "B",
+      "commit": "21a3a3d",
+      "width": 360,
+      "tasks": [
+        {
+          "name": "Clientes",
+          "status": "pass",
+          "automation_ms": 6546
+        },
+        {
+          "name": "Orçamento e aceite",
+          "status": "pass",
+          "automation_ms": 3660
+        },
+        {
+          "name": "OS",
+          "status": "pass",
+          "automation_ms": 4919
+        },
+        {
+          "name": "Equipamento e agenda",
+          "status": "pass",
+          "automation_ms": 3583
+        },
+        {
+          "name": "Ajuda preserva campos",
+          "status": "pass",
+          "automation_ms": 3254
+        },
+        {
+          "name": "Localização e PDF",
+          "status": "pass",
+          "automation_ms": 3226
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "width": 360,
+        "scrollWidth": 360,
+        "searchDocumentY": 660,
+        "addClientButton": true
+      },
+      "overflow": false
+    },
+    {
+      "version": "B",
+      "commit": "21a3a3d",
+      "width": 1280,
+      "tasks": [
+        {
+          "name": "Clientes",
+          "status": "pass",
+          "automation_ms": 6463
+        },
+        {
+          "name": "Orçamento e aceite",
+          "status": "pass",
+          "automation_ms": 3571
+        },
+        {
+          "name": "OS",
+          "status": "pass",
+          "automation_ms": 6360
+        },
+        {
+          "name": "Equipamento e agenda",
+          "status": "pass",
+          "automation_ms": 6379
+        },
+        {
+          "name": "Ajuda preserva campos",
+          "status": "pass",
+          "automation_ms": 3224
+        },
+        {
+          "name": "Localização e PDF",
+          "status": "pass",
+          "automation_ms": 3134
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "searchDocumentY": 507,
+        "addClientButton": true
+      },
+      "overflow": false
+    },
+    {
+      "version": "A",
+      "commit": "225cdcc",
+      "width": 1280,
+      "tasks": [
+        {
+          "name": "Clientes",
+          "status": "pass",
+          "automation_ms": 6450
+        },
+        {
+          "name": "Orçamento e aceite",
+          "status": "pass",
+          "automation_ms": 3572
+        },
+        {
+          "name": "OS",
+          "status": "pass",
+          "automation_ms": 6279
+        },
+        {
+          "name": "Equipamento e agenda",
+          "status": "pass",
+          "automation_ms": 6357
+        },
+        {
+          "name": "Ajuda preserva campos",
+          "status": "pass",
+          "automation_ms": 3156
+        },
+        {
+          "name": "Localização e PDF",
+          "status": "pass",
+          "automation_ms": 3139
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "searchDocumentY": 827,
+        "addClientButton": false
+      },
+      "overflow": false
+    }
+  ]
+}
