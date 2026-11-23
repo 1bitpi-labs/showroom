@@ -1,0 +1,24 @@
+[
+  {
+    "port": 3020,
+    "login": 200,
+    "quotes": 1,
+    "orders": 0,
+    "clients": 1,
+    "equipment": 0,
+    "appointments": 0,
+    "trainingProgress": 0,
+    "notifications": 0
+  },
+  {
+    "port": 3021,
+    "login": 200,
+    "quotes": 1,
+    "orders": 0,
+    "clients": 1,
+    "equipment": 0,
+    "appointments": 0,
+    "trainingProgress": 0,
+    "notifications": 0
+  }
+]

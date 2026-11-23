@@ -1,0 +1,70 @@
+{
+  "kind": "automated-comparison-not-human-study",
+  "results": [
+    {
+      "version": "A",
+      "commit": "225cdcc",
+      "width": 360,
+      "tasks": [
+        {
+          "name": "Clientes",
+          "status": "pass",
+          "automation_ms": 6454
+        },
+        {
+          "name": "Orçamento e aceite",
+          "status": "pass",
+          "automation_ms": 3595
+        },
+        {
+          "name": "OS",
+          "status": "pass",
+          "automation_ms": 4912
+        },
+        {
+          "name": "Equipamento e agenda",
+          "status": "pass",
+          "automation_ms": 3581
+        },
+        {
+          "name": "Ajuda preserva campos",
+          "status": "pass",
+          "automation_ms": 3166
+        },
+        {
+          "name": "Localização e PDF",
+          "status": "pass",
+          "automation_ms": 3258
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "width": 360,
+        "scrollWidth": 360,
+        "searchDocumentY": 1308,
+        "addClientButton": false
+      },
+      "overflow": false
+    },
+    {
+      "version": "B",
+      "commit": "21a3a3d",
+      "width": 360,
+      "tasks": [
+        {
+          "name": "Clientes",
+          "status": "fail",
+          "error": "AggregateError: apiRequestContext.get: connect ECONNREFUSED ::1:3021\nconnect ECONNREFUSED 127.0.0.1:3021",
+          "automation_ms": 5165
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "width": 360,
+        "scrollWidth": 360,
+        "searchDocumentY": 660,
+        "addClientButton": true
+      }
+    }
+  ]
+}
