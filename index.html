@@ -270,6 +270,80 @@
       font-size: 11.5px; color: var(--paper-dim); line-height: 1.35;
     }
 
+    /* Flagship Real Projects Section */
+    .projects-section {
+      margin-bottom: 48px;
+    }
+    .section-header-row {
+      display: flex; align-items: flex-end; justify-content: space-between;
+      gap: 16px; margin-bottom: 22px; flex-wrap: wrap;
+    }
+    .section-kicker {
+      font-family: var(--font-mono); font-size: 11px; font-weight: 700;
+      letter-spacing: 0.1em; color: var(--sand); text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    .section-heading {
+      font-family: var(--font-display); font-size: 28px; font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+    .section-desc {
+      font-size: 13.5px; color: var(--paper-dim); max-width: 680px; margin-top: 4px;
+    }
+    .projects-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 20px;
+    }
+    .project-card {
+      background: linear-gradient(160deg, rgba(9, 28, 46, 0.9), rgba(3, 12, 20, 0.92));
+      backdrop-filter: blur(18px);
+      border: 1px solid var(--panel-border); border-radius: var(--radius-xl);
+      padding: 26px; display: flex; flex-direction: column; gap: 16px;
+      position: relative; overflow: hidden; box-shadow: var(--shadow-card);
+      transition: transform var(--transition-fast), border-color var(--transition-fast);
+    }
+    .project-card:hover {
+      transform: translateY(-3px);
+      border-color: var(--project-accent, var(--accent));
+    }
+    .project-card::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+      background: var(--project-gradient, var(--accent-gradient));
+    }
+    .project-top-row {
+      display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap;
+    }
+    .project-badge {
+      font-family: var(--font-mono); font-size: 10px; font-weight: 700;
+      padding: 3px 8px; border-radius: 4px;
+      background: rgba(255, 255, 255, 0.06); border: 1px solid var(--line);
+      color: var(--project-accent, var(--accent)); letter-spacing: 0.05em;
+    }
+    .project-runtime-pill {
+      font-family: var(--font-mono); font-size: 10px; font-weight: 600;
+      padding: 2px 8px; border-radius: var(--radius-pill);
+      color: var(--sand); background: rgba(229, 192, 123, 0.12);
+      border: 1px solid rgba(229, 192, 123, 0.28);
+    }
+    .project-runtime-pill.is-static {
+      color: #10b981; background: rgba(16, 185, 129, 0.12);
+      border-color: rgba(16, 185, 129, 0.28);
+    }
+    .project-title {
+      font-family: var(--font-display); font-size: 22px; font-weight: 800; line-height: 1.2;
+    }
+    .project-summary {
+      font-size: 13px; line-height: 1.55; color: var(--paper-dim);
+    }
+    .project-metrics {
+      display: flex; flex-wrap: wrap; gap: 6px;
+    }
+    .project-actions {
+      display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; padding-top: 6px;
+    }
+    .project-actions .btn-card-primary { flex: 1 1 170px; padding: 10px 14px; font-size: 12.5px; }
+    .project-actions .btn-card-inspect { padding: 10px 12px; font-size: 11px; }
+
     /* Filter Bar */
     .filter-section {
       display: flex; align-items: center; justify-content: space-between;
@@ -610,25 +684,28 @@
           <span class="editions-sub">7 Edições Operacionais 1Bitpi</span>
         </div>
         <nav class="editions-nav-links" aria-label="Edições de Negócio">
-          <a href="00-core-enterprise-os/00-1bitpios-piaos.html" class="edition-link" title="Edição Oficial Casa Matriz">
+          <a href="#projetos-destaque" class="edition-link" title="Projetos e Produtos Reais">
+            <span class="ed-num">⚓</span> Projetos Reais
+          </a>
+          <a href="verticais/00-core-enterprise-os/00-1bitpios-piaos.html" class="edition-link" title="Edição Oficial Casa Matriz">
             <span class="ed-num">00</span> 1BitpiOS &amp; PIAOS
           </a>
-          <a href="01-hospitalidade-e-turismo/01-pousada-boutique-litoral.html" class="edition-link" title="Hospitalidade &amp; Turismo">
+          <a href="verticais/01-hospitalidade-e-turismo/01-pousada-boutique-litoral.html" class="edition-link" title="Hospitalidade &amp; Turismo">
             <span class="ed-num">01</span> Pousada Boutique &amp; Resort
           </a>
-          <a href="02-gastronomia-e-beach-clubs/02-gastronomia-beach-club.html" class="edition-link" title="Gastronomia &amp; Beach Club">
+          <a href="verticais/02-gastronomia-e-beach-clubs/02-gastronomia-beach-club.html" class="edition-link" title="Gastronomia &amp; Beach Club">
             <span class="ed-num">02</span> Brasa &amp; Maré Gastrobar
           </a>
-          <a href="03-saude-clinicas-e-wellness/03-clinica-saude-wellness.html" class="edition-link" title="Saúde &amp; Estética">
+          <a href="verticais/03-saude-clinicas-e-wellness/03-clinica-saude-wellness.html" class="edition-link" title="Saúde &amp; Estética">
             <span class="ed-num">03</span> AuraMed Clínica
           </a>
-          <a href="04-juridico-contabil-e-b2b/04-escritorio-servicos-b2b.html" class="edition-link" title="Advocacia &amp; Consultoria B2B">
+          <a href="verticais/04-juridico-contabil-e-b2b/04-escritorio-servicos-b2b.html" class="edition-link" title="Advocacia &amp; Consultoria B2B">
             <span class="ed-num">04</span> Vértice Legal &amp; Advisory
           </a>
-          <a href="05-imobiliario-e-arquitetura/05-imobiliaria-arquitetura.html" class="edition-link" title="Imobiliária &amp; Arquitetura">
+          <a href="verticais/05-imobiliario-e-arquitetura/05-imobiliaria-arquitetura.html" class="edition-link" title="Imobiliária &amp; Arquitetura">
             <span class="ed-num">05</span> Horizonte Arquitetura
           </a>
-          <a href="06-oficinas-e-servicos-tecnicos/06-oficina-servicos-tecnicos.html" class="edition-link" title="Oficina Premium &amp; Centro Técnico">
+          <a href="verticais/06-oficinas-e-servicos-tecnicos/06-oficina-servicos-tecnicos.html" class="edition-link" title="Oficina Premium &amp; Centro Técnico">
             <span class="ed-num">06</span> TorqueLab Service OS
           </a>
           <a href="index.html" class="edition-link-showcase is-active" title="Vitrine Executiva Comparativa">
@@ -650,12 +727,15 @@
         </a>
         <div class="telemetry-pill">
           <span class="pulse-dot"></span>
-          <span>7 EDIÇÕES PRONTAS · 0% INTERMEDIAÇÃO PRECATÓRIA</span>
+          <span>3 PROJETOS REAIS + 7 VERTICAIS · 0% INTERMEDIAÇÃO</span>
         </div>
       </div>
 
       <div class="header-actions">
-        <a href="00-core-enterprise-os/00-1bitpios-piaos.html" class="btn-header">
+        <a href="player.html" class="btn-header">
+          <span>🎬</span> Cinema Player
+        </a>
+        <a href="verticais/00-core-enterprise-os/00-1bitpios-piaos.html" class="btn-header">
           <span>🏠</span> Casa Matriz (00)
         </a>
         <button type="button" class="btn-header" id="btn-theme-toggle" title="Atalho: ⌘J">
@@ -684,8 +764,8 @@
 
       <div class="hero-stats-strip">
         <div class="hero-stat-card">
-          <span class="hero-stat-val">7</span>
-          <span class="hero-stat-desc">Modelos Operacionais Especializados e Prontos para Deploy</span>
+          <span class="hero-stat-val">3 + 7</span>
+          <span class="hero-stat-desc">3 Projetos Reais Dedicados + 7 Verticais Setoriais Prontas</span>
         </div>
         <div class="hero-stat-card">
           <span class="hero-stat-val">0%</span>
@@ -699,6 +779,89 @@
           <span class="hero-stat-val">24/7</span>
           <span class="hero-stat-desc">Concierge Autônomo com RAG Criptografado &amp; Telemetria</span>
         </div>
+      </div>
+    </section>
+
+    <!-- Flagship Real Projects -->
+    <section class="projects-section" id="projetos-destaque">
+      <div class="section-header-row">
+        <div>
+          <div class="section-kicker">● ENTREGAS DEDICADAS &amp; PRODUTOS REAIS (`projetos/`)</div>
+          <h2 class="section-heading">Projetos &amp; Protótipos em Destaque</h2>
+          <p class="section-desc">
+            Construções completas para clientes reais e sistemas de engenharia auditados com testes automatizados, separados dos modelos conceituais por vertical.
+          </p>
+        </div>
+        <a href="player.html?id=marina" class="btn-header">
+          <span>🎬</span> Ver Vídeo 1080p Marina Porto
+        </a>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card" style="--project-accent: #5eead4; --project-gradient: linear-gradient(135deg, #5eead4 0%, #0ea5e9 100%);">
+          <div class="project-top-row">
+            <span class="project-badge">EDITORIAL NÁUTICO · $COOK R05</span>
+            <span class="project-runtime-pill is-static">100% ESTÁTICO · GITHUB PAGES</span>
+          </div>
+          <h3 class="project-title">Marina Porto Ilhabela</h3>
+          <p class="project-summary">
+            Site editorial minimalista inspirado na arquitetura chanfrada da Wally Yachts, construído com vídeo 1080p e ativos reais da marina em Ilhabela, 5 áreas operacionais interativas e concierge via WhatsApp.
+          </p>
+          <div class="project-metrics">
+            <span class="card-chip">Eval 93.31/100</span>
+            <span class="card-chip">5/5 Pytests</span>
+            <span class="card-chip">22 Ativos Offline</span>
+            <span class="card-chip">0 Erros JS/DOM</span>
+          </div>
+          <div class="project-actions">
+            <a href="projetos/marina-porto-ilhabela/index.html" class="btn-card-primary">Abrir Site Ao Vivo ↗</a>
+            <a href="player.html?id=marina" class="btn-card-inspect">🎬 Vídeo</a>
+            <a href="projetos/marina-porto-ilhabela/README.md" class="btn-card-inspect">📄 Ficha</a>
+          </div>
+        </article>
+
+        <article class="project-card" style="--project-accent: #00f0ff; --project-gradient: linear-gradient(135deg, #00f0ff 0%, #3b82f6 100%);">
+          <div class="project-top-row">
+            <span class="project-badge">PORTAL OS NÁUTICA · PB-06 LEAN</span>
+            <span class="project-runtime-pill is-static">100% ESTÁTICO · GITHUB PAGES</span>
+          </div>
+          <h3 class="project-title">Cais OS · Ordem de Serviço &amp; Pix</h3>
+          <p class="project-summary">
+            Esteira completa em 4 visões (WhatsApp, App Mobile 390px com Gêmeo Digital SVG, Tablet do Mecânico e Balcão), trava imutável de aprovação em 1 clique e liquidação de sinal Pix de 30% (EMVCo).
+          </p>
+          <div class="project-metrics">
+            <span class="card-chip">110 Tokens DTCG</span>
+            <span class="card-chip">WCAG 2.2 AA</span>
+            <span class="card-chip">19/19 Pytests</span>
+            <span class="card-chip">Pix EMVCo 30%</span>
+          </div>
+          <div class="project-actions">
+            <a href="projetos/cais-os/index.html" class="btn-card-primary">Abrir 4 Visões ↗</a>
+            <a href="projetos/cais-os/preview-visao2-mobile.html" class="btn-card-inspect">📱 Visão Mobile</a>
+            <a href="projetos/cais-os/README.md" class="btn-card-inspect">📄 Ficha</a>
+          </div>
+        </article>
+
+        <article class="project-card" style="--project-accent: #10b981; --project-gradient: linear-gradient(135deg, #10b981 0%, #059669 100%);">
+          <div class="project-top-row">
+            <span class="project-badge">SAAS FULL-STACK · TSF SUPERVISADO</span>
+            <span class="project-runtime-pill">PRÉVIA ESTÁTICA + BACKEND LOCAL</span>
+          </div>
+          <h3 class="project-title">ElosPME · Brisa Oficina</h3>
+          <p class="project-summary">
+            Aplicação completa para gestão de climatização (orçamentos, aceite público, OS, clientes, equipamentos e agenda) em Next.js 16 + PostgreSQL 17. Prévia visual estática pronta no navegador; backend roda via Docker local.
+          </p>
+          <div class="project-metrics">
+            <span class="card-chip">Next.js 16 + React 19</span>
+            <span class="card-chip">PostgreSQL 17</span>
+            <span class="card-chip">222 Arquivos Auditados</span>
+            <span class="card-chip">CI GitHub Actions</span>
+          </div>
+          <div class="project-actions">
+            <a href="projetos/elos-pme/BRISA_VISUAL_COMPOSITION.html" class="btn-card-primary">Abrir Composição Visual ↗</a>
+            <a href="projetos/elos-pme/README.md" class="btn-card-inspect">🐳 Rodar Local</a>
+          </div>
+        </article>
       </div>
     </section>
 
@@ -754,7 +917,7 @@
           </div>
 
           <div class="card-action-footer">
-            <a href="00-core-enterprise-os/00-1bitpios-piaos.html" class="btn-card-primary">Acessar Edição Oficial Canônica ↗</a>
+            <a href="verticais/00-core-enterprise-os/00-1bitpios-piaos.html" class="btn-card-primary">Acessar Edição Oficial Canônica ↗</a>
           </div>
         </article>
         
@@ -792,7 +955,7 @@
           </div>
 
           <div class="card-action-footer">
-            <a href="01-hospitalidade-e-turismo/01-pousada-boutique-litoral.html" class="btn-card-primary">Explorar Maré Alta OS ↗</a>
+            <a href="verticais/01-hospitalidade-e-turismo/01-pousada-boutique-litoral.html" class="btn-card-primary">Explorar Maré Alta OS ↗</a>
           </div>
         </article>
         
@@ -830,7 +993,7 @@
           </div>
 
           <div class="card-action-footer">
-            <a href="02-gastronomia-e-beach-clubs/02-gastronomia-beach-club.html" class="btn-card-primary">Explorar Brasa & Maré OS ↗</a>
+            <a href="verticais/02-gastronomia-e-beach-clubs/02-gastronomia-beach-club.html" class="btn-card-primary">Explorar Brasa & Maré OS ↗</a>
           </div>
         </article>
         
@@ -868,7 +1031,7 @@
           </div>
 
           <div class="card-action-footer">
-            <a href="03-saude-clinicas-e-wellness/03-clinica-saude-wellness.html" class="btn-card-primary">Explorar AuraMed OS ↗</a>
+            <a href="verticais/03-saude-clinicas-e-wellness/03-clinica-saude-wellness.html" class="btn-card-primary">Explorar AuraMed OS ↗</a>
           </div>
         </article>
         
@@ -906,7 +1069,7 @@
           </div>
 
           <div class="card-action-footer">
-            <a href="04-juridico-contabil-e-b2b/04-escritorio-servicos-b2b.html" class="btn-card-primary">Explorar Vértice Legal OS ↗</a>
+            <a href="verticais/04-juridico-contabil-e-b2b/04-escritorio-servicos-b2b.html" class="btn-card-primary">Explorar Vértice Legal OS ↗</a>
           </div>
         </article>
         
@@ -944,7 +1107,7 @@
           </div>
 
           <div class="card-action-footer">
-            <a href="05-imobiliario-e-arquitetura/05-imobiliaria-arquitetura.html" class="btn-card-primary">Explorar Horizonte OS ↗</a>
+            <a href="verticais/05-imobiliario-e-arquitetura/05-imobiliaria-arquitetura.html" class="btn-card-primary">Explorar Horizonte OS ↗</a>
           </div>
         </article>
         
@@ -982,7 +1145,7 @@
           </div>
 
           <div class="card-action-footer">
-            <a href="06-oficinas-e-servicos-tecnicos/06-oficina-servicos-tecnicos.html" class="btn-card-primary">Explorar TorqueLab OS ↗</a>
+            <a href="verticais/06-oficinas-e-servicos-tecnicos/06-oficina-servicos-tecnicos.html" class="btn-card-primary">Explorar TorqueLab OS ↗</a>
           </div>
         </article>
         
@@ -1166,18 +1329,21 @@
       <strong>1Bitpi Agent OS</strong> · Edição Multi-Empresas v5.2 · PIAOS Architecture Engine
     </div>
     <div class="footer-links">
-      <a href="00-core-enterprise-os/00-1bitpios-piaos.html">Edição Canônica (00)</a>
-      <a href="01-hospitalidade-e-turismo/01-pousada-boutique-litoral.html">Pousada Boutique</a>
-      <a href="02-gastronomia-e-beach-clubs/02-gastronomia-beach-club.html">Gastrobar</a>
-      <a href="03-saude-clinicas-e-wellness/03-clinica-saude-wellness.html">Clínica Médica</a>
-      <a href="04-juridico-contabil-e-b2b/04-escritorio-servicos-b2b.html">Advocacia B2B</a>
-      <a href="05-imobiliario-e-arquitetura/05-imobiliaria-arquitetura.html">Imobiliária</a>
-      <a href="06-oficinas-e-servicos-tecnicos/06-oficina-servicos-tecnicos.html">Centro Técnico</a>
+      <a href="projetos/marina-porto-ilhabela/index.html">Marina Porto Ilhabela</a>
+      <a href="projetos/cais-os/index.html">Cais OS</a>
+      <a href="projetos/elos-pme/BRISA_VISUAL_COMPOSITION.html">ElosPME (Brisa)</a>
+      <a href="verticais/00-core-enterprise-os/00-1bitpios-piaos.html">Edição Canônica (00)</a>
+      <a href="verticais/01-hospitalidade-e-turismo/01-pousada-boutique-litoral.html">Pousada Boutique</a>
+      <a href="verticais/02-gastronomia-e-beach-clubs/02-gastronomia-beach-club.html">Gastrobar</a>
+      <a href="verticais/03-saude-clinicas-e-wellness/03-clinica-saude-wellness.html">Clínica Médica</a>
+      <a href="verticais/04-juridico-contabil-e-b2b/04-escritorio-servicos-b2b.html">Advocacia B2B</a>
+      <a href="verticais/05-imobiliario-e-arquitetura/05-imobiliaria-arquitetura.html">Imobiliária</a>
+      <a href="verticais/06-oficinas-e-servicos-tecnicos/06-oficina-servicos-tecnicos.html">Centro Técnico</a>
     </div>
   </footer>
 
   <script>
-    const SHOWCASE_DATA = [{"id": "00", "slug": "00-1bitpios-piaos", "url": "../index.html", "badge": "00 CANÔNICA · TECH & CORE OS", "brand_name": "1BitpiOS & PIAOS", "brand_italic": "Hub", "brand_sub": "CAPABILITY & SKILL HUB · SPATIAL HUD", "tagline": "Orquestração de Agentes Autônomos, Segundo Cérebro & Governança Anti-Injection", "category_tag": "tech", "category_label": "Tech & Casa Matriz", "segment": "Engenharia de Software, Agentes Autônomos & Governança", "pain": "Caos de dezenas de ferramentas dispersas no Instagram e risco crítico de prompt injection em agentes autônomos sem auditoria determinística.", "solution": "Central unificada com visualizador Spotify de posts salvos, segundo cérebro orbital em HTML5 canvas, laboratório anti-injection e pacotes SKILL.md para Claude Code/Codex.", "accent": "#00f0ff", "accent_gradient": "linear-gradient(135deg, #00f0ff 0%, #00b4d8 100%)", "agent": "pibit (Orquestrador Conversacional Global)", "telemetry": "Status de Agentes, Consumo de Tokens & Memory Compression", "gate": "Gate de Código: Verificação de Testes, Build & Aprovação Humana antes do Merge", "margin": "Autonomia Operacional: Redução de 80% no tempo de especificação e integração", "cmd": "curl -X GET http://127.0.0.1:8585/hub/catalog.json", "sample_output": "{\"status\":\"healthy\",\"verified_skills\":49,\"anti_injection_shield\":\"active\"}", "chips": ["Segundo Cérebro Orbital", "Anti-Injection Lab", "49 Skills Auditadas", "Claude Code & Codex Ready"], "btn_label": "Acessar Edição Oficial Canônica ↗"}, {"id": "01", "slug": "01-pousada-boutique-litoral", "url": "01-pousada-boutique-litoral.html", "badge": "01 HOSPITALIDADE · LUXO COSTEIRO", "brand_name": "Maré Alta", "brand_italic": "Resort", "brand_sub": "HOTEL BOUTIQUE & BEACH RESORT · HOSPITALITY OS", "tagline": "Experiência de Luxo Pé na Areia & Motor de Reservas Diretas 0% Taxa", "category_tag": "hospitalidade", "category_label": "Hospitalidade & Lazer", "segment": "Pousadas de Charme, Hotéis Boutique & Resorts Pé na Areia", "pain": "Comissões predatórias de 18% a 25% para Booking e Airbnb, no-shows em feriados e atendimento de WhatsApp lento fora do horário comercial.", "solution": "Motor de reservas diretas no site com checkout Pix instantâneo 0% taxa, concierge autônomo 24/7 com tábua de marés e passeios, e checklist de governança sanitária P3.", "accent": "#00f0ff", "accent_gradient": "linear-gradient(135deg, #00f0ff 0%, #0077b6 100%)", "agent": "Concierge Maré Alta (WhatsApp 24/7 com Tábua de Marés)", "telemetry": "Ocupação dos Bangalôs em Tempo Real & Previsão Meteo-Oceanográfica", "gate": "Gate de Limpeza P3: Checklist Fotográfico com Auditoria antes do Check-in", "margin": "+18% a 25% de Margem Bruta Recuperada (Zero Comissão para OTAs)", "cmd": "curl -X GET https://api.marealta.1bitpi.com/v1/availability?dates=weekend", "sample_output": "{\"available_bangalows\":4,\"tide\":\"high_14h\",\"pricing_dynamic\":true}", "chips": ["Motor de Reservas 0%", "Concierge WhatsApp 24/7", "Tábua de Marés & Lancha", "Gate Sanitário P3"], "btn_label": "Explorar Maré Alta OS ↗"}, {"id": "02", "slug": "02-gastronomia-beach-club", "url": "02-gastronomia-beach-club.html", "badge": "02 GASTRONOMIA · BEACH CLUB", "brand_name": "Brasa & Maré", "brand_italic": "Gastrobar", "brand_sub": "PARRILLA COSTEIRA & BEACH CLUB · GASTRONOMY OS", "tagline": "Parrilla de Frutos do Mar & Cardápio 3D com Sommelier IA", "category_tag": "gastronomia", "category_label": "Gastronomia & Beach Club", "segment": "Restaurantes de Alta Gastronomia, Parrillas & Beach Clubs", "pain": "Taxas abusivas de 27% do iFood, garçons sobrecarregados em dias de praia cheia, erros manuais de comanda e filas de espera sem previsão.", "solution": "Garçom digital via QR Code nas mesas e cabanas na areia, sommelier de vinhos por IA no WhatsApp, fila de espera digital com SMS e KDS integrado na cozinha.", "accent": "#ff5722", "accent_gradient": "linear-gradient(135deg, #ff5722 0%, #ff8c42 100%)", "agent": "Sommelier IA & Garçom Digital na Cabana", "telemetry": "Mesas Ativas, Pedidos no KDS da Cozinha & Tempo Médio de Prato", "gate": "Gate de Fechamento de Caixa: Conferência Cega de Estoque de Frutos do Mar", "margin": "+27% de Margem sem Apps de Delivery + Giro de Mesas 35% mais rápido", "cmd": "curl -X POST https://api.brasaemare.1bitpi.com/v1/order --data '{\"table\":14}'", "sample_output": "{\"order_id\":\"ORD-892\",\"kds_status\":\"grill_prep\",\"eta_minutes\":12}", "chips": ["Garçom Digital QR Code", "Sommelier IA no WhatsApp", "Fila de Espera Digital", "Gate Fechamento de Caixa"], "btn_label": "Explorar Brasa & Maré OS ↗"}, {"id": "03", "slug": "03-clinica-saude-wellness", "url": "03-clinica-saude-wellness.html", "badge": "03 SAÚDE & WELLNESS · CLÍNICA INTEGRADA", "brand_name": "AuraMed", "brand_italic": "Saúde & Estética", "brand_sub": "CLÍNICA INTEGRADA & HARMONIZAÇÃO · HEALTH OS", "tagline": "Medicina Integrativa & Triagem Pré-Consulta Acolhedora com IA", "category_tag": "saude", "category_label": "Saúde & Estética", "segment": "Clínicas Médicas, Dermatologia, Cirurgia Plástica & Odontologia", "pain": "25% de taxa de no-show (faltas de pacientes) gerando furos caros na agenda médica, receio ético de diagnósticos automáticos errôneos e vazamentos LGPD de prontuários.", "solution": "Triagem pré-consulta acolhedora sem diagnóstico invasivo, confirmação automatizada com pagamento de sinal antecipado e prontuário com criptografia de ponta a ponta e gate médico.", "accent": "#10b981", "accent_gradient": "linear-gradient(135deg, #10b981 0%, #059669 100%)", "agent": "Triagem Pré-Consulta & Concierge de Agendamento Acolhedor", "telemetry": "Taxa de Ocupação dos Consultórios & Fluxo de Espera na Recepção", "gate": "Gate de Prontuário Médico: Assinatura Digital do Doutor antes da Liberação", "margin": "No-show reduzido de 25% para menos de 3% + Rastreamento 100% LGPD", "cmd": "curl -X GET https://api.auramed.1bitpi.com/v1/appointments?doctor=crm123", "sample_output": "{\"active_slots\":8,\"confirmed_deposit\":true,\"no_show_risk\":\"minimal\"}", "chips": ["Triagem Ética sem Diagnóstico", "Sinal Antecipado 0% No-Show", "Prontuário LGPD Criptografado", "Gate Médico Obrigatório"], "btn_label": "Explorar AuraMed OS ↗"}, {"id": "04", "slug": "04-escritorio-servicos-b2b", "url": "04-escritorio-servicos-b2b.html", "badge": "04 JURÍDICO & B2B · CONSULTORIA CORPORATIVA", "brand_name": "Vértice Legal", "brand_italic": "Advisory", "brand_sub": "SOCIEDADE DE ADVOGADOS & CORPORATE ADVISORY · LEGAL OS", "tagline": "Consultoria Jurídica & Varredura de Riscos Contratuais por IA", "category_tag": "b2b", "category_label": "Serviços B2B & Jurídico", "segment": "Escritórios de Advocacia, Auditoria Fiscal & Consultorias B2B", "pain": "Medo de alucinação de jurisprudência em LLMs genéricas, perda de prazos fatais processuais do Diário Oficial e tempo excessivo redigindo minutas padrão.", "solution": "Varredura contínua de Diários Oficiais e tribunais (PJe/e-SAJ), matriz RAG sobre acervo de peças do próprio escritório com citação exata de folhas, e gate de revisão obrigatória por sócio sênior.", "accent": "#e5c07b", "accent_gradient": "linear-gradient(135deg, #e5c07b 0%, #c49b4b 100%)", "agent": "Extrator de Jurisprudência & Analista de Diários Oficiais", "telemetry": "Prazos Fatais em Aberto, Publicações do Dia & Horas Faturáveis", "gate": "Gate de Peticionamento: Validação e Assinatura com Certificado ICP-Brasil", "margin": "Zero Prazos Perdidos + 60% de Redução no Tempo de Redação de Minutas", "cmd": "curl -X GET https://api.verticelegal.1bitpi.com/v1/deadlines?urgency=high", "sample_output": "{\"deadlines_today\":3,\"icp_tokens_verified\":true,\"pje_sync\":\"ok\"}", "chips": ["Varredura Diários Oficiais", "RAG Anti-Alucinação", "Gate de Peticionamento ICP", "Proteção Sigilo Cliente"], "btn_label": "Explorar Vértice Legal OS ↗"}, {"id": "05", "slug": "05-imobiliaria-arquitetura", "url": "05-imobiliaria-arquitetura.html", "badge": "05 REAL ESTATE & ARQUITETURA · ALTO PADRÃO", "brand_name": "Horizonte", "brand_italic": "Arquitetura", "brand_sub": "IMOBILIÁRIA BOUTIQUE & STUDIO DE ARQUITETURA · ARCH OS", "tagline": "Arquitetura Autoral & Tour Espacial 3D de Imóveis", "category_tag": "imobiliaria", "category_label": "Imobiliária & Arquitetura", "segment": "Imobiliárias de Luxo, Corretores de Alto Padrão & Escritórios de Arquitetura", "pain": "Corretores gastando horas atendendo curiosos sem capacidade financeira comprovada e arquitetos com revisões infinitas de layout sem validação formal.", "solution": "Qualificação automática de poder aquisitivo no primeiro contato, book digital interativo com tour 3D e pranchas renderizadas, e gate de aprovação com assinatura do memorial descritivo.", "accent": "#e07a5f", "accent_gradient": "linear-gradient(135deg, #e07a5f 0%, #d46045 100%)", "agent": "Qualificador de Leads VIP & Curador de Plantas 3D", "telemetry": "Status dos Projetos Executivos, Visitas Agendadas & Leads Qualificados", "gate": "Gate de Memorial Descritivo: Assinatura do Cliente antes do Início da Obra", "margin": "+40% na Taxa de Fechamento de Vendas + Eliminação de Retrabalho em Obra", "cmd": "curl -X GET https://api.horizonte.1bitpi.com/v1/properties?type=penthouse", "sample_output": "{\"vip_leads_active\":12,\"tour_3d_views\":450,\"memorial_signed\":true}", "chips": ["Filtro de Poder Aquisitivo", "Tour 3D & Book Interativo", "Gate Memorial Descritivo", "Gestão de Obra Transparente"], "btn_label": "Explorar Horizonte OS ↗"}, {"id": "06", "slug": "06-oficina-servicos-tecnicos", "url": "06-oficina-servicos-tecnicos.html", "badge": "06 AUTOMOTIVO · CENTRO TÉCNICO & MOTORSPORT", "brand_name": "TorqueLab", "brand_italic": "Service OS", "brand_sub": "OFICINA PREMIUM & CENTRO TÉCNICO ESPECIALIZADO · SERVICE OS", "tagline": "Engenharia Mecânica & Checklist Fotográfico com IA", "category_tag": "automotivo", "category_label": "Automotivo & Técnico", "segment": "Oficinas Mecânicas Premium, Detailing Automotivo & Preparação Esportiva", "pain": "Desconfiança clássica do cliente se a peça foi realmente trocada, dificuldade de aprovação de orçamento por telefone e carros ocupando elevadores sem peças disponíveis.", "solution": "Pit-Stop orbital com telemetria ao vivo pelo celular do cliente (desmontagem, peças, montagem), envio de fotos e vídeos em alta resolução no WhatsApp com aprovação em 1 clique, e gate do engenheiro para teste de rodagem.", "accent": "#ffb703", "accent_gradient": "linear-gradient(135deg, #ffb703 0%, #fb8500 100%)", "agent": "Consultor Técnico Digital & Scanner de Ordens de Serviço", "telemetry": "Ocupação dos Elevadores Hidráulicos & Status de Peças em Estoque", "gate": "Gate de Teste de Rodagem: Checklist Dinâmico Assinado pelo Chefe Mecânico", "margin": "+30% no Ticket Médio por Transparência Total + Zero Disputas de Garantia", "cmd": "curl -X GET https://api.torquelab.1bitpi.com/v1/box?chassis=WBA3A5C59DF391", "sample_output": "{\"box_id\":3,\"stage\":\"brake_pads_replaced\",\"road_test_ready\":true}", "chips": ["Pit-Stop Telemetria ao Vivo", "Orçamento com Foto em 1 Clique", "Gate Teste de Rodagem", "Revisão Preventiva Preditiva"], "btn_label": "Explorar TorqueLab OS ↗"}];
+    const SHOWCASE_DATA = [{"id": "00", "slug": "00-1bitpios-piaos", "url": "verticais/00-core-enterprise-os/00-1bitpios-piaos.html", "badge": "00 CANÔNICA · TECH & CORE OS", "brand_name": "1BitpiOS & PIAOS", "brand_italic": "Hub", "brand_sub": "CAPABILITY & SKILL HUB · SPATIAL HUD", "tagline": "Orquestração de Agentes Autônomos, Segundo Cérebro & Governança Anti-Injection", "category_tag": "tech", "category_label": "Tech & Casa Matriz", "segment": "Engenharia de Software, Agentes Autônomos & Governança", "pain": "Caos de dezenas de ferramentas dispersas no Instagram e risco crítico de prompt injection em agentes autônomos sem auditoria determinística.", "solution": "Central unificada com visualizador Spotify de posts salvos, segundo cérebro orbital em HTML5 canvas, laboratório anti-injection e pacotes SKILL.md para Claude Code/Codex.", "accent": "#00f0ff", "accent_gradient": "linear-gradient(135deg, #00f0ff 0%, #00b4d8 100%)", "agent": "pibit (Orquestrador Conversacional Global)", "telemetry": "Status de Agentes, Consumo de Tokens & Memory Compression", "gate": "Gate de Código: Verificação de Testes, Build & Aprovação Humana antes do Merge", "margin": "Autonomia Operacional: Redução de 80% no tempo de especificação e integração", "cmd": "curl -X GET http://127.0.0.1:8585/hub/catalog.json", "sample_output": "{\"status\":\"healthy\",\"verified_skills\":49,\"anti_injection_shield\":\"active\"}", "chips": ["Segundo Cérebro Orbital", "Anti-Injection Lab", "49 Skills Auditadas", "Claude Code & Codex Ready"], "btn_label": "Acessar Edição Oficial Canônica ↗"}, {"id": "01", "slug": "01-pousada-boutique-litoral", "url": "verticais/01-hospitalidade-e-turismo/01-pousada-boutique-litoral.html", "badge": "01 HOSPITALIDADE · LUXO COSTEIRO", "brand_name": "Maré Alta", "brand_italic": "Resort", "brand_sub": "HOTEL BOUTIQUE & BEACH RESORT · HOSPITALITY OS", "tagline": "Experiência de Luxo Pé na Areia & Motor de Reservas Diretas 0% Taxa", "category_tag": "hospitalidade", "category_label": "Hospitalidade & Lazer", "segment": "Pousadas de Charme, Hotéis Boutique & Resorts Pé na Areia", "pain": "Comissões predatórias de 18% a 25% para Booking e Airbnb, no-shows em feriados e atendimento de WhatsApp lento fora do horário comercial.", "solution": "Motor de reservas diretas no site com checkout Pix instantâneo 0% taxa, concierge autônomo 24/7 com tábua de marés e passeios, e checklist de governança sanitária P3.", "accent": "#00f0ff", "accent_gradient": "linear-gradient(135deg, #00f0ff 0%, #0077b6 100%)", "agent": "Concierge Maré Alta (WhatsApp 24/7 com Tábua de Marés)", "telemetry": "Ocupação dos Bangalôs em Tempo Real & Previsão Meteo-Oceanográfica", "gate": "Gate de Limpeza P3: Checklist Fotográfico com Auditoria antes do Check-in", "margin": "+18% a 25% de Margem Bruta Recuperada (Zero Comissão para OTAs)", "cmd": "curl -X GET https://api.marealta.1bitpi.com/v1/availability?dates=weekend", "sample_output": "{\"available_bangalows\":4,\"tide\":\"high_14h\",\"pricing_dynamic\":true}", "chips": ["Motor de Reservas 0%", "Concierge WhatsApp 24/7", "Tábua de Marés & Lancha", "Gate Sanitário P3"], "btn_label": "Explorar Maré Alta OS ↗"}, {"id": "02", "slug": "02-gastronomia-beach-club", "url": "verticais/02-gastronomia-e-beach-clubs/02-gastronomia-beach-club.html", "badge": "02 GASTRONOMIA · BEACH CLUB", "brand_name": "Brasa & Maré", "brand_italic": "Gastrobar", "brand_sub": "PARRILLA COSTEIRA & BEACH CLUB · GASTRONOMY OS", "tagline": "Parrilla de Frutos do Mar & Cardápio 3D com Sommelier IA", "category_tag": "gastronomia", "category_label": "Gastronomia & Beach Club", "segment": "Restaurantes de Alta Gastronomia, Parrillas & Beach Clubs", "pain": "Taxas abusivas de 27% do iFood, garçons sobrecarregados em dias de praia cheia, erros manuais de comanda e filas de espera sem previsão.", "solution": "Garçom digital via QR Code nas mesas e cabanas na areia, sommelier de vinhos por IA no WhatsApp, fila de espera digital com SMS e KDS integrado na cozinha.", "accent": "#ff5722", "accent_gradient": "linear-gradient(135deg, #ff5722 0%, #ff8c42 100%)", "agent": "Sommelier IA & Garçom Digital na Cabana", "telemetry": "Mesas Ativas, Pedidos no KDS da Cozinha & Tempo Médio de Prato", "gate": "Gate de Fechamento de Caixa: Conferência Cega de Estoque de Frutos do Mar", "margin": "+27% de Margem sem Apps de Delivery + Giro de Mesas 35% mais rápido", "cmd": "curl -X POST https://api.brasaemare.1bitpi.com/v1/order --data '{\"table\":14}'", "sample_output": "{\"order_id\":\"ORD-892\",\"kds_status\":\"grill_prep\",\"eta_minutes\":12}", "chips": ["Garçom Digital QR Code", "Sommelier IA no WhatsApp", "Fila de Espera Digital", "Gate Fechamento de Caixa"], "btn_label": "Explorar Brasa & Maré OS ↗"}, {"id": "03", "slug": "03-clinica-saude-wellness", "url": "verticais/03-saude-clinicas-e-wellness/03-clinica-saude-wellness.html", "badge": "03 SAÚDE & WELLNESS · CLÍNICA INTEGRADA", "brand_name": "AuraMed", "brand_italic": "Saúde & Estética", "brand_sub": "CLÍNICA INTEGRADA & HARMONIZAÇÃO · HEALTH OS", "tagline": "Medicina Integrativa & Triagem Pré-Consulta Acolhedora com IA", "category_tag": "saude", "category_label": "Saúde & Estética", "segment": "Clínicas Médicas, Dermatologia, Cirurgia Plástica & Odontologia", "pain": "25% de taxa de no-show (faltas de pacientes) gerando furos caros na agenda médica, receio ético de diagnósticos automáticos errôneos e vazamentos LGPD de prontuários.", "solution": "Triagem pré-consulta acolhedora sem diagnóstico invasivo, confirmação automatizada com pagamento de sinal antecipado e prontuário com criptografia de ponta a ponta e gate médico.", "accent": "#10b981", "accent_gradient": "linear-gradient(135deg, #10b981 0%, #059669 100%)", "agent": "Triagem Pré-Consulta & Concierge de Agendamento Acolhedor", "telemetry": "Taxa de Ocupação dos Consultórios & Fluxo de Espera na Recepção", "gate": "Gate de Prontuário Médico: Assinatura Digital do Doutor antes da Liberação", "margin": "No-show reduzido de 25% para menos de 3% + Rastreamento 100% LGPD", "cmd": "curl -X GET https://api.auramed.1bitpi.com/v1/appointments?doctor=crm123", "sample_output": "{\"active_slots\":8,\"confirmed_deposit\":true,\"no_show_risk\":\"minimal\"}", "chips": ["Triagem Ética sem Diagnóstico", "Sinal Antecipado 0% No-Show", "Prontuário LGPD Criptografado", "Gate Médico Obrigatório"], "btn_label": "Explorar AuraMed OS ↗"}, {"id": "04", "slug": "04-escritorio-servicos-b2b", "url": "verticais/04-juridico-contabil-e-b2b/04-escritorio-servicos-b2b.html", "badge": "04 JURÍDICO & B2B · CONSULTORIA CORPORATIVA", "brand_name": "Vértice Legal", "brand_italic": "Advisory", "brand_sub": "SOCIEDADE DE ADVOGADOS & CORPORATE ADVISORY · LEGAL OS", "tagline": "Consultoria Jurídica & Varredura de Riscos Contratuais por IA", "category_tag": "b2b", "category_label": "Serviços B2B & Jurídico", "segment": "Escritórios de Advocacia, Auditoria Fiscal & Consultorias B2B", "pain": "Medo de alucinação de jurisprudência em LLMs genéricas, perda de prazos fatais processuais do Diário Oficial e tempo excessivo redigindo minutas padrão.", "solution": "Varredura contínua de Diários Oficiais e tribunais (PJe/e-SAJ), matriz RAG sobre acervo de peças do próprio escritório com citação exata de folhas, e gate de revisão obrigatória por sócio sênior.", "accent": "#e5c07b", "accent_gradient": "linear-gradient(135deg, #e5c07b 0%, #c49b4b 100%)", "agent": "Extrator de Jurisprudência & Analista de Diários Oficiais", "telemetry": "Prazos Fatais em Aberto, Publicações do Dia & Horas Faturáveis", "gate": "Gate de Peticionamento: Validação e Assinatura com Certificado ICP-Brasil", "margin": "Zero Prazos Perdidos + 60% de Redução no Tempo de Redação de Minutas", "cmd": "curl -X GET https://api.verticelegal.1bitpi.com/v1/deadlines?urgency=high", "sample_output": "{\"deadlines_today\":3,\"icp_tokens_verified\":true,\"pje_sync\":\"ok\"}", "chips": ["Varredura Diários Oficiais", "RAG Anti-Alucinação", "Gate de Peticionamento ICP", "Proteção Sigilo Cliente"], "btn_label": "Explorar Vértice Legal OS ↗"}, {"id": "05", "slug": "05-imobiliaria-arquitetura", "url": "verticais/05-imobiliario-e-arquitetura/05-imobiliaria-arquitetura.html", "badge": "05 REAL ESTATE & ARQUITETURA · ALTO PADRÃO", "brand_name": "Horizonte", "brand_italic": "Arquitetura", "brand_sub": "IMOBILIÁRIA BOUTIQUE & STUDIO DE ARQUITETURA · ARCH OS", "tagline": "Arquitetura Autoral & Tour Espacial 3D de Imóveis", "category_tag": "imobiliaria", "category_label": "Imobiliária & Arquitetura", "segment": "Imobiliárias de Luxo, Corretores de Alto Padrão & Escritórios de Arquitetura", "pain": "Corretores gastando horas atendendo curiosos sem capacidade financeira comprovada e arquitetos com revisões infinitas de layout sem validação formal.", "solution": "Qualificação automática de poder aquisitivo no primeiro contato, book digital interativo com tour 3D e pranchas renderizadas, e gate de aprovação com assinatura do memorial descritivo.", "accent": "#e07a5f", "accent_gradient": "linear-gradient(135deg, #e07a5f 0%, #d46045 100%)", "agent": "Qualificador de Leads VIP & Curador de Plantas 3D", "telemetry": "Status dos Projetos Executivos, Visitas Agendadas & Leads Qualificados", "gate": "Gate de Memorial Descritivo: Assinatura do Cliente antes do Início da Obra", "margin": "+40% na Taxa de Fechamento de Vendas + Eliminação de Retrabalho em Obra", "cmd": "curl -X GET https://api.horizonte.1bitpi.com/v1/properties?type=penthouse", "sample_output": "{\"vip_leads_active\":12,\"tour_3d_views\":450,\"memorial_signed\":true}", "chips": ["Filtro de Poder Aquisitivo", "Tour 3D & Book Interativo", "Gate Memorial Descritivo", "Gestão de Obra Transparente"], "btn_label": "Explorar Horizonte OS ↗"}, {"id": "06", "slug": "06-oficina-servicos-tecnicos", "url": "verticais/06-oficinas-e-servicos-tecnicos/06-oficina-servicos-tecnicos.html", "badge": "06 AUTOMOTIVO · CENTRO TÉCNICO & MOTORSPORT", "brand_name": "TorqueLab", "brand_italic": "Service OS", "brand_sub": "OFICINA PREMIUM & CENTRO TÉCNICO ESPECIALIZADO · SERVICE OS", "tagline": "Engenharia Mecânica & Checklist Fotográfico com IA", "category_tag": "automotivo", "category_label": "Automotivo & Técnico", "segment": "Oficinas Mecânicas Premium, Detailing Automotivo & Preparação Esportiva", "pain": "Desconfiança clássica do cliente se a peça foi realmente trocada, dificuldade de aprovação de orçamento por telefone e carros ocupando elevadores sem peças disponíveis.", "solution": "Pit-Stop orbital com telemetria ao vivo pelo celular do cliente (desmontagem, peças, montagem), envio de fotos e vídeos em alta resolução no WhatsApp com aprovação em 1 clique, e gate do engenheiro para teste de rodagem.", "accent": "#ffb703", "accent_gradient": "linear-gradient(135deg, #ffb703 0%, #fb8500 100%)", "agent": "Consultor Técnico Digital & Scanner de Ordens de Serviço", "telemetry": "Ocupação dos Elevadores Hidráulicos & Status de Peças em Estoque", "gate": "Gate de Teste de Rodagem: Checklist Dinâmico Assinado pelo Chefe Mecânico", "margin": "+30% no Ticket Médio por Transparência Total + Zero Disputas de Garantia", "cmd": "curl -X GET https://api.torquelab.1bitpi.com/v1/box?chassis=WBA3A5C59DF391", "sample_output": "{\"box_id\":3,\"stage\":\"brake_pads_replaced\",\"road_test_ready\":true}", "chips": ["Pit-Stop Telemetria ao Vivo", "Orçamento com Foto em 1 Clique", "Gate Teste de Rodagem", "Revisão Preventiva Preditiva"], "btn_label": "Explorar TorqueLab OS ↗"}];
     let currentFilter = 'all';
     let activeSandboxIndex = 1;
 

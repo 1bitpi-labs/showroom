@@ -2,7 +2,7 @@ name: ElosPME checks
 on:
   pull_request:
     paths:
-      - '06-oficinas-e-servicos-tecnicos/elos-pme/**'
+      - 'projetos/elos-pme/**'
       - '.github/workflows/elos-pme-checks.yml'
   workflow_dispatch:
 permissions:
@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: 06-oficinas-e-servicos-tecnicos/elos-pme
+        working-directory: projetos/elos-pme
     services:
       postgres:
         image: postgres:17-alpine
@@ -35,7 +35,7 @@ jobs:
         with:
           node-version: '22'
           cache: npm
-          cache-dependency-path: 06-oficinas-e-servicos-tecnicos/elos-pme/package-lock.json
+          cache-dependency-path: projetos/elos-pme/package-lock.json
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'

@@ -1,0 +1,20 @@
+{
+  "scope": "Zod UI P1, original React/CSS implementation",
+  "viewports": [
+    "1280x800",
+    "360x800",
+    "768x900 (Agenda overflow check only)"
+  ],
+  "screenshots": [
+    "guard-desktop.png",
+    "agenda-mobile.png",
+    "agenda-editor-mobile.png",
+    "agenda-conflict-mobile.png",
+    "guard-mobile-invalid.png",
+    "client-editor-mobile.png",
+    "quotes-mobile.png",
+    "quotes-desktop.png",
+    "agenda-desktop.png"
+  ],
+  "runtime": "owned app 3028 and DB 55448; no traces/cookies/tokens"
+}

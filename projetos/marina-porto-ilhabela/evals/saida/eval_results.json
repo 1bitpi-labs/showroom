@@ -1,0 +1,158 @@
+{
+  "timestamp": "2026-11-13 18:39:06",
+  "target": "Marina Porto Ilhabela - Prototipo Editorial Wally Style (R05)",
+  "gate_status": "approved_for_closure_and_presentation",
+  "overall_score": 93.31,
+  "grade": "A (Aprovado para Apresentacao Comercial com Limites Documentados)",
+  "pillars": {
+    "pilar_1_ativos_autonomia": {
+      "title": "Integridade de Ativos & Autonomia Offline",
+      "weight": 0.2,
+      "score": 100.0,
+      "items": {
+        "local_assets_integrity": {
+          "score": 25,
+          "max": 25,
+          "details": "16 ativos referenciados; ausentes/vazios: 0",
+          "missing": []
+        },
+        "offline_video_bundle": {
+          "score": 25,
+          "max": 25,
+          "details": "hero-sea.mp4 local com 18.67 MB"
+        },
+        "zero_external_runtime_js": {
+          "score": 25,
+          "max": 25,
+          "details": "Zero frameworks ou scripts JS externos em runtime"
+        },
+        "interactive_business_logic": {
+          "score": 25,
+          "max": 25,
+          "details": "5 modalidades em SERVICES e 5/5 handlers ativos"
+        }
+      }
+    },
+    "pilar_2_acessibilidade_mobile": {
+      "title": "Acessibilidade, Semantica & Mobile 390px",
+      "weight": 0.2,
+      "score": 80.0,
+      "items": {
+        "wcag_contrast_ratios": {
+          "score": 25,
+          "max": 25,
+          "metrics": {
+            "ink_primary_on_white": 15.22,
+            "body_on_white": 9.26,
+            "white_on_charcoal_btn": 12.04,
+            "white_on_footer": 18.55
+          }
+        },
+        "semantics_keyboard_aria": {
+          "score": 25,
+          "max": 25,
+          "details": "Viewport meta, landmarks semanticos, role=dialog/tablist, aria-hidden e tecla Escape"
+        },
+        "mobile_390px_contracts": {
+          "score": 30,
+          "max": 30,
+          "details": "Breakpoint 720px, touch targets >= 44px, scroll-margin-top e bloqueio overflow-x"
+        },
+        "reduced_motion_support": {
+          "score": 0,
+          "max": 20,
+          "details": "GAP CONHECIDO: @media (prefers-reduced-motion: reduce) ausente em styles.css"
+        }
+      }
+    },
+    "pilar_3_slop_ban_privacidade": {
+      "title": "Slop Ban, Dados Reais & Privacidade",
+      "weight": 0.2,
+      "score": 100.0,
+      "items": {
+        "slop_ban_no_em_dash": {
+          "score": 30,
+          "max": 30,
+          "details": "EmDash=false nos entregaveis e docs (ocorrencias: [])"
+        },
+        "zero_placeholders_or_slop": {
+          "score": 25,
+          "max": 25,
+          "details": "Zero marcadores provisorios ou texto ficticio (ocorrencias: [])"
+        },
+        "privacy_and_secret_scan": {
+          "score": 25,
+          "max": 25,
+          "details": "Zero chaves, tokens ou caminhos pessoais nos entregaveis atuais (historico apenas em cook/BRIEF.md:23)"
+        },
+        "verified_client_data": {
+          "score": 20,
+          "max": 20,
+          "details": "Coordenadas, Sala Radio VHF Delta 38, telefone, email e WhatsApp verificados"
+        }
+      }
+    },
+    "pilar_4_cook_convergencia_visual": {
+      "title": "Convergencia $cook & Telemetria Visual",
+      "weight": 0.2,
+      "score": 86.53,
+      "items": {
+        "cook_rounds_and_extra_coverage": {
+          "score": 30,
+          "max": 30,
+          "details": "5 rodadas completas (r01-r05), compare/r05/all.jpg presente e 15 capturas extras"
+        },
+        "hsv_color_telemetry_r05": {
+          "score": 30,
+          "max": 30,
+          "metrics": {
+            "S01": {
+              "ok": true,
+              "saturation_mean_delta": 0.09,
+              "brightness_mean_delta": -0.017
+            },
+            "S02": {
+              "ok": true,
+              "saturation_mean_delta": 0.023,
+              "brightness_mean_delta": 0.004
+            },
+            "S03": {
+              "ok": true,
+              "saturation_mean_delta": 0.065,
+              "brightness_mean_delta": 0.007
+            }
+          }
+        },
+        "blind_critic_3x_medians": {
+          "score": 26.53,
+          "max": 40,
+          "details": "Mediana de 3 criticos zero-context R05: [65.4, 63.6, 70.0] (media 66.33/100 devido ao teto fotografico real vs Wally studio)"
+        }
+      }
+    },
+    "pilar_5_documentacao_links": {
+      "title": "Documentacao, Gate & Consistencia de Links",
+      "weight": 0.2,
+      "score": 100.0,
+      "items": {
+        "required_documentation_present": {
+          "score": 30,
+          "max": 30,
+          "details": "Documentos obrigatorios presentes: 6/6",
+          "missing": []
+        },
+        "gate_and_metrics_consistency": {
+          "score": 35,
+          "max": 35,
+          "details": "Gate aprovado=True; metricas R05 sincronizadas entre ROUNDS, PROJETO, RETROSPECTIVE e README"
+        },
+        "markdown_links_integrity": {
+          "score": 35,
+          "max": 35,
+          "details": "Links markdown relativos quebrados: 0",
+          "broken": []
+        }
+      }
+    }
+  }
+}

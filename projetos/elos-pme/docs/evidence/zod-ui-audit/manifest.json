@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-12",
+  "app_port": 3028,
+  "database_container": "brisa-zod-audit-db",
+  "database_port": 55448,
+  "capture_type": "preview snapshots; no cookies, traces or public tokens stored",
+  "screenshots": [
+    "quotes-desktop.png",
+    "quotes-mobile.png",
+    "client-editor-mobile.png",
+    "agenda-mobile.png",
+    "agenda-desktop.png",
+    "portal-desktop.png",
+    "portal-mobile.png",
+    "orders-board-desktop.png",
+    "orders-board-mobile.png",
+    "agenda-conflict-desktop.png",
+    "clients-desktop.png",
+    "equipment-desktop.png",
+    "settings-desktop.png",
+    "inbox-desktop.png",
+    "inbox-mobile.png",
+    "settings-mobile.png",
+    "clients-mobile.png",
+    "equipment-mobile.png",
+    "quotes-tablet.png",
+    "agenda-completed-mobile.png",
+    "portal-invalid-mobile.png"
+  ],
+  "runtime_status": "Owned dev server stopped, owned database container stopped preserving synthetic data; other processes untouched"
+}

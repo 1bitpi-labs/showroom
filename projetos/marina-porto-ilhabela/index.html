@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marina Porto Ilhabela | Excelência Náutica Desde 1985</title>
+  <meta name="description" content="A marina mais tradicional de Ilhabela desde 1985. Vagas cobertas até 65 pés com rebocadores hidráulicos Seahorse e Rino, poitas 24h, restaurante panorâmico e sala rádio Delta 38." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Inline SVG Geometric Clip Paths with Smooth Rounded Vertices -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <clipPath id="wally-slant-tall-left" clipPathUnits="objectBoundingBox">
+        <path d="M 0.045,0 L 0.87,0 Q 0.91,0 0.915,0.035 L 0.995,0.965 Q 1.0,1.0 0.955,1.0 L 0.045,1.0 Q 0,1.0 0,0.965 L 0,0.035 Q 0,0 0.045,0 Z" />
+      </clipPath>
+      <clipPath id="wally-slant-sub-right" clipPathUnits="objectBoundingBox">
+        <path d="M 0,0.06 Q 0,0 0.045,0.005 L 0.955,0.075 Q 1.0,0.08 1.0,0.14 L 1.0,0.94 Q 1.0,1.0 0.955,1.0 L 0.045,1.0 Q 0,1.0 0,0.94 Z" />
+      </clipPath>
+      <clipPath id="wally-slant-focus-left" clipPathUnits="objectBoundingBox">
+        <path d="M 0.04,0 L 0.88,0 Q 0.92,0 0.928,0.045 L 0.995,0.955 Q 1.0,1.0 0.96,1.0 L 0.04,1.0 Q 0,1.0 0,0.955 L 0,0.045 Q 0,0 0.04,0 Z" />
+      </clipPath>
+    </defs>
+  </svg>
+
+  <!-- Minimalist Top Navigation -->
+  <header id="site-header" class="site-header">
+    <div class="header-left">
+      <button id="open-menu" class="nav-link" type="button">MENU</button>
+      <a href="#servicos" class="nav-link">ESTRUTURA</a>
+    </div>
+
+    <a href="#hero" class="brand-center" aria-label="Marina Porto Ilhabela">
+      <span class="brand-wordmark">MARINA PORTO</span>
+      <!-- Vector 3-sails emblem faithfully matching official MPI mark -->
+      <svg class="brand-emblem" viewBox="0 0 120 76" aria-hidden="true">
+        <path d="M10 68 C14 34, 28 14, 38 6 C36 28, 34 50, 35 68 Z" />
+        <path d="M44 68 C48 34, 62 14, 72 6 C70 28, 68 50, 69 68 Z" />
+        <path d="M78 68 C82 34, 96 14, 106 6 C104 28, 102 50, 103 68 Z" />
+      </svg>
+    </a>
+
+    <div class="header-right">
+      <a href="#concierge" class="nav-link" data-open-concierge="Vagas Cobertas Mensais">VHF 38</a>
+    </div>
+  </header>
+
+  <!-- Fullscreen Wally Menu Overlay -->
+  <div id="menu-overlay" class="menu-overlay" aria-hidden="true">
+    <div class="menu-overlay-top">
+      <button id="close-menu" class="menu-close-btn" type="button">FECHAR</button>
+      <div class="brand-center">
+        <svg class="brand-emblem" viewBox="0 0 120 76" aria-hidden="true">
+          <path d="M10 68 C14 34, 28 14, 38 6 C36 28, 34 50, 35 68 Z" />
+          <path d="M44 68 C48 34, 62 14, 72 6 C70 28, 68 50, 69 68 Z" />
+          <path d="M78 68 C82 34, 96 14, 106 6 C104 28, 102 50, 103 68 Z" />
+        </svg>
+      </div>
+      <div class="header-right">
+        <a href="tel:+551238961243" class="nav-link">(12) 3896-1243</a>
+      </div>
+    </div>
+
+    <div class="menu-overlay-grid">
+      <ul class="menu-nav-list">
+        <li class="menu-nav-item"><a href="#shot-s02">Engenharia e História</a></li>
+        <li class="menu-nav-item"><a href="#shot-s03">Temporada e Operação</a></li>
+        <li class="menu-nav-item"><a href="#servicos">Vagas Cobertas e Poitas</a></li>
+        <li class="menu-nav-item"><a href="#ecossistema">Ecossistema Marina Porto</a></li>
+        <li class="menu-nav-item"><a href="#faq">Regras e Perguntas</a></li>
+        <li class="menu-nav-item"><a href="#concierge" data-open-concierge="Agendar Visita">Agendar Embarque</a></li>
+      </ul>
+
+      <div class="menu-info-panel">
+        <h3>Sala Rádio Delta 38</h3>
+        <p>Av. Alm. Tamandaré, 304, Itaquanduba, Ilhabela, SP. Operação contínua 24 horas por dia, 365 dias no ano com rebocadores hidráulicos até 65 pés.</p>
+        <p>Coordenadas: 23º 47,9' S / 45º 21,9' W<br />Secretaria: secretaria@marinaportoilhabela.com.br<br />WhatsApp Náutico: +55 12 99634-2782</p>
+      </div>
+    </div>
+
+    <div class="menu-overlay-footer">
+      <span>Marina Porto Ilhabela desde 1985</span>
+      <span>@marinaportoilhabela</span>
+    </div>
+  </div>
+
+  <main>
+    <!-- S01: Widescreen Full-Bleed Maritime Hero -->
+    <section id="hero" class="hero">
+      <div class="hero-media-layer">
+        <img class="hero-still" src="assets/img/marina-vista-aerea.jpg" alt="Embarcação no flutuante da Marina Porto Ilhabela com vista para o canal" />
+        <video class="hero-video" muted loop playsinline poster="assets/img/hero-poster.jpg">
+          <source src="assets/video/hero-sea.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="hero-grade"></div>
+
+      <div class="hero-mode-switch" role="group" aria-label="Alternar câmera do canal">
+        <button type="button" class="hero-mode-btn is-active" data-hero-mode="sunset">Marina</button>
+        <button type="button" class="hero-mode-btn" data-hero-mode="video">Canal ao vivo</button>
+      </div>
+
+      <a href="#shot-s02" class="hero-discover">
+        DESCUBRA<br />MAIS
+      </a>
+    </section>
+
+    <!-- S02: Clean White Editorial & Asymmetric Chamfered Geometry -->
+    <section id="shot-s02" class="editorial-section">
+      <div class="editorial-headline-wrap">
+        <h1 class="editorial-display">Porto Ilhabela. 40 anos à frente.</h1>
+      </div>
+
+      <div class="wally-grid-two">
+        <div class="chamfer-card chamfer-tall-left">
+          <img src="assets/img/jetski-3.jpg" alt="Veleiros e lanchas fundeadas nas poitas da Marina Porto Ilhabela ao entardecer" />
+        </div>
+
+        <div class="editorial-copy-block">
+          <h2 class="section-heading">Engenharia e Mar</h2>
+          <p class="section-body">
+            Fundada em 1985 por Gunnar Möller, engenheiro nuclear criador dos rebocadores hidráulicos Seahorse e Rino, a Marina Porto Ilhabela une tecnologia própria independente de marés e tradição marítima familiar para embarcações de até 65 pés.
+          </p>
+          <a href="#historia" class="btn-pill-dark">Saiba mais</a>
+
+          <div class="chamfer-card chamfer-sub-right">
+            <img src="assets/img/estrutura-1.jpg" alt="Rebocador hidráulico da Marina Porto Ilhabela lançando iate no canal" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- S03: Asymmetric Showcase Card & Operation in Focus -->
+    <section id="shot-s03" class="showcase-section">
+      <div class="showcase-top-grid">
+        <div>
+          <h2 class="section-heading">Temporada Ilhabela<br />Embarque 24h</h2>
+          <p class="section-body">
+            Vagas molhadas e poitas inspecionadas por mergulhadores, apoio de boteiros em tempo integral e sala rádio Delta 38 operando todos os dias do ano.
+          </p>
+          <a href="#servicos" class="btn-pill-dark">Explorar vagas</a>
+        </div>
+
+        <a href="#servicos" class="event-card" aria-label="Temporada Ilhabela 2026 na Marina Porto Ilhabela">
+          <img class="event-card-bg" src="assets/img/marina-canal.jpg" alt="Vista aérea das poitas da Marina Porto Ilhabela" />
+          <div class="event-card-tint"></div>
+          <svg class="event-card-vessel" viewBox="0 0 560 180" fill="none" aria-hidden="true">
+            <defs>
+              <linearGradient id="wake-grad" x1="0%" y1="50%" x2="100%" y2="50%">
+                <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+                <stop offset="62%" stop-color="#c8e4ff" stop-opacity="0.22" />
+                <stop offset="100%" stop-color="#ffffff" stop-opacity="0.52" />
+              </linearGradient>
+              <linearGradient id="hull-grad" x1="0%" y1="50%" x2="100%" y2="50%">
+                <stop offset="0%" stop-color="#193456" stop-opacity="0.95" />
+                <stop offset="60%" stop-color="#284c78" stop-opacity="0.96" />
+                <stop offset="100%" stop-color="#4874a4" stop-opacity="0.96" />
+              </linearGradient>
+            </defs>
+            <path d="M 18 32 Q 130 56 244 74 L 244 106 Q 130 124 18 148 Q 88 112 146 90 Q 88 68 18 32 Z" fill="url(#wake-grad)" />
+            <path d="M 52 54 Q 152 72 246 80 L 246 100 Q 152 108 52 126 Q 134 102 184 90 Q 134 78 52 54 Z" fill="#ffffff" fill-opacity="0.20" />
+            <path d="M 226 68 L 316 66 C 354 66 392 75 420 90 C 392 105 354 114 316 114 L 226 112 C 219 112 216 106 216 90 C 216 74 219 68 226 68 Z" fill="url(#hull-grad)" />
+            <path d="M 234 74 L 314 73 C 344 73 374 80 396 90 C 374 100 344 107 314 107 L 234 106 Z" fill="#0d1e36" fill-opacity="0.88" />
+            <path d="M 284 77 L 348 79 C 366 81 380 85 388 90 C 380 95 366 99 348 101 L 284 103 C 276 96 276 84 284 77 Z" fill="#071222" fill-opacity="0.95" />
+            <path d="M 244 79 L 274 79 L 274 101 L 244 101 Z" fill="#7c5b40" fill-opacity="0.90" />
+            <path d="M 226 68 L 316 66 C 354 66 392 75 420 90 C 392 105 354 114 316 114 L 226 112 C 219 112 216 106 216 90 C 216 74 219 68 226 68 Z" stroke="#e2f0ff" stroke-opacity="0.72" stroke-width="1.3" />
+          </svg>
+          <div class="event-card-inner">
+            <div class="event-card-brand">
+              <span>MARINA PORTO</span>
+              <svg width="24" height="16" viewBox="0 0 120 76" fill="#ffffff" aria-hidden="true">
+                <path d="M10 68 C14 34, 28 14, 38 6 C36 28, 34 50, 35 68 Z" />
+                <path d="M44 68 C48 34, 62 14, 72 6 C70 28, 68 50, 69 68 Z" />
+                <path d="M78 68 C82 34, 96 14, 106 6 C104 28, 102 50, 103 68 Z" />
+              </svg>
+            </div>
+            <div class="event-card-title">TEMPORADA ILHABELA 2026</div>
+            <div class="event-card-meta">
+              <div class="event-card-coords">23º 47,9' S / 45º 21,9' W</div>
+              <div class="event-card-sub">SALA RÁDIO VHF DELTA 38</div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="focus-bottom-grid">
+        <div class="chamfer-card chamfer-focus-left">
+          <img src="assets/img/poitas-avulsas.jpg" alt="Frota fundeada em frente ao deck da Marina Porto Ilhabela" />
+        </div>
+
+        <div class="focus-copy-col">
+          <h2 class="section-heading">Operação em foco</h2>
+          <p class="section-body">
+            Com os rebocadores hidráulicos Seahorse e Rino, sua lancha ou veleiro de até 65 pés entra na água quando você decidir, sem restrição de maré. Agendamento direto via WhatsApp, flutuante com água doce, pátio assegurado e acesso ao restaurante panorâmico com deck sobre o mar.
+          </p>
+          <a href="#concierge" class="btn-pill-dark" data-open-concierge="Agendar Descida">Agendar descida</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Services & Infrastructure Selector -->
+    <section id="servicos" class="services-section">
+      <div class="container-wide">
+        <div class="services-header">
+          <div>
+            <h2 class="section-heading" style="margin-bottom:8px;">Estrutura e Serviços</h2>
+            <p class="section-body" style="margin-bottom:0;">Selecione uma modalidade operacional para consultar especificações e reservar.</p>
+          </div>
+
+          <div class="services-tabs" role="tablist">
+            <button type="button" class="service-tab is-active" data-service-tab="coberta">Vagas Cobertas 65'</button>
+            <button type="button" class="service-tab" data-service-tab="poitas">Poitas 24h</button>
+            <button type="button" class="service-tab" data-service-tab="docagem">Docagem</button>
+            <button type="button" class="service-tab" data-service-tab="jetski">Diária Jet Ski</button>
+            <button type="button" class="service-tab" data-service-tab="lazer">Lazer e Clube</button>
+          </div>
+        </div>
+
+        <div class="service-stage">
+          <div class="service-media-box">
+            <img id="service-img" src="assets/img/vaga-seca-hangar.jpg" alt="Vagas cobertas na Marina Porto Ilhabela" />
+          </div>
+
+          <div>
+            <h3 id="service-title" class="section-heading" style="font-size:32px;margin-bottom:16px;">Vagas Cobertas Mensais até 65 pés</h3>
+            <p id="service-desc" class="section-body" style="margin-bottom:0;"></p>
+            <ul id="service-specs" class="service-specs"></ul>
+            <div class="service-actions">
+              <a id="service-wa-btn" href="https://wa.me/5512996342782" target="_blank" rel="noopener" class="btn-pill-dark">Reservar via WhatsApp</a>
+              <button type="button" class="btn-pill-outline" data-open-concierge="Vagas Cobertas Mensais">Simular atendimento</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Heritage & Real Channel Video -->
+    <section id="historia" class="heritage-section">
+      <div class="container-wide">
+        <div class="heritage-grid">
+          <div>
+            <h2 class="section-heading">Família Möller e o Mar</h2>
+            <p class="section-body">
+              Desde 1985, Gunnar e Virginia Möller construíram a marina mais antiga de Ilhabela com mentalidade de engenharia e hospitalidade. Hoje o legado segue com Marcos Möller, velejador com volta ao mundo a bordo que lidera a operação, ao lado de Andrea Möller, recordista mundial de ondas grandes.
+            </p>
+            <a href="#concierge" class="btn-pill-dark" data-open-concierge="Visita Guiada">Visitar a sede</a>
+
+            <div class="heritage-stats">
+              <div>
+                <span class="stat-value">1985</span>
+                <span class="stat-label">Fundação em Ilhabela</span>
+              </div>
+              <div>
+                <span class="stat-value">65 pés</span>
+                <span class="stat-label">Rebocadores Seahorse e Rino</span>
+              </div>
+              <div>
+                <span class="stat-value">24h</span>
+                <span class="stat-label">Sala Rádio Delta 38</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="heritage-media-stack">
+            <div class="heritage-photo">
+              <img src="assets/img/estrutura-1.jpg" alt="Rebocador hidráulico da Marina Porto Ilhabela em operação" />
+            </div>
+            <div class="heritage-photo">
+              <img src="assets/img/familia-moller.jpg" alt="Família Möller navegando juntos no arquivo histórico da marina" />
+            </div>
+            <div class="heritage-photo is-wide">
+              <video autoplay muted loop playsinline poster="assets/img/hero-poster.jpg">
+                <source src="assets/video/hero-sea.mp4" type="video/mp4" />
+              </video>
+              <div class="channel-caption">Canal de São Sebastião, vista direta do deck, 23º 47,9' S 45º 21,9' W</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ecosystem -->
+    <section id="ecossistema" class="ecosystem-section">
+      <div class="container-wide">
+        <h2 class="section-heading">Ecossistema Marina Porto</h2>
+        <div class="ecosystem-grid">
+          <div class="ecosystem-card">
+            <div class="ecosystem-logo">
+              <img src="assets/img/logo-blue-charter.jpg" alt="Blue Charter" />
+            </div>
+            <h3>Blue Charter</h3>
+            <p>Locação de embarcações selecionadas com serviço de bordo, catering personalizado e chef embarcado pelo litoral norte.</p>
+          </div>
+          <div class="ecosystem-card">
+            <div class="ecosystem-logo">
+              <img src="assets/img/logo-mpi-yachts.jpg" alt="Marina Porto Yachts" />
+            </div>
+            <h3>Marina Porto Yachts</h3>
+            <p>Assessoria náutica e intermediação técnica com o respaldo de quem conhece o histórico de manutenção de cada casco.</p>
+          </div>
+          <div class="ecosystem-card">
+            <div class="ecosystem-logo">
+              <img src="assets/img/logo-mpi-eventos.png" alt="Marina Porto Eventos" />
+            </div>
+            <h3>Marina Porto Eventos</h3>
+            <p>Restaurante panorâmico e espaço à beira-mar com deck privativo para recepções, encontros náuticos e celebrações.</p>
+          </div>
+          <div class="ecosystem-card">
+            <div class="ecosystem-logo">
+              <img src="assets/img/logo-paddle-club.png" alt="Paddle Club Ilhabela" />
+            </div>
+            <h3>Paddle Club Ilhabela</h3>
+            <p>Clube de remo e esportes a remo integrado à sede, com acesso direto ao canal protegido de Itaquanduba.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="faq-section">
+      <div class="container-wide">
+        <div class="faq-grid">
+          <div>
+            <h2 class="section-heading">Dúvidas operacionais</h2>
+            <p class="section-body">Informações práticas para mensalistas, comandantes em trânsito e proprietários de Jet Ski.</p>
+            <a href="https://wa.me/5512996342782" target="_blank" rel="noopener" class="btn-pill-dark">Falar com a secretaria</a>
+          </div>
+
+          <div class="faq-list">
+            <div class="faq-item is-open">
+              <button type="button" class="faq-trigger">Como agendar a descida do meu barco? <span>+</span></button>
+              <div class="faq-panel">
+                <p>O agendamento é feito diretamente pelo canal exclusivo de WhatsApp (+55 12 99634-2782) ou pela Sala Rádio VHF Delta 38. Os rebocadores hidráulicos Seahorse e Rino operam independentemente da altura da maré.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button type="button" class="faq-trigger">Como funciona o serviço de poitas avulsas e mensais? <span>+</span></button>
+              <div class="faq-panel">
+                <p>Oferecemos contratação mensal ou pernoite avulsa. Todas as poitas passam por inspeção subaquática periódica com mergulhadores, e os boteiros realizam traslados 24h por dia, todos os dias do ano.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button type="button" class="faq-trigger">Como funciona o estacionamento em São Sebastião? <span>+</span></button>
+              <div class="faq-panel">
+                <p>Para maior comodidade na travessia, contamos com serviço de manobristas e estacionamento de apoio em São Sebastião, além de transfer interno na sede de Ilhabela até sua embarcação.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button type="button" class="faq-trigger">Posso usufruir da piscina e do restaurante na diária de Jet Ski? <span>+</span></button>
+              <div class="faq-panel">
+                <p>Sim. Ao contratar a diária de Jet Ski, você conta com logística de reboque, limpeza e adoçamento pós-uso, barco resgate de apoio e acesso às áreas sociais de mensalistas (piscina, vestiários e restaurante).</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container-wide">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-title">Marina Porto Ilhabela</div>
+          <p style="font-size:14px;color:rgba(255,255,255,0.68);max-width:300px;line-height:1.6;">
+            Excelência e tradição náutica desde 1985 no litoral norte de São Paulo, cumprindo rigorosos protocolos ambientais.
+          </p>
+        </div>
+        <div>
+          <div class="footer-title">Localização e Rádio</div>
+          <ul class="footer-list">
+            <li>Av. Alm. Tamandaré, 304</li>
+            <li>Itaquanduba, Ilhabela, SP, 11630-000</li>
+            <li>23º 47,9' S / 45º 21,9' W</li>
+            <li>Sala Rádio VHF Delta 38</li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-title">Contato Direto</div>
+          <ul class="footer-list">
+            <li><a href="tel:+551238961243">Tel: (12) 3896-1243</a></li>
+            <li><a href="https://wa.me/5512996342782" target="_blank" rel="noopener">WhatsApp: (12) 99634-2782</a></li>
+            <li><a href="mailto:secretaria@marinaportoilhabela.com.br">secretaria@marinaportoilhabela.com.br</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-title">Canais Oficiais</div>
+          <ul class="footer-list">
+            <li><a href="https://www.instagram.com/marinaportoilhabela/" target="_blank" rel="noopener">Instagram @marinaportoilhabela</a></li>
+            <li><a href="https://www.youtube.com/channel/UCrbKOh99zzqtqphQQZ0p_Lw" target="_blank" rel="noopener">YouTube Marina Porto</a></li>
+            <li><a href="https://m.facebook.com/mpilhabela/" target="_blank" rel="noopener">Facebook Marina Porto</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© Marina Porto Ilhabela. Desde 1985 em Ilhabela, SP.</span>
+        <span>Operação náutica 24h / 365 dias</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Interactive Concierge Modal -->
+  <div id="concierge-modal" class="modal-backdrop" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-labelledby="concierge-modal-title">
+      <div class="modal-header">
+        <h3 id="concierge-modal-title">Concierge Marina Porto</h3>
+        <button id="close-concierge" class="modal-close" type="button" aria-label="Fechar">✕</button>
+      </div>
+      <form id="concierge-form" class="form-grid">
+        <div class="form-field">
+          <label for="concierge-name">Seu nome ou embarcação</label>
+          <input id="concierge-name" type="text" placeholder="Ex: Comandante Rafael / Lancha 42 pés" required />
+        </div>
+        <div class="form-field">
+          <label for="concierge-service">Modalidade desejada</label>
+          <select id="concierge-service">
+            <option value="Vagas Cobertas Mensais">Vagas Cobertas Mensais (até 65 pés)</option>
+            <option value="Vagas Molhadas & Poitas">Vagas Molhadas ou Pernoite em Poita</option>
+            <option value="Agendar Descida">Agendar Descida (Seahorse / Rino)</option>
+            <option value="Docagem para Manutenção">Docagem para Manutenção Avulsa</option>
+            <option value="Diária Jet Ski">Diária para Jet Ski com Adoçamento</option>
+            <option value="Visita Guiada">Visita Guiada à Sede</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="concierge-size">Porte da embarcação</label>
+          <select id="concierge-size">
+            <option value="Jet Ski">Jet Ski</option>
+            <option value="Até 28 pés (Rack Coberto)">Até 28 pés (Rack Coberto)</option>
+            <option value="29 a 45 pés" selected>29 a 45 pés</option>
+            <option value="46 a 65 pés">46 a 65 pés</option>
+            <option value="Embarcação em trânsito (Poita)">Embarcação em trânsito (Poita)</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="concierge-notes">Previsão de chegada ou observações</label>
+          <textarea id="concierge-notes" rows="2" placeholder="Data, horário estimado no Canal de São Sebastião ou necessidade de água doce"></textarea>
+        </div>
+        <button type="submit" class="form-submit">Enviar para Secretaria via WhatsApp</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
